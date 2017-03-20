@@ -1,0 +1,1 @@
+['Simply Walking', 'Start', '0 seconds ', 'Elapsed Time', '0 miles 0 kilometers', 'Distance', '0 mph   0 km/h   ', 'Speed/Pace', '0 steps  0 calories ', 'Feedback/Help', '<com hm ravens simply walking Simply Walking Activity void onCreate']

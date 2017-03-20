@@ -1,0 +1,1 @@
+['UL Lafayette', '<com el lucian mobile android maps Maps Single Location Activity void onResume']

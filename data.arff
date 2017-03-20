@@ -1,0 +1,22 @@
+@relation docs
+
+@attribute text string
+@attribute text_label {T,D,F}
+
+@data
+'[\'Notes\' \'+ ADD MORE\' \'<activity Note Activity$1 void onClick\']',F
+'[\'Like\' \'<amplified bible app free offline Main Activity void onCreate\']',F
+'[\'AVG Secure Search\' \'Search securely\' \"NO history. NO cookies. NO saved data.\\nWe\'ll warn you about unsafe websites too!\\n\\n(Note: This will not hide you from the websites you visit or from your Internet service provider.)\" \'Safe Web Surfing:\' \'Color code alerting on malicious websites.\' \'<app team v avg com secured search Search Splash Activity void onCreate\']',F
+'[\'Like\' \"<bible easy \'to\' read Main Activity void onCreate\"]',F
+'[\'c   o   n   t   a   c   t   s\' \'To:\' \'Name email\' \'all my contacts\' \'<bitwalking bit walking transactions Contact Picker Activity void onPostCreate\']',F
+'[\'Message Center\' \'1\' \'My Coach\' \'You have a new message\' \'Groups\' \'<cc pacer android app ui alibala messages Message Center Activity void onNottPause\']',T
+'[\'UL Lafayette\' \'<com el lucian mobile android maps Maps Single Location Activity void onCreate\']',T
+'[\'UL Lafayette\' \'<com el lucian mobile android maps Maps Single Location Activity void onRequestPermissionsResult\']',T
+'[\'UL Lafayette\' \'<com el lucian mobile android maps Maps Single Location Activity void onResume\']',T
+'[\'Simply Walking\' \'Start\' \'0 seconds \' \'Elapsed Time\' \'0 miles 0 kilometers\' \'Distance\' \'0 mph   0 km/h   \' \'Speed/Pace\' \'0 steps  0 calories \' \'Feedback/Help\' \'<com hm ravens simply walking Simply Walking Activity boolean onOptionsItemSelected\']',T
+'[\'Simply Walking\' \'Start\' \'0 seconds \' \'Elapsed Time\' \'0 miles 0 kilometers\' \'Distance\' \'0 mph   0 km/h   \' \'Speed/Pace\' \'0 steps  0 calories \' \'Feedback/Help\' \'<com hm ravens simply walking Simply Walking Activity void onCreate\']',T
+'[\'Simply Walking\' \'Start\' \'0 seconds \' \'Elapsed Time\' \'0 miles 0 kilometers\' \'Distance\' \'0 mph   0 km/h   \' \'Speed/Pace\' \'0 steps  0 calories \' \'Feedback/Help\' \'<com hm ravens simply walking Simply Walking Activity void onResume\']',T
+'[\'Loading your ATMs.\' \'<com on dot systems Branch Location Activity boolean onEditorAction\']',T
+'[\'Loading your ATMs.\' \'<com on dot systems Branch Location Activity void onClick\']',T
+'[\'Loading your ATMs.\' \'<com on dot systems Branch Location Activity void onCreate\']',T
+'[\'Walk\' \'Run\' \'Cycle\' \'Popular Routes\' \'<com proto geo moves ui phone Popular Routes Map Activity void onActivityResult\']',T

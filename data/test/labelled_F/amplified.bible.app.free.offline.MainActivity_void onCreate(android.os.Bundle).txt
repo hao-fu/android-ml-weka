@@ -1,0 +1,1 @@
+['Like', '<amplified bible app free offline Main Activity void onCreate']

@@ -1,0 +1,1 @@
+['AVG Secure Search', 'Search securely', "NO history. NO cookies. NO saved data.\nWe'll warn you about unsafe websites, too!\n\n(Note: This will not hide you from the websites you visit or from your Internet service provider.)", 'Safe Web Surfing:', 'Color code alerting on malicious websites.', '<app team v avg com secured search Search Splash Activity void onCreate']
