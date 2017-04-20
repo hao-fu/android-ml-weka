@@ -1,0 +1,407 @@
+@relation 'docs-weka.filters.unsupervised.attribute.StringToWordVector-R1-W1000-prune-rate-1.0-C-N0-L-stemmerweka.core.stemmers.SnowballStemmer-M1-tokenizerweka.core.tokenizers.WordTokenizer -delimiters \" \\r\\n\\t.,;:\\\'\\\"()?!\"'
+
+@attribute text_label {T,D,F}
+@attribute +1 numeric
+@attribute +1264 numeric
+@attribute +1684 numeric
+@attribute +213 numeric
+@attribute +244 numeric
+@attribute +355 numeric
+@attribute +376 numeric
+@attribute +672 numeric
+@attribute +93 numeric
+@attribute 160/1 numeric
+@attribute 2016 numeric
+@attribute 530-601-3355 numeric
+@attribute [[ numeric
+@attribute ]] numeric
+@attribute a numeric
+@attribute accede numeric
+@attribute add numeric
+@attribute afghanistan numeric
+@attribute albania numeric
+@attribute algeria numeric
+@attribute all numeric
+@attribute americansamoa numeric
+@attribute and numeric
+@attribute andorra numeric
+@attribute angola numeric
+@attribute anguilla numeric
+@attribute antarctica numeric
+@attribute app numeric
+@attribute auto numeric
+@attribute battery numeric
+@attribute below numeric
+@attribute block numeric
+@attribute blocker numeric
+@attribute blocking numeric
+@attribute call numeric
+@attribute call/sms numeric
+@attribute caller numeric
+@attribute calls numeric
+@attribute cambiar numeric
+@attribute card numeric
+@attribute choose numeric
+@attribute clear numeric
+@attribute code numeric
+@attribute com numeric
+@attribute compose numeric
+@attribute con numeric
+@attribute contact numeric
+@attribute contacts numeric
+@attribute contraseña numeric
+@attribute correo numeric
+@attribute countries numeric
+@attribute country numeric
+@attribute country/code numeric
+@attribute crea numeric
+@attribute crear numeric
+@attribute cualquier numeric
+@attribute cuba numeric
+@attribute cubamessenger numeric
+@attribute cuenta numeric
+@attribute detail numeric
+@attribute edit numeric
+@attribute electrónico numeric
+@attribute en numeric
+@attribute enter numeric
+@attribute eres numeric
+@attribute escríbenos numeric
+@attribute for numeric
+@attribute general numeric
+@attribute genre numeric
+@attribute good numeric
+@attribute goodnight numeric
+@attribute id numeric
+@attribute incoming numeric
+@attribute info numeric
+@attribute info@cubamessenger numeric
+@attribute inicia numeric
+@attribute iniciar numeric
+@attribute international numeric
+@attribute invitation numeric
+@attribute is numeric
+@attribute level numeric
+@attribute listed numeric
+@attribute loved numeric
+@attribute message numeric
+@attribute messages numeric
+@attribute messenger numeric
+@attribute morning numeric
+@attribute next numeric
+@attribute not numeric
+@attribute nueva numeric
+@attribute nuevo numeric
+@attribute null numeric
+@attribute number numeric
+@attribute o numeric
+@attribute ok numeric
+@attribute on numeric
+@attribute one numeric
+@attribute option numeric
+@attribute para numeric
+@attribute phone numeric
+@attribute pregunta numeric
+@attribute private numeric
+@attribute reachable numeric
+@attribute recuperar numeric
+@attribute reply numeric
+@attribute restricted numeric
+@attribute romance numeric
+@attribute romantic numeric
+@attribute s numeric
+@attribute search numeric
+@attribute send numeric
+@attribute series numeric
+@attribute sesión numeric
+@attribute setting numeric
+@attribute settings numeric
+@attribute share numeric
+@attribute show numeric
+@attribute show/hide numeric
+@attribute skip numeric
+@attribute sms numeric
+@attribute sorry numeric
+@attribute states numeric
+@attribute tap numeric
+@attribute teléfono numeric
+@attribute text numeric
+@attribute this numeric
+@attribute to numeric
+@attribute tu numeric
+@attribute type numeric
+@attribute una numeric
+@attribute unblock numeric
+@attribute united numeric
+@attribute unknown numeric
+@attribute user numeric
+@attribute usuario numeric
+@attribute vblocker numeric
+@attribute verification numeric
+@attribute wild numeric
+@attribute will numeric
+@attribute withheld numeric
+@attribute without numeric
+@attribute y numeric
+@attribute your numeric
+@attribute ¡bienvenido numeric
+@attribute © numeric
+@attribute ¿estás numeric
+@attribute ¿ya numeric
+@attribute 1 numeric
+@attribute '10\%' numeric
+@attribute '15\%' numeric
+@attribute 2 numeric
+@attribute '20\%' numeric
+@attribute 23 numeric
+@attribute 24 numeric
+@attribute '25\%' numeric
+@attribute 3 numeric
+@attribute '30\%' numeric
+@attribute '35\%' numeric
+@attribute '40\%' numeric
+@attribute '45\%' numeric
+@attribute '50\%' numeric
+@attribute '55\%' numeric
+@attribute 59 numeric
+@attribute '\\n' numeric
+@attribute about numeric
+@attribute accuracy numeric
+@attribute analytic numeric
+@attribute anonymous numeric
+@attribute automatically numeric
+@attribute backup numeric
+@attribute backup/restore numeric
+@attribute bar numeric
+@attribute be numeric
+@attribute blocked numeric
+@attribute blocklist numeric
+@attribute cancel numeric
+@attribute cmb numeric
+@attribute collect numeric
+@attribute could numeric
+@attribute count numeric
+@attribute create numeric
+@attribute data numeric
+@attribute day numeric
+@attribute default numeric
+@attribute delete numeric
+@attribute device numeric
+@attribute enabled numeric
+@attribute feedback numeric
+@attribute file numeric
+@attribute find numeric
+@attribute floating numeric
+@attribute found numeric
+@attribute fraud numeric
+@attribute from numeric
+@attribute google numeric
+@attribute here numeric
+@attribute icon numeric
+@attribute important numeric
+@attribute improve numeric
+@attribute improves numeric
+@attribute itself numeric
+@attribute launch numeric
+@attribute list numeric
+@attribute ll numeric
+@attribute location numeric
+@attribute log numeric
+@attribute logs numeric
+@attribute make numeric
+@attribute mobile numeric
+@attribute mode numeric
+@attribute my numeric
+@attribute name numeric
+@attribute need numeric
+@attribute networks numeric
+@attribute no numeric
+@attribute notification numeric
+@attribute notifications numeric
+@attribute numbers numeric
+@attribute of numeric
+@attribute options numeric
+@attribute or numeric
+@attribute other numeric
+@attribute password numeric
+@attribute people numeric
+@attribute power numeric
+@attribute premium numeric
+@attribute problems numeric
+@attribute protection numeric
+@attribute repeat numeric
+@attribute report numeric
+@attribute saving numeric
+@attribute scam numeric
+@attribute schedule numeric
+@attribute select numeric
+@attribute selected numeric
+@attribute skins numeric
+@attribute sound numeric
+@attribute spam numeric
+@attribute spammer numeric
+@attribute splash numeric
+@attribute stats numeric
+@attribute status numeric
+@attribute suggestions numeric
+@attribute sure numeric
+@attribute tab numeric
+@attribute time numeric
+@attribute touch numeric
+@attribute trackers numeric
+@attribute tracking numeric
+@attribute unread numeric
+@attribute us numeric
+@attribute usage numeric
+@attribute used numeric
+@attribute very numeric
+@attribute vibrate numeric
+@attribute view numeric
+@attribute which numeric
+@attribute whitelist numeric
+@attribute who numeric
+@attribute wi-fi numeric
+@attribute with numeric
+@attribute you numeric
+@attribute - numeric
+@attribute /storage/emulated/0/vblocker/backupvblocker-backup-2-feb-2017-24-01-41 numeric
+@attribute 0 numeric
+@attribute 08 numeric
+@attribute 12 numeric
+@attribute 16 numeric
+@attribute 17 numeric
+@attribute 18 numeric
+@attribute 19 numeric
+@attribute 20 numeric
+@attribute 21 numeric
+@attribute 22 numeric
+@attribute 26 numeric
+@attribute 28 numeric
+@attribute 31 numeric
+@attribute 4 numeric
+@attribute 5 numeric
+@attribute 6 numeric
+@attribute 7 numeric
+@attribute 8 numeric
+@attribute 99+ numeric
+@attribute address numeric
+@attribute at numeric
+@attribute been numeric
+@attribute can numeric
+@attribute change numeric
+@attribute check numeric
+@attribute common numeric
+@attribute date numeric
+@attribute email numeric
+@attribute explorer numeric
+@attribute export numeric
+@attribute favorite numeric
+@attribute first numeric
+@attribute gender numeric
+@attribute get numeric
+@attribute google+ numeric
+@attribute great numeric
+@attribute group numeric
+@attribute groups numeric
+@attribute has numeric
+@attribute hd numeric
+@attribute history numeric
+@attribute in numeric
+@attribute it numeric
+@attribute july numeric
+@attribute last numeric
+@attribute latest numeric
+@attribute may numeric
+@attribute month-year numeric
+@attribute new numeric
+@attribute now numeric
+@attribute october numeric
+@attribute photo numeric
+@attribute picture numeric
+@attribute please numeric
+@attribute profile numeric
+@attribute removed numeric
+@attribute ringtone numeric
+@attribute root numeric
+@attribute september numeric
+@attribute set numeric
+@attribute sign numeric
+@attribute stored numeric
+@attribute success numeric
+@attribute support numeric
+@attribute thanks numeric
+@attribute tip numeric
+@attribute up numeric
+@attribute version numeric
+@attribute via numeric
+@attribute what numeric
+@attribute yet numeric
+
+@data
+{0 D,13 1,14 1,30 1,31 10,41 1,81 1,149 1,150 1,152 1,155 1,157 1,158 1,159 1,160 1,161 1,162 1}
+{0 D,13 1,14 1,41 1,170 1,177 1,189 2,192 1,215 1}
+{0 D,13 1,14 1,17 3,34 1,38 1,67 1,120 1,123 1,127 1,136 1,175 1,218 1}
+{0 D,13 1,14 1,67 2,97 2,126 2,127 1,139 2,153 1,154 1,163 2,173 1,181 1,183 1,194 1,201 1,229 2,233 3,235 1,246 2}
+{0 D,13 1,14 1,67 2,97 2,126 2,127 1,139 2,153 1,154 1,163 2,173 1,181 1,183 1,194 1,201 1,229 2,233 3,235 1,246 2}
+{0 D,13 1,14 1,23 2,34 4,35 1,38 1,67 3,80 1,98 3,115 3,116 1,120 2,123 1,127 2,143 1,165 1,171 1,188 2,196 1,198 2,216 1,217 1,220 1,222 2,223 1,226 1,227 1,228 1,233 1,237 1,243 1,251 1,254 1,255 1,261 1}
+{0 D,13 1,14 1,23 2,34 4,35 1,38 1,67 3,80 1,98 3,115 3,116 1,120 2,123 1,127 2,143 1,165 1,171 1,188 2,196 1,198 2,216 1,217 1,220 1,222 2,223 1,226 1,227 1,228 1,233 1,237 1,243 1,251 1,254 1,255 1,261 1}
+{0 D,13 1,14 1,23 2,34 4,35 1,38 1,67 3,80 1,98 3,115 3,116 1,120 2,123 1,127 2,143 1,165 1,171 1,188 2,196 1,198 2,216 1,217 1,220 1,222 2,223 1,226 1,227 1,228 1,233 1,237 1,243 1,251 1,254 1,255 1,261 1}
+{0 D,13 1,14 1,33 4,34 1,35 1,38 1,110 1,120 3,136 1,174 2,175 1,230 1,238 2,241 1,258 1}
+{0 D,13 1,14 1,33 4,34 1,35 1,38 1,110 1,120 3,136 1,174 2,175 1,230 1,238 2,241 1,258 1}
+{0 D,13 1,14 1,23 2,34 4,35 1,38 1,67 3,80 1,98 3,115 3,116 1,120 2,123 1,127 2,143 1,165 1,171 1,188 2,196 1,198 2,216 1,217 1,220 1,222 2,223 1,226 1,227 1,228 1,233 1,237 1,243 1,251 1,254 1,255 1,261 1}
+{0 D,13 1,14 1,28 2,33 1,36 1,115 1,117 2,118 2,119 1,126 1,127 1,167 1,168 1,169 1,172 1,174 1,178 1,180 1,182 1,184 2,185 2,191 2,195 1,197 2,199 1,202 1,206 1,207 1,221 1,222 1,236 1,238 1,240 2,242 2,245 2,250 1,252 1,253 1,256 2,257 1,261 2}
+{0 D,13 1,14 1,28 2,33 1,36 1,115 1,117 2,118 2,119 1,126 1,127 1,167 1,168 1,169 1,172 1,174 1,178 1,180 1,182 1,184 2,185 2,191 2,195 1,197 2,199 1,202 1,206 1,207 1,221 1,222 1,236 1,238 1,240 2,242 2,245 2,250 1,252 1,253 1,256 2,257 1,261 2}
+{0 D,13 1,14 1,64 1,84 1,93 1,126 1,165 1,193 1,212 1,221 1,230 1,232 1,238 2,239 2}
+{0 D,13 1,14 1,64 1,84 1,93 1,126 1,165 1,193 1,212 1,221 1,230 1,232 1,238 2,239 2}
+{0 D,13 1,14 1,64 1,84 1,93 1,126 1,165 1,193 1,212 1,221 1,230 1,232 1,238 2,239 2}
+{0 D,13 1,14 1,64 1,84 1,93 1,126 1,165 1,193 1,212 1,221 1,230 1,232 1,238 2,239 2}
+{0 D,13 1,14 1,93 1,125 1,136 1,212 1,221 1}
+{0 D,13 1,14 1,93 1,125 1,136 1,212 1,221 1}
+{0 D,13 1,14 1,93 1,125 1,136 1,212 1,221 1}
+{0 D,13 1,14 1,23 1,30 1,67 1,80 1,95 1,96 2,115 1,127 1,143 2,148 1,151 1,156 1,164 5,166 1,176 1,186 2,187 1,200 1,204 1,205 3,208 1,209 2,210 1,213 1,214 2,225 2,231 3,234 1,244 1,247 2,249 1,260 3,262 1}
+{0 D,13 1,14 1,17 1,179 1,190 1,203 1,211 1,219 1,224 1,248 1,259 1,262 1}
+{0 F,1 1,13 1,14 1,17 1,61 1,64 1,74 1,93 1,100 1,122 1,132 1,143 1,284 1,292 1,297 1,298 1,299 1,306 1,310 1,319 1,325 1,333 1}
+{0 F,1 1,13 1,14 1,17 1,61 1,64 1,74 1,93 1,100 1,122 1,132 1,143 1,284 1,292 1,297 1,298 1,299 1,306 1,310 1,319 1,325 1,333 1}
+{0 F,13 1,14 1,120 1,263 1,294 1,305 1}
+{0 F,13 1,14 1,215 1,295 2,335 1}
+{0 F,13 1,14 1,215 1,295 2,335 1}
+{0 F,1 1,13 1,14 1,17 1,61 1,64 1,74 1,93 1,100 1,122 1,132 1,143 1,284 1,292 1,297 1,298 1,299 1,306 1,310 1,319 1,325 1,333 1}
+{0 F,13 1,14 1,318 1,328 1}
+{0 F,13 1,14 1,318 1,328 1}
+{0 F,13 1,14 1,17 3,33 1,34 2,67 1,123 1,127 1,233 3}
+{0 F,13 1,14 1,109 1,116 2,126 1,127 1,143 1,170 1,177 1,189 3,215 1,262 1,264 1,285 1,287 1,292 1,293 1,300 1,307 1,326 1,327 1,329 1,330 1,333 1}
+{0 F,13 1,14 1,109 1,116 2,126 1,127 1,143 1,170 1,177 1,189 3,215 1,262 1,264 1,285 1,287 1,292 1,293 1,300 1,307 1,326 1,327 1,329 1,330 1,333 1}
+{0 F,13 1,14 1,88 1,119 1,212 2,221 1,261 1,288 1,292 1,296 1,306 1,309 1,317 1,325 2,331 1}
+{0 F,13 1,14 1,88 1,119 1,212 2,221 1,261 1,288 1,292 1,296 1,306 1,309 1,317 1,325 2,331 1}
+{0 F,13 1,14 1,17 3,33 1,34 2,67 1,123 1,127 1,233 3}
+{0 F,13 1,14 1,17 3,33 1,34 2,67 1,123 1,127 1,233 3}
+{0 F,13 1,14 1,38 1,110 2,120 1,291 1,312 1}
+{0 F,13 1,14 1,215 1,230 1,238 2,239 1,290 1,314 1,335 1}
+{0 F,13 1,14 1,215 1,230 1,238 2,239 1,290 1,314 1,335 1}
+{0 F,13 1,14 1,33 4,34 1,35 1,38 1,110 1,120 3,136 1,174 2,175 1,230 1,238 2,241 1,258 1,283 2}
+{0 F,11 7,13 1,14 1,43 7,109 1,148 1,151 8,156 1,186 1,265 7,266 1,267 1,268 1,269 1,270 1,271 2,272 1,273 1,274 2,275 1,276 1,277 1,278 1,279 1,280 1,281 1,282 1,286 1,289 1,303 1,308 3,311 1,313 1,315 2,320 1,322 1,323 1,332 14,334 1}
+{0 F,13 1,14 1,47 1,89 1,184 1,222 1,234 1,301 1,302 1,304 2,316 2,321 2,324 2}
+{0 F,13 1,14 1,47 1,89 1,184 1,222 1,234 1,301 1,302 1,304 2,316 2,321 2,324 2}
+{0 F,13 1,14 1,47 1,89 1,184 1,222 1,234 1,301 1,302 1,304 2,316 2,321 2,324 2}
+{0 F,13 1,14 1,47 1,89 1,184 1,222 1,234 1,301 1,302 1,304 2,316 2,321 2,324 2}
+{13 1,14 1,15 1,23 1,28 2,31 1,43 1,52 1,61 1,64 1,68 1,69 1,70 1,71 1,74 1,83 1,85 1,86 1,87 1,93 1,97 1,107 3,108 1,109 1,111 1,115 1,123 1,125 1,127 1,141 1,143 1}
+{13 1,14 1,15 1,23 1,28 2,31 1,43 1,52 1,61 1,64 1,68 1,69 1,70 1,71 1,74 1,83 1,85 1,86 1,87 1,93 1,97 1,107 3,108 1,109 1,111 1,115 1,123 1,125 1,127 1,141 1,143 1}
+{13 1,14 1,15 1,23 1,28 2,31 1,43 1,52 1,61 1,64 1,68 1,69 1,70 1,71 1,74 1,83 1,85 1,86 1,87 1,93 1,97 1,107 3,108 1,109 1,111 1,115 1,123 1,125 1,127 1,141 1,143 1}
+{11 1,13 1,14 1,15 2,16 1,28 1,39 1,44 2,46 1,49 2,50 2,54 1,55 1,56 1,57 1,58 2,59 2,63 1,66 1,75 1,77 1,90 1,94 3,99 1,101 1,104 1,113 1,124 2,128 1,130 1,142 1,144 1,145 1,146 1}
+{1 1,11 1,12 1,13 1,14 1,44 1,50 1,55 1,58 1,59 1,62 1,65 1,76 1,91 1,113 1,135 2,145 1,147 1}
+{10 1,13 1,14 1,45 1,92 1,105 1,111 1,127 1,129 1}
+{13 1,14 1,95 1}
+{13 1,14 1,79 1,84 1,93 1,111 1,120 1,125 1}
+{13 1,14 1,45 1,111 1,127 2,129 1}
+{13 1,14 1,21 1,29 1,30 2,32 8,33 1,34 3,35 2,36 1,37 2,38 6,40 1,67 1,72 2,73 1,78 2,80 1,81 2,82 1,89 1,93 1,96 1,98 2,100 1,102 2,103 1,105 1,106 1,112 1,114 1,118 1,120 1,121 1,126 1,127 1,133 1,138 1,139 1,140 1}
+{13 1,14 1,21 1,29 1,30 2,32 8,33 1,34 3,35 2,36 1,37 2,38 6,40 1,67 1,72 2,73 1,78 2,80 1,81 2,82 1,89 1,93 1,96 1,98 2,100 1,102 2,103 1,105 1,106 1,112 1,114 1,118 1,120 1,121 1,126 1,127 1,133 1,138 1,139 1,140 1}
+{13 1,14 1,21 1,29 1,30 2,32 8,33 1,34 3,35 2,36 1,37 2,38 6,40 1,67 1,72 2,73 1,78 2,80 1,81 2,82 1,89 1,93 1,96 1,98 2,100 1,102 2,103 1,105 1,106 1,112 1,114 1,118 1,120 1,121 1,126 1,127 1,133 1,138 1,139 1,140 1}
+{13 1,14 1,21 1,29 1,30 2,32 8,33 1,34 3,35 2,36 1,37 2,38 6,40 1,67 1,72 2,73 1,78 2,80 1,81 2,82 1,89 1,93 1,96 1,98 2,100 1,102 2,103 1,105 1,106 1,112 1,114 1,118 1,120 1,121 1,126 1,127 1,133 1,138 1,139 1,140 1}
+{2 1,3 1,4 1,5 1,6 1,7 1,8 1,9 1,13 1,14 1,18 1,19 1,20 1,22 1,24 1,25 1,26 1,27 1,41 1,51 1,53 1,64 1}
+{2 1,3 1,4 1,5 1,6 1,7 1,8 1,9 1,13 1,14 1,18 1,19 1,20 1,22 1,24 1,25 1,26 1,27 1,41 1,51 1,53 1,64 1}
+{2 1,3 1,4 1,5 1,6 1,7 1,8 1,9 1,13 1,14 1,18 1,19 1,20 1,22 1,24 1,25 1,26 1,27 1,41 1,51 1,53 1,64 1}
+{1 1,13 1,14 1,52 1,88 1,93 1,119 1,122 1,132 1,134 1,136 1,137 1}
+{13 1,14 1,60 1}
+{13 1,14 1,17 1,35 1,47 1,48 1,84 1,111 1,116 1,125 1,127 1,131 1,136 1}
+{13 1,14 1,35 1,42 1,64 1,84 1,110 1,111 1,117 1}
+{13 1,14 1,35 1,42 1,64 1,84 1,110 1,111 1,117 1}

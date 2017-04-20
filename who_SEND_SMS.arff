@@ -1,0 +1,84 @@
+@relation 'docs-weka.filters.unsupervised.attribute.StringToWordVector-R1-W1000-prune-rate-1.0-C-N0-L-stemmerweka.core.stemmers.SnowballStemmer-M1-tokenizerweka.core.tokenizers.WordTokenizer -delimiters \" \\r\\n\\t.,;:\\\'\\\"()?!\"'
+
+@attribute text_label {T,D,F}
+@attribute [ numeric
+@attribute [] numeric
+@attribute ] numeric
+@attribute android numeric
+@attribute button numeric
+@attribute ok_button numeric
+@attribute widget numeric
+@attribute writesms_send numeric
+@attribute yesbtn numeric
+@attribute add_to_favorite_imageview numeric
+@attribute contactdetail_app_sendsms_button numeric
+@attribute install_button numeric
+
+@data
+{0 D,1 1,3 1,10 1}
+{0 D,2 1}
+{0 D,2 1}
+{0 D,2 1}
+{0 D,2 1}
+{0 D,2 1}
+{0 D,2 1}
+{0 D,2 1}
+{0 D,2 1}
+{0 D,2 1}
+{0 D,1 1,3 1,6 1}
+{0 D,2 1}
+{0 D,2 1}
+{0 D,2 1}
+{0 D,2 1}
+{0 D,2 1}
+{0 D,2 1}
+{0 D,2 1}
+{0 D,2 1}
+{0 D,2 1}
+{0 D,2 1}
+{0 D,2 1}
+{0 F,2 1}
+{0 F,2 1}
+{0 F,2 1}
+{0 F,2 1}
+{0 F,2 1}
+{0 F,2 1}
+{0 F,2 1}
+{0 F,1 1,3 1,12 1}
+{0 F,1 1,3 1,6 1}
+{0 F,2 1}
+{0 F,2 1}
+{0 F,2 1}
+{0 F,2 1}
+{0 F,2 1}
+{0 F,2 1}
+{0 F,2 1}
+{0 F,2 1}
+{0 F,2 1}
+{0 F,2 1}
+{0 F,2 1}
+{0 F,1 1,3 1,11 1}
+{0 F,2 1}
+{0 F,2 1}
+{0 F,2 1}
+{2 1}
+{2 1}
+{2 1}
+{2 1}
+{2 1}
+{1 1,3 1,4 1,5 1,7 1,8 1}
+{1 1,3 1,9 1}
+{2 1}
+{2 1}
+{2 1}
+{2 1}
+{2 1}
+{2 1}
+{2 1}
+{2 1}
+{2 1}
+{2 1}
+{1 1,3 1,6 1}
+{2 1}
+{2 1}
+{2 1}

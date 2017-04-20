@@ -1,0 +1,202 @@
+@relation 'docs-weka.filters.unsupervised.attribute.StringToWordVector-R1-W1000-prune-rate-1.0-C-N0-L-stemmerweka.core.stemmers.SnowballStemmer-M1-tokenizerweka.core.tokenizers.WordTokenizer -delimiters \" \\r\\n\\t.,;:\\\'\\\"()?!\"'
+
+@attribute text_label {T,D,F}
+@attribute < numeric
+@attribute <com numeric
+@attribute <embware numeric
+@attribute [ numeric
+@attribute ] numeric
+@attribute ab numeric
+@attribute activity numeric
+@attribute activity$1 numeric
+@attribute activity$13 numeric
+@attribute activity$2 numeric
+@attribute activity$3 numeric
+@attribute adv numeric
+@attribute and numeric
+@attribute app numeric
+@attribute base numeric
+@attribute blocker numeric
+@attribute bt numeric
+@attribute call numeric
+@attribute choose numeric
+@attribute cn numeric
+@attribute code numeric
+@attribute conversation numeric
+@attribute country numeric
+@attribute cuba numeric
+@attribute er numeric
+@attribute find numeric
+@attribute fr numeric
+@attribute fragments numeric
+@attribute go numeric
+@attribute i numeric
+@attribute invitation numeric
+@attribute jb numeric
+@attribute ko numeric
+@attribute lock numeric
+@attribute login numeric
+@attribute main numeric
+@attribute map numeric
+@attribute max numeric
+@attribute message numeric
+@attribute messenger numeric
+@attribute mob numeric
+@attribute onactivityresult numeric
+@attribute onbackpressed numeric
+@attribute onclick numeric
+@attribute oncreate numeric
+@attribute onitemclick numeric
+@attribute onrequestpermissionsresult numeric
+@attribute phone numeric
+@attribute pr numeric
+@attribute private numeric
+@attribute register numeric
+@attribute romantic numeric
+@attribute settings numeric
+@attribute sms numeric
+@attribute space numeric
+@attribute tch numeric
+@attribute tech numeric
+@attribute text numeric
+@attribute think numeric
+@attribute to numeric
+@attribute v numeric
+@attribute viewclickhandler numeric
+@attribute vishal numeric
+@attribute void numeric
+@attribute widget numeric
+@attribute write numeric
+@attribute yeah numeric
+@attribute 0 numeric
+@attribute 5 numeric
+@attribute <mg numeric
+@attribute <phonelocation numeric
+@attribute activity$8 numeric
+@attribute ak numeric
+@attribute as numeric
+@attribute backup numeric
+@attribute blacklist numeric
+@attribute blocklist numeric
+@attribute boolean numeric
+@attribute c numeric
+@attribute contact numeric
+@attribute create numeric
+@attribute defaults numeric
+@attribute detail numeric
+@attribute example numeric
+@attribute file numeric
+@attribute from numeric
+@attribute history numeric
+@attribute home numeric
+@attribute hp numeric
+@attribute list numeric
+@attribute location numeric
+@attribute locations numeric
+@attribute mainscreen numeric
+@attribute more numeric
+@attribute ms numeric
+@attribute onnewintent numeric
+@attribute onoptionsitemselected numeric
+@attribute option numeric
+@attribute report numeric
+@attribute schedule numeric
+@attribute sender numeric
+@attribute share numeric
+@attribute spam numeric
+@attribute uss numeric
+@attribute <intelgeen numeric
+@attribute dial numeric
+@attribute done numeric
+@attribute edit numeric
+@attribute export numeric
+@attribute favorite numeric
+@attribute fh numeric
+@attribute intermediate numeric
+@attribute job numeric
+@attribute kf numeric
+@attribute new numeric
+@attribute number numeric
+@attribute op numeric
+@attribute pro numeric
+@attribute profile numeric
+@attribute restore numeric
+@attribute rocket numeric
+@attribute sa numeric
+@attribute sb numeric
+@attribute screen$17 numeric
+@attribute screen$2 numeric
+@attribute screen$3 numeric
+@attribute screen$4 numeric
+@attribute search numeric
+@attribute splash numeric
+@attribute whats numeric
+
+@data
+{0 D,2 1,4 1,5 1,7 1,16 1,30 1,41 1,44 1,57 1,61 1,63 1,64 1,73 1}
+{0 D,2 1,4 1,5 1,7 2,16 1,30 1,41 1,45 1,57 1,61 1,63 1,64 1,75 1,85 1}
+{0 D,2 1,4 1,5 1,7 2,16 1,30 1,41 1,42 1,57 1,61 1,63 1,64 1,76 1}
+{0 D,2 1,4 1,5 1,7 2,16 1,30 1,41 1,57 1,61 1,62 1,63 1,64 1,81 1,100 1}
+{0 D,2 1,4 1,5 1,7 1,16 1,25 1,30 1,41 1,44 1,57 1,61 1,63 1,64 1}
+{0 D,2 1,4 1,5 1,7 2,16 1,30 1,41 1,42 1,57 1,61 1,63 1,64 1,83 1,87 1}
+{0 D,2 1,4 1,5 1,7 2,16 1,30 1,41 1,45 1,57 1,61 1,63 1,64 1,83 1,87 1}
+{0 D,2 1,4 1,5 1,7 2,16 1,30 1,41 1,57 1,61 1,62 1,63 1,64 1,83 1,87 1}
+{0 D,2 1,4 1,5 1,7 2,16 1,30 1,41 1,42 1,57 1,61 1,63 1,64 1,88 1}
+{0 D,2 1,4 1,5 1,7 2,16 1,30 1,41 1,45 1,57 1,61 1,63 1,64 1,88 1}
+{0 D,2 1,4 1,5 1,7 1,16 1,30 1,41 1,44 1,57 1,61 1,63 1,64 1,89 1}
+{0 D,2 1,4 1,5 1,7 2,16 1,30 1,41 1,42 1,57 1,61 1,63 1,64 1,94 1,98 1}
+{0 D,2 1,4 1,5 1,7 2,16 1,30 1,41 1,45 1,57 1,61 1,63 1,64 1,94 1,98 1}
+{0 D,2 1,4 1,5 1,7 2,16 1,30 1,41 1,45 1,57 1,61 1,63 1,64 1,99 1,103 1}
+{0 D,2 1,4 1,5 1,7 2,16 1,30 1,41 1,57 1,61 1,62 1,63 1,64 1,99 1,103 1}
+{0 D,2 1,4 1,5 1,7 2,16 1,30 1,41 1,45 1,57 1,61 1,63 1,64 1,77 1,86 1,99 1,103 1}
+{0 D,2 1,4 1,5 1,7 2,16 1,30 1,41 1,57 1,61 1,62 1,63 1,64 1,77 1,86 1,99 1,103 1}
+{0 D,2 1,4 1,5 1,7 2,16 1,30 1,41 1,57 1,61 1,63 1,78 1,82 1,95 1,97 1,101 1}
+{0 D,2 1,4 1,5 1,7 2,16 1,30 1,41 1,45 1,57 1,61 1,63 1,64 1,82 1,95 1,101 1}
+{0 D,2 1,4 1,5 1,7 2,16 1,30 1,41 1,57 1,61 1,63 1,64 1,82 1,95 1,96 1,101 1}
+{0 D,4 1,5 1,44 1,64 1,70 1,72 1,92 1,93 1,102 1}
+{0 D,4 1,5 1,47 1,48 1,64 1,68 1,69 2,71 1,74 1,79 1,80 1,84 1,90 1,91 1,104 1}
+{0 F,2 1,4 1,5 1,7 2,16 1,30 1,41 1,42 1,57 1,61 1,63 1,64 1,108 1,119 1}
+{0 F,2 1,4 1,5 1,7 2,16 1,30 1,41 1,45 1,57 1,61 1,63 1,64 1,108 1,119 1}
+{0 F,2 1,4 1,5 1,7 2,16 1,30 1,41 1,45 1,57 1,61 1,63 1,64 1,87 1,109 1}
+{0 F,2 1,4 1,5 1,7 2,16 1,30 1,41 1,42 1,57 1,61 1,63 1,64 1,110 1}
+{0 F,2 1,4 1,5 1,7 2,16 1,30 1,41 1,45 1,57 1,61 1,63 1,64 1,110 1}
+{0 F,2 1,4 1,5 1,7 1,16 1,30 1,41 1,44 1,57 1,61 1,63 1,64 1,111 1}
+{0 F,2 1,4 1,5 1,7 2,16 1,30 1,41 1,45 1,57 1,61 1,63 1,64 1,107 1,113 1}
+{0 F,2 1,4 1,5 1,7 1,16 1,30 1,41 1,44 1,57 1,61 1,63 1,64 1,114 1}
+{0 F,2 1,4 1,5 1,7 1,16 1,30 1,41 1,44 1,57 1,61 1,63 1,64 1,117 1}
+{0 F,2 1,4 1,5 1,7 2,16 1,30 1,41 1,42 1,57 1,61 1,63 1,64 1,75 1,112 1,120 1}
+{0 F,2 1,4 1,5 1,7 2,16 1,30 1,41 1,45 1,57 1,61 1,63 1,64 1,75 1,112 1,120 1}
+{0 F,2 1,4 1,5 1,7 1,16 1,30 1,41 1,44 1,57 1,61 1,63 1,64 1,122 1}
+{0 F,2 1,4 1,5 1,7 1,16 1,30 1,41 1,44 1,57 1,61 1,63 1,64 1,123 1}
+{0 F,2 1,4 1,5 1,7 2,16 1,30 1,41 1,45 1,57 1,61 1,63 1,64 1,100 1}
+{0 F,2 1,4 1,5 1,7 2,16 1,30 1,41 1,57 1,61 1,62 1,63 1,64 1,100 1}
+{0 F,2 1,4 1,5 1,7 2,16 1,30 1,41 1,57 1,61 1,62 1,63 1,64 1,128 1}
+{0 F,2 1,4 1,5 1,7 2,16 1,30 1,41 1,42 1,57 1,61 1,63 1,64 1,90 1,103 1,116 1}
+{0 F,2 1,4 1,5 1,7 2,16 1,30 1,41 1,45 1,57 1,61 1,63 1,64 1,90 1,103 1,116 1}
+{0 F,2 1,4 1,5 1,7 2,16 1,30 1,41 1,45 1,57 1,61 1,63 1,64 1,129 1}
+{0 F,2 1,4 1,5 1,7 2,16 1,30 1,41 1,45 1,57 1,61 1,63 1,64 1,115 1,130 1}
+{0 F,4 1,5 1,44 1,64 1,80 1,83 1,105 1,106 1,118 1,121 1,124 1}
+{0 F,4 1,5 1,44 1,64 1,80 1,83 1,105 1,106 1,118 1,121 1,125 1}
+{0 F,4 1,5 1,44 1,64 1,80 1,83 1,105 1,106 1,118 1,121 1,126 1}
+{0 F,4 1,5 1,44 1,64 1,80 1,83 1,105 1,106 1,118 1,121 1,127 1}
+{1 1,4 1,5 1,8 1,25 1,36 1,38 1,44 1,52 1,58 1,60 1,64 1}
+{1 1,4 1,5 1,10 1,25 1,36 1,38 1,44 1,52 1,58 1,60 1,64 1}
+{1 1,4 1,5 1,11 1,25 1,36 1,38 1,44 1,52 1,58 1,60 1,64 1}
+{2 1,4 1,5 1,7 1,14 1,24 2,35 1,40 2,47 1,64 1}
+{2 1,4 1,5 1,7 1,14 1,24 2,40 2,47 1,51 1,64 1}
+{2 1,4 1,5 1,8 1,15 1,29 2,32 1,39 1,44 1,54 2,64 1,65 2,66 1}
+{2 1,4 1,5 1,9 1,13 1,26 1,34 1,36 1,37 1,44 1,48 1,64 1}
+{2 1,4 1,5 1,7 1,12 1,28 1,31 1,44 1,54 1,56 1,58 1,64 1}
+{2 1,4 1,5 1,17 1,39 1,44 1,50 1,55 1,59 1,64 1,67 1}
+{2 1,4 1,5 1,6 1,7 1,16 1,30 1,41 1,44 1,57 1,61 1,63 1,64 1}
+{2 1,4 1,5 1,7 2,16 2,18 1,30 1,41 1,42 1,53 1,57 1,61 1,63 1,64 1}
+{2 1,4 1,5 1,7 2,16 2,18 1,30 1,41 1,43 1,53 1,57 1,61 1,63 1,64 1}
+{2 1,4 1,5 1,7 2,16 2,18 1,30 1,41 1,53 1,57 1,61 1,62 1,63 1,64 1}
+{2 1,4 1,5 1,7 2,16 1,19 1,21 1,23 1,30 1,41 1,45 1,57 1,61 1,63 1,64 1}
+{2 1,4 1,5 1,7 2,16 1,19 1,21 1,23 1,30 1,41 1,57 1,61 1,62 1,63 1,64 1}
+{2 1,4 1,5 1,7 1,16 1,20 1,30 1,41 1,44 1,57 1,61 1,63 1,64 1}
+{2 1,4 1,5 1,7 1,16 1,27 1,30 1,41 1,44 1,57 1,61 1,63 1,64 1}
+{2 1,4 1,5 1,7 1,16 1,30 1,33 1,41 1,44 1,57 1,61 1,63 1,64 1}
+{2 1,4 1,5 1,7 1,16 1,30 1,41 1,44 1,49 1,57 1,61 1,63 1,64 1}
+{3 1,4 1,5 1,7 2,22 1,44 1,64 1}
+{3 1,4 1,5 1,7 2,22 1,46 1,64 1}

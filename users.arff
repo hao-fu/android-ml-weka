@@ -1,0 +1,808 @@
+@relation 'docs-weka.filters.unsupervised.attribute.StringToWordVector-R1-W1000-prune-rate-1.0-C-N0-L-stemmerweka.core.stemmers.SnowballStemmer-M1-tokenizerweka.core.tokenizers.WordTokenizer -delimiters \" \\r\\n\\t.,;:\\\'\\\"()?!\"'
+
+@attribute text_label {T,F}
+@attribute '\%' numeric
+@attribute 0 numeric
+@attribute 07 numeric
+@attribute 08 numeric
+@attribute 0km/h numeric
+@attribute 10 numeric
+@attribute 100 numeric
+@attribute 100500 numeric
+@attribute 1020 numeric
+@attribute 11 numeric
+@attribute 11° numeric
+@attribute 12 numeric
+@attribute 12° numeric
+@attribute 13 numeric
+@attribute 13° numeric
+@attribute 14 numeric
+@attribute 168 numeric
+@attribute 17 numeric
+@attribute 18+ numeric
+@attribute 192 numeric
+@attribute 2 numeric
+@attribute 20 numeric
+@attribute 2017 numeric
+@attribute 2064 numeric
+@attribute 22 numeric
+@attribute 2264 numeric
+@attribute 24 numeric
+@attribute 3 numeric
+@attribute 32 numeric
+@attribute 32ff numeric
+@attribute 34 numeric
+@attribute 3°c numeric
+@attribute 4 numeric
+@attribute 45 numeric
+@attribute 5 numeric
+@attribute 530 numeric
+@attribute 6 numeric
+@attribute 601-3751 numeric
+@attribute 64 numeric
+@attribute 67 numeric
+@attribute 7 numeric
+@attribute '87\%' numeric
+@attribute 88 numeric
+@attribute 8d numeric
+@attribute '8db0\%p2p0' numeric
+@attribute '8db0\%wlan0' numeric
+@attribute 9° numeric
+@attribute <co numeric
+@attribute <com numeric
+@attribute <gpsfindme numeric
+@attribute <main numeric
+@attribute [ numeric
+@attribute ] numeric
+@attribute a numeric
+@attribute account numeric
+@attribute activate numeric
+@attribute activation numeric
+@attribute activities numeric
+@attribute activity numeric
+@attribute activity$1 numeric
+@attribute activity$3 numeric
+@attribute actual numeric
+@attribute address numeric
+@attribute adria numeric
+@attribute airline numeric
+@attribute airlines numeric
+@attribute airways numeric
+@attribute also numeric
+@attribute alt numeric
+@attribute am numeric
+@attribute amati numeric
+@attribute ana numeric
+@attribute and numeric
+@attribute android numeric
+@attribute ap numeric
+@attribute app numeric
+@attribute apps numeric
+@attribute are numeric
+@attribute asa numeric
+@attribute ata numeric
+@attribute authentication numeric
+@attribute auto-accept numeric
+@attribute b0 numeric
+@attribute be numeric
+@attribute bela numeric
+@attribute below numeric
+@attribute ben numeric
+@attribute bill numeric
+@attribute birth numeric
+@attribute boolean numeric
+@attribute broadcast numeric
+@attribute browse numeric
+@attribute bt numeric
+@attribute button numeric
+@attribute by numeric
+@attribute ca numeric
+@attribute call numeric
+@attribute cards numeric
+@attribute chat numeric
+@attribute check-in numeric
+@attribute choose numeric
+@attribute cirrus numeric
+@attribute click numeric
+@attribute closet numeric
+@attribute clouds numeric
+@attribute club numeric
+@attribute code numeric
+@attribute cold numeric
+@attribute com numeric
+@attribute comments numeric
+@attribute conditions numeric
+@attribute config numeric
+@attribute configuration numeric
+@attribute configure numeric
+@attribute connect numeric
+@attribute cono numeric
+@attribute continue numeric
+@attribute could numeric
+@attribute customer numeric
+@attribute data numeric
+@attribute date numeric
+@attribute dating numeric
+@attribute davis numeric
+@attribute days numeric
+@attribute details numeric
+@attribute device numeric
+@attribute digby numeric
+@attribute e numeric
+@attribute email numeric
+@attribute enter numeric
+@attribute ev1 numeric
+@attribute exit numeric
+@attribute ext numeric
+@attribute external numeric
+@attribute fe67 numeric
+@attribute fe80 numeric
+@attribute feb numeric
+@attribute feel numeric
+@attribute female numeric
+@attribute few numeric
+@attribute finder numeric
+@attribute first numeric
+@attribute fly numeric
+@attribute for numeric
+@attribute forecast numeric
+@attribute forecasts numeric
+@attribute freight numeric
+@attribute friends numeric
+@attribute fuel numeric
+@attribute full numeric
+@attribute get numeric
+@attribute gift numeric
+@attribute gps numeric
+@attribute h numeric
+@attribute heavy numeric
+@attribute hired numeric
+@attribute history numeric
+@attribute home numeric
+@attribute hostname numeric
+@attribute hour numeric
+@attribute hours numeric
+@attribute hpa numeric
+@attribute i numeric
+@attribute iconnectdata numeric
+@attribute id numeric
+@attribute if numeric
+@attribute ifly numeric
+@attribute ii numeric
+@attribute ilo numeric
+@attribute image numeric
+@attribute images numeric
+@attribute in numeric
+@attribute in/log numeric
+@attribute info numeric
+@attribute insert numeric
+@attribute intensity numeric
+@attribute interface numeric
+@attribute invia numeric
+@attribute ip numeric
+@attribute ipv6 numeric
+@attribute it numeric
+@attribute jameshaofu@gmail numeric
+@attribute java numeric
+@attribute jp numeric
+@attribute know numeric
+@attribute l numeric
+@attribute land numeric
+@attribute landstaronline numeric
+@attribute last numeric
+@attribute legal numeric
+@attribute lib numeric
+@attribute light numeric
+@attribute link numeric
+@attribute list numeric
+@attribute listing numeric
+@attribute listing$11 numeric
+@attribute live numeric
+@attribute localized numeric
+@attribute location numeric
+@attribute locations numeric
+@attribute log numeric
+@attribute m/s numeric
+@attribute mac numeric
+@attribute macro numeric
+@attribute main numeric
+@attribute make numeric
+@attribute male numeric
+@attribute me numeric
+@attribute menu numeric
+@attribute meters numeric
+@attribute mobile numeric
+@attribute mon numeric
+@attribute moobilenetx numeric
+@attribute more numeric
+@attribute moving numeric
+@attribute must numeric
+@attribute my numeric
+@attribute name numeric
+@attribute network numeric
+@attribute next numeric
+@attribute nh numeric
+@attribute not numeric
+@attribute number numeric
+@attribute of numeric
+@attribute off numeric
+@attribute onactivityresult numeric
+@attribute onclick numeric
+@attribute oncreate numeric
+@attribute ondestroy numeric
+@attribute one-time numeric
+@attribute only numeric
+@attribute onoptionsitemselected numeric
+@attribute onpostcreate numeric
+@attribute onrequestpermissionsresult numeric
+@attribute onresume numeric
+@attribute onstart numeric
+@attribute onstop numeric
+@attribute optional numeric
+@attribute or numeric
+@attribute order numeric
+@attribute out numeric
+@attribute p2p0 numeric
+@attribute password numeric
+@attribute phone numeric
+@attribute plan numeric
+@attribute please numeric
+@attribute position numeric
+@attribute posizione numeric
+@attribute powered numeric
+@attribute press numeric
+@attribute pro numeric
+@attribute quick numeric
+@attribute r numeric
+@attribute rain numeric
+@attribute real numeric
+@attribute recent numeric
+@attribute red numeric
+@attribute refresh numeric
+@attribute register numeric
+@attribute registration numeric
+@attribute router numeric
+@attribute row numeric
+@attribute sat numeric
+@attribute satellite numeric
+@attribute screen numeric
+@attribute search numeric
+@attribute searches numeric
+@attribute security numeric
+@attribute self-service numeric
+@attribute send numeric
+@attribute sent numeric
+@attribute service numeric
+@attribute set numeric
+@attribute shop numeric
+@attribute sign numeric
+@attribute simply numeric
+@attribute smart numeric
+@attribute star numeric
+@attribute step numeric
+@attribute store numeric
+@attribute sun numeric
+@attribute sunrise numeric
+@attribute sunset numeric
+@attribute team numeric
+@attribute terms numeric
+@attribute the numeric
+@attribute this numeric
+@attribute those numeric
+@attribute tips numeric
+@attribute to numeric
+@attribute today numeric
+@attribute tomorrow numeric
+@attribute track numeric
+@attribute tracker numeric
+@attribute tracking numeric
+@attribute tue numeric
+@attribute tz numeric
+@attribute uk numeric
+@attribute up numeric
+@attribute update numeric
+@attribute us numeric
+@attribute use numeric
+@attribute user numeric
+@attribute userid numeric
+@attribute v380 numeric
+@attribute 'vehicles\\nfrom' numeric
+@attribute version numeric
+@attribute video numeric
+@attribute view numeric
+@attribute visa numeric
+@attribute void numeric
+@attribute w numeric
+@attribute w/ numeric
+@attribute warm numeric
+@attribute wear numeric
+@attribute weather numeric
+@attribute wed numeric
+@attribute what numeric
+@attribute what2 numeric
+@attribute when numeric
+@attribute who numeric
+@attribute wifi numeric
+@attribute will numeric
+@attribute wish numeric
+@attribute within numeric
+@attribute wlan0 numeric
+@attribute yards numeric
+@attribute year numeric
+@attribute you numeric
+@attribute your numeric
+@attribute °c numeric
+@attribute $4 numeric
+@attribute & numeric
+@attribute * numeric
+@attribute +1 numeric
+@attribute -- numeric
+@attribute / numeric
+@attribute 1 numeric
+@attribute 140647 numeric
+@attribute 150 numeric
+@attribute 2405 numeric
+@attribute 3d numeric
+@attribute 434 numeric
+@attribute 46 numeric
+@attribute 60179 numeric
+@attribute 71804 numeric
+@attribute 9 numeric
+@attribute '95616\\n' numeric
+@attribute 99 numeric
+@attribute 9mp numeric
+@attribute <<< numeric
+@attribute <activity numeric
+@attribute <app numeric
+@attribute <jp numeric
+@attribute <net numeric
+@attribute >>> numeric
+@attribute '\\nos' numeric
+@attribute '\\nplease' numeric
+@attribute '\\nrecording' numeric
+@attribute about numeric
+@attribute access numeric
+@attribute activity$2 numeric
+@attribute activity$4 numeric
+@attribute activity2 numeric
+@attribute ad numeric
+@attribute ads numeric
+@attribute adventure numeric
+@attribute advertisements numeric
+@attribute again numeric
+@attribute alien numeric
+@attribute all numeric
+@attribute alpha numeric
+@attribute america/los_angeles numeric
+@attribute 'android-api19\\ndevice' numeric
+@attribute angeles numeric
+@attribute animated numeric
+@attribute anonymous numeric
+@attribute answer numeric
+@attribute application numeric
+@attribute appointments numeric
+@attribute appreciate numeric
+@attribute arm numeric
+@attribute ask numeric
+@attribute assistant numeric
+@attribute attack numeric
+@attribute auto numeric
+@attribute availability numeric
+@attribute back numeric
+@attribute bail numeric
+@attribute base numeric
+@attribute based numeric
+@attribute beautiful numeric
+@attribute biography numeric
+@attribute black numeric
+@attribute bookmarks numeric
+@attribute books numeric
+@attribute brands numeric
+@attribute browser numeric
+@attribute bus numeric
+@attribute cam numeric
+@attribute camera numeric
+@attribute cameras numeric
+@attribute cancel numeric
+@attribute carnegie numeric
+@attribute cart numeric
+@attribute categories numeric
+@attribute catus numeric
+@attribute challenge numeric
+@attribute change numeric
+@attribute changepassimportmsg numeric
+@attribute changepassword numeric
+@attribute changepin numeric
+@attribute check numeric
+@attribute client numeric
+@attribute clock numeric
+@attribute color numeric
+@attribute comment numeric
+@attribute confirmpassword numeric
+@attribute confirmpin numeric
+@attribute consider numeric
+@attribute content numeric
+@attribute cooperation numeric
+@attribute couple numeric
+@attribute coupons numeric
+@attribute current numeric
+@attribute customize numeric
+@attribute cy numeric
+@attribute dale numeric
+@attribute deals numeric
+@attribute dear numeric
+@attribute deep numeric
+@attribute definitely numeric
+@attribute design numeric
+@attribute destination numeric
+@attribute detected numeric
+@attribute dev numeric
+@attribute developer numeric
+@attribute dio numeric
+@attribute disable numeric
+@attribute do numeric
+@attribute don numeric
+@attribute dragon numeric
+@attribute drawer numeric
+@attribute dynamic numeric
+@attribute earthquake numeric
+@attribute edge numeric
+@attribute edit numeric
+@attribute english numeric
+@attribute enhance numeric
+@attribute entertainment numeric
+@attribute escape numeric
+@attribute eve numeric
+@attribute experience numeric
+@attribute express numeric
+@attribute family numeric
+@attribute faq numeric
+@attribute farmers numeric
+@attribute fast numeric
+@attribute favourites numeric
+@attribute feature numeric
+@attribute featuring numeric
+@attribute feed/rss numeric
+@attribute feedback numeric
+@attribute find numeric
+@attribute finish numeric
+@attribute flight numeric
+@attribute forbidden numeric
+@attribute forgot numeric
+@attribute fragment numeric
+@attribute free numeric
+@attribute from numeric
+@attribute future numeric
+@attribute g numeric
+@attribute gal numeric
+@attribute gc numeric
+@attribute ge numeric
+@attribute gender numeric
+@attribute getcurrentlocation numeric
+@attribute getting numeric
+@attribute girl numeric
+@attribute give numeric
+@attribute global numeric
+@attribute google numeric
+@attribute greader numeric
+@attribute gringotts numeric
+@attribute grow numeric
+@attribute handy numeric
+@attribute harry numeric
+@attribute hate numeric
+@attribute have numeric
+@attribute hd numeric
+@attribute hello numeric
+@attribute help numeric
+@attribute helps numeric
+@attribute here numeric
+@attribute hi numeric
+@attribute hippogriff numeric
+@attribute hogwarts numeric
+@attribute hot numeric
+@attribute how numeric
+@attribute hub numeric
+@attribute hybrid numeric
+@attribute influence numeric
+@attribute information numeric
+@attribute input numeric
+@attribute instead numeric
+@attribute intuitive numeric
+@attribute is numeric
+@attribute italian numeric
+@attribute items numeric
+@attribute jess numeric
+@attribute join numeric
+@attribute journey numeric
+@attribute jurassic numeric
+@attribute just numeric
+@attribute k numeric
+@attribute ka numeric
+@attribute kmart numeric
+@attribute knowledge numeric
+@attribute la numeric
+@attribute laptops numeric
+@attribute late numeric
+@attribute later numeric
+@attribute layout numeric
+@attribute learn numeric
+@attribute lek numeric
+@attribute less numeric
+@attribute life numeric
+@attribute like numeric
+@attribute limited numeric
+@attribute lists numeric
+@attribute loading numeric
+@attribute lock numeric
+@attribute login numeric
+@attribute los numeric
+@attribute lost numeric
+@attribute love numeric
+@attribute m numeric
+@attribute map numeric
+@attribute market numeric
+@attribute material numeric
+@attribute media numeric
+@attribute meeting numeric
+@attribute men numeric
+@attribute mer numeric
+@attribute message numeric
+@attribute miles numeric
+@attribute minute numeric
+@attribute miss numeric
+@attribute mobicrm numeric
+@attribute mobiles numeric
+@attribute modules numeric
+@attribute mogo numeric
+@attribute mp numeric
+@attribute much numeric
+@attribute n numeric
+@attribute near numeric
+@attribute nearby numeric
+@attribute need numeric
+@attribute never numeric
+@attribute new numeric
+@attribute newpin numeric
+@attribute news numeric
+@attribute newsreader numeric
+@attribute nexus numeric
+@attribute nf numeric
+@attribute ni numeric
+@attribute no numeric
+@attribute normal numeric
+@attribute north numeric
+@attribute now numeric
+@attribute offers numeric
+@attribute offline numeric
+@attribute oldpinpassword numeric
+@attribute on numeric
+@attribute onconfigurationchanged numeric
+@attribute oncreateoptionsmenu numeric
+@attribute ondraw numeric
+@attribute onintercepttouchevent numeric
+@attribute onkeydown numeric
+@attribute onkeyup numeric
+@attribute onpause numeric
+@attribute onsaveinstancestate numeric
+@attribute ontouchevent numeric
+@attribute our numeric
+@attribute p numeric
+@attribute pa numeric
+@attribute page numeric
+@attribute pages numeric
+@attribute panda numeric
+@attribute parent numeric
+@attribute park numeric
+@attribute 'password\\nshortly' numeric
+@attribute people numeric
+@attribute peripherals numeric
+@attribute photo numeric
+@attribute picture numeric
+@attribute planner numeric
+@attribute play numeric
+@attribute podcast numeric
+@attribute points numeric
+@attribute popular numeric
+@attribute posse numeric
+@attribute potter numeric
+@attribute premium numeric
+@attribute pressing numeric
+@attribute price numeric
+@attribute pricing numeric
+@attribute process numeric
+@attribute product numeric
+@attribute products numeric
+@attribute profile numeric
+@attribute qu numeric
+@attribute query numeric
+@attribute quotes numeric
+@attribute qustodio numeric
+@attribute rate numeric
+@attribute rating numeric
+@attribute reader numeric
+@attribute receive numeric
+@attribute remind numeric
+@attribute reply numeric
+@attribute reserved numeric
+@attribute restaurants numeric
+@attribute revan numeric
+@attribute review numeric
+@attribute rhythm numeric
+@attribute ri numeric
+@attribute rich numeric
+@attribute rights numeric
+@attribute ripple numeric
+@attribute river numeric
+@attribute 'road\\ndavis' numeric
+@attribute rock numeric
+@attribute rose numeric
+@attribute route numeric
+@attribute rss numeric
+@attribute rue numeric
+@attribute run numeric
+@attribute s numeric
+@attribute sam numeric
+@attribute save numeric
+@attribute savepassword numeric
+@attribute savepin numeric
+@attribute say numeric
+@attribute scroll numeric
+@attribute sdk numeric
+@attribute searcher numeric
+@attribute sears numeric
+@attribute seattle numeric
+@attribute sec numeric
+@attribute see numeric
+@attribute selected numeric
+@attribute share numeric
+@attribute shopping numeric
+@attribute show numeric
+@attribute sibi numeric
+@attribute simple numeric
+@attribute size numeric
+@attribute snow numeric
+@attribute snyder numeric
+@attribute so numeric
+@attribute some numeric
+@attribute spanish numeric
+@attribute speak numeric
+@attribute specials numeric
+@attribute splash numeric
+@attribute sprouts numeric
+@attribute stars numeric
+@attribute started numeric
+@attribute status numeric
+@attribute stop numeric
+@attribute stores numeric
+@attribute strange numeric
+@attribute submit numeric
+@attribute support numeric
+@attribute surya numeric
+@attribute swipe numeric
+@attribute t numeric
+@attribute tablets numeric
+@attribute take numeric
+@attribute takes numeric
+@attribute tech numeric
+@attribute technologies numeric
+@attribute terrain numeric
+@attribute text numeric
+@attribute than numeric
+@attribute thank numeric
+@attribute thanks numeric
+@attribute themes numeric
+@attribute then numeric
+@attribute 'then\\nclick' numeric
+@attribute time numeric
+@attribute timer numeric
+@attribute timezones numeric
+@attribute title numeric
+@attribute trending numeric
+@attribute tv numeric
+@attribute ui numeric
+@attribute updates numeric
+@attribute upgrade numeric
+@attribute upload numeric
+@attribute url numeric
+@attribute username numeric
+@attribute usernames numeric
+@attribute v numeric
+@attribute vax numeric
+@attribute versa numeric
+@attribute views numeric
+@attribute voice numeric
+@attribute waits numeric
+@attribute we numeric
+@attribute web numeric
+@attribute website numeric
+@attribute weekly numeric
+@attribute welcome numeric
+@attribute 'when\\nsilence' numeric
+@attribute win numeric
+@attribute with numeric
+@attribute wolfram numeric
+@attribute women numeric
+@attribute world numeric
+@attribute would numeric
+@attribute write numeric
+@attribute 'your\\nusername' numeric
+@attribute | numeric
+@attribute © numeric
+
+@data
+{2 1,7 1,17 1,20 1,21 1,22 1,24 1,25 1,26 1,28 1,29 2,30 2,37 1,39 2,40 2,44 2,45 1,46 1,48 1,52 1,53 1,58 1,59 1,69 1,74 1,83 2,93 1,126 1,133 2,134 1,135 2,136 2,159 2,168 2,174 2,177 1,179 4,180 1,186 1,191 1,199 1,203 2,205 1,219 1,228 1,242 1,253 1,298 1,311 1,322 1,326 1}
+{2 1,7 1,17 1,20 1,21 1,22 1,24 1,25 1,26 1,28 1,29 2,30 2,37 1,39 2,40 2,44 2,45 1,46 1,48 1,52 1,53 1,58 1,59 1,69 1,74 1,83 2,93 1,126 1,133 2,134 1,135 2,136 2,159 2,168 2,174 2,177 1,179 4,180 1,186 1,191 1,199 1,203 2,205 1,219 1,233 1,242 1,253 1,298 1,311 1,322 1,326 1}
+{49 1,52 1,53 1,59 2,109 2,120 2,141 1,149 1,205 2,209 2,211 1,228 1,311 1}
+{49 1,52 1,53 1,59 2,109 2,120 2,141 1,149 1,205 2,209 2,211 1,235 1,311 1}
+{27 1,49 1,52 1,53 1,54 1,56 1,57 1,59 2,63 1,73 1,81 1,84 1,86 1,94 1,107 2,109 2,117 2,120 2,126 3,129 1,144 1,161 1,164 1,211 1,228 1,230 1,246 1,250 1,259 1,268 1,271 1,286 1,287 1,290 2,302 1,303 1,311 1,323 1,325 1,330 3}
+{19 1,49 1,52 1,53 1,70 1,84 1,89 1,92 1,99 1,109 1,121 1,122 1,139 1,150 1,163 1,170 1,182 1,207 1,208 1,216 1,218 1,224 1,227 1,259 1,275 1,299 1,311 1}
+{49 1,52 1,53 1,55 1,59 1,74 1,85 1,96 1,97 1,98 1,100 1,106 1,119 1,127 1,152 1,173 1,190 1,194 1,201 1,214 2,227 1,240 1,241 1,272 1,274 1,280 1,293 1,309 1,310 1,311 1,324 1}
+{2 1,21 1,36 1,38 1,41 1,49 1,52 1,53 1,55 1,73 1,82 1,88 1,109 1,111 1,115 1,147 1,153 1,165 1,187 2,188 1,193 2,196 1,223 2,225 2,227 1,238 1,243 1,244 2,260 1,278 2,285 1,295 1,303 1,304 1,307 1,311 1}
+{2 1,21 1,36 1,38 1,41 1,49 1,52 1,53 1,55 1,73 1,82 1,88 1,109 1,111 1,115 1,147 1,153 1,165 1,187 2,188 1,193 2,195 1,223 2,225 2,228 1,238 1,243 1,244 2,260 1,278 2,285 1,295 1,303 1,304 1,307 1,311 1}
+{2 1,21 1,36 1,38 1,41 1,49 1,52 1,53 1,55 1,73 1,82 1,88 1,109 1,111 1,115 1,147 1,153 1,165 1,187 2,188 1,193 2,195 1,223 2,225 2,229 1,238 1,243 1,244 2,260 1,278 2,285 1,295 1,303 1,304 1,307 1,311 1}
+{28 1,49 1,52 1,53 1,59 1,73 1,75 1,112 1,113 1,114 2,126 1,130 1,172 1,193 1,204 1,210 1,211 1,213 1,218 1,220 1,224 1,227 1,243 2,244 1,245 1,246 2,252 2,261 1,277 1,279 1,286 2,289 1,290 2,302 1,305 1,308 1,311 1,314 1,322 2}
+{1 1,3 1,4 1,6 2,7 1,9 1,12 1,14 2,16 1,18 1,21 1,23 1,25 1,31 1,33 1,34 1,35 1,49 1,52 1,53 1,58 1,61 1,77 1,123 1,124 1,137 1,145 1,162 1,189 1,192 1,202 1,205 1,211 1,212 1,220 1,227 1,254 1,263 2,281 1,282 1,283 1,284 1,296 1,300 1,301 1,311 1,316 1,317 1,331 6}
+{1 1,3 1,4 1,6 2,7 1,9 1,12 1,14 2,16 1,18 1,21 1,23 1,25 1,31 1,33 1,34 1,35 1,49 1,52 1,53 1,58 1,59 1,77 1,123 1,124 1,137 1,145 1,162 1,189 1,192 1,202 1,205 1,211 1,212 1,220 1,226 1,254 1,263 2,281 1,282 1,283 1,284 1,296 1,300 1,301 1,311 1,316 1,317 1,331 6}
+{1 1,3 1,4 1,6 2,7 1,9 1,12 1,14 2,16 1,18 1,21 1,23 1,25 1,31 1,33 1,34 1,35 1,49 1,52 1,53 1,58 1,59 1,77 1,123 1,124 1,137 1,145 1,162 1,189 1,192 1,202 1,205 1,211 1,212 1,220 1,228 1,254 1,263 2,281 1,282 1,283 1,284 1,296 1,300 1,301 1,311 1,316 1,317 1,331 6}
+{49 1,52 1,53 1,157 1,194 1,199 2,200 1,217 2,236 1,244 1,264 1,291 1,293 1,294 1,311 1}
+{49 1,52 1,53 1,157 1,194 1,199 2,200 1,217 2,237 1,244 1,264 1,291 1,293 1,294 1,311 1}
+{49 1,52 1,53 1,58 1,64 1,65 3,66 4,67 1,72 1,79 1,80 1,95 1,102 1,107 1,109 1,130 1,131 1,143 1,167 1,174 1,184 1,218 1,221 1,236 1,239 1,249 1,251 1,257 1,265 1,266 1,297 1,311 1}
+{49 1,52 1,53 1,58 1,64 1,65 3,66 4,67 1,72 1,79 1,80 1,95 1,102 1,107 1,109 1,130 1,131 1,143 1,167 1,174 1,184 1,218 1,221 1,237 1,239 1,249 1,251 1,257 1,265 1,266 1,297 1,311 1}
+{8 1,21 1,35 1,43 1,49 1,52 1,53 1,54 1,58 1,59 1,76 1,101 1,110 1,142 1,158 1,171 1,199 1,206 2,222 1,228 1,231 2,256 1,262 1,266 2,267 1,269 1,273 1,290 1,306 1,311 1,313 2,327 1,328 2}
+{49 1,52 1,53 1,59 1,74 1,90 1,156 3,158 1,232 1,276 4}
+{50 1,52 1,53 1,54 1,56 1,60 1,68 1,71 1,78 1,84 2,87 1,91 1,95 2,118 1,148 1,166 1,175 1,178 1,181 2,185 1,197 1,198 2,215 1,227 1,231 1,243 2,247 2,248 1,270 1,288 1,290 1,311 1,320 1,321 1,329 3,330 2}
+{5 1,10 1,11 1,13 1,14 1,15 1,21 2,32 1,42 1,47 2,51 1,52 1,53 1,54 2,59 1,62 1,95 1,103 1,104 1,105 1,108 1,109 1,111 1,116 1,123 1,124 1,125 1,128 1,132 1,138 1,140 1,146 1,151 1,154 1,155 1,160 2,163 1,169 1,176 1,183 1,192 1,220 1,228 1,253 1,254 2,255 1,258 1,290 1,291 1,292 1,301 1,311 1,312 2,315 2,316 1,318 2,319 1}
+{5 1,10 1,11 1,13 1,14 1,15 1,21 2,32 1,42 1,47 2,51 1,52 1,53 1,54 2,59 1,62 1,95 1,103 1,104 1,105 1,108 1,109 1,111 1,116 1,123 1,124 1,125 1,128 1,132 1,138 1,140 1,146 1,151 1,154 1,155 1,160 2,163 1,169 1,176 1,183 1,192 1,220 1,234 1,253 1,254 2,255 1,258 1,290 1,291 1,292 1,301 1,311 1,312 2,315 2,316 1,318 2,319 1}
+{0 F,52 1,53 1,59 1,90 1,232 1,352 1,563 2}
+{0 F,52 1,53 1,100 2,109 1,172 1,228 1,279 1,311 1,330 1,338 1,353 1,389 1,396 1,403 1,413 1,596 1,597 2,609 1,681 2}
+{0 F,48 1,52 1,53 1,59 1,144 1,161 1,205 1,220 1,224 1,226 1,251 1,298 1,303 1,311 1,329 1,380 1,388 1,423 1,490 1,492 1,568 1,587 1,641 1,661 1,716 1}
+{0 F,48 1,52 1,53 1,59 1,144 1,161 1,205 1,220 1,224 1,228 1,251 1,298 1,303 1,311 1,329 1,380 1,388 1,423 1,490 1,492 1,568 1,587 1,641 1,661 1,716 1}
+{0 F,49 1,52 1,53 1,56 2,227 1,286 1,308 1,311 1,330 1,342 1,351 1,356 1,362 1,365 1,368 1,372 1,376 1,378 1,384 1,390 1,439 1,449 1,452 1,519 1,542 1,629 1,647 2,678 1,710 1,720 1}
+{0 F,49 1,52 1,53 1,59 1,308 1,311 1,365 1,448 1,465 1,509 1,542 1,563 1,629 1,647 2,664 1,683 1}
+{0 F,49 1,52 1,53 1,56 2,59 1,235 1,286 1,308 1,311 1,330 1,342 1,351 1,356 1,365 1,368 1,372 1,376 1,378 1,384 1,390 1,439 1,449 1,452 1,519 1,542 1,629 1,647 2,678 1,710 1,720 1}
+{0 F,49 1,52 1,53 1,90 1,99 2,163 1,208 1,270 1,309 1,329 1,365 1,366 2,480 1,495 1,496 1,505 1,524 1,549 1,553 2,555 1,579 1,662 1,719 1}
+{0 F,49 1,52 1,53 1,59 2,73 2,74 1,144 1,157 1,172 2,209 1,226 1,239 1,266 1,275 2,290 1,311 1,330 1,345 1,387 1,391 1,405 1,443 1,470 1,512 1,518 1,575 1,601 1,608 1,649 1,652 1}
+{0 F,49 1,52 1,53 1,59 2,73 2,74 1,144 1,157 1,172 2,209 1,228 1,239 1,266 1,275 2,290 1,311 1,330 1,345 1,387 1,391 1,405 1,443 1,470 1,512 1,518 1,575 1,601 1,608 1,649 1,652 1}
+{0 F,49 1,52 1,53 1,59 2,73 2,74 1,144 1,157 1,172 2,209 1,229 1,239 1,266 1,275 2,290 1,311 1,330 1,345 1,387 1,391 1,405 1,443 1,470 1,512 1,518 1,575 1,601 1,608 1,649 1,652 1}
+{0 F,49 1,52 1,53 1,59 2,73 2,74 1,144 1,157 1,172 2,209 1,239 1,266 1,275 2,290 1,311 1,330 1,345 1,387 1,391 1,405 1,443 1,470 1,512 1,518 1,575 1,582 1,601 1,608 1,649 1,652 1}
+{0 F,49 1,52 1,53 1,59 2,73 2,74 1,144 1,157 1,172 2,209 1,234 1,239 1,266 1,275 2,290 1,311 1,330 1,345 1,387 1,391 1,405 1,443 1,470 1,512 1,518 1,575 1,601 1,608 1,649 1,652 1}
+{0 F,49 1,52 1,53 1,59 2,73 2,74 1,144 1,157 1,172 2,209 1,235 1,239 1,266 1,275 2,290 1,311 1,330 1,345 1,387 1,391 1,405 1,443 1,470 1,512 1,518 1,575 1,601 1,608 1,649 1,652 1}
+{0 F,49 1,52 1,53 1,59 2,73 2,74 1,144 1,157 1,172 2,209 1,239 1,266 1,275 2,290 1,311 1,330 1,345 1,387 1,391 1,405 1,443 1,470 1,512 1,518 1,575 1,583 1,601 1,608 1,649 1,652 1}
+{0 F,49 1,52 1,53 1,59 2,73 2,74 1,144 1,157 1,172 2,209 1,236 1,239 1,266 1,275 2,290 1,311 1,330 1,345 1,387 1,391 1,405 1,443 1,470 1,512 1,518 1,575 1,601 1,608 1,649 1,652 1}
+{0 F,49 1,52 1,53 1,59 1,130 1,157 1,205 1,237 1,311 1,395 1,398 1,427 1,703 1}
+{0 F,49 1,52 1,53 1,58 1,59 1,76 2,144 1,158 1,214 1,227 1,258 1,290 1,295 1,311 1,445 1,455 1,470 1,525 1,530 1,539 2,585 1,605 1,693 1,699 1,701 1}
+{0 F,49 1,52 1,53 1,76 2,245 1,246 1,301 1,311 1,329 2,330 2,381 1,422 1,432 1,433 1,440 1,463 1,464 1,472 1,475 1,494 1,500 1,523 1,524 1,541 1,560 1,578 1,585 2,626 2,631 1,688 1,700 1,709 1,712 1,723 1}
+{0 F,2 1,35 1,49 1,52 1,53 1,90 1,153 1,309 1,350 1,433 1,475 1,532 1,541 1,584 1,642 1,646 1,651 1,659 1,694 1,709 1}
+{0 F,49 1,52 1,53 1,59 1,76 1,128 1,218 1,227 1,309 1,311 1,334 4,362 1,421 1,474 1,482 1,486 1,610 1,618 1,626 2,635 1,696 1,702 1,724 1}
+{0 F,49 1,52 1,53 1,59 1,76 1,128 1,218 1,227 1,309 1,311 1,334 4,363 1,421 1,474 1,482 1,486 1,610 1,618 1,626 2,635 1,696 1,702 1,724 1}
+{0 F,49 1,52 1,53 1,59 2,76 1,90 1,128 1,218 1,309 1,334 4,421 1,474 1,482 1,486 1,580 1,610 1,618 1,626 2,635 1,696 1,702 1,724 1}
+{0 F,49 1,52 1,53 1,73 2,148 2,205 1,217 1,235 1,290 2,311 1,360 1,393 1,404 2,428 1,459 1,487 1,500 2,503 2,570 1,594 2,615 1,718 2}
+{0 F,49 1,52 1,53 1,58 1,73 1,94 1,172 1,181 1,235 1,246 1,286 1,287 1,290 1,303 1,311 1,329 1,335 1,379 1,401 1,402 1,403 1,420 1,430 1,436 1,473 1,483 1,491 1,511 1,523 1,540 1,599 1,606 1,617 2,621 1,654 1,669 1,688 1,719 1}
+{0 F,28 1,33 1,49 1,52 1,53 1,59 1,74 1,76 1,129 1,130 1,166 1,218 1,228 1,270 1,290 1,302 1,307 1,311 1,329 1,338 1,347 1,357 1,358 1,374 1,377 1,382 1,401 1,437 1,506 1,517 1,546 4,559 1,565 1,622 1,674 1,677 1,686 1}
+{0 F,49 1,52 1,53 1,59 1,144 1,228 1,311 1,332 1,339 1,346 1,349 1,460 1,516 3,575 1,602 1,705 2}
+{0 F,49 1,52 1,53 1,59 1,144 1,235 1,311 1,332 1,339 1,346 1,349 1,460 1,516 3,575 1,602 1,705 2}
+{0 F,49 1,52 1,53 1,54 1,74 1,205 1,211 1,228 1,280 1,311 1,407 1,424 1,457 1,464 1,531 1,540 1,545 1,655 1,666 1,668 2,684 1,715 1}
+{0 F,49 1,52 1,53 1,54 1,74 1,211 1,280 1,311 1,407 1,424 1,457 1,464 1,469 1,478 1,531 1,540 1,545 1,655 1,666 1,668 2,673 1,684 1,715 1}
+{0 F,35 1,49 1,52 1,53 1,59 1,89 1,121 1,129 1,191 1,211 1,222 3,226 1,287 1,301 1,311 1,323 1,330 1,414 1,426 1,447 1,453 1,477 1,493 1,504 1,554 1,564 1,603 1,612 1,653 3,667 1,699 1}
+{0 F,2 1,21 1,23 1,28 1,35 2,49 1,52 1,53 1,90 1,94 1,191 1,211 1,225 1,301 1,309 1,330 1,344 1,371 1,414 1,463 1,481 1,550 1,554 1,575 1,581 1,603 1,623 1,630 1,706 1,726 1,727 1}
+{0 F,2 1,21 1,23 1,28 1,35 2,49 1,52 1,53 1,90 1,94 1,191 1,211 1,225 1,301 1,309 1,330 1,344 1,371 1,414 1,463 1,481 1,550 1,554 1,575 1,584 1,603 1,623 1,630 1,706 1,726 1,727 1}
+{0 F,2 1,21 1,23 1,28 1,35 2,49 1,52 1,53 1,90 1,174 1,191 1,211 1,265 2,301 1,309 1,330 1,344 1,371 1,414 1,463 1,481 1,550 1,554 1,580 1,603 1,623 1,630 1,676 1,706 1,726 1,727 1}
+{0 F,2 1,21 1,23 1,28 1,35 2,49 1,52 1,53 1,174 1,191 1,211 1,227 1,265 2,301 1,309 1,311 1,330 1,344 1,371 1,414 1,463 1,481 1,550 1,554 1,603 1,623 1,630 1,676 1,706 1,726 1,727 1}
+{0 F,2 1,21 1,23 1,28 1,35 2,49 1,52 1,53 1,174 1,191 1,211 1,265 2,301 1,309 1,311 1,330 1,344 1,371 1,414 1,463 1,481 1,550 1,554 1,576 1,603 1,623 1,630 1,676 1,706 1,726 1,727 1}
+{0 F,49 1,52 1,53 1,59 2,95 1,229 1,266 2,311 1,323 1,330 1,359 1,400 1,435 1,464 1,465 1,508 1,538 1,571 1,614 1,648 1,665 1,710 2,717 1}
+{0 F,49 1,52 1,53 1,59 1,144 2,158 1,193 1,217 2,228 1,239 1,266 1,275 1,277 3,299 1,309 1,311 1,329 2,333 4,340 1,371 2,397 1,406 1,429 2,431 1,450 1,515 1,521 1,544 1,551 1,557 1,558 1,572 1,575 1,595 1,601 1,607 2,611 1,612 1,624 1,680 1,697 1,698 1,721 1}
+{0 F,49 1,52 1,53 1,58 1,59 1,95 2,172 1,181 2,193 1,228 1,256 2,266 1,267 1,274 2,311 1,416 1,444 1,464 1,499 1,510 1,515 1,522 1,566 1,596 1,645 1,657 1,709 1,713 1}
+{0 F,28 1,33 1,49 1,52 1,53 1,54 1,59 1,73 2,74 2,76 1,144 1,150 1,158 1,172 1,214 1,227 1,286 1,290 1,302 1,307 1,311 1,318 2,333 1,338 1,360 1,392 1,456 1,458 1,461 1,462 1,463 2,473 1,479 1,484 2,493 1,500 1,507 1,508 2,525 1,529 1,561 1,567 1,568 1,573 1,575 1,600 1,617 1,619 2,637 1,640 1,658 1,670 1,676 2,690 1,699 1,714 1,716 1}
+{0 F,49 1,52 1,53 1,59 1,99 3,163 1,208 1,217 1,228 1,270 1,311 1,329 1,386 1,480 1,495 1,496 1,505 1,549 1,555 1,590 1,662 1,719 1}
+{0 F,49 1,52 1,53 1,54 1,76 2,95 1,228 1,301 1,311 1,527 1,537 2,548 1,585 2,588 1,589 1,607 1,618 3,627 1,656 1,663 1,675 1,682 1,687 1}
+{0 F,49 1,52 1,53 1,59 1,76 1,144 1,166 1,222 1,246 1,290 2,301 1,311 1,329 1,330 1,369 1,383 1,438 2,441 1,483 1,529 1,571 2,575 1,582 1,591 1,599 1,613 2,616 2,617 3,640 2,671 1,676 1,679 1,689 1}
+{0 F,49 1,52 1,53 1,59 1,96 1,130 1,228 1,264 1,311 1,343 1,348 1,434 1,476 1,502 1,520 1,539 2,569 1,625 1,633 1,638 1,685 1}
+{0 F,49 1,52 1,53 1,54 1,55 1,59 1,63 3,73 3,84 1,103 1,129 5,130 2,217 2,237 1,243 3,270 4,271 1,287 1,290 2,302 1,311 1,323 2,329 1,330 5,361 1,468 2,534 1,536 2,561 2,593 1,620 1,634 2,639 2,691 1,692 1,704 3,725 1}
+{0 F,49 1,52 1,53 1,54 1,73 1,105 1,181 1,227 1,311 1,330 2,337 1,417 1,489 1,552 1,617 1,618 1,626 2,650 1,675 1}
+{0 F,49 1,52 1,53 1,235 1,243 3,271 2,277 1,311 1,409 1,410 1,411 2,418 1,425 1,533 1,561 1,628 2,643 1}
+{0 F,49 1,52 1,53 1,163 1,235 1,271 2,277 1,311 1,409 1,412 2,419 1,533 1,556 1,562 1,574 1,586 1,628 2,644 1}
+{0 F,49 1,52 1,53 1,59 2,191 1,220 1,228 1,311 1,399 1,539 2,636 1,672 2,683 1,707 1}
+{0 F,49 1,52 1,53 1,73 2,74 1,172 1,208 2,224 1,235 1,286 5,311 1,336 8,341 7,367 1,370 1,385 1,394 1,408 1,442 1,446 1,451 1,454 2,466 1,467 1,471 1,485 1,488 2,497 1,498 2,513 1,514 1,544 1,547 7,557 2,592 1,604 2,632 1,708 1,711 1}
+{0 F,2 2,35 1,52 1,53 1,74 1,90 1,153 1,205 1,338 1,350 1,354 1,364 1,401 1,491 1,528 1,532 1,577 1,642 1,651 1,659 1,660 1,694 1}
+{0 F,2 2,35 1,52 1,53 1,74 1,153 1,205 1,235 1,311 1,338 1,350 1,354 1,364 1,401 1,491 1,528 1,532 1,642 1,651 1,659 1,660 1,694 1}
+{0 F,52 1,53 1,54 1,58 1,59 1,74 1,217 1,228 1,291 1,311 1,355 1,373 1,375 1,415 2,501 1,526 1,535 1,543 1,598 1,667 1,695 1,722 2}
