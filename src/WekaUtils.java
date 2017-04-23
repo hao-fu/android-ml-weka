@@ -436,7 +436,7 @@ public class WekaUtils {
         List<String> labels = new ArrayList<>();
         String PERMISSION;
         WekaUtils wekaUtils = new WekaUtils();
-        String mark = "SEND_SMS";
+        String mark = "RECORD_AUDIO"; //SEND_SMS";
         if (!user) {
             PERMISSION = "name"; //Location"; //READ_PHONE_STATE";
             //Instances data = WekaUtils.loadArff();
