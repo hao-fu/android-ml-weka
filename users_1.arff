@@ -1,0 +1,83 @@
+@relation 'docs-weka.filters.unsupervised.attribute.StringToWordVector-R1-W10000-prune-rate-1.0-N0-stemmerweka.core.stemmers.NullStemmer-M1-tokenizerweka.core.tokenizers.WordTokenizer -delimiters \" \\r\\n\\t.,;:\\\'\\\"()?!\"'
+
+@attribute text_label {T,F}
+@attribute 1 numeric
+@attribute 60179 numeric
+@attribute CHECK-IN numeric
+@attribute Cancel numeric
+@attribute Check-in numeric
+@attribute Join numeric
+@attribute Kmart numeric
+@attribute PROCESS numeric
+@attribute Picture numeric
+@attribute Pricing numeric
+@attribute Search numeric
+@attribute Sign numeric
+@attribute Step numeric
+@attribute Take numeric
+@attribute [[ numeric
+@attribute ] numeric
+@attribute activity numeric
+@attribute and numeric
+@attribute android numeric
+@attribute app numeric
+@attribute availability numeric
+@attribute bail numeric
+@attribute based numeric
+@attribute books numeric
+@attribute cart numeric
+@attribute check numeric
+@attribute com numeric
+@attribute drawer numeric
+@attribute for numeric
+@attribute free numeric
+@attribute history numeric
+@attribute in numeric
+@attribute menu numeric
+@attribute on numeric
+@attribute onCreate numeric
+@attribute onDestroy numeric
+@attribute or numeric
+@attribute photo numeric
+@attribute picture numeric
+@attribute points numeric
+@attribute sears numeric
+@attribute see numeric
+@attribute to numeric
+@attribute void numeric
+@attribute your numeric
+@attribute 0 numeric
+@attribute 5 numeric
+@attribute 9MP numeric
+@attribute GPS numeric
+@attribute LOADING numeric
+@attribute News numeric
+@attribute SAVE numeric
+@attribute SIZE numeric
+@attribute Sec numeric
+@attribute Timer numeric
+@attribute activity2 numeric
+@attribute boolean numeric
+@attribute camera numeric
+@attribute design numeric
+@attribute gc numeric
+@attribute hd numeric
+@attribute jp numeric
+@attribute life numeric
+@attribute main numeric
+@attribute material numeric
+@attribute news numeric
+@attribute onCreateOptionsMenu numeric
+@attribute onOptionsItemSelected numeric
+@attribute onTouchEvent numeric
+@attribute scroll numeric
+@attribute snow numeric
+@attribute view numeric
+@attribute views numeric
+
+@data
+{1 1,3 1,4 1,5 1,8 1,9 1,13 1,14 1,15 1,16 1,20 1,22 1,24 1,26 1,27 1,32 1,35 1,38 1,39 1,44 1,45 1}
+{2 1,6 1,7 1,10 1,11 1,12 1,15 1,16 1,17 1,18 1,19 1,21 1,23 1,25 1,27 1,28 1,29 1,30 1,31 1,32 1,33 1,34 1,36 1,37 1,40 1,41 1,42 1,43 1,44 1,45 1}
+{0 F,15 1,16 1,17 1,51 1,57 1,66 1,68 1}
+{0 F,15 1,16 1,27 1,46 1,47 1,48 1,49 1,50 1,52 1,53 1,54 1,55 1,57 1,59 1,60 1,65 1,69 1,70 1,72 1,73 1}
+{0 F,1 1,15 1,16 1,19 1,46 1,47 1,48 1,49 1,50 1,52 1,53 1,54 1,55 1,56 1,57 1,58 1,61 1,62 1,63 1,64 1,67 1,71 1}

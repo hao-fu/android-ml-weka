@@ -4,394 +4,409 @@
 @attribute text_label {T,D,F}
 
 @data
-'[\'<cafe ad riel android audio recorder audio recorder activity \' \' void <init> \']',D
-'[\'<com al kerait h what s apps tt main activity \' \' void setRecognitionListener \']',D
-'[\'<com apple camera i camera pro main camera activity \' \' void setAudioSource \']',D
-'[\'<com bb collaborate collaborate classroom activity \' \' void <init> \']',D
-'[\'<com br leonardo morais lumo s activities wand activity \' \' void <init> \']',D
-'[\'<com call dorado android ui settings activity$16 \' \' void <init> \']',D
-'[\'<com call dorado android ui settings activity$19 \' \' void <init> \']',D
-'[\'<com call dorado android ui settings activity$1 \' \' void <init> \']',D
-'[\'<com call dorado android ui settings activity$1 \' \' void <init> \']',D
-'[\'<com call dorado android ui settings activity$2 \' \' void <init> \']',D
-'[\'<com call dorado android ui settings activity$3 \' \' void <init> \']',D
-'[\'<com call dorado android ui settings activity$6 \' \' void <init> \']',D
-'[\'<com call dorado android ui settings activity$6 \' \' void <init> \']',D
-'[\'<com call dorado android ui settings activity$7 \' \' void <init> \']',D
-'[\'<com call dorado android ui settings activity$8 \' \' void <init> \']',D
-'[\'<com call dorado android ui settings activity \' \' void <init> \']',D
-'[\'<com cc eliza main activity \' \' void setRecognitionListener \']',D
-'[\'<com ci alien chat login activity$2 \' \' void <init> \']',D
-'[\'<com grace microphone activities mic activity \' \' void <init> \']',D
-'[\'<com grace microphone activities mic activity \' \' void <init> \']',D
-'[\'<com g voip sms s m s conversation activity \' \' void <init> \']',D
-'[\'<com hb view spy smart activity video channels landscape activity$22 \' \' void <init> \']',D
-'[\'<com ice chen 1 speech jammer main activity \' \' void <init> \']',D
-'[\'<com k recorder call ui audio setting preference \' \' void <init> \']',D
-'[\'<com lio u cool cam h b  main activity \' \' void <init> \']',D
-'[\'<com me it u my xj video editor activity video save activity$1 \' \' void <init> \']',D
-'[\'<com microphone ear spy microphone activity \' \' void <init> \']',D
-'[\'<com m searcher cam find activity search search lists activity \' \' void <init> \']',D
-'[\'<com panasonic a vc cng view camera connect guidance menu activity \' \' void <init> \']',D
-'[\'<com panasonic a vc cng view camera connect guidance menu activity \' \' void <init> \']',D
-'[\'<com panasonic a vc cng view live view movie home monitor live view movie pantilter remote voice activity \' \' void <init> \']',D
-'[\'<com panasonic a vc cng view live view movie home monitor live view movie pantilter remote watch preset activity \' \' void <init> \']',D
-'[\'<com phone fusion voice mail plus ui p f1 s m s activity \' \' void <init> \']',D
-'[\'<com q is i search search activity \' \' void <init> \']',D
-'[\'<com r creations basic ipcamviewer gallery view activity \' \' void <init> \']',D
-'[\'<com reb tel android client views contact details chat fragment \' \' void <init> \']',D
-'[\'<com seattle clouds modules voice record voice record picker activity \' \' void setAudioSource \']',D
-'[\'<com seattle clouds modules voice record voice record picker activity \' \' void setAudioSource \']',D
-'[\'<com seattle clouds modules voice record voice record picker activity \' \' void setAudioSource \']',D
-'[\'<com seattle clouds modules voice record voice record picker activity \' \' void setAudioSource \']',D
-'[\'<com seattle clouds modules voice record voice record picker activity \' \' void setAudioSource \']',D
-'[\'<com seattle clouds modules voice record voice record picker activity \' \' void setAudioSource \']',D
-'[\'<com seattle clouds modules voice record voice record picker activity \' \' void setAudioSource \']',D
-'[\'<com seattle clouds modules voice record voice record picker activity \' \' void setAudioSource \']',D
-'[\'<com seattle clouds modules voice record voice record picker activity \' \' void setAudioSource \']',D
-'[\'<com seattle clouds modules voice record voice record picker activity \' \' void setAudioSource \']',D
-'[\'<com sms robot call recorder call player$5 \' \' void <init> \']',D
-'[\'<com sms robot call recorder call recorder \' \' void <init> \']',D
-'[\'<com sms robot call recorder call recorder \' \' void <init> \']',D
-'[\'<com sms robot call recorder exit dialog activity \' \' void <init> \']',D
-'[\'<com sms robot call recorder exit dialog activity \' \' void <init> \']',D
-'[\'<com sms robot call u call recorder \' \' void <init> \']',D
-'[\'<com sms robot call u call recorder \' \' void <init> \']',D
-'[\'<com sms robot call u exit dialog activity \' \' void <init> \']',D
-'[\'<com talk english conversation activity lesson activity \' \' void <init> \']',D
-'[\'<com talk english conversation activity main activity \' \' void <init> \']',D
-'[\'<com the fashion camera main activity \' \' void setAudioSource \']',D
-'[\'<com tut k i p cam one p2 p cam264  main activity \' \' void <init> \']',D
-'[\'<com wi fi walk ie main \' \' void <init> \']',D
-'[\'<com wi fi walk ie main \' \' void <init> \']',D
-'[\'<com wi fi walk ie main \' \' void <init> \']',D
-'[\'<com wi fi walk ie main \' \' void <init> \']',D
-'[\'<com wi fi walk ie main \' \' void <init> \']',D
-'[\'<com wi fi walk ie main \' \' void <init> \']',D
-'[\'<icechen1 com blackbox activities record activity \' \' void <init> \']',D
-'[\'<mobile e audio logia usta wien i a czest badania \' \' void <init> \']',D
-'[\'<mobile e audio logia usta wien i a ustawienia \' \' void <init> \']',D
-'[\'<net sourceforge hd kamer a profs main activity \' \' void setAudioSource \']',D
-'[\'<com ad hoc labs burner burner settings activity \' \' void <init> \']',F
-'[\'<com ad hoc labs burner choose area code activity \' \' void <init> \']',F
-'[\'<com ad hoc labs burner enter contact activity$1 \' \' void <init> \']',F
-'[\'<com ad marvel android ads ad marvel video activity \' \' void <init> \']',F
-'[\'<com amazon device ads ad activity \' \' void <init> \']',F
-'[\'<com android camera crop image$2 \' \' void <init> \']',F
-'[\'<com android camera crop image \' \' void <init> \']',F
-'[\'<com android camera gallery picker \' \' void <init> \']',F
-'[\'<com android camera gallery picker \' \' void <init> \']',F
-'[\'<com android camera image gallery$3 \' \' void <init> \']',F
-'[\'<com android input method latin settings custom theme u\' \' void <init> \']',F
-'[\'<com android input method latin settings dictionary activity \' \' void <init> \']',F
-'[\'<com android input method latin settings h list view \' \' void <init> \']',F
-'[\'<com android input method latin settings h list view \' \' void <init> \']',F
-'[\'<com android input method latin settings h list view \' \' void <init> \']',F
-'[\'<com app nana android gift card rewards how to activity \' \' void setRecognitionListener \']',F
-'[\'<com app nana android gift card rewards main activity \' \' void setRecognitionListener \']',F
-'[\'<com app star call recorder core contacts2 auto save activity \' \' void <init> \']',F
-'[\'<com at lassi an j connect droid activity feedback activity \' \' void setAudioSource \']',F
-'[\'<com at lassi an j connect droid activity feedback inbox activity \' \' void setAudioSource \']',F
-'[\'<com at lassi an j connect droid activity feedback inbox activity \' \' void setAudioSource \']',F
-'[\'<com at t android speech a t t speech activity \' \' void <init> \']',F
-'[\'<com baidu mob ads app activity \' \' void <init> \']',F
-'[\'<com bit box daily funny history activity \' \' void <init> \']',F
-'[\'<com bit box daily funny show funny \' \' void <init> \']',F
-'[\'<com bit box daily funny show funny \' \' void <init> \']',F
-'[\'<com bit suites shake feedback library status activity \' \' void <init> \']',F
-'[\'<com bravo lang dictionary spanish history \' \' void <init> \']',F
-'[\'<com call dorado android ui after call activity$1 \' \' void <init> \']',F
-'[\'<com call dorado android ui after call activity \' \' void <init> \']',F
-'[\'<com call dorado android ui after call activity \' \' void <init> \']',F
-'[\'<com call dorado android ui provide info activity \' \' void <init> \']',F
-'[\'<com call dorado android ui settings activity \' \' void <init> \']',F
-'[\'<com call dorado android ui settings activity \' \' void <init> \']',F
-'[\'<com call dorado android ui settings activity \' \' void <init> \']',F
-'[\'<com call dorado android ui settings activity \' \' void <init> \']',F
-'[\'<com call dorado android ui settings activity \' \' void <init> \']',F
-'[\'<com cam share cam frog app cam frog store gift category gift category activity \' \' void <init> \']',F
-'[\'<com cam share cam frog app cam frog store sticker detail sticker detail activity \' \' void <init> \']',F
-'[\'<com cam share cam frog app contacts contact list activity \' \' void <init> \']',F
-'[\'<com cerulean studios trillian android initial app loading screen \' \' void setAudioSource \']',F
-'[\'<com cerulean studios trillian android initial app loading screen \' \' void setAudioSource \']',F
-'[\'<com cerulean studios trillian android initial app loading screen \' \' void setAudioSource \']',F
-'[\'<com cerulean studios trillian android invite contact by phone screen$1 \' \' void setAudioSource \']',F
-'[\'<com cerulean studios trillian android set status activity \' \' void setAudioSource \']',F
-'[\'<com cerulean studios trillian android wizard accounts activity$1 \' \' void setAudioSource \']',F
-'[\'<com cerulean studios trillian android wizard accounts activity$2 \' \' void setAudioSource \']',F
-'[\'<com cerulean studios trillian android wizard accounts activity \' \' void setAudioSource \']',F
-'[\'<com clip interactive clip library activity notification activity \' \' void <init> \']',F
-'[\'<com cool apps change my voice main activity \' \' void <init> \']',F
-'[\'<com cp m pos component activity home activity \' \' void <init> \']',F
-'[\'<com cp m pos component activity tools activity \' \' void <init> \']',F
-'[\'<com cp m pos more activity contact us activity \' \' void <init> \']',F
-'[\'<com cp m pos more activity new alerts manager activity \' \' void <init> \']',F
-'[\'<com cp m pos more activity nickname activity \' \' void <init> \']',F
-'[\'<com cp m pos more activity system alerts activity \' \' void <init> \']',F
-'[\'<com cp m pos payment cc sale activity select card reader activity \' \' void <init> \']',F
-'[\'<com cp m pos payment cc sale activity select card reader activity \' \' void <init> \']',F
-'[\'<com cp m pos payment gc issue activity g c issue confirmation activity$1 \' \' void <init> \']',F
-'[\'<com cp m pos payment gc issue activity g c issue confirmation activity$3 \' \' void <init> \']',F
-'[\'<com cp m pos payment product view create catalog item view \' \' void <init> \']',F
-'[\'<com cp m pos payment product view product catalog list view \' \' void <init> \']',F
-'[\'<com cp m pos tools activity discount calculation activity \' \' void <init> \']',F
-'[\'<com cp m pos tools activity discount calculation activity \' \' void <init> \']',F
-'[\'<com cp m pos use rau th activity change pwrd activity$5 \' \' void <init> \']',F
-'[\'<com cp m pos use rau th activity get o t p activity \' \' void <init> \']',F
-'[\'<com cp m pos use rau th activity get o t p activity \' \' void <init> \']',F
-'[\'<com cp m pos use rau th activity get o t p activity \' \' void <init> \']',F
-'[\'<com cp m pos use rau th activity sign up activity \' \' void <init> \']',F
-'[\'<com cp m pos use rau th activity sign up activity \' \' void <init> \']',F
-'[\'<com cp m pos view amount entry text \' \' void <init> \']',F
-'[\'<com deep work chroma camera main activity \' \' void <init> \']',F
-'[\'<com dig i pom easy voice recorder ui activity about activity \' \' void <init> \']',F
-'[\'<com dig i pom easy voice recorder ui activity about release notes dialog activity \' \' void <init> \']',F
-'[\'<com dig i pom easy voice recorder ui activity recommended apps activity \' \' void <init> \']',F
-'[\'<com droid 4 y o u util crop image crop image$2 \' \' void <init> \']',F
-'[\'<com droid utilities free talk fb login activity \' \' void <init> \']',F
-'[\'<com d studios napa facebook activity \' \' void <init> \']',F
-'[\'<com d studios napa home activity \' \' void <init> \']',F
-'[\'<com d studios napa home activity \' \' void <init> \']',F
-'[\'<com el avon internet secure ui activities settings activity \' \' void <init> \']',F
-'[\'<com fun be rs app ui about application activity \' \' void <init> \']',F
-'[\'<com fun be rs app ui funber settings activity \' \' void <init> \']',F
-'[\'<com g ez kik lock  activities main activity \' \' void <init> \']',F
-'[\'<com google z xing client android book search book contents activity \' \' void <init> \']',F
-'[\'<com g paddy app lock ui activity app lock activity \' \' void <init> \']',F
-'[\'<com g paddy app lock ui activity gesture check activity \' \' void <init> \']',F
-'[\'<com g paddy app lock ui activity guide activity \' \' void <init> \']',F
-'[\'<com g paddy app lock ui activity number check activity \' \' void <init> \']',F
-'[\'<com g paddy app lock ui activity number create activity \' \' void <init> \']',F
-'[\'<com g paddy app lock ui activity tips lock activity$3 \' \' void <init> \']',F
-'[\'<com g paddy app lock ui widget action view action view \' \' void <init> \']',F
-'[\'<com g paddy app lock ui widget lock pattern view \' \' void <init> \']',F
-'[\'<com haw soft mobile speech trans main history activity \' \' void <init> \']',F
-'[\'<com haw soft mobile speech trans mu lang activity \' \' void <init> \']',F
-'[\'<com hb view spy smart activity login login activity \' \' void <init> \']',F
-'[\'<com hey zap sdk ads mediation test activity \' \' void <init> \']',F
-'[\'<com i2c m cp fragments signature activity \' \' void <init> \']',F
-'[\'<com jac apps wallaby main activity \' \' void <init> \']',F
-'[\'<com jared co caller id pro splash activity \' \' void <init> \']',F
-'[\'<com jb go keyboard theme t me flowers kb d vero base activate activity$1 \' \' void <init> \']',F
-'[\'<com jb go keyboard theme t me flowers kb d vero themes themes activity \' \' void <init> \']',F
-'[\'<com k guard k view q r  logo activity \' \' void <init> \']',F
-'[\'<com knm tech kids speller blends download \' \' void <init> \']',F
-'[\'<com knm tech kids speller blends \' \' void <init> \']',F
-'[\'<com lemon face u camera camera activity \' \' void <init> \']',F
-'[\'<com liber a thor diapason main activity \' \' void <init> \']',F
-'[\'<com liber a thor diapason main activity \' \' void <init> \']',F
-'[\'<com me it u mei yan camera share share instagram activity \' \' void <init> \']',F
-'[\'<com metro pcs service v vm activity email setup activity$5 \' \' void setAudioSource \']',F
-'[\'<com metro pcs service v vm activity email setup activity \' \' void setAudioSource \']',F
-'[\'<com metro pcs service v vm activity email setup activity \' \' void setAudioSource \']',F
-'[\'<com metro pcs service v vm activity settings activity \' \' void setAudioSource \']',F
-'[\'<com metro pcs service v vm activity setup create pin activity \' \' void setAudioSource \']',F
-'[\'<com metro pcs service v vm activity setup launch setup activity \' \' void setAudioSource \']',F
-'[\'<com metro pcs service v vm activity setup launch setup activity \' \' void setAudioSource \']',F
-'[\'<com metro pcs service v vm activity setup p v m upgrade activity \' \' void setAudioSource \']',F
-'[\'<com metro pcs service v vm activity setup p v m upgrade activity \' \' void setAudioSource \']',F
-'[\'<com metro pcs service v vm activity setup record greeting activity$8 \' \' void setAudioSource \']',F
-'[\'<com mix panel android surveys survey activity \' \' void <init> \']',F
-'[\'<com mix panel android surveys survey activity \' \' void <init> \']',F
-'[\'<com mobil io marine forecaster service service business activity \' \' void <init> \']',F
-'[\'<com mobil io marine forecaster service service country activity \' \' void <init> \']',F
-'[\'<com mob i systems ms dic t viewer main activity \' \' void <init> \']',F
-'[\'<com mob i systems ms dic t viewer main activity \' \' void <init> \']',F
-'[\'<com mob i systems ms dic t viewer main activity \' \' void <init> \']',F
-'[\'<com mob i systems ms dic t viewer main activity \' \' void <init> \']',F
-'[\'<com mob i systems ms dic t viewer main activity \' \' void <init> \']',F
-'[\'<com mob i systems ms dic t viewer main activity \' \' void <init> \']',F
-'[\'<com mob i systems ms dic t viewer main activity \' \' void <init> \']',F
-'[\'<com mo pub common mo pub browser \' \' void <init> \']',F
-'[\'<com mo pub common mo pub browser \' \' void <init> \']',F
-'[\'<com mo pub common mo pub browser \' \' void <init> \']',F
-'[\'<com mo pub mobile ads mraid video player activity \' \' void <init> \']',F
-'[\'<com mo pub mobile ads mraid video player activity \' \' void <init> \']',F
-'[\'<com mo pub mobile ads mraid video player activity \' \' void <init> \']',F
-'[\'<com m searcher cam find activity main activity \' \' void <init> \']',F
-'[\'<com m searcher cam find activity movie search movie playing activity \' \' void <init> \']',F
-'[\'<com m searcher cam find custom view grid view with header and footer \' \' void <init> \']',F
-'[\'<com m searcher cam find custom view grid view with header and footer \' \' void <init> \']',F
-'[\'<com m searcher cam find custom view grid view with header and footer \' \' void <init> \']',F
-'[\'<com my wick r gui update password \' \' void <init> \']',F
-'[\'<com n7mobile n player gl screen pref s activity preferences albumarts \' \' void <init> \']',F
-'[\'<com nikon spot on country selector \' \' void <init> \']',F
-'[\'<com nikon spot on m z powder select \' \' void <init> \']',F
-'[\'<com nikon spot on wind meter w f \' \' void <init> \']',F
-'[\'<com nll as r activity file browser activity \' \' void <init> \']',F
-'[\'<com nll as r activity recordings activity \' \' void <init> \']',F
-'[\'<com nll cloud web server activity \' \' void <init> \']',F
-'[\'<com normal lab values simple main activity \' \' void <init> \']',F
-'[\'<com panasonic a vc cng view camera connect camera connect activity \' \' void <init> \']',F
-'[\'<com panasonic a vc cng view camera connect guidance menu activity \' \' void <init> \']',F
-'[\'<com panasonic a vc cng view camera connect guidance menu activity \' \' void <init> \']',F
-'[\'<com panasonic a vc cng view geo tag geo tag activity \' \' void <init> \']',F
-'[\'<com panasonic a vc cng view live view movie home monitor live view movie pantilter remote voice activity \' \' void <init> \']',F
-'[\'<com panasonic a vc cng view live view movie home monitor live view movie pantilter remote watch preset activity \' \' void <init> \']',F
-'[\'<com panasonic a vc cng view live view movie mat an it y live view movie matanity main activity \' \' void <init> \']',F
-'[\'<com panasonic a vc cng view play highlight highlight activity \' \' void <init> \']',F
-'[\'<com panasonic a vc cng view play movie slideshow select picture activity \' \' void <init> \']',F
-'[\'<com panasonic a vc cng view play movie slideshow setup movie slideshow setting activity \' \' void <init> \']',F
-'[\'<com panasonic a vc cng view play multi photo frame multi photo frame execute activity \' \' void <init> \']',F
-'[\'<com panasonic a vc cng view play multi photo frame multi photo frame main activity \' \' void <init> \']',F
-'[\'<com panasonic a vc cng view play snap movie snap movie one content preview activity \' \' void <init> \']',F
-'[\'<com panasonic a vc cng view play split delete split delete file select activity \' \' void <init> \']',F
-'[\'<com panasonic a vc cng view setting aaf\' \' void <init> \']',F
-'[\'<com panasonic a vc cng view setting camera all delete activity \' \' void <init> \']',F
-'[\'<com panasonic a vc cng view setting camera power off activity \' \' void <init> \']',F
-'[\'<com panasonic a vc cng view setting cl\' \' void <init> \']',F
-'[\'<com panasonic a vc cng view setting create password activity \' \' void <init> \']',F
-'[\'<com panasonic a vc cng view setting easy wi fi setting activity \' \' void <init> \']',F
-'[\'<com panasonic a vc cng view setting login activity \' \' void <init> \']',F
-'[\'<com panasonic a vc cng view setting mirrorless stopmotion one content preview activity \' \' void <init> \']',F
-'[\'<com panasonic a vc cng view setting mirrorless stopmotion operation activity \' \' void <init> \']',F
-'[\'<com panasonic a vc cng view setting picture jump setup activity \' \' void <init> \']',F
-'[\'<com panasonic a vc cng view setting regist equipment info activity \' \' void <init> \']',F
-'[\'<com panasonic a vc cng view setting setup connect home network setting activity \' \' void <init> \']',F
-'[\'<com panasonic a vc cng view setting setup connect setting activity \' \' void <init> \']',F
-'[\'<com pix lr feeds ui head foot recycler view \' \' void <init> \']',F
-'[\'<com pizza entertainment parallax wp main activity \' \' void <init> \']',F
-'[\'<com q2 mc tr mobile container \' \' void <init> \']',F
-'[\'<com q is i crop image crop image view \' \' void <init> \']',F
-'[\'<com q is i crop image crop image view \' \' void <init> \']',F
-'[\'<com q is i crop image crop image view \' \' void <init> \']',F
-'[\'<com q is i crop image d\' \' void <init> \']',F
-'[\'<com q is i i keyboard u ire struct g\' \' void <init> \']',F
-'[\'<com q is i sticker b\' \' void <init> \']',F
-'[\'<com q is i sticker b\' \' void <init> \']',F
-'[\'<com q is i sticker sticker image custom activity \' \' void <init> \']',F
-'[\'<com q raider w i a a  j j r menu activity \' \' void <init> \']',F
-'[\'<com rc platform hd camera activity instagram send activity \' \' void <init> \']',F
-'[\'<com rc platform hd camera activity path select activity \' \' void <init> \']',F
-'[\'<com rc platform hd camera activity picture preview activity \' \' void <init> \']',F
-'[\'<com rc platform self ie camera activity instagram send activity \' \' void <init> \']',F
-'[\'<com r creations basic ipcamviewer determine type activity$6 \' \' void <init> \']',F
-'[\'<com r creations basic ipcamviewer interstitial ad activity \' \' void <init> \']',F
-'[\'<com reader hdmi main \' \' void <init> \']',F
-'[\'<com reb tel android client facebook facebook details activity \' \' void <init> \']',F
-'[\'<com reb tel android client sign up signup login activity \' \' void <init> \']',F
-'[\'<com reb tel android client sms reb tel sms rebtel sms fragment \' \' void <init> \']',F
-'[\'<com samsung samsung band controller main activity \' \' void <init> \']',F
-'[\'<com s coo mpa ads lib full screen offer activity$1 \' \' void <init> \']',F
-'[\'<com s coo mpa ads lib full screen offer activity \' \' void <init> \']',F
-'[\'<com s coo mpa ads lib more apps dialog activity$1 \' \' void <init> \']',F
-'[\'<com s coo mpa ads lib more apps dialog activity$2 \' \' void <init> \']',F
-'[\'<com s coo mpa ads lib more apps dialog activity \' \' void <init> \']',F
-'[\'<com s coo mpa ads lib more apps dialog activity \' \' void <init> \']',F
-'[\'<com seattle clouds modules voice record voice record picker activity \' \' void setAudioSource \']',F
-'[\'<com seattle clouds modules voice record voice record picker activity \' \' void setAudioSource \']',F
-'[\'<com selfish op camera gallery activity \' \' void setAudioSource \']',F
-'[\'<com s elva raj two way android ui keypad activity \' \' void <init> \']',F
-'[\'<com s elva raj two way android ui local activity \' \' void <init> \']',F
-'[\'<com side feed login ui login activity \' \' void <init> \']',F
-'[\'<com side feed settings module ui settings mail activity \' \' void <init> \']',F
-'[\'<com side feed settings module ui settings ng users activity \' \' void <init> \']',F
-'[\'<com singular hijack auto t\' \' void <init> \']',F
-'[\'<com skyward mobile access company credentials activity \' \' void setRecognitionListener \']',F
-'[\'<com sma a to soma expanded banner activity \' \' void <init> \']',F
-'[\'<com sms robot call u start activity \' \' void <init> \']',F
-'[\'<com snore lab app ui remedies activity \' \' void <init> \']',F
-'[\'<com ss515sreader g\' \' void <init> \']',F
-'[\'<com statuses auth activity \' \' void <init> \']',F
-'[\'<com statuses twitter twitter activity \' \' void <init> \']',F
-'[\'<com s timer s timer activity \' \' void <init> \']',F
-'[\'<com sun app developer super hearing aid all volumes \' \' void <init> \']',F
-'[\'<com sun app developer super hearing aid zam activity \' \' void <init> \']',F
-'[\'<com talk english conversation activity record list activity \' \' void <init> \']',F
-'[\'<com t me studios live wallpaper wallpaper settings activity \' \' void <init> \']',F
-'[\'<com user voice user voices dk activity portal activity \' \' void <init> \']',F
-'[\'<com where the hell are you root activity \' \' void <init> \']',F
-'[\'<com wise view client decode capture activity \' \' void <init> \']',F
-'[\'<com w om swp ad activity dropbox activity \' \' void setAudioSource \']',F
-'[\'<com w om swp ad activity s p login \' \' void setAudioSource \']',F
-'[\'<com w om swp ad activity sync settings activity \' \' void setAudioSource \']',F
-'[\'<com yak o safe kids activity about \' \' void <init> \']',F
-'[\'<com yak o safe kids activity call us \' \' void <init> \']',F
-'[\'<com yak o safe kids activity connexion \' \' void <init> \']',F
-'[\'<com yak o safe kids activity kids other details \' \' void <init> \']',F
-'[\'<com yak o safe kids activity notice \' \' void <init> \']',F
-'[\'<com yak o safe kids activity profil setting \' \' void <init> \']',F
-'[\'<com yak o safe kids activity setting \' \' void <init> \']',F
-'[\'<com zephyr analyser p r o sound sound analyser activity \' \' void <init> \']',F
-'[\'<de g fred plays to reversion main activity \' \' void <init> \']',F
-'[\'<de siemens mini tek remote u i  setup choose interface activity \' \' void <init> \']',F
-'[\'<embware activity blocked activity \' \' void <init> \']',F
-'[\'<embware activity contacts activity \' \' void <init> \']',F
-'[\'<embware activity conversation activity \' \' void <init> \']',F
-'[\'<embware dialog change notification dialog \' \' void <init> \']',F
-'[\'<eu jan muller android simple crop image crop image \' \' void <init> \']',F
-'[\'<info kf soft calendar main activity \' \' void setAudioSource \']',F
-'[\'<it dove con vie ne android alerts activity \' \' void <init> \']',F
-'[\'<it dove con vie ne android settings location activity \' \' void <init> \']',F
-'[\'<it gma riot ti android example navigation drawer biblia activity \' \' void <init> \']',F
-'[\'<kankan wheel widget wheel view \' \' void <init> \']',F
-'[\'<markcparanormal paranormal live ghost box e v p recorder \' \' void <init> \']',F
-'[\'<mobi android cloud app pt t client chat activity \' \' void setAudioSource \']',F
-'[\'<mobile e audio logia usta wien i a o aplikacji \' \' void <init> \']',F
-'[\'<mobile e audio logia usta wien i a ustawienia synchronizacja \' \' void <init> \']',F
-'[\'<net hockey app android feedback activity \' \' void <init> \']',F
-'[\'<net hockey app android feedback activity \' \' void <init> \']',F
-'[\'<net slick deals android login activity \' \' void <init> \']',F
-'[\'<net slick deals android rate home activity \' \' void <init> \']',F
-'[\'<net slick deals android rate main activity \' \' void <init> \']',F
-'[\'<object p2pwificam activity client about activity \' \' void <init> \']',F
-'[\'<object p2pwificam activity client add camera activity \' \' void <init> \']',F
-'[\'<object p2pwificam activity client drone gallery activity \' \' void <init> \']',F
-'[\'<object p2pwificam activity client event detail activity \' \' void <init> \']',F
-'[\'<object p2pwificam activity client ipcam client activity$21 \' \' void <init> \']',F
-'[\'<org mozilla gecko browser app \' \' void <init> \']',F
-'[\'<org sky team activities sky team scan activity$3 \' \' void <init> \']',F
-'[\'<org sky team activities sky team scan activity \' \' void <init> \']',F
-'[\'<ru y and ex translate activities offline d m activity \' \' void <init> \']',F
-'[\'<scomboreader demo sdk 2 s combo reader activity \' \' void <init> \']',F
-'[\'<us text r anonytext  chat audio activity \' \' void setAudioSource \']',F
-'[\'<yuku per ekam mp 3 ac wifi server activity \' \' void <init> \']',F
-'[\'<com al kerait h what s apps tt main activity \' \' void startListening \']',T
-'[\'<com app app 4 e 5 e d 3 c 6 1 d 6 6 audio recording activity$6 \' \' void setAudioSource \']',T
-'[\'<com app y pie app y pie ab 8 4 0 c 2 3 4 a a 2 audio recording activity$3 \' \' void setAudioSource \']',T
-'[\'<com app y pie app y pie b 6 0 2 3 4 4 1 0 c f 3 audio recording activity$5 \' \' void setAudioSource \']',T
-'[\'<com app y pie app y pie e 7 b 7 0 5 d 1 d 5 1 9 audio recording activity$3 \' \' void setAudioSource \']',T
-'[\'<com audio now digital player library ui station social reporter sound recorder$1 \' \' void setAudioSource \']',T
-'[\'<com audio now digital player library ui station social reporter sound recorder$1 \' \' void setAudioSource \']',T
-'[\'<com can delay pica pica sms gratis activities voice message activity$6 \' \' void setAudioSource \']',T
-'[\'<com cc eliza main activity$4 \' \' void startListening \']',T
-'[\'<com citri x online universal ui views in session footer \' \' void <init> \']',T
-'[\'<com citri x online universal ui views in session title bar \' \' void <init> \']',T
-'[\'<com cool apps change my voice main activity$2 \' \' void <init> \']',T
-'[\'<com grace microphone activities mic activity$16 \' \' void <init> \']',T
-'[\'<com grace microphone activities mic activity \' \' void <init> \']',T
-'[\'<com grace microphone activities mic activity \' \' void <init> \']',T
-'[\'<com herman ring tone my recorder sound recorder \' \' void setAudioSource \']',T
-'[\'<com metro pcs service v vm activity greetings activity$3 \' \' void setAudioSource \']',T
-'[\'<com microsoft aad adal authentication activity \' \' void <init> \']',T
-'[\'<com panasonic a vc cng view live view live view lumix activity \' \' void <init> \']',T
-'[\'<com panasonic a vc cng view live view movie home monitor live view movie pantilter remote voice activity \' \' void <init> \']',T
-'[\'<com seattle clouds modules voice record t\' \' void setAudioSource \']',T
-'[\'<com seattle clouds modules voice record t\' \' void setAudioSource \']',T
-'[\'<com seattle clouds modules voice record t\' \' void setAudioSource \']',T
-'[\'<com seattle clouds modules voice record u\' \' void setAudioSource \']',T
-'[\'<com seattle clouds modules voice record u\' \' void setAudioSource \']',T
-'[\'<com seattle clouds modules voice record voice record picker activity \' \' void setAudioSource \']',T
-'[\'<com seattle clouds modules voice record voice record picker activity \' \' void setAudioSource \']',T
-'[\'<com seattle clouds modules voice record v\' \' void setAudioSource \']',T
-'[\'<com seattle clouds modules voice record v\' \' void setAudioSource \']',T
-'[\'<com seattle clouds modules voice record v\' \' void setAudioSource \']',T
-'[\'<com seattle clouds modules voice record v\' \' void setAudioSource \']',T
-'[\'<com s elva raj two way android ui main activity \' \' void <init> \']',T
-'[\'<com sms robot call u call recorder$1 \' \' void <init> \']',T
-'[\'<com teaching strategies gold gold camera activity$7 \' \' void setAudioSource \']',T
-'[\'<com ti fb chat media recorder \' \' void setAudioSource \']',T
-'[\'<com wi fi walk ie main \' \' void <init> \']',T
-'[\'<com wi fi walk ie main \' \' void <init> \']',T
-'[\'<com wi fi walk ie main \' \' void <init> \']',T
-'[\'<com wi fi walk ie main \' \' void <init> \']',T
-'[\'<com wi fi walk ie main \' \' void <init> \']',T
-'[\'<com zephyr analyser p r o sound ac\' \' void <init> \']',T
-'[\'<eapps pro voice recorder audio recorder fragment \' \' void setAudioSource \']',T
-'[\'<eapps pro voice recorder audio recorder fragment \' \' void <init> \']',T
-'[\'<markcparanormal paranormal live ghost box e v p recorder$2 \' \' void <init> \']',T
-'[\'<markcparanormal paranormal live ghost box main activity \' \' void <init> \']',T
-'[\'<rocketstartups wear calculator main activity \' \' void startListening \']',T
-'[\'<ru y and ex speech kit new gui recognizer dialog activity \' \' void cancel \']',T
-'[\'<us text r anonytext  chat b\' \' void setAudioSource \']',T
-'[\'<us text r anonytext  chat video activity \' \' void setAudioSource \']',T
+'00:00:00 boolean onCreateOptionsMenu',D
+'WhatsApp STT SMS & WhatsApp STT Language: العربية WhatsApp Send Reset Tap above and record the message. void onCreate',D
+'VIDEO PHOTO SQUARE void onClick ln l flash android.widget.LinearLayout',D
+'Whiteboard Send void onSaveInstanceState',D
+'Wi-fi Walkie Talkie void onCreate microphone image android.widget.ImageView',D
+'Ways to use the app Say \"Lumos\" to turn the light on \r\n and \"Nox\" to turn it off Shake the smartphone to turn \r\n the light on and off Tap the screen and hold it \r\n to turn on the light Got it void onActivityResult',D
+'Caller ID Pro Save Caller ID settings Real-time caller ID Identify callers - even the ones not in your contact list. Missed call Caller ID after a missed call with multiple options to handle contact information. Completed call Caller ID after a call is completed with multiple options to handle contact information. No answer Caller ID after an unanswered call with multiple options to handle contact information. Unknown caller Caller ID after a call from a number not in your contact list with multiple options to handle contact information. Extras void onClick',D
+'Caller ID Pro Save Caller ID settings Real-time caller ID Identify callers - even the ones not in your contact list. Missed call Caller ID after a missed call with multiple options to handle contact information. Completed call Caller ID after a call is completed with multiple options to handle contact information. No answer Caller ID after an unanswered call with multiple options to handle contact information. Unknown caller Caller ID after a call from a number not in your contact list with multiple options to handle contact information. Extras void onClick',D
+'Blocker Save Caller ID settings Real-time caller ID Identify callers - even the ones not in your contact list. Missed call Caller ID after a missed call with multiple options to handle contact information. Completed call Caller ID after a call is completed with multiple options to handle contact information. No answer Caller ID after an unanswered call with multiple options to handle contact information. Unknown caller Caller ID after a call from a number not in your contact list with multiple options to handle contact information. Extras void onClick ',D
+'Titanium Recorder Save Caller ID settings Real-time caller ID Identify callers - even the ones not in your contact list. Missed call Caller ID after a missed call with multiple options to handle contact information. Completed call Caller ID after a call is completed with multiple options to handle contact information. No answer Caller ID after an unanswered call with multiple options to handle contact information. Unknown caller Caller ID after a call from a number not in your contact list with multiple options to handle contact information. Extras Show caller ID for contacts in phonebook void onClick ',D
+'Caller ID Pro Save Caller ID settings Real-time caller ID Identify callers - even the ones not in your contact list. Missed call Caller ID after a missed call with multiple options to handle contact information. Completed call Caller ID after a call is completed with multiple options to handle contact information. No answer Caller ID after an unanswered call with multiple options to handle contact information. Unknown caller Caller ID after a call from a number not in your contact list with multiple options to handle contact information. Extras void onClick',D
+'Blocker Save Caller ID settings Real-time caller ID Identify callers - even the ones not in your contact list. Missed call Caller ID after a missed call with multiple options to handle contact information. Completed call Caller ID after a call is completed with multiple options to handle contact information. No answer Caller ID after an unanswered call with multiple options to handle contact information. Unknown caller Caller ID after a call from a number not in your contact list with multiple options to handle contact information. Extras void onClick',D
+'Blocker Save Caller ID settings Real-time caller ID Identify callers - even the ones not in your contact list. Missed call Caller ID after a missed call with multiple options to handle contact information. Completed call Caller ID after a call is completed with multiple options to handle contact information. No answer Caller ID after an unanswered call with multiple options to handle contact information. Unknown caller Caller ID after a call from a number not in your contact list with multiple options to handle contact information. Extras void onClick',D
+'Titanium Recorder Save Caller ID settings Real-time caller ID Identify callers - even the ones not in your contact list. Missed call Caller ID after a missed call with multiple options to handle contact information. Completed call Caller ID after a call is completed with multiple options to handle contact information. No answer Caller ID after an unanswered call with multiple options to handle contact information. Unknown caller Caller ID after a call from a number not in your contact list with multiple options to handle contact information. Extras Show caller ID for contacts in phonebook void onClick',D
+'Blocker Save Caller ID settings Real-time caller ID Identify callers - even the ones not in your contact list. Missed call Caller ID after a missed call with multiple options to handle contact information. Completed call Caller ID after a call is completed with multiple options to handle contact information. No answer Caller ID after an unanswered call with multiple options to handle contact information. Unknown caller Caller ID after a call from a number not in your contact list with multiple options to handle contact information. Extras void onClick',D
+'Blocker Save Caller ID settings Real-time caller ID Identify callers - even the ones not in your contact list. Missed call Caller ID after a missed call with multiple options to handle contact information. Completed call Caller ID after a call is completed with multiple options to handle contact information. No answer Caller ID after an unanswered call with multiple options to handle contact information. Unknown caller Caller ID after a call from a number not in your contact list with multiple options to handle contact information. Extras void onClick',D
+'Blocker Save Caller ID settings Real-time caller ID Identify callers - even the ones not in your contact list. Missed call Caller ID after a missed call with multiple options to handle contact information. Completed call Caller ID after a call is completed with multiple options to handle contact information. No answer Caller ID after an unanswered call with multiple options to handle contact information. Unknown caller Caller ID after a call from a number not in your contact list with multiple options to handle contact information. Extras void onRequestPermissionsResult',D
+'Eliza: Hello.\r\nTouch the microphone to speak to me or type at the prompt. void onCreate',D
+'#Enter your nick name void onClick go android.widget.ImageView',D
+'Microphone Gain 32dB Phonic Mono Equalizer Custom void onCreate',D
+'Microphone Gain 32dB Phonic Mono Equalizer Custom void onResume',D
+'GrooVe IP To Type Message Send 0.0 Credits boolean onCreateOptionsMenu',D
+'0 KB/s void onClick',D
+'0 KB/s void onClick grid 1 android.widget.LinearLayout',D
+'SpeechJammer Configure Headphone not connected Adjust voice delay 150 ms Because of the Android\'s inherent audio latency the actual audio delay will be higher than configured. A value of 150ms is recommended.\r\nThen begin recording by pressing Start below! Start void onCreate',D
+'Wi-fi Walkie Talkie void onCreate microphone image android.widget.ImageView',D
+'Wi-fi Walkie Talkie void onCreate microphone image android.widget.ImageView',D
+'Audio Settings Audio Format Choose a suitable file format for your recordings Audio File Destination Set the folder to store your recordings\r\n\r\n/storage/emulated/0/TotalRecall Folder naming Create unique sub-folders by contact / date Audio Player Playback via Earpiece Plackback audio records via the device\'s earpiece instead of the speakerphone. Earpiece Volume Set the earpiece volume during playback void onStop',D
+'CoolCamHB Click here to add camera void onConfigurationChanged',D
+'Beautify Video PikaPika Collage Selfie void onClick rl home goto video android.widget.RelativeLayout',D
+'Jan 27 2017 4:14:51 PM void onRequestPermissionsResult',D
+'Connecting... Connecting to camera. Remote operation Transfer image Geotagging Snap Movie Photo Collage Highlight Photo Collage Highlight Playback Home Monitor boolean onPrepareOptionsMenu',D
+'Connecting... Connecting to camera. Remote operation Transfer image Geotagging Snap Movie Photo Collage Highlight Photo Collage Highlight Playback Home Monitor void onConfigurationChanged',D
+'0 Info. void OnClickRec',D
+'Talk Exit 0 seconds left void onWindowFocusChanged',D
+'Please wait... void onResume',D
+'From:  Type message void onPause',D
+'Search void onPause',D
+'Camera Name 01/02/2009 09:30:00PM void onDestroy',D
+'Rebtel No messages yet. Chat void onCreateContextMenu',D
+'Cancel 00:00:00 boolean onOptionsItemSelected',D
+'Cancel 00:00:00 void onCreate',D
+'Cancel 00:00:00 void onCreate',D
+'Cancel 00:00:00 void onCreate',D
+'Cancel 00:00:00 void onCreate',D
+'Cancelar 00:00:00 void onCreate',D
+'Cancel 00:00:00 void onResume',D
+'Cancel 00:00:00 void onResume',D
+'Cancel 00:00:00 void onResume',D
+'Cancel 00:00:00 void onResume',D
+'Cancel 00:00:00 void onResume',D
+'Cancelar 00:00:00 void onResume',D
+'Exit the app? Cancel OK void onClick',D
+'Exit the app? Cancel OK void onClick ok button android.widget.Button',D
+'callX All Calls Favorites Filter Today Tuesday February 7 Unknown Welcome 0 minutes ago 5:45 PM 01:42 Thursday January 19 Unknown Welcome Jan 19 5:32 AM 01:42 void onBackPressed',D
+'callX All Calls Favorites Filter Today Tuesday February 7 Unknown Welcome 0 minutes ago 5:45 PM 01:42 Thursday January 19 Unknown Welcome Jan 19 5:32 AM 01:42 void onBackPressed',D
+'callX All Calls Favorites Filter Today Tuesday February 7 Unknown Welcome 0 minutes ago 5:45 PM 01:42 Thursday January 19 Unknown Welcome Jan 19 5:32 AM 01:42 void onResume',D
+'callX All Calls Favorites Filter Today Tuesday February 7 Unknown Welcome 0 minutes ago 5:45 PM 01:42 Thursday January 19 Unknown Welcome Jan 19 5:32 AM 01:42 void onResume',D
+'Exit the app? Cancel OK void onResume',D
+'Exit the app? Cancel OK void onResume ok button android.widget.Button',D
+'Today Tuesday February 7 Unknown Welcome 0 minutes ago 5:46 PM 00:00 All Calls Favorites Filter boolean onOptionsItemSelected',D
+'Today Tuesday February 7 Unknown Welcome 0 minutes ago 5:46 PM 00:00 All Calls Favorites Filter void onActivityResult',D
+'Exit the app? Cancel OK void onResume',D
+'Afternoon Picnic Listen Quiz   Practice   A Trip to the Lake Conversation Afternoon Picnic CATHY:  \"Mom can we have a picnic this afternoon?\"\r\n\r\nMOM:  \"Sure Cathy.  Where should we have it?\"\r\n\r\nCATHY:  \"How about the lake?\"\r\n\r\nMOM:  \"That\'s a great idea.\"\r\n\r\nCATHY:  \"What should we pack for lunch?\"\r\n\r\nMOM:  \"I can make ham sandwiches and potato salad.\"\r\n\r\nCATHY:  \"Yummy. I love ham sandwiches and potato salad.\"\r\n\r\nMOM:  \"Tell your sisters about the picnic.\"\r\n\r\nCATHY:  \"Ok. I think it is going to get hot later today.\"\r\n\r\nMOM:  \"That\'s good.  It will be a good day for a swim in the lake.\"\r\n\r\nCATHY:  \"I\'ll tell Cindy and Alison to wear their swimsuits.\"\r\n\r\nMOM:  \"Don\'t forget to pack your life jackets too.\"\r\n\r\nCATHY:  \"Ok.  Will Andy be joining us?\"\r\n\r\nMOM:  \"Of course your brother will be joining us.  Where is he?\"\r\n\r\nCATHY:  \"He\'s taking a nap on the couch.\"\r\n\r\nMOM:  \"Let\'s wake him up.\"\r\n\r\nCATHY:  \"You can wake him up.  I\'ll get my sisters.\"\r\n\r\nMOM:  \"Andy wake up.  We\'re going to the lake.\"\r\n\r\n 00:00 boolean onCreateOptionsMenu',D
+'English Conversation Categories Trips & Vacations 7 Categories 20 Conversations Eating Related Topics 5 Categories 14 Conversations Family and Friends 8 Categories 24 Conversations Talking about Kids 7 Categories boolean onCreateOptionsMenu',D
+'Camera Touch to focus and press the blue camera button to take photos. For more help click Online help from Settings. Open Camera is completely free. If you like this app please consider buying my donate app :) (see link in Settings or Online help).\r\n\r\nPrivacy Policy: Location permission is required for geotagging but this is disabled by default. If enabled your location is encoded in the saved files (and it is only used for this purpose).\r\n\r\n(This message won\'t show again.) OK (This message won\'t show again) void clickedTakePhoto',D
+'IP CAMERA ONE Click here to add camera void onStop',D
+'Wi-fi Walkie Talkie boolean onCreateOptionsMenu',D
+'Wi-fi Walkie Talkie void onCreate',D
+'Wi-fi Walkie Talkie void onCreate microphone image android.widget.ImageView',D
+'Record Start Listening Buffer time 1 min 5 mins 10 mins 30 mins boolean onCreateOptionsMenu',D
+'Test frequencies 125 Hz 250 Hz 500 Hz 750 Hz 1000 Hz 1500 Hz 2000 Hz 3000 Hz 4000 Hz Defaults All OK android.view.View onCreateView',D
+'Hearing Test Selection of calibration coef. Before the test let me choose the calibration coefficients. Test frequencies Select the frequencies at which the test is carried out. Presentation of results Adjust settings for results presentation. Noise monitoring Inspect the background noise during the test. Advanced Printing Add your institution\'s name and logo. Suppress masking noise Disable contralateral masking noise for the purpose of free field audiometry. Miscellaneous boolean onPreferenceChange',D
+'Wi-fi Walkie Talkie void onCreate microphone image android.widget.ImageView',D
+'Camera Touch to focus and press the blue camera button to take photos. For more help click Online help from Settings. Open Camera is completely free. If you like this app please consider buying my donate app :) (see link in Settings or Online help).\r\n\r\nPrivacy Policy: Location permission is required for geotagging but this is disabled by default. If enabled your location is encoded in the saved files (and it is only used for this purpose).\r\n\r\n(This message won\'t show again.) OK (This message won\'t show again) void clickedTakePhoto',D
+'Ear Assist Audio Volume Equalizer 60 230 910 3.6k 14k boolean onCreateOptionsMenu',D
+'Welcome to Burner Life is complicated! Use Burner to stay in touch in everyday situation without sharing your personal number. How will you use Burner? void onActivityResult',F
+'Choose an area code We\'re currently out of the area code Search for another area code Enter area code Search Available Numbers Nearby Numbers void onActivityResult',F
+'Burner Add a forwarding number You can also add phone number to your burner\'s contact Phone Number Done void onClick activity enter contact $ text view done android.widget.TextView',F
+'Audio/Echo Settings Speaker Volume Increases the volume to the ear piece or speaker.  Change this setting if incoming audio is too loud or too quiet. Microphone Volume Adjust this setting if the far end person says your voice is too loud or too quiet.  If the person you are talking to complains your voice is too loud or if they complain that there is echo or they hear themselves when they speak then lower this setting.  If the far end person has trouble hearing you then increase this setting. Bluetooth Speaker Volume Adjust the speaker volume when using bluetooth. Bluetooth Mic Volume Adjust the mic volume when using bluetooth. void onStart',F
+'LOW PITCH HIGH SLOW SPEED FAST METAL AMPLIFY ECHO CHORUS PRESET void onPause',F
+'Pin code Enable pin code access Every time the app launches If inactive for 5 min * * * * Change your pin code void onClick',F
+'Pin code Enable pin code access Every time the app launches If inactive for 5 min * * * * Change your pin code void onDestroy',F
+'Gallery No media found. boolean onCreateOptionsMenu',F
+'Gallery No media found. void onStop',F
+'Gallery No media found. void onClick button share',F
+'Custom Save Button Font Q 1 W 2 E 3 R 4 T 5 Y 6 U 7 I 8 O 9 P 0 A S D F G H J K L Z X C V B N M ?123  English . void onClick',F
+'Language and Dictionary Input languages EmojiKeyboard Pro English (United States) Additional dictionary Deutsch English Français Italiano Pусский Português void onCreate',F
+'CUSTOM Q 1 W 2 E 3 R 4 T 5 Y 6 U 7 I 8 O 9 P 0 A S D F G H J K L Z X C V B N M ?123  English . Color Cancel OK boolean onKeyUp theme hor list view com.android.inputmethod.latin.settings.HListView',F
+'CUSTOM Q 1 W 2 E 3 R 4 T 5 Y 6 U 7 I 8 O 9 P 0 A S D F G H J K L Z X C V B N M ?123  English . Color Cancel OK void <init> theme hor list view com.android.inputmethod.latin.settings.HListView',F
+'CUSTOM Q 1 W 2 E 3 R 4 T 5 Y 6 U 7 I 8 O 9 P 0 A S D F G H J K L Z X C V B N M ?123  English . Color Cancel OK void onInitializeAccessibilityNodeInfo theme hor list view com.android.inputmethod.latin.settings.HListView',F
+'How It Works void onStop',F
+'Contacts to save There are no recordings boolean onCreateOptionsMenu',F
+'New Feedback [Type Feedback] Send boolean onOptionsItemSelected',F
+'Feedback Inbox New Feedback Send Feedback to Vector boolean onOptionsItemSelected',F
+'Feedback Inbox New Feedback Send Feedback to Vector void onResume',F
+'Search void onStart',F
+'Kik Lock void onCreate',F
+'DailyFunny History: 0 items All Back To Funny void onResume',F
+'DailyFunny void nahButtonClicked',F
+'DailyFunny void shareButtonClicked',F
+'Feedback Version 1.7.2 - Build 999 Release Notes Feedback Requested Open Items Resolved Items Ignored Items void onCreate',F
+'Spanish Dictionary Start boolean onCreateOptionsMenu',F
+'Auto Send Settings Send Via Auto Upload on WIFI only Only send recorded files when wi-fi is connected Auto Retry Attempt to retry uploading upon failure at a later time Delete Clip Removes the recording after it has been uploaded Synchronization - Google Drive Sync Now Delete From Google Drive Remove clip from Google Drive when deleted locally on the device Authorization for Uploading Configure Google Drive Configure Google void onClick summary android.widget.TextView',F
+'Auto Send Settings Send Via Auto Upload on WIFI only Only send recorded files when wi-fi is connected Auto Retry Attempt to retry uploading upon failure at a later time Delete Clip Removes the recording after it has been uploaded Synchronization - Google Drive Sync Now Delete From Google Drive Remove clip from Google Drive when deleted locally on the device Authorization for Uploading Configure Google Drive Configure Google boolean onKeyDown',F
+'Auto Send Settings Send Via Auto Upload on WIFI only Only send recorded files when wi-fi is connected Auto Retry Attempt to retry uploading upon failure at a later time Delete Clip Removes the recording after it has been uploaded Synchronization - Google Drive Sync Now Delete From Google Drive Remove clip from Google Drive when deleted locally on the device Authorization for Uploading Configure Google Drive Configure Google void onActivityResult',F
+'Free Caller ID Total Recall now has free caller ID. It will identify callers for you - even the ones not in your contact list. Caller ID will show as a pop-up after calls and you can fully adjust it to your preferences.\r\n\r\nBy using this service you agree to the EULA and Privacy Policy (includes info about cookies).\r\n\r\nIf you do not agree please disable Caller ID in the settings. EULA Privacy Policy OK void onCreate',F
+'Total Recall Save Caller ID settings Real-time caller ID Identify callers - even the ones not in your contact list. Missed call Caller ID after a missed call with the option to save the number or call back. Completed call Caller ID after a call is completed with the option to save the number or call back. No answer Caller ID after an unanswered call with the option to save the number or call back. Extras Show caller ID for contacts in phonebook Placement of real-time caller ID boolean onKeyDown',F
+'Blocker Save Caller ID settings Real-time caller ID Identify callers - even the ones not in your contact list. Missed call Caller ID after a missed call with multiple options to handle contact information. Completed call Caller ID after a call is completed with multiple options to handle contact information. No answer Caller ID after an unanswered call with multiple options to handle contact information. Unknown caller Caller ID after a call from a number not in your contact list with multiple options to handle contact information. Extras void onActivityResult',F
+'Blocker Save Caller ID settings Real-time caller ID Identify callers - even the ones not in your contact list. Missed call Caller ID after a missed call with multiple options to handle contact information. Completed call Caller ID after a call is completed with multiple options to handle contact information. No answer Caller ID after an unanswered call with multiple options to handle contact information. Unknown caller Caller ID after a call from a number not in your contact list with multiple options to handle contact information. Extras void onBackPressed',F
+'Total Recall Save Caller ID settings Real-time caller ID Identify callers - even the ones not in your contact list. Missed call Caller ID after a missed call with the option to save the number or call back. Completed call Caller ID after a call is completed with the option to save the number or call back. No answer Caller ID after an unanswered call with the option to save the number or call back. Extras Show caller ID for contacts in phonebook Placement of real-time caller ID void onCreate',F
+'Blocker Save Caller ID settings Real-time caller ID Identify callers - even the ones not in your contact list. Missed call Caller ID after a missed call with multiple options to handle contact information. Completed call Caller ID after a call is completed with multiple options to handle contact information. No answer Caller ID after an unanswered call with multiple options to handle contact information. Unknown caller Caller ID after a call from a number not in your contact list with multiple options to handle contact information. Extras void onStop',F
+'Nickname Email Sign up with Camfrog Sign up with Facebook Already have an account? Sign In boolean onOptionsItemSelected',F
+'Buy Sticker Set You have: 0 coins boolean onOptionsItemSelected',F
+'Contacts Online All WELCOME! Join Main Camfrog Room Search For Camfrog Users Chat Room List boolean onCreateOptionsMenu',F
+'Stay in touch anywhere with\r\nfast and secure instant messaging. Sign in New to Trillian?  Sign up for free! void onBackPressed',F
+'Stay in touch anywhere with\r\nfast and secure instant messaging. Sign in New to Trillian?  Sign up for free! void onResume',F
+'Stay in touch anywhere with\r\nfast and secure instant messaging. Sign in New to Trillian?  Sign up for free! void onSaveInstanceState',F
+'Stay in touch anywhere with\r\nfast and secure instant messaging. Sign in New to Trillian?  Sign up for free! void onClick invite contact by phone screen button done',F
+'Stay in touch anywhere with\r\nfast and secure instant messaging. Sign in New to Trillian?  Sign up for free! boolean onOptionsItemSelected',F
+'Stay in touch anywhere with\r\nfast and secure instant messaging. Sign in New to Trillian?  Sign up for free! void onClick accounts activity button skip',F
+'Stay in touch anywhere with\r\nfast and secure instant messaging. Sign in New to Trillian?  Sign up for free! void onClick accounts activity button done',F
+'Stay in touch anywhere with\r\nfast and secure instant messaging. Sign in New to Trillian?  Sign up for free! boolean onContextItemSelected',F
+'1080 The FAN void onResume',F
+'LOW PITCH HIGH SLOW SPEED FAST METAL AMPLIFY ECHO CHORUS PRESET void onStart',F
+'Security Alert Account Error.Please Contact the Help Desk 1 (866) 428-4967 Cancel void onDestroy',F
+'Tools Discount \r\nCalculator Calculator void onResume',F
+'Contact Us Sales 1 (800) 365-6616 Customer Service 1 (866) 428-4967 void onResume',F
+'Alerts Manager Monetary Total Off Targeted Amount $0.00 # of Transactions Off # of Transactions 0 Credit Card Sales Off # of Transactions 0 Credit Card Refunds Off # of Transactions 0 void onPause',F
+'Nickname Name Nickname will appear only within this application on this device. void onResume',F
+'Notifications System Notifications You do not have any notifications. void onResume',F
+'Select a Card Reader No Card Reader Selected Audio Jack Card Reader Chase uDynamo void onDeviceSelect',F
+'Select a Card Reader No Card Reader Selected Audio Jack Card Reader Chase uDynamo void onItemClick',F
+'Confirmation Amount Issued Approval Code #  null $0.00 Send Customer Receipt Email Email address Phone # (000) 000-0000 Done void onClick',F
+'Confirmation Amount Issued Approval Code #  null $0.00 Send Customer Receipt Email Email address Phone # (000) 000-0000 Done void onClick',F
+'Categories +Misc There are no items in the product catalog.\r\n You can add Miscellaneous items. Continue void onClick',F
+'Categories +Misc There are no items in the product catalog.\r\n You can add Miscellaneous items. Continue void onClick',F
+'Discount Calculator Current Price $0.00 Enter Discount \% 0.00\% Discounted Amount Your Total Price Reset void onDestroy',F
+'Discount Calculator Current Price $0.00 Enter Discount \% 0.00\% Discounted Amount Your Total Price Reset void onResume',F
+'Change Password Your existing password has expired. \r\nPlease create a new password. Enter your User Name New Password Help Submit void onClick',F
+'Identification We don\'t recognize this mobile device. As a precaution we need to verify your identity before you can access your merchant account. Please request an Identification Code to help us identify you. I have an Identification Code Request an Identification Code void onDestroy',F
+'Identification We don\'t recognize this mobile device. As a precaution we need to verify your identity before you can access your merchant account. Please request an Identification Code to help us identify you. I have an Identification Code Request an Identification Code void onPause',F
+'Identification We don\'t recognize this mobile device. As a precaution we need to verify your identity before you can access your merchant account. Please request an Identification Code to help us identify you. I have an Identification Code Request an Identification Code void onResume',F
+'Sign Up Chase Paymentech provides credit and debit card payment processing for businesses and retail merchants. Before using this application you need to sign up for a merchant account with Chase Paymentech. You can complete an online application by going to chasecheckout.com on your computer. If you would like to speak to a sales representative please call 1 (800) 365-6616 or complete the form below. First Name Last Name Company Name Email Address (000) 000-0000 Cancel Submit void onDestroy',F
+'Sign Up Chase Paymentech provides credit and debit card payment processing for businesses and retail merchants. Before using this application you need to sign up for a merchant account with Chase Paymentech. You can complete an online application by going to chasecheckout.com on your computer. If you would like to speak to a sales representative please call 1 (800) 365-6616 or complete the form below. First Name Last Name Company Name Email Address (000) 000-0000 Cancel Submit void onResume',F
+'Discount Calculator Current Price $0.00 Enter Discount \% 0.00\% Discounted Amount Your Total Price Reset void onTextChanged edit field current price android.widget.EditText edit field discount percent android.widget.EditText',F
+'Tolerence  65\% void onCreate',F
+'About Easy Voice Recorder Version 1.8.1 See what\'s new Upgrade to Pro See all the additional features Rate the app Follow us on Twitter Suggest EVR to a friend More apps Help us translate and beta test www.digipom.com void onCreate',F
+'Release notes - Improved Bluetooth recording on Android 5.0 Lollipop.\r\n- On Android 5.0 Lollipop notifications can now be optionally hidden from the lock screen.\r\n- Other bug fixes and improvements.\r\n\r\nThank you for your continued support! If you like Easy Voice Recorder please take the time to leave us a nice review; this really helps us out! We can also be reached via EVR\'s help page.\r\n void onCreate',F
+'Recommended apps Try out these awesome apps by Digipom and our partners. Night Filter Night Filter is an easy to use screen filter application for your Android phone or tablet. Audiko ringtones All ringtones in just one app. Choose what you would like or create a custom ringtone. Pencil Sketch Pencil Sketch is an easy-to-use app to make you an artist by creating a pencil sketch of your photos. void onCreate',F
+'Calculator 0 mc m+ m- mr C 7 8 9 4 5 6 1 2 3 0 . void onClick save',F
+'Login you\'ll need to login to fb with FreeTalk to see your Facebook friends. this is a one time process Continue boolean onCreateOptionsMenu',F
+'Share on Facebook Log In Post Status Update Cancel void onPause',F
+'NAPA AutoCare PRIVACY POLICY Accept void onPause',F
+'NAPA AutoCare PRIVACY POLICY Accept void onRestoreInstanceState',F
+'Settings Type in a terminal name. Select + to add additional Terminals. Use < or > to scroll Terminal Name Select default transaction Credit Sales Credit Pre-Authorization Cash Off Gift Card Off Sales Tax Off Tipping Off Account Information Company Name Off Printing Off Card Reader Help boolean onCreateOptionsMenu',F
+'About application About Privacy policy Terms of use void onBackPressed',F
+'Account number Log in Forgot your password? Contact support I\'m new here Create an account void onBackPressed',F
+'Kik Lock boolean onCreateOptionsMenu',F
+'KViewQR void <init>',F
+'GPaddy Security Downloads Gmail Hangouts Messaging Contacts Dialer Google Play Movies & TV Google Play Store Browser Calculator Calendar Gallery Clock Currents Earth Email Google Search Google Play services Google+ GPaddy Security void onWindowFocusChanged',F
+'Welcome to GPaddy Vault. Set up your password first. Draw a pattern to unlock void onStop',F
+'GPaddy Security 8 Months APPs locked Time Lock WiFi Lock OFF Guest Lock void onResume',F
+'Enter 4 digit password to unlock 1 2 3 4 5 6 7 8 9 0 void onClickEvent',F
+'Welcome to GPaddy Vault. Set up your password first. Enter 4 digit password 1 2 3 4 5 6 7 8 9 0 void onNumClick',F
+'Hi GPaddy Vault found a new APP  installed tap to lock it. Lock void onClick',F
+'Enter 4 digit password to unlock 1 2 3 4 5 6 7 8 9 0 void onDraw btn more',F
+'Draw pattern to unlock void onRestoreInstanceState gesture pw d unlock lock view android.view.View',F
+'Subscribe Subscribe to\r\nVoicemail to Text Cancel Confirm void onClick',F
+'Subscribe Subscribe to\r\nVoicemail to Text Cancel Confirm void onResume',F
+'History Remove New Dialogue boolean onCreateOptionsMenu',F
+'Multilingual Remove 0 boolean onCreateOptionsMenu',F
+'SPY Smart v2.1.16.0219 Quick Look Login void <init>',F
+'Christmas Photo Frames Loading... void onCreate',F
+'Cancel Signature Confirm Retry void onCreate',F
+'Press Play To Listen boolean onCreateOptionsMenu',F
+'#1 Advanced Caller ID App Worldwide Another JaredCo App void onCreate',F
+'Flowers keyboard Customize Test your keyboard here void onClick activate button',F
+'Loading void onDestroy',F
+'KViewQR void onCreate',F
+'Blends & Phonics - FlashCards & Videos Download FULL version for FREE Phonics and Letter Blends - Flash Cards and Phonics Videos void onPause',F
+'Letter Blends 1 A  B AB void onCreate',F
+'Long press to take a video Stickers void onStop',F
+'Off Outdoor Super ear boolean onCreateOptionsMenu',F
+'Off Outdoor Super ear void onProgressChanged',F
+'Back 0 New folder /storage/emulated/0/ !ReadyToFlash 1000cartuningdesigns 360 AadhkTime acebible_kjv_index addwatermark AEE AePictur air AirStream void onDestroy',F
+'Voicemail to Email Settings Receive your voicemails as text and audio files (English and Spanish supported) as an email at up to two addresses Email Address 1 Email Address 2 Cancel Turn on void onClick ok button',F
+'Voicemail to Email Settings Receive your voicemails as text and audio files (English and Spanish supported) as an email at up to two addresses Email Address 1 Email Address 2 Cancel Turn on void onResume',F
+'Voicemail to Email Settings Receive your voicemails as text and audio files (English and Spanish supported) as an email at up to two addresses Email Address 1 Email Address 2 Cancel Turn on void onStart',F
+'Settings Greetings & Pin Default Change PIN Voicemail Visual Voicemail Language Default void onResume',F
+'Change PIN To use MetroPCS Visual Voicemail you need to set a PIN code. To reset the PIN to the last 4 digits of your phone number dial #793#. Enter new PIN Next void onResume',F
+'Visual Voicemail Welcome to\r\nMetroPCS Visual Voicemail Getting your voicemails just got a whole lot easier. Simply press play to listen to any of your messages. Of course you can still listen to your voicemails by dialing 1-2-3 from your phone. Retry Now void onCreate',F
+'Visual Voicemail Welcome to\r\nMetroPCS Visual Voicemail Getting your voicemails just got a whole lot easier. Simply press play to listen to any of your messages. Of course you can still listen to your voicemails by dialing 1-2-3 from your phone. Retry Now void onResume',F
+'Failed to subscribe to Voicemail to Text. Please make sure that you have connection to the data network. OK void onClick',F
+'Burner App - Area code lookup Get a 310 local number Los Angeles California United States void onBackPressed',F
+'Burner App - Area code lookup Get a 310 local number Los Angeles California United States void onDestroy',F
+'Business boolean onCreateOptionsMenu',F
+'Countries Greece USA boolean onCreateOptionsMenu',F
+'Ox. En. Dict Home History Favorites More A(1) A(2) a(1) a(2) a-(1) a-(2) a-(3) a-(4) -a(1) boolean onCreateOptionsMenu',F
+'Ox. En. Dict Home History Favorites More A(1) A(2) a(1) a(2) a-(1) a-(2) a-(3) a-(4) -a(1) void onCreate',F
+'Ox. En. Dict Home History Favorites More A(1) A(2) a(1) a(2) a-(1) a-(2) a-(3) a-(4) -a(1) void onDestroy',F
+'Practical Encyclopedia of Boating 1 day(s) left of trial period. $18.99\r\nFULL LICENSE Redeem code Benefits of the full license Unlimited access Work offline No ads void onPause',F
+'Clinician\'s Pocket Drug Reference 1 day(s) left of trial period. FULL LICENSE Redeem code Benefits of the full license Unlimited access Work offline No ads void onPause',F
+'Ox. En. Dict Home History Favorites More A(1) A(2) a(1) a(2) a-(1) a-(2) a-(3) a-(4) -a(1) void onPause',F
+'Ox. En. Dict Home History Favorites More A(1) A(2) a(1) a(2) a-(1) a-(2) a-(3) a-(4) -a(1) void onStop',F
+'Blocker void onDestroy',F
+'Titanium Recorder void onDestroy',F
+'Slickdeals void onStart',F
+'Rate Caller ID Pro How is your experience so far with Caller ID Pro Bad Good void onConfigurationChanged',F
+'Blacklist Search     Add contact no contacts void onCreate',F
+'Blacklist Search     Add contact no contacts void onDestroy',F
+'Search by Text Tutorial Privacy Policy Terms of Service Review on Play Store Contact Us CamFindApp.com\r\nVersion: 4.1.0 (201)\r\nPowered by CloudSight\r\nSpeech recognition and/or text-to-speech (as appropriate)\r\nprovided by Nuance Communications Inc. Stream Favorites Capture History Settings boolean onKeyDown',F
+'Back Related Images Detail void onCreate',F
+'Related Images Gary Nulls Red Stuff Search for Gary Nulls Red Stuff. Look Up Quick Results Now! wow.com Ad void onMeasure grid view android.widget.GridView',F
+'Related Images Gary Nulls Red Stuff Search for Gary Nulls Red Stuff. Look Up Quick Results Now! wow.com Ad void setAdapter grid view android.widget.GridView',F
+'Related Images Gary Nulls Red Stuff Search for Gary Nulls Red Stuff. Look Up Quick Results Now! wow.com Ad void setAdapter grid view android.widget.GridView',F
+'Please update your password. Submit boolean onCreateOptionsMenu',F
+'Album Arts Acquire album arts now! Click to start automatic album arts acquisition Choose album arts automatically Get missing album arts automatically from Internet Advanced Use better quality album arts Enabling this option will improve the quality of album arts on main screen but increase loading time and memory consumption void onCreate',F
+'Select Your Country Canada United States void onListItemClick',F
+'MuzzleLoader Bullet Only You selected a Muzzleloader Bullet Only. Select powder charge for this bullet to get approximate velocity based on a 26 inch barrel OK void onListItemClick',F
+'WEATHERFLOW WIND METER DETECTED Wind Speed (Mph): 0 Wind Direction (Degrees): 0 START READING STOP READING APPLY EXIT void onStart',F
+'0 /storage/emulated/0/ Up .a .android .backups .chartboost .com.mtk.btnotification .data .DataStorage .Eyecon .goproduct .imagethumbnail-gpaddy boolean onCreateOptionsMenu',F
+'Recordings boolean onCreateOptionsMenu',F
+'Web access Open following address on your computer to download recordings http://192.168.0.100:17723  void onDestroy',F
+'Normal Lab Values (Simple) ARTERIAL VALUES CARDIAC MARKERS CEREBRAL SPINAL FLUID COAGULATION ENDOCRINE VALUES GENERAL CHEMISTRY HEMATOLOGY VALUES HEMODYNAMIC PARAMETERS LIPID PANEL (ADULT) NEUROLOGICAL VALUES boolean onCreateOptionsMenu',F
+'Searching camera... Cancel void onStart',F
+'Connecting... Connecting to camera. Remote operation Transfer image Geotagging Snap Movie Photo Collage Highlight Photo Collage Highlight Playback Home Monitor void onBackPressed',F
+'Connecting... Connecting to camera. Remote operation Transfer image Geotagging Snap Movie Photo Collage Highlight Photo Collage Highlight Playback Home Monitor void onStop',F
+'Geotagging Geotagging off Time sync Start geotagging Batch send Send over NFC boolean onPrepareOptionsMenu',F
+'Talk Exit 0 seconds left void onBackPressed',F
+'Please wait... void onBackPressed',F
+'This function cannot be used at this time. Confirm the Wi-Fi settings of your camera and your smartphone and then select the camera under \"Set connect dest. \". 0 void onCreate',F
+'Create highlights Execute Video camera 162 void onStart',F
+'Title Picture JPEG Execute Gallery 160 void onStart',F
+'Creating highlights The app can automatically select highlights from the scenes you have recorded and save them with added effects.\r\nYou can change the effects by modifying the settings. Set Scene selection void onActivityResult',F
+'Highlight Photo Collage Execute 0 pictures will be saved in the smartphone. Specify the still picture storage folder name 20170207 void onActivityResult',F
+'Photo Collage Exit void onBackPressed',F
+'com.aoao.bloom_share.jpg Apr 22 2014 11:52:26 AM 1 / 160 void OnClickCheck',F
+'Split & Delete void onActivityResult',F
+'Set connect. dest. SSID Password Display password The set SSID/password will be reflected when the camera is turned OFF and then back ON again or when the Wi-Fi connection with the camera is reestablished. Cancel Erase OK void onClick',F
+'Delete all Delete the currently displayed camera files? (Protected files will not be deleted.) Delete all Cancel void OnClickOK',F
+'Power OFF Turn OFF the connected device? Power OFF Cancel void onDestroy',F
+'Select an access point to connect to. moobilenetx perfecthu_G acExp_2g_1 acExp_5g_1 eduroam Watershed perfecthu_N Eben-Ezer Eben-Ezer Guest ucd-guest Update Cancel void onClick',F
+'Enter a password for registration Enter the registration password Password Confirm password Register Do not register void onAgreeButton',F
+'Initial settings for Wi-Fi functions Select the item you want to set. Clock synchronization Access point registration Live Cast Baby Monitor Home Monitor Finish void onBackPressed',F
+'Enter the log-in information If you already have a login ID Login ID Set Cancel If you do not have a login ID Sign up void onClickNewRegisterButton',F
+'com.aoao.bloom_share.jpg Apr 22 2014 11:52:26 AM 1 / 162 void onDestroy',F
+'Select Gallery No playable contents were found. void onStart',F
+'Please wait... void onResume',F
+'AV Device Information Name Address Number Access Number OK Cancel void onClickRegistEquipmentOk',F
+'Set connect. dest. SSID Password Display password The set SSID/password will be reflected when the camera is turned OFF and then back ON again or when the Wi-Fi connection with the camera is reestablished. Cancel Erase OK void onCreate',F
+'Set connect. dest. 1 2 3 void onCreate',F
+'MADE WITH PIXLR Oops!\r\nNo internet connection\r\nPlease try again Retry void <init> re cy ler feeds',F
+'Wallpaper Store Menu NEWEST TRENDING MOST POPULAR Color Skull 3 Layers F16 Falcon 5 Layers Cat and Butterfly 3 Layers Chemical Trails 6 Layers IT 3 Layers Shuttle Cockpit 4 Layers boolean onCreateOptionsMenu',F
+'Log-in ID  Remember me? Forgot your password? Log In void onActivityResult',F
+'Language and Dictionary Input languages EmojiKeyboard Pro English (United States) Additional dictionary Deutsch English Français Italiano Pусский Português boolean onKeyDown image',F
+'Language and Dictionary Input languages EmojiKeyboard Pro English (United States) Additional dictionary Deutsch English Français Italiano Pусский Português boolean onTouchEvent image',F
+'Language and Dictionary Input languages EmojiKeyboard Pro English (United States) Additional dictionary Deutsch English Français Italiano Pусский Português void onLayout image',F
+'Language and Dictionary Input languages EmojiKeyboard Pro English (United States) Additional dictionary Deutsch English Français Italiano Pусский Português void onClick',F
+'Setting up EmojiKeyboard Pro One Enable EmojiKeyboard Pro We value the privacy of our users Our app does NOT receivestore or transmit\r\nany sensitive data from you By using this app you agree to the <<Privacy Policy>> void onClick',F
+'tag remove share void onClick',F
+'tag remove share void onClick',F
+'tag remove share void onCreate',F
+'LIGHTS  by Q Raider boolean onCreateOptionsMenu',F
+'Watermark boolean onCreateOptionsMenu',F
+'Save Path Parent directory obb Music Podcasts Ringtones Alarms Notifications Pictures Movies Download boolean onCreateOptionsMenu',F
+'No Media Data void onDestroy',F
+'Cover Model Do you want to be our cover model?\r\n\r\n Share photos with our hashtag #BestMeSelfie on Instagram or email to us.\r\n Email: bestmeselfie@gmail.com\r\n Demand:\r\n 1、color photo with good quality and great light\r\n 2、the sender must be in the photo\r\n \r\n What we like?\r\n -Creative\r\n -Smile\r\n -Emoji-grid photo\r\n boolean onCreateOptionsMenu',F
+'Scan Camera This tool will probe the given IP/Port looking for compatible camera types. Enter information then press Test. If a match is found then select and press Add. Type Unknown SSL IP Hostname or IP Port Port User Pswd Cancel Test Add void onClick btn test android.widget.Button',F
+'Upgrade NOW! Upgrade to Unlimited Cameras and no ADs click Menu. OK void onDestroy',F
+'HDMI Reader void onResume',F
+'Some information was not included in your Facebook profile Please Add Details: United States (+1) 15306013355 jameshaofu@gmail.com (Optional we never spam) Next void onCreate',F
+'Sign Up Login United States (+1) 15306013355 jameshaofu@gmail.com (Optional we never spam) Next OR Connect (Connect with FB to find friends quickly no posting without your permission) void onCreate',F
+'New SMS To SMS void onCreateContextMenu',F
+'Now Playing Songs on Phone Alarm siren <unknown> Select and play songs Device and app settings Rotate the wheel to find and play music Your source screen may not match the look or functionality of the example. Do not show again void onStop',F
+'Cancel void onClick',F
+'Cancel void onCreate',F
+'Thank you for using our app! Would you like more of our apps? Yes! Not now void onClick',F
+'Thank you for using our app! Would you like more of our apps? Yes! Not now void onClick',F
+'Thank you for using our app! Would you like more of our apps? Yes! Not now void onBackPressed',F
+'Thank you for using our app! Would you like more of our apps? Yes! Not now void onCreate',F
+'Cancel 00:00:00 void onCreate',F
+'Cancel 00:00:00 void onCreate',F
+'Location settings Localization Please enter the name of the city you wish to see offers or click on the button to automatically localize Current Location Use current localization boolean onCreateOptionsMenu',F
+'Feedback Version 1.7.2 - Build 999 Release Notes Feedback Requested Open Items Resolved Items Ignored Items void onCreate',F
+' void onSaveInstanceState',F
+'Slickdeals Help Us Improve How likely is that you would recommend Slickdeals to your friend? Select Rating  Dismiss  void onStart',F
+'r Camera (0 files) v B boolean dispatchKeyEvent',F
+'Key Pad 000000 1 2 3 4 5 6 7 8 9 CLS 0 DEL OK void onStart',F
+'Local Ok void onStart',F
+'Sign in Twitter Facebook Instagram TwitCasting Create New Account Terms of Service boolean onCreateOptionsMenu',F
+'Create New Account Create New Account Email Password Terms of Service Next boolean onCreateOptionsMenu',F
+'Block Words/Users Done Block Words/Users Filter Level Filter Level: higher setting will filter more words/users. Add your block words list separated by new line (one word per one line). If you would like to block user add \'@\' in front of the user name.\r\nNote that you can also block users by clicking the user name on your time line. boolean onCreateOptionsMenu',F
+'SReaderAuto-4.0.4 SS505 sReader Version Swipe Get void onClick',F
+' Account Settings Required account credentials User name Skyward user name Password Skyward password Optional account details Description Account description Advanced settings Access URL URL used for Mobile Access To continue please select the save button in the upper right. boolean onCreateOptionsMenu',F
+'Info Blocker 5.10 New version - More setup options\r\n- Conversation UI\r\n- Add MMS block\r\n- Add Airplane mode Previous versions - Improve private number match\r\n- Add call settings priority\r\n- Bug fix import contact\r\n- Add Converastion view\r\n- Answer hangup setup\r\n- Lock message protection\r\n- Fix second line bug\r\n- Fix blocking numbers on some devices\r\n- Add troubleshooting download configuration\r\n- Fix incoming notifications sound\r\n- Password bug fix\r\n- Ask for password when device locks\r\n- Fix showing am/pm time\r\n- Fix memory leaks\r\n- Improved stability and complete redesign\r\n- Whitelist added\r\n- Search feature for contacts and logs added\r\n- Troubleshoot added for direct email support\r\n- Profile edit added\r\n- Incoming second line block fix\r\n- Auto sms reply on blocked call or sms\r\n- Choose to log blocked call and sms\r\n- Silent mode for blocked call added\r\n- Match type for blocking number\r\n- Profile activation fix\r\n- SD Card data backup\r\n- SMS copy to clipboard\r\n- Enter contact phone only\r\n- Profile support added\r\n- Fast password entering\r\n- Numeric password added\r\n- Info dialog added\r\n- Add phonebook contact fix void onBackPressed',F
+'Today Tuesday February 7 Unknown Welcome 0 minutes ago 5:46 PM 00:00 All Calls Favorites Filter void onCreate',F
+'Factors Edit list Select factors that apply Weight 60 kg Alcohol Bath Blocked nose Caffeine Dehydrated Exhaustion boolean onCreateOptionsMenu',F
+'SS515SReader-1.0.4 SS515 Initial KEY Base Derivation Key(BDK):16byte 0123456789ABCDEFFEDCBA9876543210 Key Serial Number(KSN):10byte FFFF9876543210E00000 Load Initial KEY void onClick',F
+'Statuses for all occasions VKontakte Log in Odnoklassniki Log in Moi Mir Log in Facebook Log in Twitter Log in void onClick',F
+'Statuses for all occasions Twitter Log in Back to list of statuses void onClick',F
+'IPSC Shot Timer (Beta) ---- 0 hello Comstock Open result table Start void onResume',F
+'Set Mode Silent Vibrate Normal Volume Control Ringtone Media Alarm Notifications System Volume Control boolean onCreateOptionsMenu',F
+'Super Hearing Aid Headphone Connected Set Amplification  1 Gain Start Hearing Aid boolean onCreateOptionsMenu',F
+'Saved Conversation Dialogues For the best results please record while using headphones. 00:00 boolean onCreateOptionsMenu',F
+'More by T-Me Studios More Live Wallpapers Configuration Set date and time Share this live wallpaper Color effect Scrollable FPS Screen interaction void onCreate',F
+'Help Contact us Feedback Forum 64 ideas Knowledge Base Powered by UserVoice Android SDK v1.2.5 boolean onPrepareOptionsMenu',F
+'WHERE THE HELL \r\nARE YOU? United States +1 Your Phone Number Please select your country first and complete your phonenumber. Login boolean onCreateOptionsMenu login button android.widget.Button',F
+'Place a barcode inside the viewfinder rectangle to scan it. void onCreate',F
+'Dropbox Connect to Dropbox Dropbox is a software that syncs your files online and across your computers.http://www.dropbox.com void onResume',F
+'Songwriter\'s Pad Email or username Sign In Forgot Password? Or create account void onBackPressed',F
+'My SP Sync Account Log In To Your Account Account - Free 50 MB Amount Used - 0 KB of 50 MB Need More Space? Sync with Wifi only Deregister this device Deregister all my devices void onResume',F
+'About us Safe Kids is the first international free application to end the phenomenon of forgetting kids inside the vehicles. \r\nThe application is designed to protect the children from danger all the time to prevent forgetting the kids inside the vehicles with special and smart capabilities so it saves your children of 99\% in case of correct usage of the application. The application was designed and developed by the engineer Ahmad Butto. This application has special features:\r\n\r\n1. A smart system to protect your children 24 hours and it doesn\'t need any other device inside your car.\r\n\r\n2. Safe Kids application automatically senses once you pull over your car and it starts to send alerts\" I am your child and I am with you inside this car\"\r\nIt is also possible to choose the option of determining the time of coming back to the car within couple of minutes and so the application will alert you when the time is over.\r\n\r\n3. In case of forgetting the child inside the car the application automatically calls the mother (the driver) so she gets back to the car. If the mother does not reply the application sends a text message to the emergency numbers that are saved in the application the text message includes the location of the car it\'s color it\'s number  the humidity and temperature  at that time so the child can be saved from an inevitable danger.\r\n\r\n4. Safe kids application follows your movements while driving the car and it also alerts you in case there is an obstacle or danger that threatens your life of your children lives. Such as: streets\' disturbance animals crossing the road you will be alerted of those threatens which are some kilometers away of your current location.\r\n\r\n5 Safe kids application tracks the speed of your car and in case of exceeding the speed limit it will warn you to decrease the speed and keep you and your kids safe. boolean onCreateOptionsMenu',F
+'Contact us Leave us a message about a problem or suggestion object Message Send void attachBaseContext',F
+'Login Sign in You don\'t have account? sign up? void attachBaseContext',F
+'Other details Lorem ipsum dolor sit amet consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes nascetur ridiculus mus. Donec quam felis ultricies nec pellentesque eu pretium quis sem. Nulla consequat massa quis enim. Donec pede justo fringilla vel aliquet nec vulputate eget arcu. In enim justo rhoncus ut imperdiet a venenatis vitae justo. Nullam dictum felis eu pede mollis pretium. Integer tincidunt. Cras dapibus. Vivamus elementum semper nisi. Aenean vulputate eleifend tellus. Aenean leo ligula porttitor eu consequat vitae eleifend ac enim. Aliquam lorem ante dapibus in viverra quis feugiat a tellus. Phasellus viverra nulla ut metus varius laoreet. Quisque rutrum. Aenean imperdiet. Etiam ultricies nisi vel augue. Curabitur ullamcorper ultricies nisi. Nam eget dui. Etiam rhoncus. Maecenas tempus tellus eget condimentum rhoncus sem quam semper libero sit amet adipiscing sem neque sed ipsum. Nam quam nunc blandit vel luctus pulvinar hendrerit id lorem. Maecenas nec odio et ante tincidunt tempus. Donec vitae sapien ut libero venenatis faucibus. Nullam quis ante. Etiam sit amet orci eget eros faucibus tincidunt. Duis leo. Sed fringilla mauris sit amet nibh. Donec sodales sagittis magna. Sed consequat leo eget bibendum sodales augue velit cursus nunc void attachBaseContext',F
+'Notice Terms and conditions Safe Kids application.\r\n\r\n1 Register with correct information of full name city mobile number car\'s number car\'s model and colour so the application works correctly to save your child.\r\n\r\n2 Fill the list of emergency numbers correctly in order to contact them in case of losing contact with the mother to save the kid\'s life.\r\n\r\n3. Avoid adjusting or using the application while driving.\r\n\r\n4. We are not responsible for any harm that may happen to you in case the application stops working or a technical problem occurs.\r\n\r\n5. We are not responsible if you adjust the application in a wrong way.\r\n\r\n6. We do not use your  information for any marketing targets we use them to improve the application. We only aim to keep you children safe and your information encrypted.\r\n\r\n7. We only use the gps data to detect the location for the lost child and the speed of your car. We don\'t have any further intentions to use it for any other case.\r\n\r\n8. Using the application will not prevent accidents but it reduces them so you have to take all the precautions into consideration.\r\n\r\n9. The application is made to help only the parents so there is no responsibility on application programmer and it\'s only your responsibility. Using the application means your agreement to the application conditions and instructions. boolean onCreateOptionsMenu',F
+'Profil No alerts Kids number: 0  Informations      Kids     City Phone number +  Car type Car color void attachBaseContext',F
+'Settings Speed alert Planing alert Alert popup on exit Max Speed 130 Max Temperature 40 boolean onCreateOptionsMenu',F
+'Sound Analyser myProject Stop Reset void onCreate',F
+'Android 5.1 - Lollipop Store 7.4.12.L-all [0] [PR] 144479971 boolean onCreateOptionsMenu',F
+'< Use this one > void onCreate',F
+'Logs Search     Show  Clear no log items boolean onCreateOptionsMenu',F
+'Blacklist Search     Add contact no contacts void onClick image view home android.widget.ImageView',F
+'Search     Show  Clear  Call   enter message Send boolean onCreateOptionsMenu',F
+'Settings MESSAGE SETTINGS Phonebook only Only contacts from Phonebook and Whitelist can text you Block all All numbers will be blocked except Whitelist MESSAGE BLOCK NOTIFICATIONS Show notification Show notification icon for blocked messages Customize notification Customize notification for blocked messages void onClick image view home android.widget.ImageView',F
+'Video Source Live Camera Image/Video From Library Other Options Timer Off Aspect Ratio Match screen Soundtrack Microphone Logo on Pictures High Resolution Photos Picture taking is much slower when this is checked Fast Switch Menu boolean onCreateOptionsMenu',F
+'New Calendar jameshaofu@gmail.com Google jameshaofu@gmail.com synced Cancel OK boolean onOptionsItemSelected',F
+'Shopping Alerts New Alerts Recent boolean onCreateOptionsMenu',F
+'Biblia Génesis Capítulo: 1 1. En el principio creó Dios los cielos y la tierra. 2. Y la tierra estaba desordenada y vacía y las tinieblas estaban sobre la faz del abismo y el Espíritu de Dios se movía sobre la faz de las aguas. 3. Y dijo Dios: Sea la luz; y fue la luz. 4. Y vio Dios que la luz era buena; y separó Dios la luz de las tinieblas. 5. Y llamó Dios a la luz Día y a las tinieblas llamó Noche. Y fue la tarde y la mañana un día. 6. Luego dijo Dios: Haya expansión en medio de las aguas y separe las aguas de las aguas. 7. E hizo Dios la expansión y separó las aguas que estaban debajo de la expansión de las aguas que estaban sobre la expansión. Y fue así. boolean onCreateOptionsMenu',F
+'Add WiFi Lock Save Choose a network Apps Locked 0 APPs boolean onTouchEvent wv wi fi',F
+'EVP Recorder Do not press back when recording. Files are saved to paranormal live ghost box folder in your device storage Record Stop boolean onCreateOptionsMenu',F
+'TiKL - Chat List Your Chat list is empty. You have not yet used the TiKL Chat feature. Here is how to use chat its easy:\r\n\r\n 1. Choose the person or group you want to chat with from favorites drop-down above the talking head button.\r\n\r\n 2. Press the chat button. void onClick',F
+'Hearing Test version: 1.1.2 author: Marcin Masalski email: hearingtest@e-audiologia.pl web page: www.e-audiologia.pl/HearingTest OK android.view.View onCreateView',F
+'Choose login for your Hearing Test account other email Cancel OK android.view.View onCreateView',F
+'Feedback Name Email Subject Message Add Attachment Send Feedback boolean onKeyDown',F
+'Feedback Name Email Subject Message Add Attachment Send Feedback void onCreate',F
+'To get started please register or log in: Why is registration required? REGISTER / LOG IN USING FACEBOOK REGISTER / LOG IN USING GOOGLE+ REGISTER A NEW SLICKDEALS ACCOUNT ALREADY HAVE A SLICKDEALS ACCOUNT? LOG IN NOW void onDestroy',F
+'About Us Software Name DroneView Version Number 2.14 cleaning storage Exit void onCreate',F
+'Add Camera Done Device Name Device ID User Password Scan ID Lan Search void onClick',F
+'Select No Download Available void onCreate',F
+'Activity (0) No Alarm Logs void onNewIntent',F
+'DroneView Edit Add new camera void onClick cb x notification',F
+'about:accounts?action=signup boolean onCreateOptionsMenu',F
+'Scan Boarding Pass Hold the boarding pass barcode in rectangle to scan the code void onClick',F
+'Scan Boarding Pass Hold the boarding pass barcode in rectangle to scan the code void onPause',F
+'Offline translation AVAILABLE FOR DOWNLOAD English—Russian 360 (660) MB French—English 320 (587) MB French—Russian 328 (600) MB German—English 368 (674) MB German—Russian 293 (537) MB Italian—English 340 (623) MB Italian—Russian 279 (511) MB void onCreateContextMenu',F
+'SComboReaderII Initial Clear Msg Exit Get Ver Battery Get UID Sleep Timer: Set (00) Non-encryption Select >>>>>>APP initialized. \r\nRequest AudioFocus: true Library version: SComboReaderII_Lib_V1.7 Phone model: Nexus 5 Card Reader Function Set key Function void onCreate',F
+'Press Start to begin recording 00:00 00:00 Start Stop Play void onCreate',F
+'Stop Wi-Fi Transfer Access your recordings on this device from your computer 1. Make sure your computer is connected to \"moobilenetx\" 2. Open your browser (Chrome Firefox Internet Explorer Safari etc.) 3. Enter http://168.150.103.77:7112 void onCreate',F
+'WhatsApp STT SMS & WhatsApp STT Language: العربية WhatsApp Send Reset Tap above and record the message. void startListen image view 1 android.widget.ImageView',T
+'Futbol en vivo 00:00 Start Stop void onClick btn start android.widget.Button',T
+'Rent To Own 00:00 Start Stop void onClick',T
+'Rent To Own 00:00 Start Stop void onClick btn start android.widget.Button',T
+'Universal Laws Revealed 00:00 Start Stop void onClick btn start android.widget.Button',T
+'Darknet: The Guide 00:00 Start Stop void onClick',T
+'Darknet: The Guide 00:00 Start Stop void onClick btn start android.widget.Button',T
+'Record a sound 00:00:00 void onClick record button android.widget.ImageButton',T
+'Record a sound 00:00:00 void onClick record button android.widget.ImageButton',T
+'Atención Tu mensaje tiene una duración máxima de 30 segundos Aceptar void onClick',T
+'Eliza: Hello.\r\nTouch the microphone to speak to me or type at the prompt. void onClick vr button android.widget.Button',T
+'GoToWebinar Enter a Webinar ID 123-456-789 Want to host your own webinars? Try It Free void <init> in session footer',T
+'GoToWebinar Enter a Webinar ID 123-456-789 Want to host your own webinars? Try It Free void <init> in session footer',T
+'GoToWebinar Enter a Webinar ID 123-456-789 Want to host your own webinars? Try It Free void <init> in session title bar',T
+'GoToWebinar Enter a Webinar ID 123-456-789 Want to host your own webinars? Try It Free void <init> in session title bar',T
+'LOW PITCH HIGH SLOW SPEED FAST METAL AMPLIFY ECHO CHORUS PRESET void onClick share close',T
+'Microphone Gain 32dB Phonic Mono Equalizer Custom void onClick button speak android.widget.ImageButton',T
+'Microphone Gain 32dB Phonic Mono Equalizer Custom boolean dispatchKeyEvent',T
+'Microphone Gain 32dB Phonic Mono Equalizer Custom boolean onTouchEvent',T
+'Record your message 00:00 void onRequestPermissionsResult record button android.widget.ImageButton',T
+'Wi-fi Walkie Talkie void void onClick microphone image android.widget.ImageView',T
+'Wi-fi Walkie Talkie void void onClick microphone image android.widget.ImageView',T
+'Greetings Default void onClick add new button android.widget.ImageButton',T
+'Greetings Default void onClick add new button android.widget.ImageButton',T
+'Call Recording - Strategy Voice Call (Android) Attempts to record the call from the telephony source Voice Call (Native) Attempts to record the call from the telephony source Voice Call (Legacy) Attempts to record the call from the telephony source\r\n\r\n - Limited to AMR audio format Microphone Records the call from the Mic Root Records the call from the hardware void onCreate',T
+'0 Info. void OnClickRec',T
+'Talk Exit 0 seconds left void OnClickRemoteVoiceCancel remote voice android.widget.ImageButton',T
+'Cancel 00:00:00 void onClick vrl record button android.widget.ImageButton',T
+'Cancel 00:00:00 void onClick',T
+'Cancelar 00:00:00 void onClick vrl record button android.widget.ImageButton',T
+'Cancel 00:00:00 void onClick vrl record button android.widget.ImageButton',T
+'Cancel 00:00:00 void onClick vrl record button android.widget.ImageButton',T
+'Cancel 00:00:00 boolean onOptionsItemSelected',T
+'Cancel 00:00:00 boolean onOptionsItemSelected vrl menu cancel android.widget.TextView',T
+'Cancelar 00:00:00 boolean onOptionsItemSelected vrl menu cancel android.widget.TextView',T
+'Cancel 00:00:00 void onClick',T
+'Cancel 00:00:00 void onClick vrl record button android.widget.ImageButton',T
+'Cancel 00:00:00 void onClick vrl record button android.widget.ImageButton',T
+'Cancel 00:00:00 void onClick vrl record button android.widget.ImageButton',T
+'Cancel 00:00:00 void onClick vrl record button android.widget.ImageButton',T
+'Two Way Davis Talk void onStart',T
+'Today Tuesday February 7 Unknown Welcome 0 minutes ago 5:46 PM 00:00 All Calls Favorites Filter void onClick button rec android.widget.ImageButton',T
+'Auto  Mode void onClick mode icon audio android.widget.ImageButton',T
+'Audio Recorder Click on Record to start recording. Record void onClick record android.widget.Button',T
+'Wi-fi Walkie Talkie void void onClick microphone image android.widget.ImageView',T
+'Sound Analyser myProject Stop Reset void onClick button reset android.widget.Button',T
+'Recorder Recorder Voice Memos 00:00:00 boolean checkCanRecord record left button android.widget.ImageButton',T
+'Recorder Recorder Voice Memos 00:00:00 void onClick record left button android.widget.ImageButton',T
+'Wi-fi Walkie Talkie void void onClick microphone image android.widget.ImageView',T
+'EVP Recorder Do not press back when recording. Files are saved to paranormal live ghost box folder in your device storage Record Stop void onClick btn start android.widget.Button',T
+'Paranormal Live Ghost Box Stop Start Ghost Box Record boolean onCreateOptionsMenu record android.widget.Button',T
+'Wi-fi Walkie Talkie void void onClick microphone image android.widget.ImageView',T
+'Calculator For Android Wear Discover Android Wear Follow us on Google+ or Facebook to get news and updates about Android Wear. Try out Android Wear Center to discover more apps games and watchfaces for your smartwatch. Follow us More about Android Wear Download Android Wear Center app from Google Play. Instructions Basic calculation To start the calculator just say: \'Ok Google... start calculator\' or press the main screen and select calculator. Type in your term and press \'=\' to get the result. Press \'C\' button to clear last input. Hold \'C\' button to empty result. Swipe to right to close the calculator. void onDestroy',T
+'Voice search not available Retry One second... void onBackPressed',T
+'Press Start to begin recording 00:00 00:00 Start Stop Play void onClick button start android.widget.Button',T
+'Tap the screen to start recording 00:00 00:00 void surfaceCreated',T
