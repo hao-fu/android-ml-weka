@@ -1,6 +1,7 @@
 import javafx.util.Pair;
 import weka.classifiers.Classifier;
 import weka.classifiers.bayes.NaiveBayes;
+import weka.classifiers.bayes.NaiveBayesMultinomial;
 import weka.classifiers.functions.SMO;
 import weka.classifiers.meta.FilteredClassifier;
 import weka.classifiers.trees.HoeffdingTree;
@@ -23,12 +24,9 @@ import java.nio.charset.StandardCharsets;
 import java.nio.file.Files;
 import java.nio.file.Path;
 import java.nio.file.Paths;
-import java.util.ArrayList;
-import java.util.Collection;
-import java.util.List;
-import java.util.Map;
+import java.util.*;
+
 import weka.classifiers.Evaluation;
-import java.util.Random;
 
 /**
  * Description:
@@ -99,7 +97,7 @@ public class WekaUtils {
     }
 
 
-    public static Classifier buildClassifier(Instances data, String modelName) throws Exception {
+    public static Classifier buildClassifier(Instances data, String modelName, boolean updateable) throws Exception {
 
         // classifier
         // J48 j48 = new J48();
@@ -108,11 +106,16 @@ public class WekaUtils {
         //RandomForest classifier = new RandomForest();
         //NaiveBayes classifier = new NaiveBayes();
         //HoeffdingTree classifier = new HoeffdingTree();
-        SMO classifier = new SMO();
-        System.err.println("Parameters");
-        for (int i = 0; i < classifier.getOptions().length; i++) {
-            System.err.println(classifier.getOptions()[i]);
+        Classifier classifier;
+        if (updateable) {
+            classifier = new NaiveBayesMultinomial();
+        } else {
+            classifier = new SMO();
         }
+       // System.err.println("Parameters");
+        //for (int i = 0; i < classifier.getOptions().length; i++) {
+          //  System.err.println(classifier.getOptions()[i]);
+        //}
         // train and make predictions
         classifier.buildClassifier(data);
 
@@ -144,7 +147,8 @@ public class WekaUtils {
     /**
      * Method: docs2Instances
      * Description:
-     * @param docs  Documents
+     *
+     * @param docs   Documents
      * @param labels Pre-defined labels
      * @return weka.core.Instances
      * @author Hao Fu(haofu AT ucdavis.edu)
@@ -170,8 +174,8 @@ public class WekaUtils {
 
         for (LabelledDoc labelledDoc : docs) {
             instance = new DenseInstance(2);
-            instance.setValue((Attribute)atts.get(0), labelledDoc.getDoc());
-            instance.setValue((Attribute)atts.get(1), labelledDoc.getLabel());
+            instance.setValue((Attribute) atts.get(0), labelledDoc.getDoc());
+            instance.setValue((Attribute) atts.get(1), labelledDoc.getLabel());
             data.add(instance);
         }
         data.setClassIndex(1);
@@ -194,7 +198,7 @@ public class WekaUtils {
 
         for (String doc : docs) {
             instance = new DenseInstance(2);
-            instance.setValue((Attribute)atts.get(0), doc);
+            instance.setValue((Attribute) atts.get(0), doc);
 //            instance.setValue((Attribute)atts.get(1), "?");
             data.add(instance);
         }
@@ -223,10 +227,10 @@ public class WekaUtils {
             double[] prediction = classifier.distributionForInstance(instance);
 
             //output predictions
-            for(int i = 0; i < prediction.length; i++) {
-                System.out.println("Probability of class "+
-                        classAttribute.value(i)+
-                        " : "+Double.toString(prediction[i]));
+            for (int i = 0; i < prediction.length; i++) {
+                System.out.println("Probability of class " +
+                        classAttribute.value(i) +
+                        " : " + Double.toString(prediction[i]));
             }
 
         }
@@ -298,7 +302,7 @@ public class WekaUtils {
         return res;
     }
 
-    public static void showFiles(File[] files, Collection<File> allFiles){
+    public static void showFiles(File[] files, Collection<File> allFiles) {
         for (File file : files) {
             System.out.println(file.getName());
             if (file.isDirectory()) {
@@ -312,20 +316,22 @@ public class WekaUtils {
     /**
      * Method: crossValidation
      * Description: Note that classifier should not be pre-trained
+     *
      * @param data
      * @param classifier
-     * @throw
      * @return void
+     * @throw
      * @author Hao Fu(haofu AT ucdavis.edu)
      * @since 3/4/2017 4:13 PM
      */
-    public static void crossValidation(Instances data, Classifier classifier, int fold) throws Exception {
+    public static double crossValidation(Instances data, Classifier classifier, int fold) throws Exception {
         Evaluation eval = new Evaluation(data);
         System.out.println(eval.getHeader().numAttributes());
         eval.crossValidateModel(classifier, data, fold, new Random(10));
         System.out.println(eval.toSummaryString("\nResults\n======\n", false));
         System.out.println(eval.toClassDetailsString());
         System.out.println(eval.toMatrixString());
+        return eval.weightedFMeasure();
     }
 
     public static String fixEncoding(String latin1) {
@@ -458,91 +464,119 @@ public class WekaUtils {
         // setting class attribute if the data format does not provide this information
         // For example, the XRFF format saves the class attribute information as well
         //if (data.classIndex() == -1) {
-            //data.setClassIndex(data.numAttributes() - 1);
+        //data.setClassIndex(data.numAttributes() - 1);
         //}
 
         return data;
     }
 
-    public static void main (String[] args) throws Exception {
+    public static void main(String[] args) throws Exception {
         boolean user = true;
-        List<LabelledDoc> labelledDocs = null;
         List<String> labels = new ArrayList<>();
         String PERMISSION;
         WekaUtils wekaUtils = new WekaUtils();
         String mark = "RECORD_AUDIO"; //SEND_SMS";
+        String pyWorkLoc = "C:\\Users\\majes\\PycharmProjects\\COSMOS_MINING";//D:\workspace\COSPOS_MINING
+        List<List<LabelledDoc>> docsResutls = new ArrayList<>();
         if (!user) {
             PERMISSION = "all"; //Location"; //READ_PHONE_STATE";
             //Instances data = WekaUtils.loadArff();
             //FilteredClassifier filteredClassifier = WekaUtils.buildClassifier(data);
             //System.out.println(filteredClassifier.getBatchSize());
 
-            labelledDocs = wekaUtils.getDocs("D:\\workspace\\COSPOS_MINING\\output\\gnd\\comp\\" + mark + "\\"
-                    + PERMISSION);// D:\\workspace\\COSPOS_MINING\\output\\gnd\\" + PERMISSION); //Location");
+            docsResutls.add(wekaUtils.getDocs(pyWorkLoc + "\\output\\gnd\\comp\\" + mark + "\\"
+                    + PERMISSION));// D:\\workspace\\COSPOS_MINING\\output\\gnd\\" + PERMISSION); //Location");
             labels.add("T");
             labels.add("D");
             labels.add("F");
         } else {
             PERMISSION = "users"; //READ_PHONE_STATE";
-            int user_num = 9;
-            mark = Integer.toString(user_num);
-            labelledDocs = wekaUtils.getUserDocs("D:\\workspace\\COSPOS_MINING\\output\\gnd\\" + PERMISSION + "\\" + user_num); //Location");
+            for (int i = 0; i < 10; i++) {
+                int user_num = i;
+                mark = Integer.toString(user_num);
+                docsResutls.add(wekaUtils.getUserDocs(pyWorkLoc + "\\output\\gnd\\" + PERMISSION + "\\" + user_num)); //Location");
+            }
             labels = new ArrayList<>();
             labels.add("T");
             labels.add("F");
         }
-        Instances instances = docs2Instances(labelledDocs, labels);
-        //for (Instance instance : instances) {
-           // System.out.println(instance.classAttribute());
-           // System.out.println(instance);
-       // }
 
-        StringToWordVector stringToWordVector = getWordFilter(instances, false);
+        Map<Integer, Double> fmeasures = new HashMap<>();
+        for (int i = 0; i < docsResutls.size(); i++) {
+            List<LabelledDoc> labelledDocs = docsResutls.get(i);
+            Instances instances = docs2Instances(labelledDocs, labels);
+            if (instances.numInstances() < 10) {
+                continue;
+            }
+            //for (Instance instance : instances) {
+            // System.out.println(instance.classAttribute());
+            // System.out.println(instance);
+            // }
 
-        instances = Filter.useFilter(instances, stringToWordVector);
-        createArff(instances, PERMISSION + "_" + mark + ".arff");
+            StringToWordVector stringToWordVector = getWordFilter(instances, false);
+
+            instances = Filter.useFilter(instances, stringToWordVector);
+            createArff(instances, PERMISSION + "_" + mark + ".arff");
         /*PrintWriter out = new PrintWriter(PERMISSION + "_" + mark + ".arff");
         out.print(instances.toString());
         out.close();*/
-        weka.core.SerializationHelper.write(PERMISSION + "_" + mark + ".filter", stringToWordVector);
-        if (!user) {
-            instances = WekaUtils.overSampling(instances, "1", 250);
-            System.out.println(instances.numInstances());
-            instances = WekaUtils.overSampling(instances, "2", 150);
-            System.out.println(instances.numInstances());
+            weka.core.SerializationHelper.write(PERMISSION + "_" + mark + ".filter", stringToWordVector);
+            if (!user) {
+                instances = WekaUtils.overSampling(instances, "1", 250);
+                System.out.println(instances.numInstances());
+                instances = WekaUtils.overSampling(instances, "2", 150);
+                System.out.println(instances.numInstances());
 
-            WekaUtils.createArff(instances, PERMISSION + "_" + mark + "_smote.arff");
-        }
-
-        // Evaluate classifier and print some statistics
-        Classifier classifier = buildClassifier(instances, PERMISSION);
-
-        try {
-            crossValidation(instances, classifier, 5);
-        } catch (Exception e) {
-            e.printStackTrace();
-        }
-
-        boolean prediction = false;
-
-        if (prediction) {
-            List<LabelledDoc> labelledTestDocs = wekaUtils.getDocs("data/test");
-            Instances testInstances = docs2Instances(labelledTestDocs, labels);
-
-            testInstances = Filter.useFilter(testInstances, stringToWordVector);
+                WekaUtils.createArff(instances, PERMISSION + "_" + mark + "_smote.arff");
+            }
 
             // Evaluate classifier and print some statistics
-            Evaluation eval = new Evaluation(instances);
-            eval.evaluateModel(classifier, testInstances);
-            System.out.println(eval.toSummaryString("\nResults\n======\n", false));
-            System.out.println(eval.toClassDetailsString());
-            System.out.println(eval.toMatrixString());
+            Classifier classifier = buildClassifier(instances, PERMISSION, user);
 
-            List<String> unlabelledDocs = new ArrayList<>();
-            unlabelledDocs.add("xx haha lulu");
-            predict(unlabelledDocs, stringToWordVector, classifier, instances.classAttribute());
+            try {
+                fmeasures.put(i, crossValidation(instances, classifier, 5));
+            } catch (Exception e) {
+                e.printStackTrace();
+            }
+
+            boolean prediction = false;
+
+            if (prediction) {
+                List<LabelledDoc> labelledTestDocs = wekaUtils.getDocs("data/test");
+                Instances testInstances = docs2Instances(labelledTestDocs, labels);
+
+                testInstances = Filter.useFilter(testInstances, stringToWordVector);
+
+                // Evaluate classifier and print some statistics
+                Evaluation eval = new Evaluation(instances);
+                eval.evaluateModel(classifier, testInstances);
+                System.out.println(eval.toSummaryString("\nResults\n======\n", false));
+                System.out.println(eval.toClassDetailsString());
+                System.out.println(eval.toMatrixString());
+
+                List<String> unlabelledDocs = new ArrayList<>();
+                unlabelledDocs.add("xx haha lulu");
+                predict(unlabelledDocs, stringToWordVector, classifier, instances.classAttribute());
+            }
+            // save2Arff(instances, "data_bag");
+            // save2Arff(testInstances, "test_bag");
         }
-        // save2Arff(instances, "data_bag");
-        // save2Arff(testInstances, "test_bag");
+
+        PrintWriter pw = new PrintWriter(new File("results.csv"));
+        StringBuilder sb = new StringBuilder();
+        sb.append("id");
+        sb.append(',');
+        sb.append("Name");
+        sb.append('\n');
+
+        for (Integer index : fmeasures.keySet()) {
+            sb.append(Integer.toString(index));
+            sb.append(',');
+            sb.append(Double.toString(fmeasures.get(index)));
+            sb.append('\n');
+        }
+        pw.write(sb.toString());
+        pw.close();
+        System.out.println("done!");
     }
 }
