@@ -476,7 +476,7 @@ public class WekaUtils {
         String PERMISSION;
         WekaUtils wekaUtils = new WekaUtils();
         String mark = "RECORD_AUDIO"; //SEND_SMS";
-        String pyWorkLoc = "C:\\Users\\majes\\PycharmProjects\\COSMOS_MINING";//D:\workspace\COSPOS_MINING
+        String pyWorkLoc = "D:\\workspace\\COSPOS_MINING";
         List<List<LabelledDoc>> docsResutls = new ArrayList<>();
         if (!user) {
             PERMISSION = "all"; //Location"; //READ_PHONE_STATE";
