@@ -1,0 +1,3689 @@
+@relation 'docs-weka.filters.unsupervised.attribute.StringToWordVector-R1-W10000-prune-rate-1.0-N0-stemmerweka.core.stemmers.NullStemmer-M1-tokenizerweka.core.tokenizers.WordTokenizer -delimiters \" \\r\\n\\t.,;:\\\'\\\"()?!\"-weka.filters.unsupervised.attribute.Remove-V-R3034,3345,3848,3707,2983,866,6155,1975,9864,6327,1143,3709,2315,2285,3915,744,3689,651,2296,2709,3038,2939,2111,2008,1578,2837,3178,1789,2947,2831,3790,3922,6759,2628,2109,3632,814,3305,945,1493,2972,1791,3460,557,433,1912,509,1090,402,2031,6364,1375,3245,1222,910,3546,1312,1525,1514,1042,1770,1597,2803,1215,51,3130,388,2290,7213,2771,2138,25,3233,3698,3148,2792,1500,2607,48,3064,7318,3657,3406,1366,3900,1583,1733,2205,2055,1231,3154,3004,624,532,3645,2687,2118,2965,3096,1777,2868,3651,3175,1266,648,7233,2665,186,1207,3232,2984,1407,13,1740,3619,812,3767,2916,3400,2805,672,2638,1442,1967,3558,506,24,684,1738,1814,2539,1309,443,197,693,1908,1863,1310,1921,292,1356,1899,2413,7682,2381,88,3075,2561,2305,2067,2005,1751,3450,1054,1197,837,1027,126,3330,1834,1228,1539,1232,4482,8492,3377,8527,3192,2241,2440,3818,765,2071,1120,1098,1249,3575,745,1112,1745,1153,1146,2430,951,2860,735,988,2734,35,3392,843,3459,278,2944,2696,1743,1964,798,2089,2643,3436,2627,6565,8731,6649,1960,3124,1246,1959,2175,2062,450,3789,240,606,3729,972,246,565,499,2006,2184,1176,405,533,2562,3027,3013,1126,683,2154,2329,1219,3318,1410,3202,3221,1713-1714,3700,626,1241,2301,2434,3344,2492,1792,244,1785,2359,1085,7448,8553,8486,65,1086,2399,7737,4857,958,1431,856,183,1147,3534,2555,2467,516,242,7109,3448,1878,1604,2132,2532,2222,3480,1403,3273,7262,2966,1221,1026,1452,1016,3236,2884,808,3574,152,1769,2498,2865,1261,736,3679,1671,3551,3834,2386,1028,2990,447,946,802,430,1784,2275,31,751,1270,30,1488,1068,2733,2345,1556,409,2905,1526,3672,1059,124,2302,3237,3074,3502,3471,1385,3350,3357,1384,1414,3102,1636,3090,243,1883,1962,716,1377,1337,1874,1916,1387,1349,2058,3786,1662,3484,9163,6612,3137,3529,3389,3604,2310,2314,1810,3913,3438,110,3496,1482,5278,3193,2604,2173,146,2106,2134,9246,10473,4918,5218,10666,9325,3608,1660,2749,2511,93,3686,1415,3058,1694,1684,3220,6063,3290,3272,3768,1737,6652,8465,7499,9587,6869,2490,2228,2533,1520,1652,3856,1907,1685,1469,3412,871,157,155,2876,1723,1716,2429,3886,2408,3708,1790,1381,3805,890,1879,3931,2647,554,807,2681,3067,534,3359,2955,1260,3568,2529,2135,1823,889,1422,649,2223,5009,6291,7784,2024,3079,3904,3134,3727,2765,518,2065,2953,3310,1290,7144,1006,2538,3100,551,888,2260,1426,3235,7454,6650,7513,8811,4340,1632,3224,3867,3928,3804,4335,6480,5529,2188,1302,3453,926,702,3045,630,2517,3925,2811,2534,2325,1425,2330,2590,2293,423,517,3715,220,3586,1942,1677,1'
+
+@attribute mm numeric
+@attribute reader numeric
+@attribute weather numeric
+@attribute track numeric
+@attribute map numeric
+@attribute GPS numeric
+@attribute [[] numeric
+@attribute [[ numeric
+@attribute 搜象文学网 numeric
+@attribute act numeric
+@attribute Map numeric
+@attribute tracker numeric
+@attribute code numeric
+@attribute chart numeric
+@attribute your numeric
+@attribute Enter numeric
+@attribute to numeric
+@attribute Davis numeric
+@attribute city numeric
+@attribute gps numeric
+@attribute mobile numeric
+@attribute locate numeric
+@attribute android numeric
+@attribute a numeric
+@attribute Satellite numeric
+@attribute isProviderEnabled numeric
+@attribute or numeric
+@attribute Track numeric
+@attribute locations numeric
+@attribute invitation numeric
+@attribute vehicle numeric
+@attribute zip numeric
+@attribute cn numeric
+@attribute forecast numeric
+@attribute and numeric
+@attribute 'take\\n' numeric
+@attribute Finder numeric
+@attribute progressives numeric
+@attribute Home numeric
+@attribute Report numeric
+@attribute main numeric
+@attribute Tracker numeric
+@attribute select numeric
+@attribute City numeric
+@attribute BACK numeric
+@attribute Weather numeric
+@attribute California numeric
+@attribute Locations numeric
+@attribute Area numeric
+@attribute activity numeric
+@attribute ads numeric
+@attribute Please numeric
+@attribute places numeric
+@attribute NEXT numeric
+@attribute HELP numeric
+@attribute source numeric
+@attribute PM numeric
+@attribute Rue numeric
+@attribute Road numeric
+@attribute La numeric
+@attribute Time numeric
+@attribute Search numeric
+@attribute in numeric
+@attribute My numeric
+@attribute 06 numeric
+@attribute on numeric
+@attribute An numeric
+@attribute child numeric
+@attribute fb numeric
+@attribute hunters numeric
+@attribute around numeric
+@attribute / numeric
+@attribute phones numeric
+@attribute toolkit numeric
+@attribute onOptionsItemSelected numeric
+@attribute ilocateMobile numeric
+@attribute Restaurant numeric
+@attribute finder numeric
+@attribute 04 numeric
+@attribute my numeric
+@attribute geometer numeric
+@attribute the numeric
+@attribute rocket numeric
+@attribute Places numeric
+@attribute wright numeric
+@attribute Saved numeric
+@attribute TYPE numeric
+@attribute boolean numeric
+@attribute ad numeric
+@attribute Near numeric
+@attribute onRequestPermissionsResult numeric
+@attribute menu numeric
+@attribute Current numeric
+@attribute CellLocation numeric
+@attribute telephony numeric
+@attribute getCellLocation numeric
+@attribute anton numeric
+@attribute lunar numeric
+@attribute nik numeric
+@attribute Today numeric
+@attribute kettle numeric
+@attribute territory numeric
+@attribute option numeric
+@attribute OR numeric
+@attribute Dashboard numeric
+@attribute file numeric
+@attribute game numeric
+@attribute 4 numeric
+@attribute More numeric
+@attribute phone numeric
+@attribute maps numeric
+@attribute Price numeric
+@attribute '\%' numeric
+@attribute Tap numeric
+@attribute tab numeric
+@attribute Find numeric
+@attribute use numeric
+@attribute lib numeric
+@attribute rika numeric
+@attribute in-out numeric
+@attribute Description numeric
+@attribute framework numeric
+@attribute RECENTLY numeric
+@attribute Zipcode numeric
+@attribute spot numeric
+@attribute Cafe numeric
+@attribute -121 numeric
+@attribute Directory numeric
+@attribute Takeaway numeric
+@attribute Types numeric
+@attribute entries numeric
+@attribute PLACE numeric
+@attribute Bakery numeric
+@attribute 45 numeric
+@attribute Distance numeric
+@attribute Waypoints numeric
+@attribute VIEWED numeric
+@attribute PLACES numeric
+@attribute Welcome numeric
+@attribute 9 numeric
+@attribute Phone numeric
+@attribute Walk numeric
+@attribute default numeric
+@attribute library numeric
+@attribute current numeric
+@attribute 12 numeric
+@attribute near numeric
+@attribute expert numeric
+@attribute clockwise numeric
+@attribute addmobile numeric
+@attribute '\\xa0\\xa0\\xa0\\xa0His/Her' numeric
+@attribute Terrain numeric
+@attribute searching numeric
+@attribute Latitude numeric
+@attribute Mon numeric
+@attribute Forecast numeric
+@attribute Kmart numeric
+@attribute 20 numeric
+@attribute radar numeric
+@attribute Units numeric
+@attribute Name numeric
+@attribute SELECT numeric
+@attribute Nearby numeric
+@attribute Books numeric
+@attribute shu numeric
+@attribute requestLocationUpdates numeric
+@attribute sms numeric
+@attribute own numeric
+@attribute call numeric
+@attribute dev numeric
+@attribute visible numeric
+@attribute External numeric
+@attribute addresses numeric
+@attribute MISSED numeric
+@attribute Longitude numeric
+@attribute North numeric
+@attribute stations numeric
+@attribute Entertainment numeric
+@attribute MAP numeric
+@attribute Tech numeric
+@attribute Mate numeric
+@attribute Maprika numeric
+@attribute desk numeric
+@attribute Hour numeric
+@attribute just numeric
+@attribute Emergency numeric
+@attribute Internal numeric
+@attribute have numeric
+@attribute 00 numeric
+@attribute review numeric
+@attribute Found numeric
+@attribute see numeric
+@attribute 8 numeric
+@attribute location numeric
+@attribute give numeric
+@attribute Tax numeric
+@attribute Zip numeric
+@attribute Feb numeric
+@attribute aka numeric
+@attribute friend numeric
+@attribute saved numeric
+@attribute for numeric
+@attribute bei numeric
+@attribute ting numeric
+@attribute bu numeric
+@attribute Your numeric
+@attribute of numeric
+@attribute No numeric
+@attribute You numeric
+@attribute be numeric
+@attribute added numeric
+@attribute Be numeric
+@attribute vec numeric
+@attribute 59 numeric
+@attribute Corner numeric
+@attribute tura numeric
+@attribute ImageButton numeric
+@attribute 60179 numeric
+@attribute Clicking numeric
+@attribute CORNER numeric
+@attribute '\\xa0\\xa0\\xa0\\xa0Your' numeric
+@attribute belowI numeric
+@attribute Meters numeric
+@attribute Around numeric
+@attribute Celsius numeric
+@attribute explorer numeric
+@attribute minimum numeric
+@attribute meters numeric
+@attribute MPH numeric
+@attribute Directions numeric
+@attribute availability numeric
+@attribute compass numeric
+@attribute NEARBY numeric
+@attribute px numeric
+@attribute Pricing numeric
+@attribute panda numeric
+@attribute performance numeric
+@attribute Sunrise numeric
+@attribute Sunrise/Sunset numeric
+@attribute top numeric
+@attribute Custom numeric
+@attribute News numeric
+@attribute client numeric
+@attribute details numeric
+@attribute read numeric
+@attribute drop numeric
+@attribute Tracking numeric
+@attribute 60 numeric
+@attribute Touch numeric
+@attribute corner numeric
+@attribute Locate numeric
+@attribute huo numeric
+@attribute speaker numeric
+@attribute shou numeric
+@attribute 1 numeric
+@attribute Location numeric
+@attribute date numeric
+@attribute lu numeric
+@attribute FBReader numeric
+@attribute I numeric
+@attribute Quantity numeric
+@attribute Functional numeric
+@attribute 38 numeric
+@attribute Maps numeric
+@attribute solo numeric
+@attribute exercise numeric
+@attribute distance numeric
+@attribute Capacity numeric
+@attribute 6 numeric
+@attribute empty numeric
+@attribute search numeric
+@attribute View numeric
+@attribute Select numeric
+@attribute ar numeric
+@attribute enabled numeric
+@attribute but numeric
+@attribute setting numeric
+@attribute Press numeric
+@attribute posse numeric
+@attribute font numeric
+@attribute m numeric
+@attribute NEWS numeric
+@attribute Km/h numeric
+@attribute RPM numeric
+@attribute Kane numeric
+@attribute physician numeric
+@attribute land numeric
+@attribute Film numeric
+@attribute station numeric
+@attribute 25 numeric
+@attribute Tiles numeric
+@attribute each numeric
+@attribute keeps numeric
+@attribute OBD-2 numeric
+@attribute Emotional numeric
+@attribute tiles numeric
+@attribute Sports numeric
+@attribute specialist numeric
+@attribute walked numeric
+@attribute customized numeric
+@attribute Kong numeric
+@attribute matching numeric
+@attribute Based numeric
+@attribute Hong numeric
+@attribute Feet numeric
+@attribute Awards numeric
+@attribute Tottenham numeric
+@attribute certain numeric
+@attribute /storage/emulated/0/ numeric
+@attribute Europe numeric
+@attribute Occurred numeric
+@attribute /mnt/ numeric
+@attribute Release numeric
+@attribute Lifestyle numeric
+@attribute hate numeric
+@attribute consult numeric
+@attribute SPORTS numeric
+@attribute Asc numeric
+@attribute leads numeric
+@attribute Run numeric
+@attribute throttle numeric
+@attribute Learn numeric
+@attribute 2/4/17 numeric
+@attribute clinical numeric
+@attribute physiologist numeric
+@attribute ne numeric
+@attribute side numeric
+@attribute sensors numeric
+@attribute Popular numeric
+@attribute rear numeric
+@attribute reduction numeric
+@attribute Poor numeric
+@attribute Processed numeric
+@attribute nominees numeric
+@attribute Sightings numeric
+@attribute newsreader numeric
+@attribute 6/6 numeric
+@attribute Virginia numeric
+@attribute ZIP numeric
+@attribute ENTERTAINMENT numeric
+@attribute Pochettino numeric
+@attribute Path numeric
+@attribute Very numeric
+@attribute Wed numeric
+@attribute Position numeric
+@attribute Personalize numeric
+@attribute add-on numeric
+@attribute vary numeric
+@attribute Soul numeric
+@attribute severe numeric
+@attribute 书讯 numeric
+@attribute book numeric
+@attribute onCreateOptionsMenu numeric
+@attribute so numeric
+@attribute return numeric
+@attribute sunrise numeric
+@attribute clouds numeric
+@attribute cobra numeric
+@attribute Tue numeric
+@attribute yong numeric
+@attribute says numeric
+@attribute 17 numeric
+@attribute should numeric
+@attribute Refresh numeric
+@attribute Magazines numeric
+@attribute p numeric
+@attribute files numeric
+@attribute based numeric
+@attribute 23 numeric
+@attribute an numeric
+@attribute are numeric
+@attribute 作者简介 numeric
+@attribute 编辑推荐 numeric
+@attribute Free numeric
+@attribute License numeric
+@attribute 返回 numeric
+@attribute 内容简介 numeric
+@attribute sure numeric
+@attribute Sort numeric
+@attribute history numeric
+@attribute edit numeric
+@attribute 13 numeric
+@attribute tips numeric
+@attribute Product numeric
+@attribute mp numeric
+@attribute Storage numeric
+@attribute States numeric
+@attribute per numeric
+@attribute Video numeric
+@attribute price numeric
+@attribute position numeric
+@attribute used numeric
+@attribute Take numeric
+@attribute bud numeric
+@attribute shake numeric
+@attribute ing numeric
+@attribute 完整目录 numeric
+@attribute coupon numeric
+@attribute driver numeric
+@attribute buying numeric
+@attribute encoded numeric
+@attribute Rotate numeric
+@attribute Snooze numeric
+@attribute wetter numeric
+@attribute Waypoint numeric
+@attribute Station numeric
+@attribute Rear numeric
+@attribute route numeric
+@attribute GPX numeric
+@attribute 28 numeric
+@attribute 27 numeric
+@attribute km numeric
+@attribute Switch numeric
+@attribute Sunset numeric
+@attribute desired numeric
+@attribute won numeric
+@attribute deals numeric
+@attribute track/route numeric
+@attribute Track/route numeric
+@attribute Police numeric
+@attribute videos numeric
+@attribute GoHuntPA numeric
+@attribute Viewer numeric
+@attribute °C numeric
+@attribute front numeric
+@attribute Churches numeric
+@attribute Field numeric
+@attribute geotagging numeric
+@attribute name numeric
+@attribute Center numeric
+@attribute refresh numeric
+@attribute long numeric
+@attribute OBD numeric
+@attribute star numeric
+@attribute emergency numeric
+@attribute area numeric
+@attribute US numeric
+@attribute Go numeric
+@attribute Provider numeric
+@attribute Data numeric
+@attribute button numeric
+@attribute HD numeric
+@attribute '\\xa0\\xa0畅呼\\xa0\\xa0' numeric
+@attribute mei numeric
+@attribute accurate numeric
+@attribute need numeric
+@attribute x numeric
+@attribute onConfigurationChanged numeric
+@attribute tuners numeric
+@attribute hp numeric
+@attribute Card numeric
+@attribute addict numeric
+@attribute login numeric
+@attribute providers numeric
+@attribute Options numeric
+@attribute er numeric
+@attribute Join numeric
+@attribute entire numeric
+@attribute no numeric
+@attribute Choose numeric
+@attribute Give numeric
+@attribute cash numeric
+@attribute Purchase numeric
+@attribute photos numeric
+@attribute ian numeric
+@attribute bubble numeric
+@attribute install numeric
+@attribute uninstall numeric
+@attribute Alarms numeric
+@attribute Show numeric
+@attribute permission numeric
+@attribute widget numeric
+@attribute | numeric
+@attribute video numeric
+@attribute Agreement numeric
+@attribute articles numeric
+@attribute Players numeric
+@attribute between numeric
+@attribute Output numeric
+@attribute seattle numeric
+@attribute Health numeric
+@attribute Down numeric
+@attribute money numeric
+@attribute Customize numeric
+@attribute effort numeric
+@attribute zoo numeric
+@attribute indicate numeric
+@attribute engine numeric
+@attribute comment numeric
+@attribute Pull numeric
+@attribute compatible numeric
+@attribute feed numeric
+@attribute churches numeric
+@attribute Auto-Accept numeric
+@attribute Car numeric
+@attribute travel numeric
+@attribute 530 numeric
+@attribute stores numeric
+@attribute Withings numeric
+@attribute Stamp numeric
+@attribute text_label {T,F}
+
+@data
+{7 1,25 1,49 1,74 1,81 1,87 1,500 F}
+{7 1,25 1,49 1,87 1,500 F}
+{7 1,22 1,40 1,49 1,193 1,255 1,500 F}
+{7 1,22 1,49 1,193 1,255 1,500 F}
+{7 1,22 1,49 1,193 1,255 1,500 F}
+{7 1,12 1,14 1,25 1,26 1,49 1,61 1,65 1,81 1,87 1,200 1,270 1,379 1,500 F}
+{7 1,12 1,14 1,25 1,26 1,49 1,61 1,65 1,81 1,87 1,200 1,270 1,379 1,500 F}
+{7 1,25 1,49 1,87 1,91 1,352 1,370 1,500 F}
+{7 1,16 1,165 1,500 F}
+{7 1,16 1,165 1,500 F}
+{7 1,16 1,22 1,40 1,49 1,193 1,244 1,255 1,500 F}
+{7 1,16 1,22 1,49 1,193 1,244 1,255 1,500 F}
+{7 1,25 1,49 1,87 1,90 1,500 F}
+{7 1,25 1,49 1,79 1,87 1,160 1,500 F}
+{7 1,22 1,49 1,140 1,193 1,255 1,263 1,379 1,500 F}
+{7 1,22 1,49 1,164 1,193 1,202 1,203 1,204 1,255 1,351 1,500 F}
+{7 1,22 1,49 1,164 1,193 1,202 1,203 1,204 1,255 1,351 1,500 F}
+{6 1,22 1,49 1,164 1,193 1,202 1,203 1,204 1,255 1,351 1,500 F}
+{6 1,22 1,49 1,164 1,193 1,202 1,203 1,204 1,255 1,351 1,500 F}
+{7 1,22 1,49 1,164 1,193 1,202 1,203 1,204 1,255 1,351 1,500 F}
+{7 1,22 1,49 1,164 1,193 1,202 1,203 1,204 1,255 1,351 1,500 F}
+{6 1,22 1,49 1,164 1,193 1,202 1,203 1,204 1,255 1,500 F}
+{6 1,22 1,49 1,164 1,193 1,202 1,203 1,204 1,255 1,500 F}
+{7 1,22 1,49 1,164 1,193 1,202 1,203 1,204 1,255 1,500 F}
+{7 1,22 1,49 1,164 1,193 1,202 1,203 1,204 1,255 1,500 F}
+{7 1,22 1,164 1,193 1,202 1,203 1,204 1,255 1,500 F}
+{7 1,22 1,164 1,193 1,202 1,203 1,204 1,255 1,500 F}
+{7 1,22 1,49 1,164 1,193 1,202 1,203 1,204 1,255 1,500 F}
+{7 1,22 1,49 1,164 1,193 1,202 1,203 1,204 1,255 1,500 F}
+{7 1,22 1,164 1,193 1,202 1,203 1,204 1,255 1,500 F}
+{7 1,22 1,164 1,193 1,202 1,203 1,204 1,255 1,500 F}
+{7 1,22 1,105 1,164 1,193 1,202 1,203 1,204 1,255 1,500 F}
+{7 1,22 1,105 1,164 1,193 1,202 1,203 1,204 1,255 1,500 F}
+{7 1,22 1,49 1,105 1,164 1,193 1,202 1,203 1,204 1,255 1,500 F}
+{7 1,22 1,164 1,193 1,202 1,203 1,204 1,255 1,500 F}
+{7 1,22 1,164 1,193 1,202 1,203 1,204 1,255 1,500 F}
+{7 1,22 1,79 1,164 1,193 1,202 1,203 1,204 1,255 1,500 F}
+{7 1,22 1,79 1,164 1,193 1,202 1,203 1,204 1,255 1,500 F}
+{7 1,22 1,65 1,164 1,193 1,202 1,203 1,204 1,255 1,500 F}
+{7 1,22 1,65 1,164 1,193 1,202 1,203 1,204 1,255 1,500 F}
+{7 1,22 1,164 1,193 1,202 1,203 1,204 1,244 1,255 1,500 F}
+{7 1,22 1,164 1,193 1,202 1,203 1,204 1,244 1,255 1,500 F}
+{7 1,164 1,202 1,203 1,204 1,500 F}
+{7 1,22 1,164 1,193 1,202 1,203 1,204 1,255 1,500 F}
+{7 1,22 1,164 1,193 1,202 1,203 1,204 1,255 1,500 F}
+{7 1,22 1,164 1,193 1,202 1,203 1,204 1,255 1,500 F}
+{7 1,22 1,87 1,164 1,193 1,202 1,203 1,204 1,255 1,500 F}
+{7 1,22 1,87 1,164 1,193 1,202 1,203 1,204 1,255 1,500 F}
+{7 1,164 1,202 1,203 1,204 1,500 F}
+{7 1,22 1,164 1,193 1,202 1,203 1,204 1,255 1,500 F}
+{7 1,22 1,164 1,193 1,202 1,203 1,204 1,255 1,500 F}
+{6 1,22 1,49 1,164 1,193 1,202 1,203 1,204 1,255 1,351 1,500 F}
+{6 1,22 1,49 1,164 1,193 1,202 1,203 1,204 1,255 1,351 1,500 F}
+{7 1,22 1,49 1,164 1,193 1,202 1,203 1,204 1,255 1,500 F}
+{7 1,22 1,49 1,164 1,193 1,202 1,203 1,204 1,255 1,500 F}
+{7 1,25 1,49 1,87 1,500 F}
+{7 1,22 1,49 1,87 1,193 1,255 1,500 F}
+{7 1,22 1,87 1,193 1,255 1,500 F}
+{7 1,22 1,40 1,49 1,193 1,255 1,500 F}
+{7 1,22 1,49 1,193 1,255 1,500 F}
+{7 1,22 1,25 1,87 1,471 1,500 F}
+{7 1,22 1,25 1,87 1,471 1,500 F}
+{7 1,22 1,49 1,168 1,193 1,255 1,442 1,471 1,500 F}
+{7 1,22 1,49 1,168 1,193 1,255 1,442 1,500 F}
+{7 1,22 1,49 1,168 1,193 1,255 1,442 1,500 F}
+{7 1,22 1,49 1,168 1,193 1,255 1,500 F}
+{7 1,22 1,49 1,168 1,193 1,255 1,500 F}
+{7 1,22 1,49 1,168 1,193 1,255 1,442 1,471 1,500 F}
+{7 1,22 1,49 1,74 1,87 1,168 1,193 1,255 1,442 1,500 F}
+{7 1,22 1,49 1,168 1,193 1,255 1,442 1,500 F}
+{7 1,22 1,49 1,168 1,193 1,255 1,442 1,500 F}
+{7 1,22 1,49 1,168 1,193 1,255 1,442 1,500 F}
+{7 1,22 1,49 1,168 1,193 1,255 1,442 1,500 F}
+{7 1,22 1,49 1,168 1,193 1,255 1,500 F}
+{7 1,22 1,49 1,168 1,193 1,255 1,500 F}
+{6 1,22 1,49 1,168 1,193 1,255 1,500 F}
+{6 1,22 1,49 1,168 1,193 1,255 1,500 F}
+{7 1,22 1,49 1,168 1,193 1,255 1,500 F}
+{7 1,22 1,49 1,168 1,193 1,255 1,375 1,500 F}
+{7 1,22 1,49 1,168 1,193 1,255 1,375 1,500 F}
+{7 1,22 1,49 1,168 1,193 1,255 1,375 1,500 F}
+{7 1,22 1,49 1,168 1,193 1,255 1,452 1,500 F}
+{7 1,22 1,49 1,168 1,193 1,255 1,452 1,500 F}
+{7 1,22 1,49 1,168 1,193 1,255 1,452 1,500 F}
+{7 1,22 1,49 1,168 1,193 1,255 1,375 1,500 F}
+{7 1,22 1,49 1,168 1,193 1,255 1,375 1,500 F}
+{7 1,22 1,49 1,168 1,193 1,255 1,375 1,500 F}
+{7 1,22 1,49 1,168 1,193 1,255 1,442 1,471 1,500 F}
+{7 1,22 1,49 1,168 1,193 1,255 1,442 1,471 1,500 F}
+{7 1,22 1,49 1,168 1,193 1,255 1,442 1,471 1,500 F}
+{7 1,22 1,49 1,168 1,193 1,255 1,442 1,471 1,500 F}
+{7 1,22 1,49 1,168 1,193 1,255 1,442 1,500 F}
+{7 1,22 1,49 1,168 1,193 1,255 1,442 1,471 1,500 F}
+{7 1,22 1,49 1,168 1,193 1,255 1,442 1,471 1,500 F}
+{7 1,22 1,49 1,168 1,193 1,255 1,442 1,471 1,500 F}
+{7 1,22 1,49 1,168 1,193 1,255 1,442 1,500 F}
+{7 1,22 1,49 1,168 1,193 1,255 1,442 1,500 F}
+{7 1,22 1,49 1,168 1,193 1,255 1,442 1,500 F}
+{7 1,22 1,49 1,168 1,193 1,255 1,500 F}
+{7 1,22 1,49 1,168 1,193 1,255 1,500 F}
+{7 1,22 1,49 1,168 1,193 1,255 1,442 1,500 F}
+{7 1,22 1,49 1,168 1,193 1,255 1,442 1,500 F}
+{7 1,22 1,49 1,168 1,193 1,255 1,471 1,500 F}
+{7 1,22 1,49 1,168 1,193 1,255 1,471 1,500 F}
+{7 1,22 1,49 1,168 1,193 1,255 1,500 F}
+{7 1,22 1,49 1,168 1,193 1,255 1,500 F}
+{7 1,22 1,49 1,168 1,193 1,255 1,442 1,500 F}
+{7 1,22 1,49 1,168 1,193 1,255 1,442 1,500 F}
+{7 1,22 1,49 1,168 1,193 1,255 1,442 1,500 F}
+{7 1,22 1,49 1,168 1,193 1,255 1,442 1,500 F}
+{7 1,22 1,49 1,168 1,193 1,255 1,442 1,500 F}
+{7 1,22 1,23 1,49 1,116 1,168 1,193 1,255 1,500 F}
+{7 1,22 1,23 1,49 1,116 1,168 1,193 1,255 1,500 F}
+{6 1,22 1,23 1,49 1,116 1,168 1,193 1,255 1,500 F}
+{6 1,22 1,23 1,49 1,116 1,168 1,193 1,255 1,500 F}
+{6 1,22 1,23 1,49 1,116 1,168 1,193 1,255 1,500 F}
+{6 1,22 1,23 1,49 1,116 1,168 1,193 1,255 1,500 F}
+{6 1,22 1,49 1,168 1,193 1,255 1,500 F}
+{6 1,22 1,49 1,168 1,193 1,255 1,500 F}
+{6 1,22 1,49 1,168 1,193 1,255 1,500 F}
+{7 1,22 1,25 1,87 1,374 1,474 1,500 F}
+{6 1,25 1,32 1,49 1,87 1,88 1,500 F}
+{7 1,32 1,165 1,500 F}
+{7 1,32 1,165 1,500 F}
+{7 1,32 1,165 1,500 F}
+{7 1,32 1,40 1,74 1,87 1,165 1,500 F}
+{7 1,25 1,32 1,40 1,87 1,500 F}
+{7 1,25 1,32 1,40 1,87 1,500 F}
+{7 1,22 1,32 1,40 1,193 1,255 1,500 F}
+{7 1,32 1,40 1,165 1,500 F}
+{7 1,32 1,165 1,201 1,207 1,500 F}
+{7 1,32 1,49 1,393 1,395 1,397 1,500 F}
+{7 1,32 1,49 1,393 1,395 1,397 1,500 F}
+{7 1,32 1,49 1,393 1,395 1,397 1,500 F}
+{7 1,32 1,49 1,393 1,395 1,397 1,500 F}
+{7 1,32 1,49 1,393 1,395 1,397 1,500 F}
+{7 1,32 1,49 1,393 1,395 1,397 1,500 F}
+{7 1,32 1,49 1,393 1,395 1,397 1,500 F}
+{7 1,32 1,49 1,393 1,395 1,397 1,500 F}
+{7 1,32 1,49 1,393 1,395 1,397 1,500 F}
+{7 1,32 1,49 1,393 1,395 1,397 1,500 F}
+{6 1,32 1,49 1,393 1,395 1,397 1,500 F}
+{6 1,32 1,49 1,393 1,395 1,397 1,500 F}
+{7 1,32 1,49 1,393 1,395 1,397 1,500 F}
+{7 1,32 1,49 1,393 1,395 1,397 1,500 F}
+{7 1,32 1,49 1,393 1,395 1,397 1,500 F}
+{7 1,32 1,49 1,393 1,395 1,397 1,500 F}
+{7 1,32 1,49 1,393 1,395 1,397 1,500 F}
+{7 1,32 1,49 1,393 1,395 1,397 1,500 F}
+{7 1,32 1,49 1,393 1,395 1,397 1,500 F}
+{7 1,32 1,49 1,393 1,395 1,397 1,500 F}
+{7 1,32 1,49 1,393 1,395 1,397 1,500 F}
+{7 1,18 1,32 1,49 1,393 1,395 1,397 1,500 F}
+{7 1,18 1,32 1,49 1,393 1,395 1,397 1,500 F}
+{7 1,18 1,32 1,49 1,393 1,395 1,397 1,500 F}
+{7 1,18 1,32 1,49 1,393 1,395 1,397 1,500 F}
+{7 1,32 1,40 1,393 1,395 1,397 1,500 F}
+{7 1,22 1,32 1,40 1,193 1,255 1,393 1,395 1,397 1,500 F}
+{7 1,22 1,32 1,40 1,193 1,255 1,393 1,395 1,397 1,500 F}
+{7 1,22 1,32 1,49 1,93 1,94 1,95 1,455 1,471 1,500 F}
+{7 1,32 1,49 1,165 1,455 1,500 F}
+{7 1,22 1,32 1,49 1,93 1,94 1,95 1,106 1,455 1,500 F}
+{7 1,22 1,32 1,49 1,93 1,94 1,95 1,106 1,455 1,500 F}
+{7 1,22 1,32 1,49 1,93 1,94 1,95 1,106 1,455 1,500 F}
+{7 1,22 1,32 1,49 1,93 1,94 1,95 1,106 1,455 1,500 F}
+{7 1,22 1,32 1,49 1,93 1,94 1,95 1,106 1,455 1,500 F}
+{7 1,32 1,49 1,87 1,106 1,165 1,455 1,500 F}
+{7 1,22 1,32 1,49 1,93 1,94 1,95 1,106 1,455 1,500 F}
+{7 1,22 1,32 1,49 1,93 1,94 1,95 1,106 1,455 1,500 F}
+{7 1,22 1,32 1,49 1,106 1,193 1,255 1,455 1,500 F}
+{7 1,32 1,49 1,106 1,455 1,500 F}
+{7 1,16 1,32 1,49 1,81 1,455 1,500 F}
+{7 1,16 1,32 1,49 1,81 1,455 1,500 F}
+{7 1,16 1,32 1,49 1,81 1,165 1,455 1,500 F}
+{7 1,16 1,22 1,32 1,49 1,81 1,93 1,94 1,95 1,455 1,500 F}
+{7 1,16 1,22 1,32 1,49 1,81 1,193 1,255 1,455 1,500 F}
+{7 1,16 1,22 1,32 1,49 1,81 1,193 1,255 1,455 1,500 F}
+{6 1,22 1,32 1,49 1,93 1,94 1,95 1,455 1,500 F}
+{7 1,16 1,23 1,32 1,81 1,106 1,138 1,201 1,455 1,500 F}
+{7 1,16 1,22 1,23 1,32 1,81 1,106 1,138 1,193 1,201 1,255 1,455 1,500 F}
+{7 1,16 1,22 1,23 1,32 1,81 1,106 1,138 1,193 1,201 1,255 1,455 1,500 F}
+{7 1,22 1,32 1,49 1,193 1,254 1,255 1,375 1,500 F}
+{7 1,22 1,32 1,49 1,193 1,254 1,255 1,375 1,500 F}
+{7 1,22 1,32 1,45 1,49 1,107 1,145 1,193 1,241 1,254 1,255 1,268 1,373 1,375 1,441 1,500 F}
+{7 1,22 1,32 1,45 1,49 1,107 1,145 1,193 1,241 1,254 1,255 1,268 1,373 1,375 1,441 1,500 F}
+{7 1,22 1,32 1,45 1,49 1,107 1,145 1,193 1,241 1,254 1,255 1,268 1,373 1,375 1,441 1,500 F}
+{7 1,22 1,32 1,49 1,193 1,255 1,375 1,500 F}
+{7 1,22 1,32 1,49 1,193 1,255 1,375 1,500 F}
+{7 1,22 1,32 1,49 1,87 1,193 1,255 1,500 F}
+{7 1,22 1,32 1,49 1,193 1,255 1,500 F}
+{7 1,22 1,32 1,49 1,193 1,255 1,500 F}
+{7 1,22 1,32 1,193 1,255 1,500 F}
+{7 1,22 1,32 1,49 1,193 1,255 1,375 1,500 F}
+{7 1,22 1,32 1,49 1,193 1,255 1,375 1,500 F}
+{7 1,22 1,32 1,49 1,193 1,255 1,375 1,500 F}
+{7 1,22 1,32 1,49 1,193 1,255 1,375 1,500 F}
+{7 1,22 1,32 1,49 1,193 1,255 1,375 1,500 F}
+{7 1,22 1,32 1,49 1,193 1,255 1,500 F}
+{7 1,22 1,32 1,49 1,193 1,255 1,500 F}
+{7 1,22 1,32 1,49 1,193 1,255 1,500 F}
+{7 1,22 1,32 1,49 1,193 1,254 1,255 1,375 1,441 1,472 1,500 F}
+{7 1,22 1,32 1,49 1,193 1,254 1,255 1,375 1,441 1,472 1,500 F}
+{7 1,22 1,32 1,49 1,193 1,255 1,500 F}
+{7 1,22 1,32 1,49 1,193 1,255 1,500 F}
+{6 1,32 1,40 1,81 1,106 1,165 1,500 F}
+{7 1,22 1,32 1,50 1,88 1,500 F}
+{7 1,16 1,22 1,32 1,34 1,50 1,88 1,139 1,500 F}
+{7 1,22 1,25 1,32 1,50 1,87 1,88 1,500 F}
+{7 1,22 1,25 1,32 1,50 1,87 1,88 1,500 F}
+{7 1,16 1,22 1,32 1,34 1,50 1,88 1,139 1,500 F}
+{7 1,22 1,25 1,32 1,50 1,87 1,88 1,500 F}
+{7 1,22 1,25 1,32 1,50 1,87 1,88 1,500 F}
+{7 1,32 1,49 1,165 1,467 1,500 F}
+{7 1,32 1,107 1,165 1,192 1,254 1,268 1,373 1,441 1,467 1,500 F}
+{7 1,32 1,107 1,165 1,192 1,254 1,268 1,373 1,441 1,467 1,500 F}
+{7 1,22 1,32 1,107 1,192 1,193 1,254 1,255 1,268 1,373 1,441 1,467 1,500 F}
+{7 1,22 1,32 1,107 1,192 1,193 1,254 1,255 1,268 1,373 1,441 1,467 1,500 F}
+{7 1,32 1,106 1,500 F}
+{7 1,22 1,32 1,93 1,94 1,95 1,106 1,500 F}
+{7 1,16 1,25 1,87 1,500 F}
+{7 1,16 1,25 1,87 1,500 F}
+{7 1,16 1,25 1,87 1,500 F}
+{7 1,14 1,16 1,26 1,34 1,49 1,109 1,205 1,386 1,500 F}
+{7 1,14 1,16 1,26 1,34 1,49 1,109 1,205 1,386 1,500 F}
+{7 1,14 1,16 1,26 1,34 1,49 1,109 1,205 1,386 1,500 F}
+{7 1,16 1,20 1,25 1,40 1,49 1,87 1,107 1,254 1,500 F}
+{6 1,22 1,49 1,50 1,88 1,165 1,500 F}
+{6 1,22 1,49 1,50 1,88 1,165 1,500 F}
+{7 1,22 1,50 1,88 1,500 F}
+{7 1,22 1,50 1,88 1,165 1,471 1,500 F}
+{7 1,22 1,50 1,88 1,165 1,471 1,500 F}
+{7 1,22 1,50 1,88 1,500 F}
+{7 1,22 1,50 1,88 1,500 F}
+{7 1,22 1,50 1,88 1,500 F}
+{7 1,22 1,50 1,88 1,500 F}
+{7 1,22 1,50 1,88 1,500 F}
+{7 1,22 1,50 1,88 1,500 F}
+{7 1,15 1,16 1,81 1,87 1,88 1,165 1,500 F}
+{7 1,15 1,23 1,25 1,34 1,49 1,62 1,81 1,87 1,106 1,447 1,500 F}
+{7 1,14 1,81 1,88 1,165 1,473 1,500 F}
+{7 1,14 1,81 1,88 1,165 1,473 1,500 F}
+{7 1,14 1,81 1,88 1,165 1,473 1,500 F}
+{7 1,14 1,49 1,81 1,88 1,165 1,473 1,500 F}
+{7 1,25 1,50 1,87 1,88 1,259 1,353 1,500 F}
+{6 1,49 1,88 1,165 1,500 F}
+{7 1,88 1,107 1,165 1,192 1,254 1,268 1,373 1,441 1,500 F}
+{7 1,25 1,87 1,88 1,500 F}
+{6 1,49 1,88 1,500 F}
+{6 1,88 1,165 1,500 F}
+{6 1,25 1,87 1,88 1,273 1,500 F}
+{6 1,88 1,165 1,500 F}
+{6 1,22 1,88 1,93 1,94 1,95 1,500 F}
+{6 1,25 1,87 1,88 1,500 F}
+{6 1,87 1,88 1,500 F}
+{7 1,88 1,500 F}
+{7 1,20 1,22 1,23 1,40 1,49 1,145 1,165 1,206 1,383 1,500 F}
+{7 1,20 1,22 1,23 1,40 1,49 1,145 1,165 1,206 1,383 1,500 F}
+{7 1,20 1,22 1,23 1,40 1,49 1,145 1,165 1,206 1,383 1,500 F}
+{7 1,22 1,49 1,193 1,255 1,500 F}
+{7 1,22 1,49 1,193 1,255 1,500 F}
+{7 1,22 1,49 1,193 1,255 1,500 F}
+{7 1,22 1,49 1,193 1,255 1,500 F}
+{7 1,22 1,49 1,193 1,255 1,500 F}
+{7 1,16 1,23 1,25 1,49 1,87 1,254 1,259 1,280 1,500 F}
+{7 1,16 1,22 1,23 1,49 1,193 1,254 1,255 1,259 1,280 1,500 F}
+{7 1,16 1,22 1,23 1,49 1,193 1,254 1,255 1,259 1,280 1,500 F}
+{7 1,16 1,22 1,23 1,49 1,193 1,254 1,255 1,259 1,280 1,500 F}
+{7 1,16 1,22 1,23 1,49 1,193 1,254 1,255 1,259 1,280 1,500 F}
+{7 1,16 1,22 1,23 1,40 1,49 1,114 1,193 1,254 1,255 1,259 1,280 1,500 F}
+{2 1,7 1,16 1,23 1,25 1,87 1,193 1,254 1,259 1,280 1,440 1,500 F}
+{7 1,22 1,23 1,49 1,193 1,255 1,488 1,500 F}
+{7 1,22 1,107 1,165 1,500 F}
+{7 1,22 1,107 1,165 1,500 F}
+{7 1,16 1,23 1,25 1,34 1,40 1,49 1,62 1,74 1,79 1,81 1,87 1,206 1,259 1,500 F}
+{7 1,16 1,23 1,25 1,34 1,40 1,49 1,62 1,79 1,81 1,87 1,206 1,259 1,500 F}
+{7 1,22 1,49 1,108 1,193 1,255 1,500 F}
+{7 1,22 1,49 1,108 1,193 1,255 1,276 1,500 F}
+{0 1,6 1,25 1,49 1,87 1,254 1,280 1,500 F}
+{0 1,6 1,25 1,49 1,87 1,254 1,280 1,500 F}
+{7 1,14 1,16 1,20 1,23 1,25 1,49 1,65 1,79 1,87 1,88 1,471 1,500 F}
+{7 1,22 1,23 1,40 1,49 1,63 1,193 1,255 1,500 F}
+{6 1,22 1,49 1,193 1,255 1,500 F}
+{0 1,1 1,7 1,9 1,13 1,22 1,74 1,87 1,165 1,254 1,350 1,500 F}
+{0 1,1 1,7 1,9 1,13 1,22 1,165 1,254 1,350 1,500 F}
+{0 1,1 1,7 1,8 1,22 1,74 1,87 1,165 1,254 1,500 F}
+{0 1,1 1,7 1,8 1,22 1,165 1,254 1,500 F}
+{0 1,1 1,7 1,9 1,13 1,22 1,25 1,74 1,87 1,254 1,268 1,350 1,371 1,372 1,376 1,396 1,500 F}
+{0 1,1 1,7 1,9 1,13 1,22 1,25 1,87 1,254 1,268 1,350 1,371 1,372 1,376 1,396 1,500 F}
+{0 1,1 1,7 1,8 1,22 1,25 1,74 1,87 1,254 1,268 1,500 F}
+{0 1,1 1,7 1,8 1,22 1,25 1,87 1,254 1,268 1,500 F}
+{0 1,1 1,7 1,9 1,13 1,22 1,74 1,87 1,165 1,254 1,268 1,350 1,371 1,372 1,376 1,500 F}
+{0 1,1 1,7 1,9 1,13 1,22 1,165 1,254 1,268 1,350 1,371 1,372 1,376 1,500 F}
+{0 1,1 1,7 1,8 1,22 1,74 1,87 1,165 1,254 1,268 1,500 F}
+{0 1,1 1,7 1,8 1,22 1,165 1,254 1,268 1,500 F}
+{0 1,1 1,7 1,9 1,13 1,22 1,74 1,87 1,165 1,254 1,500 F}
+{0 1,1 1,7 1,9 1,13 1,22 1,165 1,254 1,500 F}
+{0 1,1 1,7 1,8 1,22 1,74 1,87 1,165 1,254 1,500 F}
+{0 1,1 1,7 1,8 1,22 1,165 1,254 1,500 F}
+{0 1,1 1,7 1,9 1,13 1,22 1,25 1,74 1,87 1,254 1,500 F}
+{0 1,1 1,7 1,9 1,13 1,22 1,25 1,87 1,254 1,500 F}
+{0 1,1 1,7 1,8 1,22 1,25 1,74 1,87 1,254 1,500 F}
+{0 1,1 1,7 1,8 1,22 1,25 1,87 1,254 1,500 F}
+{0 1,1 1,7 1,9 1,13 1,22 1,74 1,87 1,165 1,254 1,268 1,500 F}
+{0 1,1 1,7 1,9 1,13 1,22 1,165 1,254 1,268 1,500 F}
+{0 1,1 1,7 1,8 1,22 1,74 1,87 1,165 1,254 1,268 1,500 F}
+{0 1,1 1,7 1,8 1,22 1,165 1,254 1,268 1,500 F}
+{0 1,1 1,7 1,9 1,13 1,22 1,25 1,74 1,87 1,192 1,254 1,268 1,350 1,371 1,372 1,376 1,396 1,500 F}
+{0 1,1 1,7 1,9 1,13 1,22 1,25 1,87 1,192 1,254 1,268 1,350 1,371 1,372 1,376 1,396 1,500 F}
+{0 1,1 1,7 1,8 1,22 1,25 1,74 1,87 1,192 1,254 1,268 1,500 F}
+{0 1,1 1,7 1,8 1,22 1,25 1,87 1,192 1,254 1,268 1,500 F}
+{0 1,1 1,7 1,9 1,13 1,22 1,25 1,87 1,254 1,500 F}
+{0 1,1 1,7 1,8 1,22 1,25 1,74 1,87 1,254 1,500 F}
+{0 1,1 1,7 1,8 1,22 1,25 1,87 1,254 1,500 F}
+{0 1,1 1,7 1,9 1,13 1,22 1,74 1,87 1,165 1,192 1,254 1,350 1,371 1,372 1,376 1,396 1,500 F}
+{0 1,1 1,7 1,9 1,13 1,22 1,165 1,192 1,254 1,350 1,371 1,372 1,376 1,396 1,500 F}
+{0 1,1 1,7 1,8 1,22 1,74 1,87 1,165 1,192 1,254 1,500 F}
+{0 1,1 1,7 1,8 1,22 1,165 1,192 1,254 1,500 F}
+{0 1,1 1,7 1,9 1,13 1,22 1,74 1,87 1,107 1,165 1,254 1,350 1,371 1,372 1,376 1,396 1,500 F}
+{0 1,1 1,7 1,9 1,13 1,22 1,107 1,165 1,254 1,350 1,371 1,372 1,376 1,396 1,500 F}
+{0 1,1 1,7 1,8 1,22 1,74 1,87 1,107 1,165 1,254 1,500 F}
+{0 1,1 1,7 1,8 1,22 1,107 1,165 1,254 1,500 F}
+{0 1,1 1,7 1,9 1,13 1,22 1,74 1,87 1,165 1,192 1,254 1,350 1,371 1,372 1,376 1,396 1,500 F}
+{0 1,1 1,7 1,9 1,13 1,22 1,165 1,192 1,254 1,350 1,371 1,372 1,376 1,396 1,500 F}
+{0 1,1 1,7 1,8 1,22 1,74 1,87 1,165 1,192 1,254 1,500 F}
+{0 1,1 1,7 1,8 1,22 1,165 1,192 1,254 1,500 F}
+{0 1,1 1,7 1,9 1,13 1,22 1,74 1,87 1,107 1,165 1,254 1,350 1,371 1,372 1,376 1,396 1,500 F}
+{0 1,1 1,7 1,9 1,13 1,22 1,107 1,165 1,254 1,350 1,371 1,372 1,376 1,396 1,500 F}
+{0 1,1 1,7 1,8 1,22 1,74 1,87 1,165 1,254 1,500 F}
+{0 1,1 1,7 1,8 1,22 1,165 1,254 1,500 F}
+{0 1,1 1,7 1,9 1,13 1,22 1,25 1,74 1,87 1,254 1,350 1,371 1,372 1,376 1,396 1,500 F}
+{0 1,1 1,7 1,9 1,13 1,22 1,25 1,87 1,254 1,350 1,371 1,372 1,376 1,396 1,500 F}
+{0 1,1 1,7 1,8 1,22 1,25 1,74 1,87 1,254 1,500 F}
+{0 1,1 1,7 1,8 1,22 1,25 1,87 1,254 1,500 F}
+{0 1,1 1,7 1,9 1,13 1,22 1,25 1,74 1,87 1,254 1,350 1,371 1,372 1,376 1,396 1,500 F}
+{0 1,1 1,7 1,9 1,13 1,22 1,25 1,87 1,254 1,350 1,371 1,372 1,376 1,396 1,500 F}
+{0 1,1 1,7 1,8 1,22 1,25 1,74 1,87 1,254 1,500 F}
+{0 1,1 1,7 1,8 1,22 1,25 1,87 1,254 1,500 F}
+{0 1,1 1,7 1,9 1,13 1,22 1,74 1,87 1,165 1,254 1,350 1,371 1,372 1,376 1,396 1,500 F}
+{0 1,1 1,7 1,9 1,13 1,22 1,165 1,254 1,350 1,371 1,372 1,376 1,396 1,500 F}
+{0 1,1 1,7 1,8 1,22 1,74 1,87 1,165 1,254 1,500 F}
+{0 1,1 1,7 1,9 1,13 1,22 1,74 1,87 1,165 1,254 1,268 1,350 1,371 1,372 1,376 1,396 1,500 F}
+{0 1,1 1,7 1,9 1,13 1,22 1,165 1,254 1,268 1,350 1,371 1,372 1,376 1,396 1,500 F}
+{0 1,1 1,7 1,8 1,22 1,74 1,87 1,165 1,254 1,268 1,500 F}
+{0 1,1 1,7 1,8 1,22 1,165 1,254 1,268 1,500 F}
+{0 1,1 1,7 1,9 1,13 1,22 1,74 1,87 1,165 1,254 1,500 F}
+{0 1,1 1,7 1,9 1,13 1,22 1,165 1,254 1,500 F}
+{0 1,1 1,7 1,8 1,22 1,74 1,87 1,165 1,254 1,500 F}
+{0 1,1 1,7 1,8 1,22 1,165 1,254 1,500 F}
+{0 1,1 1,7 1,9 1,13 1,22 1,74 1,87 1,165 1,254 1,350 1,371 1,372 1,376 1,396 1,500 F}
+{0 1,1 1,7 1,9 1,13 1,22 1,165 1,254 1,350 1,371 1,372 1,376 1,396 1,500 F}
+{0 1,1 1,7 1,8 1,22 1,74 1,87 1,165 1,254 1,500 F}
+{0 1,1 1,7 1,8 1,22 1,165 1,254 1,500 F}
+{0 1,1 1,7 1,9 1,13 1,22 1,74 1,87 1,107 1,139 1,165 1,254 1,500 F}
+{0 1,1 1,7 1,9 1,13 1,22 1,107 1,139 1,165 1,254 1,500 F}
+{0 1,1 1,7 1,8 1,22 1,107 1,139 1,165 1,254 1,500 F}
+{0 1,1 1,7 1,9 1,13 1,22 1,74 1,87 1,107 1,165 1,254 1,500 F}
+{0 1,1 1,7 1,9 1,13 1,22 1,107 1,165 1,254 1,500 F}
+{0 1,1 1,7 1,8 1,22 1,74 1,87 1,107 1,165 1,254 1,500 F}
+{0 1,1 1,7 1,8 1,22 1,107 1,165 1,254 1,500 F}
+{0 1,1 1,7 1,9 1,13 1,22 1,74 1,87 1,107 1,165 1,254 1,350 1,371 1,372 1,376 1,396 1,500 F}
+{0 1,1 1,7 1,9 1,13 1,22 1,107 1,165 1,254 1,350 1,371 1,372 1,376 1,396 1,500 F}
+{0 1,1 1,7 1,8 1,22 1,74 1,87 1,107 1,165 1,254 1,500 F}
+{0 1,1 1,7 1,8 1,22 1,107 1,165 1,254 1,500 F}
+{0 1,1 1,7 1,9 1,13 1,22 1,74 1,87 1,107 1,165 1,254 1,500 F}
+{0 1,1 1,7 1,9 1,13 1,22 1,107 1,165 1,254 1,500 F}
+{0 1,1 1,7 1,8 1,22 1,74 1,87 1,107 1,165 1,254 1,500 F}
+{0 1,1 1,7 1,8 1,22 1,107 1,165 1,254 1,500 F}
+{0 1,1 1,7 1,9 1,13 1,22 1,25 1,74 1,87 1,107 1,254 1,350 1,371 1,372 1,376 1,396 1,500 F}
+{0 1,1 1,7 1,9 1,13 1,22 1,25 1,87 1,107 1,254 1,350 1,371 1,372 1,376 1,396 1,500 F}
+{0 1,1 1,7 1,8 1,22 1,25 1,74 1,87 1,107 1,254 1,500 F}
+{0 1,1 1,7 1,8 1,22 1,25 1,87 1,107 1,254 1,500 F}
+{0 1,1 1,7 1,9 1,13 1,22 1,74 1,87 1,107 1,165 1,254 1,350 1,371 1,372 1,376 1,396 1,500 F}
+{0 1,1 1,7 1,9 1,13 1,22 1,107 1,165 1,254 1,350 1,371 1,372 1,376 1,396 1,500 F}
+{0 1,1 1,7 1,8 1,22 1,74 1,87 1,107 1,165 1,254 1,500 F}
+{0 1,1 1,7 1,8 1,22 1,107 1,165 1,254 1,500 F}
+{0 1,1 1,7 1,9 1,13 1,22 1,74 1,87 1,165 1,192 1,254 1,500 F}
+{0 1,1 1,7 1,9 1,13 1,22 1,165 1,192 1,254 1,500 F}
+{0 1,1 1,7 1,8 1,22 1,74 1,87 1,165 1,192 1,254 1,500 F}
+{0 1,1 1,7 1,8 1,22 1,165 1,192 1,254 1,500 F}
+{0 1,1 1,7 1,9 1,13 1,22 1,74 1,87 1,165 1,500 F}
+{0 1,1 1,7 1,9 1,13 1,22 1,165 1,500 F}
+{0 1,1 1,7 1,8 1,22 1,74 1,87 1,165 1,500 F}
+{0 1,1 1,7 1,8 1,22 1,165 1,500 F}
+{0 1,1 1,7 1,9 1,13 1,22 1,74 1,87 1,165 1,500 F}
+{0 1,1 1,7 1,9 1,13 1,22 1,165 1,500 F}
+{0 1,1 1,7 1,8 1,22 1,74 1,87 1,165 1,500 F}
+{0 1,1 1,7 1,8 1,22 1,165 1,500 F}
+{0 1,1 1,7 1,9 1,13 1,22 1,25 1,74 1,87 1,107 1,500 F}
+{0 1,1 1,7 1,9 1,13 1,22 1,25 1,87 1,107 1,500 F}
+{0 1,1 1,7 1,8 1,22 1,25 1,87 1,107 1,500 F}
+{0 1,1 1,7 1,9 1,13 1,22 1,74 1,87 1,165 1,500 F}
+{0 1,1 1,7 1,9 1,13 1,22 1,165 1,500 F}
+{0 1,1 1,7 1,8 1,22 1,74 1,87 1,165 1,500 F}
+{0 1,1 1,7 1,8 1,22 1,165 1,500 F}
+{0 1,1 1,7 1,9 1,13 1,22 1,74 1,87 1,165 1,500 F}
+{0 1,1 1,7 1,9 1,13 1,22 1,165 1,500 F}
+{0 1,1 1,7 1,8 1,22 1,74 1,87 1,165 1,500 F}
+{0 1,1 1,7 1,8 1,22 1,165 1,500 F}
+{0 1,1 1,7 1,9 1,13 1,22 1,74 1,87 1,165 1,254 1,500 F}
+{0 1,1 1,7 1,9 1,13 1,22 1,165 1,254 1,500 F}
+{0 1,1 1,7 1,8 1,22 1,74 1,87 1,165 1,254 1,500 F}
+{0 1,1 1,7 1,8 1,22 1,165 1,254 1,500 F}
+{0 1,1 1,7 1,8 1,9 1,13 1,22 1,74 1,87 1,165 1,500 F}
+{0 1,1 1,7 1,8 1,9 1,13 1,22 1,165 1,500 F}
+{0 1,1 1,7 1,8 1,22 1,74 1,87 1,165 1,500 F}
+{0 1,1 1,7 1,8 1,22 1,165 1,500 F}
+{0 1,1 1,7 1,9 1,13 1,22 1,74 1,87 1,107 1,165 1,500 F}
+{0 1,1 1,7 1,9 1,13 1,22 1,107 1,165 1,500 F}
+{0 1,1 1,7 1,8 1,22 1,74 1,87 1,107 1,165 1,500 F}
+{0 1,1 1,7 1,8 1,22 1,107 1,165 1,500 F}
+{0 1,1 1,7 1,9 1,13 1,22 1,25 1,74 1,87 1,254 1,500 F}
+{0 1,1 1,7 1,9 1,13 1,22 1,25 1,87 1,254 1,500 F}
+{0 1,1 1,7 1,22 1,105 1,254 1,468 1,500 F}
+{0 1,1 1,7 1,22 1,105 1,254 1,468 1,500 F}
+{0 1,1 1,7 1,8 1,22 1,25 1,74 1,87 1,254 1,500 F}
+{0 1,1 1,7 1,8 1,22 1,25 1,87 1,254 1,500 F}
+{0 1,1 1,7 1,9 1,13 1,22 1,74 1,87 1,165 1,500 F}
+{0 1,1 1,7 1,9 1,13 1,22 1,165 1,500 F}
+{0 1,1 1,7 1,8 1,22 1,74 1,87 1,165 1,500 F}
+{0 1,1 1,7 1,8 1,22 1,165 1,500 F}
+{0 1,1 1,7 1,9 1,13 1,22 1,74 1,87 1,165 1,192 1,500 F}
+{0 1,1 1,7 1,9 1,13 1,22 1,165 1,192 1,500 F}
+{0 1,1 1,7 1,8 1,22 1,74 1,87 1,165 1,192 1,500 F}
+{0 1,1 1,7 1,8 1,22 1,165 1,192 1,500 F}
+{0 1,1 1,7 1,9 1,13 1,22 1,74 1,87 1,139 1,165 1,500 F}
+{0 1,1 1,7 1,9 1,13 1,22 1,139 1,165 1,500 F}
+{0 1,1 1,7 1,8 1,22 1,74 1,87 1,139 1,165 1,500 F}
+{0 1,1 1,7 1,8 1,22 1,139 1,165 1,500 F}
+{0 1,1 1,7 1,9 1,13 1,22 1,25 1,74 1,87 1,268 1,500 F}
+{0 1,1 1,7 1,9 1,13 1,22 1,25 1,87 1,268 1,500 F}
+{0 1,1 1,7 1,8 1,22 1,25 1,74 1,87 1,268 1,500 F}
+{0 1,1 1,7 1,8 1,22 1,25 1,87 1,268 1,500 F}
+{0 1,1 1,7 1,9 1,13 1,22 1,25 1,74 1,87 1,268 1,500 F}
+{0 1,1 1,7 1,9 1,13 1,22 1,25 1,87 1,268 1,500 F}
+{0 1,1 1,7 1,8 1,22 1,25 1,74 1,87 1,268 1,500 F}
+{0 1,1 1,7 1,8 1,22 1,25 1,87 1,268 1,500 F}
+{0 1,1 1,7 1,9 1,13 1,22 1,25 1,74 1,87 1,268 1,500 F}
+{0 1,1 1,7 1,9 1,13 1,22 1,25 1,87 1,268 1,500 F}
+{0 1,1 1,7 1,8 1,22 1,25 1,74 1,87 1,268 1,500 F}
+{0 1,1 1,7 1,8 1,22 1,25 1,87 1,268 1,500 F}
+{0 1,1 1,7 1,9 1,13 1,22 1,74 1,87 1,165 1,192 1,500 F}
+{0 1,1 1,7 1,9 1,13 1,22 1,165 1,192 1,500 F}
+{0 1,1 1,7 1,8 1,22 1,74 1,87 1,165 1,192 1,500 F}
+{0 1,1 1,7 1,8 1,22 1,165 1,192 1,500 F}
+{0 1,1 1,7 1,9 1,13 1,22 1,74 1,87 1,139 1,165 1,192 1,500 F}
+{0 1,1 1,7 1,9 1,13 1,22 1,139 1,165 1,192 1,500 F}
+{0 1,1 1,7 1,8 1,22 1,74 1,87 1,139 1,165 1,192 1,500 F}
+{0 1,1 1,7 1,8 1,22 1,139 1,165 1,192 1,500 F}
+{0 1,1 1,7 1,9 1,13 1,22 1,25 1,74 1,87 1,139 1,500 F}
+{0 1,1 1,7 1,9 1,13 1,22 1,25 1,87 1,139 1,500 F}
+{0 1,1 1,7 1,8 1,22 1,25 1,74 1,87 1,139 1,500 F}
+{0 1,1 1,7 1,8 1,22 1,25 1,87 1,139 1,500 F}
+{0 1,1 1,7 1,9 1,13 1,22 1,74 1,87 1,165 1,500 F}
+{0 1,1 1,7 1,9 1,13 1,22 1,165 1,500 F}
+{0 1,1 1,7 1,8 1,22 1,74 1,87 1,165 1,500 F}
+{0 1,1 1,7 1,8 1,22 1,165 1,500 F}
+{0 1,1 1,7 1,9 1,13 1,22 1,74 1,87 1,107 1,165 1,268 1,500 F}
+{0 1,1 1,7 1,9 1,13 1,22 1,107 1,165 1,268 1,500 F}
+{0 1,1 1,7 1,8 1,22 1,74 1,87 1,107 1,165 1,268 1,500 F}
+{0 1,1 1,7 1,8 1,22 1,107 1,165 1,268 1,500 F}
+{0 1,1 1,7 1,9 1,13 1,22 1,25 1,74 1,87 1,268 1,500 F}
+{0 1,1 1,7 1,9 1,13 1,22 1,25 1,87 1,268 1,500 F}
+{0 1,1 1,7 1,8 1,22 1,25 1,74 1,87 1,268 1,500 F}
+{0 1,1 1,7 1,8 1,22 1,25 1,87 1,268 1,500 F}
+{0 1,1 1,7 1,9 1,13 1,22 1,74 1,87 1,165 1,268 1,500 F}
+{0 1,1 1,7 1,9 1,13 1,22 1,165 1,268 1,500 F}
+{0 1,1 1,7 1,8 1,22 1,74 1,87 1,165 1,268 1,500 F}
+{0 1,1 1,7 1,8 1,22 1,165 1,268 1,500 F}
+{0 1,1 1,7 1,9 1,13 1,22 1,74 1,87 1,165 1,500 F}
+{0 1,1 1,7 1,9 1,13 1,22 1,165 1,500 F}
+{0 1,1 1,7 1,8 1,22 1,74 1,87 1,165 1,500 F}
+{0 1,1 1,7 1,8 1,22 1,165 1,500 F}
+{0 1,1 1,7 1,9 1,13 1,22 1,74 1,87 1,165 1,192 1,500 F}
+{0 1,1 1,7 1,9 1,13 1,22 1,165 1,192 1,500 F}
+{0 1,1 1,7 1,8 1,22 1,74 1,87 1,165 1,192 1,500 F}
+{0 1,1 1,7 1,8 1,22 1,165 1,192 1,500 F}
+{0 1,1 1,7 1,9 1,13 1,22 1,74 1,87 1,139 1,165 1,500 F}
+{0 1,1 1,7 1,9 1,13 1,22 1,139 1,165 1,500 F}
+{0 1,1 1,7 1,8 1,22 1,74 1,87 1,139 1,165 1,500 F}
+{0 1,1 1,7 1,8 1,22 1,139 1,165 1,500 F}
+{0 1,1 1,7 1,9 1,13 1,22 1,74 1,87 1,107 1,165 1,268 1,500 F}
+{0 1,1 1,7 1,9 1,13 1,22 1,107 1,165 1,268 1,500 F}
+{0 1,1 1,7 1,8 1,22 1,74 1,87 1,107 1,165 1,268 1,500 F}
+{0 1,1 1,7 1,8 1,22 1,107 1,165 1,268 1,500 F}
+{0 1,1 1,7 1,9 1,13 1,22 1,74 1,87 1,107 1,165 1,192 1,500 F}
+{0 1,1 1,7 1,9 1,13 1,22 1,107 1,165 1,192 1,500 F}
+{0 1,1 1,7 1,8 1,22 1,74 1,87 1,107 1,165 1,192 1,500 F}
+{0 1,1 1,7 1,8 1,22 1,107 1,165 1,192 1,500 F}
+{0 1,1 1,7 1,9 1,13 1,22 1,74 1,87 1,107 1,165 1,254 1,500 F}
+{0 1,1 1,7 1,9 1,13 1,22 1,107 1,165 1,254 1,500 F}
+{0 1,1 1,7 1,8 1,22 1,74 1,87 1,107 1,165 1,254 1,500 F}
+{0 1,1 1,7 1,8 1,22 1,107 1,165 1,254 1,500 F}
+{0 1,1 1,7 1,9 1,13 1,22 1,25 1,74 1,87 1,107 1,254 1,500 F}
+{0 1,1 1,7 1,9 1,13 1,22 1,25 1,87 1,107 1,254 1,500 F}
+{0 1,1 1,7 1,8 1,22 1,25 1,74 1,87 1,107 1,254 1,500 F}
+{0 1,1 1,7 1,8 1,22 1,25 1,87 1,107 1,254 1,500 F}
+{0 1,1 1,7 1,9 1,13 1,22 1,74 1,87 1,107 1,165 1,500 F}
+{0 1,1 1,7 1,9 1,13 1,22 1,107 1,165 1,500 F}
+{0 1,1 1,7 1,8 1,22 1,74 1,87 1,107 1,165 1,500 F}
+{0 1,1 1,7 1,8 1,22 1,107 1,165 1,500 F}
+{0 1,1 1,7 1,9 1,13 1,22 1,25 1,74 1,87 1,107 1,139 1,500 F}
+{0 1,1 1,7 1,9 1,13 1,22 1,25 1,87 1,107 1,139 1,500 F}
+{0 1,1 1,7 1,8 1,22 1,25 1,74 1,87 1,107 1,139 1,500 F}
+{0 1,1 1,7 1,8 1,22 1,25 1,87 1,107 1,139 1,500 F}
+{0 1,1 1,7 1,9 1,13 1,22 1,74 1,87 1,107 1,165 1,268 1,500 F}
+{0 1,1 1,7 1,9 1,13 1,22 1,107 1,165 1,268 1,500 F}
+{0 1,1 1,7 1,8 1,22 1,74 1,87 1,107 1,165 1,268 1,500 F}
+{0 1,1 1,7 1,9 1,13 1,22 1,25 1,74 1,87 1,107 1,268 1,500 F}
+{0 1,1 1,7 1,9 1,13 1,22 1,25 1,87 1,107 1,268 1,500 F}
+{0 1,1 1,7 1,8 1,22 1,25 1,74 1,87 1,107 1,268 1,500 F}
+{0 1,1 1,7 1,8 1,22 1,25 1,87 1,107 1,268 1,500 F}
+{0 1,1 1,7 1,9 1,13 1,22 1,74 1,87 1,107 1,165 1,500 F}
+{0 1,1 1,7 1,9 1,13 1,22 1,107 1,165 1,500 F}
+{0 1,1 1,7 1,8 1,22 1,74 1,87 1,107 1,165 1,500 F}
+{0 1,1 1,7 1,8 1,22 1,107 1,165 1,500 F}
+{0 1,1 1,7 1,9 1,13 1,22 1,74 1,87 1,107 1,139 1,165 1,500 F}
+{0 1,1 1,7 1,9 1,13 1,22 1,107 1,139 1,165 1,500 F}
+{0 1,1 1,7 1,8 1,22 1,74 1,87 1,107 1,139 1,165 1,500 F}
+{0 1,1 1,7 1,8 1,22 1,107 1,139 1,165 1,500 F}
+{0 1,1 1,7 1,9 1,13 1,22 1,74 1,87 1,107 1,139 1,165 1,500 F}
+{0 1,1 1,7 1,9 1,13 1,22 1,107 1,139 1,165 1,500 F}
+{0 1,1 1,7 1,8 1,22 1,74 1,87 1,107 1,139 1,165 1,500 F}
+{0 1,1 1,7 1,9 1,13 1,22 1,74 1,87 1,107 1,139 1,165 1,500 F}
+{0 1,1 1,7 1,9 1,13 1,22 1,107 1,139 1,165 1,500 F}
+{0 1,1 1,7 1,8 1,22 1,74 1,87 1,107 1,139 1,165 1,500 F}
+{0 1,1 1,7 1,8 1,22 1,107 1,139 1,165 1,500 F}
+{0 1,1 1,7 1,9 1,13 1,22 1,74 1,87 1,107 1,139 1,165 1,192 1,500 F}
+{0 1,1 1,7 1,9 1,13 1,22 1,107 1,139 1,165 1,192 1,500 F}
+{0 1,1 1,7 1,8 1,22 1,74 1,87 1,107 1,139 1,165 1,192 1,500 F}
+{0 1,1 1,7 1,8 1,22 1,107 1,139 1,165 1,192 1,500 F}
+{0 1,1 1,7 1,9 1,13 1,22 1,25 1,74 1,87 1,500 F}
+{0 1,1 1,7 1,9 1,13 1,22 1,25 1,87 1,500 F}
+{0 1,1 1,7 1,8 1,22 1,25 1,74 1,87 1,500 F}
+{0 1,1 1,7 1,8 1,22 1,25 1,87 1,500 F}
+{0 1,1 1,7 1,9 1,13 1,22 1,25 1,74 1,87 1,192 1,500 F}
+{0 1,1 1,7 1,9 1,13 1,22 1,25 1,87 1,192 1,500 F}
+{0 1,1 1,7 1,8 1,22 1,25 1,74 1,87 1,192 1,500 F}
+{0 1,1 1,7 1,8 1,22 1,25 1,87 1,192 1,500 F}
+{0 1,1 1,7 1,9 1,13 1,22 1,25 1,74 1,87 1,254 1,500 F}
+{0 1,1 1,7 1,9 1,13 1,22 1,25 1,87 1,254 1,500 F}
+{0 1,1 1,7 1,8 1,22 1,25 1,74 1,87 1,254 1,500 F}
+{0 1,1 1,7 1,8 1,22 1,25 1,87 1,254 1,500 F}
+{0 1,1 1,7 1,9 1,13 1,22 1,74 1,87 1,165 1,500 F}
+{0 1,1 1,7 1,9 1,13 1,22 1,165 1,500 F}
+{0 1,1 1,7 1,8 1,22 1,74 1,87 1,165 1,500 F}
+{0 1,1 1,7 1,8 1,22 1,165 1,500 F}
+{0 1,1 1,7 1,9 1,13 1,22 1,74 1,87 1,165 1,500 F}
+{0 1,1 1,7 1,9 1,13 1,22 1,165 1,500 F}
+{0 1,1 1,7 1,8 1,22 1,74 1,87 1,165 1,500 F}
+{0 1,1 1,7 1,8 1,22 1,165 1,500 F}
+{0 1,1 1,7 1,9 1,13 1,22 1,74 1,87 1,165 1,500 F}
+{0 1,1 1,7 1,9 1,13 1,22 1,165 1,500 F}
+{0 1,1 1,7 1,8 1,22 1,74 1,87 1,165 1,500 F}
+{0 1,1 1,7 1,8 1,22 1,165 1,500 F}
+{0 1,1 1,7 1,9 1,13 1,22 1,74 1,87 1,165 1,500 F}
+{0 1,1 1,7 1,9 1,13 1,22 1,165 1,500 F}
+{0 1,1 1,7 1,8 1,22 1,74 1,87 1,165 1,500 F}
+{0 1,1 1,7 1,8 1,22 1,165 1,500 F}
+{0 1,1 1,7 1,9 1,13 1,22 1,74 1,87 1,165 1,268 1,500 F}
+{0 1,1 1,7 1,9 1,13 1,22 1,165 1,268 1,500 F}
+{0 1,1 1,7 1,8 1,22 1,74 1,87 1,165 1,268 1,500 F}
+{0 1,1 1,7 1,8 1,22 1,165 1,268 1,500 F}
+{0 1,1 1,7 1,9 1,13 1,22 1,74 1,87 1,107 1,165 1,268 1,500 F}
+{0 1,1 1,7 1,9 1,13 1,22 1,107 1,165 1,268 1,500 F}
+{0 1,1 1,7 1,8 1,22 1,74 1,87 1,107 1,165 1,268 1,500 F}
+{0 1,1 1,7 1,8 1,22 1,107 1,165 1,268 1,500 F}
+{0 1,1 1,7 1,8 1,22 1,74 1,87 1,107 1,165 1,244 1,268 1,500 F}
+{0 1,1 1,7 1,8 1,22 1,107 1,165 1,244 1,268 1,500 F}
+{0 1,1 1,7 1,9 1,13 1,22 1,25 1,74 1,87 1,268 1,500 F}
+{0 1,1 1,7 1,9 1,13 1,22 1,25 1,87 1,268 1,500 F}
+{0 1,1 1,7 1,8 1,22 1,25 1,74 1,87 1,268 1,500 F}
+{0 1,1 1,7 1,8 1,22 1,25 1,87 1,268 1,500 F}
+{0 1,1 1,7 1,9 1,13 1,22 1,25 1,74 1,87 1,139 1,500 F}
+{0 1,1 1,7 1,9 1,13 1,22 1,25 1,87 1,139 1,500 F}
+{0 1,1 1,7 1,8 1,22 1,25 1,74 1,87 1,139 1,500 F}
+{0 1,1 1,7 1,8 1,22 1,25 1,87 1,139 1,500 F}
+{0 1,1 1,7 1,9 1,13 1,22 1,74 1,87 1,139 1,165 1,254 1,500 F}
+{0 1,1 1,7 1,9 1,13 1,22 1,139 1,165 1,254 1,500 F}
+{0 1,1 1,7 1,8 1,22 1,74 1,87 1,139 1,165 1,254 1,500 F}
+{0 1,1 1,7 1,8 1,22 1,139 1,165 1,254 1,500 F}
+{0 1,1 1,7 1,9 1,13 1,22 1,165 1,268 1,500 F}
+{0 1,1 1,7 1,8 1,22 1,74 1,87 1,165 1,268 1,500 F}
+{0 1,1 1,7 1,8 1,22 1,165 1,268 1,500 F}
+{0 1,1 1,7 1,9 1,13 1,22 1,25 1,74 1,87 1,268 1,500 F}
+{0 1,1 1,7 1,9 1,13 1,22 1,25 1,87 1,268 1,500 F}
+{0 1,1 1,7 1,8 1,22 1,25 1,74 1,87 1,268 1,500 F}
+{0 1,1 1,7 1,8 1,22 1,25 1,87 1,268 1,500 F}
+{0 1,1 1,7 1,9 1,13 1,22 1,25 1,74 1,87 1,192 1,268 1,500 F}
+{0 1,1 1,7 1,9 1,13 1,22 1,25 1,87 1,192 1,268 1,500 F}
+{0 1,1 1,7 1,22 1,105 1,192 1,268 1,468 1,500 F}
+{0 1,1 1,7 1,22 1,105 1,192 1,268 1,468 1,500 F}
+{0 1,1 1,7 1,8 1,22 1,25 1,74 1,87 1,192 1,268 1,500 F}
+{0 1,1 1,7 1,8 1,22 1,25 1,87 1,192 1,268 1,500 F}
+{0 1,1 1,7 1,9 1,13 1,22 1,25 1,74 1,87 1,107 1,268 1,500 F}
+{0 1,1 1,7 1,9 1,13 1,22 1,25 1,87 1,107 1,268 1,500 F}
+{0 1,1 1,7 1,8 1,22 1,25 1,74 1,87 1,107 1,268 1,500 F}
+{0 1,1 1,7 1,8 1,22 1,25 1,87 1,107 1,268 1,500 F}
+{0 1,1 1,7 1,9 1,13 1,22 1,74 1,87 1,107 1,165 1,268 1,500 F}
+{0 1,1 1,7 1,9 1,13 1,22 1,107 1,165 1,268 1,500 F}
+{0 1,1 1,7 1,8 1,22 1,74 1,87 1,107 1,165 1,268 1,500 F}
+{0 1,1 1,7 1,8 1,22 1,107 1,165 1,268 1,500 F}
+{0 1,1 1,7 1,9 1,13 1,22 1,74 1,87 1,107 1,165 1,268 1,500 F}
+{0 1,1 1,7 1,9 1,13 1,22 1,107 1,165 1,268 1,500 F}
+{0 1,1 1,7 1,8 1,22 1,74 1,87 1,107 1,165 1,268 1,500 F}
+{0 1,1 1,7 1,8 1,22 1,107 1,165 1,268 1,500 F}
+{0 1,1 1,7 1,9 1,13 1,22 1,74 1,87 1,165 1,268 1,500 F}
+{0 1,1 1,7 1,9 1,13 1,22 1,165 1,268 1,500 F}
+{0 1,1 1,7 1,8 1,22 1,74 1,87 1,165 1,268 1,500 F}
+{0 1,1 1,7 1,8 1,22 1,165 1,268 1,500 F}
+{0 1,1 1,7 1,9 1,13 1,22 1,74 1,87 1,165 1,268 1,500 F}
+{0 1,1 1,7 1,9 1,13 1,22 1,165 1,268 1,500 F}
+{0 1,1 1,7 1,8 1,22 1,74 1,87 1,165 1,268 1,500 F}
+{0 1,1 1,7 1,8 1,22 1,165 1,268 1,500 F}
+{0 1,1 1,7 1,9 1,13 1,22 1,74 1,87 1,139 1,165 1,500 F}
+{0 1,1 1,7 1,9 1,13 1,22 1,139 1,165 1,500 F}
+{0 1,1 1,7 1,8 1,22 1,74 1,87 1,139 1,165 1,500 F}
+{0 1,1 1,7 1,8 1,22 1,139 1,165 1,500 F}
+{0 1,1 1,7 1,9 1,13 1,22 1,25 1,74 1,87 1,107 1,500 F}
+{0 1,1 1,7 1,9 1,13 1,22 1,25 1,87 1,107 1,500 F}
+{0 1,1 1,7 1,8 1,22 1,25 1,74 1,87 1,107 1,500 F}
+{0 1,1 1,7 1,8 1,22 1,25 1,87 1,107 1,500 F}
+{0 1,1 1,7 1,9 1,13 1,22 1,25 1,74 1,87 1,268 1,500 F}
+{0 1,1 1,7 1,9 1,13 1,22 1,25 1,87 1,268 1,500 F}
+{0 1,1 1,7 1,8 1,22 1,25 1,74 1,87 1,268 1,500 F}
+{0 1,1 1,7 1,8 1,22 1,25 1,87 1,268 1,500 F}
+{0 1,1 1,7 1,9 1,13 1,22 1,25 1,74 1,87 1,254 1,268 1,500 F}
+{0 1,1 1,7 1,8 1,22 1,25 1,74 1,87 1,254 1,268 1,500 F}
+{0 1,1 1,7 1,8 1,22 1,25 1,87 1,254 1,268 1,500 F}
+{0 1,1 1,7 1,9 1,13 1,22 1,74 1,87 1,165 1,268 1,500 F}
+{0 1,1 1,7 1,9 1,13 1,22 1,165 1,268 1,500 F}
+{0 1,1 1,7 1,8 1,22 1,74 1,87 1,165 1,268 1,500 F}
+{0 1,1 1,7 1,8 1,22 1,165 1,268 1,500 F}
+{0 1,1 1,7 1,9 1,13 1,22 1,74 1,87 1,165 1,500 F}
+{0 1,1 1,7 1,9 1,13 1,22 1,165 1,500 F}
+{0 1,1 1,7 1,8 1,22 1,74 1,87 1,165 1,500 F}
+{0 1,1 1,7 1,8 1,22 1,165 1,500 F}
+{0 1,1 1,7 1,9 1,13 1,22 1,74 1,87 1,165 1,192 1,500 F}
+{0 1,1 1,7 1,9 1,13 1,22 1,165 1,192 1,500 F}
+{0 1,1 1,7 1,8 1,22 1,74 1,87 1,165 1,192 1,500 F}
+{0 1,1 1,7 1,8 1,22 1,165 1,192 1,500 F}
+{0 1,1 1,7 1,9 1,13 1,22 1,74 1,87 1,165 1,192 1,254 1,500 F}
+{0 1,1 1,7 1,9 1,13 1,22 1,165 1,192 1,254 1,500 F}
+{0 1,1 1,7 1,8 1,22 1,74 1,87 1,165 1,192 1,254 1,500 F}
+{0 1,1 1,7 1,8 1,22 1,165 1,192 1,254 1,500 F}
+{0 1,1 1,7 1,9 1,13 1,22 1,74 1,87 1,165 1,192 1,254 1,500 F}
+{0 1,1 1,7 1,9 1,13 1,22 1,165 1,192 1,254 1,500 F}
+{0 1,1 1,7 1,8 1,22 1,74 1,87 1,165 1,192 1,254 1,500 F}
+{0 1,1 1,7 1,8 1,22 1,165 1,192 1,254 1,500 F}
+{0 1,1 1,7 1,9 1,13 1,22 1,74 1,87 1,139 1,165 1,192 1,254 1,500 F}
+{0 1,1 1,7 1,9 1,13 1,22 1,139 1,165 1,192 1,254 1,500 F}
+{0 1,1 1,7 1,22 1,105 1,139 1,192 1,254 1,468 1,500 F}
+{0 1,1 1,7 1,22 1,105 1,139 1,192 1,254 1,468 1,500 F}
+{0 1,1 1,7 1,8 1,22 1,74 1,87 1,139 1,165 1,192 1,254 1,500 F}
+{0 1,1 1,7 1,8 1,22 1,139 1,165 1,192 1,254 1,500 F}
+{0 1,1 1,7 1,9 1,13 1,22 1,25 1,74 1,87 1,139 1,500 F}
+{0 1,1 1,7 1,9 1,13 1,22 1,25 1,87 1,139 1,500 F}
+{0 1,1 1,7 1,8 1,22 1,25 1,74 1,87 1,139 1,500 F}
+{0 1,1 1,7 1,8 1,22 1,25 1,87 1,139 1,500 F}
+{0 1,1 1,7 1,9 1,13 1,22 1,74 1,87 1,107 1,139 1,165 1,254 1,500 F}
+{0 1,1 1,7 1,9 1,13 1,22 1,107 1,139 1,165 1,254 1,500 F}
+{0 1,1 1,7 1,8 1,22 1,74 1,87 1,107 1,139 1,165 1,254 1,500 F}
+{0 1,1 1,7 1,8 1,22 1,107 1,139 1,165 1,254 1,500 F}
+{0 1,1 1,7 1,8 1,22 1,74 1,87 1,107 1,139 1,165 1,244 1,254 1,500 F}
+{0 1,1 1,7 1,8 1,22 1,107 1,139 1,165 1,244 1,254 1,500 F}
+{0 1,1 1,7 1,9 1,13 1,22 1,25 1,74 1,87 1,139 1,500 F}
+{0 1,1 1,7 1,9 1,13 1,22 1,25 1,87 1,139 1,500 F}
+{0 1,1 1,7 1,8 1,22 1,25 1,74 1,87 1,139 1,500 F}
+{0 1,1 1,7 1,8 1,22 1,25 1,87 1,139 1,500 F}
+{0 1,1 1,7 1,9 1,13 1,22 1,25 1,74 1,87 1,139 1,500 F}
+{0 1,1 1,7 1,9 1,13 1,22 1,25 1,87 1,139 1,500 F}
+{0 1,1 1,7 1,8 1,22 1,25 1,74 1,87 1,139 1,500 F}
+{0 1,1 1,7 1,8 1,22 1,25 1,87 1,139 1,500 F}
+{0 1,1 1,7 1,9 1,13 1,22 1,25 1,74 1,87 1,139 1,192 1,500 F}
+{0 1,1 1,7 1,9 1,13 1,22 1,25 1,87 1,139 1,192 1,500 F}
+{0 1,1 1,7 1,8 1,22 1,25 1,74 1,87 1,139 1,192 1,500 F}
+{0 1,1 1,7 1,8 1,22 1,25 1,87 1,139 1,192 1,500 F}
+{0 1,1 1,7 1,9 1,13 1,22 1,25 1,74 1,87 1,139 1,192 1,500 F}
+{0 1,1 1,7 1,9 1,13 1,22 1,25 1,87 1,139 1,192 1,500 F}
+{0 1,1 1,7 1,8 1,22 1,25 1,74 1,87 1,139 1,192 1,500 F}
+{0 1,1 1,7 1,8 1,22 1,25 1,87 1,139 1,192 1,500 F}
+{0 1,1 1,7 1,9 1,13 1,22 1,25 1,74 1,87 1,139 1,500 F}
+{0 1,1 1,7 1,9 1,13 1,22 1,25 1,87 1,139 1,500 F}
+{0 1,1 1,7 1,8 1,22 1,25 1,74 1,87 1,139 1,500 F}
+{0 1,1 1,7 1,8 1,22 1,25 1,87 1,139 1,500 F}
+{7 1,16 1,22 1,23 1,25 1,49 1,81 1,87 1,500 F}
+{7 1,16 1,22 1,23 1,25 1,49 1,81 1,87 1,500 F}
+{7 1,22 1,25 1,49 1,87 1,92 1,500 F}
+{7 1,22 1,25 1,87 1,207 1,430 1,500 F}
+{7 1,22 1,106 1,165 1,500 F}
+{7 1,22 1,106 1,165 1,500 F}
+{7 1,22 1,106 1,165 1,500 F}
+{7 1,22 1,107 1,165 1,500 F}
+{7 1,22 1,165 1,471 1,500 F}
+{7 1,22 1,25 1,49 1,87 1,500 F}
+{6 1,22 1,49 1,93 1,94 1,95 1,500 F}
+{6 1,22 1,49 1,93 1,94 1,95 1,500 F}
+{6 1,22 1,49 1,93 1,94 1,95 1,500 F}
+{7 1,22 1,40 1,49 1,107 1,165 1,500 F}
+{7 1,22 1,93 1,94 1,95 1,500 F}
+{7 1,22 1,49 1,93 1,94 1,95 1,500 F}
+{6 1,22 1,40 1,49 1,93 1,94 1,95 1,500 F}
+{7 1,22 1,93 1,94 1,95 1,500 F}
+{7 1,22 1,49 1,93 1,94 1,95 1,500 F}
+{6 1,22 1,40 1,49 1,93 1,94 1,95 1,500 F}
+{7 1,16 1,22 1,34 1,49 1,138 1,193 1,206 1,255 1,500 F}
+{7 1,22 1,49 1,500 F}
+{7 1,22 1,49 1,500 F}
+{7 1,34 1,49 1,169 1,192 1,268 1,373 1,500 F}
+{7 1,20 1,25 1,87 1,205 1,209 1,466 1,500 F}
+{7 1,12 1,14 1,25 1,26 1,61 1,65 1,81 1,87 1,200 1,379 1,466 1,500 F}
+{7 1,25 1,49 1,87 1,500 F}
+{7 1,25 1,40 1,87 1,500 F}
+{7 1,25 1,79 1,87 1,500 F}
+{7 1,16 1,22 1,34 1,49 1,63 1,193 1,255 1,500 F}
+{7 1,16 1,22 1,34 1,49 1,63 1,193 1,255 1,500 F}
+{7 1,16 1,22 1,34 1,49 1,63 1,193 1,255 1,500 F}
+{7 1,16 1,22 1,34 1,49 1,63 1,193 1,255 1,500 F}
+{7 1,14 1,22 1,49 1,193 1,255 1,269 1,500 F}
+{7 1,14 1,22 1,49 1,193 1,255 1,269 1,500 F}
+{7 1,14 1,22 1,49 1,193 1,255 1,269 1,500 F}
+{7 1,22 1,193 1,255 1,269 1,500 F}
+{7 1,22 1,193 1,255 1,269 1,500 F}
+{7 1,22 1,193 1,255 1,269 1,500 F}
+{7 1,22 1,193 1,255 1,269 1,500 F}
+{7 1,22 1,193 1,194 1,255 1,269 1,500 F}
+{7 1,22 1,193 1,194 1,255 1,269 1,500 F}
+{7 1,16 1,22 1,193 1,255 1,269 1,500 F}
+{7 1,16 1,22 1,193 1,255 1,269 1,500 F}
+{7 1,16 1,22 1,193 1,255 1,269 1,500 F}
+{7 1,16 1,22 1,193 1,255 1,269 1,500 F}
+{7 1,16 1,22 1,193 1,255 1,269 1,500 F}
+{7 1,22 1,79 1,193 1,255 1,269 1,500 F}
+{7 1,22 1,79 1,193 1,255 1,269 1,500 F}
+{7 1,22 1,79 1,193 1,255 1,269 1,500 F}
+{7 1,22 1,79 1,193 1,255 1,269 1,500 F}
+{7 1,22 1,193 1,255 1,269 1,500 F}
+{7 1,22 1,193 1,255 1,269 1,500 F}
+{7 1,22 1,193 1,255 1,269 1,500 F}
+{7 1,22 1,193 1,255 1,269 1,500 F}
+{7 1,22 1,146 1,193 1,255 1,269 1,500 F}
+{7 1,22 1,146 1,193 1,255 1,269 1,500 F}
+{7 1,22 1,193 1,255 1,269 1,500 F}
+{7 1,22 1,193 1,255 1,269 1,500 F}
+{7 1,22 1,193 1,255 1,269 1,500 F}
+{7 1,22 1,193 1,255 1,269 1,500 F}
+{7 1,22 1,193 1,255 1,269 1,500 F}
+{7 1,22 1,193 1,255 1,269 1,500 F}
+{7 1,22 1,193 1,255 1,269 1,500 F}
+{7 1,22 1,193 1,255 1,269 1,500 F}
+{7 1,22 1,193 1,255 1,269 1,500 F}
+{7 1,22 1,193 1,255 1,269 1,500 F}
+{7 1,25 1,49 1,87 1,500 F}
+{7 1,25 1,49 1,87 1,500 F}
+{7 1,25 1,49 1,87 1,270 1,500 F}
+{6 1,25 1,49 1,87 1,500 F}
+{7 1,25 1,49 1,87 1,270 1,500 F}
+{7 1,25 1,49 1,87 1,500 F}
+{7 1,25 1,49 1,87 1,500 F}
+{7 1,25 1,49 1,87 1,500 F}
+{7 1,25 1,49 1,87 1,500 F}
+{7 1,25 1,49 1,87 1,500 F}
+{7 1,25 1,49 1,87 1,500 F}
+{6 1,25 1,40 1,49 1,87 1,500 F}
+{7 1,25 1,49 1,79 1,87 1,500 F}
+{7 1,25 1,49 1,79 1,87 1,500 F}
+{7 1,25 1,49 1,87 1,500 F}
+{7 1,25 1,49 1,87 1,500 F}
+{7 1,25 1,49 1,87 1,500 F}
+{7 1,25 1,49 1,87 1,500 F}
+{7 1,25 1,49 1,87 1,500 F}
+{7 1,25 1,49 1,87 1,500 F}
+{7 1,25 1,49 1,87 1,500 F}
+{7 1,25 1,49 1,87 1,435 1,500 F}
+{7 1,49 1,62 1,452 1,500 F}
+{7 1,49 1,187 1,458 1,491 1,500 F}
+{7 1,22 1,49 1,193 1,255 1,260 1,500 F}
+{7 1,16 1,23 1,34 1,49 1,50 1,62 1,81 1,165 1,187 1,201 1,208 1,209 1,462 1,500 F}
+{7 1,16 1,23 1,34 1,49 1,50 1,62 1,81 1,165 1,187 1,201 1,208 1,209 1,462 1,500 F}
+{7 1,22 1,23 1,25 1,49 1,87 1,374 1,474 1,500 F}
+{7 1,14 1,16 1,23 1,81 1,138 1,165 1,190 1,201 1,206 1,500 F}
+{6 1,25 1,87 1,88 1,500 F}
+{7 1,22 1,49 1,62 1,193 1,255 1,500 F}
+{7 1,25 1,87 1,500 F}
+{7 1,49 1,102 1,165 1,201 1,500 F}
+{7 1,23 1,25 1,49 1,62 1,87 1,272 1,380 1,392 1,458 1,500 F}
+{5 1,7 1,25 1,41 1,65 1,87 1,254 1,500 F}
+{7 1,16 1,49 1,165 1,500 F}
+{7 1,16 1,49 1,165 1,500 F}
+{7 1,14 1,16 1,23 1,34 1,40 1,49 1,165 1,207 1,209 1,273 1,500 F}
+{7 1,14 1,16 1,23 1,34 1,40 1,49 1,165 1,207 1,209 1,273 1,500 F}
+{7 1,49 1,50 1,165 1,500 F}
+{7 1,62 1,369 1,500 F}
+{7 1,14 1,16 1,23 1,25 1,34 1,49 1,81 1,87 1,144 1,191 1,201 1,206 1,207 1,209 1,353 1,466 1,500 F}
+{7 1,14 1,16 1,23 1,25 1,34 1,49 1,81 1,87 1,144 1,191 1,201 1,206 1,207 1,209 1,353 1,466 1,500 F}
+{7 1,25 1,49 1,62 1,81 1,87 1,247 1,274 1,459 1,500 F}
+{7 1,25 1,40 1,49 1,87 1,500 F}
+{7 1,25 1,40 1,49 1,87 1,500 F}
+{7 1,25 1,40 1,49 1,87 1,500 F}
+{7 1,25 1,40 1,49 1,87 1,500 F}
+{7 1,25 1,40 1,49 1,87 1,500 F}
+{6 1,49 1,50 1,165 1,500 F}
+{7 1,22 1,23 1,40 1,49 1,193 1,255 1,458 1,500 F}
+{7 1,22 1,23 1,40 1,49 1,193 1,255 1,458 1,500 F}
+{7 1,22 1,23 1,193 1,244 1,255 1,458 1,500 F}
+{7 1,22 1,193 1,244 1,255 1,500 F}
+{7 1,22 1,193 1,244 1,255 1,500 F}
+{7 1,49 1,165 1,379 1,500 F}
+{7 1,165 1,500 F}
+{7 1,165 1,500 F}
+{7 1,165 1,500 F}
+{7 1,165 1,447 1,500 F}
+{7 1,165 1,500 F}
+{7 1,165 1,500 F}
+{7 1,49 1,385 1,500 F}
+{7 1,12 1,14 1,16 1,23 1,49 1,81 1,140 1,199 1,209 1,459 1,500 F}
+{7 1,16 1,49 1,277 1,500 F}
+{7 1,16 1,49 1,65 1,81 1,144 1,201 1,209 1,370 1,500 F}
+{7 1,49 1,500 F}
+{7 1,16 1,49 1,62 1,81 1,201 1,385 1,500 F}
+{6 1,22 1,165 1,500 F}
+{7 1,25 1,87 1,375 1,446 1,500 F}
+{7 1,49 1,165 1,374 1,474 1,500 F}
+{7 1,22 1,49 1,500 F}
+{5 1,7 1,16 1,25 1,65 1,87 1,109 1,440 1,500 F}
+{7 1,22 1,25 1,87 1,470 1,500 F}
+{7 1,22 1,25 1,87 1,470 1,500 F}
+{7 1,14 1,22 1,23 1,25 1,62 1,87 1,272 1,353 1,500 F}
+{7 1,14 1,16 1,22 1,25 1,34 1,38 1,40 1,49 1,81 1,87 1,90 1,113 1,206 1,440 1,500 F}
+{7 1,14 1,16 1,22 1,25 1,34 1,38 1,81 1,87 1,113 1,114 1,206 1,254 1,440 1,500 F}
+{7 1,16 1,22 1,25 1,26 1,49 1,65 1,87 1,114 1,500 F}
+{7 1,16 1,22 1,25 1,26 1,49 1,65 1,87 1,90 1,114 1,500 F}
+{7 1,34 1,51 1,106 1,201 1,209 1,446 1,500 F}
+{7 1,34 1,51 1,106 1,201 1,209 1,446 1,500 F}
+{7 1,23 1,40 1,49 1,87 1,165 1,352 1,373 1,500 F}
+{7 1,23 1,40 1,49 1,165 1,373 1,500 F}
+{7 1,23 1,40 1,49 1,165 1,373 1,500 F}
+{7 1,23 1,40 1,49 1,165 1,373 1,500 F}
+{7 1,23 1,40 1,49 1,165 1,373 1,500 F}
+{7 1,22 1,34 1,49 1,50 1,88 1,168 1,193 1,255 1,437 1,500 F}
+{7 1,22 1,23 1,49 1,53 1,61 1,109 1,168 1,193 1,255 1,272 1,280 1,500 F}
+{7 1,16 1,22 1,49 1,107 1,113 1,139 1,168 1,192 1,193 1,243 1,255 1,268 1,500 F}
+{7 1,16 1,22 1,49 1,107 1,113 1,139 1,168 1,192 1,193 1,243 1,255 1,268 1,500 F}
+{7 1,16 1,22 1,49 1,107 1,113 1,139 1,168 1,192 1,193 1,243 1,255 1,268 1,500 F}
+{7 1,22 1,49 1,168 1,193 1,255 1,500 F}
+{7 1,22 1,23 1,49 1,65 1,168 1,193 1,255 1,500 F}
+{7 1,16 1,49 1,87 1,107 1,113 1,139 1,168 1,192 1,268 1,352 1,500 F}
+{7 1,16 1,22 1,49 1,107 1,113 1,139 1,168 1,192 1,193 1,255 1,268 1,500 F}
+{7 1,16 1,22 1,49 1,107 1,113 1,139 1,168 1,192 1,193 1,255 1,268 1,500 F}
+{7 1,14 1,22 1,34 1,49 1,81 1,87 1,168 1,193 1,255 1,500 F}
+{7 1,14 1,22 1,34 1,49 1,81 1,168 1,193 1,255 1,500 F}
+{7 1,14 1,22 1,34 1,49 1,81 1,168 1,193 1,255 1,500 F}
+{7 1,14 1,22 1,34 1,49 1,81 1,168 1,193 1,255 1,500 F}
+{7 1,14 1,22 1,34 1,49 1,81 1,168 1,193 1,255 1,500 F}
+{7 1,14 1,22 1,34 1,49 1,81 1,168 1,193 1,255 1,500 F}
+{7 1,22 1,23 1,49 1,65 1,168 1,193 1,255 1,500 F}
+{7 1,22 1,23 1,49 1,65 1,168 1,193 1,255 1,500 F}
+{7 1,22 1,49 1,168 1,193 1,255 1,500 F}
+{7 1,22 1,49 1,168 1,193 1,255 1,500 F}
+{7 1,22 1,49 1,168 1,193 1,255 1,500 F}
+{7 1,22 1,49 1,63 1,140 1,160 1,168 1,193 1,255 1,380 1,500 F}
+{7 1,22 1,49 1,63 1,140 1,160 1,168 1,193 1,255 1,380 1,500 F}
+{7 1,22 1,49 1,168 1,193 1,255 1,500 F}
+{7 1,22 1,49 1,168 1,193 1,255 1,500 F}
+{7 1,22 1,49 1,168 1,193 1,255 1,500 F}
+{7 1,16 1,22 1,49 1,142 1,168 1,193 1,255 1,483 1,500 F}
+{7 1,16 1,22 1,49 1,65 1,168 1,193 1,255 1,500 F}
+{7 1,16 1,22 1,49 1,107 1,113 1,139 1,168 1,192 1,193 1,255 1,268 1,500 F}
+{7 1,22 1,49 1,109 1,168 1,193 1,255 1,500 F}
+{7 1,16 1,22 1,23 1,49 1,65 1,81 1,138 1,168 1,193 1,255 1,500 F}
+{7 1,25 1,40 1,49 1,87 1,206 1,500 F}
+{7 1,42 1,49 1,61 1,165 1,500 F}
+{6 1,87 1,500 F}
+{6 1,40 1,49 1,500 F}
+{6 1,87 1,500 F}
+{6 1,40 1,49 1,500 F}
+{7 1,25 1,49 1,56 1,87 1,139 1,500 F}
+{7 1,25 1,49 1,87 1,374 1,474 1,500 F}
+{7 1,25 1,49 1,87 1,374 1,474 1,500 F}
+{7 1,16 1,22 1,49 1,113 1,193 1,255 1,500 F}
+{7 1,25 1,49 1,61 1,87 1,207 1,500 F}
+{7 1,49 1,143 1,500 F}
+{7 1,49 1,143 1,500 F}
+{7 1,14 1,23 1,25 1,34 1,49 1,87 1,90 1,439 1,500 F}
+{7 1,14 1,20 1,23 1,25 1,49 1,62 1,87 1,90 1,201 1,206 1,369 1,394 1,500 F}
+{7 1,16 1,22 1,49 1,62 1,81 1,145 1,158 1,191 1,193 1,201 1,206 1,254 1,255 1,357 1,370 1,429 1,500 F}
+{7 1,25 1,49 1,87 1,500 F}
+{7 1,25 1,49 1,87 1,160 1,196 1,500 F}
+{7 1,16 1,25 1,34 1,49 1,63 1,81 1,87 1,254 1,259 1,370 1,500 F}
+{7 1,16 1,25 1,34 1,49 1,81 1,87 1,370 1,500 F}
+{7 1,25 1,40 1,49 1,87 1,500 F}
+{7 1,25 1,49 1,87 1,500 F}
+{7 1,12 1,20 1,49 1,187 1,500 F}
+{7 1,12 1,20 1,49 1,187 1,500 F}
+{7 1,20 1,49 1,452 1,500 F}
+{7 1,20 1,49 1,452 1,500 F}
+{7 1,20 1,49 1,452 1,500 F}
+{6 1,500 F}
+{6 1,500 F}
+{6 1,500 F}
+{7 1,40 1,49 1,165 1,500 F}
+{7 1,14 1,16 1,22 1,34 1,201 1,249 1,254 1,268 1,500 F}
+{7 1,25 1,49 1,87 1,500 F}
+{7 1,25 1,34 1,49 1,87 1,201 1,256 1,500 F}
+{7 1,25 1,34 1,49 1,87 1,201 1,256 1,500 F}
+{7 1,25 1,34 1,49 1,60 1,87 1,500 F}
+{7 1,25 1,34 1,49 1,60 1,87 1,500 F}
+{7 1,16 1,25 1,49 1,51 1,87 1,243 1,370 1,500 F}
+{7 1,16 1,25 1,49 1,51 1,87 1,243 1,370 1,500 F}
+{7 1,25 1,49 1,87 1,500 F}
+{7 1,22 1,49 1,193 1,255 1,500 F}
+{7 1,25 1,49 1,87 1,500 F}
+{7 1,25 1,74 1,87 1,500 F}
+{7 1,14 1,16 1,25 1,34 1,62 1,65 1,81 1,87 1,113 1,244 1,363 1,374 1,377 1,440 1,458 1,474 1,500 F}
+{7 1,14 1,16 1,25 1,34 1,62 1,65 1,81 1,87 1,113 1,244 1,363 1,374 1,377 1,440 1,458 1,474 1,500 F}
+{7 1,14 1,16 1,25 1,34 1,62 1,65 1,81 1,87 1,113 1,244 1,363 1,374 1,377 1,440 1,458 1,474 1,500 F}
+{7 1,23 1,49 1,165 1,500 F}
+{7 1,14 1,16 1,22 1,65 1,81 1,160 1,165 1,201 1,205 1,370 1,446 1,456 1,500 F}
+{7 1,14 1,16 1,22 1,49 1,65 1,81 1,160 1,165 1,201 1,205 1,370 1,446 1,456 1,500 F}
+{7 1,14 1,16 1,22 1,49 1,65 1,81 1,87 1,160 1,165 1,201 1,205 1,352 1,370 1,446 1,456 1,500 F}
+{7 1,14 1,22 1,49 1,160 1,165 1,201 1,205 1,446 1,500 F}
+{7 1,14 1,16 1,22 1,25 1,49 1,65 1,81 1,87 1,160 1,201 1,205 1,370 1,446 1,456 1,500 F}
+{7 1,14 1,16 1,22 1,49 1,65 1,81 1,160 1,165 1,201 1,205 1,370 1,446 1,456 1,500 F}
+{7 1,14 1,16 1,22 1,23 1,49 1,65 1,81 1,87 1,105 1,165 1,187 1,206 1,207 1,243 1,352 1,353 1,439 1,446 1,469 1,500 F}
+{7 1,14 1,16 1,22 1,23 1,34 1,81 1,140 1,160 1,165 1,201 1,205 1,206 1,209 1,428 1,446 1,500 F}
+{7 1,14 1,16 1,22 1,23 1,34 1,49 1,81 1,140 1,160 1,165 1,201 1,205 1,206 1,209 1,428 1,446 1,500 F}
+{7 1,22 1,49 1,165 1,500 F}
+{7 1,22 1,49 1,165 1,500 F}
+{7 1,22 1,49 1,165 1,500 F}
+{7 1,22 1,49 1,87 1,109 1,165 1,500 F}
+{7 1,22 1,49 1,109 1,165 1,500 F}
+{7 1,22 1,49 1,109 1,165 1,500 F}
+{7 1,22 1,49 1,109 1,165 1,500 F}
+{7 1,22 1,49 1,165 1,500 F}
+{7 1,22 1,49 1,165 1,500 F}
+{7 1,22 1,49 1,165 1,500 F}
+{7 1,22 1,49 1,165 1,500 F}
+{7 1,22 1,49 1,165 1,500 F}
+{7 1,16 1,34 1,49 1,138 1,165 1,206 1,500 F}
+{7 1,16 1,34 1,49 1,138 1,165 1,206 1,500 F}
+{7 1,88 1,165 1,500 F}
+{7 1,16 1,25 1,40 1,49 1,74 1,87 1,500 F}
+{7 1,14 1,16 1,22 1,25 1,26 1,49 1,87 1,115 1,116 1,206 1,351 1,353 1,500 F}
+{7 1,14 1,16 1,22 1,25 1,26 1,49 1,87 1,115 1,116 1,206 1,351 1,353 1,500 F}
+{7 1,22 1,165 1,500 F}
+{7 1,22 1,25 1,49 1,87 1,500 F}
+{6 1,25 1,49 1,65 1,87 1,88 1,500 F}
+{6 1,20 1,25 1,87 1,106 1,500 F}
+{6 1,20 1,25 1,87 1,106 1,500 F}
+{6 1,20 1,25 1,87 1,106 1,500 F}
+{7 1,165 1,500 F}
+{6 1,25 1,49 1,87 1,242 1,500 F}
+{7 1,25 1,49 1,87 1,242 1,500 F}
+{7 1,25 1,49 1,87 1,467 1,500 F}
+{7 1,25 1,49 1,87 1,467 1,500 F}
+{7 1,22 1,25 1,49 1,61 1,87 1,107 1,145 1,254 1,268 1,378 1,467 1,500 F}
+{7 1,22 1,25 1,49 1,61 1,87 1,107 1,145 1,254 1,268 1,378 1,467 1,500 F}
+{7 1,22 1,25 1,49 1,61 1,87 1,107 1,145 1,254 1,268 1,378 1,467 1,500 F}
+{7 1,22 1,25 1,49 1,61 1,87 1,107 1,145 1,254 1,268 1,378 1,467 1,500 F}
+{7 1,25 1,49 1,87 1,467 1,500 F}
+{7 1,25 1,49 1,87 1,467 1,500 F}
+{7 1,14 1,16 1,23 1,25 1,49 1,81 1,87 1,92 1,201 1,208 1,445 1,467 1,500 F}
+{7 1,14 1,16 1,23 1,25 1,49 1,81 1,87 1,92 1,201 1,208 1,445 1,467 1,500 F}
+{7 1,25 1,49 1,61 1,87 1,378 1,467 1,500 F}
+{7 1,25 1,49 1,61 1,87 1,378 1,467 1,500 F}
+{7 1,49 1,165 1,207 1,500 F}
+{7 1,25 1,49 1,65 1,87 1,207 1,256 1,463 1,500 F}
+{7 1,16 1,22 1,26 1,62 1,81 1,160 1,165 1,209 1,210 1,500 F}
+{7 1,22 1,49 1,165 1,500 F}
+{7 1,22 1,49 1,61 1,165 1,500 F}
+{7 1,22 1,165 1,254 1,500 F}
+{7 1,22 1,165 1,254 1,500 F}
+{7 1,49 1,63 1,165 1,370 1,500 F}
+{7 1,25 1,87 1,139 1,500 F}
+{7 1,25 1,87 1,139 1,500 F}
+{7 1,16 1,34 1,49 1,50 1,91 1,165 1,248 1,277 1,365 1,500 F}
+{7 1,22 1,49 1,193 1,254 1,255 1,279 1,500 F}
+{7 1,22 1,49 1,193 1,254 1,255 1,279 1,500 F}
+{7 1,22 1,49 1,139 1,193 1,255 1,500 F}
+{7 1,22 1,49 1,139 1,193 1,255 1,500 F}
+{7 1,25 1,87 1,205 1,500 F}
+{7 1,500 F}
+{7 1,20 1,22 1,49 1,193 1,255 1,500 F}
+{7 1,20 1,49 1,165 1,500 F}
+{7 1,20 1,22 1,49 1,193 1,255 1,500 F}
+{7 1,20 1,22 1,49 1,87 1,193 1,255 1,500 F}
+{7 1,20 1,49 1,165 1,500 F}
+{7 1,15 1,16 1,22 1,25 1,26 1,49 1,74 1,81 1,87 1,160 1,254 1,428 1,440 1,500 F}
+{7 1,15 1,16 1,22 1,25 1,49 1,74 1,81 1,87 1,160 1,254 1,380 1,428 1,500 F}
+{7 1,15 1,22 1,25 1,40 1,49 1,74 1,87 1,160 1,201 1,254 1,428 1,500 F}
+{7 1,22 1,40 1,500 F}
+{7 1,22 1,500 F}
+{7 1,22 1,49 1,93 1,94 1,95 1,500 F}
+{7 1,22 1,49 1,107 1,193 1,255 1,480 1,500 F}
+{7 1,34 1,62 1,209 1,500 F}
+{7 1,34 1,62 1,209 1,500 F}
+{7 1,49 1,472 1,500 F}
+{7 1,22 1,49 1,193 1,255 1,472 1,500 F}
+{7 1,23 1,25 1,49 1,87 1,500 F}
+{7 1,23 1,49 1,500 F}
+{7 1,16 1,22 1,34 1,49 1,51 1,65 1,81 1,193 1,255 1,500 F}
+{7 1,16 1,22 1,34 1,49 1,51 1,65 1,81 1,193 1,255 1,500 F}
+{7 1,22 1,49 1,193 1,201 1,255 1,387 1,455 1,500 F}
+{7 1,16 1,26 1,49 1,81 1,113 1,191 1,206 1,373 1,441 1,500 F}
+{7 1,25 1,87 1,472 1,500 F}
+{7 1,22 1,34 1,49 1,62 1,193 1,209 1,255 1,500 F}
+{7 1,22 1,49 1,56 1,145 1,192 1,193 1,255 1,361 1,381 1,441 1,500 F}
+{7 1,49 1,56 1,192 1,268 1,381 1,441 1,500 F}
+{7 1,165 1,500 F}
+{7 1,165 1,500 F}
+{7 1,165 1,500 F}
+{7 1,49 1,165 1,500 F}
+{7 1,40 1,165 1,500 F}
+{7 1,40 1,49 1,165 1,500 F}
+{7 1,23 1,25 1,63 1,87 1,500 F}
+{7 1,22 1,63 1,87 1,193 1,255 1,500 F}
+{7 1,22 1,63 1,193 1,255 1,500 F}
+{7 1,22 1,93 1,94 1,95 1,500 F}
+{7 1,22 1,63 1,193 1,255 1,500 F}
+{7 1,25 1,63 1,87 1,500 F}
+{7 1,14 1,22 1,193 1,255 1,500 F}
+{7 1,22 1,93 1,94 1,95 1,500 F}
+{6 1,106 1,165 1,500 F}
+{7 1,25 1,49 1,87 1,205 1,459 1,500 F}
+{7 1,40 1,165 1,500 F}
+{7 1,40 1,165 1,500 F}
+{7 1,40 1,165 1,500 F}
+{7 1,40 1,165 1,500 F}
+{7 1,40 1,165 1,500 F}
+{7 1,40 1,165 1,500 F}
+{7 1,40 1,49 1,87 1,165 1,500 F}
+{7 1,40 1,49 1,87 1,165 1,500 F}
+{7 1,40 1,49 1,87 1,165 1,500 F}
+{7 1,40 1,49 1,165 1,500 F}
+{7 1,40 1,49 1,165 1,500 F}
+{7 1,40 1,49 1,165 1,500 F}
+{6 1,25 1,49 1,87 1,106 1,500 F}
+{6 1,25 1,49 1,87 1,106 1,487 1,500 F}
+{6 1,25 1,49 1,87 1,106 1,500 F}
+{6 1,25 1,49 1,87 1,106 1,500 F}
+{6 1,25 1,49 1,87 1,106 1,500 F}
+{6 1,25 1,49 1,87 1,500 F}
+{6 1,25 1,87 1,88 1,500 F}
+{6 1,25 1,40 1,49 1,87 1,500 F}
+{6 1,25 1,40 1,49 1,87 1,500 F}
+{6 1,25 1,87 1,500 F}
+{7 1,49 1,165 1,276 1,500 F}
+{7 1,25 1,49 1,87 1,276 1,500 F}
+{7 1,22 1,49 1,193 1,255 1,276 1,500 F}
+{7 1,49 1,165 1,276 1,500 F}
+{7 1,105 1,165 1,468 1,500 F}
+{7 1,105 1,165 1,468 1,500 F}
+{7 1,105 1,165 1,468 1,500 F}
+{7 1,87 1,105 1,165 1,468 1,500 F}
+{7 1,105 1,165 1,468 1,500 F}
+{7 1,105 1,165 1,468 1,500 F}
+{7 1,165 1,468 1,500 F}
+{7 1,16 1,22 1,23 1,40 1,51 1,81 1,138 1,165 1,244 1,500 F}
+{7 1,22 1,23 1,49 1,193 1,255 1,500 F}
+{7 1,22 1,49 1,165 1,476 1,500 F}
+{7 1,22 1,193 1,255 1,500 F}
+{7 1,22 1,193 1,255 1,500 F}
+{7 1,165 1,500 F}
+{6 1,40 1,500 F}
+{6 1,40 1,500 F}
+{6 1,40 1,500 F}
+{7 1,22 1,25 1,26 1,40 1,49 1,65 1,72 1,87 1,500 F}
+{7 1,22 1,25 1,26 1,40 1,49 1,65 1,72 1,87 1,500 F}
+{7 1,25 1,87 1,500 F}
+{7 1,25 1,74 1,87 1,500 F}
+{7 1,14 1,16 1,21 1,23 1,34 1,49 1,113 1,116 1,165 1,201 1,272 1,463 1,500 F}
+{7 1,14 1,16 1,21 1,23 1,34 1,49 1,90 1,113 1,116 1,165 1,201 1,272 1,463 1,500 F}
+{7 1,16 1,23 1,25 1,34 1,49 1,87 1,112 1,370 1,500 F}
+{7 1,25 1,87 1,106 1,254 1,485 1,500 F}
+{6 1,12 1,49 1,106 1,500 F}
+{6 1,12 1,22 1,49 1,106 1,193 1,255 1,500 F}
+{6 1,12 1,22 1,49 1,106 1,193 1,255 1,500 F}
+{6 1,25 1,40 1,49 1,87 1,106 1,192 1,500 F}
+{6 1,22 1,40 1,49 1,106 1,192 1,193 1,255 1,500 F}
+{6 1,22 1,40 1,49 1,106 1,192 1,193 1,255 1,500 F}
+{7 1,25 1,87 1,106 1,192 1,500 F}
+{7 1,22 1,106 1,192 1,193 1,255 1,500 F}
+{7 1,25 1,87 1,500 F}
+{7 1,25 1,87 1,500 F}
+{7 1,25 1,49 1,87 1,500 F}
+{7 1,22 1,32 1,193 1,255 1,500 F}
+{7 1,25 1,49 1,87 1,436 1,500 F}
+{7 1,40 1,49 1,500 F}
+{7 1,25 1,40 1,49 1,87 1,90 1,500 F}
+{7 1,40 1,49 1,500 F}
+{7 1,22 1,25 1,49 1,87 1,188 1,500 F}
+{7 1,22 1,25 1,49 1,87 1,500 F}
+{7 1,14 1,16 1,20 1,23 1,25 1,26 1,34 1,49 1,61 1,62 1,65 1,81 1,87 1,103 1,110 1,115 1,116 1,168 1,187 1,189 1,193 1,201 1,205 1,206 1,207 1,208 1,209 1,256 1,263 1,275 1,353 1,362 1,365 1,369 1,370 1,391 1,438 1,444 1,453 1,457 1,458 1,474 1,477 1,484 1,486 1,490 1,500 F}
+{7 1,25 1,49 1,87 1,500 F}
+{7 1,25 1,49 1,87 1,500 F}
+{7 1,22 1,139 1,188 1,192 1,193 1,255 1,500 F}
+{7 1,22 1,139 1,188 1,192 1,193 1,255 1,500 F}
+{7 1,22 1,139 1,188 1,192 1,193 1,255 1,500 F}
+{7 1,22 1,193 1,255 1,500 F}
+{7 1,22 1,193 1,255 1,500 F}
+{7 1,22 1,193 1,255 1,500 F}
+{7 1,22 1,49 1,87 1,193 1,255 1,500 F}
+{7 1,22 1,49 1,193 1,255 1,500 F}
+{7 1,22 1,49 1,193 1,255 1,500 F}
+{7 1,165 1,466 1,500 F}
+{6 1,25 1,49 1,50 1,87 1,88 1,500 F}
+{7 1,25 1,49 1,50 1,87 1,88 1,500 F}
+{7 1,25 1,49 1,50 1,87 1,88 1,500 F}
+{7 1,14 1,25 1,49 1,50 1,63 1,87 1,88 1,500 F}
+{6 1,25 1,49 1,50 1,87 1,88 1,500 F}
+{1 1,7 1,16 1,22 1,49 1,113 1,193 1,255 1,500 F}
+{1 1,7 1,16 1,22 1,49 1,113 1,193 1,255 1,500 F}
+{1 1,7 1,16 1,22 1,49 1,113 1,193 1,255 1,500 F}
+{7 1,16 1,22 1,23 1,25 1,49 1,81 1,87 1,242 1,500 F}
+{7 1,16 1,22 1,23 1,25 1,49 1,81 1,87 1,242 1,500 F}
+{7 1,20 1,25 1,49 1,74 1,87 1,500 F}
+{7 1,19 1,25 1,87 1,500 F}
+{7 1,19 1,25 1,87 1,500 F}
+{7 1,19 1,25 1,87 1,390 1,500 F}
+{7 1,19 1,25 1,87 1,390 1,500 F}
+{7 1,19 1,25 1,87 1,193 1,365 1,500 F}
+{6 1,19 1,25 1,87 1,500 F}
+{6 1,19 1,25 1,87 1,500 F}
+{7 1,19 1,25 1,79 1,87 1,390 1,500 F}
+{7 1,19 1,25 1,79 1,87 1,390 1,500 F}
+{7 1,19 1,25 1,49 1,87 1,500 F}
+{7 1,19 1,22 1,49 1,193 1,209 1,255 1,500 F}
+{7 1,25 1,49 1,87 1,111 1,115 1,205 1,254 1,500 F}
+{7 1,25 1,49 1,87 1,111 1,115 1,205 1,254 1,500 F}
+{7 1,25 1,49 1,87 1,254 1,452 1,500 F}
+{7 1,22 1,25 1,87 1,471 1,500 F}
+{7 1,22 1,25 1,87 1,471 1,500 F}
+{7 1,25 1,49 1,87 1,500 F}
+{7 1,25 1,49 1,87 1,500 F}
+{6 1,22 1,25 1,87 1,88 1,500 F}
+{6 1,22 1,25 1,87 1,88 1,500 F}
+{7 1,20 1,25 1,34 1,49 1,87 1,107 1,243 1,500 F}
+{7 1,22 1,88 1,93 1,94 1,95 1,500 F}
+{6 1,23 1,40 1,500 F}
+{6 1,22 1,23 1,40 1,193 1,255 1,500 F}
+{6 1,22 1,23 1,40 1,193 1,255 1,500 F}
+{7 1,22 1,49 1,193 1,206 1,255 1,452 1,500 F}
+{7 1,49 1,500 F}
+{7 1,16 1,23 1,34 1,62 1,65 1,81 1,107 1,111 1,187 1,201 1,206 1,254 1,275 1,280 1,351 1,354 1,369 1,428 1,500 F}
+{7 1,16 1,34 1,40 1,63 1,500 F}
+{7 1,16 1,23 1,34 1,209 1,254 1,500 F}
+{7 1,16 1,23 1,26 1,34 1,62 1,91 1,205 1,206 1,208 1,211 1,500 F}
+{7 1,16 1,26 1,34 1,62 1,81 1,369 1,460 1,500 F}
+{7 1,49 1,165 1,500 F}
+{7 1,49 1,165 1,500 F}
+{7 1,49 1,165 1,500 F}
+{7 1,16 1,49 1,81 1,165 1,500 F}
+{7 1,16 1,49 1,81 1,165 1,500 F}
+{7 1,49 1,165 1,500 F}
+{7 1,49 1,165 1,500 F}
+{7 1,12 1,49 1,165 1,452 1,500 F}
+{7 1,12 1,49 1,165 1,452 1,500 F}
+{7 1,49 1,165 1,254 1,452 1,500 F}
+{7 1,49 1,165 1,254 1,452 1,500 F}
+{7 1,14 1,49 1,165 1,201 1,373 1,452 1,500 F}
+{7 1,14 1,49 1,165 1,201 1,373 1,452 1,500 F}
+{7 1,49 1,165 1,473 1,500 F}
+{7 1,49 1,165 1,473 1,500 F}
+{7 1,49 1,160 1,165 1,473 1,500 F}
+{7 1,49 1,160 1,165 1,473 1,500 F}
+{2 1,7 1,9 1,14 1,16 1,22 1,26 1,34 1,40 1,49 1,62 1,65 1,81 1,193 1,201 1,208 1,209 1,255 1,280 1,360 1,445 1,500 F}
+{7 1,25 1,49 1,87 1,473 1,500 F}
+{7 1,25 1,49 1,87 1,473 1,500 F}
+{7 1,25 1,49 1,87 1,473 1,500 F}
+{7 1,25 1,49 1,87 1,473 1,500 F}
+{7 1,25 1,87 1,471 1,473 1,500 F}
+{7 1,25 1,45 1,63 1,87 1,254 1,388 1,500 F}
+{7 1,22 1,40 1,62 1,193 1,255 1,500 F}
+{7 1,22 1,40 1,62 1,193 1,255 1,500 F}
+{7 1,22 1,25 1,49 1,87 1,500 F}
+{7 1,22 1,25 1,27 1,49 1,87 1,500 F}
+{3 1,7 1,16 1,23 1,25 1,49 1,81 1,87 1,277 1,440 1,448 1,449 1,451 1,500 F}
+{3 1,7 1,16 1,25 1,49 1,65 1,81 1,87 1,104 1,113 1,209 1,272 1,432 1,439 1,448 1,449 1,451 1,459 1,500 F}
+{3 1,7 1,16 1,23 1,25 1,49 1,81 1,87 1,105 1,277 1,440 1,448 1,449 1,451 1,500 F}
+{3 1,7 1,16 1,25 1,34 1,49 1,71 1,81 1,87 1,113 1,187 1,191 1,207 1,208 1,428 1,440 1,448 1,449 1,451 1,458 1,500 F}
+{3 1,7 1,16 1,23 1,25 1,26 1,34 1,40 1,49 1,65 1,81 1,87 1,190 1,207 1,209 1,363 1,448 1,449 1,451 1,500 F}
+{3 1,7 1,16 1,25 1,49 1,87 1,108 1,187 1,201 1,206 1,448 1,449 1,451 1,500 F}
+{7 1,22 1,49 1,62 1,193 1,255 1,370 1,500 F}
+{7 1,22 1,49 1,193 1,206 1,255 1,500 F}
+{7 1,22 1,49 1,81 1,193 1,255 1,500 F}
+{7 1,22 1,49 1,81 1,193 1,255 1,500 F}
+{7 1,14 1,22 1,49 1,188 1,193 1,201 1,255 1,500 F}
+{7 1,14 1,22 1,49 1,188 1,193 1,201 1,255 1,500 F}
+{7 1,16 1,25 1,49 1,87 1,500 F}
+{7 1,16 1,25 1,49 1,87 1,500 F}
+{7 1,22 1,49 1,69 1,73 1,193 1,255 1,500 F}
+{7 1,22 1,34 1,49 1,69 1,73 1,193 1,255 1,500 F}
+{7 1,22 1,25 1,40 1,49 1,87 1,254 1,500 F}
+{7 1,22 1,25 1,40 1,49 1,87 1,254 1,500 F}
+{7 1,16 1,25 1,34 1,74 1,87 1,139 1,500 F}
+{7 1,16 1,25 1,34 1,87 1,139 1,500 F}
+{7 1,16 1,25 1,34 1,87 1,139 1,500 F}
+{7 1,49 1,105 1,207 1,370 1,388 1,500 F}
+{7 1,49 1,61 1,270 1,500 F}
+{7 1,49 1,61 1,270 1,500 F}
+{7 1,49 1,61 1,87 1,270 1,500 F}
+{7 1,49 1,61 1,270 1,500 F}
+{7 1,49 1,61 1,270 1,500 F}
+{6 1,500 F}
+{7 1,25 1,49 1,62 1,87 1,117 1,166 1,500 F}
+{6 1,50 1,88 1,165 1,500 F}
+{7 1,50 1,165 1,500 F}
+{7 1,22 1,23 1,25 1,49 1,62 1,71 1,87 1,105 1,157 1,254 1,460 1,500 F}
+{7 1,14 1,16 1,20 1,22 1,23 1,26 1,34 1,49 1,62 1,65 1,81 1,139 1,187 1,193 1,194 1,254 1,255 1,370 1,434 1,500 F}
+{7 1,22 1,23 1,49 1,74 1,87 1,105 1,193 1,255 1,468 1,500 F}
+{7 1,22 1,23 1,49 1,105 1,193 1,255 1,468 1,500 F}
+{7 1,23 1,49 1,105 1,165 1,500 F}
+{7 1,22 1,23 1,49 1,105 1,193 1,255 1,468 1,500 F}
+{7 1,23 1,49 1,105 1,165 1,500 F}
+{7 1,22 1,23 1,49 1,105 1,193 1,255 1,468 1,500 F}
+{7 1,23 1,49 1,105 1,165 1,500 F}
+{7 1,22 1,23 1,49 1,105 1,193 1,255 1,468 1,500 F}
+{7 1,23 1,49 1,105 1,165 1,500 F}
+{7 1,49 1,165 1,187 1,369 1,452 1,500 F}
+{7 1,22 1,71 1,87 1,93 1,94 1,95 1,500 F}
+{7 1,22 1,71 1,93 1,94 1,95 1,500 F}
+{7 1,22 1,71 1,87 1,93 1,94 1,95 1,139 1,500 F}
+{7 1,22 1,71 1,93 1,94 1,95 1,139 1,500 F}
+{7 1,25 1,49 1,87 1,90 1,500 F}
+{7 1,22 1,40 1,49 1,62 1,93 1,94 1,95 1,446 1,500 F}
+{6 1,22 1,62 1,93 1,94 1,95 1,446 1,500 F}
+{7 1,14 1,15 1,22 1,49 1,193 1,255 1,452 1,500 F}
+{7 1,15 1,22 1,40 1,49 1,62 1,187 1,193 1,255 1,369 1,452 1,500 F}
+{7 1,22 1,49 1,65 1,193 1,255 1,452 1,500 F}
+{7 1,22 1,49 1,193 1,255 1,500 F}
+{7 1,22 1,49 1,193 1,255 1,500 F}
+{7 1,22 1,49 1,193 1,255 1,500 F}
+{7 1,22 1,49 1,193 1,255 1,500 F}
+{7 1,22 1,49 1,193 1,255 1,500 F}
+{7 1,22 1,49 1,193 1,255 1,500 F}
+{7 1,22 1,49 1,193 1,255 1,500 F}
+{7 1,25 1,49 1,87 1,90 1,500 F}
+{7 1,16 1,81 1,165 1,259 1,500 F}
+{7 1,81 1,108 1,165 1,276 1,373 1,469 1,500 F}
+{7 1,25 1,40 1,49 1,87 1,500 F}
+{7 1,22 1,40 1,49 1,193 1,255 1,500 F}
+{7 1,22 1,40 1,49 1,193 1,255 1,500 F}
+{7 1,16 1,22 1,34 1,49 1,81 1,91 1,105 1,143 1,193 1,201 1,208 1,255 1,366 1,500 F}
+{7 1,16 1,22 1,34 1,49 1,81 1,91 1,105 1,143 1,193 1,201 1,208 1,255 1,366 1,500 F}
+{7 1,16 1,22 1,34 1,49 1,81 1,91 1,105 1,143 1,193 1,201 1,208 1,255 1,366 1,500 F}
+{7 1,14 1,22 1,23 1,49 1,50 1,81 1,187 1,193 1,201 1,206 1,207 1,255 1,500 F}
+{7 1,14 1,22 1,23 1,49 1,50 1,81 1,187 1,193 1,201 1,206 1,207 1,255 1,500 F}
+{7 1,22 1,49 1,50 1,51 1,61 1,71 1,107 1,168 1,193 1,201 1,207 1,254 1,255 1,268 1,270 1,473 1,500 F}
+{7 1,22 1,49 1,50 1,51 1,61 1,71 1,107 1,168 1,193 1,201 1,207 1,254 1,255 1,268 1,270 1,473 1,500 F}
+{7 1,22 1,49 1,50 1,51 1,61 1,71 1,107 1,168 1,193 1,201 1,207 1,254 1,255 1,268 1,270 1,473 1,500 F}
+{7 1,14 1,16 1,22 1,81 1,193 1,201 1,206 1,255 1,276 1,440 1,446 1,500 F}
+{7 1,14 1,16 1,22 1,81 1,193 1,201 1,206 1,255 1,276 1,440 1,446 1,500 F}
+{7 1,14 1,16 1,22 1,81 1,193 1,201 1,206 1,255 1,276 1,440 1,446 1,500 F}
+{7 1,22 1,50 1,193 1,207 1,254 1,255 1,276 1,446 1,500 F}
+{7 1,22 1,50 1,193 1,207 1,254 1,255 1,276 1,446 1,500 F}
+{7 1,22 1,50 1,193 1,207 1,254 1,255 1,276 1,446 1,500 F}
+{7 1,22 1,193 1,255 1,500 F}
+{7 1,22 1,193 1,255 1,500 F}
+{7 1,22 1,193 1,255 1,500 F}
+{7 1,22 1,193 1,255 1,500 F}
+{7 1,22 1,193 1,255 1,500 F}
+{7 1,22 1,193 1,255 1,500 F}
+{7 1,22 1,26 1,49 1,117 1,193 1,255 1,500 F}
+{7 1,22 1,26 1,49 1,117 1,193 1,255 1,500 F}
+{7 1,22 1,25 1,49 1,87 1,500 F}
+{7 1,22 1,49 1,193 1,255 1,446 1,500 F}
+{7 1,22 1,49 1,193 1,255 1,446 1,500 F}
+{7 1,446 1,500 F}
+{7 1,49 1,106 1,446 1,500 F}
+{7 1,22 1,49 1,106 1,193 1,255 1,446 1,500 F}
+{7 1,22 1,49 1,106 1,193 1,255 1,446 1,500 F}
+{7 1,22 1,49 1,193 1,255 1,446 1,500 F}
+{7 1,22 1,49 1,193 1,255 1,446 1,500 F}
+{7 1,500 F}
+{7 1,500 F}
+{7 1,500 F}
+{7 1,500 F}
+{7 1,365 1,500 F}
+{7 1,500 F}
+{7 1,500 F}
+{6 1,500 F}
+{6 1,365 1,500 F}
+{6 1,365 1,500 F}
+{7 1,500 F}
+{7 1,500 F}
+{6 1,500 F}
+{7 1,49 1,60 1,239 1,500 F}
+{7 1,16 1,25 1,49 1,87 1,500 F}
+{7 1,22 1,40 1,88 1,193 1,255 1,500 F}
+{7 1,16 1,22 1,49 1,74 1,81 1,87 1,139 1,193 1,254 1,255 1,428 1,500 F}
+{7 1,22 1,49 1,193 1,255 1,428 1,500 F}
+{7 1,22 1,49 1,193 1,255 1,428 1,500 F}
+{7 1,22 1,49 1,193 1,255 1,428 1,500 F}
+{7 1,22 1,49 1,193 1,255 1,428 1,500 F}
+{7 1,22 1,49 1,193 1,255 1,428 1,500 F}
+{7 1,22 1,49 1,65 1,193 1,255 1,428 1,500 F}
+{7 1,22 1,49 1,193 1,255 1,428 1,473 1,500 F}
+{7 1,22 1,49 1,193 1,255 1,428 1,473 1,500 F}
+{7 1,22 1,49 1,193 1,255 1,428 1,473 1,500 F}
+{7 1,22 1,49 1,63 1,71 1,79 1,193 1,255 1,428 1,500 F}
+{7 1,22 1,49 1,63 1,71 1,79 1,193 1,255 1,428 1,500 F}
+{7 1,22 1,49 1,63 1,71 1,79 1,193 1,255 1,428 1,500 F}
+{7 1,34 1,49 1,74 1,87 1,107 1,464 1,500 F}
+{7 1,34 1,49 1,74 1,87 1,464 1,473 1,500 F}
+{7 1,34 1,49 1,464 1,473 1,500 F}
+{7 1,22 1,34 1,464 1,471 1,473 1,500 F}
+{7 1,34 1,49 1,74 1,87 1,464 1,473 1,500 F}
+{7 1,34 1,49 1,464 1,473 1,500 F}
+{7 1,34 1,49 1,464 1,473 1,500 F}
+{7 1,34 1,49 1,464 1,473 1,500 F}
+{7 1,34 1,464 1,473 1,500 F}
+{7 1,34 1,49 1,74 1,87 1,464 1,473 1,500 F}
+{7 1,34 1,49 1,464 1,473 1,500 F}
+{7 1,34 1,49 1,464 1,473 1,500 F}
+{7 1,34 1,49 1,74 1,87 1,464 1,473 1,500 F}
+{7 1,34 1,49 1,464 1,473 1,500 F}
+{7 1,34 1,464 1,473 1,500 F}
+{7 1,34 1,49 1,74 1,87 1,464 1,473 1,500 F}
+{7 1,34 1,49 1,464 1,473 1,500 F}
+{7 1,34 1,49 1,464 1,473 1,500 F}
+{7 1,34 1,49 1,464 1,473 1,500 F}
+{7 1,34 1,464 1,473 1,500 F}
+{7 1,34 1,49 1,74 1,87 1,464 1,473 1,500 F}
+{7 1,34 1,49 1,464 1,473 1,500 F}
+{7 1,34 1,49 1,464 1,473 1,500 F}
+{7 1,22 1,23 1,500 F}
+{7 1,25 1,49 1,87 1,276 1,500 F}
+{7 1,25 1,49 1,87 1,276 1,500 F}
+{7 1,22 1,49 1,193 1,255 1,276 1,500 F}
+{7 1,49 1,165 1,276 1,500 F}
+{7 1,49 1,500 F}
+{7 1,22 1,25 1,49 1,73 1,87 1,189 1,500 F}
+{7 1,25 1,49 1,74 1,87 1,107 1,254 1,268 1,388 1,500 F}
+{7 1,25 1,49 1,87 1,107 1,254 1,268 1,388 1,500 F}
+{7 1,22 1,193 1,255 1,500 F}
+{7 1,165 1,500 F}
+{7 1,25 1,49 1,87 1,500 F}
+{7 1,25 1,49 1,87 1,108 1,139 1,433 1,500 F}
+{7 1,22 1,49 1,88 1,193 1,255 1,500 F}
+{7 1,22 1,40 1,49 1,108 1,193 1,255 1,500 F}
+{7 1,22 1,40 1,49 1,108 1,193 1,255 1,500 F}
+{7 1,22 1,40 1,49 1,108 1,193 1,255 1,500 F}
+{7 1,22 1,40 1,49 1,108 1,193 1,255 1,500 F}
+{7 1,22 1,40 1,49 1,90 1,193 1,255 1,500 F}
+{7 1,22 1,40 1,49 1,108 1,193 1,255 1,500 F}
+{7 1,49 1,88 1,165 1,500 F}
+{7 1,25 1,49 1,87 1,88 1,500 F}
+{6 1,22 1,40 1,49 1,88 1,193 1,255 1,500 F}
+{6 1,22 1,40 1,49 1,88 1,193 1,255 1,500 F}
+{7 1,49 1,50 1,165 1,500 F}
+{7 1,49 1,50 1,165 1,500 F}
+{7 1,50 1,165 1,500 F}
+{7 1,50 1,165 1,500 F}
+{7 1,50 1,165 1,500 F}
+{6 1,25 1,49 1,50 1,87 1,500 F}
+{6 1,25 1,49 1,50 1,87 1,500 F}
+{7 1,88 1,500 F}
+{7 1,49 1,88 1,500 F}
+{7 1,49 1,88 1,500 F}
+{7 1,16 1,22 1,49 1,193 1,255 1,500 F}
+{7 1,16 1,22 1,49 1,193 1,255 1,500 F}
+{7 1,16 1,22 1,49 1,193 1,255 1,500 F}
+{7 1,16 1,22 1,49 1,193 1,255 1,500 F}
+{7 1,22 1,49 1,193 1,255 1,500 F}
+{7 1,22 1,49 1,193 1,255 1,500 F}
+{7 1,22 1,49 1,193 1,255 1,500 F}
+{7 1,22 1,49 1,193 1,255 1,500 F}
+{7 1,22 1,193 1,255 1,500 F}
+{7 1,22 1,49 1,193 1,255 1,500 F}
+{7 1,22 1,49 1,193 1,255 1,500 F}
+{7 1,22 1,49 1,193 1,255 1,500 F}
+{7 1,22 1,49 1,193 1,255 1,500 F}
+{7 1,22 1,49 1,193 1,255 1,459 1,500 F}
+{7 1,22 1,193 1,255 1,500 F}
+{7 1,22 1,193 1,255 1,500 F}
+{7 1,22 1,49 1,193 1,255 1,500 F}
+{7 1,22 1,87 1,193 1,255 1,471 1,500 F}
+{7 1,20 1,22 1,49 1,193 1,255 1,500 F}
+{7 1,20 1,23 1,49 1,62 1,452 1,500 F}
+{7 1,20 1,22 1,23 1,49 1,62 1,193 1,255 1,452 1,500 F}
+{7 1,20 1,22 1,49 1,193 1,255 1,500 F}
+{7 1,20 1,22 1,49 1,193 1,255 1,500 F}
+{7 1,20 1,22 1,23 1,49 1,62 1,193 1,255 1,379 1,500 F}
+{7 1,20 1,22 1,34 1,49 1,193 1,255 1,379 1,500 F}
+{7 1,20 1,22 1,34 1,49 1,193 1,255 1,500 F}
+{7 1,14 1,16 1,20 1,22 1,23 1,65 1,81 1,193 1,201 1,207 1,255 1,471 1,500 F}
+{7 1,14 1,16 1,20 1,22 1,23 1,65 1,81 1,193 1,201 1,207 1,255 1,471 1,500 F}
+{7 1,14 1,16 1,20 1,22 1,23 1,65 1,81 1,193 1,201 1,207 1,255 1,471 1,500 F}
+{7 1,14 1,16 1,20 1,22 1,23 1,49 1,65 1,81 1,193 1,201 1,207 1,255 1,500 F}
+{7 1,14 1,16 1,20 1,22 1,23 1,49 1,65 1,81 1,193 1,201 1,207 1,255 1,500 F}
+{7 1,16 1,20 1,22 1,23 1,26 1,34 1,49 1,193 1,255 1,386 1,445 1,500 F}
+{5 1,7 1,20 1,22 1,49 1,60 1,139 1,193 1,195 1,208 1,255 1,373 1,450 1,489 1,500 F}
+{7 1,16 1,20 1,22 1,23 1,26 1,34 1,49 1,62 1,65 1,81 1,103 1,105 1,116 1,193 1,201 1,206 1,255 1,369 1,374 1,500 F}
+{7 1,14 1,22 1,26 1,34 1,49 1,62 1,65 1,91 1,116 1,193 1,201 1,255 1,500 F}
+{7 1,14 1,20 1,25 1,51 1,87 1,459 1,500 F}
+{7 1,25 1,87 1,160 1,369 1,500 F}
+{7 1,49 1,165 1,276 1,500 F}
+{7 1,49 1,165 1,276 1,500 F}
+{7 1,16 1,22 1,49 1,92 1,108 1,144 1,193 1,255 1,260 1,500 F}
+{6 1,87 1,88 1,165 1,500 F}
+{6 1,88 1,165 1,500 F}
+{6 1,88 1,165 1,500 F}
+{6 1,88 1,165 1,500 F}
+{7 1,16 1,25 1,49 1,87 1,259 1,500 F}
+{7 1,25 1,87 1,500 F}
+{7 1,22 1,49 1,193 1,255 1,500 F}
+{7 1,22 1,49 1,193 1,240 1,255 1,500 F}
+{7 1,22 1,49 1,193 1,255 1,500 F}
+{7 1,22 1,49 1,193 1,255 1,500 F}
+{7 1,14 1,16 1,23 1,25 1,26 1,79 1,81 1,87 1,206 1,209 1,391 1,500 F}
+{7 1,14 1,16 1,23 1,25 1,26 1,49 1,79 1,81 1,87 1,206 1,209 1,391 1,500 F}
+{7 1,22 1,25 1,40 1,49 1,87 1,112 1,500 F}
+{0 1,7 1,22 1,34 1,163 1,193 1,255 1,268 1,364 1,388 1,475 1,500 F}
+{0 1,7 1,22 1,34 1,163 1,193 1,255 1,268 1,364 1,388 1,471 1,475 1,500 F}
+{0 1,7 1,22 1,34 1,163 1,193 1,255 1,268 1,364 1,388 1,471 1,475 1,500 F}
+{0 1,7 1,22 1,34 1,163 1,193 1,255 1,268 1,364 1,388 1,471 1,475 1,500 F}
+{0 1,7 1,22 1,34 1,163 1,193 1,255 1,268 1,364 1,388 1,475 1,500 F}
+{0 1,7 1,22 1,34 1,163 1,193 1,255 1,268 1,364 1,388 1,471 1,475 1,500 F}
+{0 1,7 1,22 1,34 1,163 1,193 1,255 1,268 1,364 1,388 1,471 1,475 1,500 F}
+{0 1,7 1,22 1,34 1,163 1,193 1,255 1,268 1,364 1,388 1,471 1,475 1,500 F}
+{0 1,7 1,22 1,34 1,163 1,193 1,255 1,268 1,364 1,388 1,475 1,500 F}
+{0 1,7 1,22 1,34 1,163 1,193 1,255 1,268 1,364 1,388 1,475 1,500 F}
+{0 1,7 1,22 1,34 1,163 1,193 1,255 1,268 1,364 1,388 1,475 1,500 F}
+{0 1,7 1,22 1,34 1,163 1,193 1,255 1,268 1,364 1,388 1,475 1,500 F}
+{0 1,7 1,22 1,34 1,163 1,193 1,255 1,268 1,364 1,388 1,475 1,500 F}
+{0 1,7 1,22 1,34 1,163 1,193 1,255 1,268 1,364 1,388 1,471 1,475 1,500 F}
+{0 1,7 1,22 1,34 1,163 1,193 1,255 1,268 1,364 1,388 1,471 1,475 1,500 F}
+{0 1,7 1,22 1,34 1,163 1,193 1,255 1,268 1,364 1,388 1,475 1,500 F}
+{0 1,7 1,22 1,34 1,163 1,193 1,255 1,268 1,364 1,388 1,475 1,500 F}
+{0 1,7 1,22 1,34 1,163 1,193 1,255 1,268 1,364 1,388 1,475 1,500 F}
+{7 1,16 1,22 1,81 1,91 1,193 1,207 1,255 1,500 F}
+{7 1,16 1,22 1,81 1,91 1,193 1,207 1,255 1,500 F}
+{7 1,16 1,22 1,81 1,91 1,193 1,207 1,255 1,500 F}
+{7 1,22 1,23 1,49 1,87 1,193 1,201 1,255 1,500 F}
+{7 1,22 1,23 1,49 1,193 1,201 1,255 1,500 F}
+{7 1,22 1,23 1,49 1,193 1,201 1,255 1,500 F}
+{7 1,22 1,87 1,193 1,255 1,387 1,428 1,500 F}
+{7 1,22 1,193 1,255 1,387 1,428 1,500 F}
+{7 1,16 1,22 1,193 1,201 1,255 1,471 1,500 F}
+{7 1,16 1,22 1,193 1,201 1,255 1,471 1,500 F}
+{7 1,16 1,22 1,81 1,160 1,193 1,206 1,209 1,255 1,428 1,500 F}
+{7 1,16 1,22 1,49 1,81 1,160 1,193 1,206 1,209 1,255 1,428 1,500 F}
+{7 1,22 1,49 1,61 1,193 1,255 1,270 1,500 F}
+{7 1,22 1,34 1,49 1,87 1,163 1,193 1,255 1,364 1,388 1,475 1,500 F}
+{7 1,22 1,34 1,49 1,87 1,163 1,193 1,255 1,352 1,364 1,388 1,475 1,500 F}
+{7 1,22 1,34 1,49 1,163 1,193 1,255 1,364 1,388 1,475 1,500 F}
+{7 1,22 1,34 1,49 1,163 1,193 1,255 1,364 1,388 1,475 1,500 F}
+{7 1,16 1,22 1,49 1,81 1,160 1,193 1,206 1,209 1,255 1,428 1,500 F}
+{7 1,49 1,88 1,165 1,375 1,500 F}
+{7 1,49 1,107 1,165 1,254 1,268 1,375 1,500 F}
+{7 1,40 1,165 1,500 F}
+{7 1,49 1,157 1,165 1,188 1,262 1,268 1,368 1,375 1,450 1,500 F}
+{7 1,49 1,165 1,375 1,379 1,500 F}
+{7 1,49 1,165 1,375 1,500 F}
+{7 1,14 1,16 1,22 1,34 1,81 1,109 1,165 1,206 1,209 1,254 1,369 1,500 F}
+{7 1,14 1,16 1,22 1,34 1,81 1,109 1,165 1,206 1,209 1,254 1,369 1,500 F}
+{7 1,25 1,40 1,49 1,74 1,87 1,163 1,254 1,500 F}
+{7 1,14 1,20 1,22 1,34 1,40 1,49 1,51 1,62 1,193 1,255 1,500 F}
+{7 1,20 1,25 1,49 1,87 1,500 F}
+{7 1,20 1,25 1,49 1,87 1,500 F}
+{7 1,25 1,49 1,87 1,107 1,139 1,145 1,192 1,254 1,268 1,500 F}
+{7 1,25 1,49 1,87 1,107 1,139 1,145 1,192 1,254 1,268 1,500 F}
+{7 1,16 1,34 1,49 1,165 1,208 1,280 1,369 1,370 1,500 F}
+{7 1,12 1,15 1,49 1,108 1,165 1,187 1,201 1,280 1,369 1,453 1,500 F}
+{7 1,49 1,165 1,280 1,500 F}
+{7 1,49 1,165 1,280 1,500 F}
+{7 1,25 1,49 1,87 1,500 F}
+{7 1,25 1,49 1,87 1,500 F}
+{7 1,22 1,49 1,193 1,208 1,255 1,500 F}
+{7 1,22 1,38 1,49 1,193 1,255 1,500 F}
+{6 1,40 1,165 1,280 1,500 F}
+{6 1,22 1,25 1,87 1,500 F}
+{7 1,22 1,25 1,87 1,500 F}
+{6 1,22 1,25 1,87 1,500 F}
+{7 1,22 1,25 1,87 1,500 F}
+{7 1,22 1,25 1,49 1,87 1,280 1,374 1,474 1,500 F}
+{7 1,22 1,25 1,49 1,87 1,280 1,374 1,474 1,500 F}
+{7 1,22 1,25 1,49 1,87 1,280 1,374 1,474 1,500 F}
+{6 1,22 1,165 1,473 1,500 F}
+{6 1,22 1,165 1,473 1,500 F}
+{6 1,22 1,165 1,473 1,500 F}
+{6 1,22 1,165 1,473 1,500 F}
+{7 1,25 1,87 1,458 1,500 F}
+{7 1,25 1,87 1,458 1,500 F}
+{7 1,25 1,49 1,87 1,458 1,500 F}
+{7 1,25 1,40 1,49 1,87 1,374 1,474 1,500 F}
+{7 1,22 1,193 1,255 1,500 F}
+{7 1,22 1,49 1,193 1,255 1,500 F}
+{7 1,22 1,49 1,190 1,193 1,207 1,255 1,366 1,500 F}
+{7 1,22 1,49 1,193 1,255 1,500 F}
+{7 1,23 1,26 1,81 1,165 1,206 1,353 1,500 F}
+{0 1,7 1,107 1,139 1,192 1,254 1,268 1,500 F}
+{0 1,7 1,34 1,49 1,64 1,78 1,272 1,500 F}
+{6 1,22 1,165 1,500 F}
+{6 1,22 1,25 1,49 1,87 1,500 F}
+{6 1,22 1,25 1,49 1,87 1,500 F}
+{6 1,22 1,25 1,49 1,87 1,500 F}
+{7 1,20 1,25 1,87 1,91 1,500 F}
+{7 1,20 1,25 1,49 1,62 1,87 1,117 1,242 1,278 1,384 1,472 1,500 F}
+{7 1,14 1,20 1,22 1,117 1,193 1,242 1,255 1,256 1,278 1,384 1,500 F}
+{7 1,14 1,20 1,117 1,165 1,242 1,256 1,278 1,384 1,500 F}
+{7 1,20 1,25 1,63 1,87 1,117 1,242 1,278 1,384 1,500 F}
+{7 1,16 1,20 1,26 1,65 1,165 1,191 1,208 1,500 F}
+{7 1,16 1,20 1,26 1,65 1,165 1,191 1,208 1,500 F}
+{7 1,16 1,20 1,26 1,65 1,165 1,191 1,208 1,500 F}
+{7 1,16 1,20 1,26 1,65 1,165 1,191 1,208 1,500 F}
+{7 1,16 1,20 1,26 1,65 1,165 1,191 1,208 1,500 F}
+{7 1,16 1,20 1,26 1,65 1,165 1,191 1,208 1,500 F}
+{2 1,7 1,20 1,49 1,143 1,165 1,207 1,209 1,500 F}
+{7 1,23 1,25 1,87 1,160 1,380 1,500 F}
+{7 1,23 1,25 1,87 1,160 1,380 1,500 F}
+{7 1,23 1,25 1,87 1,160 1,380 1,500 F}
+{7 1,23 1,25 1,38 1,49 1,87 1,88 1,373 1,500 F}
+{6 1,20 1,22 1,50 1,193 1,255 1,500 F}
+{7 1,22 1,40 1,49 1,61 1,65 1,107 1,193 1,206 1,254 1,255 1,280 1,500 F}
+{7 1,22 1,40 1,49 1,61 1,65 1,107 1,193 1,206 1,254 1,255 1,280 1,471 1,500 F}
+{7 1,22 1,40 1,49 1,61 1,65 1,107 1,193 1,206 1,254 1,255 1,280 1,500 F}
+{7 1,22 1,40 1,49 1,61 1,65 1,107 1,193 1,206 1,254 1,255 1,280 1,500 F}
+{7 1,22 1,40 1,49 1,61 1,65 1,107 1,193 1,206 1,254 1,255 1,280 1,500 F}
+{7 1,22 1,40 1,49 1,61 1,65 1,107 1,193 1,206 1,254 1,255 1,280 1,500 F}
+{7 1,22 1,40 1,49 1,61 1,65 1,107 1,193 1,206 1,254 1,255 1,280 1,500 F}
+{7 1,22 1,40 1,49 1,61 1,65 1,107 1,193 1,206 1,254 1,255 1,280 1,500 F}
+{7 1,22 1,40 1,49 1,61 1,65 1,107 1,193 1,206 1,254 1,255 1,280 1,500 F}
+{7 1,22 1,49 1,193 1,255 1,280 1,500 F}
+{7 1,165 1,280 1,500 F}
+{7 1,165 1,280 1,500 F}
+{7 1,23 1,25 1,87 1,88 1,500 F}
+{7 1,88 1,500 F}
+{7 1,25 1,87 1,88 1,500 F}
+{6 1,25 1,87 1,88 1,500 F}
+{7 1,16 1,25 1,34 1,87 1,88 1,138 1,206 1,500 F}
+{7 1,23 1,87 1,88 1,500 F}
+{7 1,23 1,88 1,500 F}
+{7 1,88 1,165 1,500 F}
+{6 1,25 1,87 1,88 1,446 1,500 F}
+{7 1,22 1,49 1,88 1,193 1,255 1,388 1,473 1,500 F}
+{7 1,22 1,49 1,88 1,193 1,255 1,388 1,473 1,500 F}
+{7 1,22 1,23 1,79 1,193 1,255 1,272 1,500 F}
+{7 1,22 1,23 1,79 1,193 1,255 1,272 1,500 F}
+{7 1,22 1,23 1,49 1,79 1,87 1,193 1,255 1,272 1,500 F}
+{7 1,16 1,25 1,87 1,384 1,388 1,459 1,478 1,500 F}
+{7 1,49 1,165 1,500 F}
+{7 1,22 1,79 1,193 1,254 1,255 1,381 1,500 F}
+{7 1,16 1,26 1,51 1,79 1,81 1,116 1,165 1,187 1,206 1,209 1,259 1,440 1,500 F}
+{7 1,16 1,26 1,51 1,79 1,81 1,116 1,165 1,187 1,206 1,209 1,259 1,440 1,500 F}
+{7 1,16 1,25 1,26 1,51 1,79 1,81 1,87 1,116 1,187 1,206 1,209 1,259 1,440 1,500 F}
+{7 1,16 1,22 1,26 1,51 1,79 1,81 1,116 1,187 1,193 1,206 1,209 1,255 1,259 1,440 1,500 F}
+{7 1,16 1,26 1,51 1,79 1,81 1,116 1,165 1,187 1,206 1,209 1,259 1,440 1,500 F}
+{7 1,25 1,49 1,62 1,87 1,375 1,500 F}
+{7 1,62 1,165 1,500 F}
+{7 1,14 1,16 1,21 1,79 1,109 1,165 1,193 1,250 1,500 F}
+{7 1,22 1,49 1,93 1,94 1,95 1,373 1,441 1,500 F}
+{7 1,25 1,49 1,65 1,87 1,271 1,463 1,500 F}
+{7 1,25 1,49 1,87 1,239 1,271 1,392 1,463 1,500 F}
+{7 1,25 1,87 1,207 1,366 1,500 F}
+{7 1,25 1,87 1,207 1,366 1,500 F}
+{7 1,16 1,165 1,272 1,458 1,459 1,500 F}
+{7 1,16 1,165 1,272 1,458 1,459 1,500 F}
+{7 1,25 1,49 1,74 1,87 1,270 1,500 F}
+{6 1,23 1,206 1,500 F}
+{7 1,25 1,49 1,87 1,500 F}
+{7 1,25 1,49 1,87 1,500 F}
+{7 1,22 1,26 1,38 1,40 1,49 1,61 1,63 1,193 1,255 1,446 1,500 F}
+{7 1,22 1,25 1,26 1,38 1,40 1,49 1,61 1,63 1,87 1,446 1,500 F}
+{7 1,16 1,25 1,37 1,44 1,49 1,53 1,54 1,55 1,65 1,87 1,187 1,447 1,463 1,500 F}
+{7 1,16 1,25 1,37 1,44 1,49 1,53 1,54 1,55 1,65 1,87 1,187 1,463 1,500 F}
+{7 1,14 1,20 1,23 1,25 1,34 1,49 1,62 1,65 1,81 1,87 1,201 1,254 1,500 F}
+{7 1,25 1,87 1,500 F}
+{7 1,25 1,49 1,87 1,500 F}
+{7 1,25 1,49 1,87 1,500 F}
+{7 1,14 1,25 1,26 1,87 1,139 1,254 1,452 1,500 F}
+{7 1,14 1,25 1,26 1,87 1,139 1,254 1,452 1,500 F}
+{7 1,14 1,25 1,26 1,49 1,87 1,139 1,254 1,452 1,500 F}
+{7 1,14 1,25 1,26 1,49 1,87 1,139 1,254 1,452 1,500 F}
+{7 1,14 1,25 1,26 1,49 1,87 1,139 1,254 1,452 1,500 F}
+{7 1,14 1,25 1,26 1,49 1,87 1,139 1,254 1,452 1,500 F}
+{7 1,14 1,25 1,26 1,49 1,87 1,139 1,254 1,500 F}
+{7 1,14 1,25 1,26 1,49 1,87 1,139 1,254 1,500 F}
+{7 1,14 1,25 1,26 1,49 1,87 1,139 1,254 1,500 F}
+{7 1,49 1,61 1,104 1,165 1,201 1,500 F}
+{7 1,22 1,49 1,107 1,193 1,254 1,255 1,500 F}
+{7 1,22 1,49 1,193 1,255 1,500 F}
+{7 1,22 1,49 1,193 1,255 1,500 F}
+{7 1,22 1,34 1,49 1,193 1,255 1,276 1,469 1,500 F}
+{7 1,22 1,34 1,49 1,193 1,255 1,276 1,469 1,500 F}
+{7 1,14 1,16 1,22 1,34 1,49 1,51 1,62 1,65 1,193 1,207 1,255 1,377 1,500 F}
+{7 1,22 1,49 1,140 1,193 1,255 1,500 F}
+{7 1,14 1,16 1,22 1,34 1,49 1,51 1,62 1,65 1,193 1,207 1,255 1,377 1,458 1,500 F}
+{7 1,14 1,16 1,22 1,34 1,49 1,51 1,62 1,65 1,193 1,207 1,255 1,377 1,458 1,500 F}
+{7 1,22 1,49 1,160 1,193 1,255 1,500 F}
+{7 1,22 1,49 1,160 1,193 1,255 1,500 F}
+{7 1,22 1,49 1,160 1,193 1,255 1,500 F}
+{7 1,22 1,49 1,62 1,81 1,193 1,206 1,255 1,392 1,500 F}
+{7 1,22 1,49 1,62 1,81 1,193 1,206 1,255 1,392 1,500 F}
+{7 1,14 1,22 1,34 1,49 1,79 1,193 1,255 1,500 F}
+{7 1,14 1,22 1,34 1,49 1,79 1,193 1,255 1,500 F}
+{7 1,14 1,16 1,81 1,106 1,116 1,201 1,206 1,241 1,500 F}
+{6 1,49 1,473 1,500 F}
+{7 1,14 1,16 1,40 1,81 1,106 1,116 1,201 1,206 1,241 1,500 F}
+{7 1,14 1,16 1,40 1,81 1,106 1,116 1,201 1,206 1,241 1,500 F}
+{7 1,14 1,16 1,40 1,81 1,106 1,116 1,201 1,206 1,241 1,500 F}
+{7 1,14 1,16 1,40 1,81 1,106 1,116 1,201 1,206 1,241 1,500 F}
+{7 1,14 1,16 1,40 1,81 1,106 1,116 1,201 1,206 1,241 1,500 F}
+{7 1,14 1,16 1,40 1,81 1,106 1,116 1,201 1,206 1,241 1,500 F}
+{7 1,14 1,16 1,40 1,81 1,106 1,116 1,201 1,206 1,241 1,500 F}
+{6 1,165 1,500 F}
+{6 1,49 1,500 F}
+{6 1,49 1,500 F}
+{6 1,40 1,500 F}
+{6 1,40 1,165 1,500 F}
+{6 1,40 1,165 1,500 F}
+{6 1,40 1,500 F}
+{6 1,40 1,165 1,500 F}
+{7 1,23 1,25 1,49 1,87 1,500 F}
+{7 1,22 1,25 1,38 1,40 1,49 1,87 1,187 1,242 1,259 1,369 1,445 1,500 F}
+{7 1,22 1,49 1,193 1,255 1,500 F}
+{7 1,22 1,49 1,193 1,255 1,500 F}
+{7 1,165 1,242 1,500 F}
+{7 1,22 1,193 1,206 1,255 1,271 1,389 1,473 1,500 F}
+{7 1,49 1,81 1,165 1,462 1,500 F}
+{7 1,49 1,81 1,165 1,462 1,500 F}
+{7 1,22 1,107 1,193 1,254 1,255 1,500 F}
+{7 1,22 1,107 1,193 1,254 1,255 1,500 F}
+{7 1,22 1,107 1,193 1,254 1,255 1,500 F}
+{6 1,22 1,40 1,62 1,193 1,255 1,365 1,446 1,500 F}
+{6 1,22 1,40 1,62 1,193 1,255 1,365 1,446 1,500 F}
+{6 1,22 1,23 1,40 1,62 1,193 1,255 1,365 1,446 1,500 F}
+{6 1,22 1,23 1,40 1,62 1,193 1,255 1,365 1,446 1,500 F}
+{7 1,16 1,49 1,63 1,81 1,165 1,209 1,500 F}
+{7 1,16 1,23 1,49 1,109 1,165 1,201 1,428 1,500 F}
+{7 1,15 1,16 1,49 1,81 1,165 1,243 1,500 F}
+{7 1,16 1,49 1,63 1,81 1,165 1,209 1,500 F}
+{7 1,14 1,16 1,49 1,51 1,165 1,500 F}
+{7 1,14 1,16 1,49 1,51 1,65 1,165 1,205 1,500 F}
+{7 1,16 1,49 1,63 1,81 1,165 1,209 1,500 F}
+{7 1,14 1,16 1,34 1,49 1,62 1,165 1,205 1,500 F}
+{7 1,16 1,49 1,165 1,187 1,259 1,280 1,369 1,500 F}
+{7 1,25 1,62 1,87 1,91 1,500 F}
+{7 1,49 1,62 1,500 F}
+{7 1,25 1,87 1,500 F}
+{7 1,25 1,49 1,87 1,500 F}
+{7 1,25 1,49 1,87 1,447 1,500 F}
+{7 1,25 1,49 1,87 1,500 F}
+{7 1,25 1,49 1,87 1,500 F}
+{7 1,25 1,49 1,87 1,500 F}
+{7 1,25 1,49 1,87 1,500 F}
+{7 1,25 1,49 1,87 1,500 F}
+{7 1,25 1,49 1,87 1,500 F}
+{7 1,25 1,49 1,87 1,465 1,500 F}
+{7 1,25 1,40 1,49 1,87 1,465 1,500 F}
+{6 1,25 1,42 1,49 1,87 1,465 1,500 F}
+{6 1,25 1,42 1,49 1,87 1,465 1,500 F}
+{7 1,25 1,40 1,49 1,87 1,465 1,500 F}
+{7 1,25 1,40 1,49 1,87 1,465 1,500 F}
+{7 1,14 1,16 1,20 1,23 1,25 1,42 1,49 1,65 1,79 1,87 1,465 1,500 F}
+{7 1,14 1,16 1,20 1,23 1,25 1,42 1,49 1,65 1,79 1,87 1,465 1,500 F}
+{7 1,25 1,49 1,87 1,276 1,465 1,500 F}
+{7 1,25 1,49 1,87 1,276 1,465 1,500 F}
+{7 1,25 1,49 1,87 1,276 1,465 1,500 F}
+{7 1,25 1,87 1,465 1,500 F}
+{7 1,25 1,87 1,465 1,500 F}
+{7 1,25 1,87 1,465 1,500 F}
+{7 1,25 1,87 1,465 1,500 F}
+{7 1,25 1,87 1,106 1,500 F}
+{7 1,25 1,87 1,106 1,500 F}
+{7 1,25 1,87 1,500 F}
+{7 1,25 1,49 1,87 1,279 1,500 F}
+{7 1,25 1,49 1,87 1,117 1,500 F}
+{6 1,25 1,49 1,50 1,87 1,88 1,244 1,500 F}
+{7 1,16 1,25 1,49 1,87 1,244 1,375 1,500 F}
+{7 1,40 1,49 1,165 1,244 1,500 F}
+{7 1,25 1,40 1,49 1,87 1,244 1,500 F}
+{7 1,40 1,49 1,165 1,244 1,500 F}
+{7 1,49 1,165 1,244 1,500 F}
+{7 1,49 1,74 1,87 1,165 1,244 1,351 1,500 F}
+{7 1,49 1,165 1,244 1,351 1,500 F}
+{7 1,25 1,49 1,87 1,244 1,351 1,500 F}
+{7 1,49 1,165 1,244 1,351 1,500 F}
+{7 1,49 1,165 1,244 1,351 1,500 F}
+{7 1,49 1,74 1,87 1,165 1,244 1,500 F}
+{7 1,25 1,49 1,87 1,244 1,500 F}
+{7 1,49 1,165 1,244 1,500 F}
+{7 1,49 1,87 1,105 1,163 1,165 1,244 1,279 1,468 1,500 F}
+{7 1,25 1,49 1,87 1,105 1,163 1,244 1,279 1,468 1,500 F}
+{7 1,49 1,105 1,163 1,165 1,244 1,279 1,468 1,500 F}
+{6 1,106 1,165 1,500 F}
+{7 1,16 1,34 1,49 1,138 1,206 1,500 F}
+{7 1,14 1,16 1,22 1,25 1,34 1,42 1,62 1,81 1,87 1,193 1,280 1,500 F}
+{7 1,14 1,19 1,22 1,25 1,40 1,49 1,51 1,65 1,81 1,87 1,500 F}
+{7 1,14 1,19 1,22 1,40 1,49 1,51 1,65 1,81 1,193 1,255 1,500 F}
+{7 1,14 1,19 1,22 1,40 1,49 1,51 1,65 1,81 1,193 1,255 1,500 F}
+{7 1,25 1,34 1,49 1,87 1,209 1,500 F}
+{7 1,22 1,49 1,193 1,255 1,447 1,500 F}
+{7 1,25 1,87 1,207 1,471 1,500 F}
+{7 1,25 1,87 1,207 1,471 1,500 F}
+{7 1,25 1,87 1,207 1,471 1,500 F}
+{7 1,25 1,87 1,207 1,471 1,500 F}
+{7 1,25 1,49 1,62 1,87 1,500 F}
+{7 1,22 1,49 1,62 1,79 1,193 1,255 1,452 1,500 F}
+{7 1,22 1,49 1,62 1,79 1,160 1,193 1,255 1,500 F}
+{7 1,22 1,49 1,79 1,193 1,255 1,500 F}
+{6 1,165 1,500 F}
+{7 1,25 1,49 1,62 1,87 1,500 F}
+{7 1,49 1,62 1,165 1,500 F}
+{7 1,22 1,49 1,193 1,255 1,500 F}
+{7 1,22 1,49 1,193 1,255 1,452 1,500 F}
+{7 1,22 1,49 1,193 1,255 1,452 1,500 F}
+{7 1,25 1,49 1,87 1,500 F}
+{7 1,22 1,49 1,193 1,255 1,500 F}
+{7 1,25 1,49 1,87 1,500 F}
+{7 1,15 1,25 1,49 1,87 1,500 F}
+{7 1,15 1,22 1,49 1,193 1,255 1,500 F}
+{7 1,15 1,22 1,49 1,193 1,255 1,500 F}
+{7 1,15 1,22 1,49 1,193 1,255 1,500 F}
+{7 1,16 1,22 1,23 1,49 1,61 1,193 1,255 1,270 1,459 1,500 F}
+{7 1,25 1,49 1,87 1,500 F}
+{7 1,25 1,49 1,87 1,500 F}
+{7 1,14 1,16 1,26 1,34 1,62 1,165 1,208 1,500 F}
+{7 1,14 1,16 1,25 1,26 1,34 1,62 1,87 1,208 1,500 F}
+{7 1,16 1,25 1,34 1,49 1,62 1,65 1,81 1,87 1,191 1,201 1,206 1,391 1,444 1,469 1,500 F}
+{7 1,16 1,25 1,34 1,49 1,62 1,65 1,81 1,87 1,191 1,201 1,206 1,391 1,444 1,469 1,500 F}
+{7 1,25 1,40 1,87 1,192 1,381 1,500 F}
+{7 1,25 1,40 1,87 1,192 1,381 1,500 F}
+{7 1,22 1,40 1,192 1,193 1,255 1,381 1,500 F}
+{7 1,22 1,40 1,192 1,193 1,255 1,381 1,500 F}
+{7 1,25 1,40 1,49 1,87 1,192 1,381 1,500 F}
+{7 1,25 1,40 1,49 1,87 1,192 1,381 1,500 F}
+{7 1,22 1,40 1,49 1,192 1,193 1,255 1,381 1,500 F}
+{7 1,25 1,40 1,49 1,87 1,192 1,381 1,500 F}
+{6 1,25 1,49 1,87 1,88 1,500 F}
+{7 1,88 1,106 1,500 F}
+{6 1,25 1,40 1,87 1,500 F}
+{6 1,40 1,500 F}
+{6 1,25 1,40 1,87 1,500 F}
+{6 1,23 1,40 1,500 F}
+{6 1,23 1,25 1,40 1,87 1,500 F}
+{6 1,22 1,23 1,40 1,193 1,255 1,500 F}
+{7 1,25 1,87 1,356 1,479 1,500 F}
+{7 1,25 1,87 1,500 F}
+{7 1,22 1,193 1,255 1,500 F}
+{7 1,22 1,193 1,255 1,500 F}
+{7 1,12 1,22 1,193 1,255 1,500 F}
+{7 1,22 1,193 1,255 1,500 F}
+{7 1,14 1,16 1,25 1,40 1,49 1,87 1,138 1,500 F}
+{7 1,14 1,16 1,40 1,49 1,138 1,165 1,500 F}
+{6 1,25 1,49 1,87 1,106 1,500 F}
+{6 1,22 1,49 1,106 1,193 1,255 1,500 F}
+{6 1,22 1,49 1,106 1,193 1,255 1,500 F}
+{6 1,25 1,87 1,257 1,465 1,500 F}
+{6 1,25 1,87 1,257 1,465 1,500 F}
+{6 1,25 1,40 1,49 1,87 1,257 1,465 1,500 F}
+{6 1,25 1,40 1,49 1,87 1,257 1,465 1,500 F}
+{6 1,25 1,40 1,49 1,87 1,257 1,465 1,500 F}
+{6 1,25 1,49 1,87 1,257 1,465 1,500 F}
+{6 1,25 1,49 1,87 1,257 1,465 1,500 F}
+{7 1,49 1,206 1,280 1,392 1,431 1,500 F}
+{7 1,16 1,49 1,280 1,500 F}
+{7 1,16 1,49 1,90 1,280 1,500 F}
+{7 1,49 1,54 1,192 1,280 1,500 F}
+{7 1,49 1,280 1,500 F}
+{7 1,14 1,49 1,205 1,280 1,500 F}
+{7 1,14 1,49 1,205 1,280 1,500 F}
+{7 1,12 1,14 1,15 1,23 1,26 1,49 1,187 1,280 1,500 F}
+{7 1,14 1,49 1,65 1,280 1,461 1,500 F}
+{7 1,14 1,49 1,65 1,280 1,461 1,500 F}
+{7 1,14 1,49 1,65 1,280 1,461 1,500 F}
+{7 1,14 1,49 1,65 1,280 1,461 1,500 F}
+{7 1,22 1,25 1,87 1,166 1,206 1,251 1,252 1,253 1,276 1,500 F}
+{7 1,22 1,25 1,87 1,166 1,206 1,251 1,252 1,253 1,276 1,500 F}
+{7 1,22 1,25 1,87 1,166 1,187 1,251 1,252 1,253 1,276 1,458 1,500 F}
+{7 1,22 1,25 1,87 1,166 1,187 1,251 1,252 1,253 1,276 1,458 1,500 F}
+{7 1,22 1,25 1,87 1,166 1,251 1,252 1,253 1,276 1,500 F}
+{7 1,22 1,25 1,87 1,166 1,251 1,252 1,253 1,276 1,500 F}
+{7 1,16 1,22 1,23 1,25 1,26 1,34 1,50 1,62 1,65 1,81 1,87 1,88 1,116 1,166 1,167 1,187 1,201 1,206 1,209 1,251 1,252 1,253 1,275 1,362 1,366 1,370 1,374 1,390 1,445 1,466 1,470 1,500 F}
+{7 1,22 1,25 1,26 1,34 1,50 1,62 1,65 1,87 1,102 1,166 1,201 1,205 1,251 1,252 1,253 1,276 1,363 1,394 1,458 1,500 F}
+{7 1,22 1,25 1,26 1,34 1,50 1,62 1,65 1,87 1,102 1,166 1,201 1,205 1,251 1,252 1,253 1,276 1,363 1,394 1,458 1,500 F}
+{7 1,22 1,25 1,26 1,34 1,50 1,62 1,65 1,87 1,102 1,166 1,201 1,205 1,251 1,252 1,253 1,276 1,363 1,394 1,458 1,500 F}
+{7 1,14 1,16 1,22 1,25 1,81 1,87 1,166 1,201 1,206 1,209 1,251 1,252 1,253 1,466 1,500 F}
+{7 1,14 1,16 1,22 1,25 1,81 1,87 1,166 1,201 1,206 1,209 1,251 1,252 1,253 1,466 1,500 F}
+{7 1,14 1,16 1,22 1,25 1,81 1,87 1,166 1,201 1,206 1,209 1,251 1,252 1,253 1,466 1,500 F}
+{7 1,14 1,16 1,22 1,25 1,81 1,87 1,166 1,201 1,206 1,209 1,251 1,252 1,253 1,466 1,500 F}
+{7 1,22 1,23 1,25 1,49 1,87 1,166 1,251 1,252 1,253 1,272 1,500 F}
+{7 1,22 1,23 1,25 1,49 1,87 1,166 1,251 1,252 1,253 1,272 1,500 F}
+{7 1,22 1,23 1,25 1,49 1,87 1,166 1,251 1,252 1,253 1,272 1,500 F}
+{7 1,16 1,22 1,25 1,87 1,166 1,251 1,252 1,253 1,500 F}
+{7 1,16 1,22 1,25 1,87 1,166 1,251 1,252 1,253 1,500 F}
+{7 1,16 1,22 1,25 1,65 1,87 1,109 1,166 1,187 1,209 1,244 1,251 1,252 1,253 1,274 1,445 1,458 1,500 F}
+{7 1,16 1,22 1,25 1,65 1,87 1,109 1,166 1,187 1,209 1,244 1,251 1,252 1,253 1,274 1,445 1,458 1,500 F}
+{7 1,22 1,25 1,26 1,34 1,50 1,62 1,65 1,87 1,102 1,166 1,201 1,205 1,251 1,252 1,253 1,276 1,363 1,365 1,394 1,458 1,500 F}
+{7 1,22 1,25 1,26 1,34 1,50 1,62 1,65 1,87 1,102 1,166 1,201 1,205 1,251 1,252 1,253 1,276 1,363 1,394 1,458 1,500 F}
+{7 1,22 1,25 1,81 1,87 1,166 1,244 1,251 1,252 1,253 1,276 1,500 F}
+{7 1,22 1,25 1,81 1,87 1,166 1,244 1,251 1,252 1,253 1,276 1,500 F}
+{7 1,22 1,25 1,60 1,65 1,87 1,166 1,251 1,252 1,253 1,500 F}
+{7 1,22 1,25 1,60 1,65 1,87 1,166 1,251 1,252 1,253 1,500 F}
+{7 1,22 1,25 1,65 1,87 1,166 1,251 1,252 1,253 1,471 1,500 F}
+{7 1,22 1,25 1,65 1,87 1,166 1,251 1,252 1,253 1,471 1,500 F}
+{7 1,16 1,22 1,23 1,25 1,26 1,34 1,50 1,62 1,65 1,81 1,87 1,88 1,116 1,166 1,167 1,187 1,201 1,206 1,209 1,251 1,252 1,253 1,275 1,362 1,366 1,370 1,374 1,390 1,445 1,466 1,470 1,500 F}
+{7 1,16 1,22 1,23 1,25 1,26 1,34 1,50 1,62 1,65 1,81 1,87 1,88 1,116 1,166 1,167 1,187 1,201 1,206 1,209 1,251 1,252 1,253 1,275 1,362 1,366 1,370 1,374 1,390 1,445 1,466 1,470 1,500 F}
+{7 1,16 1,22 1,23 1,25 1,26 1,34 1,50 1,62 1,65 1,81 1,87 1,88 1,116 1,166 1,167 1,187 1,201 1,206 1,209 1,251 1,252 1,253 1,275 1,362 1,366 1,370 1,374 1,390 1,445 1,466 1,470 1,500 F}
+{7 1,16 1,22 1,23 1,25 1,26 1,34 1,50 1,62 1,65 1,81 1,87 1,88 1,116 1,166 1,167 1,187 1,201 1,206 1,209 1,251 1,252 1,253 1,275 1,362 1,366 1,370 1,374 1,390 1,445 1,466 1,470 1,500 F}
+{7 1,16 1,22 1,23 1,25 1,26 1,34 1,50 1,62 1,65 1,81 1,87 1,88 1,116 1,166 1,167 1,187 1,201 1,206 1,209 1,251 1,252 1,253 1,275 1,362 1,366 1,370 1,374 1,390 1,445 1,466 1,470 1,500 F}
+{7 1,22 1,25 1,87 1,166 1,251 1,252 1,253 1,276 1,500 F}
+{7 1,22 1,25 1,87 1,166 1,251 1,252 1,253 1,276 1,500 F}
+{7 1,22 1,93 1,94 1,95 1,500 F}
+{7 1,25 1,49 1,65 1,81 1,87 1,243 1,500 F}
+{7 1,22 1,49 1,62 1,193 1,254 1,255 1,452 1,500 F}
+{7 1,22 1,49 1,62 1,193 1,254 1,255 1,452 1,500 F}
+{7 1,25 1,26 1,49 1,87 1,500 F}
+{7 1,17 1,23 1,25 1,26 1,34 1,40 1,47 1,61 1,87 1,162 1,193 1,201 1,500 F}
+{7 1,17 1,23 1,25 1,26 1,34 1,40 1,47 1,61 1,87 1,162 1,193 1,201 1,500 F}
+{7 1,17 1,23 1,25 1,26 1,34 1,40 1,47 1,49 1,61 1,74 1,87 1,162 1,193 1,201 1,500 F}
+{7 1,17 1,23 1,25 1,26 1,34 1,40 1,47 1,49 1,61 1,87 1,162 1,193 1,201 1,500 F}
+{7 1,17 1,23 1,25 1,26 1,34 1,40 1,47 1,49 1,61 1,87 1,162 1,193 1,201 1,500 F}
+{7 1,16 1,25 1,26 1,34 1,49 1,87 1,208 1,209 1,254 1,276 1,445 1,463 1,500 F}
+{7 1,25 1,87 1,447 1,500 F}
+{7 1,49 1,108 1,165 1,240 1,365 1,500 F}
+{7 1,49 1,108 1,159 1,165 1,240 1,246 1,500 F}
+{7 1,16 1,23 1,60 1,87 1,280 1,500 F}
+{7 1,16 1,23 1,60 1,87 1,280 1,500 F}
+{7 1,16 1,23 1,60 1,87 1,280 1,500 F}
+{7 1,16 1,23 1,60 1,87 1,280 1,500 F}
+{7 1,16 1,22 1,49 1,65 1,81 1,193 1,255 1,500 F}
+{7 1,49 1,375 1,500 F}
+{7 1,16 1,22 1,49 1,93 1,94 1,95 1,192 1,500 F}
+{7 1,22 1,49 1,87 1,93 1,94 1,95 1,109 1,187 1,244 1,259 1,500 F}
+{5 1,7 1,16 1,22 1,23 1,34 1,49 1,65 1,81 1,93 1,94 1,95 1,116 1,187 1,209 1,244 1,259 1,458 1,482 1,500 F}
+{7 1,22 1,49 1,93 1,94 1,95 1,109 1,187 1,244 1,259 1,500 F}
+{7 1,22 1,26 1,49 1,93 1,94 1,95 1,500 F}
+{7 1,22 1,26 1,49 1,93 1,94 1,95 1,500 F}
+{7 1,16 1,22 1,26 1,49 1,61 1,93 1,94 1,95 1,500 F}
+{7 1,22 1,93 1,94 1,95 1,105 1,109 1,187 1,244 1,259 1,500 F}
+{7 1,22 1,93 1,94 1,95 1,109 1,187 1,244 1,259 1,500 F}
+{7 1,22 1,93 1,94 1,95 1,109 1,187 1,244 1,259 1,473 1,500 F}
+{7 1,22 1,87 1,93 1,94 1,95 1,468 1,500 F}
+{7 1,22 1,93 1,94 1,95 1,468 1,500 F}
+{7 1,22 1,42 1,49 1,93 1,94 1,95 1,105 1,468 1,500 F}
+{7 1,22 1,42 1,49 1,93 1,94 1,95 1,105 1,107 1,268 1,500 F}
+{7 1,22 1,42 1,93 1,94 1,95 1,105 1,365 1,468 1,500 F}
+{7 1,22 1,42 1,93 1,94 1,95 1,105 1,107 1,268 1,500 F}
+{7 1,22 1,93 1,94 1,95 1,109 1,187 1,244 1,259 1,500 F}
+{7 1,22 1,93 1,94 1,95 1,500 F}
+{7 1,25 1,49 1,87 1,500 F}
+{7 1,25 1,40 1,49 1,62 1,87 1,264 1,500 F}
+{7 1,12 1,25 1,34 1,49 1,62 1,87 1,264 1,500 F}
+{7 1,25 1,40 1,49 1,62 1,87 1,206 1,500 F}
+{7 1,25 1,40 1,49 1,62 1,87 1,206 1,500 F}
+{7 1,11 1,16 1,22 1,34 1,62 1,187 1,193 1,244 1,255 1,259 1,500 F}
+{7 1,22 1,49 1,81 1,163 1,193 1,255 1,373 1,500 F}
+{7 1,22 1,49 1,81 1,163 1,193 1,255 1,373 1,500 F}
+{7 1,22 1,49 1,81 1,163 1,193 1,255 1,373 1,500 F}
+{7 1,22 1,49 1,81 1,163 1,193 1,255 1,373 1,500 F}
+{7 1,22 1,49 1,93 1,94 1,95 1,500 F}
+{7 1,22 1,49 1,93 1,94 1,95 1,373 1,500 F}
+{7 1,22 1,49 1,93 1,94 1,95 1,500 F}
+{7 1,22 1,49 1,93 1,94 1,95 1,500 F}
+{7 1,22 1,49 1,93 1,94 1,95 1,163 1,254 1,471 1,500 F}
+{7 1,22 1,49 1,93 1,94 1,95 1,163 1,254 1,447 1,471 1,500 F}
+{7 1,22 1,49 1,93 1,94 1,95 1,163 1,254 1,471 1,500 F}
+{7 1,25 1,49 1,87 1,89 1,192 1,500 F}
+{6 1,22 1,49 1,50 1,88 1,93 1,94 1,95 1,500 F}
+{6 1,22 1,49 1,50 1,88 1,93 1,94 1,95 1,500 F}
+{7 1,40 1,374 1,474 1,500 F}
+{7 1,374 1,470 1,474 1,500 F}
+{7 1,500 F}
+{7 1,25 1,49 1,87 1,271 1,500 F}
+{7 1,25 1,43 1,87 1,107 1,206 1,268 1,473 1,500 F}
+{7 1,25 1,43 1,87 1,107 1,206 1,268 1,473 1,500 F}
+{7 1,12 1,14 1,16 1,23 1,26 1,34 1,49 1,55 1,62 1,65 1,81 1,103 1,105 1,107 1,116 1,139 1,140 1,161 1,167 1,187 1,201 1,205 1,206 1,208 1,209 1,256 1,259 1,268 1,275 1,353 1,369 1,370 1,374 1,391 1,444 1,457 1,458 1,466 1,474 1,477 1,500 F}
+{7 1,12 1,14 1,16 1,23 1,26 1,34 1,49 1,55 1,62 1,65 1,81 1,103 1,105 1,107 1,116 1,139 1,140 1,161 1,167 1,187 1,201 1,205 1,206 1,208 1,209 1,256 1,259 1,268 1,275 1,353 1,369 1,370 1,374 1,391 1,444 1,457 1,458 1,466 1,474 1,477 1,500 F}
+{6 1,25 1,40 1,87 1,500 F}
+{6 1,25 1,40 1,87 1,500 F}
+{6 1,40 1,49 1,500 F}
+{6 1,25 1,40 1,49 1,87 1,500 F}
+{6 1,40 1,49 1,500 F}
+{6 1,40 1,49 1,500 F}
+{7 1,12 1,14 1,16 1,23 1,26 1,34 1,49 1,55 1,62 1,65 1,81 1,103 1,105 1,107 1,116 1,139 1,140 1,161 1,167 1,187 1,193 1,201 1,205 1,206 1,208 1,209 1,256 1,259 1,268 1,275 1,353 1,369 1,370 1,374 1,391 1,444 1,457 1,458 1,466 1,474 1,477 1,500 F}
+{7 1,12 1,14 1,16 1,23 1,26 1,34 1,49 1,55 1,62 1,65 1,81 1,103 1,105 1,107 1,116 1,139 1,140 1,161 1,167 1,187 1,193 1,201 1,205 1,206 1,208 1,209 1,256 1,259 1,268 1,275 1,353 1,369 1,370 1,374 1,391 1,444 1,457 1,458 1,466 1,474 1,477 1,500 F}
+{7 1,49 1,500 F}
+{7 1,16 1,81 1,138 1,168 1,500 F}
+{7 1,16 1,25 1,49 1,81 1,87 1,138 1,168 1,500 F}
+{7 1,16 1,49 1,81 1,138 1,168 1,500 F}
+{7 1,16 1,49 1,81 1,138 1,168 1,500 F}
+{7 1,16 1,49 1,81 1,138 1,168 1,500 F}
+{7 1,16 1,49 1,81 1,138 1,168 1,500 F}
+{6 1,20 1,22 1,34 1,40 1,193 1,255 1,500 F}
+{6 1,20 1,34 1,40 1,500 F}
+{7 1,25 1,49 1,87 1,500 F}
+{7 1,25 1,49 1,87 1,270 1,500 F}
+{7 1,25 1,49 1,87 1,500 F}
+{7 1,25 1,49 1,51 1,87 1,205 1,452 1,463 1,500 F}
+{7 1,25 1,49 1,87 1,500 F}
+{7 1,88 1,254 1,500 F}
+{6 1,25 1,49 1,87 1,500 F}
+{7 1,14 1,16 1,34 1,81 1,87 1,165 1,201 1,500 F}
+{7 1,14 1,16 1,34 1,81 1,165 1,201 1,500 F}
+{7 1,14 1,16 1,34 1,81 1,165 1,201 1,500 F}
+{7 1,25 1,87 1,500 F}
+{7 1,16 1,23 1,25 1,26 1,34 1,49 1,87 1,138 1,187 1,210 1,245 1,370 1,500 F}
+{7 1,14 1,16 1,22 1,23 1,49 1,193 1,205 1,255 1,392 1,471 1,500 F}
+{7 1,14 1,16 1,23 1,34 1,49 1,81 1,165 1,167 1,187 1,201 1,206 1,209 1,362 1,500 F}
+{7 1,14 1,16 1,23 1,34 1,49 1,81 1,165 1,167 1,187 1,201 1,206 1,209 1,362 1,500 F}
+{7 1,14 1,16 1,22 1,23 1,49 1,193 1,205 1,255 1,392 1,471 1,500 F}
+{7 1,49 1,165 1,187 1,369 1,500 F}
+{7 1,14 1,16 1,34 1,40 1,49 1,62 1,74 1,87 1,107 1,165 1,254 1,445 1,500 F}
+{7 1,14 1,16 1,34 1,40 1,49 1,62 1,107 1,165 1,254 1,445 1,500 F}
+{7 1,14 1,16 1,34 1,40 1,49 1,62 1,107 1,165 1,254 1,445 1,500 F}
+{7 1,14 1,16 1,23 1,49 1,62 1,65 1,74 1,87 1,165 1,191 1,206 1,454 1,463 1,500 F}
+{7 1,49 1,165 1,500 F}
+{7 1,49 1,63 1,165 1,380 1,500 F}
+{7 1,22 1,63 1,87 1,165 1,471 1,500 F}
+{7 1,22 1,63 1,87 1,165 1,471 1,500 F}
+{7 1,16 1,40 1,49 1,138 1,165 1,500 F}
+{6 1,40 1,49 1,500 F}
+{7 1,25 1,26 1,40 1,62 1,81 1,87 1,209 1,440 1,447 1,500 F}
+{6 1,50 1,88 1,473 1,500 F}
+{6 1,50 1,88 1,473 1,500 F}
+{6 1,50 1,88 1,473 1,500 F}
+{7 1,40 1,49 1,114 1,165 1,500 F}
+{7 1,16 1,40 1,49 1,165 1,500 F}
+{7 1,16 1,34 1,40 1,49 1,79 1,165 1,201 1,259 1,370 1,500 F}
+{7 1,20 1,25 1,87 1,239 1,500 F}
+{7 1,22 1,49 1,74 1,87 1,193 1,255 1,280 1,500 F}
+{7 1,23 1,40 1,49 1,107 1,165 1,254 1,500 F}
+{7 1,23 1,40 1,49 1,107 1,165 1,254 1,500 F}
+{7 1,40 1,49 1,62 1,165 1,500 F}
+{7 1,40 1,49 1,62 1,165 1,500 F}
+{7 1,40 1,49 1,62 1,165 1,500 F}
+{7 1,40 1,49 1,62 1,165 1,500 F}
+{7 1,40 1,49 1,62 1,165 1,500 F}
+{7 1,40 1,49 1,62 1,165 1,500 F}
+{7 1,16 1,22 1,23 1,49 1,81 1,160 1,170 1,193 1,201 1,255 1,380 1,500 F}
+{7 1,16 1,22 1,23 1,49 1,81 1,160 1,170 1,193 1,201 1,255 1,380 1,500 F}
+{7 1,14 1,22 1,49 1,62 1,193 1,255 1,452 1,500 F}
+{7 1,22 1,23 1,49 1,70 1,81 1,187 1,193 1,206 1,255 1,369 1,370 1,500 F}
+{7 1,22 1,23 1,34 1,49 1,63 1,81 1,193 1,201 1,211 1,255 1,259 1,500 F}
+{7 1,22 1,49 1,193 1,207 1,255 1,500 F}
+{7 1,22 1,49 1,193 1,207 1,255 1,500 F}
+{7 1,49 1,62 1,254 1,268 1,500 F}
+{7 1,49 1,500 F}
+{7 1,49 1,500 F}
+{7 1,16 1,23 1,34 1,49 1,113 1,201 1,500 F}
+{7 1,16 1,23 1,34 1,49 1,113 1,201 1,500 F}
+{7 1,14 1,16 1,26 1,34 1,49 1,81 1,109 1,138 1,206 1,500 F}
+{7 1,14 1,16 1,26 1,34 1,49 1,81 1,109 1,138 1,206 1,500 F}
+{7 1,25 1,87 1,205 1,500 F}
+{7 1,25 1,87 1,205 1,500 F}
+{7 1,25 1,87 1,205 1,500 F}
+{7 1,22 1,63 1,68 1,93 1,94 1,95 1,500 F}
+{7 1,22 1,63 1,68 1,93 1,94 1,95 1,500 F}
+{7 1,16 1,25 1,68 1,87 1,92 1,445 1,466 1,500 F}
+{7 1,14 1,25 1,68 1,87 1,500 F}
+{7 1,14 1,25 1,68 1,87 1,500 F}
+{7 1,16 1,25 1,68 1,87 1,92 1,445 1,466 1,500 F}
+{7 1,14 1,22 1,68 1,93 1,94 1,95 1,500 F}
+{7 1,16 1,18 1,34 1,49 1,51 1,62 1,81 1,116 1,165 1,189 1,201 1,206 1,209 1,241 1,243 1,353 1,500 F}
+{7 1,25 1,87 1,500 F}
+{7 1,25 1,49 1,87 1,500 F}
+{6 1,49 1,88 1,500 F}
+{7 1,23 1,25 1,49 1,87 1,139 1,254 1,452 1,472 1,500 F}
+{7 1,22 1,23 1,49 1,90 1,139 1,193 1,254 1,255 1,452 1,472 1,500 F}
+{6 1,22 1,49 1,93 1,94 1,95 1,500 F}
+{7 1,25 1,49 1,87 1,254 1,446 1,500 F}
+{4 1,7 1,14 1,23 1,34 1,49 1,81 1,165 1,187 1,201 1,205 1,500 F}
+{4 1,7 1,14 1,22 1,23 1,34 1,49 1,81 1,187 1,193 1,201 1,205 1,255 1,500 F}
+{4 1,7 1,14 1,23 1,34 1,49 1,81 1,165 1,187 1,201 1,205 1,500 F}
+{4 1,7 1,14 1,23 1,34 1,49 1,81 1,165 1,187 1,201 1,205 1,500 F}
+{3 1,7 1,49 1,500 F}
+{7 1,40 1,49 1,87 1,500 F}
+{7 1,40 1,49 1,500 F}
+{7 1,40 1,49 1,500 F}
+{7 1,40 1,49 1,500 F}
+{7 1,40 1,49 1,500 F}
+{7 1,40 1,49 1,500 F}
+{7 1,40 1,49 1,500 F}
+{7 1,40 1,49 1,500 F}
+{7 1,40 1,49 1,500 F}
+{7 1,49 1,500 F}
+{7 1,49 1,500 F}
+{7 1,22 1,87 1,271 1,471 1,500 F}
+{7 1,22 1,87 1,271 1,471 1,500 F}
+{7 1,22 1,271 1,471 1,500 F}
+{7 1,22 1,62 1,81 1,165 1,500 F}
+{7 1,16 1,81 1,87 1,138 1,168 1,500 F}
+{7 1,16 1,81 1,138 1,168 1,500 F}
+{7 1,25 1,49 1,87 1,500 F}
+{7 1,25 1,49 1,87 1,205 1,452 1,500 F}
+{7 1,25 1,49 1,87 1,500 F}
+{7 1,14 1,16 1,22 1,23 1,34 1,51 1,62 1,107 1,160 1,201 1,452 1,500 F}
+{7 1,14 1,16 1,22 1,23 1,34 1,46 1,51 1,62 1,107 1,160 1,187 1,201 1,369 1,452 1,500 F}
+{7 1,14 1,16 1,22 1,23 1,34 1,51 1,62 1,107 1,160 1,201 1,452 1,500 F}
+{7 1,14 1,16 1,22 1,23 1,34 1,51 1,62 1,107 1,160 1,201 1,452 1,500 F}
+{7 1,14 1,16 1,22 1,23 1,26 1,34 1,51 1,62 1,81 1,107 1,187 1,201 1,206 1,369 1,370 1,450 1,452 1,458 1,500 F}
+{7 1,14 1,16 1,22 1,23 1,26 1,34 1,51 1,103 1,107 1,197 1,201 1,450 1,452 1,458 1,500 F}
+{7 1,14 1,16 1,22 1,23 1,26 1,34 1,51 1,62 1,81 1,107 1,201 1,206 1,370 1,450 1,452 1,458 1,500 F}
+{7 1,14 1,16 1,22 1,23 1,34 1,51 1,62 1,107 1,160 1,187 1,201 1,369 1,452 1,500 F}
+{7 1,15 1,22 1,81 1,193 1,255 1,439 1,500 F}
+{7 1,15 1,22 1,49 1,81 1,193 1,255 1,439 1,500 F}
+{7 1,15 1,22 1,49 1,81 1,193 1,255 1,439 1,500 F}
+{7 1,22 1,193 1,207 1,255 1,379 1,500 F}
+{7 1,22 1,49 1,193 1,207 1,255 1,379 1,500 F}
+{7 1,22 1,49 1,193 1,207 1,255 1,379 1,500 F}
+{7 1,14 1,16 1,22 1,23 1,34 1,49 1,62 1,65 1,81 1,141 1,193 1,200 1,201 1,206 1,208 1,243 1,255 1,261 1,265 1,266 1,267 1,268 1,367 1,369 1,370 1,392 1,500 F}
+{7 1,14 1,16 1,22 1,23 1,34 1,49 1,62 1,65 1,81 1,141 1,193 1,200 1,201 1,206 1,208 1,243 1,255 1,261 1,265 1,266 1,267 1,268 1,367 1,369 1,370 1,392 1,500 F}
+{7 1,22 1,87 1,106 1,107 1,193 1,255 1,500 F}
+{7 1,25 1,87 1,500 F}
+{7 1,165 1,500 F}
+{7 1,14 1,16 1,26 1,34 1,40 1,50 1,51 1,62 1,65 1,81 1,88 1,187 1,206 1,208 1,209 1,370 1,447 1,463 1,475 1,500 F}
+{7 1,14 1,16 1,26 1,34 1,40 1,50 1,51 1,62 1,65 1,81 1,88 1,187 1,206 1,208 1,209 1,370 1,463 1,475 1,500 F}
+{7 1,40 1,49 1,500 F}
+{7 1,22 1,49 1,165 1,500 F}
+{7 1,22 1,40 1,49 1,93 1,94 1,95 1,164 1,500 F}
+{7 1,22 1,49 1,164 1,193 1,255 1,276 1,500 F}
+{7 1,22 1,49 1,107 1,164 1,193 1,255 1,500 F}
+{7 1,22 1,49 1,107 1,164 1,193 1,255 1,500 F}
+{7 1,25 1,74 1,87 1,500 F}
+{7 1,25 1,87 1,500 F}
+{7 1,22 1,193 1,255 1,500 F}
+{7 1,22 1,49 1,65 1,87 1,108 1,193 1,255 1,463 1,500 F}
+{7 1,14 1,16 1,25 1,26 1,42 1,79 1,87 1,106 1,369 1,500 F}
+{7 1,14 1,16 1,25 1,26 1,42 1,87 1,106 1,369 1,500 F}
+{7 1,14 1,16 1,25 1,26 1,42 1,87 1,106 1,369 1,500 F}
+{7 1,14 1,16 1,25 1,26 1,42 1,87 1,106 1,369 1,500 F}
+{6 1,25 1,87 1,106 1,500 F}
+{6 1,49 1,106 1,500 F}
+{6 1,22 1,40 1,49 1,193 1,255 1,500 F}
+{6 1,22 1,40 1,49 1,193 1,255 1,500 F}
+{6 1,22 1,40 1,49 1,193 1,255 1,500 F}
+{6 1,25 1,40 1,87 1,500 F}
+{7 1,32 1,165 1,500 F}
+{6 1,25 1,32 1,87 1,500 F}
+{6 1,22 1,32 1,193 1,255 1,500 F}
+{6 1,22 1,32 1,193 1,255 1,500 F}
+{7 1,16 1,22 1,34 1,49 1,62 1,81 1,107 1,193 1,206 1,255 1,370 1,500 F}
+{7 1,22 1,49 1,193 1,255 1,500 F}
+{7 1,22 1,23 1,49 1,87 1,107 1,193 1,255 1,500 F}
+{7 1,22 1,23 1,49 1,107 1,193 1,255 1,500 F}
+{7 1,25 1,62 1,87 1,268 1,279 1,443 1,446 1,500 F}
+{7 1,25 1,49 1,50 1,62 1,63 1,87 1,268 1,279 1,443 1,446 1,500 F}
+{7 1,22 1,49 1,50 1,62 1,63 1,193 1,255 1,268 1,279 1,443 1,446 1,500 F}
+{7 1,49 1,50 1,62 1,63 1,165 1,268 1,279 1,443 1,446 1,500 F}
+{6 1,22 1,49 1,50 1,62 1,193 1,255 1,268 1,279 1,443 1,446 1,500 F}
+{6 1,22 1,49 1,50 1,62 1,193 1,255 1,268 1,279 1,443 1,446 1,500 F}
+{7 1,22 1,62 1,193 1,255 1,268 1,279 1,443 1,446 1,500 F}
+{7 1,22 1,49 1,62 1,193 1,255 1,268 1,279 1,443 1,446 1,500 F}
+{7 1,22 1,49 1,62 1,193 1,255 1,268 1,279 1,443 1,446 1,500 F}
+{7 1,25 1,62 1,87 1,268 1,279 1,443 1,446 1,500 F}
+{7 1,14 1,25 1,49 1,62 1,87 1,268 1,279 1,443 1,446 1,500 F}
+{7 1,14 1,22 1,49 1,62 1,193 1,255 1,268 1,279 1,443 1,446 1,500 F}
+{7 1,14 1,22 1,49 1,62 1,193 1,255 1,268 1,279 1,443 1,446 1,500 F}
+{6 1,22 1,49 1,62 1,193 1,255 1,268 1,279 1,443 1,446 1,500 F}
+{6 1,22 1,49 1,62 1,193 1,255 1,268 1,279 1,443 1,446 1,500 F}
+{7 1,14 1,25 1,62 1,87 1,268 1,279 1,443 1,446 1,500 F}
+{7 1,25 1,40 1,49 1,62 1,87 1,268 1,279 1,443 1,446 1,500 F}
+{7 1,25 1,40 1,49 1,62 1,87 1,268 1,279 1,443 1,446 1,500 F}
+{7 1,22 1,40 1,49 1,62 1,193 1,255 1,268 1,279 1,443 1,446 1,500 F}
+{7 1,25 1,40 1,49 1,62 1,87 1,268 1,279 1,443 1,446 1,500 F}
+{7 1,14 1,25 1,62 1,87 1,268 1,279 1,443 1,446 1,500 F}
+{7 1,25 1,49 1,62 1,87 1,268 1,279 1,443 1,446 1,500 F}
+{7 1,22 1,49 1,62 1,193 1,255 1,268 1,279 1,443 1,446 1,500 F}
+{7 1,25 1,49 1,62 1,87 1,268 1,279 1,443 1,446 1,500 F}
+{7 1,16 1,22 1,34 1,49 1,62 1,63 1,139 1,193 1,255 1,268 1,279 1,443 1,446 1,500 F}
+{7 1,16 1,22 1,34 1,49 1,62 1,63 1,139 1,193 1,255 1,268 1,279 1,443 1,446 1,500 F}
+{7 1,25 1,62 1,87 1,268 1,279 1,443 1,446 1,500 F}
+{7 1,22 1,193 1,255 1,351 1,500 F}
+{7 1,22 1,192 1,193 1,255 1,351 1,500 F}
+{7 1,22 1,49 1,193 1,255 1,467 1,500 F}
+{7 1,49 1,165 1,467 1,500 F}
+{7 1,165 1,467 1,500 F}
+{7 1,22 1,193 1,255 1,467 1,500 F}
+{7 1,22 1,193 1,255 1,467 1,500 F}
+{7 1,16 1,20 1,25 1,26 1,49 1,87 1,207 1,254 1,394 1,500 F}
+{7 1,16 1,20 1,25 1,26 1,49 1,74 1,87 1,207 1,254 1,394 1,500 F}
+{7 1,16 1,20 1,25 1,26 1,49 1,87 1,207 1,254 1,394 1,500 F}
+{7 1,16 1,20 1,25 1,26 1,49 1,87 1,207 1,254 1,394 1,500 F}
+{7 1,16 1,20 1,22 1,26 1,49 1,193 1,207 1,254 1,255 1,394 1,500 F}
+{7 1,16 1,20 1,22 1,26 1,49 1,193 1,207 1,254 1,255 1,394 1,500 F}
+{7 1,16 1,20 1,25 1,26 1,49 1,87 1,207 1,254 1,394 1,500 F}
+{7 1,16 1,20 1,25 1,26 1,49 1,87 1,207 1,254 1,394 1,500 F}
+{7 1,16 1,20 1,22 1,34 1,49 1,62 1,81 1,193 1,201 1,255 1,276 1,394 1,500 F}
+{7 1,16 1,20 1,22 1,34 1,49 1,62 1,81 1,193 1,201 1,255 1,276 1,394 1,500 F}
+{7 1,16 1,20 1,22 1,49 1,62 1,65 1,81 1,193 1,254 1,255 1,276 1,394 1,500 F}
+{7 1,16 1,20 1,22 1,49 1,62 1,65 1,81 1,193 1,254 1,255 1,276 1,394 1,500 F}
+{7 1,16 1,20 1,22 1,49 1,81 1,116 1,193 1,206 1,207 1,255 1,272 1,276 1,394 1,500 F}
+{7 1,16 1,20 1,22 1,49 1,81 1,116 1,193 1,206 1,207 1,255 1,272 1,276 1,394 1,500 F}
+{7 1,16 1,20 1,25 1,49 1,87 1,88 1,92 1,276 1,394 1,445 1,466 1,500 F}
+{7 1,16 1,20 1,25 1,49 1,87 1,88 1,92 1,276 1,394 1,445 1,466 1,500 F}
+{7 1,16 1,20 1,25 1,49 1,87 1,88 1,92 1,276 1,394 1,445 1,466 1,500 F}
+{7 1,16 1,20 1,25 1,49 1,87 1,88 1,92 1,276 1,394 1,445 1,466 1,500 F}
+{7 1,16 1,20 1,22 1,49 1,62 1,65 1,109 1,193 1,206 1,255 1,276 1,394 1,500 F}
+{7 1,16 1,20 1,22 1,49 1,62 1,65 1,109 1,193 1,206 1,255 1,276 1,394 1,500 F}
+{7 1,16 1,20 1,22 1,34 1,49 1,65 1,92 1,112 1,193 1,255 1,276 1,394 1,500 F}
+{7 1,16 1,20 1,22 1,34 1,49 1,65 1,92 1,112 1,193 1,255 1,276 1,394 1,500 F}
+{7 1,20 1,49 1,61 1,90 1,242 1,270 1,500 F}
+{7 1,25 1,49 1,87 1,359 1,500 F}
+{7 1,22 1,40 1,49 1,193 1,255 1,500 F}
+{7 1,16 1,22 1,23 1,40 1,49 1,113 1,193 1,255 1,380 1,500 F}
+{7 1,22 1,23 1,193 1,255 1,272 1,500 F}
+{7 1,22 1,23 1,193 1,255 1,272 1,500 F}
+{7 1,22 1,23 1,49 1,87 1,193 1,255 1,272 1,500 F}
+{6 1,25 1,87 1,500 F}
+{6 1,25 1,87 1,500 F}
+{6 1,25 1,87 1,500 F}
+{7 1,25 1,87 1,500 F}
+{7 1,25 1,87 1,106 1,500 F}
+{7 1,25 1,87 1,106 1,500 F}
+{7 1,25 1,87 1,106 1,500 F}
+{7 1,25 1,87 1,106 1,500 F}
+{7 1,25 1,87 1,191 1,500 F}
+{7 1,25 1,87 1,191 1,500 F}
+{7 1,14 1,16 1,20 1,22 1,49 1,62 1,138 1,143 1,193 1,201 1,254 1,255 1,268 1,500 F}
+{7 1,25 1,49 1,87 1,500 F}
+{6 1,22 1,165 1,280 1,500 F}
+{7 1,20 1,30 1,49 1,365 1,500 F}
+{7 1,22 1,49 1,93 1,94 1,95 1,207 1,500 F}
+{7 1,22 1,49 1,193 1,207 1,255 1,500 F}
+{7 1,22 1,49 1,193 1,240 1,255 1,500 F}
+{7 1,22 1,49 1,193 1,255 1,500 F}
+{7 1,22 1,26 1,49 1,193 1,206 1,209 1,240 1,255 1,428 1,500 F}
+{7 1,16 1,22 1,49 1,50 1,62 1,81 1,193 1,206 1,255 1,500 F}
+{7 1,16 1,22 1,49 1,50 1,62 1,81 1,193 1,206 1,255 1,500 F}
+{7 1,16 1,22 1,49 1,50 1,62 1,81 1,193 1,206 1,255 1,500 F}
+{7 1,23 1,62 1,91 1,106 1,165 1,500 F}
+{7 1,16 1,22 1,40 1,49 1,193 1,244 1,255 1,500 F}
+{7 1,16 1,22 1,49 1,193 1,244 1,255 1,500 F}
+{7 1,12 1,26 1,40 1,49 1,165 1,500 F}
+{7 1,14 1,16 1,23 1,25 1,26 1,34 1,50 1,62 1,65 1,81 1,87 1,187 1,201 1,206 1,208 1,209 1,374 1,440 1,474 1,500 F}
+{7 1,14 1,16 1,23 1,25 1,26 1,34 1,50 1,62 1,65 1,81 1,87 1,187 1,201 1,206 1,208 1,209 1,374 1,440 1,474 1,500 F}
+{7 1,14 1,16 1,23 1,25 1,26 1,34 1,50 1,62 1,65 1,81 1,87 1,187 1,201 1,206 1,208 1,209 1,374 1,440 1,474 1,500 F}
+{7 1,14 1,16 1,23 1,25 1,26 1,34 1,50 1,62 1,65 1,81 1,87 1,187 1,201 1,206 1,208 1,209 1,374 1,440 1,474 1,500 F}
+{7 1,14 1,16 1,23 1,25 1,26 1,34 1,50 1,62 1,65 1,81 1,87 1,187 1,201 1,206 1,208 1,209 1,374 1,440 1,474 1,500 F}
+{7 1,25 1,62 1,87 1,188 1,254 1,500 F}
+{7 1,25 1,62 1,87 1,188 1,254 1,500 F}
+{7 1,25 1,62 1,87 1,500 F}
+{7 1,25 1,62 1,87 1,500 F}
+{7 1,165 1,500 F}
+{7 1,165 1,500 F}
+{7 1,22 1,23 1,49 1,87 1,107 1,193 1,254 1,255 1,268 1,500 F}
+{7 1,22 1,23 1,49 1,107 1,193 1,254 1,255 1,268 1,500 F}
+{7 1,16 1,25 1,49 1,87 1,201 1,446 1,500 F}
+{7 1,49 1,165 1,500 F}
+{7 1,42 1,49 1,165 1,500 F}
+{7 1,42 1,49 1,165 1,476 1,500 F}
+{7 1,49 1,165 1,500 F}
+{7 1,16 1,22 1,34 1,49 1,81 1,165 1,198 1,254 1,355 1,370 1,477 1,500 F}
+{7 1,22 1,193 1,255 1,259 1,500 F}
+{7 1,22 1,49 1,193 1,255 1,500 F}
+{7 1,22 1,49 1,193 1,255 1,500 F}
+{6 1,22 1,93 1,94 1,95 1,500 F}
+{6 1,22 1,93 1,94 1,95 1,500 F}
+{6 1,22 1,93 1,94 1,95 1,500 F}
+{2 1,7 1,14 1,16 1,25 1,34 1,38 1,87 1,471 1,500 F}
+{7 1,25 1,87 1,358 1,500 F}
+{7 1,25 1,87 1,169 1,272 1,500 F}
+{7 1,49 1,74 1,87 1,165 1,257 1,270 1,428 1,458 1,476 1,500 F}
+{7 1,49 1,165 1,257 1,270 1,428 1,447 1,458 1,476 1,500 F}
+{7 1,49 1,165 1,257 1,270 1,428 1,458 1,476 1,500 F}
+{7 1,49 1,165 1,257 1,270 1,428 1,458 1,476 1,500 F}
+{7 1,49 1,165 1,257 1,270 1,428 1,458 1,476 1,500 F}
+{7 1,49 1,165 1,257 1,270 1,428 1,458 1,476 1,500 F}
+{7 1,49 1,165 1,257 1,270 1,428 1,458 1,476 1,500 F}
+{7 1,49 1,165 1,257 1,458 1,476 1,500 F}
+{7 1,49 1,165 1,257 1,458 1,476 1,500 F}
+{7 1,49 1,165 1,257 1,458 1,476 1,500 F}
+{7 1,49 1,165 1,257 1,458 1,476 1,500 F}
+{7 1,49 1,165 1,257 1,458 1,476 1,500 F}
+{7 1,49 1,165 1,257 1,458 1,476 1,500 F}
+{7 1,49 1,165 1,257 1,458 1,476 1,500 F}
+{7 1,49 1,165 1,257 1,458 1,500 F}
+{7 1,23 1,49 1,165 1,257 1,458 1,500 F}
+{7 1,23 1,49 1,165 1,257 1,458 1,500 F}
+{7 1,49 1,165 1,257 1,458 1,500 F}
+{7 1,49 1,165 1,257 1,447 1,458 1,476 1,500 F}
+{7 1,49 1,165 1,257 1,458 1,476 1,500 F}
+{7 1,49 1,165 1,257 1,458 1,476 1,500 F}
+{7 1,49 1,165 1,257 1,458 1,476 1,500 F}
+{7 1,49 1,165 1,257 1,458 1,476 1,500 F}
+{7 1,49 1,165 1,257 1,458 1,476 1,500 F}
+{7 1,49 1,165 1,257 1,458 1,476 1,500 F}
+{7 1,49 1,165 1,257 1,458 1,476 1,500 F}
+{7 1,49 1,165 1,257 1,458 1,500 F}
+{7 1,49 1,165 1,257 1,458 1,500 F}
+{7 1,22 1,40 1,193 1,255 1,441 1,471 1,500 F}
+{7 1,22 1,40 1,49 1,87 1,193 1,255 1,441 1,500 F}
+{7 1,22 1,40 1,49 1,193 1,255 1,441 1,500 F}
+{7 1,22 1,40 1,49 1,193 1,255 1,441 1,500 F}
+{7 1,22 1,40 1,49 1,193 1,255 1,441 1,500 F}
+{7 1,40 1,51 1,207 1,208 1,370 1,373 1,500 F}
+{7 1,25 1,87 1,106 1,500 F}
+{7 1,25 1,87 1,106 1,500 F}
+{7 1,25 1,87 1,106 1,500 F}
+{7 1,25 1,87 1,106 1,500 F}
+{7 1,22 1,49 1,88 1,193 1,255 1,500 F}
+{7 1,22 1,49 1,88 1,193 1,255 1,500 F}
+{7 1,22 1,49 1,88 1,193 1,255 1,500 F}
+{7 1,22 1,49 1,88 1,193 1,255 1,500 F}
+{7 1,22 1,49 1,88 1,193 1,255 1,500 F}
+{7 1,22 1,49 1,88 1,193 1,255 1,500 F}
+{7 1,22 1,49 1,88 1,193 1,255 1,500 F}
+{7 1,22 1,49 1,88 1,193 1,255 1,500 F}
+{7 1,22 1,49 1,88 1,193 1,255 1,500 F}
+{7 1,14 1,25 1,49 1,87 1,276 1,460 1,469 1,500 F}
+{7 1,14 1,16 1,22 1,34 1,40 1,49 1,81 1,165 1,242 1,500 F}
+{3 1,7 1,11 1,19 1,20 1,22 1,25 1,49 1,87 1,166 1,168 1,500 F}
+{6 1,49 1,88 1,192 1,500 F}
+{6 1,49 1,88 1,500 F}
+{7 1,25 1,49 1,55 1,62 1,81 1,87 1,194 1,205 1,206 1,280 1,500 F}
+{6 1,22 1,25 1,49 1,87 1,88 1,500 F}
+{6 1,22 1,25 1,49 1,87 1,88 1,500 F}
+{7 1,22 1,88 1,165 1,500 F}
+{7 1,22 1,88 1,165 1,500 F}
+{7 1,22 1,88 1,165 1,500 F}
+{7 1,22 1,49 1,93 1,94 1,95 1,500 F}
+{7 1,22 1,157 1,165 1,188 1,262 1,268 1,368 1,375 1,450 1,500 F}
+{6 1,22 1,25 1,87 1,500 F}
+{6 1,22 1,25 1,49 1,87 1,500 F}
+{6 1,22 1,25 1,49 1,87 1,500 F}
+{0 1,7 1,22 1,193 1,206 1,255 1,500 F}
+{0 1,7 1,22 1,193 1,206 1,255 1,500 F}
+{0 1,7 1,22 1,49 1,193 1,206 1,255 1,500 F}
+{0 1,7 1,22 1,49 1,90 1,193 1,206 1,255 1,500 F}
+{7 1,22 1,40 1,49 1,193 1,255 1,500 F}
+{7 1,22 1,49 1,193 1,255 1,500 F}
+{7 1,22 1,193 1,255 1,500 F}
+{7 1,22 1,193 1,255 1,500 F}
+{7 1,22 1,49 1,74 1,87 1,193 1,255 1,500 F}
+{7 1,22 1,49 1,193 1,255 1,500 F}
+{7 1,16 1,22 1,23 1,40 1,49 1,51 1,65 1,81 1,193 1,201 1,208 1,255 1,369 1,370 1,391 1,500 F}
+{0 1,7 1,22 1,40 1,93 1,94 1,95 1,500 F}
+{0 1,7 1,22 1,40 1,93 1,94 1,95 1,500 F}
+{7 1,22 1,49 1,93 1,94 1,95 1,160 1,205 1,369 1,500 F}
+{6 1,22 1,49 1,93 1,94 1,95 1,369 1,500 F}
+{7 1,22 1,93 1,94 1,95 1,160 1,205 1,254 1,369 1,469 1,500 F}
+{7 1,22 1,93 1,94 1,95 1,160 1,205 1,254 1,369 1,469 1,500 F}
+{7 1,22 1,93 1,94 1,95 1,369 1,454 1,500 F}
+{7 1,16 1,20 1,22 1,23 1,26 1,34 1,49 1,62 1,65 1,72 1,81 1,93 1,94 1,95 1,106 1,109 1,116 1,206 1,209 1,369 1,382 1,481 1,500 F}
+{7 1,22 1,65 1,93 1,94 1,95 1,500 F}
+{6 1,22 1,65 1,93 1,94 1,95 1,500 F}
+{7 1,22 1,65 1,93 1,94 1,95 1,500 F}
+{7 1,22 1,23 1,34 1,81 1,141 1,193 1,201 1,254 1,255 1,259 1,272 1,500 F}
+{7 1,22 1,87 1,193 1,255 1,500 F}
+{7 1,22 1,49 1,193 1,255 1,500 F}
+{7 1,22 1,193 1,255 1,276 1,500 F}
+{7 1,22 1,193 1,255 1,276 1,500 F}
+{7 1,16 1,22 1,34 1,40 1,91 1,93 1,94 1,95 1,500 F}
+{7 1,22 1,40 1,49 1,193 1,255 1,500 F}
+{7 1,22 1,40 1,49 1,193 1,255 1,500 F}
+{7 1,22 1,40 1,49 1,193 1,255 1,500 F}
+{7 1,22 1,40 1,49 1,193 1,255 1,500 F}
+{7 1,22 1,40 1,49 1,193 1,255 1,500 F}
+{7 1,22 1,40 1,49 1,193 1,255 1,500 F}
+{1 1,7 1,22 1,49 1,68 1,80 1,87 1,165 1,500 F}
+{1 1,7 1,22 1,49 1,68 1,80 1,87 1,165 1,352 1,500 F}
+{1 1,7 1,22 1,49 1,68 1,80 1,165 1,500 F}
+{1 1,7 1,22 1,49 1,68 1,80 1,165 1,500 F}
+{1 1,7 1,22 1,49 1,68 1,80 1,165 1,500 F}
+{1 1,7 1,14 1,16 1,22 1,26 1,49 1,51 1,68 1,80 1,165 1,201 1,209 1,258 1,428 1,500 F}
+{1 1,7 1,16 1,22 1,49 1,68 1,80 1,81 1,143 1,165 1,209 1,258 1,500 F}
+{1 1,7 1,22 1,63 1,68 1,80 1,87 1,105 1,143 1,163 1,165 1,258 1,352 1,500 F}
+{1 1,7 1,22 1,63 1,68 1,80 1,87 1,105 1,143 1,163 1,165 1,258 1,500 F}
+{1 1,7 1,22 1,68 1,80 1,165 1,500 F}
+{1 1,7 1,22 1,68 1,80 1,165 1,500 F}
+{1 1,7 1,22 1,68 1,80 1,165 1,500 F}
+{1 1,7 1,22 1,63 1,68 1,80 1,105 1,143 1,163 1,165 1,258 1,500 F}
+{1 1,7 1,22 1,63 1,68 1,80 1,105 1,143 1,163 1,165 1,258 1,500 F}
+{1 1,7 1,22 1,25 1,68 1,80 1,87 1,143 1,351 1,500 F}
+{1 1,7 1,22 1,49 1,68 1,80 1,143 1,165 1,351 1,500 F}
+{1 1,7 1,22 1,25 1,49 1,68 1,80 1,87 1,143 1,351 1,500 F}
+{1 1,7 1,22 1,25 1,49 1,68 1,80 1,87 1,143 1,351 1,500 F}
+{1 1,7 1,22 1,25 1,49 1,68 1,80 1,87 1,143 1,351 1,500 F}
+{1 1,7 1,22 1,25 1,49 1,63 1,68 1,80 1,87 1,105 1,143 1,163 1,258 1,500 F}
+{1 1,7 1,22 1,49 1,63 1,68 1,80 1,87 1,105 1,143 1,163 1,165 1,258 1,352 1,500 F}
+{1 1,7 1,22 1,25 1,49 1,63 1,68 1,80 1,87 1,105 1,143 1,163 1,258 1,500 F}
+{1 1,7 1,22 1,25 1,49 1,63 1,68 1,80 1,87 1,105 1,143 1,163 1,258 1,500 F}
+{1 1,7 1,22 1,25 1,49 1,63 1,68 1,80 1,87 1,105 1,143 1,163 1,258 1,500 F}
+{1 1,7 1,22 1,25 1,49 1,63 1,68 1,80 1,87 1,105 1,143 1,163 1,258 1,500 F}
+{1 1,7 1,22 1,25 1,49 1,63 1,68 1,80 1,87 1,105 1,143 1,163 1,258 1,500 F}
+{1 1,7 1,16 1,22 1,49 1,68 1,80 1,81 1,143 1,165 1,209 1,258 1,270 1,500 F}
+{1 1,7 1,22 1,68 1,80 1,165 1,500 F}
+{1 1,7 1,22 1,49 1,68 1,80 1,165 1,500 F}
+{1 1,7 1,22 1,68 1,80 1,165 1,205 1,209 1,500 F}
+{1 1,7 1,22 1,49 1,68 1,80 1,165 1,205 1,209 1,500 F}
+{1 1,7 1,22 1,25 1,49 1,68 1,80 1,87 1,143 1,258 1,500 F}
+{1 1,7 1,22 1,25 1,49 1,68 1,80 1,87 1,143 1,258 1,500 F}
+{1 1,7 1,22 1,25 1,49 1,68 1,74 1,80 1,87 1,143 1,258 1,500 F}
+{1 1,7 1,22 1,25 1,49 1,68 1,80 1,87 1,143 1,258 1,500 F}
+{1 1,7 1,22 1,25 1,49 1,68 1,80 1,87 1,143 1,258 1,500 F}
+{1 1,7 1,22 1,25 1,49 1,68 1,80 1,87 1,143 1,258 1,500 F}
+{1 1,6 1,22 1,68 1,80 1,165 1,351 1,500 F}
+{1 1,6 1,22 1,68 1,80 1,165 1,351 1,500 F}
+{1 1,7 1,16 1,22 1,68 1,80 1,81 1,143 1,165 1,209 1,258 1,351 1,500 F}
+{1 1,6 1,22 1,49 1,68 1,80 1,87 1,165 1,351 1,500 F}
+{1 1,7 1,16 1,22 1,49 1,68 1,80 1,81 1,143 1,165 1,209 1,258 1,351 1,500 F}
+{1 1,6 1,22 1,49 1,68 1,80 1,165 1,351 1,500 F}
+{1 1,6 1,22 1,49 1,68 1,80 1,165 1,351 1,500 F}
+{1 1,7 1,16 1,22 1,49 1,68 1,80 1,81 1,143 1,165 1,209 1,258 1,351 1,500 F}
+{1 1,7 1,16 1,22 1,49 1,68 1,80 1,81 1,143 1,165 1,209 1,258 1,351 1,500 F}
+{1 1,6 1,22 1,49 1,68 1,80 1,87 1,143 1,165 1,500 F}
+{1 1,7 1,16 1,22 1,34 1,49 1,61 1,62 1,68 1,80 1,81 1,87 1,143 1,165 1,201 1,258 1,364 1,389 1,500 F}
+{1 1,6 1,22 1,49 1,68 1,74 1,80 1,87 1,143 1,165 1,500 F}
+{1 1,7 1,16 1,22 1,34 1,49 1,61 1,62 1,68 1,80 1,81 1,87 1,143 1,165 1,201 1,258 1,364 1,389 1,500 F}
+{1 1,7 1,16 1,22 1,34 1,49 1,61 1,62 1,68 1,80 1,81 1,87 1,143 1,165 1,201 1,258 1,364 1,389 1,500 F}
+{1 1,7 1,16 1,22 1,34 1,49 1,61 1,62 1,68 1,80 1,81 1,143 1,165 1,201 1,258 1,364 1,389 1,500 F}
+{1 1,7 1,16 1,22 1,34 1,49 1,61 1,62 1,68 1,80 1,81 1,143 1,165 1,201 1,258 1,364 1,389 1,500 F}
+{1 1,6 1,22 1,49 1,68 1,80 1,143 1,165 1,500 F}
+{1 1,7 1,16 1,22 1,34 1,49 1,61 1,62 1,68 1,80 1,81 1,143 1,165 1,201 1,258 1,364 1,389 1,500 F}
+{1 1,7 1,16 1,22 1,34 1,49 1,61 1,62 1,68 1,80 1,81 1,143 1,165 1,201 1,258 1,364 1,389 1,500 F}
+{1 1,7 1,16 1,22 1,34 1,49 1,61 1,62 1,68 1,80 1,81 1,143 1,165 1,201 1,258 1,364 1,389 1,500 F}
+{1 1,7 1,16 1,22 1,34 1,49 1,61 1,62 1,68 1,80 1,81 1,143 1,165 1,201 1,258 1,364 1,389 1,500 F}
+{1 1,7 1,22 1,25 1,49 1,68 1,80 1,87 1,143 1,239 1,258 1,500 F}
+{1 1,7 1,22 1,25 1,49 1,68 1,80 1,87 1,143 1,239 1,258 1,500 F}
+{1 1,7 1,22 1,68 1,80 1,165 1,205 1,209 1,382 1,500 F}
+{1 1,7 1,22 1,49 1,68 1,80 1,165 1,205 1,209 1,382 1,500 F}
+{7 1,34 1,165 1,500 F}
+{7 1,81 1,165 1,206 1,207 1,500 F}
+{7 1,81 1,165 1,206 1,207 1,500 F}
+{7 1,25 1,81 1,87 1,206 1,276 1,465 1,500 F}
+{7 1,22 1,81 1,193 1,206 1,255 1,276 1,465 1,500 F}
+{7 1,22 1,81 1,193 1,206 1,255 1,276 1,465 1,500 F}
+{7 1,25 1,40 1,87 1,500 F}
+{7 1,25 1,40 1,49 1,87 1,500 F}
+{7 1,14 1,15 1,25 1,40 1,49 1,87 1,90 1,109 1,193 1,500 F}
+{7 1,14 1,15 1,25 1,40 1,49 1,87 1,109 1,193 1,500 F}
+{7 1,16 1,25 1,26 1,87 1,166 1,205 1,500 F}
+{7 1,16 1,25 1,26 1,87 1,166 1,205 1,500 F}
+{6 1,25 1,87 1,464 1,500 F}
+{6 1,25 1,87 1,464 1,500 F}
+{7 1,165 1,280 1,500 F}
+{7 1,165 1,280 1,500 F}
+{7 1,165 1,280 1,500 F}
+{7 1,165 1,280 1,369 1,500 F}
+{6 1,49 1,79 1,165 1,280 1,500 F}
+{6 1,49 1,79 1,165 1,280 1,500 F}
+{6 1,165 1,280 1,500 F}
+{6 1,165 1,280 1,500 F}
+{7 1,165 1,280 1,500 F}
+{7 1,165 1,280 1,500 F}
+{7 1,165 1,280 1,500 F}
+{6 1,22 1,49 1,93 1,94 1,95 1,500 F}
+{6 1,22 1,49 1,93 1,94 1,95 1,369 1,500 F}
+{6 1,22 1,49 1,93 1,94 1,95 1,139 1,369 1,500 F}
+{7 1,23 1,87 1,165 1,187 1,369 1,471 1,500 F}
+{7 1,23 1,87 1,165 1,187 1,369 1,471 1,500 F}
+{6 1,166 1,192 1,500 F}
+{6 1,87 1,166 1,500 F}
+{7 1,14 1,16 1,23 1,25 1,40 1,81 1,87 1,191 1,206 1,500 F}
+{7 1,14 1,16 1,23 1,25 1,40 1,49 1,81 1,87 1,191 1,206 1,500 F}
+{4 1,7 1,19 1,25 1,49 1,87 1,144 1,193 1,352 1,500 F}
+{7 1,9 1,25 1,87 1,280 1,500 F}
+{7 1,49 1,107 1,165 1,254 1,268 1,373 1,441 1,455 1,467 1,500 F}
+{7 1,22 1,49 1,107 1,193 1,254 1,255 1,268 1,373 1,441 1,455 1,467 1,500 F}
+{7 1,49 1,107 1,165 1,254 1,268 1,373 1,441 1,455 1,467 1,500 F}
+{7 1,14 1,16 1,20 1,22 1,23 1,26 1,40 1,51 1,62 1,81 1,88 1,139 1,166 1,187 1,193 1,201 1,205 1,206 1,209 1,255 1,280 1,369 1,370 1,387 1,428 1,440 1,458 1,477 1,500 F}
+{7 1,22 1,40 1,49 1,81 1,193 1,255 1,500 F}
+{7 1,22 1,49 1,81 1,193 1,255 1,500 F}
+{7 1,16 1,22 1,40 1,49 1,81 1,193 1,244 1,255 1,500 F}
+{7 1,16 1,22 1,49 1,81 1,193 1,244 1,255 1,500 F}
+{6 1,25 1,49 1,87 1,106 1,500 F}
+{7 1,22 1,40 1,193 1,255 1,441 1,471 1,500 F}
+{7 1,22 1,40 1,49 1,87 1,193 1,255 1,441 1,500 F}
+{7 1,22 1,40 1,49 1,193 1,255 1,441 1,500 F}
+{7 1,22 1,40 1,49 1,193 1,255 1,441 1,500 F}
+{7 1,22 1,40 1,49 1,193 1,255 1,441 1,500 F}
+{7 1,25 1,40 1,49 1,87 1,500 F}
+{6 1,22 1,87 1,93 1,94 1,95 1,106 1,500 F}
+{7 1,22 1,49 1,500 F}
+{7 1,22 1,49 1,500 F}
+{7 1,15 1,22 1,49 1,500 F}
+{7 1,22 1,49 1,500 F}
+{7 1,16 1,22 1,49 1,365 1,500 F}
+{7 1,22 1,49 1,140 1,385 1,439 1,500 F}
+{7 1,22 1,49 1,500 F}
+{7 1,22 1,49 1,365 1,500 F}
+{7 1,22 1,49 1,500 F}
+{7 1,22 1,49 1,62 1,140 1,385 1,439 1,500 F}
+{7 1,22 1,49 1,62 1,500 F}
+{7 1,25 1,49 1,74 1,87 1,241 1}
+{7 1,16 1,22 1,34 1,63 1,88 1,138 1,193 1,206 1,255 1,263 1,321 1}
+{7 1,16 1,22 1,34 1,63 1,138 1,193 1,206 1,255 1,263 1,321 1}
+{7 1,17 1,22 1,26 1,43 1,46 1,49 1,64 1,145 1,157 1,175 1,193 1,254 1,255 1,368 1,381 1,386 1,409 1,411 1,428 1,495 1}
+{7 1,22 1,49 1,61 1,74 1,78 1,87 1,115 1,146 1,193 1,197 1,255 1,495 1}
+{7 1,22 1,49 1,61 1,78 1,115 1,146 1,193 1,197 1,255 1,495 1}
+{7 1,14 1,25 1,62 1,87 1,254 1,392 1}
+{4 1,7 1,16 1,25 1,34 1,87 1,352 1,407 1,477 1}
+{5 1,7 1,19 1,49 1,87 1,365 1}
+{5 1,7 1,16 1,22 1,23 1,25 1,26 1,49 1,87 1,108 1,201 1,265 1}
+{7 1,22 1,25 1,49 1,63 1,87 1}
+{5 1,7 1,19 1,22 1,25 1,49 1,87 1,188 1,254 1}
+{7 1,22 1,23 1,25 1,49 1,63 1,87 1,187 1,208 1,254 1,429 1}
+{7 1,16 1,22 1,25 1,26 1,42 1,49 1,60 1,78 1,81 1,87 1,113 1,141 1,240 1,265 1}
+{7 1,22 1,25 1,40 1,49 1,87 1,117 1,157 1,171 1,268 1}
+{7 1,22 1,25 1,40 1,49 1,87 1,117 1,157 1,171 1,268 1}
+{7 1,40 1,49 1,87 1,138 1,187 1,201 1,206 1,208 1,458 1}
+{7 1,25 1,28 1,40 1,79 1,85 1,87 1,193 1,250 1}
+{7 1,25 1,28 1,40 1,49 1,79 1,85 1,87 1,193 1,250 1}
+{2 1,7 1,12 1,15 1,18 1,22 1,26 1,31 1,49 1,63 1,193 1,255 1,444 1,471 1}
+{2 1,7 1,12 1,15 1,18 1,26 1,31 1,40 1,63 1,255 1,444 1,471 1}
+{2 1,7 1,12 1,15 1,18 1,26 1,31 1,40 1,63 1,255 1,444 1,471 1}
+{2 1,7 1,12 1,15 1,18 1,26 1,31 1,40 1,63 1,255 1,444 1,471 1}
+{2 1,7 1,12 1,15 1,18 1,26 1,31 1,40 1,63 1,255 1,444 1,471 1}
+{2 1,7 1,12 1,15 1,18 1,22 1,26 1,31 1,40 1,49 1,63 1,193 1,255 1,444 1,471 1}
+{2 1,7 1,12 1,15 1,18 1,22 1,26 1,31 1,63 1,193 1,255 1,444 1,471 1}
+{2 1,7 1,12 1,15 1,18 1,22 1,26 1,31 1,63 1,193 1,255 1,444 1,471 1}
+{7 1,22 1,88 1,179 1,193 1,241 1,255 1,473 1}
+{7 1,22 1,49 1,88 1,179 1,193 1,241 1,255 1,473 1}
+{7 1,22 1,23 1,34 1,61 1,81 1,115 1,165 1,256 1,289 1,477 1}
+{5 1,7 1,14 1,16 1,18 1,22 1,23 1,42 1,49 1,62 1,65 1,81 1,193 1,206 1,370 1}
+{7 1,22 1,34 1,49 1,193 1,255 1,469 1}
+{7 1,22 1,28 1,49 1,193 1,255 1}
+{7 1,22 1,28 1,49 1,193 1,255 1}
+{7 1,22 1,28 1,49 1,193 1,255 1}
+{7 1,14 1,16 1,22 1,34 1,47 1,49 1,65 1,116 1,193 1,248 1,255 1}
+{7 1,14 1,16 1,22 1,34 1,47 1,49 1,65 1,116 1,193 1,248 1,255 1}
+{7 1,22 1,34 1,49 1,193 1,255 1,469 1}
+{7 1,16 1,25 1,81 1,87 1,439 1}
+{7 1,17 1,25 1,26 1,36 1,40 1,46 1,48 1,52 1,57 1,58 1,59 1,76 1,85 1,86 1,87 1,108 1,122 1,123 1,125 1,128 1,131 1,132 1,136 1,137 1,161 1,198 1,239 1}
+{7 1,17 1,22 1,26 1,36 1,40 1,46 1,48 1,49 1,52 1,57 1,58 1,59 1,76 1,85 1,86 1,108 1,122 1,123 1,125 1,128 1,131 1,132 1,136 1,137 1,161 1,193 1,198 1,239 1,255 1}
+{7 1,17 1,25 1,26 1,36 1,40 1,46 1,48 1,49 1,52 1,57 1,58 1,59 1,76 1,85 1,86 1,87 1,108 1,122 1,123 1,125 1,128 1,131 1,132 1,136 1,137 1,161 1,198 1,239 1}
+{7 1,17 1,22 1,26 1,36 1,40 1,46 1,48 1,49 1,52 1,57 1,58 1,59 1,76 1,85 1,86 1,108 1,122 1,123 1,125 1,128 1,131 1,132 1,136 1,137 1,161 1,193 1,198 1,239 1,255 1}
+{7 1,17 1,25 1,26 1,36 1,40 1,46 1,48 1,49 1,52 1,57 1,58 1,59 1,76 1,85 1,86 1,87 1,90 1,108 1,122 1,123 1,125 1,128 1,131 1,132 1,136 1,137 1,161 1,198 1,239 1}
+{7 1,17 1,25 1,26 1,36 1,40 1,46 1,48 1,49 1,52 1,57 1,58 1,59 1,76 1,85 1,86 1,87 1,108 1,122 1,123 1,125 1,128 1,131 1,132 1,136 1,137 1,161 1,198 1,239 1}
+{7 1,17 1,22 1,26 1,36 1,40 1,46 1,48 1,49 1,52 1,57 1,58 1,59 1,76 1,85 1,86 1,108 1,122 1,123 1,125 1,128 1,131 1,132 1,136 1,137 1,161 1,193 1,198 1,239 1,255 1}
+{4 1,7 1,14 1,16 1,23 1,25 1,49 1,87 1,193 1,255 1,365 1}
+{5 1,7 1,14 1,16 1,23 1,25 1,30 1,43 1,49 1,63 1,87 1,103 1,193 1,255 1,338 1,365 1,459 1}
+{5 1,7 1,14 1,16 1,23 1,25 1,30 1,43 1,49 1,63 1,87 1,103 1,193 1,255 1,338 1,365 1,459 1}
+{7 1,17 1,23 1,25 1,34 1,38 1,40 1,49 1,56 1,64 1,87 1,133 1,237 1,271 1,325 1,355 1,361 1,381 1,386 1,410 1,411 1}
+{7 1,17 1,23 1,25 1,34 1,38 1,56 1,64 1,87 1,133 1,237 1,271 1,325 1,355 1,361 1,381 1,386 1,410 1,411 1}
+{2 1,7 1,17 1,25 1,49 1,87 1,90 1,108 1,386 1}
+{2 1,7 1,25 1,45 1,49 1,62 1,81 1,87 1,90 1,108 1,206 1,224 1,255 1,274 1,370 1,438 1,469 1}
+{7 1,14 1,16 1,22 1,25 1,26 1,34 1,49 1,61 1,62 1,65 1,87 1,91 1,156 1,191 1,201 1,217 1,230 1,234 1,367 1,379 1,456 1}
+{7 1,14 1,16 1,22 1,25 1,26 1,34 1,49 1,61 1,62 1,65 1,87 1,91 1,156 1,191 1,201 1,217 1,230 1,234 1,367 1,379 1,456 1}
+{7 1,14 1,16 1,22 1,25 1,26 1,34 1,49 1,61 1,62 1,65 1,87 1,91 1,156 1,191 1,201 1,217 1,230 1,234 1,367 1,379 1,456 1}
+{7 1,14 1,16 1,22 1,25 1,26 1,34 1,49 1,61 1,62 1,65 1,87 1,91 1,156 1,191 1,201 1,217 1,230 1,234 1,367 1,379 1,456 1}
+{7 1,14 1,16 1,22 1,25 1,26 1,34 1,49 1,61 1,62 1,65 1,87 1,90 1,91 1,156 1,191 1,201 1,217 1,230 1,234 1,367 1,379 1,456 1}
+{7 1,14 1,16 1,22 1,25 1,26 1,34 1,49 1,61 1,62 1,65 1,87 1,91 1,156 1,191 1,201 1,217 1,230 1,234 1,367 1,379 1,456 1}
+{7 1,14 1,16 1,22 1,25 1,26 1,34 1,49 1,61 1,62 1,65 1,87 1,91 1,156 1,191 1,201 1,217 1,230 1,234 1,367 1,379 1,456 1}
+{7 1,14 1,16 1,22 1,25 1,26 1,34 1,49 1,61 1,62 1,65 1,87 1,91 1,156 1,191 1,201 1,217 1,230 1,234 1,367 1,379 1,456 1}
+{7 1,22 1,23 1,25 1,87 1,459 1}
+{5 1,7 1,19 1,22 1,40 1,56 1,57 1,59 1,60 1,145 1,193 1,207 1,255 1,268 1,438 1}
+{5 1,7 1,19 1,22 1,40 1,56 1,57 1,59 1,60 1,90 1,145 1,193 1,207 1,255 1,268 1,438 1}
+{5 1,7 1,19 1,22 1,40 1,56 1,57 1,59 1,60 1,145 1,193 1,207 1,255 1,268 1,438 1}
+{7 1,22 1,33 1,62 1,96 1,97 1,98 1,107 1,139 1,145 1,154 1,155 1,157 1,192 1,193 1,254 1,255 1,268 1,289 1,343 1,353 1,358 1,361 1,368 1,381 1,409 1,410 1,471 1}
+{7 1,22 1,33 1,62 1,96 1,97 1,98 1,107 1,139 1,145 1,154 1,155 1,157 1,192 1,193 1,254 1,255 1,268 1,289 1,343 1,353 1,358 1,361 1,368 1,381 1,409 1,410 1,471 1}
+{7 1,22 1,33 1,62 1,96 1,97 1,98 1,107 1,139 1,145 1,154 1,155 1,157 1,192 1,193 1,254 1,255 1,268 1,289 1,343 1,353 1,358 1,361 1,368 1,381 1,409 1,410 1}
+{7 1,25 1,33 1,49 1,62 1,87 1,96 1,97 1,98 1,155 1,353 1}
+{7 1,25 1,33 1,40 1,45 1,49 1,60 1,62 1,83 1,87 1,96 1,97 1,98 1,155 1,353 1}
+{4 1,7 1,22 1,28 1,33 1,42 1,62 1,65 1,83 1,96 1,97 1,98 1,113 1,193 1,200 1,201 1,207 1,255 1,353 1}
+{4 1,7 1,22 1,28 1,33 1,42 1,62 1,65 1,83 1,96 1,97 1,98 1,113 1,193 1,200 1,201 1,207 1,255 1,353 1}
+{4 1,7 1,22 1,28 1,33 1,42 1,62 1,65 1,83 1,96 1,97 1,98 1,113 1,193 1,200 1,201 1,207 1,216 1,255 1,353 1,471 1}
+{4 1,7 1,22 1,28 1,33 1,42 1,52 1,62 1,65 1,83 1,96 1,97 1,98 1,113 1,193 1,200 1,201 1,207 1,255 1,353 1}
+{4 1,7 1,22 1,28 1,33 1,42 1,52 1,62 1,65 1,83 1,96 1,97 1,98 1,113 1,193 1,200 1,201 1,207 1,255 1,353 1}
+{4 1,7 1,22 1,33 1,42 1,62 1,65 1,96 1,97 1,98 1,113 1,193 1,201 1,216 1,255 1,353 1,471 1}
+{4 1,7 1,22 1,33 1,42 1,62 1,65 1,96 1,97 1,98 1,113 1,193 1,201 1,255 1,353 1}
+{3 1,7 1,14 1,16 1,23 1,25 1,26 1,49 1,87 1,108 1,209 1,244 1,246 1,275 1,470 1}
+{3 1,7 1,14 1,16 1,23 1,25 1,26 1,49 1,87 1,193 1,209 1,255 1,390 1,470 1}
+{4 1,7 1,25 1,65 1,87 1,107 1,254 1,268 1}
+{4 1,7 1,23 1,25 1,65 1,87 1,254 1,268 1}
+{7 1,22 1,49 1,63 1,89 1,193 1,223 1,255 1,259 1,275 1}
+{7 1,25 1,49 1,63 1,87 1,89 1,223 1,259 1,275 1}
+{7 1,22 1,49 1,63 1,89 1,193 1,223 1,255 1,259 1,275 1}
+{7 1,22 1,49 1,63 1,89 1,193 1,223 1,255 1,259 1,275 1}
+{7 1,12 1,22 1,25 1,39 1,87 1,111 1,112 1,119 1,120 1,121 1,129 1,130 1,160 1,169 1,195 1,255 1,256 1,260 1,383 1,389 1,461 1,462 1}
+{7 1,12 1,22 1,25 1,39 1,87 1,111 1,112 1,119 1,120 1,121 1,129 1,130 1,160 1,169 1,195 1,255 1,256 1,260 1,383 1,389 1,461 1,462 1}
+{7 1,12 1,22 1,25 1,39 1,87 1,111 1,112 1,119 1,120 1,121 1,129 1,130 1,160 1,169 1,195 1,255 1,256 1,260 1,383 1,389 1,461 1,462 1}
+{7 1,12 1,22 1,25 1,39 1,87 1,111 1,112 1,119 1,120 1,121 1,129 1,130 1,160 1,169 1,195 1,255 1,256 1,260 1,383 1,389 1,461 1,462 1}
+{7 1,12 1,22 1,25 1,39 1,87 1,111 1,112 1,119 1,120 1,121 1,129 1,130 1,160 1,169 1,195 1,255 1,256 1,260 1,383 1,389 1,461 1,462 1}
+{7 1,12 1,22 1,25 1,39 1,87 1,111 1,112 1,119 1,120 1,121 1,129 1,130 1,160 1,169 1,195 1,255 1,256 1,260 1,383 1,389 1,461 1,462 1}
+{7 1,12 1,22 1,25 1,39 1,87 1,111 1,112 1,114 1,119 1,120 1,121 1,129 1,130 1,160 1,169 1,195 1,255 1,256 1,260 1,383 1,389 1,461 1,462 1}
+{7 1,12 1,22 1,25 1,39 1,87 1,111 1,112 1,114 1,119 1,120 1,121 1,129 1,130 1,160 1,169 1,195 1,255 1,256 1,260 1,383 1,389 1,447 1,461 1,462 1}
+{7 1,12 1,22 1,25 1,39 1,87 1,111 1,112 1,114 1,119 1,120 1,121 1,129 1,130 1,160 1,169 1,195 1,255 1,256 1,260 1,383 1,389 1,461 1,462 1}
+{7 1,12 1,22 1,25 1,39 1,87 1,111 1,112 1,114 1,119 1,120 1,121 1,129 1,130 1,160 1,169 1,195 1,255 1,256 1,260 1,383 1,389 1,461 1,462 1}
+{7 1,12 1,22 1,25 1,39 1,87 1,111 1,112 1,114 1,119 1,120 1,121 1,129 1,130 1,160 1,169 1,195 1,255 1,256 1,260 1,383 1,389 1,461 1,462 1}
+{4 1,7 1,82 1,84 1,124 1,165 1,365 1}
+{4 1,7 1,27 1,82 1,84 1,124 1,165 1,271 1,365 1}
+{4 1,7 1,16 1,23 1,81 1,82 1,84 1,91 1,116 1,124 1,165 1,187 1,190 1,207 1,277 1,365 1,407 1}
+{4 1,7 1,27 1,82 1,84 1,124 1,207 1,365 1}
+{7 1,23 1,25 1,87 1,142 1,201 1}
+{2 1,7 1,49 1,71 1,92 1,175 1,193 1,255 1}
+{7 1,40 1,49 1,90 1,225 1,433 1}
+{7 1,20 1,22 1,193 1,207 1,255 1,459 1,471 1}
+{7 1,16 1,22 1,25 1,49 1,74 1,87 1,223 1}
+{7 1,16 1,22 1,25 1,49 1,87 1,223 1}
+{2 1,7 1,22 1,45 1,49 1,92 1,155 1,165 1}
+{2 1,4 1,7 1,22 1,33 1,45 1,49 1,65 1,81 1,92 1,144 1,155 1,158 1,165 1,176 1,263 1,454 1}
+{7 1,25 1,40 1,49 1,87 1,90 1,206 1}
+{7 1,40 1,49 1,165 1,231 1}
+{0 1,7 1,16 1,33 1,49 1,81 1,159 1,165 1,209 1,222 1,224 1,240 1,369 1,387 1,391 1,469 1}
+{4 1,7 1,16 1,23 1,25 1,49 1,87 1,90 1,106 1,110 1,113 1,193 1}
+{7 1,13 1,22 1,49 1,87 1,193 1,255 1,352 1}
+{7 1,22 1,40 1,49 1,56 1,64 1,87 1,145 1,192 1,193 1,243 1,255 1,262 1,271 1,289 1,352 1,368 1,381 1,409 1}
+{7 1,22 1,40 1,49 1,56 1,64 1,145 1,192 1,193 1,243 1,255 1,262 1,271 1,289 1,368 1,381 1,409 1}
+{2 1,7 1,16 1,22 1,45 1,49 1,87 1,108 1,155 1,193 1,255 1,352 1}
+{4 1,7 1,22 1,39 1,158 1,193 1,255 1,357 1,429 1}
+{4 1,7 1,22 1,39 1,49 1,158 1,193 1,255 1,357 1,429 1}
+{7 1,22 1,39 1,48 1,158 1,193 1,255 1,357 1,419 1}
+{7 1,22 1,39 1,48 1,158 1,193 1,255 1,357 1,419 1}
+{7 1,22 1,39 1,91 1,158 1,193 1,255 1,357 1}
+{7 1,22 1,39 1,91 1,158 1,193 1,255 1,357 1}
+{7 1,22 1,158 1,193 1,255 1,357 1,447 1}
+{7 1,22 1,158 1,193 1,255 1,357 1}
+{7 1,22 1,158 1,193 1,255 1,357 1}
+{7 1,12 1,16 1,19 1,25 1,49 1,77 1,87 1,91 1,274 1,407 1}
+{7 1,12 1,16 1,19 1,25 1,77 1,87 1,91 1,274 1,407 1}
+{7 1,15 1,20 1,49 1,61 1,107 1,206 1,270 1}
+{7 1,15 1,20 1,49 1,61 1,107 1,206 1,270 1}
+{7 1,15 1,20 1,49 1,61 1,107 1,206 1,270 1}
+{7 1,20 1,36 1,49 1,61 1,63 1,77 1,86 1,161 1,196 1,255 1}
+{7 1,20 1,36 1,49 1,61 1,63 1,77 1,86 1,161 1,196 1,255 1}
+{7 1,20 1,36 1,40 1,49 1,91 1}
+{7 1,20 1,36 1,40 1,49 1,91 1}
+{7 1,12 1,14 1,16 1,20 1,23 1,34 1,49 1,51 1,81 1,116 1,209 1,440 1}
+{7 1,12 1,16 1,20 1,23 1,49 1,62 1,66 1,209 1}
+{7 1,11 1,25 1,40 1,49 1,87 1,161 1}
+{7 1,16 1,22 1,25 1,49 1,87 1,92 1,205 1,255 1}
+{3 1,7 1,10 1,19 1,25 1,40 1,49 1,71 1,87 1,178 1,411 1}
+{3 1,7 1,10 1,19 1,25 1,40 1,49 1,71 1,87 1,178 1,411 1}
+{3 1,7 1,10 1,19 1,25 1,40 1,49 1,71 1,87 1,178 1,411 1}
+{7 1,17 1,25 1,49 1,87 1,139 1,192 1,254 1,268 1}
+{2 1,7 1,25 1,49 1,87 1,365 1}
+{7 1,22 1,49 1,74 1,87 1,89 1,117 1,127 1,193 1,255 1,419 1}
+{7 1,22 1,49 1,89 1,117 1,127 1,193 1,255 1,419 1}
+{7 1,14 1,16 1,22 1,28 1,52 1,62 1,81 1,114 1,193 1,207 1,209 1,210 1,243 1,255 1}
+{7 1,14 1,16 1,22 1,28 1,52 1,62 1,81 1,114 1,193 1,207 1,209 1,210 1,243 1,255 1}
+{7 1,14 1,15 1,23 1,49 1,62 1,73 1,193 1,201 1,209 1,354 1,362 1,369 1}
+{7 1,15 1,22 1,40 1,49 1,193 1,255 1}
+{7 1,25 1,87 1,160 1,206 1,209 1,259 1}
+{7 1,12 1,25 1,26 1,43 1,60 1,61 1,74 1,77 1,87 1,338 1,438 1}
+{7 1,25 1,74 1,87 1}
+{7 1,17 1,25 1,43 1,46 1,87 1,126 1,186 1,262 1,386 1,438 1}
+{7 1,17 1,25 1,43 1,46 1,87 1,126 1,186 1,262 1,386 1,438 1}
+{7 1,16 1,17 1,23 1,26 1,49 1,81 1,139 1,165 1,192 1,197 1,254 1,268 1}
+{2 1,7 1,17 1,23 1,45 1,49 1,56 1,107 1,139 1,154 1,165 1,188 1,192 1,268 1,343 1,358 1}
+{7 1,22 1,25 1,49 1,87 1,193 1,365 1}
+{7 1,22 1,25 1,27 1,49 1,87 1,108 1}
+{4 1,7 1,12 1,15 1,18 1,21 1,22 1,25 1,26 1,31 1,49 1,87 1,352 1}
+{4 1,7 1,12 1,15 1,18 1,21 1,22 1,26 1,31 1,49 1}
+{4 1,7 1,12 1,15 1,18 1,21 1,22 1,26 1,31 1,49 1}
+{7 1,14 1,25 1,49 1,87 1,271 1,352 1}
+{7 1,14 1,25 1,49 1,87 1,271 1}
+{7 1,12 1,15 1,18 1,25 1,26 1,31 1,34 1,49 1,81 1,87 1,115 1,193 1,272 1,440 1}
+{7 1,16 1,17 1,25 1,46 1,49 1,87 1,116 1,190 1,193 1,205 1,207 1}
+{2 1,7 1,17 1,25 1,49 1,63 1,87 1,126 1,193 1,262 1,429 1}
+{7 1,15 1,16 1,17 1,23 1,25 1,46 1,49 1,87 1,113 1,190 1,193 1,272 1,365 1}
+{2 1,7 1,16 1,17 1,25 1,46 1,49 1,87 1,116 1,190 1,193 1,205 1,207 1}
+{2 1,7 1,16 1,17 1,25 1,46 1,49 1,87 1,116 1,190 1,193 1,205 1,207 1}
+{2 1,7 1,16 1,17 1,25 1,46 1,49 1,87 1,116 1,190 1,193 1,205 1,207 1}
+{4 1,5 1,7 1,25 1,49 1,87 1}
+{4 1,7 1,10 1,16 1,49 1,60 1,108 1,165 1,201 1,321 1,363 1}
+{5 1,7 1,14 1,16 1,25 1,34 1,62 1,65 1,87 1,116 1,144 1,187 1,193 1,201 1,255 1,256 1,370 1,385 1,445 1,450 1,463 1,470 1,499 1}
+{5 1,7 1,14 1,16 1,25 1,34 1,62 1,65 1,87 1,116 1,144 1,187 1,193 1,201 1,255 1,256 1,370 1,385 1,445 1,450 1,463 1,470 1,499 1}
+{5 1,7 1,14 1,16 1,25 1,34 1,62 1,65 1,87 1,116 1,144 1,187 1,193 1,201 1,255 1,256 1,370 1,385 1,445 1,450 1,463 1,470 1,499 1}
+{5 1,7 1,14 1,16 1,25 1,34 1,62 1,65 1,87 1,116 1,144 1,187 1,193 1,201 1,255 1,256 1,370 1,385 1,445 1,450 1,463 1,470 1,499 1}
+{5 1,7 1,14 1,16 1,25 1,34 1,62 1,65 1,87 1,116 1,144 1,187 1,193 1,201 1,255 1,256 1,370 1,385 1,445 1,450 1,463 1,470 1,499 1}
+{7 1,17 1,25 1,38 1,62 1,87 1}
+{5 1,7 1,22 1,92 1,193 1,255 1}
+{5 1,7 1,25 1,87 1,92 1,255 1}
+{7 1,14 1,15 1,25 1,40 1,49 1,74 1,87 1,108 1,428 1}
+{7 1,10 1,12 1,15 1,25 1,26 1,40 1,47 1,49 1,87 1,196 1,482 1}
+{7 1,10 1,12 1,15 1,25 1,26 1,40 1,47 1,49 1,87 1,196 1,482 1}
+{7 1,10 1,12 1,15 1,25 1,26 1,40 1,47 1,49 1,87 1,196 1,482 1}
+{7 1,10 1,12 1,15 1,25 1,26 1,40 1,47 1,49 1,87 1,196 1,482 1}
+{7 1,22 1,23 1,25 1,49 1,63 1,79 1,87 1,115 1,390 1,494 1}
+{7 1,22 1,23 1,25 1,49 1,63 1,79 1,87 1,115 1,390 1,494 1}
+{7 1,20 1,22 1,49 1,110 1,165 1,193 1}
+{7 1,20 1,22 1,49 1,90 1,110 1,165 1,193 1}
+{7 1,20 1,22 1,49 1,110 1,165 1,193 1}
+{2 1,7 1,17 1,49 1,386 1}
+{7 1,25 1,49 1,87 1}
+{7 1,25 1,49 1,87 1}
+{7 1,25 1,49 1,87 1}
+{7 1,25 1,45 1,49 1,71 1,87 1,92 1,108 1,193 1,224 1,423 1}
+{7 1,12 1,18 1,25 1,31 1,40 1,49 1,87 1,178 1}
+{7 1,20 1,22 1,61 1,115 1,157 1,193 1,201 1,255 1}
+{4 1,7 1,20 1,22 1,61 1,62 1,193 1,201 1,255 1}
+{5 1,7 1,16 1,23 1,25 1,34 1,41 1,51 1,81 1,87 1,116 1,138 1,187 1,201 1,209 1,369 1,370 1,440 1,445 1}
+{4 1,7 1,49 1,62 1,74 1,76 1,87 1,89 1,162 1,165 1,201 1,381 1,435 1}
+{4 1,7 1,49 1,62 1,76 1,89 1,162 1,165 1,201 1,381 1,435 1}
+{4 1,7 1,49 1,62 1,76 1,89 1,162 1,165 1,201 1,381 1,435 1}
+{7 1,10 1,16 1,22 1,79 1,193 1,255 1,272 1}
+{7 1,22 1,25 1,49 1,87 1,255 1,429 1}
+{7 1,22 1,25 1,49 1,87 1,255 1,429 1}
+{7 1,22 1,25 1,49 1,87 1,255 1,429 1}
+{7 1,22 1,25 1,49 1,87 1,255 1,429 1}
+{7 1,25 1,42 1,49 1,87 1,193 1,471 1}
+{7 1,22 1,26 1,43 1,49 1,61 1,160 1,162 1,193 1,255 1}
+{7 1,22 1,25 1,26 1,43 1,49 1,61 1,87 1,160 1,162 1}
+{7 1,14 1,22 1,25 1,51 1,87 1,189 1,205 1,471 1}
+{7 1,12 1,14 1,16 1,25 1,26 1,34 1,62 1,87 1,194 1,201 1,275 1,370 1,391 1}
+{7 1,12 1,25 1,45 1,49 1,87 1,92 1,254 1}
+{7 1,22 1,25 1,34 1,49 1,87 1,160 1,188 1,196 1}
+{7 1,25 1,49 1,87 1,189 1}
+{7 1,25 1,49 1,87 1,160 1,189 1}
+{7 1,25 1,49 1,87 1,160 1,189 1}
+{7 1,25 1,49 1,87 1,160 1,189 1}
+{7 1,22 1,40 1,49 1,60 1,81 1,193 1,201 1,206 1,255 1,472 1}
+{7 1,16 1,23 1,49 1,79 1,81 1,113 1}
+{7 1,10 1,19 1,56 1,60 1,62 1,71 1,78 1,126 1,165 1,197 1,237 1,262 1,344 1,413 1}
+{7 1,10 1,19 1,56 1,60 1,62 1,71 1,78 1,126 1,165 1,197 1,237 1,262 1,344 1,413 1}
+{3 1,7 1,11 1,14 1,16 1,19 1,22 1,28 1,40 1,49 1,51 1,63 1,65 1,81 1,149 1,150 1,160 1,167 1,193 1,206 1,208 1,239 1,243 1,250 1,255 1,326 1,440 1}
+{3 1,7 1,11 1,14 1,16 1,19 1,22 1,28 1,40 1,49 1,51 1,63 1,65 1,81 1,149 1,150 1,160 1,167 1,193 1,206 1,208 1,239 1,243 1,250 1,255 1,326 1,440 1}
+{3 1,5 1,7 1,11 1,12 1,14 1,16 1,19 1,22 1,27 1,29 1,42 1,49 1,51 1,72 1,79 1,102 1,103 1,109 1,138 1,140 1,167 1,187 1,193 1,255 1,259 1,369 1}
+{3 1,5 1,7 1,11 1,12 1,14 1,16 1,19 1,22 1,27 1,29 1,42 1,49 1,51 1,72 1,79 1,102 1,103 1,109 1,138 1,140 1,167 1,187 1,193 1,255 1,259 1,369 1}
+{3 1,7 1,11 1,19 1,22 1,34 1,49 1,193 1,209 1,226 1,255 1,362 1}
+{3 1,7 1,11 1,19 1,22 1,34 1,49 1,193 1,209 1,226 1,255 1,362 1}
+{3 1,5 1,7 1,11 1,16 1,19 1,22 1,27 1,138 1,140 1,187 1,193 1,255 1,369 1,379 1}
+{3 1,5 1,7 1,11 1,16 1,19 1,22 1,27 1,138 1,140 1,187 1,193 1,255 1,369 1,379 1}
+{3 1,5 1,7 1,11 1,12 1,14 1,16 1,19 1,22 1,27 1,29 1,40 1,42 1,49 1,51 1,72 1,79 1,87 1,102 1,103 1,109 1,138 1,140 1,167 1,187 1,193 1,255 1,259 1,352 1,369 1}
+{3 1,5 1,7 1,11 1,12 1,14 1,16 1,19 1,22 1,27 1,29 1,40 1,42 1,49 1,51 1,72 1,79 1,102 1,103 1,109 1,138 1,140 1,167 1,187 1,193 1,255 1,259 1,369 1}
+{3 1,5 1,7 1,11 1,12 1,14 1,16 1,19 1,22 1,27 1,29 1,40 1,42 1,49 1,51 1,72 1,79 1,102 1,103 1,109 1,138 1,140 1,167 1,187 1,193 1,255 1,259 1,369 1}
+{3 1,5 1,7 1,11 1,12 1,14 1,16 1,19 1,22 1,27 1,29 1,40 1,42 1,49 1,51 1,72 1,79 1,102 1,103 1,109 1,138 1,140 1,167 1,187 1,193 1,255 1,259 1,369 1}
+{3 1,5 1,7 1,11 1,12 1,14 1,16 1,19 1,22 1,27 1,29 1,42 1,51 1,72 1,79 1,102 1,103 1,109 1,138 1,140 1,167 1,187 1,193 1,255 1,259 1,369 1,379 1}
+{3 1,5 1,7 1,11 1,12 1,14 1,16 1,19 1,22 1,27 1,29 1,42 1,51 1,72 1,79 1,102 1,103 1,109 1,138 1,140 1,167 1,187 1,193 1,255 1,259 1,369 1,379 1}
+{3 1,7 1,11 1,19 1,22 1,34 1,49 1,193 1,209 1,226 1,255 1,362 1}
+{3 1,7 1,11 1,19 1,22 1,34 1,49 1,193 1,209 1,226 1,255 1,362 1}
+{3 1,7 1,11 1,19 1,22 1,34 1,49 1,193 1,209 1,226 1,255 1,362 1}
+{3 1,7 1,11 1,16 1,19 1,22 1,23 1,34 1,49 1,51 1,116 1,160 1,187 1,193 1,206 1,209 1,218 1,220 1,221 1,255 1,369 1,477 1}
+{3 1,7 1,11 1,16 1,19 1,22 1,23 1,34 1,49 1,51 1,116 1,160 1,187 1,193 1,206 1,209 1,218 1,220 1,221 1,255 1,369 1,477 1}
+{5 1,7 1,14 1,40 1,49 1,165 1,193 1}
+{5 1,7 1,14 1,40 1,49 1,165 1,193 1}
+{7 1,16 1,20 1,25 1,34 1,51 1,81 1,87 1,113 1,437 1,450 1,480 1}
+{7 1,22 1,107 1,146 1,192 1,193 1,255 1,259 1,268 1,402 1}
+{7 1,16 1,22 1,26 1,34 1,62 1,65 1,79 1,81 1,102 1,170 1,193 1,201 1,206 1,255 1,256 1,369 1}
+{7 1,12 1,22 1,43 1,61 1,117 1,193 1,206 1,255 1,270 1,386 1,426 1,428 1,459 1}
+{3 1,5 1,7 1,10 1,25 1,49 1,71 1,87 1,134 1,188 1,228 1,439 1,448 1,449 1,451 1}
+{3 1,7 1,25 1,49 1,81 1,87 1,201 1,207 1,272 1,378 1,448 1,449 1,451 1,459 1}
+{3 1,5 1,7 1,16 1,25 1,26 1,30 1,34 1,51 1,66 1,81 1,87 1,104 1,159 1,171 1,186 1,191 1,201 1,209 1,222 1,228 1,236 1,282 1,283 1,293 1,304 1,307 1,320 1,327 1,346 1,347 1,385 1,391 1,432 1,448 1,449 1,450 1,451 1,454 1,478 1,487 1,490 1}
+{3 1,5 1,7 1,16 1,25 1,26 1,30 1,34 1,51 1,66 1,81 1,87 1,104 1,159 1,171 1,186 1,191 1,201 1,209 1,222 1,228 1,236 1,282 1,283 1,293 1,304 1,307 1,320 1,327 1,346 1,347 1,385 1,391 1,432 1,448 1,449 1,450 1,451 1,454 1,478 1,487 1,490 1}
+{3 1,5 1,7 1,16 1,25 1,26 1,30 1,34 1,51 1,66 1,81 1,87 1,104 1,159 1,171 1,186 1,191 1,201 1,209 1,222 1,228 1,236 1,282 1,283 1,293 1,304 1,307 1,320 1,327 1,346 1,347 1,385 1,391 1,432 1,448 1,449 1,450 1,451 1,454 1,478 1,487 1,490 1}
+{3 1,5 1,7 1,16 1,25 1,26 1,30 1,34 1,51 1,66 1,81 1,87 1,104 1,159 1,171 1,186 1,191 1,201 1,209 1,222 1,228 1,236 1,282 1,283 1,293 1,304 1,307 1,320 1,327 1,346 1,347 1,385 1,391 1,432 1,448 1,449 1,450 1,451 1,454 1,478 1,487 1,490 1}
+{3 1,5 1,7 1,16 1,25 1,26 1,30 1,34 1,51 1,66 1,81 1,87 1,104 1,159 1,171 1,186 1,191 1,201 1,209 1,222 1,228 1,236 1,282 1,283 1,293 1,304 1,307 1,320 1,327 1,346 1,347 1,385 1,391 1,432 1,448 1,449 1,450 1,451 1,454 1,478 1,487 1,490 1}
+{3 1,5 1,7 1,16 1,25 1,26 1,30 1,34 1,51 1,66 1,81 1,87 1,104 1,159 1,171 1,186 1,191 1,201 1,209 1,222 1,228 1,236 1,282 1,283 1,293 1,304 1,307 1,320 1,327 1,346 1,347 1,385 1,391 1,432 1,448 1,449 1,450 1,451 1,454 1,478 1,487 1,490 1}
+{3 1,5 1,7 1,16 1,25 1,26 1,30 1,34 1,49 1,51 1,66 1,81 1,87 1,104 1,159 1,171 1,186 1,191 1,201 1,209 1,222 1,228 1,236 1,282 1,283 1,293 1,304 1,307 1,320 1,327 1,346 1,347 1,385 1,391 1,432 1,448 1,449 1,450 1,451 1,454 1,478 1,487 1,490 1}
+{3 1,7 1,16 1,25 1,49 1,81 1,87 1,272 1,432 1,448 1,449 1,451 1}
+{3 1,7 1,25 1,49 1,81 1,87 1,201 1,207 1,272 1,378 1,448 1,449 1,451 1,459 1}
+{3 1,7 1,25 1,47 1,49 1,81 1,87 1,89 1,207 1,208 1,414 1,448 1,449 1,451 1,459 1}
+{3 1,5 1,7 1,16 1,23 1,25 1,26 1,27 1,34 1,40 1,49 1,62 1,65 1,71 1,81 1,87 1,116 1,139 1,141 1,144 1,175 1,201 1,206 1,239 1,370 1,440 1,448 1,449 1,451 1}
+{7 1,22 1,49 1,69 1,73 1,77 1,246 1,382 1,420 1,421 1,472 1}
+{7 1,22 1,25 1,36 1,41 1,45 1,49 1,69 1,73 1,87 1,238 1,263 1,382 1,420 1,421 1,472 1}
+{7 1,22 1,36 1,41 1,45 1,49 1,69 1,73 1,193 1,238 1,255 1,263 1,382 1,420 1,421 1,472 1}
+{7 1,22 1,36 1,41 1,45 1,49 1,69 1,73 1,193 1,238 1,255 1,263 1,382 1,420 1,421 1,472 1}
+{7 1,22 1,36 1,41 1,45 1,49 1,69 1,73 1,193 1,238 1,255 1,263 1,382 1,420 1,421 1,472 1}
+{7 1,22 1,36 1,41 1,45 1,49 1,69 1,73 1,193 1,238 1,255 1,263 1,382 1,420 1,421 1,472 1}
+{7 1,10 1,22 1,24 1,49 1,69 1,73 1,110 1,151 1,263 1}
+{7 1,10 1,22 1,24 1,49 1,69 1,73 1,110 1,151 1,193 1,255 1,263 1}
+{7 1,10 1,22 1,24 1,49 1,69 1,73 1,110 1,151 1,193 1,255 1,263 1}
+{7 1,10 1,16 1,22 1,49 1,69 1,73 1,187 1,193 1,208 1,255 1,458 1}
+{7 1,22 1,49 1,69 1,73 1,193 1,255 1}
+{7 1,22 1,49 1,69 1,73 1,193 1,255 1}
+{7 1,22 1,25 1,49 1,51 1,69 1,73 1,87 1,238 1,355 1}
+{7 1,22 1,25 1,49 1,51 1,69 1,73 1,87 1,238 1,355 1}
+{7 1,22 1,49 1,51 1,69 1,73 1,238 1,355 1}
+{4 1,7 1,10 1,11 1,22 1,41 1,49 1,69 1,73 1,193 1,255 1}
+{4 1,7 1,10 1,11 1,22 1,41 1,49 1,69 1,73 1,193 1,255 1}
+{4 1,7 1,10 1,11 1,22 1,25 1,41 1,49 1,69 1,73 1,87 1}
+{2 1,7 1,22 1,45 1,49 1,51 1,69 1,73 1,155 1,193 1,255 1}
+{7 1,14 1,16 1,25 1,40 1,49 1,87 1,272 1}
+{7 1,22 1,25 1,87 1,110 1,471 1}
+{7 1,49 1,110 1,165 1}
+{7 1,49 1,110 1,165 1}
+{3 1,7 1,16 1,20 1,21 1,49 1,51 1,81 1,149 1,150 1,160 1,165 1,206 1,243 1,250 1}
+{3 1,7 1,12 1,20 1,21 1,29 1,34 1,49 1,87 1,116 1,165 1,205 1,206 1,218 1,220 1,221 1,352 1}
+{3 1,7 1,12 1,20 1,21 1,29 1,34 1,49 1,74 1,87 1,116 1,165 1,205 1,206 1,218 1,220 1,221 1}
+{3 1,7 1,12 1,20 1,21 1,29 1,34 1,49 1,116 1,165 1,205 1,206 1,218 1,220 1,221 1}
+{3 1,7 1,12 1,20 1,21 1,29 1,34 1,49 1,116 1,165 1,205 1,206 1,218 1,220 1,221 1}
+{3 1,7 1,20 1,21 1,34 1,49 1,165 1,209 1,226 1,362 1}
+{3 1,7 1,20 1,21 1,34 1,49 1,165 1,209 1,226 1,362 1}
+{3 1,7 1,12 1,14 1,16 1,20 1,21 1,27 1,29 1,42 1,51 1,67 1,72 1,75 1,79 1,102 1,103 1,109 1,138 1,165 1,167 1,187 1,259 1,369 1}
+{3 1,7 1,12 1,14 1,16 1,20 1,21 1,27 1,29 1,42 1,51 1,67 1,72 1,75 1,79 1,102 1,103 1,109 1,138 1,165 1,167 1,187 1,259 1,369 1}
+{3 1,7 1,12 1,14 1,16 1,20 1,21 1,27 1,29 1,42 1,51 1,67 1,72 1,75 1,79 1,102 1,103 1,109 1,138 1,165 1,167 1,187 1,259 1,369 1}
+{3 1,7 1,12 1,14 1,16 1,20 1,21 1,27 1,29 1,42 1,49 1,51 1,67 1,72 1,75 1,79 1,102 1,103 1,109 1,138 1,165 1,167 1,187 1,259 1,369 1}
+{3 1,7 1,12 1,14 1,16 1,20 1,21 1,27 1,29 1,42 1,49 1,51 1,67 1,72 1,75 1,79 1,102 1,103 1,109 1,138 1,165 1,167 1,187 1,259 1,369 1}
+{3 1,7 1,12 1,14 1,16 1,20 1,21 1,27 1,29 1,40 1,42 1,51 1,67 1,72 1,75 1,79 1,87 1,102 1,103 1,109 1,138 1,165 1,167 1,187 1,259 1,352 1,369 1}
+{3 1,7 1,12 1,14 1,16 1,20 1,21 1,27 1,29 1,40 1,42 1,51 1,67 1,72 1,75 1,79 1,102 1,103 1,109 1,138 1,165 1,167 1,187 1,259 1,369 1}
+{3 1,7 1,12 1,14 1,16 1,20 1,21 1,27 1,29 1,40 1,42 1,51 1,67 1,72 1,75 1,79 1,102 1,103 1,109 1,138 1,165 1,167 1,187 1,259 1,369 1}
+{3 1,7 1,14 1,20 1,21 1,49 1,165 1}
+{3 1,7 1,14 1,20 1,21 1,49 1,165 1}
+{3 1,7 1,20 1,21 1,49 1,71 1,165 1}
+{3 1,7 1,20 1,21 1,49 1,71 1,165 1}
+{3 1,7 1,16 1,20 1,21 1,49 1,75 1,138 1,165 1,452 1}
+{3 1,7 1,16 1,20 1,21 1,49 1,75 1,138 1,165 1,452 1}
+{3 1,7 1,12 1,14 1,16 1,20 1,21 1,27 1,29 1,40 1,42 1,49 1,51 1,72 1,75 1,79 1,87 1,102 1,103 1,109 1,138 1,165 1,167 1,187 1,259 1,352 1,369 1}
+{3 1,7 1,12 1,14 1,16 1,20 1,21 1,27 1,29 1,40 1,42 1,49 1,51 1,72 1,75 1,79 1,102 1,103 1,109 1,138 1,165 1,167 1,187 1,259 1,369 1}
+{3 1,7 1,12 1,14 1,16 1,20 1,21 1,27 1,29 1,40 1,42 1,49 1,51 1,72 1,75 1,79 1,102 1,103 1,109 1,138 1,165 1,167 1,187 1,259 1,369 1}
+{3 1,7 1,12 1,14 1,16 1,20 1,21 1,27 1,29 1,40 1,42 1,49 1,51 1,72 1,75 1,79 1,102 1,103 1,109 1,138 1,165 1,167 1,187 1,259 1,369 1}
+{3 1,7 1,20 1,21 1,24 1,79 1,99 1,165 1,193 1,379 1}
+{3 1,7 1,20 1,21 1,24 1,79 1,99 1,165 1,193 1,379 1}
+{3 1,7 1,14 1,16 1,20 1,21 1,23 1,26 1,34 1,49 1,62 1,165 1,173 1,201 1,206 1,207 1,210 1,250 1,379 1,387 1}
+{3 1,7 1,14 1,16 1,20 1,21 1,23 1,26 1,34 1,49 1,62 1,165 1,173 1,201 1,206 1,207 1,210 1,250 1,379 1,387 1}
+{3 1,7 1,16 1,20 1,21 1,23 1,34 1,49 1,51 1,116 1,160 1,165 1,187 1,206 1,209 1,218 1,220 1,221 1,369 1,477 1}
+{3 1,7 1,16 1,20 1,21 1,23 1,34 1,49 1,51 1,116 1,160 1,165 1,187 1,206 1,209 1,218 1,220 1,221 1,369 1,477 1}
+{2 1,7 1,40 1,49 1,193 1,207 1,439 1}
+{7 1,25 1,38 1,40 1,49 1,62 1,87 1,254 1,259 1}
+{7 1,49 1,165 1}
+{7 1,49 1,165 1,241 1}
+{7 1,25 1,47 1,87 1}
+{7 1,91 1,117 1,165 1}
+{7 1,22 1,62 1,87 1,153 1,174 1,271 1}
+{7 1,22 1,62 1,87 1,153 1,174 1,271 1}
+{7 1,22 1,62 1,87 1,153 1,174 1,271 1}
+{7 1,16 1,34 1,62 1,81 1,165 1,169 1,440 1}
+{2 1,7 1,12 1,15 1,18 1,26 1,47 1,49 1,79 1,165 1,255 1,328 1,338 1,436 1}
+{7 1,16 1,22 1,40 1,49 1,61 1,77 1,114 1}
+{7 1,62 1,153 1,174 1,380 1}
+{7 1,10 1,16 1,22 1,99 1,107 1,134 1,139 1,145 1,165 1,192 1,241 1,268 1,289 1,410 1}
+{7 1,16 1,18 1,22 1,25 1,26 1,49 1,71 1,87 1,134 1,142 1,159 1,201 1,206 1,239 1,241 1,266 1,272 1,291 1,378 1,428 1,439 1,469 1}
+{7 1,16 1,18 1,22 1,25 1,26 1,49 1,71 1,87 1,134 1,142 1,159 1,201 1,206 1,239 1,241 1,266 1,272 1,291 1,378 1,428 1,439 1,469 1}
+{2 1,7 1,14 1,16 1,25 1,33 1,40 1,49 1,63 1,74 1,79 1,87 1,107 1,108 1,144 1,193 1,197 1,268 1}
+{7 1,15 1,16 1,22 1,49 1,107 1,116 1,139 1,193 1,254 1,255 1,428 1,445 1}
+{7 1,15 1,22 1,193 1,255 1}
+{7 1,15 1,165 1,193 1,255 1}
+{7 1,22 1,24 1,193 1,255 1,271 1}
+{7 1,24 1,165 1,271 1}
+{7 1,15 1,87 1,165 1,255 1}
+{7 1,15 1,22 1,193 1,255 1}
+{7 1,15 1,165 1,255 1}
+{7 1,19 1,22 1,49 1,100 1,126 1,133 1,153 1,174 1,193 1,255 1,262 1,273 1,426 1}
+{7 1,19 1,25 1,49 1,87 1,100 1,126 1,133 1,153 1,174 1,193 1,262 1,273 1,426 1}
+{7 1,19 1,25 1,49 1,87 1,100 1,126 1,133 1,153 1,174 1,193 1,262 1,273 1,426 1}
+{7 1,14 1,16 1,19 1,23 1,25 1,40 1,49 1,71 1,81 1,87 1,91 1,100 1,108 1,135 1,193 1,199 1,206 1,208 1,231 1,273 1,469 1}
+{7 1,14 1,16 1,19 1,23 1,25 1,40 1,49 1,71 1,81 1,87 1,91 1,100 1,108 1,135 1,193 1,199 1,206 1,208 1,231 1,273 1,469 1}
+{7 1,14 1,16 1,19 1,23 1,25 1,34 1,49 1,81 1,87 1,100 1,142 1,159 1,201 1,206 1,209 1,231 1,266 1,273 1,387 1,391 1,426 1}
+{7 1,14 1,16 1,19 1,23 1,25 1,34 1,49 1,81 1,87 1,100 1,142 1,159 1,201 1,206 1,209 1,231 1,266 1,273 1,387 1,391 1,426 1}
+{7 1,14 1,16 1,19 1,23 1,25 1,49 1,70 1,87 1,100 1,273 1}
+{7 1,14 1,16 1,19 1,23 1,25 1,49 1,70 1,87 1,100 1,273 1}
+{7 1,14 1,19 1,22 1,49 1,100 1,135 1,193 1,255 1,273 1}
+{7 1,14 1,19 1,25 1,49 1,87 1,100 1,135 1,273 1}
+{7 1,14 1,19 1,25 1,49 1,87 1,100 1,135 1,273 1}
+{7 1,25 1,49 1,87 1,201 1,328 1}
+{7 1,25 1,49 1,87 1,201 1,328 1}
+{7 1,25 1,87 1,140 1,246 1,286 1,433 1}
+{5 1,7 1,25 1,34 1,87 1,140 1,246 1,286 1,433 1,493 1,496 1}
+{5 1,7 1,25 1,34 1,87 1,140 1,246 1,286 1,433 1,493 1,496 1}
+{5 1,7 1,25 1,34 1,87 1,140 1,246 1,286 1,433 1,493 1,496 1}
+{5 1,7 1,25 1,34 1,87 1,140 1,246 1,286 1,433 1,493 1,496 1}
+{5 1,7 1,25 1,34 1,87 1,140 1,246 1,286 1,433 1,493 1,496 1}
+{7 1,14 1,20 1,22 1,26 1,28 1,49 1,60 1,61 1,92 1,113 1,193 1,197 1,201 1,207 1,255 1,270 1,416 1}
+{2 1,7 1,25 1,28 1,47 1,87 1,187 1,208 1,440 1,458 1}
+{2 1,7 1,22 1,25 1,56 1,87 1}
+{2 1,7 1,22 1,25 1,56 1,87 1}
+{7 1,25 1,40 1,49 1,87 1,144 1,188 1,254 1}
+{5 1,7 1,22 1,23 1,25 1,34 1,48 1,62 1,81 1,87 1,101 1,172 1,187 1,209 1,275 1,390 1,428 1,435 1,471 1}
+{5 1,7 1,22 1,23 1,34 1,48 1,62 1,81 1,87 1,101 1,172 1,187 1,193 1,209 1,255 1,275 1,390 1,428 1,435 1}
+{5 1,7 1,23 1,25 1,34 1,48 1,62 1,81 1,87 1,90 1,101 1,172 1,187 1,209 1,275 1,390 1,428 1,435 1}
+{5 1,7 1,22 1,23 1,34 1,48 1,62 1,81 1,101 1,172 1,187 1,193 1,209 1,255 1,275 1,390 1,428 1,435 1}
+{7 1,16 1,22 1,23 1,81 1,193 1,255 1,277 1,354 1}
+{7 1,16 1,22 1,23 1,81 1,193 1,255 1,277 1,354 1}
+{7 1,16 1,22 1,23 1,81 1,87 1,114 1,193 1,255 1,277 1,352 1,354 1}
+{7 1,16 1,22 1,23 1,81 1,87 1,114 1,193 1,255 1,277 1,354 1}
+{7 1,16 1,22 1,23 1,74 1,81 1,87 1,114 1,193 1,255 1,277 1,354 1}
+{7 1,16 1,22 1,23 1,81 1,114 1,193 1,255 1,277 1,354 1}
+{7 1,16 1,22 1,23 1,81 1,114 1,193 1,255 1,277 1,354 1}
+{7 1,16 1,22 1,23 1,81 1,114 1,193 1,255 1,277 1,354 1}
+{7 1,16 1,22 1,81 1,91 1,101 1,193 1,207 1,255 1}
+{7 1,16 1,22 1,42 1,81 1,91 1,193 1,207 1,255 1}
+{7 1,13 1,16 1,22 1,49 1,81 1,87 1,91 1,193 1,207 1,255 1,352 1}
+{7 1,13 1,16 1,22 1,49 1,81 1,91 1,193 1,207 1,255 1}
+{7 1,22 1,23 1,34 1,81 1,101 1,172 1,193 1,209 1,210 1,255 1,414 1,428 1,460 1}
+{7 1,22 1,23 1,34 1,81 1,87 1,101 1,172 1,193 1,209 1,210 1,255 1,352 1,414 1,428 1,460 1}
+{7 1,22 1,23 1,34 1,81 1,87 1,101 1,172 1,193 1,209 1,210 1,255 1,414 1,428 1,460 1}
+{7 1,22 1,23 1,34 1,81 1,101 1,172 1,193 1,209 1,210 1,255 1,414 1,428 1,460 1}
+{7 1,22 1,23 1,34 1,81 1,101 1,172 1,193 1,209 1,210 1,255 1,414 1,428 1,460 1}
+{7 1,16 1,22 1,23 1,81 1,87 1,101 1,114 1,193 1,255 1,352 1,440 1}
+{7 1,16 1,22 1,23 1,81 1,101 1,193 1,255 1,440 1,471 1}
+{7 1,16 1,20 1,25 1,34 1,49 1,51 1,62 1,81 1,87 1,109 1,116 1,206 1,227 1,382 1,428 1,473 1}
+{4 1,7 1,25 1,87 1}
+{4 1,7 1,25 1,87 1}
+{4 1,7 1,25 1,87 1,91 1}
+{4 1,7 1,25 1,87 1,91 1}
+{4 1,7 1,10 1,14 1,16 1,25 1,28 1,47 1,65 1,70 1,81 1,87 1,116 1,191 1,193 1,201 1,206 1,208 1,245 1,259 1,291 1,370 1,431 1}
+{4 1,7 1,10 1,14 1,16 1,25 1,28 1,47 1,65 1,70 1,81 1,87 1,116 1,191 1,193 1,201 1,206 1,208 1,245 1,259 1,291 1,370 1,431 1}
+{4 1,7 1,10 1,14 1,16 1,25 1,28 1,47 1,49 1,65 1,70 1,81 1,87 1,116 1,191 1,193 1,201 1,206 1,208 1,245 1,259 1,291 1,370 1,431 1}
+{4 1,7 1,22 1,23 1,49 1,74 1,87 1,118 1,181 1,193 1,199 1,207 1,232 1,255 1}
+{4 1,7 1,22 1,23 1,49 1,118 1,181 1,193 1,199 1,207 1,232 1,255 1}
+{4 1,7 1,22 1,23 1,49 1,118 1,181 1,193 1,199 1,207 1,232 1,255 1}
+{4 1,7 1,23 1,49 1,118 1,165 1,181 1,199 1,207 1,232 1}
+{4 1,7 1,14 1,16 1,22 1,23 1,26 1,40 1,52 1,63 1,65 1,79 1,81 1,118 1,193 1,207 1,210 1,231 1,239 1,255 1,353 1,431 1,440 1,469 1}
+{4 1,7 1,22 1,49 1,118 1,162 1,181 1,193 1,207 1,255 1,363 1}
+{4 1,7 1,14 1,16 1,22 1,23 1,26 1,40 1,49 1,52 1,63 1,65 1,74 1,79 1,81 1,87 1,118 1,193 1,207 1,210 1,239 1,255 1,353 1,380 1,431 1,440 1,469 1}
+{4 1,7 1,16 1,22 1,23 1,42 1,81 1,118 1,138 1,181 1,193 1,255 1}
+{4 1,7 1,16 1,22 1,23 1,42 1,81 1,118 1,138 1,181 1,193 1,255 1}
+{4 1,7 1,16 1,22 1,23 1,42 1,49 1,81 1,87 1,118 1,138 1,181 1,193 1,255 1}
+{4 1,7 1,16 1,22 1,23 1,42 1,49 1,81 1,118 1,138 1,181 1,193 1,255 1}
+{7 1,49 1,165 1,185 1,434 1}
+{7 1,22 1,165 1,497 1}
+{7 1,22 1,497 1}
+{7 1,22 1,40 1,115 1}
+{7 1,22 1,115 1,165 1,471 1,497 1}
+{7 1,22 1,23 1,49 1,61 1,165 1,201 1,288 1,380 1}
+{7 1,22 1,23 1,49 1,61 1,165 1,201 1,288 1,380 1}
+{7 1,14 1,15 1,23 1,34 1,40 1,49 1,89 1,91 1,134 1,199 1,272 1,416 1}
+{7 1,14 1,15 1,23 1,34 1,40 1,49 1,91 1,199 1,416 1}
+{7 1,14 1,15 1,23 1,34 1,40 1,49 1,91 1,146 1,199 1}
+{7 1,14 1,15 1,23 1,34 1,40 1,49 1,89 1,91 1,134 1,199 1,270 1,272 1}
+{7 1,14 1,15 1,23 1,34 1,40 1,49 1,91 1,199 1}
+{2 1,7 1,12 1,15 1,18 1,20 1,26 1,31 1,40 1,63 1,255 1}
+{2 1,7 1,12 1,15 1,18 1,20 1,22 1,26 1,31 1,40 1,49 1,63 1,193 1,255 1}
+{2 1,7 1,12 1,15 1,18 1,20 1,22 1,26 1,31 1,40 1,49 1,63 1,193 1,255 1}
+{2 1,7 1,17 1,20 1,25 1,33 1,40 1,87 1,107 1,112 1,133 1,145 1,154 1,343 1,355 1,358 1,361 1,381 1,423 1,436 1}
+{2 1,7 1,17 1,20 1,25 1,33 1,40 1,49 1,87 1,107 1,112 1,133 1,145 1,154 1,343 1,355 1,358 1,361 1,381 1,423 1,436 1}
+{2 1,7 1,17 1,20 1,25 1,33 1,40 1,49 1,87 1,107 1,112 1,133 1,145 1,154 1,343 1,355 1,358 1,361 1,381 1,423 1,436 1}
+{7 1,14 1,16 1,20 1,25 1,34 1,38 1,63 1,65 1,81 1,87 1,117 1,145 1,152 1,177 1,179 1,180 1,184 1,201 1,205 1,235 1,240 1,241 1,242 1,245 1,278 1,281 1,284 1,287 1,290 1,292 1,294 1,295 1,296 1,300 1,303 1,305 1,306 1,312 1,313 1,316 1,318 1,333 1,334 1,335 1,337 1,339 1,340 1,345 1,348 1,360 1,384 1,430 1,445 1,453 1,481 1,483 1,485 1,489 1,491 1}
+{1 1,7 1,14 1,16 1,20 1,25 1,34 1,38 1,49 1,63 1,65 1,81 1,87 1,117 1,145 1,152 1,177 1,179 1,180 1,184 1,201 1,205 1,235 1,240 1,241 1,242 1,245 1,278 1,281 1,284 1,287 1,290 1,292 1,294 1,295 1,296 1,300 1,303 1,305 1,306 1,312 1,313 1,316 1,318 1,333 1,334 1,335 1,337 1,339 1,340 1,345 1,348 1,360 1,384 1,430 1,445 1,453 1,481 1,483 1,485 1,489 1,491 1}
+{1 1,7 1,14 1,16 1,20 1,25 1,34 1,38 1,49 1,63 1,65 1,81 1,87 1,117 1,145 1,152 1,177 1,179 1,180 1,184 1,201 1,205 1,235 1,240 1,241 1,242 1,245 1,278 1,281 1,284 1,287 1,290 1,292 1,294 1,295 1,296 1,300 1,303 1,305 1,306 1,312 1,313 1,316 1,318 1,333 1,334 1,335 1,337 1,339 1,340 1,345 1,348 1,360 1,384 1,430 1,445 1,453 1,481 1,483 1,485 1,489 1,491 1}
+{1 1,7 1,14 1,16 1,20 1,25 1,34 1,38 1,49 1,63 1,65 1,81 1,87 1,117 1,145 1,152 1,177 1,179 1,180 1,184 1,201 1,205 1,235 1,240 1,241 1,242 1,245 1,278 1,281 1,284 1,287 1,290 1,292 1,294 1,295 1,296 1,300 1,303 1,305 1,306 1,312 1,313 1,316 1,318 1,333 1,334 1,335 1,337 1,339 1,340 1,345 1,348 1,360 1,384 1,430 1,445 1,453 1,481 1,483 1,485 1,489 1,491 1}
+{1 1,7 1,14 1,16 1,20 1,25 1,34 1,38 1,49 1,63 1,65 1,81 1,87 1,117 1,145 1,152 1,177 1,179 1,180 1,184 1,201 1,205 1,235 1,240 1,241 1,242 1,245 1,278 1,281 1,284 1,287 1,290 1,292 1,294 1,295 1,296 1,300 1,303 1,305 1,306 1,312 1,313 1,316 1,318 1,333 1,334 1,335 1,337 1,339 1,340 1,345 1,348 1,360 1,384 1,430 1,445 1,453 1,481 1,483 1,485 1,489 1,491 1}
+{1 1,7 1,14 1,16 1,20 1,25 1,34 1,38 1,49 1,63 1,65 1,81 1,87 1,117 1,145 1,152 1,177 1,179 1,180 1,184 1,201 1,205 1,235 1,240 1,241 1,242 1,245 1,278 1,281 1,284 1,287 1,290 1,292 1,294 1,295 1,296 1,300 1,303 1,305 1,306 1,312 1,313 1,316 1,318 1,333 1,334 1,335 1,337 1,339 1,340 1,345 1,348 1,360 1,384 1,430 1,445 1,453 1,481 1,483 1,485 1,489 1,491 1}
+{7 1,14 1,20 1,25 1,49 1,87 1,117 1,242 1,256 1,278 1,335 1,384 1}
+{7 1,14 1,16 1,20 1,25 1,34 1,38 1,63 1,65 1,81 1,87 1,117 1,145 1,152 1,177 1,179 1,180 1,184 1,201 1,205 1,235 1,240 1,241 1,242 1,245 1,278 1,281 1,284 1,287 1,290 1,292 1,294 1,295 1,296 1,300 1,303 1,305 1,306 1,312 1,313 1,316 1,318 1,333 1,334 1,337 1,339 1,340 1,345 1,348 1,360 1,384 1,430 1,445 1,453 1,481 1,483 1,485 1,489 1,491 1}
+{7 1,14 1,20 1,25 1,65 1,87 1,117 1,242 1,278 1,384 1,440 1,460 1,472 1}
+{7 1,14 1,20 1,25 1,65 1,87 1,117 1,242 1,278 1,384 1,440 1,460 1,472 1}
+{7 1,14 1,20 1,87 1,117 1,165 1,242 1,278 1,384 1,460 1,472 1}
+{7 1,14 1,20 1,117 1,165 1,242 1,278 1,384 1,460 1,472 1}
+{7 1,14 1,20 1,117 1,165 1,242 1,278 1,384 1,447 1,460 1,472 1}
+{7 1,20 1,49 1,62 1,165 1,247 1}
+{7 1,20 1,34 1,45 1,49 1,60 1,71 1,165 1,183 1,224 1,247 1,254 1,268 1,363 1,402 1}
+{7 1,20 1,34 1,45 1,49 1,60 1,71 1,165 1,183 1,224 1,247 1,254 1,268 1,363 1,402 1}
+{7 1,20 1,34 1,45 1,49 1,60 1,71 1,165 1,183 1,224 1,247 1,254 1,268 1,363 1,402 1}
+{5 1,7 1,25 1,40 1,45 1,49 1,87 1,115 1,155 1,255 1}
+{7 1,25 1,40 1,49 1,87 1,200 1,207 1}
+{7 1,25 1,40 1,49 1,87 1,90 1,200 1,207 1}
+{7 1,15 1,22 1,25 1,49 1,87 1,111 1,134 1,147 1,193 1,255 1,270 1,353 1,378 1,416 1,482 1}
+{7 1,15 1,22 1,25 1,49 1,87 1,111 1,134 1,147 1,193 1,255 1,270 1,353 1,378 1,416 1,482 1}
+{7 1,15 1,22 1,49 1,111 1,134 1,147 1,165 1,193 1,255 1,270 1,353 1,378 1,416 1,482 1}
+{7 1,14 1,22 1,49 1,61 1,193 1,255 1,270 1,280 1}
+{7 1,25 1,26 1,38 1,49 1,61 1,65 1,79 1,87 1,89 1,162 1,177 1,201 1,208 1,271 1,389 1}
+{7 1,49 1,209 1,325 1}
+{7 1,16 1,60 1,114 1,165 1,254 1}
+{7 1,25 1,49 1,61 1,87 1,115 1}
+{7 1,65 1,124 1,207 1,438 1}
+{7 1,25 1,65 1,87 1,124 1}
+{7 1,65 1,124 1,165 1}
+{7 1,25 1,40 1,49 1,87 1,162 1,328 1}
+{7 1,25 1,40 1,49 1,87 1,162 1,328 1}
+{7 1,25 1,40 1,49 1,87 1,162 1,328 1}
+{1 1,7 1,16 1,22 1,23 1,25 1,34 1,49 1,62 1,65 1,81 1,87 1,107 1,116 1,201 1,254 1,321 1,458 1}
+{7 1,11 1,23 1,40 1,41 1,49 1,165 1,390 1}
+{7 1,10 1,11 1,23 1,25 1,41 1,52 1,87 1}
+{7 1,11 1,23 1,25 1,41 1,87 1,390 1}
+{2 1,7 1,25 1,40 1,49 1,74 1,87 1}
+{7 1,14 1,49 1,65 1,87 1,193 1}
+{7 1,14 1,49 1,65 1,193 1}
+{7 1,14 1,49 1,65 1,193 1}
+{7 1,14 1,25 1,49 1,65 1,87 1,193 1}
+{7 1,14 1,16 1,22 1,25 1,49 1,87 1,187 1,191 1,259 1,446 1}
+{7 1,22 1,26 1,38 1,49 1,61 1,63 1,193 1,255 1,446 1}
+{7 1,16 1,25 1,30 1,35 1,37 1,44 1,49 1,53 1,54 1,55 1,65 1,81 1,87 1,113 1,206 1,208 1,291 1,369 1,392 1,447 1,463 1}
+{7 1,16 1,25 1,30 1,35 1,37 1,44 1,49 1,53 1,54 1,55 1,65 1,81 1,87 1,113 1,206 1,208 1,291 1,369 1,392 1,463 1}
+{7 1,16 1,23 1,25 1,30 1,34 1,35 1,37 1,44 1,49 1,53 1,54 1,55 1,62 1,65 1,81 1,87 1,104 1,113 1,206 1,249 1,326 1,398 1,447 1}
+{7 1,16 1,23 1,25 1,30 1,34 1,35 1,37 1,44 1,49 1,53 1,54 1,55 1,62 1,65 1,81 1,87 1,104 1,113 1,206 1,249 1,326 1,398 1}
+{7 1,14 1,16 1,23 1,25 1,30 1,35 1,37 1,44 1,49 1,53 1,54 1,55 1,62 1,65 1,81 1,87 1,113 1,170 1,206 1,211 1,377 1,392 1,424 1,447 1,457 1}
+{7 1,14 1,16 1,23 1,25 1,30 1,35 1,37 1,44 1,49 1,53 1,54 1,55 1,62 1,65 1,81 1,87 1,113 1,170 1,206 1,211 1,377 1,392 1,424 1,457 1}
+{7 1,14 1,16 1,23 1,25 1,30 1,35 1,37 1,44 1,49 1,53 1,54 1,55 1,62 1,65 1,70 1,81 1,87 1,113 1,141 1,148 1,170 1,206 1,211 1,214 1,219 1,249 1,377 1,392 1,424 1,447 1,457 1}
+{7 1,14 1,16 1,23 1,25 1,30 1,35 1,37 1,44 1,49 1,53 1,54 1,55 1,62 1,65 1,70 1,81 1,87 1,113 1,141 1,148 1,170 1,206 1,211 1,214 1,219 1,249 1,377 1,392 1,424 1,457 1}
+{7 1,14 1,16 1,23 1,25 1,30 1,35 1,37 1,44 1,49 1,53 1,54 1,55 1,62 1,65 1,70 1,81 1,87 1,113 1,141 1,148 1,170 1,206 1,211 1,214 1,219 1,249 1,329 1,377 1,392 1,406 1,447 1,457 1}
+{7 1,14 1,16 1,23 1,25 1,30 1,35 1,37 1,44 1,49 1,53 1,54 1,55 1,62 1,65 1,70 1,81 1,87 1,113 1,141 1,148 1,170 1,206 1,211 1,214 1,219 1,249 1,329 1,377 1,392 1,406 1,457 1}
+{7 1,14 1,16 1,23 1,25 1,26 1,30 1,35 1,37 1,44 1,49 1,53 1,54 1,55 1,65 1,81 1,87 1,113 1,206 1,326 1,329 1,392 1,447 1}
+{7 1,16 1,25 1,37 1,44 1,49 1,53 1,54 1,55 1,65 1,87 1,370 1,447 1,463 1}
+{7 1,16 1,25 1,37 1,44 1,49 1,53 1,54 1,55 1,65 1,87 1,370 1,463 1}
+{7 1,16 1,23 1,25 1,34 1,35 1,37 1,44 1,49 1,53 1,54 1,55 1,62 1,65 1,81 1,87 1,113 1,206 1,398 1,447 1}
+{7 1,16 1,23 1,25 1,34 1,35 1,37 1,44 1,49 1,53 1,54 1,55 1,62 1,65 1,81 1,87 1,113 1,206 1,398 1}
+{7 1,14 1,16 1,23 1,25 1,30 1,35 1,37 1,44 1,49 1,53 1,54 1,55 1,62 1,65 1,70 1,81 1,87 1,113 1,141 1,148 1,170 1,206 1,211 1,329 1,377 1,392 1,406 1,447 1,457 1}
+{7 1,14 1,16 1,23 1,25 1,30 1,35 1,37 1,44 1,49 1,53 1,54 1,55 1,62 1,65 1,70 1,81 1,87 1,113 1,141 1,148 1,170 1,206 1,211 1,329 1,377 1,392 1,406 1,457 1}
+{7 1,14 1,16 1,23 1,25 1,30 1,35 1,37 1,44 1,49 1,53 1,54 1,55 1,62 1,65 1,70 1,81 1,87 1,113 1,141 1,148 1,170 1,206 1,211 1,214 1,219 1,249 1,377 1,392 1,424 1,447 1,457 1}
+{7 1,14 1,16 1,23 1,25 1,30 1,35 1,37 1,44 1,49 1,53 1,54 1,55 1,62 1,65 1,70 1,81 1,87 1,113 1,141 1,148 1,170 1,206 1,211 1,214 1,219 1,249 1,377 1,392 1,424 1,457 1}
+{7 1,14 1,16 1,23 1,25 1,30 1,35 1,37 1,44 1,49 1,53 1,54 1,55 1,62 1,65 1,70 1,81 1,87 1,113 1,141 1,148 1,170 1,206 1,211 1,214 1,219 1,249 1,329 1,377 1,392 1,406 1,447 1,457 1}
+{7 1,14 1,16 1,23 1,25 1,30 1,35 1,37 1,44 1,49 1,53 1,54 1,55 1,62 1,65 1,70 1,81 1,87 1,113 1,141 1,148 1,170 1,206 1,211 1,214 1,219 1,249 1,329 1,377 1,392 1,406 1,457 1}
+{7 1,14 1,25 1,34 1,37 1,49 1,55 1,62 1,65 1,81 1,87 1,189 1,447 1,463 1}
+{7 1,14 1,25 1,34 1,37 1,49 1,55 1,62 1,65 1,81 1,87 1,189 1,463 1}
+{7 1,16 1,23 1,25 1,26 1,34 1,35 1,37 1,44 1,49 1,53 1,54 1,55 1,65 1,81 1,87 1,113 1,146 1,206 1,209 1,326 1,362 1,398 1,447 1}
+{7 1,16 1,23 1,25 1,26 1,34 1,35 1,37 1,44 1,49 1,53 1,54 1,55 1,65 1,81 1,87 1,113 1,146 1,206 1,209 1,326 1,362 1,398 1}
+{7 1,25 1,40 1,47 1,49 1,61 1,66 1,87 1,104 1,310 1,319 1,352 1,439 1}
+{7 1,25 1,40 1,47 1,49 1,61 1,66 1,87 1,104 1,310 1,319 1,439 1}
+{7 1,25 1,40 1,47 1,49 1,61 1,66 1,87 1,104 1,310 1,319 1,439 1}
+{7 1,25 1,40 1,47 1,49 1,61 1,66 1,87 1,104 1,310 1,319 1,439 1}
+{7 1,25 1,40 1,47 1,49 1,61 1,66 1,87 1,104 1,310 1,319 1,439 1}
+{7 1,25 1,40 1,47 1,49 1,61 1,66 1,87 1,104 1,310 1,319 1,439 1}
+{7 1,25 1,40 1,47 1,49 1,61 1,66 1,87 1,104 1,310 1,319 1,439 1}
+{7 1,25 1,49 1,79 1,87 1,235 1,259 1,353 1}
+{7 1,10 1,22 1,28 1,38 1,47 1,49 1,134 1,165 1,242 1,255 1}
+{3 1,7 1,11 1,14 1,16 1,20 1,23 1,26 1,34 1,49 1,51 1,62 1,81 1,109 1,116 1,149 1,150 1,160 1,165 1,168 1,173 1,185 1,193 1,194 1,206 1,243 1,434 1,445 1}
+{3 1,7 1,11 1,14 1,16 1,20 1,23 1,26 1,34 1,49 1,51 1,62 1,81 1,109 1,116 1,149 1,150 1,160 1,165 1,168 1,173 1,185 1,193 1,194 1,206 1,243 1,434 1,445 1}
+{3 1,7 1,11 1,14 1,16 1,20 1,23 1,26 1,34 1,49 1,51 1,62 1,81 1,109 1,116 1,149 1,150 1,160 1,165 1,168 1,173 1,185 1,193 1,194 1,206 1,243 1,434 1,445 1}
+{3 1,7 1,11 1,14 1,16 1,20 1,23 1,26 1,34 1,49 1,51 1,62 1,81 1,109 1,116 1,149 1,150 1,160 1,165 1,168 1,173 1,185 1,193 1,194 1,206 1,243 1,434 1,445 1}
+{3 1,7 1,11 1,14 1,16 1,20 1,23 1,26 1,34 1,49 1,51 1,62 1,81 1,109 1,116 1,149 1,150 1,160 1,165 1,168 1,173 1,185 1,193 1,194 1,206 1,243 1,434 1,445 1}
+{3 1,7 1,11 1,14 1,16 1,20 1,23 1,26 1,34 1,49 1,51 1,62 1,81 1,109 1,116 1,149 1,150 1,160 1,165 1,168 1,173 1,185 1,193 1,194 1,206 1,243 1,434 1,445 1}
+{3 1,7 1,11 1,14 1,16 1,20 1,23 1,26 1,34 1,49 1,51 1,62 1,81 1,109 1,116 1,149 1,150 1,160 1,165 1,168 1,173 1,185 1,193 1,194 1,206 1,243 1,434 1,445 1}
+{3 1,7 1,11 1,24 1,47 1,63 1,79 1,99 1,109 1,165 1,193 1,379 1}
+{3 1,7 1,11 1,24 1,47 1,63 1,79 1,99 1,109 1,165 1,193 1,379 1}
+{3 1,7 1,11 1,24 1,41 1,49 1,67 1,83 1,87 1,109 1,140 1,165 1,193 1,229 1,255 1,352 1,365 1}
+{3 1,7 1,11 1,24 1,41 1,49 1,67 1,83 1,109 1,140 1,165 1,193 1,229 1,255 1,365 1}
+{3 1,7 1,11 1,24 1,41 1,49 1,67 1,83 1,109 1,140 1,165 1,193 1,229 1,255 1,365 1}
+{3 1,7 1,11 1,24 1,41 1,49 1,67 1,83 1,90 1,109 1,140 1,165 1,193 1,229 1,255 1,365 1}
+{3 1,7 1,11 1,24 1,41 1,49 1,67 1,83 1,109 1,140 1,165 1,193 1,229 1,255 1,365 1}
+{3 1,7 1,11 1,24 1,41 1,49 1,67 1,83 1,109 1,140 1,165 1,193 1,229 1,255 1,365 1}
+{3 1,7 1,11 1,24 1,41 1,49 1,67 1,83 1,109 1,140 1,165 1,193 1,229 1,255 1,365 1}
+{7 1,25 1,49 1,87 1,90 1,207 1,272 1,463 1,473 1}
+{7 1,12 1,22 1,26 1,34 1,62 1,81 1,92 1,165 1,193 1,201 1,206 1,207 1,255 1,338 1,365 1,389 1,436 1,454 1,459 1}
+{7 1,22 1,23 1,193 1,255 1,389 1,469 1}
+{7 1,22 1,26 1,160 1,193 1,255 1,328 1,389 1}
+{7 1,22 1,23 1,40 1,49 1,60 1,78 1,145 1,193 1,197 1,237 1,255 1,268 1,355 1,413 1,471 1}
+{4 1,7 1,16 1,25 1,34 1,49 1,87 1,193 1}
+{4 1,7 1,162 1,178 1,419 1}
+{4 1,7 1,162 1,178 1,419 1}
+{4 1,7 1,25 1,49 1,74 1,87 1,194 1,232 1,425 1,492 1}
+{4 1,7 1,25 1,49 1,87 1,194 1,232 1,425 1,492 1}
+{4 1,7 1,25 1,49 1,87 1,194 1,232 1,425 1,492 1}
+{4 1,7 1,49 1,165 1,194 1,232 1,425 1,492 1}
+{0 1,2 1,7 1,16 1,18 1,49 1,61 1,165 1}
+{7 1,14 1,16 1,34 1,49 1,62 1,116 1,138 1,165 1,193 1,370 1,440 1}
+{7 1,14 1,16 1,34 1,49 1,62 1,116 1,138 1,165 1,193 1,370 1,440 1}
+{7 1,16 1,34 1,49 1,165 1,209 1}
+{7 1,14 1,16 1,49 1,65 1,165 1,201 1}
+{2 1,7 1,22 1,40 1,193 1,255 1}
+{7 1,22 1,40 1,61 1,63 1,145 1,193 1,201 1,255 1,265 1,369 1}
+{7 1,14 1,16 1,22 1,27 1,40 1,81 1,167 1,193 1,206 1,255 1,440 1}
+{7 1,26 1,40 1,49 1,61 1,90 1,286 1}
+{4 1,7 1,15 1,24 1,25 1,49 1,57 1,59 1,87 1,151 1}
+{7 1,22 1,49 1,153 1,174 1,193 1,255 1,447 1}
+{7 1,14 1,15 1,16 1,22 1,23 1,34 1,49 1,79 1,193 1,209 1,255 1}
+{7 1,16 1,23 1,25 1,49 1,61 1,87 1,255 1,459 1}
+{7 1,22 1,49 1,178 1,207 1,439 1}
+{7 1,14 1,15 1,22 1,26 1,40 1,42 1,49 1,62 1,79 1,107 1,139 1,144 1,165 1,193 1,242 1,338 1}
+{7 1,14 1,15 1,22 1,26 1,40 1,42 1,49 1,62 1,79 1,90 1,107 1,139 1,144 1,193 1,242 1,255 1,338 1}
+{7 1,22 1,140 1,176 1,229 1,243 1,288 1,405 1}
+{7 1,14 1,16 1,22 1,81 1,116 1,142 1,144 1,176 1,193 1}
+{7 1,10 1,22 1}
+{7 1,23 1,25 1,34 1,71 1,87 1,189 1,205 1,314 1,356 1,479 1,488 1}
+{7 1,23 1,25 1,34 1,71 1,87 1,189 1,205 1,314 1,356 1,479 1,488 1}
+{7 1,23 1,25 1,34 1,71 1,87 1,189 1,205 1,314 1,356 1,479 1,488 1}
+{7 1,23 1,25 1,34 1,71 1,87 1,189 1,205 1,314 1,356 1,479 1,488 1}
+{7 1,23 1,25 1,34 1,71 1,87 1,189 1,205 1,314 1,356 1,479 1,488 1}
+{7 1,23 1,25 1,34 1,71 1,87 1,189 1,205 1,314 1,356 1,479 1,488 1}
+{7 1,23 1,25 1,34 1,71 1,87 1,189 1,205 1,314 1,356 1,479 1,488 1}
+{7 1,22 1,92 1,193 1,255 1}
+{7 1,22 1,193 1,255 1,365 1}
+{7 1,22 1,26 1,31 1,61 1,176 1,193 1,196 1,207 1,255 1,365 1,439 1}
+{7 1,16 1,23 1,26 1,49 1,81 1,165 1,176 1,193 1,201 1,209 1,210 1,275 1,365 1,369 1,370 1,444 1,459 1,471 1}
+{7 1,14 1,16 1,25 1,49 1,51 1,62 1,65 1,81 1,87 1,111 1,157 1,240 1,246 1,275 1,276 1,367 1,389 1,444 1}
+{7 1,14 1,16 1,49 1,51 1,62 1,65 1,81 1,111 1,157 1,165 1,240 1,246 1,275 1,276 1,367 1,389 1,444 1}
+{7 1,16 1,25 1,49 1,87 1,177 1}
+{7 1,22 1,23 1,49 1,193 1,255 1,387 1}
+{7 1,16 1,25 1,49 1,87 1,494 1}
+{7 1,23 1,49 1,146 1,280 1,369 1,370 1,387 1,458 1}
+{7 1,25 1,87 1,109 1,139 1,239 1,254 1,268 1}
+{7 1,25 1,49 1,87 1}
+{7 1,49 1,165 1}
+{7 1,22 1,38 1,49 1,74 1,87 1,193 1,255 1}
+{7 1,25 1,40 1,74 1,87 1,157 1,188 1,254 1}
+{7 1,25 1,40 1,87 1,90 1,157 1,188 1,254 1}
+{7 1,110 1,114 1,165 1}
+{2 1,7 1,25 1,61 1,87 1,144 1,193 1,270 1}
+{2 1,7 1,25 1,49 1,61 1,87 1,144 1,193 1,270 1}
+{2 1,7 1,25 1,49 1,61 1,87 1,144 1,193 1,270 1}
+{7 1,25 1,55 1,77 1,87 1,92 1,161 1,208 1,223 1,255 1}
+{7 1,25 1,55 1,77 1,87 1,92 1,161 1,208 1,223 1,255 1}
+{7 1,25 1,49 1,87 1,160 1,193 1,254 1}
+{7 1,25 1,49 1,87 1,160 1,254 1}
+{7 1,11 1,16 1,22 1,61 1,193 1,207 1,254 1,255 1}
+{7 1,20 1,25 1,40 1,49 1,74 1,87 1,124 1}
+{7 1,20 1,25 1,40 1,49 1,87 1,124 1}
+{7 1,20 1,25 1,40 1,49 1,74 1,87 1,124 1}
+{7 1,20 1,25 1,40 1,49 1,87 1,124 1}
+{7 1,16 1,22 1,23 1,26 1,34 1,93 1,94 1,95 1,277 1,380 1}
+{7 1,16 1,22 1,23 1,26 1,34 1,93 1,94 1,95 1,277 1,380 1}
+{7 1,16 1,22 1,23 1,26 1,34 1,93 1,94 1,95 1,277 1,380 1}
+{7 1,22 1,49 1,193 1,255 1,433 1}
+{7 1,25 1,77 1,87 1,178 1}
+{7 1,49 1,165 1,231 1}
+{7 1,25 1,34 1,40 1,49 1,61 1,87 1,108 1,146 1,456 1}
+{7 1,25 1,34 1,40 1,49 1,61 1,87 1,108 1,146 1,456 1}
+{7 1,14 1,16 1,25 1,27 1,38 1,49 1,87 1,108 1,188 1}
+{7 1,22 1,40 1,49 1,193 1,403 1}
+{7 1,22 1,49 1,71 1,193 1,270 1,403 1}
+{7 1,22 1,49 1,71 1,193 1,270 1,403 1}
+{7 1,22 1,38 1,46 1,81 1,108 1,127 1,193 1,206 1,255 1,386 1}
+{7 1,25 1,61 1,81 1,87 1,108 1,127 1,162 1,425 1}
+{7 1,10 1,25 1,38 1,81 1,87 1,108 1,162 1,205 1,254 1,255 1,271 1,386 1,425 1,436 1,492 1}
+{7 1,22 1,49 1,81 1,158 1,165 1,169 1}
+{7 1,14 1,16 1,26 1,34 1,40 1,49 1,62 1,79 1,81 1,142 1,165 1,191 1,193 1,200 1,201 1,248 1,255 1,274 1,275 1,366 1,391 1,399 1,400 1,415 1,427 1,440 1,463 1,470 1}
+{7 1,14 1,16 1,26 1,34 1,40 1,49 1,62 1,79 1,81 1,142 1,165 1,191 1,193 1,200 1,201 1,248 1,255 1,274 1,275 1,366 1,391 1,399 1,400 1,415 1,427 1,440 1,463 1,470 1}
+{7 1,34 1,49 1,160 1,165 1,255 1}
+{7 1,22 1,49 1,187 1,193 1,255 1,369 1,471 1}
+{7 1,22 1,49 1,187 1,193 1,255 1,369 1,471 1}
+{7 1,34 1,49 1,160 1,165 1,255 1,380 1}
+{7 1,34 1,49 1,165 1,369 1}
+{3 1,7 1,16 1,23 1,25 1,34 1,49 1,62 1,79 1,87 1,111 1,113 1,370 1}
+{7 1,15 1,19 1,25 1,49 1,77 1,87 1,146 1,160 1,205 1,407 1}
+{7 1,14 1,16 1,25 1,34 1,49 1,52 1,62 1,81 1,87 1,110 1,495 1}
+{7 1,14 1,16 1,23 1,25 1,34 1,49 1,52 1,65 1,70 1,87 1,201 1,205 1,206 1,495 1}
+{7 1,25 1,43 1,49 1,87 1}
+{7 1,22 1,24 1,25 1,45 1,87 1,158 1,240 1,250 1,255 1,370 1,471 1}
+{4 1,7 1,22 1,49 1,193 1,255 1}
+{7 1,20 1,25 1,40 1,49 1,56 1,78 1,87 1,157 1,197 1,255 1,368 1,405 1}
+{7 1,16 1,22 1,81 1,193 1,206 1,255 1}
+{4 1,7 1,10 1,22 1,49 1,117 1,193 1,255 1}
+{4 1,7 1,10 1,22 1,49 1,117 1,193 1,255 1,407 1}
+{7 1,23 1,49 1,56 1,60 1,145 1,160 1,188 1,288 1,405 1,459 1}
+{7 1,14 1,16 1,49 1,116 1,142 1,176 1,187 1,259 1}
+{7 1,23 1,56 1,60 1,145 1,160 1,188 1,288 1,380 1,405 1,459 1}
+{7 1,23 1,49 1,56 1,60 1,145 1,160 1,188 1,288 1,380 1,405 1,459 1}
+{7 1,23 1,49 1,56 1,60 1,145 1,160 1,188 1,288 1,380 1,405 1,459 1}
+{7 1,14 1,16 1,34 1,176 1,187 1,208 1,259 1,270 1,353 1,380 1,444 1}
+{7 1,14 1,16 1,34 1,49 1,176 1,187 1,208 1,259 1,270 1,353 1,380 1,444 1}
+{7 1,14 1,16 1,34 1,49 1,176 1,187 1,208 1,259 1,270 1,353 1,380 1,444 1}
+{4 1,5 1,7 1,22 1,24 1,25 1,40 1,49 1,87 1,135 1,151 1,212 1,215 1,233 1,366 1,401 1,404 1,408 1,412 1,417 1,418 1,422 1}
+{4 1,5 1,7 1,22 1,24 1,25 1,40 1,49 1,87 1,135 1,151 1,212 1,215 1,233 1,366 1,401 1,404 1,408 1,412 1,417 1,418 1,422 1}
+{4 1,5 1,7 1,22 1,24 1,25 1,40 1,49 1,87 1,135 1,151 1,212 1,215 1,233 1,366 1,401 1,404 1,408 1,412 1,417 1,418 1,422 1}
+{4 1,5 1,7 1,22 1,24 1,25 1,40 1,49 1,87 1,90 1,135 1,151 1,212 1,215 1,233 1,366 1,401 1,404 1,408 1,412 1,417 1,418 1,422 1}
+{4 1,5 1,7 1,22 1,24 1,25 1,40 1,49 1,87 1,135 1,151 1,212 1,215 1,233 1,366 1,401 1,404 1,408 1,412 1,417 1,418 1,422 1}
+{4 1,5 1,7 1,22 1,24 1,25 1,49 1,87 1,135 1,151 1,212 1,215 1,233 1,366 1,401 1,404 1,408 1,412 1,417 1,418 1,422 1}
+{7 1,22 1,25 1,49 1,87 1,110 1,212 1,215 1,233 1,240 1,280 1}
+{7 1,22 1,25 1,49 1,74 1,87 1,110 1,212 1,215 1,233 1,240 1,280 1}
+{7 1,22 1,34 1,81 1,89 1,146 1,165 1,206 1}
+{7 1,40 1,49 1,165 1}
+{7 1,34 1,45 1,60 1,71 1,87 1,165 1,183 1,224 1,247 1,254 1,268 1,363 1,402 1}
+{7 1,34 1,45 1,60 1,71 1,165 1,183 1,224 1,247 1,254 1,268 1,363 1,402 1}
+{2 1,7 1,20 1,22 1,49 1,74 1,87 1,193 1,255 1}
+{7 1,17 1,22 1,26 1,36 1,46 1,48 1,49 1,57 1,58 1,59 1,76 1,85 1,86 1,88 1,108 1,122 1,123 1,125 1,128 1,131 1,132 1,136 1,137 1,161 1,193 1,255 1}
+{7 1,17 1,22 1,26 1,36 1,46 1,48 1,49 1,57 1,58 1,59 1,76 1,85 1,86 1,88 1,108 1,122 1,123 1,125 1,128 1,131 1,132 1,136 1,137 1,161 1,193 1,255 1}
+{7 1,17 1,22 1,26 1,36 1,46 1,48 1,49 1,57 1,58 1,59 1,76 1,85 1,86 1,88 1,108 1,122 1,123 1,125 1,128 1,131 1,132 1,136 1,137 1,161 1,193 1,255 1}
+{7 1,17 1,22 1,26 1,36 1,46 1,48 1,49 1,57 1,58 1,59 1,76 1,85 1,86 1,88 1,108 1,122 1,123 1,125 1,128 1,131 1,132 1,136 1,137 1,161 1,193 1,255 1}
+{7 1,10 1,25 1,40 1,49 1,56 1,74 1,87 1,107 1}
+{7 1,10 1,25 1,40 1,49 1,56 1,87 1,90 1,107 1}
+{7 1,22 1,40 1,49 1,60 1,64 1,141 1,188 1,193 1,255 1,261 1,267 1,268 1}
+{7 1,25 1,40 1,49 1,60 1,64 1,87 1,141 1,188 1,261 1,267 1,268 1}
+{7 1,22 1,40 1,49 1,60 1,64 1,141 1,188 1,193 1,255 1,261 1,267 1,268 1}
+{7 1,22 1,40 1,49 1,60 1,64 1,141 1,188 1,193 1,255 1,261 1,267 1,268 1}
+{7 1,14 1,16 1,22 1,23 1,26 1,34 1,38 1,62 1,65 1,147 1,187 1,193 1,205 1,208 1,209 1,227 1,255 1,261 1,265 1,266 1,267 1,268 1,285 1,297 1,298 1,299 1,302 1,315 1,323 1,324 1,330 1,331 1,342 1,349 1,362 1,370 1,477 1,484 1,486 1}
+{7 1,14 1,16 1,22 1,23 1,26 1,34 1,38 1,49 1,62 1,65 1,147 1,187 1,193 1,205 1,208 1,209 1,227 1,255 1,261 1,265 1,266 1,267 1,268 1,285 1,297 1,298 1,299 1,302 1,315 1,323 1,324 1,330 1,331 1,342 1,349 1,362 1,370 1,477 1,484 1,486 1}
+{7 1,14 1,16 1,22 1,23 1,26 1,34 1,38 1,49 1,62 1,65 1,147 1,187 1,193 1,205 1,208 1,209 1,227 1,255 1,261 1,265 1,266 1,267 1,268 1,285 1,297 1,298 1,299 1,302 1,315 1,323 1,324 1,330 1,331 1,342 1,349 1,362 1,370 1,477 1,484 1,486 1}
+{7 1,14 1,16 1,22 1,23 1,26 1,34 1,38 1,49 1,62 1,65 1,147 1,187 1,193 1,205 1,208 1,209 1,227 1,255 1,261 1,265 1,266 1,267 1,268 1,285 1,297 1,298 1,299 1,302 1,315 1,323 1,324 1,330 1,331 1,342 1,349 1,362 1,370 1,477 1,484 1,486 1}
+{7 1,14 1,16 1,22 1,23 1,26 1,34 1,38 1,49 1,62 1,65 1,147 1,187 1,193 1,205 1,208 1,209 1,227 1,255 1,261 1,265 1,266 1,267 1,268 1,285 1,297 1,298 1,299 1,302 1,315 1,323 1,324 1,330 1,331 1,342 1,349 1,362 1,370 1,477 1,484 1,486 1}
+{7 1,14 1,16 1,22 1,23 1,26 1,34 1,38 1,49 1,62 1,65 1,147 1,187 1,193 1,205 1,208 1,209 1,227 1,255 1,261 1,265 1,266 1,267 1,268 1,285 1,297 1,298 1,299 1,302 1,315 1,323 1,324 1,330 1,331 1,342 1,349 1,362 1,370 1,477 1,484 1,486 1}
+{7 1,14 1,16 1,22 1,23 1,26 1,34 1,38 1,49 1,62 1,65 1,147 1,187 1,193 1,205 1,208 1,209 1,227 1,255 1,261 1,265 1,266 1,267 1,268 1,285 1,297 1,298 1,299 1,302 1,315 1,323 1,324 1,330 1,331 1,342 1,349 1,362 1,370 1,477 1,484 1,486 1}
+{2 1,7 1,25 1,43 1,47 1,49 1,63 1,87 1,90 1,92 1,193 1,255 1,380 1}
+{2 1,7 1,25 1,43 1,47 1,49 1,63 1,87 1,92 1,193 1,255 1,380 1}
+{2 1,7 1,25 1,40 1,49 1,87 1,201 1,472 1}
+{2 1,7 1,25 1,40 1,49 1,87 1,201 1,472 1}
+{4 1,7 1,14 1,51 1,62 1,81 1,193 1,205 1,209 1,270 1,390 1}
+{4 1,7 1,14 1,51 1,62 1,81 1,165 1,193 1,205 1,209 1,270 1,390 1}
+{4 1,7 1,14 1,25 1,51 1,62 1,81 1,87 1,193 1,205 1,209 1,270 1,390 1}
+{7 1,25 1,49 1,87 1,243 1,446 1}
+{7 1,25 1,49 1,87 1,90 1,243 1,446 1}
+{4 1,7 1,16 1,23 1,26 1,34 1,40 1,49 1,99 1,146 1,188 1,248 1}
+{7 1,14 1,16 1,25 1,34 1,49 1,62 1,87 1,193 1,321 1,390 1,445 1,498 1}
+{7 1,14 1,16 1,25 1,34 1,49 1,62 1,87 1,90 1,193 1,321 1,390 1,445 1,498 1}
+{7 1,14 1,16 1,25 1,34 1,49 1,62 1,87 1,193 1,321 1,390 1,445 1,498 1}
+{7 1,16 1,25 1,34 1,40 1,41 1,49 1,87 1,138 1,180 1,205 1,456 1,480 1,498 1}
+{7 1,16 1,25 1,34 1,40 1,41 1,49 1,87 1,90 1,138 1,180 1,205 1,456 1,480 1,498 1}
+{7 1,25 1,49 1,74 1,87 1,117 1,276 1}
+{7 1,22 1,25 1,87 1,206 1,208 1,216 1,265 1,370 1,471 1}
+{5 1,7 1,10 1,22 1,38 1,64 1,78 1,82 1,84 1,127 1,165 1,190 1,213 1,225 1,272 1,301 1,308 1,311 1,317 1,322 1,332 1,336 1,341 1,363 1,366 1,378 1,437 1,471 1}
+{5 1,7 1,10 1,22 1,38 1,64 1,78 1,82 1,84 1,127 1,165 1,190 1,213 1,225 1,272 1,301 1,308 1,311 1,317 1,322 1,332 1,336 1,341 1,363 1,366 1,378 1,437 1,471 1}
+{5 1,7 1,10 1,22 1,38 1,64 1,78 1,82 1,84 1,127 1,165 1,190 1,213 1,225 1,272 1,301 1,308 1,311 1,317 1,322 1,332 1,336 1,341 1,363 1,366 1,378 1,437 1,471 1}
+{5 1,7 1,10 1,38 1,64 1,78 1,82 1,84 1,127 1,165 1,190 1,213 1,225 1,272 1,301 1,308 1,311 1,317 1,322 1,332 1,336 1,341 1,363 1,366 1,378 1,437 1}
+{5 1,7 1,10 1,38 1,64 1,78 1,82 1,84 1,127 1,165 1,190 1,213 1,225 1,272 1,301 1,308 1,311 1,317 1,322 1,332 1,336 1,341 1,363 1,366 1,378 1,437 1}
+{5 1,7 1,10 1,22 1,38 1,64 1,78 1,82 1,84 1,127 1,165 1,190 1,213 1,225 1,272 1,301 1,308 1,311 1,317 1,322 1,332 1,336 1,341 1,363 1,366 1,378 1,437 1,471 1}
+{5 1,7 1,10 1,38 1,64 1,78 1,82 1,84 1,127 1,165 1,190 1,213 1,225 1,272 1,301 1,308 1,311 1,317 1,322 1,332 1,336 1,341 1,363 1,366 1,378 1,437 1}
+{5 1,7 1,10 1,14 1,16 1,26 1,34 1,49 1,62 1,65 1,81 1,82 1,84 1,116 1,153 1,165 1,187 1,191 1,201 1,206 1,377 1,440 1}
+{5 1,7 1,10 1,82 1,84 1,165 1}
+{7 1,22 1,49 1}
+{7 1,22 1,49 1,193 1,255 1}
+{2 1,7 1,20 1,22 1,43 1,47 1,49 1,63 1,74 1,87 1,92 1,193 1,242 1,255 1,380 1}
+{2 1,7 1,20 1,22 1,43 1,47 1,49 1,63 1,92 1,193 1,242 1,255 1,380 1}
+{2 1,7 1,20 1,22 1,26 1,33 1,34 1,45 1,49 1,65 1,81 1,154 1,188 1,192 1,207 1,242 1}
+{2 1,7 1,17 1,20 1,22 1,92 1,188 1,242 1,254 1,255 1,469 1}
+{2 1,7 1,17 1,20 1,22 1,92 1,242 1,254 1,255 1,469 1}
+{7 1,25 1,49 1,87 1,90 1,428 1}
+{7 1,25 1,43 1,49 1,87 1,90 1,140 1,428 1,494 1}
+{7 1,25 1,43 1,49 1,87 1,90 1,140 1,428 1,494 1}
+{7 1,14 1,16 1,26 1,34 1,40 1,49 1,62 1,79 1,81 1,142 1,165 1,191 1,193 1,200 1,201 1,248 1,254 1,255 1,274 1,275 1,366 1,391 1,399 1,400 1,415 1,427 1,440 1,463 1,470 1}
+{7 1,14 1,16 1,26 1,34 1,40 1,49 1,62 1,79 1,81 1,142 1,165 1,191 1,193 1,200 1,201 1,248 1,254 1,255 1,274 1,275 1,366 1,391 1,399 1,400 1,415 1,427 1,440 1,463 1,470 1}
+{7 1,16 1,23 1,25 1,49 1,61 1,87 1,459 1}
+{2 1,7 1,25 1,81 1,87 1,152 1,201 1,209 1,370 1,403 1,471 1}
+{2 1,7 1,25 1,81 1,87 1,152 1,201 1,209 1,370 1,403 1,471 1}
+{2 1,7 1,25 1,81 1,87 1,90 1,152 1,201 1,209 1,370 1,403 1,471 1}
+{7 1,40 1,49 1,77 1,112 1,165 1,325 1}
+{7 1,25 1,49 1,77 1,87 1,201 1}
+{7 1,49 1,77 1,165 1,201 1}
+{7 1,25 1,49 1,61 1,87 1}
+{7 1,16 1,22 1,23 1,216 1,387 1,471 1}
+{7 1,16 1,22 1,23 1,49 1,74 1,87 1,387 1}
+{7 1,16 1,22 1,23 1,49 1,387 1}
+{7 1,16 1,22 1,23 1,49 1,387 1}
+{7 1,16 1,25 1,46 1,49 1,81 1,87 1,370 1}
+{5 1,7 1,14 1,25 1,34 1,49 1,62 1,65 1,81 1,87 1,193 1,205 1,208 1,231 1,240 1,255 1,274 1,363 1,370 1,430 1}
+{7 1,14 1,16 1,20 1,23 1,42 1,49 1,63 1,65 1,79 1,81 1,146 1,165 1,187 1,200 1,201 1,206 1,208 1,243 1,250 1,440 1,497 1}
+{7 1,14 1,16 1,20 1,23 1,42 1,49 1,63 1,65 1,79 1,81 1,146 1,165 1,187 1,200 1,201 1,206 1,208 1,243 1,250 1,440 1,497 1}
+{7 1,16 1,19 1,25 1,49 1,60 1,87 1,207 1,247 1,255 1,368 1}
+{7 1,16 1,19 1,49 1,60 1,207 1,247 1,255 1,368 1}
+{7 1,16 1,19 1,49 1,60 1,207 1,247 1,255 1,368 1}
+{2 1,7 1,22 1,28 1,49 1,193 1,255 1,264 1}
+{2 1,7 1,22 1,28 1,49 1,193 1,255 1,264 1}
+{2 1,7 1,15 1,18 1,25 1,49 1,87 1,264 1,270 1,428 1}
+{2 1,7 1,15 1,18 1,22 1,49 1,193 1,255 1,264 1,270 1,428 1}
+{2 1,7 1,15 1,18 1,25 1,49 1,87 1,264 1,270 1,428 1}
+{2 1,7 1,15 1,18 1,22 1,49 1,193 1,255 1,264 1,270 1,428 1}
+{2 1,7 1,22 1,49 1,183 1,193 1,254 1,255 1,264 1,423 1}
+{2 1,7 1,22 1,49 1,183 1,193 1,254 1,255 1,264 1,423 1}
+{2 1,7 1,15 1,18 1,25 1,87 1,264 1,428 1,446 1}
+{4 1,7 1,49 1}
+{7 1,16 1,22 1,25 1,40 1,49 1,81 1,87 1,209 1,272 1,325 1}
+{7 1,16 1,22 1,25 1,40 1,49 1,81 1,87 1,209 1,272 1,325 1}
+{7 1,16 1,18 1,22 1,25 1,26 1,49 1,51 1,65 1,81 1,87 1,92 1,144 1,191 1,193 1,206 1,255 1,325 1,428 1,440 1}
+{5 1,7 1,22 1,25 1,40 1,87 1,254 1}
+{5 1,7 1,22 1,25 1,40 1,87 1,254 1}
+{5 1,7 1,22 1,25 1,40 1,87 1,254 1,352 1}
+{5 1,7 1,22 1,25 1,40 1,87 1,254 1}
+{5 1,7 1,22 1,25 1,40 1,87 1,254 1}
+{2 1,7 1,14 1,16 1,22 1,23 1,26 1,34 1,49 1,62 1,65 1,81 1,116 1,126 1,165 1,193 1,198 1,205 1,208 1,390 1}
+{2 1,7 1,14 1,16 1,22 1,23 1,26 1,34 1,49 1,62 1,65 1,81 1,116 1,126 1,165 1,193 1,198 1,205 1,208 1,390 1}
+{7 1,14 1,22 1,45 1,49 1,81 1,165 1,198 1,206 1,236 1,254 1,275 1}
+{2 1,7 1,16 1,22 1,45 1,49 1,74 1,81 1,87 1,116 1,165 1,198 1,254 1,274 1,453 1}
+{7 1,22 1,40 1,56 1,99 1,107 1,112 1,133 1,193 1,205 1,237 1,255 1,271 1,413 1,431 1}
+{7 1,22 1,40 1,49 1,56 1,99 1,107 1,112 1,133 1,193 1,205 1,237 1,255 1,413 1,431 1}
+{7 1,25 1,40 1,49 1,56 1,87 1,90 1,99 1,107 1,112 1,133 1,205 1,237 1,255 1,413 1,431 1}
+{7 1,16 1,17 1,23 1,25 1,40 1,49 1,87 1,99 1,183 1,243 1,356 1,363 1,381 1,436 1}
+{7 1,16 1,17 1,23 1,25 1,40 1,49 1,87 1,90 1,99 1,183 1,243 1,356 1,363 1,381 1,436 1}
+{5 1,7 1,14 1,16 1,25 1,26 1,34 1,49 1,87 1,193 1,209 1,254 1,255 1,361 1}
+{7 1,14 1,16 1,20 1,25 1,28 1,34 1,49 1,65 1,87 1,193 1,248 1,254 1,255 1,272 1,274 1,377 1,445 1}
+{7 1,17 1,25 1,28 1,41 1,43 1,48 1,57 1,58 1,59 1,63 1,87 1,109 1,144 1,193 1,255 1,386 1}
+{7 1,23 1,24 1,40 1,49 1,74 1,87 1,165 1,175 1,309 1}
+{7 1,23 1,24 1,25 1,40 1,49 1,87 1,175 1,309 1}
+{7 1,18 1,20 1,26 1,31 1,49 1,58 1,61 1,115 1,162 1,165 1,175 1,194 1,206 1,270 1,428 1}
+{7 1,18 1,20 1,26 1,31 1,49 1,58 1,61 1,115 1,162 1,165 1,175 1,194 1,206 1,270 1,428 1}
+{7 1,18 1,20 1,26 1,31 1,49 1,58 1,61 1,115 1,162 1,165 1,175 1,194 1,206 1,270 1,428 1}
+{7 1,18 1,22 1,23 1,49 1,193 1,255 1}
+{7 1,18 1,23 1,25 1,49 1,87 1,90 1}
+{7 1,22 1,23 1,49 1,107 1,115 1,193 1,254 1,255 1}
+{7 1,22 1,23 1,25 1,49 1,63 1,87 1,99 1}
+{7 1,40 1,49 1,62 1,65 1,165 1}
+{7 1,40 1,49 1,62 1,65 1,165 1}
+{2 1,7 1,22 1,34 1,193 1,201 1,205 1,255 1,264 1}
+{2 1,7 1,22 1,34 1,193 1,201 1,205 1,255 1,264 1}
+{7 1,14 1,16 1,23 1,26 1,34 1,40 1,49 1,62 1,79 1,81 1,142 1,165 1,191 1,193 1,200 1,201 1,248 1,255 1,274 1,275 1,366 1,391 1,399 1,400 1,415 1,427 1,440 1,463 1,470 1}
+{7 1,14 1,16 1,23 1,26 1,34 1,40 1,49 1,62 1,79 1,81 1,142 1,165 1,191 1,193 1,200 1,201 1,248 1,255 1,274 1,275 1,366 1,391 1,399 1,400 1,415 1,427 1,440 1,463 1,470 1}
+{7 1,22 1,34 1,193 1,206 1,255 1,469 1}
+{7 1,20 1,22 1,25 1,40 1,49 1,87 1,92 1,115 1,193 1,255 1}
+{7 1,20 1,22 1,25 1,40 1,49 1,87 1,90 1,92 1,115 1,193 1,255 1}
+{4 1,7 1,20 1,22 1,49 1,92 1,144 1,193 1,255 1}
+{7 1,10 1,16 1,22 1,25 1,26 1,34 1,42 1,49 1,55 1,60 1,62 1,87 1,175 1,206 1,226 1,255 1,309 1,387 1,435 1,439 1}
+{7 1,20 1,49 1,61 1,92 1,196 1,201 1,255 1}
+{7 1,20 1,25 1,49 1,61 1,87 1,92 1,196 1,201 1,209 1,255 1}
+{7 1,49 1,74 1,87 1,114 1,471 1}
+{7 1,49 1,114 1,471 1}
+{7 1,18 1,25 1,49 1,63 1,79 1,87 1,254 1,271 1}
+{7 1,15 1,16 1,22 1,23 1,25 1,38 1,40 1,49 1,61 1,87 1,89 1,92 1,115 1,134 1,157 1,201 1,206 1,241 1,272 1}
+{7 1,25 1,40 1,49 1,63 1,87 1,207 1,241 1,309 1,352 1}
+{7 1,25 1,40 1,49 1,63 1,87 1,207 1,241 1,309 1}
+{7 1,25 1,40 1,49 1,63 1,87 1,207 1,241 1,309 1}
+{7 1,25 1,40 1,49 1,63 1,87 1,207 1,241 1,309 1}
+{7 1,19 1,22 1,23 1,25 1,87 1,216 1,254 1,255 1,272 1,471 1}
+{7 1,19 1,22 1,23 1,25 1,87 1,216 1,254 1,255 1,272 1,471 1}
+{7 1,19 1,22 1,23 1,25 1,87 1,216 1,254 1,255 1,272 1,471 1}
+{7 1,19 1,22 1,23 1,25 1,87 1,216 1,254 1,255 1,272 1,471 1}
+{7 1,25 1,49 1,87 1}
+{7 1,20 1,22 1,40 1,49 1,61 1,156 1,193 1,206 1,255 1,480 1}
+{7 1,20 1,22 1,40 1,49 1,190 1,193 1,207 1,255 1}
+{7 1,20 1,22 1,40 1,45 1,49 1,58 1,71 1,185 1,193 1,255 1}
+{7 1,16 1,20 1,22 1,156 1,168 1,193 1,206 1,255 1,480 1}
+{2 1,7 1,17 1,20 1,22 1,40 1,45 1,49 1,193 1,213 1,247 1,255 1}
+{4 1,7 1,10 1,25 1,36 1,49 1,87 1,255 1}
+{7 1,16 1,22 1,25 1,34 1,40 1,49 1,70 1,81 1,87 1,115 1,178 1}
+{7 1,11 1,19 1,25 1,40 1,87 1}
+{7 1,11 1,19 1,25 1,40 1,87 1}
+{2 1,7 1,25 1,34 1,49 1,61 1,87 1,92 1,193 1,255 1,469 1,471 1}
+{7 1,11 1,17 1,20 1,25 1,43 1,87 1,106 1,126 1,153 1,174 1,193 1,262 1,386 1}
+{7 1,25 1,40 1,49 1,65 1,87 1,453 1}
+{7 1,23 1,39 1,49 1,64 1,78 1,81 1,116 1,154 1,157 1,165 1,184 1,188 1,197 1,201 1,206 1,208 1,241 1,358 1,360 1,381 1,470 1,480 1}
+{7 1,23 1,39 1,49 1,64 1,78 1,81 1,116 1,154 1,157 1,165 1,184 1,188 1,197 1,201 1,206 1,208 1,241 1,358 1,360 1,381 1,470 1,480 1}
+{7 1,14 1,16 1,39 1,49 1,52 1,61 1,62 1,81 1,165 1,200 1,201 1,205 1,206 1,209 1,255 1,270 1}
+{2 1,7 1,22 1,25 1,49 1,87 1}
+{2 1,4 1,7 1,22 1,25 1,49 1,87 1,255 1,277 1}
+{2 1,7 1,12 1,15 1,18 1,26 1,31 1,33 1,40 1,63 1,255 1,471 1}
+{2 1,7 1,12 1,15 1,18 1,22 1,26 1,31 1,33 1,40 1,49 1,63 1,193 1,255 1,471 1}
+{2 1,7 1,12 1,15 1,18 1,22 1,26 1,31 1,33 1,40 1,49 1,63 1,193 1,255 1,471 1}
+{2 1,7 1,16 1,17 1,25 1,40 1,49 1,62 1,87 1,182 1,208 1,359 1,370 1,382 1}
+{2 1,7 1,15 1,18 1,23 1,25 1,40 1,43 1,49 1,62 1,87 1,182 1,344 1,359 1,428 1}
+{2 1,7 1,16 1,17 1,25 1,40 1,49 1,62 1,87 1,182 1,208 1,359 1,370 1,382 1}
+{2 1,7 1,16 1,17 1,25 1,40 1,49 1,62 1,87 1,182 1,208 1,359 1,370 1,382 1}
+{2 1,7 1,15 1,18 1,23 1,25 1,43 1,49 1,62 1,87 1,182 1,344 1,359 1,428 1}
+{2 1,7 1,15 1,18 1,23 1,25 1,43 1,49 1,62 1,87 1,182 1,344 1,359 1,428 1}
+{2 1,7 1,16 1,17 1,25 1,62 1,87 1,182 1,208 1,359 1,370 1,382 1}
+{2 1,7 1,15 1,18 1,23 1,25 1,43 1,62 1,87 1,182 1,344 1,359 1,428 1}
+{2 1,7 1,15 1,18 1,23 1,25 1,43 1,62 1,87 1,182 1,344 1,359 1,428 1}
+{7 1,25 1,61 1,87 1,196 1}

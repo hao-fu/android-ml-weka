@@ -1,8 +1,11 @@
 import javafx.util.Pair;
+import weka.attributeSelection.*;
 import weka.classifiers.Classifier;
 import weka.classifiers.bayes.NaiveBayes;
 import weka.classifiers.bayes.NaiveBayesMultinomial;
+import weka.classifiers.bayes.NaiveBayesMultinomialUpdateable;
 import weka.classifiers.functions.SMO;
+import weka.classifiers.meta.AttributeSelectedClassifier;
 import weka.classifiers.meta.FilteredClassifier;
 import weka.classifiers.trees.HoeffdingTree;
 import weka.classifiers.trees.J48;
@@ -27,6 +30,8 @@ import java.nio.file.Paths;
 import java.util.*;
 
 import weka.classifiers.Evaluation;
+
+import javax.xml.parsers.FactoryConfigurationError;
 
 /**
  * Description:
@@ -97,7 +102,22 @@ public class WekaUtils {
     }
 
 
-    public static Classifier buildClassifier(Instances data, String modelName, boolean updateable) throws Exception {
+    private static AttributeSelection getAttributeSelector(
+            Instances trainingData, int number) throws Exception {
+        AttributeSelection selector = new AttributeSelection();
+        InfoGainAttributeEval evaluator = new InfoGainAttributeEval();
+        Ranker ranker = new Ranker();
+        ranker.setNumToSelect(Math.min(number, trainingData.numAttributes() - 1));
+        selector.setEvaluator(evaluator);
+        selector.setSearch(ranker);
+        selector.SelectAttributes(trainingData);
+        return selector;
+    }
+
+
+    public static Classifier buildClassifier(Instances data, String modelName,
+                                             boolean updateable) throws Exception {
+
 
         // classifier
         // J48 j48 = new J48();
@@ -108,13 +128,17 @@ public class WekaUtils {
         //HoeffdingTree classifier = new HoeffdingTree();
         Classifier classifier;
         if (updateable) {
-            classifier = new NaiveBayesMultinomial();
+            classifier = new HoeffdingTree();
+            //classifier = new NaiveBayesMultinomialUpdateable();
         } else {
             classifier = new SMO();
         }
-       // System.err.println("Parameters");
+
+
+
+        // System.err.println("Parameters");
         //for (int i = 0; i < classifier.getOptions().length; i++) {
-          //  System.err.println(classifier.getOptions()[i]);
+        //  System.err.println(classifier.getOptions()[i]);
         //}
         // train and make predictions
         classifier.buildClassifier(data);
@@ -470,31 +494,58 @@ public class WekaUtils {
         return data;
     }
 
+    public static void evalClassifiers(Instances instances) {
+
+    }
+
     public static void main(String[] args) throws Exception {
-        boolean user = true;
+        boolean user = false;
         List<String> labels = new ArrayList<>();
-        String PERMISSION;
+        String type;
         WekaUtils wekaUtils = new WekaUtils();
-        String mark = "RECORD_AUDIO"; //SEND_SMS";
+        String mark = "BLUETOOTH"; //Camera"; //READ_PHONE_STATE";// SEND_SMS";//RECORD_AUDIO";//Location"; //"; //RECORD_AUDIO"; //SEND_SMS";
         String pyWorkLoc = "D:\\workspace\\COSPOS_MINING";
+        boolean smote = false;
+        boolean attriSel = true;
+        int attNum = 500;
+        String smoteClass = "1";
+        int smotePercent = 230;
+        if (mark.startsWith("Camera")) {
+            smote = true;
+            smoteClass = "2";
+            smotePercent = 130;
+        } else if (mark.startsWith("REA")) {
+            smote = true;
+            smoteClass = "1";
+            smotePercent = 230;
+            attriSel = true;
+            attNum = 150;
+        } else if (mark.startsWith("SEN")) {
+            smote = true;
+            smoteClass = "1";
+            smotePercent = 830;
+            attriSel = true;
+        }
+
+
         List<List<LabelledDoc>> docsResutls = new ArrayList<>();
         if (!user) {
-            PERMISSION = "all"; //Location"; //READ_PHONE_STATE";
-            //Instances data = WekaUtils.loadArff();
+            type = "full"; //Location"; //READ_PHONE_STATE";
+            //Instances ata = WekaUtils.loadArff();
             //FilteredClassifier filteredClassifier = WekaUtils.buildClassifier(data);
             //System.out.println(filteredClassifier.getBatchSize());
 
             docsResutls.add(wekaUtils.getDocs(pyWorkLoc + "\\output\\gnd\\comp\\" + mark + "\\"
-                    + PERMISSION));// D:\\workspace\\COSPOS_MINING\\output\\gnd\\" + PERMISSION); //Location");
+                    + type));// D:\\workspace\\COSPOS_MINING\\output\\gnd\\" + PERMISSION); //Location");
             labels.add("T");
-            labels.add("D");
+            //labels.add("D");
             labels.add("F");
         } else {
-            PERMISSION = "users"; //READ_PHONE_STATE";
+            type = "users"; //READ_PHONE_STATE";
             for (int i = 0; i < 10; i++) {
                 int user_num = i;
                 mark = Integer.toString(user_num);
-                docsResutls.add(wekaUtils.getUserDocs(pyWorkLoc + "\\output\\gnd\\" + PERMISSION + "\\" + user_num)); //Location");
+                docsResutls.add(wekaUtils.getUserDocs(pyWorkLoc + "\\output\\gnd\\" + type + "\\" + user_num)); //Location");
             }
             labels = new ArrayList<>();
             labels.add("T");
@@ -516,22 +567,30 @@ public class WekaUtils {
             StringToWordVector stringToWordVector = getWordFilter(instances, false);
 
             instances = Filter.useFilter(instances, stringToWordVector);
-            createArff(instances, PERMISSION + "_" + mark + ".arff");
+            AttributeSelection attributeSelection = null;
+
+            if (attriSel) {
+                attributeSelection = getAttributeSelector(instances, attNum);
+                instances = attributeSelection.reduceDimensionality(instances);
+            }
+
+            createArff(instances, type + "_" + mark + ".arff");
         /*PrintWriter out = new PrintWriter(PERMISSION + "_" + mark + ".arff");
         out.print(instances.toString());
         out.close();*/
-            weka.core.SerializationHelper.write(PERMISSION + "_" + mark + ".filter", stringToWordVector);
-            if (!user) {
-                instances = WekaUtils.overSampling(instances, "1", 250);
+            weka.core.SerializationHelper.write(type + "_" + mark + ".filter", stringToWordVector);
+            if (!user && smote) {
+                instances = WekaUtils.overSampling(instances, smoteClass, smotePercent); //250);
                 System.out.println(instances.numInstances());
-                instances = WekaUtils.overSampling(instances, "2", 150);
-                System.out.println(instances.numInstances());
+                //instances = WekaUtils.overSampling(instances, "2", 150);
+                //System.out.println(instances.numInstances());
 
-                WekaUtils.createArff(instances, PERMISSION + "_" + mark + "_smote.arff");
+                WekaUtils.createArff(instances, type + "_" + mark + "_smote.arff");
             }
 
+
             // Evaluate classifier and print some statistics
-            Classifier classifier = buildClassifier(instances, PERMISSION, user);
+            Classifier classifier = buildClassifier(instances, type, true);
 
             try {
                 fmeasures.put(i, crossValidation(instances, classifier, 5));
@@ -546,7 +605,9 @@ public class WekaUtils {
                 Instances testInstances = docs2Instances(labelledTestDocs, labels);
 
                 testInstances = Filter.useFilter(testInstances, stringToWordVector);
-
+                if (attriSel) {
+                    testInstances = attributeSelection.reduceDimensionality(testInstances);
+                }
                 // Evaluate classifier and print some statistics
                 Evaluation eval = new Evaluation(instances);
                 eval.evaluateModel(classifier, testInstances);
@@ -580,3 +641,5 @@ public class WekaUtils {
         System.out.println("done!");
     }
 }
+
+

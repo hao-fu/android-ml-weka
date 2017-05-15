@@ -1,509 +1,358 @@
-@relation 'docs-weka.filters.unsupervised.attribute.StringToWordVector-R1-W10000-prune-rate-1.0-N0-stemmerweka.core.stemmers.NullStemmer-M1-tokenizerweka.core.tokenizers.WordTokenizer -delimiters \" \\r\\n\\t.,;:\\\'\\\"()?!\"'
+@relation 'docs-weka.filters.unsupervised.attribute.StringToWordVector-R1-W10000-prune-rate-1.0-N0-stemmerweka.core.stemmers.NullStemmer-M1-tokenizerweka.core.tokenizers.WordTokenizer -delimiters \" \\r\\n\\t.,;:\\\'\\\"()?!\"-weka.filters.unsupervised.attribute.Remove-V-R2,4,3,17,35,6,13,15-16,5,14,12,7,11,8-9,18,10,36,20-21,30-34,29,28,27,23,22,24,26,25,19,1'
 
-@attribute text_label {T,D,F}
-@attribute 1 numeric
-@attribute Button numeric
-@attribute ImageButton numeric
-@attribute ImageView numeric
-@attribute TextView numeric
-@attribute add numeric
+@attribute [ numeric
+@attribute ] numeric
+@attribute [] numeric
 @attribute android numeric
-@attribute audio numeric
-@attribute bar numeric
-@attribute btn numeric
-@attribute button numeric
-@attribute cancel numeric
-@attribute close numeric
-@attribute footer numeric
-@attribute icon numeric
-@attribute image numeric
-@attribute in numeric
-@attribute left numeric
-@attribute menu numeric
-@attribute microphone numeric
-@attribute mode numeric
-@attribute new numeric
-@attribute rec numeric
-@attribute record numeric
-@attribute remote numeric
-@attribute reset numeric
-@attribute session numeric
-@attribute share numeric
-@attribute speak numeric
-@attribute start numeric
-@attribute title numeric
-@attribute view numeric
-@attribute voice numeric
-@attribute vr numeric
-@attribute vrl numeric
 @attribute widget numeric
-@attribute LinearLayout numeric
-@attribute RelativeLayout numeric
-@attribute flash numeric
-@attribute go numeric
-@attribute goto numeric
-@attribute grid numeric
-@attribute home numeric
-@attribute l numeric
-@attribute ln numeric
-@attribute ok numeric
-@attribute rl numeric
-@attribute video numeric
-@attribute $ numeric
-@attribute EditText numeric
-@attribute GridView numeric
-@attribute HListView numeric
+@attribute AccountsActivity_Button_Done numeric
+@attribute TextView numeric
+@attribute activate_button numeric
+@attribute activity_enter_contact_$_textview_done numeric
+@attribute share_close numeric
 @attribute View numeric
-@attribute accounts numeric
-@attribute activate numeric
-@attribute activity numeric
-@attribute by numeric
-@attribute cb numeric
-@attribute com numeric
-@attribute contact numeric
-@attribute current numeric
-@attribute cy numeric
-@attribute d numeric
-@attribute discount numeric
-@attribute done numeric
-@attribute edit numeric
-@attribute enter numeric
-@attribute feeds numeric
-@attribute fi numeric
-@attribute field numeric
-@attribute gesture numeric
-@attribute hor numeric
-@attribute inputmethod numeric
-@attribute invite numeric
-@attribute latin numeric
-@attribute ler numeric
-@attribute list numeric
-@attribute lock numeric
-@attribute login numeric
-@attribute more numeric
-@attribute notification numeric
-@attribute percent numeric
-@attribute phone numeric
-@attribute price numeric
-@attribute pw numeric
-@attribute re numeric
+@attribute InviteContactByPhoneScreen_Button_Done numeric
+@attribute AccountsActivity_Button_Skip numeric
+@attribute HListView numeric
+@attribute Button numeric
+@attribute EditText numeric
+@attribute btnTest numeric
+@attribute GridView numeric
+@attribute wv_wifi numeric
+@attribute button_share numeric
+@attribute cbx_notification numeric
+@attribute recyler_feeds numeric
 @attribute save numeric
-@attribute screen numeric
 @attribute settings numeric
-@attribute skip numeric
-@attribute summary numeric
-@attribute test numeric
-@attribute text numeric
-@attribute theme numeric
-@attribute unlock numeric
-@attribute wi numeric
-@attribute wv numeric
-@attribute x numeric
+@attribute theme_hor_listview numeric
+@attribute view numeric
+@attribute latin numeric
+@attribute inputmethod numeric
+@attribute image numeric
+@attribute editFieldCurrentPrice numeric
+@attribute com numeric
+@attribute editFieldDiscountPercent numeric
+@attribute gridview numeric
+@attribute gesturepwd_unlock_lockview numeric
+@attribute btn_more numeric
+@attribute text_label {T,F}
 
 @data
-{0 D}
-{0 D}
-{0 D,7 1,36 1,37 1,39 1,44 1,45 1}
-{0 D}
-{0 D,4 1,7 1,16 1,20 1,36 1}
-{0 D}
-{0 D}
-{0 D}
-{0 D}
-{0 D}
-{0 D}
-{0 D}
-{0 D}
-{0 D}
-{0 D}
-{0 D}
-{0 D}
-{0 D}
-{0 D,4 1,7 1,36 1,40 1}
-{0 D}
-{0 D}
-{0 D}
-{0 D}
-{0 D,1 1,7 1,36 1,37 1,42 1}
-{0 D}
-{0 D,4 1,7 1,16 1,20 1,36 1}
-{0 D,4 1,7 1,16 1,20 1,36 1}
-{0 D}
-{0 D}
-{0 D,7 1,36 1,38 1,41 1,43 1,47 1,48 1}
-{0 D}
-{0 D}
-{0 D}
-{0 D}
-{0 D}
-{0 D}
-{0 D}
-{0 D}
-{0 D}
-{0 D}
-{0 D}
-{0 D}
-{0 D}
-{0 D}
-{0 D}
-{0 D}
-{0 D}
-{0 D}
-{0 D}
-{0 D}
-{0 D}
-{0 D}
-{0 D}
-{0 D,2 1,7 1,11 1,36 1,46 1}
-{0 D}
-{0 D}
-{0 D}
-{0 D}
-{0 D}
-{0 D,2 1,7 1,11 1,36 1,46 1}
-{0 D}
-{0 D}
-{0 D}
-{0 D}
-{0 D}
-{0 D}
-{0 D}
-{0 D}
-{0 D}
-{0 D,4 1,7 1,16 1,20 1,36 1}
-{0 D}
-{0 D}
-{0 D}
-{0 D,4 1,7 1,16 1,20 1,36 1}
-{0 D}
-{0 D}
-{0 F}
-{0 F}
-{0 F,5 1,7 1,32 1,36 1,49 1,56 1,60 1,65 1,67 1,93 1}
-{0 F}
-{0 F}
-{0 F}
-{0 F}
-{0 F}
-{0 F}
-{0 F,11 1,28 1}
-{0 F}
-{0 F}
-{0 F,7 1,32 1,52 1,59 1,72 1,73 1,75 1,77 1,89 1,94 1}
-{0 F,7 1,32 1,52 1,59 1,72 1,73 1,75 1,77 1,89 1,94 1}
-{0 F,7 1,32 1,52 1,59 1,72 1,73 1,75 1,77 1,89 1,94 1}
-{0 F}
-{0 F}
-{0 F}
-{0 F}
-{0 F}
-{0 F}
-{0 F}
-{0 F}
-{0 F}
-{0 F}
-{0 F}
-{0 F}
-{0 F,5 1,7 1,36 1,91 1}
-{0 F}
-{0 F}
-{0 F}
-{0 F}
-{0 F}
-{0 F}
-{0 F}
-{0 F}
-{0 F}
-{0 F}
-{0 F}
-{0 F}
-{0 F}
-{0 F}
-{0 F,11 1,57 1,60 1,65 1,74 1,83 1,88 1}
-{0 F}
-{0 F,11 1,54 1,56 1,90 1}
-{0 F,11 1,54 1,56 1,65 1}
-{0 F}
-{0 F}
-{0 F}
-{0 F}
-{0 F}
-{0 F}
-{0 F}
-{0 F}
-{0 F}
-{0 F}
-{0 F}
-{0 F}
-{0 F}
-{0 F}
-{0 F}
-{0 F}
-{0 F}
-{0 F}
-{0 F}
-{0 F}
-{0 F}
-{0 F}
-{0 F}
-{0 F,7 1,36 1,50 1,61 1,64 1,66 1,70 1,82 1,84 1}
-{0 F}
-{0 F}
-{0 F}
-{0 F}
-{0 F,87 1}
-{0 F}
-{0 F}
-{0 F}
-{0 F}
-{0 F}
-{0 F}
-{0 F}
-{0 F}
-{0 F}
-{0 F}
-{0 F}
-{0 F}
-{0 F}
-{0 F}
-{0 F}
-{0 F,10 1,80 1}
-{0 F,7 1,32 1,53 1,63 1,71 1,78 1,85 1,95 1}
-{0 F}
-{0 F}
-{0 F}
-{0 F}
-{0 F}
-{0 F}
-{0 F}
-{0 F}
-{0 F}
-{0 F,11 1,55 1}
-{0 F}
-{0 F}
-{0 F}
-{0 F}
-{0 F}
-{0 F}
-{0 F}
-{0 F}
-{0 F,11 1,46 1}
-{0 F}
-{0 F}
-{0 F}
-{0 F}
-{0 F}
-{0 F}
-{0 F}
-{0 F}
-{0 F}
-{0 F}
-{0 F}
-{0 F}
-{0 F}
-{0 F}
-{0 F}
-{0 F}
-{0 F}
-{0 F}
-{0 F}
-{0 F}
-{0 F}
-{0 F}
-{0 F}
-{0 F}
-{0 F}
-{0 F}
-{0 F,7 1,32 1,36 1,42 1,51 1}
-{0 F,7 1,32 1,36 1,42 1,51 1}
-{0 F,7 1,32 1,36 1,42 1,51 1}
-{0 F}
-{0 F}
-{0 F}
-{0 F}
-{0 F}
-{0 F}
-{0 F}
-{0 F}
-{0 F}
-{0 F}
-{0 F}
-{0 F}
-{0 F}
-{0 F}
-{0 F}
-{0 F}
-{0 F}
-{0 F}
-{0 F}
-{0 F}
-{0 F}
-{0 F}
-{0 F}
-{0 F}
-{0 F}
-{0 F}
-{0 F}
-{0 F}
-{0 F}
-{0 F}
-{0 F}
-{0 F}
-{0 F}
-{0 F}
-{0 F}
-{0 F}
-{0 F,62 1,68 1,76 1,86 1}
-{0 F}
-{0 F}
-{0 F,16 1}
-{0 F,16 1}
-{0 F,16 1}
-{0 F}
-{0 F}
-{0 F}
-{0 F}
-{0 F}
-{0 F}
-{0 F}
-{0 F}
-{0 F}
-{0 F}
-{0 F,2 1,7 1,10 1,36 1,92 1}
-{0 F}
-{0 F}
-{0 F}
-{0 F}
-{0 F}
-{0 F}
-{0 F}
-{0 F}
-{0 F}
-{0 F}
-{0 F}
-{0 F}
-{0 F}
-{0 F}
-{0 F}
-{0 F}
-{0 F}
-{0 F}
-{0 F}
-{0 F}
-{0 F}
-{0 F}
-{0 F}
-{0 F}
-{0 F}
-{0 F}
-{0 F}
-{0 F}
-{0 F}
-{0 F}
-{0 F}
-{0 F}
-{0 F}
-{0 F}
-{0 F}
-{0 F}
-{0 F}
-{0 F}
-{0 F,2 1,7 1,11 1,36 1,79 1}
-{0 F}
-{0 F}
-{0 F}
-{0 F}
-{0 F}
-{0 F}
-{0 F}
-{0 F}
-{0 F}
-{0 F}
-{0 F}
-{0 F}
-{0 F}
-{0 F}
-{0 F}
-{0 F,4 1,7 1,16 1,32 1,36 1,43 1}
-{0 F}
-{0 F,4 1,7 1,16 1,32 1,36 1,43 1}
-{0 F}
-{0 F}
-{0 F}
-{0 F}
-{0 F,69 1,96 1,97 1}
-{0 F}
-{0 F}
-{0 F}
-{0 F}
-{0 F}
-{0 F}
-{0 F}
-{0 F}
-{0 F}
-{0 F}
-{0 F}
-{0 F,58 1,81 1,98 1}
-{0 F}
-{0 F}
-{0 F}
-{0 F}
-{0 F}
-{0 F}
-{0 F}
-{1 1,4 1,7 1,16 1,32 1,36 1}
-{2 1,7 1,10 1,30 1,36 1}
-{}
-{2 1,7 1,10 1,30 1,36 1}
-{2 1,7 1,10 1,30 1,36 1}
-{}
-{2 1,7 1,10 1,30 1,36 1}
-{3 1,7 1,11 1,24 1,36 1}
-{3 1,7 1,11 1,24 1,36 1}
-{}
-{2 1,7 1,11 1,34 1,36 1}
-{14 1,17 1,27 1}
-{14 1,17 1,27 1}
-{9 1,17 1,27 1,31 1}
-{9 1,17 1,27 1,31 1}
-{13 1,28 1}
-{3 1,7 1,11 1,29 1,36 1}
-{}
-{}
-{3 1,7 1,11 1,24 1,36 1}
-{4 1,7 1,16 1,20 1,36 1}
-{4 1,7 1,16 1,20 1,36 1}
-{3 1,6 1,7 1,11 1,22 1,36 1}
-{3 1,6 1,7 1,11 1,22 1,36 1}
-{}
-{}
-{3 1,7 1,25 1,33 1,36 1}
-{3 1,7 1,11 1,24 1,35 1,36 1}
-{}
-{3 1,7 1,11 1,24 1,35 1,36 1}
-{3 1,7 1,11 1,24 1,35 1,36 1}
-{3 1,7 1,11 1,24 1,35 1,36 1}
-{}
-{5 1,7 1,12 1,19 1,35 1,36 1}
-{5 1,7 1,12 1,19 1,35 1,36 1}
-{}
-{3 1,7 1,11 1,24 1,35 1,36 1}
-{3 1,7 1,11 1,24 1,35 1,36 1}
-{3 1,7 1,11 1,24 1,35 1,36 1}
-{3 1,7 1,11 1,24 1,35 1,36 1}
-{}
-{3 1,7 1,11 1,23 1,36 1}
-{3 1,7 1,8 1,15 1,21 1,36 1}
-{2 1,7 1,24 1,36 1}
-{4 1,7 1,16 1,20 1,36 1}
-{2 1,7 1,11 1,26 1,36 1}
-{3 1,7 1,11 1,18 1,24 1,36 1}
-{3 1,7 1,11 1,18 1,24 1,36 1}
-{4 1,7 1,16 1,20 1,36 1}
-{2 1,7 1,10 1,30 1,36 1}
-{2 1,7 1,24 1,36 1}
-{4 1,7 1,16 1,20 1,36 1}
-{}
-{}
-{2 1,7 1,11 1,30 1,36 1}
-{}
+{2 1,35 F}
+{2 1,35 F}
+{0 1,1 1,3 1,4 1,6 1,8 1,35 F}
+{2 1,35 F}
+{2 1,35 F}
+{2 1,35 F}
+{2 1,35 F}
+{2 1,35 F}
+{2 1,35 F}
+{0 1,1 1,19 1,35 F}
+{2 1,35 F}
+{2 1,35 F}
+{0 1,1 1,3 1,13 1,23 1,24 1,26 1,27 1,30 1,35 F}
+{0 1,1 1,3 1,13 1,23 1,24 1,26 1,27 1,30 1,35 F}
+{0 1,1 1,3 1,13 1,23 1,24 1,26 1,27 1,30 1,35 F}
+{2 1,35 F}
+{2 1,35 F}
+{2 1,35 F}
+{2 1,35 F}
+{2 1,35 F}
+{2 1,35 F}
+{2 1,35 F}
+{2 1,35 F}
+{2 1,35 F}
+{2 1,35 F}
+{2 1,35 F}
+{2 1,35 F}
+{2 1,35 F}
+{2 1,35 F}
+{2 1,35 F}
+{0 1,1 1,11 1,35 F}
+{2 1,35 F}
+{0 1,1 1,12 1,35 F}
+{0 1,1 1,5 1,35 F}
+{2 1,35 F}
+{2 1,35 F}
+{2 1,35 F}
+{2 1,35 F}
+{2 1,35 F}
+{2 1,35 F}
+{2 1,35 F}
+{2 1,35 F}
+{2 1,35 F}
+{2 1,35 F}
+{2 1,35 F}
+{2 1,35 F}
+{2 1,35 F}
+{2 1,35 F}
+{2 1,35 F}
+{2 1,35 F}
+{2 1,35 F}
+{2 1,35 F}
+{2 1,35 F}
+{2 1,35 F}
+{2 1,35 F}
+{2 1,35 F}
+{2 1,35 F}
+{0 1,1 1,3 1,4 1,15 1,29 1,31 1,35 F}
+{2 1,35 F}
+{2 1,35 F}
+{2 1,35 F}
+{2 1,35 F}
+{0 1,1 1,22 1,35 F}
+{2 1,35 F}
+{2 1,35 F}
+{2 1,35 F}
+{2 1,35 F}
+{2 1,35 F}
+{2 1,35 F}
+{2 1,35 F}
+{2 1,35 F}
+{2 1,35 F}
+{2 1,35 F}
+{2 1,35 F}
+{2 1,35 F}
+{0 1,1 1,34 1,35 F}
+{0 1,1 1,3 1,10 1,25 1,33 1,35 F}
+{2 1,35 F}
+{2 1,35 F}
+{2 1,35 F}
+{2 1,35 F}
+{2 1,35 F}
+{0 1,1 1,7 1,35 F}
+{2 1,35 F}
+{2 1,35 F}
+{2 1,35 F}
+{2 1,35 F}
+{2 1,35 F}
+{2 1,35 F}
+{2 1,35 F}
+{2 1,35 F}
+{2 1,35 F}
+{2 1,35 F}
+{2 1,35 F}
+{2 1,35 F}
+{2 1,35 F}
+{2 1,35 F}
+{2 1,35 F}
+{2 1,35 F}
+{2 1,35 F}
+{0 1,1 1,3 1,4 1,17 1,32 1,35 F}
+{0 1,1 1,3 1,4 1,17 1,32 1,35 F}
+{0 1,1 1,3 1,4 1,17 1,32 1,35 F}
+{2 1,35 F}
+{2 1,35 F}
+{2 1,35 F}
+{2 1,35 F}
+{2 1,35 F}
+{2 1,35 F}
+{2 1,35 F}
+{2 1,35 F}
+{2 1,35 F}
+{2 1,35 F}
+{2 1,35 F}
+{2 1,35 F}
+{2 1,35 F}
+{2 1,35 F}
+{2 1,35 F}
+{2 1,35 F}
+{2 1,35 F}
+{2 1,35 F}
+{2 1,35 F}
+{2 1,35 F}
+{2 1,35 F}
+{2 1,35 F}
+{2 1,35 F}
+{2 1,35 F}
+{2 1,35 F}
+{2 1,35 F}
+{2 1,35 F}
+{2 1,35 F}
+{2 1,35 F}
+{2 1,35 F}
+{2 1,35 F}
+{2 1,35 F}
+{2 1,35 F}
+{0 1,1 1,21 1,35 F}
+{2 1,35 F}
+{2 1,35 F}
+{0 1,1 1,28 1,35 F}
+{0 1,1 1,28 1,35 F}
+{0 1,1 1,28 1,35 F}
+{2 1,35 F}
+{2 1,35 F}
+{2 1,35 F}
+{2 1,35 F}
+{2 1,35 F}
+{2 1,35 F}
+{2 1,35 F}
+{2 1,35 F}
+{2 1,35 F}
+{2 1,35 F}
+{0 1,1 1,3 1,4 1,14 1,16 1,35 F}
+{2 1,35 F}
+{2 1,35 F}
+{2 1,35 F}
+{2 1,35 F}
+{2 1,35 F}
+{2 1,35 F}
+{2 1,35 F}
+{2 1,35 F}
+{2 1,35 F}
+{2 1,35 F}
+{2 1,35 F}
+{2 1,35 F}
+{2 1,35 F}
+{2 1,35 F}
+{2 1,35 F}
+{2 1,35 F}
+{2 1,35 F}
+{2 1,35 F}
+{2 1,35 F}
+{2 1,35 F}
+{2 1,35 F}
+{2 1,35 F}
+{2 1,35 F}
+{2 1,35 F}
+{2 1,35 F}
+{2 1,35 F}
+{2 1,35 F}
+{2 1,35 F}
+{2 1,35 F}
+{2 1,35 F}
+{2 1,35 F}
+{2 1,35 F}
+{2 1,35 F}
+{2 1,35 F}
+{2 1,35 F}
+{2 1,35 F}
+{2 1,35 F}
+{2 1,35 F}
+{2 1,35 F}
+{2 1,35 F}
+{2 1,35 F}
+{2 1,35 F}
+{2 1,35 F}
+{2 1,35 F}
+{2 1,35 F}
+{2 1,35 F}
+{2 1,35 F}
+{2 1,35 F}
+{2 1,35 F}
+{2 1,35 F}
+{2 1,35 F}
+{2 1,35 F}
+{2 1,35 F}
+{2 1,35 F}
+{2 1,35 F}
+{2 1,35 F}
+{0 1,1 1,18 1,35 F}
+{2 1,35 F}
+{2 1,35 F}
+{2 1,35 F}
+{2 1,35 F}
+{2 1,35 F}
+{2 1,35 F}
+{2 1,35 F}
+{2 1,35 F}
+{2 1,35 F}
+{2 1,35 F}
+{0 1,1 1,20 1,35 F}
+{2 1,35 F}
+{2 1,35 F}
+{2 1,35 F}
+{2 1,35 F}
+{2 1,35 F}
+{2 1,35 F}
+{2 1,35 F}
+{2 1}
+{2 1}
+{2 1}
+{2 1}
+{2 1}
+{2 1}
+{2 1}
+{2 1}
+{2 1}
+{2 1}
+{2 1}
+{2 1}
+{2 1}
+{2 1}
+{2 1}
+{2 1}
+{2 1}
+{2 1}
+{2 1}
+{2 1}
+{2 1}
+{2 1}
+{2 1}
+{0 1,1 1,9 1}
+{2 1}
+{2 1}
+{2 1}
+{2 1}
+{2 1}
+{2 1}
+{2 1}
+{2 1}
+{2 1}
+{2 1}
+{2 1}
+{2 1}
+{2 1}
+{2 1}
+{2 1}
+{2 1}
+{2 1}
+{2 1}
+{2 1}
+{2 1}
+{2 1}
+{2 1}
+{2 1}
+{2 1}
+{2 1}
+{2 1}
+{2 1}
+{2 1}
+{2 1}
+{2 1}
+{2 1}
+{2 1}
+{2 1}
+{2 1}
+{2 1}
+{2 1}
+{2 1}
+{2 1}
+{2 1}
+{2 1}
+{2 1}
+{2 1}
+{2 1}
+{2 1}
+{2 1}
+{2 1}
+{2 1}
+{2 1}
+{2 1}
+{2 1}
+{2 1}
+{2 1}
+{2 1}
+{2 1}
+{2 1}
+{2 1}
+{2 1}
+{2 1}
+{2 1}
+{2 1}
+{2 1}
+{2 1}
+{2 1}
+{2 1}
+{2 1}
+{2 1}
