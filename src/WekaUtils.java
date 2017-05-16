@@ -1,10 +1,15 @@
 import javafx.util.Pair;
 import weka.attributeSelection.*;
 import weka.classifiers.Classifier;
+import weka.classifiers.UpdateableClassifier;
 import weka.classifiers.bayes.NaiveBayes;
 import weka.classifiers.bayes.NaiveBayesMultinomial;
 import weka.classifiers.bayes.NaiveBayesMultinomialUpdateable;
+import weka.classifiers.functions.SGD;
 import weka.classifiers.functions.SMO;
+import weka.classifiers.lazy.IBk;
+import weka.classifiers.lazy.KStar;
+import weka.classifiers.lazy.LWL;
 import weka.classifiers.meta.AttributeSelectedClassifier;
 import weka.classifiers.meta.FilteredClassifier;
 import weka.classifiers.trees.HoeffdingTree;
@@ -59,8 +64,8 @@ public class WekaUtils {
         }
     }
 
-    public static Instances loadArff() throws Exception {
-        DataSource source = new DataSource("D:\\workspace\\COSPOS_MINING\\output\\gnd\\Test\\train_data.arff");
+    public static Instances loadArff(String filePath) throws Exception {
+        DataSource source = new DataSource(filePath);
         Instances data = source.getDataSet();
         // setting class attribute if the data format does not provide this information
         // For example, the XRFF format saves the class attribute information as well
@@ -128,8 +133,11 @@ public class WekaUtils {
         //HoeffdingTree classifier = new HoeffdingTree();
         Classifier classifier;
         if (updateable) {
-            classifier = new HoeffdingTree();
-            //classifier = new NaiveBayesMultinomialUpdateable();
+            SGD sgd = new SGD();
+            sgd.setLossFunction(new SelectedTag(SGD.LOGLOSS, SGD.TAGS_SELECTION));
+            //sgd.setLossFunction(new SelectedTag(SGD.HINGE, SGD.TAGS_SELECTION));
+            classifier = sgd; //new KStar(); //SGD(); //IBk(); //; //NaiveBayesMultinomial(); //LWL();//;//; //SGD(); //HoeffdingTree();
+            //classifier = new HoeffdingTree();//NaiveBayesMultinomialUpdateable();
         } else {
             classifier = new SMO();
         }
@@ -207,6 +215,22 @@ public class WekaUtils {
         return data;
     }
 
+
+
+    public static Instance doc2Instance(LabelledDoc doc, List<String> labels) throws Exception {
+        ArrayList<LabelledDoc> docs = new ArrayList<>();
+        docs.add(doc);
+
+        return docs2Instances(docs, labels).get(0);
+    }
+
+    public static Instance genInstanceForUpdateable(LabelledDoc doc, List<String> labels, StringToWordVector stringToWordVector) throws Exception {
+        ArrayList<LabelledDoc> docs = new ArrayList<>();
+        docs.add(doc);
+        return Filter.useFilter(docs2Instances(docs, labels), stringToWordVector).get(0);
+
+    }
+
     public static Instances docs2Instances(List<String> docs) {
         ArrayList<Attribute> atts = new ArrayList<>();
 
@@ -231,6 +255,13 @@ public class WekaUtils {
         return data;
     }
 
+    public static String predict(String doc, StringToWordVector stringToWordVector, Classifier classifier, Attribute classAttribute)
+        throws Exception {
+        List<String> docs = new ArrayList<>();
+        docs.add(doc);
+        return predict(docs, stringToWordVector, classifier, classAttribute).get(0);
+    }
+
     public static List<String> predict(List<String> docs, StringToWordVector stringToWordVector,
                                        Classifier classifier, Attribute classAttribute) throws Exception {
         Instances unlabelledInstances = docs2Instances(docs);
@@ -252,7 +283,7 @@ public class WekaUtils {
 
             //output predictions
             for (int i = 0; i < prediction.length; i++) {
-                System.out.println("Probability of class " +
+                System.out.println("Probability of class " + i +
                         classAttribute.value(i) +
                         " : " + Double.toString(prediction[i]));
             }
@@ -447,9 +478,9 @@ public class WekaUtils {
         return filteredClassifier;
     }
 
-    public static FilteredClassifier loadClassifier(File file) throws Exception {
+    public static Classifier loadClassifier(File file) throws Exception {
         FileInputStream fileInputStream = new FileInputStream(file);
-        return (FilteredClassifier) SerializationHelper.read(fileInputStream);
+        return (Classifier) SerializationHelper.read(fileInputStream);
     }
 
     public static StringToWordVector loadStr2WordVec(File file) throws Exception {
@@ -494,16 +525,12 @@ public class WekaUtils {
         return data;
     }
 
-    public static void evalClassifiers(Instances instances) {
-
-    }
-
-    public static void main(String[] args) throws Exception {
+    public static void eval1() throws Exception {
         boolean user = false;
         List<String> labels = new ArrayList<>();
         String type;
         WekaUtils wekaUtils = new WekaUtils();
-        String mark = "BLUETOOTH"; //Camera"; //READ_PHONE_STATE";// SEND_SMS";//RECORD_AUDIO";//Location"; //"; //RECORD_AUDIO"; //SEND_SMS";
+        String mark = "Location";//RECORD_AUDI";//Camera"; //READ_PHONE_STATE";//SEND_SMS";//BLUETOOTH";//Location";//";//NFC"; //";//"; Camera"; //"; //"; //Location"; //; ";//Location"; //"; //"; //SEND_SMS";
         String pyWorkLoc = "D:\\workspace\\COSPOS_MINING";
         boolean smote = false;
         boolean attriSel = true;
@@ -519,12 +546,23 @@ public class WekaUtils {
             smoteClass = "1";
             smotePercent = 230;
             attriSel = true;
-            attNum = 150;
+            attNum = 100;
         } else if (mark.startsWith("SEN")) {
             smote = true;
             smoteClass = "1";
             smotePercent = 830;
             attriSel = true;
+        } else if (mark.startsWith("Location")) {
+            //smote = true;
+            //smoteClass = "1";
+            //smotePercent = 130;
+            attriSel = false;
+        } else if (mark.startsWith("REC")) {
+            //smote = true;
+            //smoteClass = "1";
+            //smotePercent = 80;
+            //attriSel = false;
+            attNum = 500;
         }
 
 
@@ -623,6 +661,146 @@ public class WekaUtils {
             // save2Arff(testInstances, "test_bag");
         }
 
+
+    }
+
+
+
+
+
+    public static void main(String[] args) throws Exception {
+        //eval1();
+
+
+            UpdateableClassifier classifier = (UpdateableClassifier) loadClassifier(new File("full.model"));
+            StringToWordVector stringToWordVector = loadStr2WordVec(new File("full_location.filter"));
+            Instances instances = loadArff("full_Location.arff");
+            WekaUtils wekaUtils = new WekaUtils();
+
+        List<String> labels = new ArrayList<>();
+        labels.add("T");
+        labels.add("F");
+        List<List<LabelledDoc>> docsResutls = new ArrayList<>();
+        String mark = null;
+        String pyWorkLoc = "D:\\workspace\\COSPOS_MINING";
+        String type = "users";
+
+        for (int i = 0; i < 26; i++) {
+            int user_num = i;
+            mark = Integer.toString(user_num);
+            docsResutls.add(wekaUtils.getUserDocs(pyWorkLoc + "\\output\\gnd\\" + type + "\\" + user_num)); //Location");
+        }
+
+        boolean update = true;
+        Map<Integer, Double> fmeasures = new HashMap<>();
+
+        for (int i = 5; i < docsResutls.size(); i++) {
+            List<LabelledDoc> labelledDocs = docsResutls.get(i);
+            if (labelledDocs.size() < 10) {
+                continue;
+            }
+
+            Double splitD =   labelledDocs.size() * 0.5;
+            int split = splitD.intValue();
+
+            Set<LabelledDoc> Tset = new HashSet<>();
+            Set<LabelledDoc> Fset = new HashSet<>();
+            List<LabelledDoc> trainSet = new ArrayList<>();
+            List<LabelledDoc> testSet = new ArrayList<>();
+            int Tcount = 0;
+            int Fcount = 0;
+
+            for (LabelledDoc labelledDoc : labelledDocs) {
+                if (labelledDoc.getLabel().equals("T")) {
+                    Tset.add(labelledDoc);
+                } else {
+                    Fset.add(labelledDoc);
+                }
+            }
+
+            int Tsize = Tset.size() / 2;
+            int Fsize = Fset.size() / 2;
+            for (LabelledDoc labelledDoc : labelledDocs) {
+                if (labelledDoc.getLabel().equals("T")) {
+                    Tset.add(labelledDoc);
+                    Tcount++;
+                    if (Tcount < Tsize) {
+                        trainSet.add(labelledDoc);
+                    }
+                } else {
+                    Fset.add(labelledDoc);
+                    Fcount++;
+                    if (Fcount < Fsize) {
+                        trainSet.add(labelledDoc);
+                    }
+                }
+            }
+
+            for (LabelledDoc labelledDoc : labelledDocs) {
+               if (!trainSet.contains(labelledDoc)) {
+                   if (trainSet.size() < split) {
+                       trainSet.add(labelledDoc);
+                   } else {
+                       testSet.add(labelledDoc);
+                   }
+               }
+            }
+
+
+            if (update) {
+                for (LabelledDoc labelledDoc : trainSet) {
+                    Instance instance = genInstanceForUpdateable(labelledDoc, labels, stringToWordVector);
+
+                    for (int k = 0; k < 5; k++) {
+                        classifier.updateClassifier(instance);
+                    }
+                }
+            }
+
+            int wrong = 0;
+            if (split == labelledDocs.size()) {
+                split = -1;
+            }
+            Instances testInstances = docs2Instances(testSet, labels);
+            testInstances = Filter.useFilter(testInstances, stringToWordVector);
+            Evaluation eval = new Evaluation(testInstances);
+            eval.evaluateModel((Classifier) classifier, testInstances);
+            eval.weightedPrecision();
+            eval.weightedRecall();
+            System.out.println(eval.toSummaryString("\nResults\n======\n", false));
+            System.out.println(eval.toClassDetailsString());
+            System.out.println(eval.toMatrixString());
+            boolean showDetail = false;
+            if (showDetail) {
+                for (LabelledDoc labelledDoc : testSet) {
+
+                    System.out.println(labelledDoc.getLabel() + ": " + labelledDoc.getDoc());
+                    String result = predict(labelledDoc.getDoc(), stringToWordVector, (Classifier) classifier, instances.classAttribute());
+                    System.out.println(result);
+                    if (result.equals("1.0")) {
+                        result = "F";
+                    } else {
+                        result = "T";
+                    }
+
+                    if (!labelledDoc.getLabel().equals(result)) {
+                        wrong++;
+                        //System.out.println(labelledDoc.getLabel() + ": " + labelledDoc.getDoc());
+                        //System.out.println(result);
+                    }
+                }
+
+
+
+                System.out.println(((float) (testSet.size() - wrong)) / testSet.size());
+            }
+
+
+            System.out.println(labelledDocs.size() + ", " + Tset.size() + "," + Fset.size() + "," + testSet.size());
+            break;
+        }
+
+        /*
         PrintWriter pw = new PrintWriter(new File("results.csv"));
         StringBuilder sb = new StringBuilder();
         sb.append("id");
@@ -638,8 +816,26 @@ public class WekaUtils {
         }
         pw.write(sb.toString());
         pw.close();
-        System.out.println("done!");
-    }
+        System.out.println("done!");*/
+
+
+        boolean prediction = false;
+            if (prediction) {
+
+
+                List<String> unlabelledDocs = new ArrayList<>();
+                unlabelledDocs.add("weather");
+                unlabelledDocs.add("map");
+                predict(unlabelledDocs, stringToWordVector, (Classifier) classifier, instances.classAttribute());
+            }
+            // save2Arff(instances, "data_bag");
+            // save2Arff(testInstances, "test_bag");
+
+
+        }
+
+
+
 }
 
 

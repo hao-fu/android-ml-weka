@@ -1,1968 +1,800 @@
-@relation 'docs-weka.filters.unsupervised.attribute.StringToWordVector-R1-W10000-prune-rate-1.0-N0-stemmerweka.core.stemmers.NullStemmer-M1-tokenizerweka.core.tokenizers.WordTokenizer -delimiters \" \\r\\n\\t.,;:\\\'\\\"()?!\"'
+@relation 'docs-weka.filters.unsupervised.attribute.StringToWordVector-R1-W10000-prune-rate-1.0-N0-stemmerweka.core.stemmers.NullStemmer-M1-tokenizerweka.core.tokenizers.WordTokenizer -delimiters \" \\r\\n\\t.,;:\\\'\\\"()?!\"-weka.filters.unsupervised.attribute.Remove-V-R994,373,1176,1105,656,378,123,1218,992,1609,1458,1563,1447,1428,1041,990,1440,989,915,923,1533,940,929,1199,957,1047,956,944,1045,1441,1057,1112,1290,1124,1264,1289,1287,1278,1273,1134,1277,1120,1261,1058,1103,1408,1410-1411,1397,1076,1389,1347,1174,1253,1060,1003,1659,1623,1663,9,11,826,288,232,958,23,603,193,62,376,122,1339,1184,616,114,635,1062,1054,1418,1066,1409,1064,1056,1406,1178,1067,1399,1385,1384,1383,1382,1381,1386,1175,1649,1177,1052,1072,1074,1073,1053,1425,1186,1033,1019,1027,1031,1448,1032,1455,1018,1457,1462,1242,1461,1190,1460,1445,1189,1049,1213,1637-1638,1379,1639,1048,1044,1430-1431,1035,1439,1436,1042,1039,1380,1373,1378,1324,1321,1320,1318,1106,1311,1101,1100,1377,1099,1333,1332,1095,1097-1098,1309,1108-1109,1262,1130,1666,1142,1271,1270,1129,1127,1661,1299,1302,1298,1292,1123,1334-1336,1362,1368,1367,1366,1365,1364,1369-1371,1375-1376,1374,1372,1012,1363,1361,1259,1360,1349,1348,1256,1092,1338,1350-1352,1358-1359,1357,1167,1650,1013,1268,1010,1536,1534,1538,1537,1541,1228,1005,1225,1542,922,947,1197,1507,1506,1627,1198,1626,948,951,954-955,1548,905,1553,875,880,1575,1215,1583,1211,1615,1599,1584,881,884,1216,1558,1557,1217,1559-1560,1220,1219,1617,1231,909,1233,1195,1473,1472,995,998,996,1477,970,981,1490,987,1479,988,1494,1194,968,965,1498,969,1146,966,713,334,1607,615,838,1514,916,345,126,648,186,545,810,1595,14,462,184,1314,1312,1283,1133,1342,1622,398,761,832,1164,1089,946,935,1505,1346,975,920,1589,1443,950,1654,1037,1237,1226,1135,1279,1618,1600,997,1061,1315,381,695,836,1300,1450,115,476,1597,1128,1501,1115,1325,1241,917,903,918,898,1535,1205,1085,799,411,468,763,658,265,1114,1079,907,1238,1608,945,1222,1580,874,1236,26,428,352,568,570,175,653,441,361,492,409,450,234,363,102,297,393,437,678,585,190,513,712,828,300,660,756,166,498,601,743,547,662,715,1185,1156,1147,1187,1150,1196,1193,1206-1207,1151,1669,1145,961,959,943,938,960,963,979,973,977,976,974,934,912,910,906,886,885,872,887,893,897,902,901,900,978,984,1125,1093,1090,1088,1087,1091,1096,1002,1104,1122,1119,1117,1086,1084,1080,1075,1034,1016,1015,1046,1050,1063,1071,1070,1068,1212,1094,1214,1551,1554,1313,1555,1552,1550,1561,1549,1545-1547,1556,1306,1258,1592,1266,1596,1263,1269,1272,1301,1578,1567,1288,1284,1329,1331,1544,1476,1407,1504,1404,1416,1475,1340,1474,1464,1451,1471,1512,1515,1522,1'
 
-@attribute text_label {T,F}
-@attribute $ numeric
-@attribute $0 numeric
-@attribute '\%' numeric
-@attribute & numeric
-@attribute *Take numeric
-@attribute + numeric
-@attribute +1 numeric
-@attribute - numeric
-@attribute --° numeric
-@attribute 0 numeric
-@attribute 00 numeric
-@attribute 0000 numeric
-@attribute 1 numeric
-@attribute 1234 numeric
-@attribute 13 numeric
-@attribute 14 numeric
-@attribute 15 numeric
-@attribute 2 numeric
-@attribute 200 numeric
-@attribute 28/03/2014 numeric
-@attribute 299° numeric
-@attribute 3 numeric
-@attribute 30C numeric
-@attribute 37 numeric
-@attribute 4 numeric
-@attribute 5678 numeric
-@attribute 88°/120° numeric
-@attribute 9 numeric
-@attribute '99\%' numeric
-@attribute Ace numeric
-@attribute Age numeric
-@attribute Align numeric
-@attribute Allow numeric
-@attribute An numeric
-@attribute App numeric
-@attribute Application numeric
-@attribute Austin numeric
-@attribute Authentication numeric
-@attribute Auto numeric
-@attribute Automatic numeric
-@attribute B numeric
-@attribute BACK numeric
-@attribute BTNotication numeric
-@attribute Back numeric
-@attribute Barcode numeric
-@attribute Bitcoin numeric
-@attribute Blink numeric
-@attribute Blinks numeric
-@attribute Book numeric
-@attribute CHECK numeric
-@attribute CLEANER numeric
-@attribute Call numeric
-@attribute Camera numeric
-@attribute Cancel numeric
-@attribute Capture numeric
-@attribute Card numeric
-@attribute Center numeric
-@attribute Check numeric
-@attribute Chic numeric
-@attribute Chinese numeric
-@attribute Choose numeric
-@attribute Cleaner numeric
-@attribute Click numeric
-@attribute Close numeric
-@attribute Code numeric
-@attribute Collage numeric
-@attribute Color numeric
-@attribute Computer numeric
-@attribute Condition numeric
-@attribute Connect numeric
-@attribute Connecting numeric
-@attribute Contents numeric
-@attribute Create numeric
-@attribute Current numeric
-@attribute DEPOSIT numeric
-@attribute DIY numeric
-@attribute Data numeric
-@attribute Dear numeric
-@attribute Details numeric
-@attribute Digimarc numeric
-@attribute Dismiss numeric
-@attribute Does numeric
-@attribute Done numeric
-@attribute Email numeric
-@attribute Enable numeric
-@attribute Encode numeric
-@attribute English numeric
-@attribute Enter numeric
-@attribute Error numeric
-@attribute Exit numeric
-@attribute Explore numeric
-@attribute FLASH numeric
-@attribute FOR numeric
-@attribute Face numeric
-@attribute Features numeric
-@attribute Finish numeric
-@attribute Flash numeric
-@attribute FlashLight numeric
-@attribute Flashlight numeric
-@attribute Flip numeric
-@attribute For numeric
-@attribute Frame numeric
-@attribute Fridge numeric
-@attribute Front numeric
-@attribute Futbol numeric
-@attribute Galaxy numeric
-@attribute Gallery numeric
-@attribute Garonne numeric
-@attribute Gender numeric
-@attribute Geotagging numeric
-@attribute Get numeric
-@attribute Glam numeric
-@attribute Go numeric
-@attribute Google numeric
-@attribute Guest numeric
-@attribute HTC numeric
-@attribute Heart numeric
-@attribute Help numeric
-@attribute Highlight numeric
-@attribute History numeric
-@attribute Home numeric
-@attribute I numeric
-@attribute If numeric
-@attribute Include numeric
-@attribute Incoming numeric
-@attribute Input numeric
-@attribute Install numeric
-@attribute Instead numeric
-@attribute Internal numeric
-@attribute Inventory numeric
-@attribute Japanese numeric
-@attribute Km/h numeric
-@attribute Korean numeric
-@attribute LED numeric
-@attribute LIGHT numeric
-@attribute LIGHTS numeric
-@attribute LUCKY numeric
-@attribute Leads numeric
-@attribute Light numeric
-@attribute Loading numeric
-@attribute Locate numeric
-@attribute Location numeric
-@attribute Log numeric
-@attribute Logging numeric
-@attribute M numeric
-@attribute Make numeric
-@attribute Membership numeric
-@attribute Missed numeric
-@attribute Mobile numeric
-@attribute Mode numeric
-@attribute Mon numeric
-@attribute Monitor numeric
-@attribute Morse numeric
-@attribute Motorola numeric
-@attribute Movie numeric
-@attribute NW numeric
-@attribute News numeric
-@attribute No numeric
-@attribute None numeric
-@attribute Normal numeric
-@attribute Not numeric
-@attribute Notification numeric
-@attribute Number numeric
-@attribute OF numeric
-@attribute OK numeric
-@attribute ON numeric
-@attribute ONLY numeric
-@attribute OSD numeric
-@attribute Off numeric
-@attribute Okay numeric
-@attribute On numeric
-@attribute OnQrCodeClick numeric
-@attribute Online numeric
-@attribute Open numeric
-@attribute PC numeric
-@attribute PHOTO numeric
-@attribute POWER numeric
-@attribute Percent numeric
-@attribute Phone numeric
-@attribute Photo numeric
-@attribute Photos numeric
-@attribute Picture numeric
-@attribute Place numeric
-@attribute Planner numeric
-@attribute Play numeric
-@attribute Playback numeric
-@attribute Please numeric
-@attribute Point numeric
-@attribute Policy numeric
-@attribute Position numeric
-@attribute Prescription numeric
-@attribute Press numeric
-@attribute Preview numeric
-@attribute Product numeric
-@attribute Proof numeric
-@attribute Q numeric
-@attribute QR numeric
-@attribute QrCode numeric
-@attribute RESET numeric
-@attribute Raider numeric
-@attribute Rate numeric
-@attribute Raw numeric
-@attribute Rebooting numeric
-@attribute Receipt numeric
-@attribute Record numeric
-@attribute Recording numeric
-@attribute Refill numeric
-@attribute Remind numeric
-@attribute Remote numeric
-@attribute Restart numeric
-@attribute Resume numeric
-@attribute Reward numeric
-@attribute Ring numeric
-@attribute Rounding numeric
-@attribute Run numeric
-@attribute Russian numeric
-@attribute SETTINGS numeric
-@attribute SMS numeric
-@attribute SQUARE numeric
-@attribute Sales numeric
-@attribute Scan numeric
-@attribute Scanner numeric
-@attribute Scanning numeric
-@attribute Scans numeric
-@attribute Search numeric
-@attribute Searching numeric
-@attribute Secret numeric
-@attribute Select numeric
-@attribute Send numeric
-@attribute Sessions numeric
-@attribute Set numeric
-@attribute Setting numeric
-@attribute Settings numeric
-@attribute Setup numeric
-@attribute Sign numeric
-@attribute Silent numeric
-@attribute Snap numeric
-@attribute Sous numeric
-@attribute Standard numeric
-@attribute Start numeric
-@attribute Started numeric
-@attribute Status numeric
-@attribute Step numeric
-@attribute Stocard numeric
-@attribute Stop numeric
-@attribute Strobe numeric
-@attribute Submit numeric
-@attribute Successful numeric
-@attribute Tab numeric
-@attribute Take numeric
-@attribute Tap numeric
-@attribute Tax numeric
-@attribute Test numeric
-@attribute Texas numeric
-@attribute Text numeric
-@attribute Thank numeric
-@attribute This numeric
-@attribute Ticket numeric
-@attribute Tickets numeric
-@attribute Time numeric
-@attribute Timer numeric
-@attribute Tip numeric
-@attribute Total numeric
-@attribute Touch numeric
-@attribute Train numeric
-@attribute Training numeric
-@attribute Transfer numeric
-@attribute Try numeric
-@attribute Turn numeric
-@attribute Tutorial numeric
-@attribute Type numeric
-@attribute UPC numeric
-@attribute URL numeric
-@attribute Ultrasound numeric
-@attribute Upgrades numeric
-@attribute Use numeric
-@attribute VIDEO numeric
-@attribute Verdun numeric
-@attribute Vibrate numeric
-@attribute Video numeric
-@attribute Videos numeric
-@attribute Walgreens numeric
-@attribute Wedding numeric
-@attribute Wifi numeric
-@attribute Xproii numeric
-@attribute Yes numeric
-@attribute You numeric
-@attribute Your numeric
-@attribute ZXing numeric
-@attribute [[ numeric
-@attribute [[] numeric
-@attribute '\\n' numeric
-@attribute '\\n-' numeric
-@attribute '\\nTap' numeric
-@attribute '\\n\\n' numeric
-@attribute '\\n\\nPrivacy' numeric
-@attribute '\\n\\n更新日志' numeric
-@attribute ] numeric
-@attribute a numeric
-@attribute above numeric
-@attribute activities numeric
-@attribute activity numeric
-@attribute activity$1 numeric
-@attribute activity$10 numeric
-@attribute activity$2 numeric
-@attribute activity$3 numeric
-@attribute activity$4 numeric
-@attribute activity$5 numeric
-@attribute activity$7 numeric
-@attribute activity$8 numeric
-@attribute activity$9 numeric
-@attribute activty numeric
-@attribute add numeric
-@attribute addict numeric
-@attribute administrator numeric
-@attribute advance numeric
-@attribute again numeric
-@attribute ah numeric
-@attribute aj numeric
-@attribute alerts numeric
-@attribute align numeric
-@attribute alma numeric
-@attribute america numeric
-@attribute and numeric
-@attribute android numeric
-@attribute anonytext numeric
-@attribute anything numeric
-@attribute app numeric
-@attribute apple numeric
-@attribute application numeric
-@attribute apps numeric
-@attribute are numeric
-@attribute as numeric
-@attribute at numeric
-@attribute atl numeric
-@attribute authentication numeric
-@attribute avg numeric
-@attribute avoid numeric
-@attribute axon numeric
-@attribute b numeric
-@attribute back numeric
-@attribute bank numeric
-@attribute bar numeric
-@attribute barcode numeric
-@attribute barcodes numeric
-@attribute base numeric
-@attribute be numeric
-@attribute before numeric
-@attribute benchmark numeric
-@attribute berry numeric
-@attribute blue numeric
-@attribute bol numeric
-@attribute boolean numeric
-@attribute bottle numeric
-@attribute box numeric
-@attribute bridge numeric
-@attribute bright numeric
-@attribute broker numeric
-@attribute browser numeric
-@attribute but numeric
-@attribute button numeric
-@attribute buying numeric
-@attribute by numeric
-@attribute c numeric
-@attribute ca numeric
-@attribute calc numeric
-@attribute calculates numeric
-@attribute calculator numeric
-@attribute call numeric
-@attribute caller numeric
-@attribute cam numeric
-@attribute camera numeric
-@attribute cameraPreview numeric
-@attribute cameras numeric
-@attribute can numeric
-@attribute canon numeric
-@attribute capture numeric
-@attribute capture_preview numeric
-@attribute car numeric
-@attribute card numeric
-@attribute causes numeric
-@attribute cc numeric
-@attribute ce numeric
-@attribute ch numeric
-@attribute chat numeric
-@attribute check numeric
-@attribute chic numeric
-@attribute cici numeric
-@attribute cincinnati numeric
-@attribute cker numeric
-@attribute clear numeric
-@attribute click numeric
-@attribute clickedSettings numeric
-@attribute clickedSwitchCamera numeric
-@attribute clickedSwitchVideo numeric
-@attribute clickedTakePhoto numeric
-@attribute client numeric
-@attribute cng numeric
-@attribute code numeric
-@attribute coded numeric
-@attribute coin numeric
-@attribute color numeric
-@attribute colorful numeric
-@attribute com numeric
-@attribute commerce numeric
-@attribute common numeric
-@attribute complete numeric
-@attribute completely numeric
-@attribute connect numeric
-@attribute consider numeric
-@attribute contact numeric
-@attribute container numeric
-@attribute controllers numeric
-@attribute core numeric
-@attribute corners numeric
-@attribute coupons numeric
-@attribute crazy numeric
-@attribute createNewRecordSess numeric
-@attribute cu numeric
-@attribute current numeric
-@attribute cus numeric
-@attribute custom numeric
-@attribute cut numeric
-@attribute cy numeric
-@attribute date numeric
-@attribute decode numeric
-@attribute default numeric
-@attribute demo numeric
-@attribute deposit numeric
-@attribute desiderata numeric
-@attribute deus numeric
-@attribute dev numeric
-@attribute device numeric
-@attribute dic numeric
-@attribute dimension numeric
-@attribute disabled numeric
-@attribute dispatchKeyEvent numeric
-@attribute display numeric
-@attribute dk numeric
-@attribute donate numeric
-@attribute double numeric
-@attribute dutch numeric
-@attribute e numeric
-@attribute easy numeric
-@attribute em numeric
-@attribute email numeric
-@attribute en numeric
-@attribute enabled numeric
-@attribute encoded numeric
-@attribute end numeric
-@attribute endorsed numeric
-@attribute entertain numeric
-@attribute er numeric
-@attribute error numeric
-@attribute et numeric
-@attribute ex numeric
-@attribute example numeric
-@attribute experience numeric
-@attribute extras numeric
-@attribute f numeric
-@attribute faces numeric
-@attribute fashion numeric
-@attribute fast numeric
-@attribute fb numeric
-@attribute feature numeric
-@attribute feedback numeric
-@attribute files numeric
-@attribute filter numeric
-@attribute finger numeric
-@attribute fit numeric
-@attribute fits numeric
-@attribute flash numeric
-@attribute flashlight numeric
-@attribute flower numeric
-@attribute focus numeric
-@attribute for numeric
-@attribute four numeric
-@attribute frame numeric
-@attribute franking numeric
-@attribute free numeric
-@attribute frequency numeric
-@attribute from numeric
-@attribute fun numeric
-@attribute functionality numeric
-@attribute funds numeric
-@attribute g numeric
-@attribute gallery numeric
-@attribute gea numeric
-@attribute gen numeric
-@attribute general numeric
-@attribute geotagging numeric
-@attribute gifts numeric
-@attribute gl numeric
-@attribute glares numeric
-@attribute go numeric
-@attribute gold numeric
-@attribute google numeric
-@attribute green numeric
-@attribute grocery numeric
-@attribute grow numeric
-@attribute gt numeric
-@attribute guidance numeric
-@attribute guidelines numeric
-@attribute guides numeric
-@attribute gun numeric
-@attribute gz numeric
-@attribute h numeric
-@attribute hardware numeric
-@attribute has numeric
-@attribute hd numeric
-@attribute health numeric
-@attribute help numeric
-@attribute here numeric
-@attribute hh numeric
-@attribute highest numeric
-@attribute history numeric
-@attribute hl numeric
-@attribute hm numeric
-@attribute hold numeric
-@attribute homework numeric
-@attribute how numeric
-@attribute hp numeric
-@attribute hungry numeric
-@attribute i numeric
-@attribute iMobile numeric
-@attribute iconic numeric
-@attribute ihunt numeric
-@attribute ije numeric
-@attribute image numeric
-@attribute images numeric
-@attribute in numeric
-@attribute inactivation numeric
-@attribute inc numeric
-@attribute included numeric
-@attribute information numeric
-@attribute init> numeric
-@attribute inside numeric
-@attribute integration numeric
-@attribute intel numeric
-@attribute inventory numeric
-@attribute io numeric
-@attribute iris numeric
-@attribute is numeric
-@attribute it numeric
-@attribute iw numeric
-@attribute ix numeric
-@attribute j numeric
-@attribute jess numeric
-@attribute k numeric
-@attribute kamer numeric
-@attribute keyboard numeric
-@attribute km numeric
-@attribute kr numeric
-@attribute language numeric
-@attribute later numeric
-@attribute layout numeric
-@attribute lead numeric
-@attribute left numeric
-@attribute legacy numeric
-@attribute len numeric
-@attribute level numeric
-@attribute library numeric
-@attribute license numeric
-@attribute lig numeric
-@attribute light numeric
-@attribute like numeric
-@attribute link numeric
-@attribute lion numeric
-@attribute location numeric
-@attribute loftking numeric
-@attribute longer numeric
-@attribute m numeric
-@attribute macro numeric
-@attribute main numeric
-@attribute manatee numeric
-@attribute many numeric
-@attribute map numeric
-@attribute market numeric
-@attribute md numeric
-@attribute me numeric
-@attribute meng numeric
-@attribute menu numeric
-@attribute meri numeric
-@attribute message numeric
-@attribute milliseconds numeric
-@attribute mn numeric
-@attribute mob numeric
-@attribute mobile numeric
-@attribute money numeric
-@attribute moobilenetx numeric
-@attribute more numeric
-@attribute mouse numeric
-@attribute mt numeric
-@attribute multi numeric
-@attribute multiple numeric
-@attribute my numeric
-@attribute n numeric
-@attribute name numeric
-@attribute needs numeric
-@attribute net numeric
-@attribute network numeric
-@attribute new numeric
-@attribute news numeric
-@attribute night numeric
-@attribute nj numeric
-@attribute no numeric
-@attribute not numeric
-@attribute notice numeric
-@attribute nuance numeric
-@attribute number numeric
-@attribute o numeric
-@attribute object numeric
-@attribute occured numeric
-@attribute of numeric
-@attribute on numeric
-@attribute onActivityResult numeric
-@attribute onBackPressed numeric
-@attribute onClick numeric
-@attribute onClickQR numeric
-@attribute onConfigurationChanged numeric
-@attribute onCreate numeric
-@attribute onDestroy numeric
-@attribute onKeyDown numeric
-@attribute onKeyUp numeric
-@attribute onOptionsItemSelected numeric
-@attribute onPause numeric
-@attribute onRequestPermissionsResult numeric
-@attribute onResume numeric
-@attribute onSaveInstanceState numeric
-@attribute onStart numeric
-@attribute onStop numeric
-@attribute onTouch numeric
-@attribute onTouchEvent numeric
-@attribute one numeric
-@attribute only numeric
-@attribute op numeric
-@attribute open numeric
-@attribute operation numeric
-@attribute or numeric
-@attribute other numeric
-@attribute out numeric
-@attribute overlay numeric
-@attribute p2pipcam numeric
-@attribute pampers numeric
-@attribute panasonic numeric
-@attribute parameters numeric
-@attribute party numeric
-@attribute paste numeric
-@attribute pay numeric
-@attribute payment numeric
-@attribute peacock numeric
-@attribute permission numeric
-@attribute pg numeric
-@attribute pharmacy numeric
-@attribute phone numeric
-@attribute photo numeric
-@attribute photos numeric
-@attribute pic numeric
-@attribute picker numeric
-@attribute pirate numeric
-@attribute please numeric
-@attribute pli numeric
-@attribute pm numeric
-@attribute point numeric
-@attribute prescription numeric
-@attribute press numeric
-@attribute pressing numeric
-@attribute preview numeric
-@attribute printed numeric
-@attribute pro numeric
-@attribute product numeric
-@attribute products numeric
-@attribute profs numeric
-@attribute progress numeric
-@attribute project numeric
-@attribute public numeric
-@attribute purpose numeric
-@attribute put numeric
-@attribute q numeric
-@attribute q2 numeric
-@attribute qr numeric
-@attribute qualifying numeric
-@attribute quick numeric
-@attribute quicker numeric
-@attribute r numeric
-@attribute raider numeric
-@attribute rate numeric
-@attribute rd numeric
-@attribute reader numeric
-@attribute real numeric
-@attribute realtime numeric
-@attribute receipt numeric
-@attribute recording numeric
-@attribute rectangle numeric
-@attribute refill numeric
-@attribute relaunch numeric
-@attribute remote numeric
-@attribute required numeric
-@attribute retailer numeric
-@attribute reward numeric
-@attribute rewards numeric
-@attribute ros numeric
-@attribute ru numeric
-@attribute running numeric
-@attribute rx numeric
-@attribute rya numeric
-@attribute s numeric
-@attribute safeway numeric
-@attribute sam numeric
-@attribute santander numeric
-@attribute saved numeric
-@attribute scan numeric
-@attribute scancamera numeric
-@attribute scanner numeric
-@attribute scanning numeric
-@attribute scans numeric
-@attribute schedule numeric
-@attribute scl numeric
-@attribute screen numeric
-@attribute screens numeric
-@attribute sdk numeric
-@attribute search numeric
-@attribute see numeric
-@attribute selfish numeric
-@attribute send numeric
-@attribute session numeric
-@attribute setVideoSource numeric
-@attribute setting numeric
-@attribute shake numeric
-@attribute share numeric
-@attribute shark numeric
-@attribute shire numeric
-@attribute shopper numeric
-@attribute show numeric
-@attribute shown numeric
-@attribute sig numeric
-@attribute simple numeric
-@attribute so numeric
-@attribute soft numeric
-@attribute software numeric
-@attribute solutions numeric
-@attribute sourceforge numeric
-@attribute sovereign numeric
-@attribute speaker numeric
-@attribute split numeric
-@attribute spy numeric
-@attribute star numeric
-@attribute stars numeric
-@attribute start numeric
-@attribute steady numeric
-@attribute still numeric
-@attribute stop numeric
-@attribute strategies numeric
-@attribute strobe numeric
-@attribute studio numeric
-@attribute suggestions numeric
-@attribute support numeric
-@attribute sure numeric
-@attribute surfaceChanged numeric
-@attribute surfaceCreated numeric
-@attribute t numeric
-@attribute take numeric
-@attribute td numeric
-@attribute teaching numeric
-@attribute tech numeric
-@attribute test numeric
-@attribute text numeric
-@attribute th numeric
-@attribute the numeric
-@attribute 'the\\nviewfinder' numeric
-@attribute thinking numeric
-@attribute this numeric
-@attribute time numeric
-@attribute timed numeric
-@attribute timer numeric
-@attribute tip numeric
-@attribute to numeric
-@attribute toi numeric
-@attribute tools numeric
-@attribute total numeric
-@attribute touchtoclose numeric
-@attribute track numeric
-@attribute trade numeric
-@attribute traning numeric
-@attribute transfer numeric
-@attribute translate numeric
-@attribute try numeric
-@attribute tuners numeric
-@attribute tv numeric
-@attribute two numeric
-@attribute u numeric
-@attribute ui numeric
-@attribute unexpected numeric
-@attribute up numeric
-@attribute updated numeric
-@attribute upload numeric
-@attribute us numeric
-@attribute used numeric
-@attribute user numeric
-@attribute usps numeric
-@attribute v numeric
-@attribute v380 numeric
-@attribute valid numeric
-@attribute vc numeric
-@attribute version numeric
-@attribute video numeric
-@attribute videocamera numeric
-@attribute view numeric
-@attribute viewfinder numeric
-@attribute views numeric
-@attribute village numeric
-@attribute visible numeric
-@attribute vivo numeric
-@attribute void numeric
-@attribute w numeric
-@attribute wait numeric
-@attribute walgreens numeric
-@attribute way numeric
-@attribute weather numeric
-@attribute web numeric
-@attribute well-lit numeric
-@attribute while numeric
-@attribute wil numeric
-@attribute wise numeric
-@attribute with numeric
-@attribute within numeric
-@attribute won numeric
-@attribute works numeric
-@attribute would numeric
-@attribute x numeric
-@attribute xing numeric
-@attribute xs numeric
-@attribute xy numeric
-@attribute y numeric
-@attribute you numeric
-@attribute your numeric
-@attribute z numeric
-@attribute ze numeric
-@attribute zxing numeric
-@attribute 也可使用OSD菜单直方图 numeric
-@attribute 从个人设置中可以选择照片保存路径 numeric
-@attribute 你可以长按相机按钮以选择照片 numeric
-@attribute 你可以随意选择图片的保存位置 numeric
-@attribute 使用从 numeric
-@attribute 反馈问题 numeric
-@attribute 在个人设置中可以调节缩放与音量设置 numeric
-@attribute 女 numeric
-@attribute 您的性别 numeric
-@attribute 扫 numeric
-@attribute 描 numeric
-@attribute 整合了Android图片库 numeric
-@attribute 版本 numeric
-@attribute 理想伴侣搜索系统 numeric
-@attribute 男 numeric
-@attribute 确定 numeric
-@attribute 系统信息 numeric
-@attribute 菜单中的斐波纳契螺旋网格或放置照片 numeric
-@attribute 说明 numeric
-@attribute '请对准面部中心。\\n\\n点击“扫描”开始。' numeric
-@attribute 请将条码置于取景框内扫描。 numeric
-@attribute 返回 numeric
-@attribute 错误修复 numeric
-@attribute 长按焦距将不集中在第一张照片上 numeric
-@attribute $2900 numeric
-@attribute $3 numeric
-@attribute $500 numeric
-@attribute $6 numeric
-@attribute $9 numeric
-@attribute $900 numeric
-@attribute * numeric
-@attribute / numeric
-@attribute 00AM numeric
-@attribute 01 numeric
-@attribute 02 numeric
-@attribute 0h6m numeric
-@attribute 1* numeric
-@attribute 10 numeric
-@attribute 102 numeric
-@attribute 120306_01 numeric
-@attribute 121369 numeric
-@attribute 123 numeric
-@attribute 12362 numeric
-@attribute 140716_0300 numeric
-@attribute 147 numeric
-@attribute 18 numeric
-@attribute 19 numeric
-@attribute '19\%' numeric
-@attribute 1°F numeric
-@attribute '2\%' numeric
-@attribute 22 numeric
-@attribute 229 numeric
-@attribute 23 numeric
-@attribute 24 numeric
-@attribute 276-3990 numeric
-@attribute 2°F numeric
-@attribute 3x numeric
-@attribute 5 numeric
-@attribute 51001 numeric
-@attribute 54 numeric
-@attribute 56 numeric
-@attribute 58 numeric
-@attribute 6 numeric
-@attribute '6\%' numeric
-@attribute 60 numeric
-@attribute 67GB numeric
-@attribute 7 numeric
-@attribute '7\%' numeric
-@attribute 77 numeric
-@attribute 8 numeric
-@attribute 87 numeric
-@attribute 96GB numeric
-@attribute 99 numeric
-@attribute << numeric
-@attribute > numeric
-@attribute A numeric
-@attribute ABOUT numeric
-@attribute APPS numeric
-@attribute AX numeric
-@attribute About numeric
-@attribute Account numeric
-@attribute Adam numeric
-@attribute Add numeric
-@attribute Address numeric
-@attribute Address* numeric
-@attribute Again numeric
-@attribute Agree numeric
-@attribute Agreement numeric
-@attribute Alarm numeric
-@attribute All numeric
-@attribute Alliance numeric
-@attribute Allowed numeric
-@attribute Android numeric
-@attribute Angel numeric
-@attribute Apps numeric
-@attribute Audio numeric
-@attribute Available numeric
-@attribute Away numeric
-@attribute BCPL numeric
-@attribute BY numeric
-@attribute Background numeric
-@attribute Bank numeric
-@attribute Bar numeric
-@attribute Basic numeric
-@attribute Battery numeric
-@attribute Bells numeric
-@attribute Bensound numeric
-@attribute Blender numeric
-@attribute Bluebird numeric
-@attribute Box numeric
-@attribute BoxCat numeric
-@attribute Boxes numeric
-@attribute Button numeric
-@attribute Buzzsaw numeric
-@attribute C64 numeric
-@attribute CC numeric
-@attribute CC0 numeric
-@attribute CPU numeric
-@attribute Cache numeric
-@attribute Calm numeric
-@attribute Came numeric
-@attribute Canon numeric
-@attribute Carol numeric
-@attribute Cash numeric
-@attribute Catholic numeric
-@attribute Cauldron numeric
-@attribute Century numeric
-@attribute Chain numeric
-@attribute Chains numeric
-@attribute Chainsaw numeric
-@attribute Charging numeric
-@attribute Charlie numeric
-@attribute Child numeric
-@attribute Choir numeric
-@attribute Christmas numeric
-@attribute Chrome numeric
-@attribute Claus numeric
-@attribute Clean numeric
-@attribute Clear numeric
-@attribute Co numeric
-@attribute Commons numeric
-@attribute Connection numeric
-@attribute Contact numeric
-@attribute Convent numeric
-@attribute Cool numeric
-@attribute Corporation numeric
-@attribute Creaking numeric
-@attribute Creative numeric
-@attribute Credits numeric
-@attribute Creepy numeric
-@attribute Customer numeric
-@attribute Cute numeric
-@attribute Código numeric
 @attribute Dance numeric
-@attribute Dark numeric
-@attribute Death numeric
-@attribute Deck numeric
-@attribute Demon numeric
-@attribute Deposited numeric
-@attribute Device numeric
-@attribute Direct numeric
-@attribute Do numeric
-@attribute 'Domain\\n\\n-' numeric
-@attribute Don numeric
-@attribute Door numeric
-@attribute Down numeric
-@attribute Download numeric
-@attribute Dragon numeric
-@attribute Draining numeric
-@attribute Dying numeric
-@attribute EDT numeric
-@attribute ERH numeric
-@attribute Effects numeric
-@attribute Electronics numeric
-@attribute Elf numeric
-@attribute Elves numeric
-@attribute Enabler numeric
-@attribute Enchanted numeric
-@attribute Enchated numeric
-@attribute Encountered numeric
-@attribute End numeric
-@attribute Entry numeric
-@attribute Enviar numeric
-@attribute Epson numeric
-@attribute Especifica numeric
-@attribute Europe numeric
-@attribute Evil numeric
-@attribute Extend numeric
-@attribute Extends numeric
-@attribute External numeric
-@attribute Extreme numeric
-@attribute FREE numeric
-@attribute FX numeric
-@attribute Fa-La-La-La-Launcher numeric
-@attribute Fabric numeric
-@attribute Facebook numeric
-@attribute Fairies numeric
-@attribute Feedback numeric
-@attribute Female numeric
-@attribute First numeric
+@attribute camera numeric
+@attribute RINGTONES numeric
+@attribute License numeric
+@attribute phone numeric
+@attribute capture numeric
+@attribute I numeric
+@attribute Sounds numeric
+@attribute Cute numeric
+@attribute set numeric
+@attribute htm numeric
+@attribute pack numeric
+@attribute halloween numeric
+@attribute existing numeric
 @attribute Flaticon numeric
-@attribute Foundation numeric
-@attribute Framework numeric
-@attribute Frankie numeric
-@attribute Free numeric
-@attribute Freeable numeric
+@attribute Creepy numeric
+@attribute freepik numeric
+@attribute Credits numeric
+@attribute > numeric
+@attribute Add numeric
+@attribute ones numeric
+@attribute BY numeric
+@attribute Alarm numeric
+@attribute Screen numeric
+@attribute CC0 numeric
 @attribute Freepik numeric
-@attribute Funny numeric
-@attribute Games numeric
-@attribute Gayler numeric
-@attribute General numeric
-@attribute Ghost numeric
-@attribute Girl numeric
-@attribute Girls numeric
-@attribute Google+ numeric
-@attribute Grandpa numeric
+@attribute CC numeric
+@attribute Basic numeric
+@attribute Free numeric
+@attribute freesound numeric
 @attribute Graphic numeric
+@attribute Long numeric
+@attribute alarms numeric
+@attribute Menu numeric
+@attribute Witches numeric
+@attribute alarm numeric
+@attribute affect numeric
+@attribute '\\n\\nOR\\n\\nGo' numeric
+@attribute Zombie numeric
+@attribute Mummy numeric
+@attribute '\\n\\n-' numeric
+@attribute Maniacal numeric
+@attribute Widget numeric
 @attribute HALLOWEEN numeric
-@attribute HP numeric
-@attribute Halloween numeric
-@attribute Halls numeric
-@attribute Happy numeric
-@attribute Hark numeric
-@attribute Haunting numeric
-@attribute Health numeric
-@attribute Heavy numeric
-@attribute Hello numeric
-@attribute Herald numeric
-@attribute Hide numeric
-@attribute Ho numeric
-@attribute Holy numeric
-@attribute HopeinAwe numeric
-@attribute Horde numeric
-@attribute Horror numeric
-@attribute Housetop numeric
+@attribute Laugh numeric
+@attribute delete numeric
+@attribute designed numeric
+@attribute desktop numeric
+@attribute create numeric
 @attribute How numeric
-@attribute IMPORTANT numeric
-@attribute IP numeric
-@attribute In numeric
-@attribute Inc numeric
-@attribute Info-Center numeric
-@attribute Information numeric
-@attribute Ingo numeric
-@attribute Installer numeric
-@attribute It numeric
-@attribute JFBSAUVE numeric
-@attribute JM_CARTOON_Santa numeric
-@attribute Jason numeric
-@attribute Jingle numeric
-@attribute Jingle-Bell-Tex numeric
-@attribute Joy numeric
-@attribute Julian numeric
-@attribute Julien numeric
-@attribute Junk numeric
+@attribute command numeric
+@attribute collection numeric
+@attribute Public numeric
+@attribute Vocals numeric
+@attribute Halloween numeric
+@attribute 'Domain\\n\\n-' numeric
+@attribute wav numeric
+@attribute sound numeric
+@attribute will numeric
+@attribute - numeric
+@attribute 0 numeric
+@attribute with numeric
+@attribute You numeric
+@attribute Set numeric
+@attribute CPU numeric
+@attribute 3 numeric
+@attribute new numeric
+@attribute Press numeric
+@attribute Choose numeric
+@attribute can numeric
+@attribute Home numeric
+@attribute characters numeric
+@attribute Ringtones numeric
+@attribute on numeric
+@attribute Go numeric
+@attribute one numeric
+@attribute Happy numeric
+@attribute Girls numeric
+@attribute downloadfreesound numeric
+@attribute Heavy numeric
+@attribute design numeric
+@attribute Haunting numeric
+@attribute Grandpa numeric
+@attribute death numeric
+@attribute Recorder numeric
+@attribute Hello numeric
+@attribute cupcakes numeric
+@attribute com/free-vector/spooky-halloween-background_753529 numeric
+@attribute com/free-vector/spooky-background-for-halloween_747993 numeric
+@attribute com/free-vector/silhouette-of-halloween-pumpkins-faces_730945 numeric
+@attribute com/free-vector/set-of-halloween-vector-icons_726925 numeric
+@attribute com/free-vector/pumkin-faces-collection_802208 numeric
+@attribute com/free-vector/terrifying-pumpkin-face_802060 numeric
+@attribute Pumkin numeric
+@attribute vector numeric
+@attribute Recorded numeric
+@attribute Ghost numeric
+@attribute HopeinAwe numeric
+@attribute Horror numeric
+@attribute Horde numeric
+@attribute Girl numeric
+@attribute elements numeric
+@attribute Roman numeric
+@attribute FX numeric
+@attribute Enchated numeric
+@attribute Evil numeric
+@attribute Extreme numeric
+@attribute haunted numeric
+@attribute FREE numeric
+@attribute horror numeric
+@attribute Enchanted numeric
+@attribute house numeric
+@attribute illustration numeric
+@attribute Track numeric
+@attribute icons numeric
+@attribute Sartorius numeric
+@attribute icon numeric
+@attribute graveyard numeric
+@attribute Sarasprella numeric
+@attribute Games numeric
+@attribute Song numeric
+@attribute template numeric
+@attribute tension numeric
+@attribute com/free-vector/happy-halloween-poster_738711 numeric
+@attribute thanvannispen numeric
+@attribute Funny numeric
+@attribute Frankie numeric
+@attribute ezwa numeric
+@attribute face numeric
+@attribute Fabric numeric
+@attribute freemusicarchive numeric
+@attribute flaticon numeric
+@attribute Foundation numeric
+@attribute Female numeric
+@attribute com/free-vector/kitchen-icons-collection_799399 numeric
+@attribute com/free-vector/halloween-haunted-castle-illustration_725119 numeric
+@attribute com/free-vector/halloween-vector-art-castle-illustration_725092 numeric
+@attribute box-cat numeric
+@attribute blender numeric
+@attribute black numeric
+@attribute bensound numeric
+@attribute 'License\\n\\n-' numeric
+@attribute bats numeric
+@attribute Koenig numeric
+@attribute Knife numeric
+@attribute com/free-vector/halloween-pumpkins-background_738725 numeric
+@attribute Kitchen numeric
+@attribute cartoons numeric
+@attribute cartoon numeric
 @attribute K numeric
-@attribute Kevin numeric
 @attribute Kill numeric
 @attribute KillahChipmunk numeric
-@attribute Kitchen numeric
-@attribute Knife numeric
-@attribute Koenig numeric
-@attribute Last numeric
-@attribute Laugh numeric
-@attribute Leave numeric
-@attribute License numeric
-@attribute 'License\\n\\n-' numeric
-@attribute List numeric
+@attribute background numeric
 @attribute Litruv numeric
 @attribute Little numeric
-@attribute Logged numeric
-@attribute Login numeric
-@attribute Long numeric
-@attribute Ltd numeric
-@attribute MB numeric
-@attribute MORE numeric
-@attribute MUTE numeric
-@attribute MacLeod numeric
-@attribute Manager numeric
-@attribute Manger numeric
-@attribute Maniacal numeric
-@attribute Manual numeric
-@attribute Matthey numeric
-@attribute Maximilien numeric
-@attribute Menu numeric
-@attribute Merry numeric
-@attribute Message numeric
-@attribute Metallic numeric
-@attribute Midnight numeric
-@attribute Mike numeric
-@attribute Mockingbird numeric
-@attribute Money numeric
-@attribute Mopria numeric
-@attribute More numeric
-@attribute Mummy numeric
-@attribute Music numeric
-@attribute My numeric
-@attribute N numeric
-@attribute N/A numeric
-@attribute NEVER numeric
-@attribute Name numeric
-@attribute Name* numeric
-@attribute NeoPhyTe numeric
-@attribute Neu numeric
-@attribute New numeric
-@attribute Night numeric
-@attribute NightVoice numeric
-@attribute NoiseCollector numeric
-@attribute Now numeric
-@attribute Número numeric
-@attribute Of numeric
-@attribute Oh numeric
-@attribute Ok numeric
-@attribute One-Step numeric
-@attribute Only numeric
-@attribute Organizational numeric
-@attribute Orgelmusic_j008b numeric
-@attribute Other numeric
-@attribute PO numeric
-@attribute PRO numeric
-@attribute Passcode numeric
-@attribute Personal numeric
-@attribute Pickup numeric
-@attribute Plugin numeric
-@attribute Plum numeric
-@attribute Port numeric
-@attribute Powered numeric
-@attribute Prayer numeric
-@attribute Preferences numeric
-@attribute Premium numeric
-@attribute Print numeric
-@attribute PrintServicePlugin numeric
-@attribute Pro numeric
-@attribute Profile numeric
-@attribute Public numeric
-@attribute Pumkin numeric
-@attribute RINGTONES numeric
-@attribute Recorded numeric
-@attribute Recorder numeric
-@attribute Register numeric
-@attribute Remember numeric
-@attribute Remove numeric
-@attribute Response numeric
-@attribute Ria numeric
-@attribute Ringtones numeric
-@attribute Robert numeric
-@attribute Roman numeric
-@attribute SHARE numeric
-@attribute Samsung numeric
-@attribute Sarasprella numeric
-@attribute Sartorius numeric
-@attribute Save numeric
-@attribute Saver numeric
-@attribute Saw numeric
-@attribute Sawing_Wood_1 numeric
-@attribute Scary numeric
-@attribute School numeric
-@attribute Scrape numeric
-@attribute Scream numeric
-@attribute Screen numeric
-@attribute Seiko numeric
-@attribute Server numeric
-@attribute Service numeric
-@attribute Services numeric
-@attribute Severe numeric
-@attribute Share numeric
-@attribute Shaw numeric
-@attribute Ships numeric
-@attribute Show numeric
-@attribute Si numeric
-@attribute Signature numeric
-@attribute Silhouette numeric
-@attribute SleighBells2 numeric
-@attribute Song numeric
-@attribute Songs numeric
-@attribute Soul numeric
-@attribute SouljahdeShiva numeric
-@attribute SoundBible numeric
-@attribute Sounds numeric
-@attribute Spooky numeric
-@attribute Sqeaking numeric
-@attribute Storage numeric
-@attribute Store numeric
-@attribute Storm-Alert numeric
-@attribute Street numeric
-@attribute Style numeric
-@attribute Sugar numeric
-@attribute Support numeric
-@attribute Suspense numeric
-@attribute System numeric
-@attribute TRACK numeric
-@attribute Talk numeric
-@attribute Temperature numeric
-@attribute Terrifying numeric
-@attribute TestirajPoziv numeric
-@attribute TestirajSMS numeric
-@attribute The numeric
-@attribute Theme numeric
-@attribute There numeric
-@attribute Three numeric
-@attribute Tips numeric
-@attribute To numeric
-@attribute Track numeric
-@attribute Tree numeric
-@attribute Twitter numeric
-@attribute Unplug numeric
-@attribute Up numeric
-@attribute Upon numeric
-@attribute Used numeric
-@attribute User numeric
-@attribute Validar numeric
-@attribute Verificación numeric
-@attribute Vintage numeric
-@attribute Vocals numeric
-@attribute WAV numeric
-@attribute We numeric
-@attribute Webb numeric
-@attribute Welcome numeric
-@attribute What numeric
-@attribute Whispers numeric
-@attribute Why numeric
-@attribute Widget numeric
 @attribute Will numeric
-@attribute Wish numeric
-@attribute Witches numeric
-@attribute Withdraw numeric
-@attribute World numeric
-@attribute Would numeric
-@attribute XUUU numeric
-@attribute Xposed numeric
-@attribute Yawn numeric
+@attribute Mockingbird numeric
+@attribute www numeric
+@attribute NeoPhyTe numeric
 @attribute YoFrankie numeric
-@attribute ZekiFoxx numeric
-@attribute Zombie numeric
-@attribute Zur numeric
-@attribute '\\nConnect' numeric
-@attribute '\\nPlease' numeric
-@attribute '\\n\\n-' numeric
-@attribute '\\n\\nOR\\n\\nGo' numeric
-@attribute about numeric
-@attribute acceso numeric
-@attribute accessibility numeric
-@attribute activity$6 numeric
-@attribute ad numeric
-@attribute ads numeric
-@attribute ads$1 numeric
-@attribute ads$2 numeric
-@attribute affect numeric
-@attribute aif numeric
-@attribute alarm numeric
-@attribute alarms numeric
-@attribute all numeric
-@attribute ambience numeric
-@attribute amount numeric
-@attribute an numeric
-@attribute another numeric
-@attribute app$1 numeric
-@attribute appears numeric
-@attribute apricot numeric
+@attribute Yawn numeric
+@attribute Mike numeric
+@attribute Metallic numeric
+@attribute whispers numeric
 @attribute april numeric
-@attribute ar numeric
-@attribute archive numeric
 @attribute art numeric
-@attribute ask numeric
-@attribute asterisk numeric
-@attribute audio numeric
-@attribute audionautix numeric
-@attribute augmented numeric
-@attribute available numeric
-@attribute background numeric
-@attribute bat numeric
-@attribute bats numeric
-@attribute battery numeric
-@attribute baubles numeric
-@attribute bb numeric
-@attribute bbs numeric
-@attribute bc numeric
-@attribute behavior numeric
-@attribute bensound numeric
-@attribute best numeric
-@attribute black numeric
-@attribute blender numeric
-@attribute book numeric
-@attribute boost numeric
-@attribute box-cat numeric
-@attribute br numeric
-@attribute cable numeric
-@attribute calendar numeric
-@attribute calls numeric
-@attribute candy numeric
-@attribute capital numeric
-@attribute carmsie numeric
-@attribute cartoon numeric
-@attribute cartoons numeric
+@attribute apricot numeric
+@attribute ambience numeric
+@attribute Maximilien numeric
 @attribute castle numeric
 @attribute cat numeric
 @attribute cemetery numeric
-@attribute center numeric
-@attribute character numeric
-@attribute characters numeric
-@attribute charger numeric
-@attribute chart numeric
-@attribute christmas numeric
-@attribute chrono numeric
-@attribute chronometer numeric
-@attribute clean numeric
-@attribute clouds numeric
-@attribute collection numeric
-@attribute com/author/morten numeric
-@attribute com/free-icon/chain-links_63167 numeric
-@attribute com/free-icon/chainsaw_62424 numeric
-@attribute com/free-vector/cartoon-halloween-elements_802875 numeric
-@attribute com/free-vector/cauldron-in-graveyard-halloween-background_730947 numeric
-@attribute com/free-vector/christmas-collection_760813 numeric
-@attribute com/free-vector/christmas-presents-and-ornaments_757997 numeric
-@attribute com/free-vector/christmas-tree-with-bright-baubles_760012 numeric
-@attribute com/free-vector/cute-christmas-pack_760806 numeric
-@attribute com/free-vector/cute-halloween-vectors-pack_736983 numeric
-@attribute com/free-vector/enchanted-house-background_803022 numeric
-@attribute com/free-vector/enchated-halloween-house_804172 numeric
-@attribute com/free-vector/evil-cat-halloween-illustration-template_729994 numeric
-@attribute com/free-vector/funny-monsters-collection_798512 numeric
 @attribute com/free-vector/halloween-background-with-black-cat_753612 numeric
-@attribute com/free-vector/halloween-background-with-moon-and-bats_739202 numeric
-@attribute com/free-vector/halloween-background-with-silhouettes_747994 numeric
-@attribute com/free-vector/halloween-cartoon-characters-set_748015 numeric
-@attribute com/free-vector/halloween-cartoon-characters_741238 numeric
-@attribute com/free-vector/halloween-cemetery-background_741322 numeric
 @attribute com/free-vector/halloween-character-cartoons_802618 numeric
+@attribute com/free-vector/halloween-cemetery-background_741322 numeric
+@attribute com/free-vector/halloween-cartoon-characters_741238 numeric
+@attribute com/free-vector/halloween-cartoon-characters-set_748015 numeric
+@attribute com/free-vector/halloween-background-with-silhouettes_747994 numeric
 @attribute com/free-vector/halloween-character-pack_738112 numeric
 @attribute com/free-vector/halloween-characters_802879 numeric
 @attribute com/free-vector/halloween-cupcakes-collection_803398 numeric
-@attribute com/free-vector/halloween-graveyard-vector-design_725118 numeric
-@attribute com/free-vector/halloween-haunted-castle-illustration_725119 numeric
-@attribute com/free-vector/halloween-haunted-castle-vector_725116 numeric
 @attribute com/free-vector/halloween-mansion-graveyard-scene_725761 numeric
 @attribute com/free-vector/halloween-party-card_802537 numeric
-@attribute com/free-vector/halloween-pumpkins-background_738725 numeric
-@attribute com/free-vector/halloween-vector-art-castle-illustration_725092 numeric
-@attribute com/free-vector/happy-halloween-poster_738711 numeric
-@attribute com/free-vector/kitchen-icons-collection_799399 numeric
-@attribute com/free-vector/pumkin-faces-collection_802208 numeric
-@attribute com/free-vector/set-of-halloween-vector-icons_726925 numeric
-@attribute com/free-vector/silhouette-of-halloween-pumpkins-faces_730945 numeric
-@attribute com/free-vector/spooky-background-for-halloween_747993 numeric
-@attribute com/free-vector/spooky-halloween-background_753529 numeric
-@attribute com/free-vector/terrifying-pumpkin-face_802060 numeric
-@attribute com/free-vector/vintage-christmas-candy-and-decoration_757998 numeric
-@attribute com/free-vector/vintage-christmas-stickers-collection_758749 numeric
-@attribute command numeric
-@attribute community numeric
-@attribute companies numeric
-@attribute compass numeric
-@attribute comprueba numeric
-@attribute con numeric
-@attribute contain numeric
-@attribute convergent numeric
-@attribute create numeric
-@attribute cuba numeric
-@attribute cupcakes numeric
-@attribute código numeric
-@attribute d numeric
-@attribute data numeric
-@attribute datos numeric
-@attribute daveincamas numeric
-@attribute de numeric
-@attribute death numeric
-@attribute decoration numeric
-@attribute delete numeric
-@attribute design numeric
-@attribute designed numeric
-@attribute desktop numeric
-@attribute después numeric
-@attribute details numeric
-@attribute developer numeric
-@attribute discrete numeric
-@attribute doctor numeric
-@attribute downloadNow numeric
-@attribute downloadfreesound numeric
-@attribute draining numeric
-@attribute drawableStateChanged numeric
-@attribute drawer numeric
-@attribute dw numeric
-@attribute e-mail numeric
-@attribute el numeric
-@attribute elements numeric
-@attribute enough numeric
-@attribute epic numeric
-@attribute existing numeric
-@attribute external numeric
-@attribute ezwa numeric
-@attribute face numeric
-@attribute features numeric
-@attribute fee numeric
-@attribute fields numeric
-@attribute figure numeric
-@attribute flaticon numeric
-@attribute flight numeric
-@attribute fragment numeric
-@attribute freemusicarchive numeric
-@attribute freepik numeric
-@attribute freesound numeric
-@attribute get numeric
-@attribute glavna numeric
-@attribute gobi numeric
-@attribute graveyard numeric
-@attribute gui numeric
-@attribute halloween numeric
-@attribute haunted numeric
-@attribute help@ingomoney numeric
-@attribute hex numeric
-@attribute ho numeric
-@attribute home numeric
-@attribute hooo numeric
-@attribute hora numeric
-@attribute horror numeric
-@attribute hours numeric
-@attribute house numeric
-@attribute htm numeric
-@attribute hunting numeric
-@attribute icon numeric
-@attribute icons numeric
-@attribute illustration numeric
-@attribute incoming numeric
-@attribute incompetech numeric
-@attribute info numeric
-@attribute installed numeric
-@attribute internal numeric
-@attribute interruptions numeric
-@attribute interstitial numeric
-@attribute invalid numeric
-@attribute j008b numeric
-@attribute jaymz numeric
-@attribute jimbeamdiablo numeric
-@attribute jinglebells_2 numeric
-@attribute jinglebellslong numeric
-@attribute junk numeric
-@attribute kids numeric
-@attribute kind numeric
-@attribute klankbeeld numeric
-@attribute kree numeric
-@attribute l numeric
-@attribute lab numeric
-@attribute laden numeric
-@attribute largest numeric
-@attribute least numeric
-@attribute leave numeric
-@attribute led numeric
-@attribute letter numeric
-@attribute life numeric
-@attribute links numeric
-@attribute list numeric
-@attribute log numeric
-@attribute login numeric
-@attribute loose numeric
-@attribute lovin numeric
-@attribute luego numeric
-@attribute manager numeric
-@attribute mansion numeric
-@attribute marked numeric
-@attribute material numeric
-@attribute media numeric
-@attribute messages numeric
-@attribute messenger numeric
-@attribute mhtaylor67 numeric
-@attribute modules numeric
-@attribute monsters numeric
-@attribute moon numeric
-@attribute motion numeric
-@attribute motivates numeric
-@attribute move_sd numeric
-@attribute moving numeric
-@attribute mp3 numeric
-@attribute ms numeric
-@attribute music numeric
-@attribute musical numeric
-@attribute nauta numeric
-@attribute navigation numeric
-@attribute need numeric
-@attribute neo numeric
-@attribute nfeld numeric
-@attribute notifications numeric
-@attribute now numeric
-@attribute nuevo numeric
-@attribute número numeric
-@attribute onCreateOptionsMenu numeric
-@attribute onLayout numeric
-@attribute onLongClick numeric
-@attribute onNavigateUp numeric
-@attribute onNewIntent numeric
-@attribute onSupportNavigateUp numeric
-@attribute onWindowFocusChanged numeric
-@attribute onboarding numeric
-@attribute ones numeric
-@attribute opengameart numeric
-@attribute org numeric
+@attribute com/free-vector/halloween-haunted-castle-vector_725116 numeric
+@attribute com/free-vector/halloween-graveyard-vector-design_725118 numeric
+@attribute ERH numeric
+@attribute com/free-vector/halloween-background-with-moon-and-bats_739202 numeric
+@attribute com/free-vector/funny-monsters-collection_798512 numeric
+@attribute Whispers numeric
+@attribute com/free-vector/evil-cat-halloween-illustration-template_729994 numeric
+@attribute com/free-icon/chain-links_63167 numeric
+@attribute com/author/morten numeric
+@attribute Webb numeric
+@attribute Julian numeric
+@attribute character numeric
+@attribute com/free-icon/chainsaw_62424 numeric
+@attribute com/free-vector/cartoon-halloween-elements_802875 numeric
+@attribute com/free-vector/cauldron-in-graveyard-halloween-background_730947 numeric
+@attribute com/free-vector/enchanted-house-background_803022 numeric
+@attribute com/free-vector/enchated-halloween-house_804172 numeric
+@attribute com/free-vector/cute-halloween-vectors-pack_736983 numeric
+@attribute Prayer numeric
+@attribute vectors numeric
+@attribute Effects numeric
+@attribute XUUU numeric
+@attribute Dying numeric
 @attribute org/ numeric
-@attribute org/music/Julian_Sartorius/Bonus_Beat_Blast_2011/42_julian_sartorius-1_april numeric
+@attribute opengameart numeric
 @attribute org/people/ERH numeric
-@attribute org/people/JFBSAUVE numeric
-@attribute 'org/people/Julien\%20Matthey' numeric
+@attribute org/music/Julian_Sartorius/Bonus_Beat_Blast_2011/42_julian_sartorius-1_april numeric
 @attribute org/people/Litruv numeric
+@attribute Suspense numeric
+@attribute Door numeric
+@attribute Style numeric
 @attribute org/people/NightVoice numeric
-@attribute org/people/NoiseCollector numeric
-@attribute org/people/ZekiFoxx numeric
+@attribute Adam numeric
+@attribute Bensound numeric
+@attribute Scrape numeric
+@attribute moon numeric
+@attribute monsters numeric
+@attribute stephan numeric
+@attribute Scream numeric
+@attribute spookymodem numeric
+@attribute Blender numeric
+@attribute BoxCat numeric
+@attribute Buzzsaw numeric
+@attribute C64 numeric
+@attribute org/people/klankbeeld numeric
+@attribute 60 numeric
+@attribute org/people/thanvannispen numeric
+@attribute 02 numeric
+@attribute 120306_01 numeric
+@attribute poster numeric
+@attribute Soul numeric
+@attribute pumpkin numeric
+@attribute Silhouette numeric
+@attribute silhouettes numeric
+@attribute scene numeric
+@attribute pumpkins numeric
+@attribute 121369 numeric
+@attribute 140716_0300 numeric
+@attribute SouljahdeShiva numeric
+@attribute org/users/skrjablin numeric
+@attribute org/users/jimbeamdiablo numeric
+@attribute SoundBible numeric
+@attribute org/users/souljahdeshiva numeric
+@attribute org/users/spookymodem numeric
+@attribute Sqeaking numeric
+@attribute Spooky numeric
+@attribute skrjablin numeric
+@attribute Talk numeric
+@attribute 77 numeric
+@attribute Terrifying numeric
+@attribute Scary numeric
+@attribute jimbeamdiablo numeric
+@attribute jaymz numeric
+@attribute Dark numeric
+@attribute Demon numeric
+@attribute Death numeric
+@attribute kids numeric
+@attribute Chainsaw numeric
+@attribute Commons numeric
+@attribute links numeric
+@attribute Creaking numeric
+@attribute klankbeeld numeric
+@attribute Creative numeric
+@attribute loose numeric
+@attribute Sawing_Wood_1 numeric
+@attribute Chain numeric
+@attribute Catholic numeric
+@attribute mansion numeric
+@attribute Chains numeric
+@attribute NightVoice numeric
+@attribute Cauldron numeric
+@attribute scan numeric
+@attribute as numeric
+@attribute service numeric
+@attribute of numeric
+@attribute z numeric
+@attribute music numeric
+@attribute A numeric
+@attribute barcode numeric
+@attribute Incoming numeric
+@attribute party numeric
+@attribute Play numeric
+@attribute it numeric
+@attribute viewfinder numeric
+@attribute ringtones numeric
+@attribute 1 numeric
+@attribute faces numeric
+@attribute Place numeric
+@attribute bb numeric
+@attribute battery numeric
+@attribute ad numeric
+@attribute More numeric
+@attribute christmas numeric
+@attribute songs numeric
+@attribute client numeric
+@attribute surfaceCreated numeric
+@attribute xing numeric
+@attribute Plum numeric
+@attribute Jingle numeric
+@attribute Bells numeric
+@attribute Apps numeric
+@attribute modules numeric
+@attribute clouds numeric
+@attribute Christmas numeric
+@attribute About numeric
+@attribute record numeric
+@attribute glavna numeric
+@attribute Box numeric
+@attribute voice numeric
+@attribute Fairies numeric
+@attribute Theme numeric
+@attribute Sugar numeric
+@attribute Music numeric
+@attribute about numeric
+@attribute small numeric
+@attribute seattle numeric
+@attribute Deck numeric
+@attribute Halls numeric
+@attribute bbs numeric
+@attribute card numeric
+@attribute rectangle numeric
+@attribute you numeric
+@attribute ar numeric
+@attribute hex numeric
+@attribute Google numeric
+@attribute focus numeric
+@attribute saver numeric
+@attribute Midnight numeric
+@attribute media numeric
+@attribute MORE numeric
+@attribute br numeric
+@attribute To numeric
+@attribute ABOUT numeric
+@attribute 6 numeric
+@attribute APPS numeric
+@attribute 5 numeric
+@attribute org numeric
+@attribute Share numeric
+@attribute It numeric
+@attribute used numeric
+@attribute consider numeric
+@attribute files numeric
+@attribute take numeric
+@attribute photos numeric
+@attribute Touch numeric
+@attribute MB numeric
+@attribute In numeric
+@attribute 7 numeric
+@attribute There numeric
+@attribute services numeric
+@attribute Battery numeric
+@attribute Store numeric
+@attribute problem numeric
+@attribute 01 numeric
+@attribute The numeric
+@attribute 4 numeric
+@attribute default numeric
+@attribute blue numeric
+@attribute link numeric
+@attribute location numeric
+@attribute Open numeric
+@attribute permission numeric
+@attribute donate numeric
+@attribute but numeric
+@attribute geotagging numeric
+@attribute completely numeric
+@attribute encoded numeric
+@attribute Settings numeric
+@attribute buying numeric
+@attribute For numeric
+@attribute '\\n\\nPrivacy' numeric
+@attribute click numeric
+@attribute disabled numeric
+@attribute purpose numeric
+@attribute message numeric
+@attribute Policy numeric
+@attribute help numeric
+@attribute saved numeric
+@attribute won numeric
+@attribute a numeric
+@attribute picker numeric
+@attribute studio numeric
+@attribute OK numeric
+@attribute google numeric
+@attribute net numeric
+@attribute sourceforge numeric
+@attribute ix numeric
+@attribute please numeric
+@attribute scanner numeric
+@attribute Robert numeric
+@attribute Orgelmusic_j008b numeric
+@attribute NoiseCollector numeric
+@attribute SHARE numeric
+@attribute Of numeric
+@attribute School numeric
+@attribute Saw numeric
+@attribute Shaw numeric
+@attribute Ships numeric
+@attribute Oh numeric
+@attribute » numeric
+@attribute Night numeric
+@attribute Came numeric
+@attribute Cache numeric
+@attribute Bar numeric
+@attribute Away numeric
+@attribute Calm numeric
+@attribute Carol numeric
+@attribute Clear numeric
+@attribute Child numeric
+@attribute Claus numeric
+@attribute Chrome numeric
+@attribute Choir numeric
+@attribute Angel numeric
+@attribute 96GB numeric
+@attribute 8 numeric
+@attribute 67GB numeric
+@attribute 18 numeric
+@attribute 147 numeric
+@attribute / numeric
+@attribute 19 numeric
+@attribute 23 numeric
+@attribute 3x numeric
+@attribute 58 numeric
+@attribute 56 numeric
+@attribute 54 numeric
+@attribute Clean numeric
+@attribute Convent numeric
+@attribute Merry numeric
+@attribute Julien numeric
+@attribute Jingle-Bell-Tex numeric
+@attribute Jason numeric
+@attribute JM_CARTOON_Santa numeric
+@attribute Joy numeric
+@attribute Kevin numeric
+@attribute Do numeric
+@attribute Leave numeric
+@attribute Matthey numeric
+@attribute Manger numeric
+@attribute MacLeod numeric
+@attribute JFBSAUVE numeric
+@attribute Installer numeric
+@attribute Inc numeric
+@attribute Housetop numeric
+@attribute Fa-La-La-La-Launcher numeric
+@attribute Elves numeric
+@attribute Elf numeric
+@attribute Freeable numeric
+@attribute Gayler numeric
+@attribute Hark numeric
+@attribute Holy numeric
+@attribute Ho numeric
+@attribute Herald numeric
+@attribute SleighBells2 numeric
+@attribute Junk numeric
+@attribute Songs numeric
+@attribute org/people/romulofs numeric
+@attribute org/people/thulitt numeric
+@attribute baubles numeric
+@attribute org/people/vedas numeric
+@attribute org/people/sovy numeric
+@attribute org/people/petrasound numeric
+@attribute ornaments numeric
+@attribute org/people/mhtaylor67 numeric
 @attribute org/people/carmsie numeric
 @attribute org/people/daveincamas numeric
 @attribute org/people/j008b numeric
-@attribute org/people/klankbeeld numeric
-@attribute org/people/mhtaylor67 numeric
-@attribute org/people/petrasound numeric
-@attribute org/people/romulofs numeric
-@attribute org/people/sovy numeric
-@attribute org/people/thanvannispen numeric
-@attribute org/people/thulitt numeric
-@attribute org/people/vedas numeric
 @attribute org/people/zerolagtime numeric
-@attribute org/users/jimbeamdiablo numeric
-@attribute org/users/skrjablin numeric
-@attribute org/users/souljahdeshiva numeric
-@attribute org/users/spookymodem numeric
-@attribute ornaments numeric
-@attribute p numeric
-@attribute pack numeric
-@attribute page numeric
-@attribute para numeric
-@attribute password numeric
-@attribute petrasound numeric
-@attribute pl numeric
-@attribute platform numeric
-@attribute plugin numeric
-@attribute poor numeric
-@attribute popup numeric
-@attribute por numeric
-@attribute positive numeric
-@attribute poster numeric
-@attribute predator numeric
-@attribute preferences numeric
-@attribute presents numeric
-@attribute print numeric
-@attribute problem numeric
-@attribute profile numeric
-@attribute provided numeric
-@attribute pumpkin numeric
-@attribute pumpkins numeric
-@attribute radar numeric
-@attribute re-calibrate numeric
-@attribute really numeric
-@attribute recibido numeric
-@attribute record numeric
-@attribute refund numeric
-@attribute removeads numeric
+@attribute audionautix numeric
+@attribute What numeric
 @attribute review numeric
-@attribute rh numeric
-@attribute ria numeric
-@attribute ringtones numeric
+@attribute World numeric
 @attribute romulofs numeric
-@attribute saver numeric
-@attribute saving numeric
-@attribute scene numeric
-@attribute seattle numeric
-@attribute seek numeric
-@attribute seekbar_blink_speed numeric
-@attribute seekbar_time_out numeric
-@attribute seekbar_volume numeric
-@attribute sent numeric
-@attribute serve numeric
-@attribute service numeric
-@attribute services numeric
-@attribute set numeric
-@attribute settings numeric
-@attribute shifter numeric
-@attribute should numeric
-@attribute sign numeric
-@attribute signature numeric
-@attribute silhouettes numeric
-@attribute singing numeric
-@attribute skrjablin numeric
-@attribute small numeric
-@attribute snore numeric
-@attribute snr numeric
-@attribute solicitar numeric
-@attribute songs numeric
-@attribute sound numeric
-@attribute sovy numeric
-@attribute splash numeric
-@attribute spookymodem numeric
-@attribute stephan numeric
-@attribute stickers numeric
-@attribute storage numeric
-@attribute success numeric
-@attribute super numeric
-@attribute symphonion_o_christmas_tree numeric
-@attribute tab numeric
-@attribute tax numeric
-@attribute te numeric
-@attribute teléfono numeric
-@attribute template numeric
-@attribute tension numeric
-@attribute thanvannispen numeric
-@attribute thulitt numeric
-@attribute top numeric
-@attribute tree numeric
-@attribute tu numeric
-@attribute turbo numeric
-@attribute tutorial numeric
-@attribute un numeric
-@attribute use numeric
-@attribute using numeric
-@attribute vector numeric
-@attribute vectors numeric
-@attribute vedas numeric
-@attribute verificación numeric
-@attribute verificar numeric
-@attribute voice numeric
-@attribute vuelve numeric
-@attribute want numeric
-@attribute warning numeric
-@attribute wasting numeric
-@attribute wav numeric
-@attribute when numeric
-@attribute whispers numeric
-@attribute widget numeric
-@attribute will numeric
-@attribute withdrawing numeric
-@attribute world’s numeric
-@attribute www numeric
-@attribute zerolagtime numeric
-@attribute zurück numeric
-@attribute » numeric
+@attribute Wish numeric
+@attribute Xposed numeric
+@attribute ZekiFoxx numeric
+@attribute archive numeric
+@attribute presents numeric
+@attribute petrasound numeric
+@attribute aif numeric
+@attribute ads numeric
+@attribute candy numeric
+@attribute carmsie numeric
+@attribute org/people/ZekiFoxx numeric
+@attribute junk numeric
+@attribute decoration numeric
+@attribute mhtaylor67 numeric
+@attribute daveincamas numeric
+@attribute doctor numeric
+@attribute jinglebellslong numeric
+@attribute charger numeric
+@attribute jinglebells_2 numeric
+@attribute incompetech numeric
+@attribute ho numeric
+@attribute j008b numeric
+@attribute mp3 numeric
+@attribute musical numeric
+@attribute now numeric
+@attribute text_label {T,F}
 
 @data
-{0 F,13 1,18 1,22 1,25 1,53 1,114 1,185 1,290 1,298 1,302 1,325 1,463 1,508 1,617 1,637 1,814 1,871 1,884 1,885 1,886 1,892 1,897 1,899 1,900 1,901 1,902 1,905 1,911 1,958 1,975 1,977 1,1045 1,1083 1,1093 1,1113 1,1221 1,1228 1,1268 1,1311 1,1339 1,1344 1,1415 1,1475 1,1596 1,1607 1}
-{0 F,13 1,18 1,22 1,25 1,53 1,114 1,185 1,290 1,298 1,302 1,325 1,463 1,508 1,622 1,637 1,814 1,871 1,884 1,885 1,886 1,892 1,897 1,899 1,900 1,901 1,902 1,905 1,911 1,958 1,975 1,977 1,1045 1,1083 1,1093 1,1113 1,1221 1,1228 1,1268 1,1311 1,1339 1,1344 1,1415 1,1475 1,1596 1,1607 1}
-{0 F,13 1,18 1,22 1,25 1,53 1,114 1,185 1,290 1,298 1,302 1,325 1,463 1,508 1,626 1,637 1,814 1,871 1,884 1,885 1,886 1,892 1,897 1,899 1,900 1,901 1,902 1,905 1,911 1,958 1,975 1,977 1,1045 1,1083 1,1093 1,1113 1,1221 1,1228 1,1268 1,1311 1,1339 1,1344 1,1415 1,1475 1,1596 1,1607 1}
-{0 F,13 1,18 1,22 1,25 1,53 1,114 1,185 1,290 1,298 1,302 1,325 1,463 1,508 1,628 1,637 1,814 1,871 1,884 1,885 1,886 1,892 1,897 1,899 1,900 1,901 1,902 1,905 1,911 1,958 1,975 1,977 1,1045 1,1083 1,1093 1,1113 1,1221 1,1228 1,1268 1,1311 1,1339 1,1344 1,1415 1,1475 1,1596 1,1607 1}
-{0 F,8 1,53 1,114 1,185 1,256 1,290 1,298 1,299 1,302 1,325 1,328 1,363 1,384 1,406 1,466 1,508 1,615 1,621 1,637 1,730 1,765 1,814 1,825 1,835 1,1035 1,1054 1,1103 1,1204 1,1243 1,1294 1,1422 1,1591 1,1617 1}
-{0 F,8 1,53 1,114 1,185 1,256 1,290 1,298 1,299 1,302 1,325 1,328 1,363 1,384 1,406 1,466 1,508 1,615 1,628 1,637 1,730 1,765 1,814 1,825 1,835 1,1035 1,1054 1,1103 1,1204 1,1243 1,1294 1,1422 1,1591 1,1617 1}
-{0 F,53 1,114 1,185 1,208 1,290 1,298 1,299 1,302 1,317 1,325 1,347 1,353 1,384 1,406 1,508 1,555 1,580 1,615 1,637 1,707 1,765 1,777 1,797 1,835 1,1084 1,1103 1,1138 1,1237 1,1266 1,1302 1,1425 1,1477 1,1485 1,1508 1,1527 1,1571 1,1573 1,1579 1,1586 1,1591 1,1617 1}
-{0 F,53 1,114 1,185 1,208 1,290 1,298 1,299 1,302 1,317 1,325 1,347 1,353 1,384 1,406 1,508 1,555 1,580 1,615 1,637 1,707 1,765 1,777 1,797 1,835 1,1084 1,1103 1,1138 1,1237 1,1266 1,1302 1,1425 1,1477 1,1485 1,1508 1,1529 1,1571 1,1573 1,1579 1,1586 1,1591 1,1617 1}
-{0 F,53 1,111 1,122 1,290 1,298 1,299 1,325 1,328 1,384 1,414 1,473 1,508 1,566 1,618 1,637 1,707 1,765 1,769 1,772 1,805 1,814 1,835 1,919 1,934 1,1001 1,1037 1,1132 1,1158 1,1180 1,1226 1,1237 1,1259 1,1283 1,1284 1,1413 1,1441 1,1451 1,1486 1,1579 1,1611 1,1617 1}
-{0 F,53 1,111 1,122 1,290 1,298 1,299 1,325 1,328 1,384 1,414 1,473 1,508 1,566 1,618 1,637 1,707 1,765 1,769 1,772 1,805 1,814 1,835 1,919 1,934 1,1001 1,1037 1,1132 1,1158 1,1180 1,1226 1,1237 1,1259 1,1283 1,1285 1,1413 1,1441 1,1451 1,1486 1,1579 1,1611 1,1617 1}
-{0 F,53 1,111 1,122 1,290 1,298 1,299 1,325 1,328 1,384 1,414 1,473 1,508 1,566 1,628 1,637 1,707 1,765 1,769 1,772 1,805 1,814 1,835 1,919 1,934 1,1001 1,1037 1,1132 1,1158 1,1180 1,1226 1,1237 1,1259 1,1283 1,1413 1,1441 1,1451 1,1486 1,1579 1,1611 1,1617 1}
-{0 F,8 1,10 1,13 1,22 1,53 1,61 1,113 1,121 1,122 1,125 1,192 1,231 1,287 1,290 1,295 1,298 1,299 1,302 1,324 1,325 1,328 1,333 1,361 1,363 1,375 1,380 1,404 1,461 1,476 1,480 1,482 1,508 1,531 1,537 1,602 1,607 1,614 1,615 1,621 1,634 1,635 1,637 1,647 1,655 1,666 1,769 1,777 1,808 1,814 1,825 1,835 1,836 1,874 1,879 1,880 1,883 1,904 1,908 1,914 1,921 1,922 1,928 1,939 1,943 1,946 1,947 1,950 1,953 1,954 1,955 1,956 1,957 1,964 1,965 1,967 1,968 1,969 1,980 1,986 1,987 1,988 1,989 1,991 1,993 1,994 1,995 1,997 1,1002 1,1004 1,1009 1,1011 1,1012 1,1017 1,1018 1,1026 1,1030 1,1031 1,1032 1,1034 1,1038 1,1040 1,1041 1,1043 1,1044 1,1046 1,1047 1,1048 1,1051 1,1052 1,1053 1,1055 1,1056 1,1057 1,1059 1,1061 1,1063 1,1065 1,1066 1,1071 1,1072 1,1073 1,1075 1,1091 1,1094 1,1096 1,1097 1,1098 1,1099 1,1100 1,1102 1,1104 1,1105 1,1107 1,1108 1,1111 1,1119 1,1122 1,1123 1,1126 1,1128 1,1129 1,1133 1,1141 1,1145 1,1166 1,1173 1,1174 1,1175 1,1176 1,1177 1,1183 1,1185 1,1188 1,1189 1,1193 1,1194 1,1196 1,1197 1,1198 1,1210 1,1212 1,1214 1,1215 1,1216 1,1217 1,1218 1,1219 1,1224 1,1227 1,1230 1,1232 1,1241 1,1252 1,1255 1,1258 1,1260 1,1261 1,1263 1,1267 1,1269 1,1270 1,1272 1,1276 1,1277 1,1282 1,1286 1,1288 1,1289 1,1291 1,1297 1,1298 1,1301 1,1308 1,1310 1,1317 1,1319 1,1320 1,1323 1,1331 1,1332 1,1333 1,1334 1,1335 1,1337 1,1338 1,1346 1,1347 1,1348 1,1349 1,1350 1,1351 1,1356 1,1357 1,1358 1,1359 1,1360 1,1361 1,1362 1,1363 1,1364 1,1365 1,1366 1,1367 1,1368 1,1369 1,1370 1,1371 1,1372 1,1373 1,1374 1,1375 1,1376 1,1377 1,1378 1,1379 1,1380 1,1381 1,1382 1,1383 1,1384 1,1385 1,1388 1,1396 1,1398 1,1405 1,1407 1,1408 1,1409 1,1410 1,1417 1,1424 1,1427 1,1429 1,1430 1,1435 1,1438 1,1439 1,1440 1,1444 1,1446 1,1447 1,1454 1,1456 1,1457 1,1459 1,1460 1,1461 1,1468 1,1471 1,1472 1,1476 1,1478 1,1489 1,1493 1,1494 1,1497 1,1505 1,1506 1,1532 1,1533 1,1535 1,1536 1,1537 1,1540 1,1541 1,1547 1,1552 1,1556 1,1557 1,1558 1,1559 1,1562 1,1574 1,1582 1,1583 1,1598 1,1608 1,1614 1,1616 1,1622 1,1625 1,1626 1,1636 1,1637 1,1638 1,1648 1,1649 1,1658 1,1660 1,1662 1,1665 1}
-{0 F,8 1,10 1,13 1,22 1,53 1,61 1,113 1,121 1,122 1,125 1,192 1,231 1,287 1,290 1,295 1,298 1,299 1,302 1,324 1,325 1,328 1,333 1,361 1,363 1,375 1,380 1,404 1,461 1,476 1,480 1,482 1,508 1,531 1,537 1,602 1,607 1,614 1,615 1,628 1,634 1,635 1,637 1,647 1,655 1,666 1,769 1,777 1,808 1,814 1,825 1,835 1,836 1,874 1,879 1,880 1,883 1,904 1,908 1,914 1,921 1,922 1,928 1,939 1,943 1,946 1,947 1,950 1,953 1,954 1,955 1,956 1,957 1,964 1,965 1,967 1,968 1,969 1,980 1,986 1,987 1,988 1,989 1,991 1,993 1,994 1,995 1,997 1,1002 1,1004 1,1009 1,1011 1,1012 1,1017 1,1018 1,1026 1,1030 1,1031 1,1032 1,1034 1,1038 1,1040 1,1041 1,1043 1,1044 1,1046 1,1047 1,1048 1,1051 1,1052 1,1053 1,1055 1,1056 1,1057 1,1059 1,1061 1,1063 1,1065 1,1066 1,1071 1,1072 1,1073 1,1075 1,1091 1,1094 1,1096 1,1097 1,1098 1,1099 1,1100 1,1102 1,1104 1,1105 1,1107 1,1108 1,1111 1,1119 1,1122 1,1123 1,1126 1,1128 1,1129 1,1133 1,1141 1,1145 1,1166 1,1173 1,1174 1,1175 1,1176 1,1177 1,1183 1,1185 1,1188 1,1189 1,1193 1,1194 1,1196 1,1197 1,1198 1,1210 1,1212 1,1214 1,1215 1,1216 1,1217 1,1218 1,1219 1,1224 1,1227 1,1230 1,1232 1,1241 1,1252 1,1255 1,1258 1,1260 1,1261 1,1263 1,1267 1,1269 1,1270 1,1272 1,1276 1,1277 1,1282 1,1286 1,1288 1,1289 1,1291 1,1297 1,1298 1,1301 1,1308 1,1310 1,1317 1,1319 1,1320 1,1323 1,1331 1,1332 1,1333 1,1334 1,1335 1,1337 1,1338 1,1346 1,1347 1,1348 1,1349 1,1350 1,1351 1,1356 1,1357 1,1358 1,1359 1,1360 1,1361 1,1362 1,1363 1,1364 1,1365 1,1366 1,1367 1,1368 1,1369 1,1370 1,1371 1,1372 1,1373 1,1374 1,1375 1,1376 1,1377 1,1378 1,1379 1,1380 1,1381 1,1382 1,1383 1,1384 1,1385 1,1388 1,1396 1,1398 1,1405 1,1407 1,1408 1,1409 1,1410 1,1417 1,1424 1,1427 1,1429 1,1430 1,1435 1,1438 1,1439 1,1440 1,1444 1,1446 1,1447 1,1454 1,1456 1,1457 1,1459 1,1460 1,1461 1,1468 1,1471 1,1472 1,1476 1,1478 1,1489 1,1493 1,1494 1,1497 1,1505 1,1506 1,1532 1,1533 1,1535 1,1536 1,1537 1,1540 1,1541 1,1547 1,1552 1,1556 1,1557 1,1558 1,1559 1,1562 1,1574 1,1582 1,1583 1,1598 1,1608 1,1614 1,1616 1,1622 1,1625 1,1626 1,1636 1,1637 1,1638 1,1648 1,1649 1,1658 1,1660 1,1662 1,1665 1}
-{0 F,8 1,10 1,13 1,22 1,53 1,61 1,113 1,121 1,122 1,125 1,192 1,231 1,287 1,290 1,295 1,298 1,299 1,324 1,325 1,328 1,333 1,361 1,363 1,375 1,380 1,404 1,461 1,476 1,480 1,482 1,508 1,531 1,537 1,602 1,607 1,614 1,615 1,618 1,634 1,635 1,637 1,647 1,655 1,666 1,679 1,769 1,777 1,808 1,814 1,825 1,835 1,836 1,874 1,879 1,880 1,883 1,904 1,908 1,914 1,921 1,922 1,928 1,939 1,943 1,946 1,947 1,950 1,953 1,954 1,955 1,956 1,957 1,964 1,965 1,967 1,968 1,969 1,980 1,986 1,987 1,988 1,989 1,991 1,993 1,994 1,995 1,997 1,1002 1,1004 1,1009 1,1011 1,1012 1,1017 1,1018 1,1026 1,1030 1,1031 1,1032 1,1034 1,1038 1,1040 1,1041 1,1043 1,1044 1,1046 1,1047 1,1048 1,1051 1,1052 1,1053 1,1055 1,1056 1,1057 1,1059 1,1061 1,1063 1,1065 1,1066 1,1071 1,1072 1,1073 1,1075 1,1091 1,1094 1,1096 1,1097 1,1098 1,1099 1,1100 1,1102 1,1104 1,1105 1,1107 1,1108 1,1111 1,1119 1,1122 1,1123 1,1126 1,1128 1,1129 1,1133 1,1141 1,1145 1,1166 1,1173 1,1174 1,1175 1,1176 1,1177 1,1183 1,1185 1,1188 1,1189 1,1193 1,1194 1,1196 1,1197 1,1198 1,1210 1,1212 1,1214 1,1215 1,1216 1,1217 1,1218 1,1219 1,1224 1,1227 1,1230 1,1232 1,1241 1,1252 1,1255 1,1258 1,1260 1,1261 1,1263 1,1267 1,1269 1,1270 1,1272 1,1276 1,1277 1,1282 1,1286 1,1288 1,1289 1,1291 1,1297 1,1298 1,1301 1,1308 1,1310 1,1317 1,1319 1,1320 1,1323 1,1331 1,1332 1,1333 1,1334 1,1335 1,1337 1,1338 1,1346 1,1347 1,1348 1,1349 1,1350 1,1351 1,1356 1,1357 1,1358 1,1359 1,1360 1,1361 1,1362 1,1363 1,1364 1,1365 1,1366 1,1367 1,1368 1,1369 1,1370 1,1371 1,1372 1,1373 1,1374 1,1375 1,1376 1,1377 1,1378 1,1379 1,1380 1,1381 1,1382 1,1383 1,1384 1,1385 1,1388 1,1396 1,1398 1,1405 1,1407 1,1408 1,1409 1,1410 1,1417 1,1424 1,1427 1,1429 1,1430 1,1435 1,1438 1,1439 1,1440 1,1444 1,1446 1,1447 1,1454 1,1456 1,1457 1,1459 1,1460 1,1461 1,1471 1,1472 1,1476 1,1478 1,1489 1,1493 1,1494 1,1497 1,1505 1,1506 1,1532 1,1533 1,1535 1,1536 1,1537 1,1540 1,1541 1,1547 1,1552 1,1556 1,1557 1,1558 1,1559 1,1562 1,1574 1,1582 1,1583 1,1598 1,1608 1,1614 1,1616 1,1622 1,1625 1,1626 1,1636 1,1637 1,1638 1,1648 1,1649 1,1658 1,1660 1,1662 1,1665 1}
-{0 F,53 1,54 1,85 1,290 1,298 1,299 1,302 1,325 1,328 1,347 1,404 1,448 1,508 1,599 1,621 1,637 1,777 1,814 1,830 1,918 1,944 1,1191 1,1239 1,1280 1,1311 1,1322 1,1412 1,1596 1,1606 1,1643 1}
-{0 F,53 1,54 1,85 1,290 1,298 1,299 1,302 1,325 1,328 1,347 1,404 1,448 1,508 1,599 1,621 1,637 1,728 1,777 1,814 1,830 1,918 1,944 1,1191 1,1239 1,1280 1,1311 1,1322 1,1596 1,1606 1,1643 1}
-{0 F,53 1,89 1,165 1,290 1,298 1,302 1,324 1,325 1,404 1,433 1,482 1,508 1,574 1,626 1,637 1,777 1,814 1,932 1,981 1,1019 1,1244 1,1274 1,1309 1,1325 1,1342 1,1343 1,1519 1,1634 1}
-{0 F,8 1,10 1,13 1,22 1,53 1,61 1,113 1,121 1,122 1,125 1,192 1,231 1,287 1,290 1,295 1,298 1,299 1,324 1,325 1,333 1,361 1,363 1,375 1,380 1,404 1,461 1,476 1,480 1,482 1,508 1,531 1,537 1,602 1,607 1,614 1,615 1,618 1,634 1,635 1,637 1,647 1,655 1,666 1,769 1,777 1,814 1,825 1,835 1,836 1,874 1,879 1,880 1,883 1,904 1,908 1,914 1,921 1,922 1,928 1,939 1,943 1,946 1,947 1,950 1,953 1,954 1,955 1,956 1,957 1,964 1,965 1,967 1,968 1,969 1,980 1,986 1,987 1,988 1,989 1,991 1,993 1,994 1,995 1,997 1,1002 1,1004 1,1009 1,1011 1,1012 1,1017 1,1018 1,1026 1,1030 1,1031 1,1032 1,1034 1,1038 1,1040 1,1041 1,1043 1,1044 1,1046 1,1047 1,1048 1,1051 1,1052 1,1053 1,1055 1,1056 1,1057 1,1059 1,1061 1,1063 1,1065 1,1066 1,1071 1,1072 1,1073 1,1075 1,1091 1,1094 1,1096 1,1097 1,1098 1,1099 1,1100 1,1102 1,1104 1,1105 1,1107 1,1108 1,1111 1,1119 1,1122 1,1123 1,1126 1,1128 1,1129 1,1133 1,1141 1,1145 1,1166 1,1173 1,1174 1,1175 1,1176 1,1177 1,1183 1,1185 1,1188 1,1189 1,1193 1,1194 1,1196 1,1197 1,1198 1,1210 1,1212 1,1214 1,1215 1,1216 1,1217 1,1218 1,1219 1,1224 1,1227 1,1230 1,1232 1,1241 1,1252 1,1255 1,1258 1,1260 1,1261 1,1263 1,1267 1,1269 1,1270 1,1272 1,1276 1,1277 1,1278 1,1286 1,1288 1,1289 1,1291 1,1295 1,1297 1,1298 1,1301 1,1308 1,1310 1,1314 1,1317 1,1319 1,1320 1,1323 1,1331 1,1332 1,1333 1,1334 1,1335 1,1337 1,1338 1,1346 1,1347 1,1348 1,1349 1,1350 1,1351 1,1356 1,1357 1,1358 1,1359 1,1360 1,1361 1,1362 1,1363 1,1364 1,1365 1,1366 1,1367 1,1368 1,1369 1,1370 1,1371 1,1372 1,1373 1,1374 1,1375 1,1376 1,1377 1,1378 1,1379 1,1380 1,1381 1,1382 1,1383 1,1384 1,1385 1,1388 1,1396 1,1398 1,1405 1,1407 1,1408 1,1409 1,1410 1,1417 1,1424 1,1427 1,1429 1,1430 1,1435 1,1438 1,1439 1,1440 1,1444 1,1446 1,1447 1,1454 1,1456 1,1457 1,1459 1,1460 1,1461 1,1471 1,1472 1,1476 1,1478 1,1489 1,1493 1,1497 1,1505 1,1506 1,1532 1,1533 1,1535 1,1536 1,1537 1,1540 1,1541 1,1547 1,1552 1,1556 1,1557 1,1558 1,1559 1,1562 1,1574 1,1582 1,1583 1,1594 1,1598 1,1608 1,1614 1,1616 1,1622 1,1625 1,1626 1,1636 1,1637 1,1638 1,1648 1,1649 1,1658 1,1660 1,1662 1,1665 1}
-{0 F,8 1,10 1,13 1,22 1,53 1,61 1,113 1,121 1,122 1,125 1,192 1,231 1,287 1,290 1,295 1,298 1,299 1,324 1,325 1,328 1,333 1,361 1,363 1,375 1,380 1,404 1,461 1,476 1,480 1,482 1,508 1,531 1,537 1,602 1,607 1,614 1,615 1,622 1,634 1,635 1,637 1,647 1,655 1,666 1,769 1,777 1,814 1,825 1,835 1,836 1,874 1,879 1,880 1,883 1,904 1,908 1,914 1,921 1,922 1,928 1,939 1,943 1,946 1,947 1,950 1,953 1,954 1,955 1,956 1,957 1,964 1,965 1,967 1,968 1,969 1,980 1,986 1,987 1,988 1,989 1,991 1,993 1,994 1,995 1,997 1,1002 1,1004 1,1009 1,1011 1,1012 1,1017 1,1018 1,1026 1,1030 1,1031 1,1032 1,1034 1,1038 1,1040 1,1041 1,1043 1,1044 1,1046 1,1047 1,1048 1,1051 1,1052 1,1053 1,1055 1,1056 1,1057 1,1059 1,1061 1,1063 1,1065 1,1066 1,1071 1,1072 1,1073 1,1075 1,1091 1,1094 1,1096 1,1097 1,1098 1,1099 1,1100 1,1102 1,1104 1,1105 1,1107 1,1108 1,1111 1,1119 1,1122 1,1123 1,1126 1,1128 1,1129 1,1133 1,1141 1,1145 1,1166 1,1173 1,1174 1,1175 1,1176 1,1177 1,1183 1,1185 1,1188 1,1189 1,1193 1,1194 1,1196 1,1197 1,1198 1,1210 1,1212 1,1214 1,1215 1,1216 1,1217 1,1218 1,1219 1,1224 1,1227 1,1230 1,1232 1,1241 1,1252 1,1255 1,1258 1,1260 1,1261 1,1263 1,1267 1,1269 1,1270 1,1272 1,1276 1,1277 1,1278 1,1286 1,1288 1,1289 1,1291 1,1297 1,1298 1,1301 1,1308 1,1310 1,1314 1,1317 1,1319 1,1320 1,1323 1,1331 1,1332 1,1333 1,1334 1,1335 1,1337 1,1338 1,1346 1,1347 1,1348 1,1349 1,1350 1,1351 1,1356 1,1357 1,1358 1,1359 1,1360 1,1361 1,1362 1,1363 1,1364 1,1365 1,1366 1,1367 1,1368 1,1369 1,1370 1,1371 1,1372 1,1373 1,1374 1,1375 1,1376 1,1377 1,1378 1,1379 1,1380 1,1381 1,1382 1,1383 1,1384 1,1385 1,1388 1,1396 1,1398 1,1405 1,1407 1,1408 1,1409 1,1410 1,1417 1,1424 1,1427 1,1429 1,1430 1,1435 1,1438 1,1439 1,1440 1,1444 1,1446 1,1447 1,1454 1,1456 1,1457 1,1459 1,1460 1,1461 1,1471 1,1472 1,1476 1,1478 1,1489 1,1493 1,1497 1,1505 1,1506 1,1532 1,1533 1,1535 1,1536 1,1537 1,1540 1,1541 1,1547 1,1552 1,1556 1,1557 1,1558 1,1559 1,1562 1,1574 1,1582 1,1583 1,1594 1,1598 1,1608 1,1614 1,1616 1,1622 1,1625 1,1626 1,1636 1,1637 1,1638 1,1648 1,1649 1,1658 1,1660 1,1662 1,1665 1}
-{0 F,8 1,10 1,13 1,22 1,53 1,61 1,113 1,121 1,122 1,125 1,192 1,231 1,287 1,290 1,295 1,298 1,299 1,324 1,325 1,328 1,333 1,361 1,363 1,375 1,380 1,404 1,461 1,476 1,480 1,482 1,508 1,531 1,537 1,602 1,607 1,614 1,615 1,628 1,634 1,635 1,637 1,647 1,655 1,666 1,769 1,777 1,814 1,825 1,835 1,836 1,874 1,879 1,880 1,883 1,904 1,908 1,914 1,921 1,922 1,928 1,939 1,943 1,946 1,947 1,950 1,953 1,954 1,955 1,956 1,957 1,964 1,965 1,967 1,968 1,969 1,980 1,986 1,987 1,988 1,989 1,991 1,993 1,994 1,995 1,997 1,1002 1,1004 1,1009 1,1011 1,1012 1,1017 1,1018 1,1026 1,1030 1,1031 1,1032 1,1034 1,1038 1,1040 1,1041 1,1043 1,1044 1,1046 1,1047 1,1048 1,1051 1,1052 1,1053 1,1055 1,1056 1,1057 1,1059 1,1061 1,1063 1,1065 1,1066 1,1071 1,1072 1,1073 1,1075 1,1091 1,1094 1,1096 1,1097 1,1098 1,1099 1,1100 1,1102 1,1104 1,1105 1,1107 1,1108 1,1111 1,1119 1,1122 1,1123 1,1126 1,1128 1,1129 1,1133 1,1141 1,1145 1,1166 1,1173 1,1174 1,1175 1,1176 1,1177 1,1183 1,1185 1,1188 1,1189 1,1193 1,1194 1,1196 1,1197 1,1198 1,1210 1,1212 1,1214 1,1215 1,1216 1,1217 1,1218 1,1219 1,1224 1,1227 1,1230 1,1232 1,1241 1,1252 1,1255 1,1258 1,1260 1,1261 1,1263 1,1267 1,1269 1,1270 1,1272 1,1276 1,1277 1,1278 1,1286 1,1288 1,1289 1,1291 1,1297 1,1298 1,1301 1,1308 1,1310 1,1314 1,1317 1,1319 1,1320 1,1323 1,1331 1,1332 1,1333 1,1334 1,1335 1,1337 1,1338 1,1346 1,1347 1,1348 1,1349 1,1350 1,1351 1,1356 1,1357 1,1358 1,1359 1,1360 1,1361 1,1362 1,1363 1,1364 1,1365 1,1366 1,1367 1,1368 1,1369 1,1370 1,1371 1,1372 1,1373 1,1374 1,1375 1,1376 1,1377 1,1378 1,1379 1,1380 1,1381 1,1382 1,1383 1,1384 1,1385 1,1388 1,1396 1,1398 1,1405 1,1407 1,1408 1,1409 1,1410 1,1417 1,1424 1,1427 1,1429 1,1430 1,1435 1,1438 1,1439 1,1440 1,1444 1,1446 1,1447 1,1454 1,1456 1,1457 1,1459 1,1460 1,1461 1,1471 1,1472 1,1476 1,1478 1,1489 1,1493 1,1497 1,1505 1,1506 1,1532 1,1533 1,1535 1,1536 1,1537 1,1540 1,1541 1,1547 1,1552 1,1556 1,1557 1,1558 1,1559 1,1562 1,1574 1,1582 1,1583 1,1594 1,1598 1,1608 1,1614 1,1616 1,1622 1,1625 1,1626 1,1636 1,1637 1,1638 1,1648 1,1649 1,1658 1,1660 1,1662 1,1665 1}
-{0 F,8 1,10 1,13 1,22 1,53 1,61 1,113 1,121 1,122 1,125 1,192 1,231 1,287 1,290 1,295 1,298 1,299 1,324 1,325 1,328 1,333 1,361 1,363 1,375 1,380 1,404 1,461 1,476 1,480 1,482 1,508 1,531 1,537 1,602 1,607 1,614 1,615 1,631 1,634 1,635 1,637 1,647 1,655 1,666 1,769 1,777 1,814 1,825 1,835 1,836 1,874 1,879 1,880 1,883 1,904 1,908 1,914 1,921 1,922 1,928 1,939 1,943 1,946 1,947 1,950 1,953 1,954 1,955 1,956 1,957 1,964 1,965 1,967 1,968 1,969 1,980 1,986 1,987 1,988 1,989 1,991 1,993 1,994 1,995 1,997 1,1002 1,1004 1,1009 1,1011 1,1012 1,1017 1,1018 1,1026 1,1030 1,1031 1,1032 1,1034 1,1038 1,1040 1,1041 1,1043 1,1044 1,1046 1,1047 1,1048 1,1051 1,1052 1,1053 1,1055 1,1056 1,1057 1,1059 1,1061 1,1063 1,1065 1,1066 1,1071 1,1072 1,1073 1,1075 1,1091 1,1094 1,1096 1,1097 1,1098 1,1099 1,1100 1,1102 1,1104 1,1105 1,1107 1,1108 1,1111 1,1119 1,1122 1,1123 1,1126 1,1128 1,1129 1,1133 1,1141 1,1145 1,1166 1,1173 1,1174 1,1175 1,1176 1,1177 1,1183 1,1185 1,1188 1,1189 1,1193 1,1194 1,1196 1,1197 1,1198 1,1210 1,1212 1,1214 1,1215 1,1216 1,1217 1,1218 1,1219 1,1224 1,1227 1,1230 1,1232 1,1241 1,1252 1,1255 1,1258 1,1260 1,1261 1,1263 1,1267 1,1269 1,1270 1,1272 1,1276 1,1277 1,1278 1,1286 1,1288 1,1289 1,1291 1,1297 1,1298 1,1301 1,1308 1,1310 1,1314 1,1317 1,1319 1,1320 1,1323 1,1331 1,1332 1,1333 1,1334 1,1335 1,1337 1,1338 1,1346 1,1347 1,1348 1,1349 1,1350 1,1351 1,1356 1,1357 1,1358 1,1359 1,1360 1,1361 1,1362 1,1363 1,1364 1,1365 1,1366 1,1367 1,1368 1,1369 1,1370 1,1371 1,1372 1,1373 1,1374 1,1375 1,1376 1,1377 1,1378 1,1379 1,1380 1,1381 1,1382 1,1383 1,1384 1,1385 1,1388 1,1396 1,1398 1,1405 1,1407 1,1408 1,1409 1,1410 1,1417 1,1424 1,1427 1,1429 1,1430 1,1435 1,1438 1,1439 1,1440 1,1444 1,1446 1,1447 1,1454 1,1456 1,1457 1,1459 1,1460 1,1461 1,1471 1,1472 1,1476 1,1478 1,1489 1,1493 1,1497 1,1505 1,1506 1,1532 1,1533 1,1535 1,1536 1,1537 1,1540 1,1541 1,1547 1,1552 1,1556 1,1557 1,1558 1,1559 1,1562 1,1574 1,1582 1,1583 1,1594 1,1598 1,1608 1,1614 1,1616 1,1622 1,1625 1,1626 1,1636 1,1637 1,1638 1,1648 1,1649 1,1658 1,1660 1,1662 1,1665 1}
-{0 F,53 1,290 1,298 1,308 1,325 1,404 1,508 1,618 1,637 1,814 1,916 1,917 1,989 1,1057 1,1059 1,1102 1,1114 1,1119 1,1133 1,1175 1,1186 1,1252 1,1263 1,1272 1,1314 1,1442 1,1446 1,1594 1}
-{0 F,53 1,290 1,298 1,302 1,325 1,404 1,508 1,621 1,637 1,814 1,916 1,917 1,989 1,1057 1,1059 1,1102 1,1114 1,1119 1,1133 1,1175 1,1186 1,1252 1,1263 1,1272 1,1314 1,1442 1,1446 1,1594 1}
-{0 F,53 1,290 1,298 1,302 1,325 1,404 1,508 1,622 1,637 1,814 1,916 1,917 1,989 1,1057 1,1059 1,1102 1,1114 1,1119 1,1133 1,1175 1,1186 1,1252 1,1263 1,1272 1,1314 1,1442 1,1446 1,1594 1}
-{0 F,53 1,290 1,298 1,302 1,325 1,404 1,508 1,637 1,814 1,916 1,917 1,989 1,1057 1,1059 1,1102 1,1114 1,1119 1,1133 1,1175 1,1186 1,1252 1,1263 1,1272 1,1314 1,1442 1,1446 1,1528 1,1594 1}
-{0 F,8 1,10 1,13 1,22 1,41 1,53 1,61 1,113 1,121 1,122 1,185 1,192 1,231 1,236 1,257 1,287 1,290 1,295 1,298 1,299 1,324 1,325 1,333 1,334 1,355 1,357 1,361 1,363 1,375 1,404 1,508 1,543 1,602 1,607 1,614 1,615 1,618 1,634 1,635 1,637 1,655 1,666 1,755 1,769 1,777 1,814 1,825 1,835 1,836 1,873 1,896 1,914 1,915 1,922 1,928 1,933 1,937 1,939 1,942 1,943 1,945 1,949 1,955 1,956 1,959 1,960 1,962 1,972 1,973 1,974 1,976 1,978 1,983 1,988 1,991 1,993 1,996 1,1002 1,1014 1,1015 1,1033 1,1036 1,1040 1,1044 1,1046 1,1049 1,1056 1,1060 1,1062 1,1067 1,1069 1,1070 1,1074 1,1075 1,1078 1,1084 1,1085 1,1086 1,1087 1,1088 1,1089 1,1090 1,1092 1,1095 1,1104 1,1111 1,1116 1,1118 1,1121 1,1123 1,1124 1,1127 1,1134 1,1144 1,1146 1,1149 1,1150 1,1155 1,1163 1,1173 1,1184 1,1192 1,1195 1,1198 1,1205 1,1206 1,1211 1,1213 1,1217 1,1225 1,1229 1,1235 1,1236 1,1238 1,1240 1,1242 1,1245 1,1246 1,1251 1,1253 1,1254 1,1257 1,1260 1,1262 1,1265 1,1271 1,1276 1,1277 1,1278 1,1286 1,1287 1,1288 1,1289 1,1295 1,1300 1,1305 1,1312 1,1313 1,1328 1,1330 1,1341 1,1346 1,1352 1,1353 1,1354 1,1355 1,1386 1,1387 1,1388 1,1396 1,1403 1,1406 1,1407 1,1409 1,1410 1,1427 1,1439 1,1440 1,1450 1,1452 1,1457 1,1463 1,1470 1,1473 1,1474 1,1503 1,1511 1,1513 1,1514 1,1532 1,1534 1,1538 1,1539 1,1542 1,1543 1,1544 1,1545 1,1546 1,1548 1,1549 1,1550 1,1551 1,1553 1,1554 1,1555 1,1560 1,1562 1,1566 1,1577 1,1595 1,1608 1,1615 1,1621 1,1622 1,1623 1,1627 1,1631 1,1639 1,1640 1,1641 1,1650 1,1658 1,1662 1,1666 1,1668 1}
-{0 F,8 1,10 1,13 1,22 1,41 1,53 1,61 1,113 1,121 1,122 1,185 1,192 1,231 1,236 1,257 1,287 1,290 1,295 1,298 1,299 1,324 1,325 1,328 1,333 1,334 1,355 1,357 1,361 1,363 1,375 1,404 1,508 1,543 1,602 1,607 1,614 1,615 1,622 1,634 1,635 1,637 1,655 1,666 1,755 1,769 1,777 1,814 1,825 1,835 1,836 1,873 1,896 1,914 1,915 1,922 1,928 1,933 1,937 1,939 1,942 1,943 1,945 1,949 1,955 1,956 1,959 1,960 1,962 1,972 1,973 1,974 1,976 1,978 1,983 1,988 1,991 1,993 1,996 1,1002 1,1014 1,1015 1,1033 1,1036 1,1040 1,1044 1,1046 1,1049 1,1056 1,1060 1,1062 1,1067 1,1069 1,1070 1,1074 1,1075 1,1078 1,1084 1,1085 1,1086 1,1087 1,1088 1,1089 1,1090 1,1092 1,1095 1,1104 1,1111 1,1116 1,1118 1,1121 1,1123 1,1124 1,1127 1,1134 1,1144 1,1146 1,1149 1,1150 1,1155 1,1163 1,1173 1,1184 1,1192 1,1195 1,1198 1,1205 1,1206 1,1211 1,1213 1,1217 1,1225 1,1229 1,1235 1,1236 1,1238 1,1240 1,1242 1,1245 1,1246 1,1251 1,1253 1,1254 1,1257 1,1260 1,1262 1,1265 1,1271 1,1276 1,1277 1,1278 1,1286 1,1287 1,1288 1,1289 1,1300 1,1305 1,1312 1,1313 1,1328 1,1330 1,1341 1,1346 1,1352 1,1353 1,1354 1,1355 1,1386 1,1387 1,1388 1,1396 1,1403 1,1406 1,1407 1,1409 1,1410 1,1427 1,1439 1,1440 1,1450 1,1452 1,1457 1,1463 1,1470 1,1473 1,1474 1,1503 1,1511 1,1513 1,1514 1,1532 1,1534 1,1538 1,1539 1,1542 1,1543 1,1544 1,1545 1,1546 1,1548 1,1549 1,1550 1,1551 1,1553 1,1554 1,1555 1,1560 1,1562 1,1566 1,1577 1,1595 1,1608 1,1615 1,1621 1,1622 1,1623 1,1627 1,1631 1,1639 1,1640 1,1641 1,1650 1,1658 1,1662 1,1666 1,1668 1}
-{0 F,8 1,10 1,13 1,22 1,41 1,53 1,61 1,113 1,121 1,122 1,185 1,192 1,231 1,236 1,257 1,287 1,290 1,295 1,298 1,299 1,324 1,325 1,328 1,333 1,334 1,355 1,357 1,361 1,363 1,375 1,404 1,508 1,543 1,602 1,607 1,614 1,615 1,628 1,634 1,635 1,637 1,655 1,666 1,755 1,769 1,777 1,814 1,825 1,835 1,836 1,873 1,896 1,914 1,915 1,922 1,928 1,933 1,937 1,939 1,942 1,943 1,945 1,949 1,955 1,956 1,959 1,960 1,962 1,972 1,973 1,974 1,976 1,978 1,983 1,988 1,991 1,993 1,996 1,1002 1,1014 1,1015 1,1033 1,1036 1,1040 1,1044 1,1046 1,1049 1,1056 1,1060 1,1062 1,1067 1,1069 1,1070 1,1074 1,1075 1,1078 1,1084 1,1085 1,1086 1,1087 1,1088 1,1089 1,1090 1,1092 1,1095 1,1104 1,1111 1,1116 1,1118 1,1121 1,1123 1,1124 1,1127 1,1134 1,1144 1,1146 1,1149 1,1150 1,1155 1,1163 1,1173 1,1184 1,1192 1,1195 1,1198 1,1205 1,1206 1,1211 1,1213 1,1217 1,1225 1,1229 1,1235 1,1236 1,1238 1,1240 1,1242 1,1245 1,1246 1,1251 1,1253 1,1254 1,1257 1,1260 1,1262 1,1265 1,1271 1,1276 1,1277 1,1278 1,1286 1,1287 1,1288 1,1289 1,1300 1,1305 1,1312 1,1313 1,1328 1,1330 1,1341 1,1346 1,1352 1,1353 1,1354 1,1355 1,1386 1,1387 1,1388 1,1396 1,1403 1,1406 1,1407 1,1409 1,1410 1,1427 1,1439 1,1440 1,1450 1,1452 1,1457 1,1463 1,1470 1,1473 1,1474 1,1503 1,1511 1,1513 1,1514 1,1532 1,1534 1,1538 1,1539 1,1542 1,1543 1,1544 1,1545 1,1546 1,1548 1,1549 1,1550 1,1551 1,1553 1,1554 1,1555 1,1560 1,1562 1,1566 1,1577 1,1595 1,1608 1,1615 1,1621 1,1622 1,1623 1,1627 1,1631 1,1639 1,1640 1,1641 1,1650 1,1658 1,1662 1,1666 1,1668 1}
-{0 F,8 1,10 1,13 1,22 1,41 1,53 1,61 1,113 1,121 1,122 1,185 1,192 1,231 1,236 1,257 1,287 1,290 1,295 1,298 1,299 1,324 1,325 1,328 1,333 1,334 1,355 1,357 1,361 1,363 1,375 1,404 1,508 1,543 1,602 1,607 1,614 1,615 1,631 1,634 1,635 1,637 1,655 1,666 1,755 1,769 1,777 1,814 1,825 1,835 1,836 1,873 1,896 1,914 1,915 1,922 1,928 1,933 1,937 1,939 1,942 1,943 1,945 1,949 1,955 1,956 1,959 1,960 1,962 1,972 1,973 1,974 1,976 1,978 1,983 1,988 1,991 1,993 1,996 1,1002 1,1014 1,1015 1,1033 1,1036 1,1040 1,1044 1,1046 1,1049 1,1056 1,1060 1,1062 1,1067 1,1069 1,1070 1,1074 1,1075 1,1078 1,1084 1,1085 1,1086 1,1087 1,1088 1,1089 1,1090 1,1092 1,1095 1,1104 1,1111 1,1116 1,1118 1,1121 1,1123 1,1124 1,1127 1,1134 1,1144 1,1146 1,1149 1,1150 1,1155 1,1163 1,1173 1,1184 1,1192 1,1195 1,1198 1,1205 1,1206 1,1211 1,1213 1,1217 1,1225 1,1229 1,1235 1,1236 1,1238 1,1240 1,1242 1,1245 1,1246 1,1251 1,1253 1,1254 1,1257 1,1260 1,1262 1,1265 1,1271 1,1276 1,1277 1,1278 1,1286 1,1287 1,1288 1,1289 1,1300 1,1305 1,1312 1,1313 1,1328 1,1330 1,1341 1,1346 1,1352 1,1353 1,1354 1,1355 1,1386 1,1387 1,1388 1,1396 1,1403 1,1406 1,1407 1,1409 1,1410 1,1427 1,1439 1,1440 1,1450 1,1452 1,1457 1,1463 1,1470 1,1473 1,1474 1,1503 1,1511 1,1513 1,1514 1,1532 1,1534 1,1538 1,1539 1,1542 1,1543 1,1544 1,1545 1,1546 1,1548 1,1549 1,1550 1,1551 1,1553 1,1554 1,1555 1,1560 1,1562 1,1566 1,1577 1,1595 1,1608 1,1615 1,1621 1,1622 1,1623 1,1627 1,1631 1,1639 1,1640 1,1641 1,1650 1,1658 1,1662 1,1666 1,1668 1}
-{0 F,53 1,290 1,298 1,308 1,324 1,325 1,404 1,508 1,614 1,618 1,637 1,755 1,769 1,814 1,915 1,919 1,934 1,945 1,949 1,974 1,993 1,996 1,1036 1,1060 1,1088 1,1132 1,1134 1,1163 1,1204 1,1225 1,1236 1,1313 1,1341 1,1442 1,1513 1,1621 1}
-{0 F,53 1,290 1,298 1,302 1,324 1,325 1,404 1,508 1,614 1,621 1,637 1,755 1,769 1,814 1,915 1,919 1,934 1,945 1,949 1,974 1,993 1,996 1,1036 1,1060 1,1088 1,1132 1,1134 1,1163 1,1204 1,1225 1,1236 1,1313 1,1341 1,1442 1,1513 1,1621 1}
-{0 F,53 1,290 1,298 1,302 1,324 1,325 1,404 1,508 1,614 1,637 1,755 1,769 1,814 1,915 1,919 1,934 1,945 1,949 1,974 1,993 1,996 1,1036 1,1060 1,1088 1,1132 1,1134 1,1163 1,1204 1,1225 1,1236 1,1313 1,1341 1,1442 1,1513 1,1528 1,1621 1}
-{0 F,53 1,290 1,298 1,302 1,324 1,325 1,404 1,508 1,614 1,628 1,637 1,755 1,769 1,814 1,915 1,919 1,934 1,945 1,949 1,974 1,993 1,996 1,1036 1,1060 1,1088 1,1132 1,1134 1,1163 1,1204 1,1225 1,1236 1,1313 1,1341 1,1442 1,1513 1,1621 1}
-{0 F,53 1,113 1,158 1,290 1,298 1,325 1,404 1,508 1,637 1,755 1,814 1,870 1,919 1,934 1,1006 1,1132 1,1147 1,1168 1,1171 1,1183 1,1259 1,1283 1,1313 1,1341 1,1416 1,1513 1,1590 1,1621 1}
-{0 F,53 1,54 1,149 1,290 1,298 1,302 1,325 1,365 1,384 1,404 1,508 1,588 1,621 1,637 1,660 1,714 1,814 1,938 1,1315 1,1567 1}
-{0 F,53 1,81 1,187 1,288 1,290 1,298 1,302 1,307 1,325 1,328 1,364 1,404 1,495 1,508 1,509 1,531 1,543 1,571 1,606 1,618 1,637 1,639 1,641 1,696 1,726 1,769 1,774 1,792 1,803 1,814 1,1299 1,1449 1,1492 1}
-{0 F,53 1,81 1,187 1,288 1,290 1,298 1,302 1,325 1,328 1,364 1,404 1,495 1,508 1,509 1,531 1,543 1,571 1,606 1,628 1,637 1,639 1,641 1,696 1,726 1,769 1,774 1,792 1,803 1,814 1,1299 1,1449 1,1492 1}
-{0 F,53 1,81 1,187 1,288 1,290 1,298 1,302 1,304 1,325 1,328 1,364 1,404 1,495 1,508 1,509 1,531 1,543 1,571 1,591 1,606 1,618 1,637 1,639 1,641 1,696 1,726 1,769 1,774 1,792 1,803 1,814 1,1299 1,1449 1}
-{0 F,53 1,81 1,187 1,288 1,290 1,298 1,302 1,325 1,328 1,364 1,404 1,495 1,508 1,509 1,531 1,543 1,571 1,591 1,606 1,628 1,637 1,639 1,641 1,696 1,726 1,769 1,774 1,792 1,803 1,814 1,1299 1,1449 1}
-{0 F,18 1,53 1,84 1,290 1,298 1,302 1,324 1,325 1,332 1,334 1,347 1,364 1,404 1,495 1,508 1,531 1,599 1,606 1,610 1,614 1,618 1,634 1,637 1,698 1,777 1,792 1,794 1,814 1,825 1,870 1,876 1,909 1,915 1,920 1,923 1,924 1,929 1,931 1,941 1,951 1,966 1,1039 1,1079 1,1081 1,1082 1,1101 1,1130 1,1136 1,1140 1,1157 1,1160 1,1178 1,1223 1,1235 1,1281 1,1293 1,1299 1,1303 1,1329 1,1338 1,1394 1,1433 1,1449 1,1484 1,1487 1,1498 1,1565 1,1606 1,1612 1}
-{0 F,52 1,53 1,84 1,290 1,298 1,302 1,324 1,325 1,364 1,404 1,495 1,508 1,531 1,614 1,628 1,637 1,777 1,792 1,814 1,826 1,872 1,891 1,893 1,894 1,906 1,915 1,936 1,941 1,966 1,982 1,990 1,1010 1,1039 1,1079 1,1082 1,1127 1,1130 1,1136 1,1181 1,1201 1,1299 1,1448 1,1449 1,1455 1,1606 1,1624 1}
-{0 F,52 1,53 1,84 1,290 1,298 1,302 1,324 1,325 1,364 1,404 1,495 1,508 1,531 1,614 1,628 1,637 1,777 1,792 1,814 1,826 1,872 1,891 1,893 1,894 1,906 1,915 1,936 1,941 1,966 1,982 1,990 1,1010 1,1039 1,1079 1,1082 1,1127 1,1130 1,1136 1,1181 1,1201 1,1299 1,1448 1,1449 1,1455 1,1606 1,1629 1}
-{0 F,53 1,290 1,298 1,302 1,325 1,338 1,363 1,369 1,404 1,508 1,524 1,617 1,637 1,639 1,655 1,761 1,814 1,822 1,836 1,925 1,1003 1,1068 1,1076 1,1115 1,1125 1,1207 1,1240 1,1327 1,1395 1,1400 1,1458 1,1462 1,1467 1,1490 1,1520 1,1521 1,1575 1}
-{0 F,53 1,290 1,298 1,325 1,338 1,363 1,404 1,508 1,618 1,637 1,639 1,655 1,761 1,814 1,815 1,822 1,836 1,925 1,1003 1,1068 1,1076 1,1115 1,1125 1,1207 1,1240 1,1327 1,1395 1,1458 1,1462 1,1467 1,1520 1,1521 1,1575 1}
-{0 F,13 1,218 1,290 1,298 1,299 1,302 1,328 1,404 1,509 1,574 1,606 1,727 1,760 1,814 1,834 1,992 1,1022 1,1024 1,1148 1,1208 1,1249 1,1250 1,1279 1,1392 1,1393 1,1397 1,1399 1,1402 1,1404 1,1411 1,1423 1,1453 1,1495 1,1502 1,1515 1,1522 1,1523 1,1564 1,1572 1,1587 1,1620 1,1635 1,1642 1,1645 1,1651 1,1652 1,1654 1}
-{0 F,18 1,25 1,53 1,123 1,290 1,298 1,299 1,302 1,317 1,325 1,363 1,404 1,458 1,497 1,508 1,531 1,628 1,637 1,655 1,661 1,734 1,761 1,769 1,772 1,777 1,787 1,814 1,835 1,909 1,1003 1,1151 1,1306 1,1316 1,1391 1,1434 1,1436 1,1507 1,1510 1,1570 1,1584 1,1585 1}
-{0 F,47 1,52 1,53 1,92 1,97 1,218 1,290 1,298 1,325 1,404 1,472 1,480 1,508 1,615 1,637 1,814 1,916 1,917 1,1114 1,1175 1,1233 1,1318 1,1513 1,1594 1}
-{0 F,47 1,52 1,53 1,92 1,97 1,218 1,290 1,298 1,325 1,404 1,472 1,480 1,508 1,615 1,637 1,814 1,916 1,917 1,1114 1,1175 1,1234 1,1318 1,1513 1,1594 1}
-{0 F,4 1,53 1,287 1,290 1,298 1,299 1,302 1,325 1,353 1,404 1,448 1,508 1,522 1,637 1,707 1,777 1,930 1,961 1,979 1,985 1,1013 1,1016 1,1023 1,1058 1,1079 1,1112 1,1117 1,1131 1,1137 1,1156 1,1162 1,1169 1,1170 1,1187 1,1199 1,1201 1,1465 1,1496 1,1512 1,1517 1,1524 1,1569 1,1578 1}
-{0 F,3 1,6 1,53 1,74 1,114 1,185 1,290 1,298 1,302 1,324 1,325 1,331 1,332 1,404 1,473 1,508 1,524 1,568 1,587 1,621 1,637 1,773 1,814 1,877 1,887 1,903 1,907 1,912 1,940 1,944 1,1008 1,1027 1,1042 1,1132 1,1147 1,1152 1,1190 1,1202 1,1221 1,1311 1,1401 1,1412 1,1418 1,1480 1,1561 1,1563 1,1597 1,1607 1,1630 1,1646 1,1647 1,1657 1}
-{0 F,53 1,158 1,286 1,290 1,298 1,299 1,302 1,325 1,353 1,404 1,508 1,574 1,625 1,637 1,723 1,739 1,777 1,835 1,1001 1,1256 1,1326 1,1480 1,1592 1,1610 1,1617 1,1644 1,1655 1}
-{0 F,8 1,10 1,13 1,22 1,53 1,61 1,113 1,121 1,122 1,125 1,192 1,231 1,287 1,290 1,295 1,298 1,299 1,302 1,324 1,325 1,333 1,361 1,363 1,375 1,380 1,404 1,461 1,476 1,480 1,482 1,508 1,531 1,537 1,546 1,602 1,607 1,614 1,615 1,616 1,634 1,635 1,637 1,647 1,655 1,666 1,769 1,777 1,808 1,814 1,825 1,835 1,836 1,874 1,879 1,880 1,883 1,904 1,908 1,914 1,921 1,922 1,928 1,939 1,943 1,946 1,947 1,950 1,953 1,954 1,955 1,956 1,957 1,964 1,965 1,967 1,968 1,969 1,980 1,986 1,987 1,988 1,989 1,991 1,993 1,994 1,995 1,997 1,1002 1,1004 1,1009 1,1011 1,1012 1,1017 1,1018 1,1026 1,1030 1,1031 1,1032 1,1034 1,1038 1,1040 1,1041 1,1043 1,1044 1,1046 1,1047 1,1048 1,1051 1,1052 1,1053 1,1055 1,1056 1,1057 1,1059 1,1061 1,1063 1,1065 1,1066 1,1071 1,1072 1,1073 1,1075 1,1091 1,1094 1,1096 1,1097 1,1098 1,1099 1,1100 1,1102 1,1104 1,1105 1,1107 1,1108 1,1111 1,1119 1,1122 1,1123 1,1126 1,1128 1,1129 1,1133 1,1141 1,1145 1,1166 1,1173 1,1174 1,1175 1,1176 1,1177 1,1183 1,1185 1,1188 1,1189 1,1193 1,1194 1,1196 1,1197 1,1198 1,1210 1,1212 1,1214 1,1215 1,1216 1,1217 1,1218 1,1219 1,1224 1,1227 1,1230 1,1232 1,1241 1,1252 1,1255 1,1258 1,1260 1,1261 1,1263 1,1267 1,1269 1,1270 1,1272 1,1276 1,1277 1,1282 1,1286 1,1288 1,1289 1,1291 1,1297 1,1298 1,1301 1,1308 1,1310 1,1317 1,1319 1,1320 1,1323 1,1324 1,1331 1,1332 1,1333 1,1334 1,1335 1,1337 1,1338 1,1346 1,1347 1,1348 1,1349 1,1350 1,1351 1,1356 1,1357 1,1358 1,1359 1,1360 1,1361 1,1362 1,1363 1,1364 1,1365 1,1366 1,1367 1,1368 1,1369 1,1370 1,1371 1,1372 1,1373 1,1374 1,1375 1,1376 1,1377 1,1378 1,1379 1,1380 1,1381 1,1382 1,1383 1,1384 1,1385 1,1388 1,1396 1,1398 1,1405 1,1407 1,1408 1,1409 1,1410 1,1417 1,1424 1,1427 1,1429 1,1430 1,1435 1,1438 1,1439 1,1440 1,1444 1,1446 1,1447 1,1454 1,1456 1,1457 1,1459 1,1460 1,1461 1,1471 1,1472 1,1476 1,1478 1,1489 1,1493 1,1497 1,1500 1,1505 1,1506 1,1532 1,1533 1,1535 1,1536 1,1537 1,1540 1,1541 1,1547 1,1552 1,1556 1,1557 1,1558 1,1559 1,1562 1,1574 1,1582 1,1583 1,1598 1,1606 1,1608 1,1614 1,1616 1,1622 1,1625 1,1626 1,1636 1,1637 1,1638 1,1648 1,1649 1,1658 1,1660 1,1662 1,1665 1}
-{0 F,8 1,10 1,13 1,22 1,53 1,61 1,113 1,121 1,122 1,125 1,192 1,231 1,287 1,290 1,295 1,298 1,299 1,302 1,324 1,325 1,333 1,361 1,363 1,375 1,380 1,404 1,461 1,476 1,480 1,482 1,508 1,531 1,537 1,546 1,602 1,607 1,614 1,615 1,617 1,634 1,635 1,637 1,647 1,655 1,666 1,769 1,777 1,808 1,814 1,825 1,835 1,836 1,874 1,879 1,880 1,883 1,904 1,908 1,914 1,921 1,922 1,928 1,939 1,943 1,946 1,947 1,950 1,953 1,954 1,955 1,956 1,957 1,964 1,965 1,967 1,968 1,969 1,980 1,986 1,987 1,988 1,989 1,991 1,993 1,994 1,995 1,997 1,1002 1,1004 1,1009 1,1011 1,1012 1,1017 1,1018 1,1026 1,1030 1,1031 1,1032 1,1034 1,1038 1,1040 1,1041 1,1043 1,1044 1,1046 1,1047 1,1048 1,1051 1,1052 1,1053 1,1055 1,1056 1,1057 1,1059 1,1061 1,1063 1,1065 1,1066 1,1071 1,1072 1,1073 1,1075 1,1091 1,1094 1,1096 1,1097 1,1098 1,1099 1,1100 1,1102 1,1104 1,1105 1,1107 1,1108 1,1111 1,1119 1,1122 1,1123 1,1126 1,1128 1,1129 1,1133 1,1141 1,1145 1,1166 1,1173 1,1174 1,1175 1,1176 1,1177 1,1183 1,1185 1,1188 1,1189 1,1193 1,1194 1,1196 1,1197 1,1198 1,1210 1,1212 1,1214 1,1215 1,1216 1,1217 1,1218 1,1219 1,1224 1,1227 1,1230 1,1232 1,1241 1,1252 1,1255 1,1258 1,1260 1,1261 1,1263 1,1267 1,1269 1,1270 1,1272 1,1276 1,1277 1,1282 1,1286 1,1288 1,1289 1,1291 1,1297 1,1298 1,1301 1,1308 1,1310 1,1317 1,1319 1,1320 1,1323 1,1324 1,1331 1,1332 1,1333 1,1334 1,1335 1,1337 1,1338 1,1346 1,1347 1,1348 1,1349 1,1350 1,1351 1,1356 1,1357 1,1358 1,1359 1,1360 1,1361 1,1362 1,1363 1,1364 1,1365 1,1366 1,1367 1,1368 1,1369 1,1370 1,1371 1,1372 1,1373 1,1374 1,1375 1,1376 1,1377 1,1378 1,1379 1,1380 1,1381 1,1382 1,1383 1,1384 1,1385 1,1388 1,1396 1,1398 1,1405 1,1407 1,1408 1,1409 1,1410 1,1417 1,1424 1,1427 1,1429 1,1430 1,1435 1,1438 1,1439 1,1440 1,1444 1,1446 1,1447 1,1454 1,1456 1,1457 1,1459 1,1460 1,1461 1,1471 1,1472 1,1476 1,1478 1,1489 1,1493 1,1497 1,1500 1,1505 1,1506 1,1532 1,1533 1,1535 1,1536 1,1537 1,1540 1,1541 1,1547 1,1552 1,1556 1,1557 1,1558 1,1559 1,1562 1,1574 1,1582 1,1583 1,1598 1,1606 1,1608 1,1614 1,1616 1,1622 1,1625 1,1626 1,1636 1,1637 1,1638 1,1648 1,1649 1,1658 1,1660 1,1662 1,1665 1}
-{0 F,8 1,10 1,13 1,22 1,53 1,61 1,113 1,121 1,122 1,125 1,192 1,231 1,287 1,290 1,295 1,298 1,299 1,302 1,324 1,325 1,333 1,361 1,363 1,375 1,380 1,404 1,461 1,476 1,480 1,482 1,508 1,531 1,537 1,546 1,602 1,607 1,614 1,615 1,620 1,634 1,635 1,637 1,647 1,655 1,666 1,769 1,777 1,808 1,814 1,825 1,835 1,836 1,874 1,879 1,880 1,883 1,904 1,908 1,914 1,921 1,922 1,928 1,939 1,943 1,946 1,947 1,950 1,953 1,954 1,955 1,956 1,957 1,964 1,965 1,967 1,968 1,969 1,980 1,986 1,987 1,988 1,989 1,991 1,993 1,994 1,995 1,997 1,1002 1,1004 1,1009 1,1011 1,1012 1,1017 1,1018 1,1026 1,1030 1,1031 1,1032 1,1034 1,1038 1,1040 1,1041 1,1043 1,1044 1,1046 1,1047 1,1048 1,1051 1,1052 1,1053 1,1055 1,1056 1,1057 1,1059 1,1061 1,1063 1,1065 1,1066 1,1071 1,1072 1,1073 1,1075 1,1091 1,1094 1,1096 1,1097 1,1098 1,1099 1,1100 1,1102 1,1104 1,1105 1,1107 1,1108 1,1111 1,1119 1,1122 1,1123 1,1126 1,1128 1,1129 1,1133 1,1141 1,1145 1,1166 1,1173 1,1174 1,1175 1,1176 1,1177 1,1183 1,1185 1,1188 1,1189 1,1193 1,1194 1,1196 1,1197 1,1198 1,1210 1,1212 1,1214 1,1215 1,1216 1,1217 1,1218 1,1219 1,1224 1,1227 1,1230 1,1232 1,1241 1,1252 1,1255 1,1258 1,1260 1,1261 1,1263 1,1267 1,1269 1,1270 1,1272 1,1276 1,1277 1,1282 1,1286 1,1288 1,1289 1,1291 1,1297 1,1298 1,1301 1,1308 1,1310 1,1317 1,1319 1,1320 1,1323 1,1324 1,1331 1,1332 1,1333 1,1334 1,1335 1,1337 1,1338 1,1346 1,1347 1,1348 1,1349 1,1350 1,1351 1,1356 1,1357 1,1358 1,1359 1,1360 1,1361 1,1362 1,1363 1,1364 1,1365 1,1366 1,1367 1,1368 1,1369 1,1370 1,1371 1,1372 1,1373 1,1374 1,1375 1,1376 1,1377 1,1378 1,1379 1,1380 1,1381 1,1382 1,1383 1,1384 1,1385 1,1388 1,1396 1,1398 1,1405 1,1407 1,1408 1,1409 1,1410 1,1417 1,1424 1,1427 1,1429 1,1430 1,1435 1,1438 1,1439 1,1440 1,1444 1,1446 1,1447 1,1454 1,1456 1,1457 1,1459 1,1460 1,1461 1,1471 1,1472 1,1476 1,1478 1,1489 1,1493 1,1497 1,1500 1,1505 1,1506 1,1532 1,1533 1,1535 1,1536 1,1537 1,1540 1,1541 1,1547 1,1552 1,1556 1,1557 1,1558 1,1559 1,1562 1,1574 1,1582 1,1583 1,1598 1,1606 1,1608 1,1614 1,1616 1,1622 1,1625 1,1626 1,1636 1,1637 1,1638 1,1648 1,1649 1,1658 1,1660 1,1662 1,1665 1}
-{0 F,8 1,10 1,13 1,22 1,53 1,61 1,113 1,121 1,122 1,125 1,192 1,231 1,287 1,290 1,295 1,298 1,299 1,302 1,324 1,325 1,333 1,361 1,363 1,375 1,380 1,404 1,461 1,476 1,480 1,482 1,508 1,531 1,537 1,546 1,602 1,607 1,614 1,615 1,622 1,634 1,635 1,637 1,647 1,655 1,666 1,769 1,777 1,808 1,814 1,825 1,835 1,836 1,874 1,879 1,880 1,883 1,904 1,908 1,914 1,921 1,922 1,928 1,939 1,943 1,946 1,947 1,950 1,953 1,954 1,955 1,956 1,957 1,964 1,965 1,967 1,968 1,969 1,980 1,986 1,987 1,988 1,989 1,991 1,993 1,994 1,995 1,997 1,1002 1,1004 1,1009 1,1011 1,1012 1,1017 1,1018 1,1026 1,1030 1,1031 1,1032 1,1034 1,1038 1,1040 1,1041 1,1043 1,1044 1,1046 1,1047 1,1048 1,1051 1,1052 1,1053 1,1055 1,1056 1,1057 1,1059 1,1061 1,1063 1,1065 1,1066 1,1071 1,1072 1,1073 1,1075 1,1091 1,1094 1,1096 1,1097 1,1098 1,1099 1,1100 1,1102 1,1104 1,1105 1,1107 1,1108 1,1111 1,1119 1,1122 1,1123 1,1126 1,1128 1,1129 1,1133 1,1141 1,1145 1,1166 1,1173 1,1174 1,1175 1,1176 1,1177 1,1183 1,1185 1,1188 1,1189 1,1193 1,1194 1,1196 1,1197 1,1198 1,1210 1,1212 1,1214 1,1215 1,1216 1,1217 1,1218 1,1219 1,1224 1,1227 1,1230 1,1232 1,1241 1,1252 1,1255 1,1258 1,1260 1,1261 1,1263 1,1267 1,1269 1,1270 1,1272 1,1276 1,1277 1,1282 1,1286 1,1288 1,1289 1,1291 1,1297 1,1298 1,1301 1,1308 1,1310 1,1317 1,1319 1,1320 1,1323 1,1324 1,1331 1,1332 1,1333 1,1334 1,1335 1,1337 1,1338 1,1346 1,1347 1,1348 1,1349 1,1350 1,1351 1,1356 1,1357 1,1358 1,1359 1,1360 1,1361 1,1362 1,1363 1,1364 1,1365 1,1366 1,1367 1,1368 1,1369 1,1370 1,1371 1,1372 1,1373 1,1374 1,1375 1,1376 1,1377 1,1378 1,1379 1,1380 1,1381 1,1382 1,1383 1,1384 1,1385 1,1388 1,1396 1,1398 1,1405 1,1407 1,1408 1,1409 1,1410 1,1417 1,1424 1,1427 1,1429 1,1430 1,1435 1,1438 1,1439 1,1440 1,1444 1,1446 1,1447 1,1454 1,1456 1,1457 1,1459 1,1460 1,1461 1,1471 1,1472 1,1476 1,1478 1,1489 1,1493 1,1497 1,1500 1,1505 1,1506 1,1532 1,1533 1,1535 1,1536 1,1537 1,1540 1,1541 1,1547 1,1552 1,1556 1,1557 1,1558 1,1559 1,1562 1,1574 1,1582 1,1583 1,1598 1,1606 1,1608 1,1614 1,1616 1,1622 1,1625 1,1626 1,1636 1,1637 1,1638 1,1648 1,1649 1,1658 1,1660 1,1662 1,1665 1}
-{0 F,8 1,10 1,13 1,22 1,53 1,61 1,113 1,121 1,122 1,125 1,192 1,231 1,287 1,290 1,295 1,298 1,299 1,302 1,324 1,325 1,333 1,361 1,363 1,375 1,380 1,404 1,461 1,476 1,480 1,482 1,508 1,531 1,537 1,546 1,602 1,607 1,614 1,615 1,626 1,634 1,635 1,637 1,647 1,655 1,666 1,769 1,777 1,808 1,814 1,825 1,835 1,836 1,874 1,879 1,880 1,883 1,904 1,908 1,914 1,921 1,922 1,928 1,939 1,943 1,946 1,947 1,950 1,953 1,954 1,955 1,956 1,957 1,964 1,965 1,967 1,968 1,969 1,980 1,986 1,987 1,988 1,989 1,991 1,993 1,994 1,995 1,997 1,1002 1,1004 1,1009 1,1011 1,1012 1,1017 1,1018 1,1026 1,1030 1,1031 1,1032 1,1034 1,1038 1,1040 1,1041 1,1043 1,1044 1,1046 1,1047 1,1048 1,1051 1,1052 1,1053 1,1055 1,1056 1,1057 1,1059 1,1061 1,1063 1,1065 1,1066 1,1071 1,1072 1,1073 1,1075 1,1091 1,1094 1,1096 1,1097 1,1098 1,1099 1,1100 1,1102 1,1104 1,1105 1,1107 1,1108 1,1111 1,1119 1,1122 1,1123 1,1126 1,1128 1,1129 1,1133 1,1141 1,1145 1,1166 1,1173 1,1174 1,1175 1,1176 1,1177 1,1183 1,1185 1,1188 1,1189 1,1193 1,1194 1,1196 1,1197 1,1198 1,1210 1,1212 1,1214 1,1215 1,1216 1,1217 1,1218 1,1219 1,1224 1,1227 1,1230 1,1232 1,1241 1,1252 1,1255 1,1258 1,1260 1,1261 1,1263 1,1267 1,1269 1,1270 1,1272 1,1276 1,1277 1,1282 1,1286 1,1288 1,1289 1,1291 1,1297 1,1298 1,1301 1,1308 1,1310 1,1317 1,1319 1,1320 1,1323 1,1324 1,1331 1,1332 1,1333 1,1334 1,1335 1,1337 1,1338 1,1346 1,1347 1,1348 1,1349 1,1350 1,1351 1,1356 1,1357 1,1358 1,1359 1,1360 1,1361 1,1362 1,1363 1,1364 1,1365 1,1366 1,1367 1,1368 1,1369 1,1370 1,1371 1,1372 1,1373 1,1374 1,1375 1,1376 1,1377 1,1378 1,1379 1,1380 1,1381 1,1382 1,1383 1,1384 1,1385 1,1388 1,1396 1,1398 1,1405 1,1407 1,1408 1,1409 1,1410 1,1417 1,1424 1,1427 1,1429 1,1430 1,1435 1,1438 1,1439 1,1440 1,1444 1,1446 1,1447 1,1454 1,1456 1,1457 1,1459 1,1460 1,1461 1,1471 1,1472 1,1476 1,1478 1,1489 1,1493 1,1497 1,1500 1,1505 1,1506 1,1532 1,1533 1,1535 1,1536 1,1537 1,1540 1,1541 1,1547 1,1552 1,1556 1,1557 1,1558 1,1559 1,1562 1,1574 1,1582 1,1583 1,1598 1,1606 1,1608 1,1614 1,1616 1,1622 1,1625 1,1626 1,1636 1,1637 1,1638 1,1648 1,1649 1,1658 1,1660 1,1662 1,1665 1}
-{0 F,8 1,10 1,13 1,22 1,53 1,61 1,113 1,121 1,122 1,125 1,192 1,231 1,287 1,290 1,295 1,298 1,299 1,302 1,324 1,325 1,333 1,361 1,363 1,375 1,380 1,404 1,461 1,476 1,480 1,482 1,508 1,531 1,537 1,546 1,602 1,607 1,614 1,615 1,634 1,635 1,637 1,647 1,655 1,666 1,769 1,777 1,808 1,814 1,825 1,835 1,836 1,874 1,879 1,880 1,883 1,904 1,908 1,914 1,921 1,922 1,928 1,939 1,943 1,946 1,947 1,950 1,953 1,954 1,955 1,956 1,957 1,964 1,965 1,967 1,968 1,969 1,980 1,986 1,987 1,988 1,989 1,991 1,993 1,994 1,995 1,997 1,1002 1,1004 1,1009 1,1011 1,1012 1,1017 1,1018 1,1026 1,1030 1,1031 1,1032 1,1034 1,1038 1,1040 1,1041 1,1043 1,1044 1,1046 1,1047 1,1048 1,1051 1,1052 1,1053 1,1055 1,1056 1,1057 1,1059 1,1061 1,1063 1,1065 1,1066 1,1071 1,1072 1,1073 1,1075 1,1091 1,1094 1,1096 1,1097 1,1098 1,1099 1,1100 1,1102 1,1104 1,1105 1,1107 1,1108 1,1111 1,1119 1,1122 1,1123 1,1126 1,1128 1,1129 1,1133 1,1141 1,1145 1,1166 1,1173 1,1174 1,1175 1,1176 1,1177 1,1183 1,1185 1,1188 1,1189 1,1193 1,1194 1,1196 1,1197 1,1198 1,1210 1,1212 1,1214 1,1215 1,1216 1,1217 1,1218 1,1219 1,1224 1,1227 1,1230 1,1232 1,1241 1,1252 1,1255 1,1258 1,1260 1,1261 1,1263 1,1267 1,1269 1,1270 1,1272 1,1276 1,1277 1,1282 1,1286 1,1288 1,1289 1,1291 1,1297 1,1298 1,1301 1,1308 1,1310 1,1317 1,1319 1,1320 1,1323 1,1324 1,1331 1,1332 1,1333 1,1334 1,1335 1,1337 1,1338 1,1346 1,1347 1,1348 1,1349 1,1350 1,1351 1,1356 1,1357 1,1358 1,1359 1,1360 1,1361 1,1362 1,1363 1,1364 1,1365 1,1366 1,1367 1,1368 1,1369 1,1370 1,1371 1,1372 1,1373 1,1374 1,1375 1,1376 1,1377 1,1378 1,1379 1,1380 1,1381 1,1382 1,1383 1,1384 1,1385 1,1388 1,1396 1,1398 1,1405 1,1407 1,1408 1,1409 1,1410 1,1417 1,1424 1,1427 1,1429 1,1430 1,1435 1,1438 1,1439 1,1440 1,1444 1,1446 1,1447 1,1454 1,1456 1,1457 1,1459 1,1460 1,1461 1,1471 1,1472 1,1476 1,1478 1,1489 1,1493 1,1497 1,1500 1,1505 1,1506 1,1530 1,1532 1,1533 1,1535 1,1536 1,1537 1,1540 1,1541 1,1547 1,1552 1,1556 1,1557 1,1558 1,1559 1,1562 1,1574 1,1582 1,1583 1,1598 1,1606 1,1608 1,1614 1,1616 1,1622 1,1625 1,1626 1,1636 1,1637 1,1638 1,1648 1,1649 1,1658 1,1660 1,1662 1,1665 1}
-{0 F,11 1,53 1,54 1,290 1,298 1,302 1,325 1,353 1,404 1,508 1,625 1,637 1,659 1,1345 1,1504 1,1588 1,1599 1,1653 1}
-{0 F,11 1,53 1,54 1,290 1,298 1,302 1,325 1,353 1,404 1,508 1,625 1,637 1,659 1,1345 1,1504 1,1588 1,1599 1,1653 1}
-{0 F,11 1,53 1,54 1,290 1,298 1,302 1,325 1,353 1,404 1,508 1,625 1,637 1,659 1,1345 1,1504 1,1588 1,1599 1,1653 1}
-{0 F,11 1,53 1,54 1,290 1,298 1,302 1,325 1,353 1,404 1,508 1,625 1,637 1,659 1,1345 1,1504 1,1588 1,1599 1,1653 1}
-{0 F,11 1,53 1,54 1,290 1,298 1,302 1,325 1,404 1,508 1,621 1,637 1,659 1,814 1,1345 1,1504 1,1588 1,1599 1,1653 1}
-{0 F,11 1,53 1,54 1,290 1,298 1,302 1,325 1,404 1,508 1,621 1,637 1,659 1,814 1,1345 1,1504 1,1588 1,1599 1,1653 1}
-{0 F,11 1,53 1,54 1,290 1,298 1,302 1,325 1,404 1,508 1,621 1,637 1,659 1,814 1,1345 1,1504 1,1588 1,1599 1,1653 1}
-{0 F,11 1,53 1,54 1,290 1,298 1,302 1,325 1,404 1,508 1,621 1,637 1,659 1,814 1,1345 1,1504 1,1588 1,1599 1,1653 1}
-{0 F,53 1,54 1,122 1,290 1,298 1,302 1,325 1,404 1,508 1,602 1,617 1,637 1,814 1,926 1,927 1,1020 1,1104 1,1248 1,1431 1,1568 1,1605 1}
-{0 F,53 1,54 1,122 1,290 1,298 1,302 1,325 1,404 1,508 1,602 1,621 1,637 1,814 1,926 1,927 1,1020 1,1104 1,1248 1,1431 1,1568 1,1605 1}
-{0 F,53 1,290 1,298 1,299 1,302 1,325 1,363 1,404 1,476 1,482 1,508 1,543 1,589 1,614 1,621 1,634 1,637 1,639 1,769 1,777 1,785 1,794 1,814 1,836 1,864 1,865 1,866 1,867 1,868 1,869 1,873 1,948 1,963 1,998 1,1000 1,1161 1,1165 1,1182 1,1264 1,1292 1,1390 1,1432 1,1483 1,1531 1,1568 1,1581 1,1589 1,1593 1,1605 1,1606 1,1633 1,1659 1,1663 1,1664 1}
-{0 F,10 1,53 1,129 1,267 1,290 1,298 1,306 1,325 1,328 1,404 1,508 1,618 1,637 1,777 1,792 1,814 1,882 1,935 1,952 1,1029 1,1113 1,1143 1,1220 1,1247 1,1290 1,1304 1,1307 1,1401 1,1428 1,1466 1,1481 1,1509 1,1609 1,1618 1,1628 1,1661 1}
-{0 F,53 1,84 1,235 1,290 1,298 1,325 1,404 1,508 1,621 1,637 1,792 1,794 1,796 1,814 1,1078 1,1110 1,1619 1,1632 1}
-{0 F,35 1,53 1,290 1,298 1,302 1,325 1,335 1,404 1,445 1,508 1,549 1,588 1,622 1,637 1,801 1,814 1,913 1,1142 1,1222 1,1273 1,1389 1,1482 1,1667 1}
-{0 F,53 1,290 1,298 1,302 1,325 1,335 1,404 1,445 1,508 1,549 1,588 1,622 1,637 1,801 1,814 1,819 1,1025 1,1080 1,1203 1,1336 1,1464 1,1656 1}
-{0 F,53 1,142 1,173 1,231 1,276 1,290 1,298 1,299 1,302 1,325 1,476 1,482 1,508 1,562 1,596 1,598 1,614 1,615 1,621 1,637 1,655 1,719 1,769 1,799 1,814 1,815 1,923 1,1050 1,1064 1,1106 1,1135 1,1139 1,1153 1,1154 1,1167 1,1179 1,1200 1,1209 1,1248 1,1321 1,1340 1,1426 1,1437 1,1492 1,1501 1,1561 1,1576 1,1604 1,1613 1}
-{0 F,14 1,26 1,53 1,54 1,56 1,79 1,83 1,163 1,290 1,298 1,302 1,325 1,380 1,508 1,524 1,541 1,611 1,621 1,637 1,650 1,814 1}
-{0 F,14 1,26 1,53 1,54 1,56 1,79 1,83 1,163 1,290 1,298 1,302 1,325 1,380 1,508 1,524 1,541 1,611 1,628 1,637 1,650 1,814 1}
-{0 F,29 1,53 1,290 1,298 1,299 1,325 1,508 1,544 1,558 1,628 1,637 1,814 1,875 1,878 1,888 1,889 1,890 1,895 1,910 1,944 1,957 1,970 1,984 1,999 1,1005 1,1028 1,1081 1,1231 1,1311 1,1420 1,1479 1,1488 1,1499 1,1516 1,1518 1,1521 1}
-{0 F,29 1,53 1,290 1,298 1,299 1,325 1,508 1,544 1,558 1,629 1,637 1,814 1,875 1,878 1,888 1,889 1,890 1,895 1,910 1,944 1,957 1,970 1,984 1,999 1,1005 1,1028 1,1081 1,1231 1,1311 1,1420 1,1479 1,1488 1,1499 1,1516 1,1518 1,1521 1}
-{0 F,143 1,288 1,290 1,298 1,299 1,317 1,328 1,347 1,353 1,531 1,574 1,606 1,641 1,726 1,727 1,777 1,814 1,1109 1,1275 1,1296 1,1437 1,1443 1,1445 1,1469 1,1491 1,1526 1}
-{0 F,143 1,288 1,290 1,298 1,299 1,317 1,328 1,347 1,353 1,531 1,574 1,606 1,632 1,641 1,726 1,727 1,777 1,814 1,1109 1,1275 1,1296 1,1437 1,1443 1,1445 1,1469 1,1491 1}
-{0 F,13 1,53 1,54 1,68 1,83 1,276 1,290 1,298 1,299 1,313 1,325 1,344 1,404 1,508 1,609 1,621 1,637 1,719 1,814 1,877 1,881 1,898 1,906 1,923 1,971 1,1007 1,1021 1,1077 1,1120 1,1139 1,1164 1,1172 1,1580 1}
-{0 F,10 1,13 1,18 1,22 1,25 1,28 1,53 1,88 1,290 1,298 1,299 1,325 1,343 1,508 1,562 1,637 1,707 1,814 1,897 1,902 1,906 1,909 1,1159 1,1414 1,1419 1,1421 1,1534 1,1600 1,1601 1,1602 1,1603 1,1661 1}
-{0 F,10 1,13 1,18 1,22 1,25 1,28 1,53 1,88 1,290 1,298 1,299 1,325 1,343 1,508 1,562 1,637 1,707 1,814 1,897 1,902 1,906 1,909 1,1159 1,1414 1,1421 1,1525 1,1534 1,1600 1,1601 1,1602 1,1603 1,1661 1}
-{11 1,12 1,53 1,187 1,203 1,206 1,227 1,240 1,280 1,290 1,298 1,312 1,318 1,324 1,325 1,331 1,381 1,425 1,433 1,450 1,508 1,532 1,608 1,614 1,628 1,637 1,659 1,746 1,749 1,769 1,773 1,775 1,807 1,814 1,836 1}
-{11 1,12 1,53 1,187 1,203 1,206 1,227 1,240 1,280 1,290 1,298 1,312 1,318 1,324 1,325 1,331 1,381 1,425 1,433 1,450 1,508 1,532 1,608 1,614 1,629 1,637 1,659 1,746 1,749 1,769 1,773 1,775 1,807 1,814 1,836 1}
-{53 1,211 1,227 1,240 1,245 1,261 1,280 1,281 1,290 1,298 1,302 1,318 1,325 1,331 1,508 1,574 1,626 1,637 1,668 1,746 1,807 1,814 1}
-{53 1,211 1,227 1,240 1,245 1,261 1,280 1,281 1,290 1,298 1,302 1,318 1,325 1,331 1,508 1,574 1,628 1,637 1,668 1,746 1,807 1,814 1}
-{53 1,211 1,227 1,240 1,245 1,261 1,280 1,281 1,290 1,298 1,302 1,318 1,325 1,331 1,508 1,574 1,630 1,637 1,668 1,746 1,807 1,814 1}
-{53 1,64 1,127 1,290 1,298 1,322 1,325 1,383 1,404 1,508 1,560 1,574 1,604 1,628 1,637 1,719 1,814 1}
-{53 1,176 1,219 1,277 1,290 1,298 1,302 1,325 1,329 1,353 1,372 1,404 1,480 1,508 1,574 1,633 1,637 1}
-{176 1,219 1,277 1,290 1,298 1,302 1,329 1,372 1,404 1,480 1,574 1,618 1,727 1,814 1}
-{53 1,176 1,219 1,277 1,290 1,298 1,302 1,325 1,329 1,353 1,372 1,404 1,508 1,524 1,574 1,633 1,637 1,670 1}
-{176 1,219 1,277 1,290 1,298 1,302 1,329 1,372 1,404 1,524 1,574 1,618 1,670 1,727 1,814 1}
-{53 1,183 1,290 1,298 1,299 1,302 1,325 1,337 1,344 1,377 1,404 1,490 1,508 1,537 1,544 1,563 1,637 1,681 1,689 1,712 1,760 1,769 1,777 1,792 1,809 1,814 1}
-{53 1,183 1,290 1,298 1,299 1,302 1,325 1,337 1,344 1,377 1,404 1,490 1,508 1,537 1,544 1,563 1,637 1,681 1,689 1,712 1,760 1,769 1,777 1,792 1,809 1,814 1}
-{53 1,183 1,290 1,298 1,299 1,302 1,325 1,344 1,376 1,377 1,397 1,404 1,421 1,508 1,537 1,544 1,628 1,637 1,694 1,712 1,769 1,777 1,809 1,814 1,831 1,837 1}
-{53 1,183 1,290 1,298 1,299 1,302 1,325 1,344 1,376 1,377 1,397 1,404 1,421 1,508 1,537 1,544 1,637 1,694 1,712 1,760 1,769 1,777 1,809 1,814 1,831 1,837 1}
-{53 1,54 1,290 1,298 1,302 1,325 1,365 1,384 1,389 1,404 1,508 1,562 1,621 1,637 1,660 1,676 1,714 1,814 1}
-{53 1,54 1,290 1,298 1,302 1,325 1,365 1,384 1,404 1,508 1,514 1,517 1,588 1,621 1,637 1,660 1,714 1,814 1}
-{53 1,54 1,290 1,298 1,302 1,325 1,365 1,384 1,404 1,508 1,605 1,621 1,637 1,660 1,707 1,714 1,718 1,814 1}
-{53 1,59 1,290 1,298 1,302 1,325 1,387 1,403 1,404 1,508 1,564 1,574 1,621 1,637 1,647 1,707 1,768 1,814 1}
-{46 1,53 1,183 1,197 1,290 1,298 1,299 1,302 1,325 1,346 1,377 1,397 1,399 1,401 1,404 1,508 1,537 1,544 1,628 1,637 1,712 1,770 1,777 1,814 1,831 1,837 1}
-{46 1,53 1,183 1,197 1,290 1,298 1,299 1,302 1,325 1,346 1,377 1,397 1,399 1,401 1,404 1,508 1,537 1,544 1,637 1,712 1,760 1,770 1,777 1,814 1,831 1,837 1}
-{53 1,83 1,187 1,290 1,298 1,302 1,324 1,325 1,334 1,338 1,344 1,404 1,416 1,494 1,499 1,508 1,519 1,524 1,628 1,637 1,661 1,664 1,679 1,712 1,751 1,769 1,814 1}
-{53 1,83 1,187 1,290 1,298 1,302 1,324 1,325 1,334 1,338 1,344 1,404 1,416 1,494 1,499 1,508 1,519 1,524 1,637 1,661 1,664 1,679 1,712 1,751 1,760 1,769 1,814 1}
-{53 1,139 1,246 1,290 1,298 1,325 1,404 1,417 1,472 1,473 1,508 1,565 1,614 1,621 1,637 1,707 1,765 1,814 1}
-{53 1,139 1,246 1,290 1,298 1,325 1,404 1,417 1,472 1,473 1,508 1,565 1,614 1,630 1,637 1,707 1,765 1,814 1}
-{53 1,139 1,246 1,290 1,298 1,325 1,404 1,417 1,472 1,473 1,508 1,565 1,614 1,621 1,637 1,707 1,754 1,765 1,814 1}
-{53 1,139 1,246 1,290 1,298 1,325 1,404 1,417 1,472 1,473 1,508 1,565 1,614 1,630 1,637 1,707 1,754 1,765 1,814 1}
-{5 1,53 1,182 1,290 1,298 1,302 1,325 1,342 1,364 1,372 1,388 1,404 1,508 1,524 1,525 1,588 1,621 1,637 1,709 1,766 1,814 1}
-{22 1,53 1,147 1,195 1,243 1,290 1,298 1,302 1,325 1,363 1,371 1,380 1,404 1,419 1,508 1,614 1,637 1,712 1,760 1,811 1,814 1}
-{53 1,198 1,290 1,298 1,302 1,325 1,359 1,377 1,404 1,424 1,508 1,628 1,637 1,814 1,839 1}
-{53 1,198 1,290 1,298 1,302 1,325 1,359 1,377 1,404 1,424 1,508 1,637 1,760 1,814 1,839 1}
-{53 1,99 1,290 1,298 1,299 1,303 1,325 1,404 1,413 1,430 1,472 1,508 1,527 1,597 1,618 1,637 1,814 1}
-{18 1,53 1,62 1,290 1,298 1,310 1,315 1,325 1,404 1,457 1,473 1,508 1,574 1,618 1,637 1,814 1}
-{18 1,53 1,62 1,290 1,298 1,302 1,315 1,325 1,404 1,457 1,473 1,508 1,574 1,622 1,637 1,814 1}
-{53 1,83 1,183 1,221 1,223 1,259 1,288 1,290 1,298 1,299 1,302 1,325 1,344 1,377 1,404 1,458 1,508 1,537 1,538 1,544 1,628 1,637 1,712 1,769 1,777 1,809 1,814 1,831 1,837 1}
-{53 1,83 1,183 1,221 1,223 1,259 1,288 1,290 1,298 1,299 1,302 1,325 1,344 1,377 1,404 1,458 1,508 1,537 1,538 1,544 1,637 1,712 1,760 1,769 1,777 1,809 1,814 1,831 1,837 1}
-{53 1,130 1,290 1,298 1,303 1,325 1,404 1,463 1,508 1,522 1,524 1,540 1,618 1,637 1,713 1,814 1}
-{53 1,291 1,298 1,325 1,372 1,404 1,469 1,508 1,637 1,668 1,739 1,760 1,814 1}
-{53 1,291 1,298 1,325 1,353 1,372 1,404 1,469 1,508 1,632 1,637 1,739 1,799 1,808 1}
-{32 1,53 1,54 1,290 1,294 1,298 1,325 1,364 1,372 1,373 1,377 1,386 1,404 1,453 1,460 1,470 1,498 1,503 1,508 1,529 1,531 1,536 1,543 1,637 1,668 1,688 1,719 1,769 1,777 1,801 1,814 1}
-{23 1,29 1,53 1,290 1,298 1,302 1,325 1,404 1,472 1,493 1,508 1,574 1,621 1,637 1,814 1}
-{44 1,53 1,94 1,100 1,107 1,290 1,298 1,302 1,305 1,325 1,372 1,404 1,483 1,508 1,618 1,637 1,668 1,766 1,792 1,814 1}
-{44 1,53 1,94 1,100 1,107 1,290 1,298 1,302 1,325 1,372 1,404 1,483 1,508 1,628 1,637 1,668 1,766 1,792 1,814 1}
-{176 1,219 1,277 1,290 1,298 1,372 1,404 1,488 1,549 1,618 1,727 1,814 1,830 1}
-{53 1,55 1,290 1,298 1,302 1,325 1,372 1,404 1,423 1,489 1,508 1,528 1,628 1,637 1,648 1,656 1,755 1,814 1}
-{53 1,139 1,183 1,290 1,298 1,299 1,306 1,325 1,344 1,377 1,397 1,404 1,497 1,508 1,537 1,544 1,618 1,637 1,694 1,712 1,769 1,777 1,809 1,814 1,831 1,837 1}
-{53 1,183 1,290 1,298 1,299 1,302 1,325 1,344 1,377 1,397 1,404 1,497 1,508 1,537 1,544 1,628 1,637 1,694 1,712 1,769 1,777 1,809 1,814 1,831 1,837 1}
-{53 1,183 1,290 1,298 1,299 1,302 1,325 1,344 1,377 1,397 1,404 1,497 1,508 1,537 1,544 1,628 1,637 1,694 1,712 1,769 1,777 1,809 1,814 1,831 1,837 1}
-{53 1,63 1,187 1,290 1,298 1,302 1,325 1,344 1,377 1,397 1,404 1,476 1,497 1,508 1,513 1,531 1,535 1,544 1,591 1,628 1,637 1,678 1,694 1,712 1,769 1,777 1,809 1,814 1,831 1,837 1}
-{53 1,183 1,290 1,298 1,299 1,302 1,325 1,344 1,377 1,397 1,404 1,497 1,508 1,537 1,544 1,628 1,637 1,694 1,712 1,769 1,777 1,809 1,814 1,831 1,837 1}
-{53 1,183 1,290 1,298 1,299 1,302 1,325 1,344 1,377 1,397 1,404 1,497 1,508 1,537 1,544 1,628 1,637 1,694 1,712 1,769 1,777 1,809 1,814 1,831 1,837 1}
-{53 1,183 1,290 1,298 1,299 1,302 1,325 1,344 1,377 1,397 1,404 1,497 1,508 1,537 1,544 1,628 1,637 1,694 1,712 1,769 1,777 1,809 1,814 1,831 1,837 1}
-{53 1,183 1,290 1,298 1,299 1,302 1,325 1,344 1,377 1,397 1,404 1,497 1,508 1,537 1,544 1,628 1,637 1,694 1,712 1,769 1,777 1,809 1,814 1,831 1,837 1}
-{53 1,183 1,290 1,298 1,299 1,302 1,325 1,344 1,377 1,397 1,404 1,497 1,508 1,537 1,544 1,628 1,637 1,694 1,712 1,769 1,777 1,809 1,814 1,831 1,837 1}
-{53 1,183 1,290 1,298 1,299 1,302 1,325 1,344 1,377 1,397 1,404 1,497 1,508 1,537 1,544 1,637 1,694 1,712 1,760 1,769 1,777 1,809 1,814 1,831 1,837 1}
-{53 1,183 1,290 1,298 1,299 1,302 1,325 1,344 1,377 1,397 1,404 1,497 1,508 1,537 1,544 1,637 1,694 1,712 1,760 1,769 1,777 1,809 1,814 1,831 1,837 1}
-{53 1,63 1,187 1,290 1,298 1,302 1,325 1,344 1,377 1,397 1,404 1,476 1,497 1,508 1,513 1,531 1,535 1,544 1,591 1,637 1,678 1,694 1,712 1,760 1,769 1,777 1,809 1,814 1,831 1,837 1}
-{53 1,183 1,290 1,298 1,299 1,302 1,325 1,344 1,377 1,397 1,404 1,497 1,508 1,537 1,544 1,637 1,694 1,712 1,760 1,769 1,777 1,809 1,814 1,831 1,837 1}
-{53 1,183 1,290 1,298 1,299 1,302 1,325 1,344 1,377 1,397 1,404 1,497 1,508 1,537 1,544 1,637 1,694 1,712 1,760 1,769 1,777 1,809 1,814 1,831 1,837 1}
-{53 1,183 1,290 1,298 1,299 1,302 1,325 1,344 1,377 1,397 1,404 1,497 1,508 1,537 1,544 1,637 1,694 1,712 1,760 1,769 1,777 1,809 1,814 1,831 1,837 1}
-{53 1,183 1,290 1,298 1,299 1,302 1,325 1,344 1,377 1,397 1,404 1,497 1,508 1,537 1,544 1,637 1,694 1,712 1,760 1,769 1,777 1,809 1,814 1,831 1,837 1}
-{53 1,183 1,290 1,298 1,299 1,302 1,325 1,344 1,377 1,397 1,404 1,497 1,508 1,537 1,544 1,637 1,694 1,712 1,760 1,769 1,777 1,809 1,814 1,831 1,837 1}
-{53 1,183 1,290 1,298 1,299 1,302 1,325 1,344 1,377 1,397 1,404 1,497 1,508 1,537 1,544 1,637 1,694 1,712 1,760 1,769 1,777 1,809 1,814 1,831 1,837 1}
-{53 1,183 1,290 1,298 1,299 1,302 1,325 1,344 1,377 1,397 1,404 1,497 1,508 1,537 1,544 1,637 1,694 1,712 1,760 1,769 1,777 1,809 1,814 1,831 1,837 1}
-{53 1,183 1,290 1,298 1,299 1,302 1,325 1,344 1,377 1,397 1,404 1,497 1,508 1,537 1,544 1,637 1,694 1,712 1,760 1,769 1,777 1,809 1,814 1,831 1,837 1}
-{53 1,183 1,290 1,298 1,299 1,302 1,325 1,344 1,377 1,397 1,404 1,497 1,508 1,537 1,544 1,559 1,628 1,637 1,694 1,712 1,769 1,777 1,809 1,814 1,831 1,837 1}
-{53 1,183 1,290 1,298 1,299 1,302 1,325 1,344 1,377 1,397 1,404 1,497 1,508 1,537 1,544 1,559 1,637 1,694 1,712 1,760 1,769 1,777 1,809 1,814 1,831 1,837 1}
-{49 1,53 1,65 1,72 1,86 1,111 1,197 1,215 1,218 1,221 1,225 1,253 1,273 1,289 1,290 1,298 1,303 1,325 1,327 1,349 1,372 1,397 1,404 1,411 1,446 1,497 1,508 1,618 1,637 1,646 1,655 1,671 1,766 1,814 1,831 1,837 1}
-{53 1,290 1,298 1,302 1,325 1,377 1,404 1,428 1,497 1,508 1,628 1,637 1,814 1,839 1,860 1,861 1}
-{53 1,290 1,298 1,302 1,325 1,377 1,404 1,428 1,497 1,508 1,637 1,760 1,814 1,839 1,860 1,861 1}
-{53 1,57 1,65 1,88 1,128 1,272 1,290 1,298 1,302 1,324 1,325 1,344 1,358 1,404 1,505 1,508 1,519 1,628 1,637 1,714 1,750 1,769 1,814 1}
-{53 1,80 1,97 1,169 1,270 1,290 1,298 1,302 1,325 1,377 1,397 1,404 1,506 1,508 1,628 1,637 1,714 1,814 1}
-{53 1,80 1,97 1,169 1,270 1,290 1,298 1,302 1,325 1,377 1,397 1,404 1,506 1,508 1,637 1,714 1,760 1,814 1}
-{44 1,53 1,192 1,193 1,205 1,230 1,234 1,275 1,290 1,298 1,299 1,308 1,314 1,325 1,361 1,372 1,404 1,508 1,522 1,618 1,637 1,693 1,726 1,749 1,769 1,777 1,782 1,788 1,814 1}
-{53 1,70 1,197 1,221 1,226 1,284 1,290 1,298 1,299 1,302 1,325 1,352 1,399 1,404 1,433 1,508 1,523 1,590 1,611 1,628 1,637 1,656 1,679 1,685 1,712 1,785 1,814 1}
-{53 1,70 1,197 1,221 1,226 1,284 1,290 1,298 1,299 1,302 1,325 1,352 1,399 1,404 1,433 1,508 1,523 1,590 1,611 1,637 1,656 1,679 1,685 1,712 1,760 1,785 1,814 1}
-{53 1,95 1,111 1,118 1,241 1,290 1,298 1,302 1,325 1,352 1,404 1,409 1,508 1,523 1,592 1,611 1,628 1,637 1,679 1,685 1,697 1,712 1,814 1}
-{53 1,95 1,111 1,118 1,241 1,290 1,298 1,302 1,325 1,352 1,404 1,409 1,508 1,523 1,592 1,611 1,637 1,679 1,685 1,697 1,712 1,760 1,814 1}
-{53 1,180 1,290 1,298 1,302 1,325 1,379 1,404 1,431 1,508 1,526 1,574 1,596 1,621 1,637 1,720 1,798 1,814 1}
-{53 1,180 1,290 1,298 1,302 1,325 1,379 1,404 1,431 1,508 1,526 1,574 1,596 1,628 1,637 1,720 1,798 1,814 1}
-{53 1,81 1,187 1,288 1,290 1,298 1,302 1,306 1,325 1,328 1,386 1,404 1,479 1,495 1,508 1,509 1,531 1,543 1,571 1,589 1,606 1,618 1,637 1,639 1,641 1,696 1,721 1,726 1,769 1,774 1,792 1,803 1,814 1}
-{53 1,81 1,187 1,288 1,290 1,298 1,302 1,307 1,325 1,328 1,386 1,404 1,479 1,495 1,508 1,509 1,531 1,543 1,571 1,589 1,606 1,618 1,637 1,639 1,641 1,696 1,721 1,726 1,769 1,774 1,792 1,803 1,814 1}
-{53 1,81 1,187 1,288 1,290 1,298 1,302 1,325 1,328 1,386 1,404 1,479 1,495 1,508 1,509 1,531 1,543 1,571 1,589 1,606 1,616 1,637 1,639 1,641 1,696 1,721 1,726 1,769 1,774 1,792 1,803 1,814 1}
-{53 1,81 1,187 1,288 1,290 1,298 1,302 1,325 1,328 1,386 1,404 1,479 1,495 1,508 1,509 1,531 1,543 1,571 1,589 1,606 1,617 1,637 1,639 1,641 1,696 1,721 1,726 1,769 1,774 1,792 1,803 1,814 1}
-{53 1,81 1,187 1,288 1,290 1,298 1,302 1,325 1,328 1,386 1,404 1,479 1,495 1,508 1,509 1,531 1,543 1,571 1,589 1,606 1,628 1,637 1,639 1,641 1,696 1,721 1,726 1,769 1,774 1,792 1,803 1,814 1}
-{53 1,81 1,187 1,288 1,290 1,298 1,302 1,307 1,325 1,328 1,404 1,429 1,485 1,495 1,508 1,509 1,531 1,543 1,571 1,589 1,606 1,618 1,637 1,639 1,641 1,696 1,721 1,726 1,769 1,774 1,792 1,803 1,814 1}
-{53 1,81 1,187 1,288 1,290 1,298 1,302 1,325 1,328 1,404 1,495 1,508 1,509 1,516 1,531 1,543 1,571 1,589 1,606 1,628 1,637 1,639 1,641 1,696 1,721 1,726 1,769 1,774 1,792 1,803 1,814 1}
-{38 1,53 1,54 1,68 1,115 1,175 1,268 1,290 1,298 1,301 1,302 1,321 1,325 1,333 1,336 1,400 1,404 1,438 1,508 1,529 1,539 1,551 1,558 1,615 1,620 1,637 1,697 1,735 1,769 1,777 1,792 1,814 1,836 1}
-{38 1,53 1,54 1,68 1,115 1,175 1,268 1,290 1,298 1,301 1,302 1,321 1,325 1,333 1,336 1,400 1,404 1,438 1,508 1,529 1,539 1,551 1,558 1,615 1,628 1,637 1,697 1,735 1,769 1,777 1,792 1,814 1,836 1}
-{53 1,290 1,298 1,302 1,325 1,371 1,377 1,404 1,434 1,508 1,531 1,628 1,637 1,736 1,761 1,814 1}
-{53 1,290 1,298 1,302 1,325 1,371 1,377 1,404 1,434 1,508 1,531 1,637 1,736 1,759 1,761 1,814 1}
-{6 1,8 1,53 1,85 1,97 1,217 1,231 1,290 1,298 1,320 1,325 1,369 1,404 1,422 1,472 1,481 1,508 1,531 1,542 1,637 1,674 1,719 1,728 1,755 1,760 1,814 1,822 1}
-{53 1,264 1,290 1,292 1,298 1,320 1,325 1,404 1,472 1,508 1,513 1,542 1,637 1,752 1,755 1,760 1,777 1,781 1,814 1}
-{53 1,290 1,298 1,308 1,325 1,372 1,404 1,508 1,518 1,545 1,618 1,637 1,663 1,814 1,837 1,847 1,848 1,849 1,850 1,853 1,854 1,856 1,859 1}
-{53 1,290 1,298 1,302 1,325 1,353 1,372 1,404 1,508 1,518 1,545 1,623 1,637 1,663 1,837 1,847 1,848 1,849 1,850 1,853 1,854 1,856 1,859 1}
-{53 1,290 1,298 1,302 1,325 1,372 1,404 1,508 1,518 1,545 1,637 1,663 1,760 1,814 1,837 1,847 1,848 1,849 1,850 1,853 1,854 1,856 1,859 1}
-{7 1,53 1,54 1,78 1,114 1,185 1,201 1,208 1,256 1,290 1,298 1,301 1,324 1,325 1,330 1,361 1,372 1,374 1,404 1,410 1,432 1,486 1,508 1,510 1,531 1,544 1,548 1,555 1,578 1,618 1,637 1,661 1,667 1,687 1,730 1,748 1,769 1,772 1,777 1,799 1,814 1,825 1,835 1}
-{45 1,53 1,194 1,221 1,290 1,298 1,299 1,302 1,325 1,340 1,344 1,377 1,404 1,443 1,508 1,547 1,628 1,637 1,663 1,733 1,761 1,769 1,814 1}
-{45 1,53 1,194 1,221 1,290 1,298 1,299 1,302 1,325 1,340 1,344 1,377 1,404 1,443 1,508 1,547 1,637 1,663 1,733 1,760 1,761 1,769 1,814 1}
-{18 1,22 1,25 1,53 1,61 1,181 1,290 1,298 1,302 1,325 1,372 1,404 1,508 1,521 1,552 1,566 1,576 1,594 1,637 1,656 1,657 1,760 1,762 1,777 1,792 1,814 1,829 1,835 1}
-{53 1,221 1,258 1,290 1,298 1,301 1,302 1,323 1,325 1,404 1,508 1,546 1,553 1,628 1,637 1,649 1,714 1,761 1,814 1}
-{9 1,15 1,16 1,20 1,24 1,27 1,53 1,69 1,74 1,108 1,132 1,151 1,238 1,278 1,290 1,298 1,325 1,357 1,404 1,455 1,507 1,508 1,561 1,618 1,637 1,778 1,794 1,814 1,819 1}
-{51 1,53 1,92 1,122 1,135 1,137 1,145 1,177 1,290 1,298 1,302 1,309 1,325 1,404 1,473 1,508 1,524 1,568 1,574 1,587 1,618 1,637 1,814 1}
-{51 1,53 1,92 1,122 1,135 1,137 1,145 1,177 1,290 1,298 1,302 1,325 1,404 1,473 1,508 1,524 1,568 1,574 1,587 1,621 1,637 1,814 1}
-{53 1,97 1,125 1,162 1,179 1,213 1,232 1,236 1,242 1,255 1,279 1,290 1,298 1,320 1,325 1,369 1,402 1,404 1,472 1,508 1,570 1,621 1,637 1,728 1,814 1}
-{53 1,197 1,221 1,290 1,298 1,302 1,325 1,377 1,399 1,404 1,508 1,573 1,628 1,637 1,802 1,806 1,814 1}
-{53 1,197 1,221 1,290 1,298 1,302 1,325 1,377 1,399 1,404 1,508 1,573 1,637 1,760 1,802 1,806 1,814 1}
-{53 1,82 1,158 1,244 1,290 1,298 1,302 1,325 1,344 1,377 1,404 1,508 1,575 1,607 1,628 1,637 1,712 1,714 1,814 1,828 1}
-{53 1,82 1,158 1,244 1,290 1,298 1,302 1,325 1,344 1,377 1,404 1,508 1,575 1,607 1,637 1,712 1,714 1,760 1,814 1,828 1}
-{13 1,18 1,28 1,53 1,168 1,290 1,293 1,297 1,298 1,316 1,325 1,331 1,353 1,372 1,404 1,508 1,586 1,623 1,637 1,840 1,841 1,842 1,843 1,844 1,846 1,851 1,852 1,855 1,857 1,858 1,862 1,863 1}
-{43 1,52 1,53 1,73 1,77 1,111 1,143 1,144 1,148 1,162 1,202 1,218 1,229 1,240 1,245 1,253 1,290 1,298 1,299 1,324 1,325 1,372 1,404 1,508 1,549 1,593 1,628 1,637 1,697 1,769 1,814 1}
-{53 1,183 1,290 1,298 1,302 1,323 1,325 1,344 1,353 1,356 1,377 1,380 1,404 1,508 1,537 1,603 1,623 1,637 1,679 1,707 1,769 1,809 1,836 1}
-{53 1,183 1,290 1,298 1,302 1,323 1,325 1,344 1,356 1,377 1,380 1,404 1,508 1,537 1,603 1,628 1,637 1,679 1,707 1,769 1,809 1,814 1,836 1}
-{13 1,19 1,22 1,47 1,48 1,53 1,63 1,97 1,163 1,253 1,260 1,271 1,290 1,298 1,319 1,325 1,370 1,404 1,508 1,531 1,585 1,598 1,614 1,618 1,634 1,637 1,744 1,765 1,777 1,814 1,832 1}
-{53 1,139 1,246 1,290 1,298 1,325 1,404 1,472 1,473 1,508 1,565 1,614 1,621 1,634 1,637 1,765 1,814 1,832 1}
-{53 1,139 1,246 1,290 1,298 1,325 1,404 1,472 1,473 1,508 1,565 1,614 1,630 1,634 1,637 1,765 1,814 1,832 1}
-{53 1,76 1,184 1,283 1,290 1,298 1,302 1,325 1,344 1,404 1,508 1,524 1,615 1,628 1,637 1,707 1,714 1,737 1,791 1,814 1}
-{37 1,53 1,117 1,149 1,274 1,290 1,298 1,302 1,325 1,344 1,404 1,508 1,524 1,615 1,628 1,637 1,707 1,714 1,737 1,791 1,814 1}
-{53 1,105 1,290 1,298 1,302 1,325 1,344 1,404 1,447 1,508 1,524 1,615 1,628 1,637 1,707 1,714 1,737 1,791 1,813 1,814 1}
-{32 1,53 1,54 1,290 1,294 1,298 1,325 1,364 1,372 1,373 1,377 1,382 1,386 1,404 1,470 1,498 1,503 1,508 1,529 1,531 1,536 1,637 1,639 1,668 1,688 1,719 1,769 1,777 1,814 1}
-{53 1,90 1,96 1,107 1,290 1,298 1,325 1,377 1,404 1,508 1,529 1,621 1,637 1,641 1,658 1,745 1,771 1,814 1}
-{53 1,54 1,172 1,226 1,290 1,298 1,299 1,302 1,325 1,372 1,398 1,404 1,409 1,508 1,637 1,645 1,804 1,808 1,814 1}
-{53 1,66 1,71 1,110 1,119 1,121 1,152 1,155 1,180 1,186 1,209 1,237 1,267 1,290 1,298 1,299 1,302 1,325 1,372 1,398 1,404 1,409 1,502 1,508 1,529 1,582 1,619 1,637 1,638 1,645 1,777 1,804 1,808 1,814 1}
-{53 1,190 1,197 1,290 1,298 1,299 1,302 1,324 1,325 1,377 1,398 1,399 1,404 1,406 1,478 1,508 1,544 1,628 1,637 1,645 1,681 1,689 1,769 1,804 1,808 1,814 1,826 1}
-{21 1,53 1,67 1,153 1,156 1,290 1,298 1,302 1,307 1,325 1,404 1,473 1,508 1,574 1,618 1,637 1,651 1,814 1}
-{53 1,141 1,166 1,290 1,298 1,302 1,305 1,325 1,404 1,473 1,508 1,577 1,618 1,637 1,651 1,814 1}
-{53 1,54 1,65 1,102 1,212 1,221 1,290 1,298 1,302 1,324 1,325 1,348 1,355 1,372 1,399 1,404 1,486 1,492 1,500 1,501 1,508 1,519 1,537 1,628 1,637 1,644 1,653 1,700 1,701 1,715 1,750 1,769 1,777 1,814 1}
-{53 1,54 1,124 1,204 1,221 1,290 1,298 1,302 1,324 1,325 1,372 1,404 1,486 1,501 1,503 1,508 1,628 1,637 1,644 1,653 1,672 1,682 1,692 1,699 1,712 1,769 1,780 1,814 1,826 1,836 1}
-{53 1,84 1,235 1,290 1,298 1,302 1,325 1,390 1,397 1,404 1,508 1,531 1,626 1,637 1,662 1,707 1,712 1,814 1}
-{53 1,84 1,235 1,290 1,298 1,302 1,325 1,390 1,397 1,404 1,508 1,531 1,628 1,637 1,662 1,707 1,712 1,814 1}
-{53 1,140 1,187 1,290 1,298 1,325 1,372 1,404 1,508 1,628 1,637 1,642 1,680 1,814 1,816 1}
-{53 1,136 1,196 1,200 1,290 1,298 1,299 1,302 1,325 1,363 1,404 1,412 1,418 1,508 1,524 1,547 1,565 1,637 1,679 1,685 1,686 1,734 1,814 1,815 1}
-{53 1,136 1,196 1,200 1,290 1,298 1,299 1,302 1,325 1,363 1,404 1,412 1,508 1,524 1,547 1,565 1,627 1,637 1,679 1,685 1,686 1,734 1,814 1,815 1}
-{53 1,136 1,196 1,200 1,290 1,298 1,299 1,302 1,325 1,363 1,404 1,508 1,524 1,547 1,582 1,627 1,637 1,679 1,685 1,686 1,814 1,815 1}
-{53 1,54 1,107 1,290 1,298 1,302 1,313 1,325 1,404 1,508 1,520 1,628 1,637 1,683 1,717 1,814 1}
-{53 1,228 1,290 1,298 1,301 1,311 1,325 1,350 1,372 1,404 1,508 1,556 1,602 1,618 1,637 1,658 1,675 1,702 1,745 1,792 1,814 1}
-{53 1,228 1,290 1,298 1,301 1,302 1,325 1,350 1,372 1,404 1,508 1,556 1,602 1,628 1,637 1,658 1,675 1,702 1,745 1,792 1,814 1}
-{53 1,54 1,120 1,139 1,290 1,298 1,302 1,325 1,344 1,404 1,405 1,508 1,572 1,628 1,637 1,708 1,814 1}
-{10 1,41 1,53 1,290 1,298 1,302 1,353 1,372 1,404 1,437 1,467 1,487 1,636 1,685 1,724 1,727 1,801 1,814 1}
-{42 1,50 1,53 1,75 1,93 1,146 1,164 1,167 1,250 1,290 1,298 1,299 1,300 1,301 1,302 1,324 1,325 1,372 1,386 1,391 1,404 1,415 1,451 1,471 1,477 1,482 1,508 1,543 1,628 1,637 1,656 1,668 1,669 1,710 1,712 1,743 1,758 1,769 1,814 1,821 1,825 1,826 1}
-{1 1,2 1,3 1,11 1,17 1,40 1,53 1,58 1,113 1,139 1,161 1,166 1,171 1,178 1,199 1,214 1,217 1,220 1,252 1,262 1,263 1,269 1,290 1,298 1,302 1,325 1,366 1,367 1,368 1,404 1,444 1,463 1,474 1,508 1,615 1,628 1,635 1,637 1,741 1,747 1,776 1,777 1,814 1}
-{1 1,2 1,3 1,11 1,17 1,40 1,53 1,58 1,113 1,139 1,161 1,166 1,171 1,178 1,199 1,214 1,217 1,220 1,252 1,262 1,263 1,269 1,290 1,298 1,302 1,325 1,366 1,367 1,368 1,404 1,444 1,463 1,474 1,508 1,615 1,630 1,635 1,637 1,741 1,747 1,776 1,777 1,814 1}
-{22 1,34 1,35 1,53 1,64 1,89 1,129 1,210 1,290 1,298 1,299 1,301 1,302 1,325 1,377 1,386 1,404 1,454 1,508 1,583 1,588 1,613 1,618 1,637 1,763 1,783 1,793 1,814 1}
-{22 1,34 1,35 1,53 1,64 1,89 1,129 1,210 1,290 1,298 1,299 1,301 1,302 1,325 1,377 1,386 1,404 1,454 1,508 1,583 1,588 1,613 1,628 1,637 1,763 1,783 1,793 1,814 1}
-{39 1,150 1,290 1,298 1,309 1,372 1,404 1,496 1,618 1,727 1,753 1,764 1,814 1}
-{53 1,101 1,123 1,142 1,165 1,173 1,174 1,189 1,233 1,257 1,264 1,290 1,295 1,296 1,298 1,302 1,317 1,324 1,328 1,351 1,353 1,360 1,361 1,362 1,363 1,372 1,392 1,404 1,408 1,410 1,427 1,436 1,440 1,448 1,449 1,462 1,467 1,475 1,476 1,480 1,482 1,491 1,512 1,531 1,543 1,544 1,566 1,567 1,569 1,574 1,584 1,591 1,596 1,623 1,635 1,639 1,652 1,657 1,661 1,666 1,677 1,698 1,711 1,723 1,727 1,734 1,761 1,762 1,769 1,772 1,777 1,798 1,814 1,827 1,835 1,836 1}
-{53 1,101 1,123 1,142 1,165 1,173 1,174 1,189 1,233 1,257 1,264 1,290 1,295 1,296 1,298 1,302 1,317 1,324 1,328 1,351 1,360 1,361 1,362 1,363 1,372 1,392 1,393 1,404 1,408 1,410 1,427 1,436 1,440 1,448 1,449 1,462 1,467 1,475 1,476 1,480 1,482 1,491 1,512 1,531 1,543 1,544 1,566 1,567 1,569 1,574 1,584 1,591 1,596 1,635 1,639 1,652 1,657 1,661 1,666 1,677 1,698 1,711 1,723 1,727 1,734 1,761 1,762 1,769 1,772 1,777 1,798 1,814 1,827 1,835 1,836 1}
-{53 1,101 1,123 1,142 1,165 1,173 1,174 1,189 1,233 1,257 1,264 1,290 1,295 1,296 1,298 1,302 1,317 1,324 1,328 1,351 1,360 1,361 1,362 1,363 1,372 1,392 1,394 1,404 1,408 1,410 1,427 1,436 1,440 1,448 1,449 1,462 1,467 1,475 1,476 1,480 1,482 1,491 1,512 1,531 1,543 1,544 1,566 1,567 1,569 1,574 1,584 1,591 1,596 1,635 1,639 1,652 1,657 1,661 1,666 1,677 1,698 1,711 1,723 1,727 1,734 1,761 1,762 1,769 1,772 1,777 1,798 1,814 1,827 1,835 1,836 1}
-{53 1,101 1,123 1,142 1,165 1,173 1,174 1,189 1,233 1,257 1,264 1,290 1,295 1,296 1,298 1,302 1,317 1,324 1,328 1,351 1,360 1,361 1,362 1,363 1,372 1,392 1,396 1,404 1,408 1,410 1,427 1,436 1,440 1,448 1,449 1,462 1,467 1,475 1,476 1,480 1,482 1,491 1,512 1,531 1,543 1,544 1,566 1,567 1,569 1,574 1,584 1,591 1,596 1,635 1,639 1,652 1,657 1,661 1,666 1,677 1,698 1,711 1,723 1,727 1,734 1,761 1,762 1,769 1,772 1,777 1,798 1,814 1,827 1,835 1,836 1}
-{53 1,98 1,290 1,298 1,302 1,325 1,404 1,473 1,508 1,515 1,574 1,621 1,637 1,769 1,814 1}
-{53 1,98 1,290 1,298 1,302 1,325 1,404 1,473 1,508 1,515 1,574 1,630 1,637 1,769 1,814 1}
-{53 1,54 1,65 1,197 1,221 1,290 1,298 1,302 1,325 1,372 1,377 1,404 1,508 1,601 1,628 1,637 1,761 1,789 1,814 1}
-{53 1,54 1,65 1,197 1,221 1,290 1,298 1,302 1,325 1,372 1,377 1,404 1,508 1,601 1,637 1,760 1,761 1,789 1,814 1}
-{31 1,53 1,109 1,126 1,247 1,290 1,298 1,325 1,404 1,464 1,466 1,508 1,513 1,581 1,621 1,637 1,725 1,756 1,791 1,792 1,814 1,836 1,845 1}
-{10 1,53 1,83 1,102 1,197 1,222 1,224 1,248 1,287 1,290 1,298 1,299 1,302 1,325 1,344 1,345 1,348 1,375 1,399 1,404 1,498 1,504 1,508 1,537 1,588 1,595 1,628 1,637 1,639 1,704 1,712 1,722 1,769 1,800 1,814 1}
-{53 1,265 1,266 1,290 1,298 1,301 1,302 1,317 1,325 1,404 1,407 1,439 1,461 1,508 1,531 1,543 1,607 1,614 1,626 1,637 1,661 1,761 1,784 1,787 1,801 1,814 1}
-{53 1,265 1,266 1,290 1,298 1,301 1,302 1,317 1,325 1,404 1,407 1,439 1,461 1,508 1,531 1,543 1,607 1,614 1,628 1,637 1,661 1,761 1,784 1,787 1,801 1,814 1}
-{53 1,55 1,157 1,170 1,290 1,298 1,302 1,324 1,325 1,335 1,353 1,404 1,445 1,486 1,508 1,530 1,549 1,577 1,588 1,625 1,637 1,796 1,801 1}
-{53 1,55 1,157 1,170 1,290 1,298 1,302 1,324 1,325 1,335 1,404 1,445 1,486 1,508 1,530 1,549 1,577 1,588 1,622 1,637 1,796 1,801 1,814 1}
-{53 1,55 1,157 1,170 1,290 1,298 1,302 1,324 1,325 1,335 1,404 1,445 1,486 1,508 1,530 1,549 1,577 1,588 1,626 1,637 1,796 1,801 1,814 1}
-{53 1,55 1,157 1,170 1,290 1,298 1,302 1,324 1,325 1,335 1,404 1,445 1,486 1,508 1,530 1,549 1,577 1,588 1,630 1,637 1,796 1,801 1,814 1}
-{53 1,60 1,87 1,131 1,133 1,228 1,290 1,298 1,304 1,325 1,328 1,404 1,495 1,508 1,554 1,574 1,618 1,637 1,777 1,814 1,818 1,836 1}
-{53 1,60 1,87 1,131 1,133 1,228 1,290 1,298 1,302 1,325 1,328 1,404 1,495 1,508 1,554 1,574 1,630 1,637 1,777 1,814 1,818 1,836 1}
-{33 1,53 1,57 1,88 1,163 1,191 1,207 1,282 1,290 1,298 1,302 1,325 1,344 1,363 1,372 1,404 1,475 1,476 1,508 1,511 1,531 1,579 1,637 1,684 1,695 1,705 1,716 1,759 1,769 1,777 1,779 1,809 1,814 1,817 1,820 1}
-{33 1,53 1,57 1,88 1,163 1,191 1,207 1,282 1,290 1,298 1,302 1,325 1,344 1,363 1,372 1,404 1,475 1,476 1,508 1,511 1,531 1,579 1,637 1,684 1,695 1,705 1,716 1,760 1,769 1,777 1,779 1,809 1,814 1,817 1,820 1}
-{53 1,190 1,267 1,282 1,290 1,298 1,302 1,324 1,325 1,332 1,354 1,363 1,377 1,378 1,404 1,482 1,508 1,531 1,579 1,598 1,610 1,637 1,640 1,654 1,665 1,668 1,719 1,738 1,760 1,777 1,810 1,812 1,814 1,820 1}
-{33 1,53 1,57 1,88 1,163 1,191 1,207 1,282 1,290 1,298 1,302 1,325 1,344 1,363 1,372 1,377 1,404 1,475 1,476 1,508 1,531 1,579 1,637 1,684 1,714 1,716 1,759 1,769 1,777 1,809 1,814 1,817 1,820 1}
-{33 1,53 1,57 1,88 1,163 1,191 1,207 1,282 1,290 1,298 1,302 1,325 1,344 1,363 1,372 1,377 1,404 1,475 1,476 1,508 1,531 1,579 1,637 1,684 1,714 1,716 1,760 1,769 1,777 1,809 1,814 1,817 1,820 1}
-{53 1,188 1,197 1,290 1,298 1,302 1,324 1,325 1,334 1,339 1,341 1,372 1,399 1,404 1,414 1,508 1,519 1,628 1,637 1,679 1,685 1,714 1,732 1,750 1,814 1,823 1}
-{53 1,188 1,197 1,290 1,298 1,302 1,324 1,325 1,334 1,339 1,341 1,372 1,399 1,404 1,414 1,508 1,519 1,637 1,679 1,685 1,714 1,732 1,750 1,760 1,814 1,823 1}
-{53 1,160 1,290 1,298 1,325 1,372 1,404 1,508 1,618 1,637 1,668 1,690 1,691 1,731 1,740 1,773 1,814 1,824 1}
-{53 1,160 1,290 1,298 1,325 1,372 1,404 1,508 1,628 1,637 1,668 1,690 1,691 1,731 1,740 1,773 1,814 1,824 1}
-{53 1,183 1,290 1,298 1,299 1,302 1,325 1,344 1,377 1,397 1,404 1,426 1,508 1,537 1,544 1,628 1,637 1,694 1,712 1,769 1,777 1,808 1,809 1,814 1,824 1}
-{53 1,183 1,290 1,298 1,299 1,302 1,325 1,344 1,377 1,397 1,404 1,426 1,508 1,537 1,544 1,637 1,694 1,712 1,760 1,769 1,777 1,808 1,809 1,814 1,824 1}
-{13 1,18 1,30 1,53 1,106 1,116 1,134 1,154 1,158 1,239 1,249 1,276 1,286 1,290 1,298 1,302 1,325 1,353 1,372 1,404 1,472 1,473 1,508 1,588 1,607 1,624 1,637 1,639 1,729 1,777 1,833 1}
-{13 1,18 1,30 1,53 1,106 1,116 1,134 1,154 1,158 1,239 1,249 1,276 1,286 1,290 1,298 1,302 1,325 1,353 1,372 1,404 1,472 1,473 1,508 1,588 1,607 1,625 1,637 1,639 1,729 1,777 1,833 1}
-{13 1,18 1,30 1,53 1,106 1,116 1,134 1,154 1,158 1,239 1,249 1,276 1,286 1,290 1,298 1,302 1,325 1,353 1,372 1,404 1,472 1,473 1,508 1,588 1,607 1,633 1,637 1,639 1,729 1,777 1,833 1}
-{13 1,18 1,30 1,53 1,106 1,116 1,134 1,154 1,158 1,239 1,249 1,276 1,286 1,290 1,298 1,302 1,325 1,372 1,404 1,472 1,473 1,508 1,588 1,607 1,618 1,637 1,639 1,729 1,777 1,814 1,833 1}
-{13 1,18 1,30 1,53 1,106 1,116 1,134 1,154 1,158 1,239 1,249 1,276 1,286 1,290 1,298 1,302 1,325 1,372 1,404 1,472 1,473 1,508 1,588 1,607 1,630 1,637 1,639 1,729 1,777 1,814 1,833 1}
-{13 1,18 1,30 1,53 1,106 1,116 1,134 1,154 1,158 1,239 1,249 1,276 1,286 1,290 1,298 1,302 1,325 1,372 1,404 1,472 1,473 1,508 1,588 1,607 1,631 1,637 1,639 1,729 1,777 1,814 1,833 1}
-{53 1,103 1,104 1,112 1,159 1,254 1,285 1,290 1,298 1,302 1,325 1,372 1,404 1,452 1,468 1,508 1,574 1,618 1,637 1,814 1,837 1}
-{13 1,18 1,53 1,101 1,123 1,142 1,165 1,173 1,174 1,189 1,233 1,257 1,264 1,290 1,295 1,296 1,298 1,302 1,317 1,324 1,328 1,351 1,353 1,360 1,361 1,362 1,363 1,372 1,392 1,404 1,408 1,410 1,427 1,436 1,440 1,448 1,449 1,467 1,475 1,476 1,480 1,482 1,491 1,512 1,531 1,533 1,543 1,544 1,566 1,567 1,569 1,574 1,584 1,591 1,596 1,623 1,635 1,639 1,652 1,657 1,661 1,666 1,677 1,698 1,706 1,711 1,723 1,727 1,734 1,761 1,762 1,769 1,772 1,777 1,798 1,814 1,827 1,835 1,836 1,838 1}
-{13 1,18 1,53 1,101 1,123 1,142 1,165 1,173 1,174 1,189 1,233 1,257 1,264 1,290 1,295 1,296 1,298 1,302 1,317 1,324 1,328 1,351 1,360 1,361 1,362 1,363 1,372 1,392 1,393 1,404 1,408 1,410 1,427 1,436 1,440 1,448 1,449 1,467 1,475 1,476 1,480 1,482 1,491 1,512 1,531 1,533 1,543 1,544 1,566 1,567 1,569 1,574 1,584 1,591 1,596 1,635 1,639 1,652 1,657 1,661 1,666 1,677 1,698 1,706 1,711 1,723 1,727 1,734 1,761 1,762 1,769 1,772 1,777 1,798 1,814 1,827 1,835 1,836 1,838 1}
-{13 1,18 1,53 1,101 1,123 1,142 1,165 1,173 1,174 1,189 1,233 1,257 1,264 1,290 1,295 1,296 1,298 1,302 1,317 1,324 1,328 1,351 1,360 1,361 1,362 1,363 1,372 1,392 1,394 1,404 1,408 1,410 1,427 1,436 1,440 1,448 1,449 1,467 1,475 1,476 1,480 1,482 1,491 1,512 1,531 1,533 1,543 1,544 1,566 1,567 1,569 1,574 1,584 1,591 1,596 1,635 1,639 1,652 1,657 1,661 1,666 1,677 1,698 1,706 1,711 1,723 1,727 1,734 1,761 1,762 1,769 1,772 1,777 1,798 1,814 1,827 1,835 1,836 1,838 1}
-{13 1,18 1,53 1,101 1,123 1,142 1,165 1,173 1,174 1,189 1,233 1,257 1,264 1,290 1,295 1,296 1,298 1,302 1,317 1,324 1,328 1,351 1,360 1,361 1,362 1,363 1,372 1,392 1,395 1,404 1,408 1,410 1,427 1,436 1,440 1,448 1,449 1,467 1,475 1,476 1,480 1,482 1,491 1,512 1,531 1,533 1,543 1,544 1,566 1,567 1,569 1,574 1,584 1,591 1,596 1,635 1,639 1,652 1,657 1,661 1,666 1,677 1,698 1,706 1,711 1,723 1,727 1,734 1,761 1,762 1,769 1,772 1,777 1,798 1,814 1,827 1,835 1,836 1,838 1}
-{13 1,18 1,53 1,101 1,123 1,142 1,165 1,173 1,174 1,189 1,233 1,257 1,264 1,290 1,295 1,296 1,298 1,302 1,317 1,324 1,328 1,351 1,360 1,361 1,362 1,363 1,372 1,392 1,396 1,404 1,408 1,410 1,427 1,436 1,440 1,448 1,449 1,467 1,475 1,476 1,480 1,482 1,491 1,512 1,531 1,533 1,543 1,544 1,566 1,567 1,569 1,574 1,584 1,591 1,596 1,635 1,639 1,652 1,657 1,661 1,666 1,677 1,698 1,706 1,711 1,723 1,727 1,734 1,761 1,762 1,769 1,772 1,777 1,798 1,814 1,827 1,835 1,836 1,838 1}
-{13 1,18 1,53 1,101 1,123 1,142 1,165 1,173 1,174 1,189 1,233 1,257 1,264 1,290 1,295 1,296 1,298 1,302 1,317 1,324 1,328 1,351 1,360 1,361 1,362 1,363 1,372 1,392 1,404 1,408 1,410 1,427 1,436 1,440 1,448 1,449 1,467 1,475 1,476 1,480 1,482 1,491 1,512 1,531 1,533 1,543 1,544 1,566 1,567 1,569 1,574 1,584 1,591 1,596 1,626 1,635 1,639 1,652 1,657 1,661 1,666 1,677 1,698 1,706 1,711 1,723 1,727 1,734 1,761 1,762 1,769 1,772 1,777 1,798 1,814 1,827 1,835 1,836 1,838 1}
-{4 1,45 1,53 1,197 1,222 1,290 1,298 1,302 1,325 1,377 1,459 1,508 1,559 1,628 1,637 1,814 1}
-{4 1,45 1,53 1,197 1,222 1,290 1,298 1,302 1,325 1,377 1,459 1,508 1,559 1,637 1,760 1,814 1}
-{14 1,26 1,53 1,54 1,56 1,79 1,83 1,163 1,290 1,298 1,302 1,325 1,380 1,508 1,524 1,541 1,611 1,617 1,637 1,650 1,814 1}
-{14 1,26 1,53 1,54 1,56 1,79 1,83 1,163 1,290 1,298 1,302 1,325 1,380 1,508 1,524 1,541 1,611 1,628 1,637 1,650 1,814 1}
-{53 1,91 1,138 1,290 1,298 1,302 1,325 1,441 1,442 1,508 1,557 1,580 1,628 1,637 1,714 1,792 1,814 1}
-{53 1,101 1,123 1,142 1,165 1,173 1,174 1,189 1,233 1,257 1,264 1,290 1,295 1,296 1,298 1,299 1,302 1,317 1,324 1,328 1,351 1,353 1,360 1,361 1,362 1,363 1,372 1,392 1,408 1,410 1,427 1,436 1,440 1,448 1,449 1,467 1,475 1,476 1,480 1,482 1,491 1,510 1,512 1,531 1,543 1,544 1,550 1,566 1,567 1,569 1,574 1,584 1,591 1,596 1,600 1,623 1,635 1,639 1,652 1,657 1,661 1,666 1,673 1,677 1,698 1,711 1,723 1,727 1,734 1,742 1,761 1,762 1,769 1,772 1,777 1,798 1,814 1,827 1,835 1,836 1}
-{53 1,101 1,123 1,142 1,165 1,173 1,174 1,189 1,233 1,257 1,264 1,290 1,295 1,296 1,298 1,299 1,302 1,317 1,324 1,328 1,351 1,360 1,361 1,362 1,363 1,372 1,392 1,393 1,408 1,410 1,427 1,436 1,440 1,448 1,449 1,467 1,475 1,476 1,480 1,482 1,491 1,510 1,512 1,531 1,543 1,544 1,550 1,566 1,567 1,569 1,574 1,584 1,591 1,596 1,600 1,635 1,639 1,652 1,657 1,661 1,666 1,673 1,677 1,698 1,711 1,723 1,727 1,734 1,742 1,761 1,762 1,769 1,772 1,777 1,798 1,814 1,827 1,835 1,836 1}
-{53 1,101 1,123 1,142 1,165 1,173 1,174 1,189 1,233 1,257 1,264 1,290 1,295 1,296 1,298 1,299 1,302 1,317 1,324 1,328 1,351 1,360 1,361 1,362 1,363 1,372 1,392 1,394 1,408 1,410 1,427 1,436 1,440 1,448 1,449 1,467 1,475 1,476 1,480 1,482 1,491 1,510 1,512 1,531 1,543 1,544 1,550 1,566 1,567 1,569 1,574 1,584 1,591 1,596 1,600 1,635 1,639 1,652 1,657 1,661 1,666 1,673 1,677 1,698 1,711 1,723 1,727 1,734 1,742 1,761 1,762 1,769 1,772 1,777 1,798 1,814 1,827 1,835 1,836 1}
-{53 1,101 1,123 1,142 1,165 1,173 1,174 1,189 1,233 1,257 1,264 1,290 1,295 1,296 1,298 1,299 1,302 1,317 1,324 1,328 1,351 1,360 1,361 1,362 1,363 1,372 1,392 1,395 1,408 1,410 1,427 1,436 1,440 1,448 1,449 1,467 1,475 1,476 1,480 1,482 1,491 1,510 1,512 1,531 1,543 1,544 1,550 1,566 1,567 1,569 1,574 1,584 1,591 1,596 1,600 1,635 1,639 1,652 1,657 1,661 1,666 1,673 1,677 1,698 1,711 1,723 1,727 1,734 1,742 1,761 1,762 1,769 1,772 1,777 1,798 1,814 1,827 1,835 1,836 1}
-{53 1,101 1,123 1,142 1,165 1,173 1,174 1,189 1,233 1,257 1,264 1,290 1,295 1,296 1,298 1,299 1,302 1,317 1,324 1,328 1,351 1,360 1,361 1,362 1,363 1,372 1,392 1,396 1,408 1,410 1,427 1,436 1,440 1,448 1,449 1,467 1,475 1,476 1,480 1,482 1,491 1,510 1,512 1,531 1,543 1,544 1,550 1,566 1,567 1,569 1,574 1,584 1,591 1,596 1,600 1,635 1,639 1,652 1,657 1,661 1,666 1,673 1,677 1,698 1,711 1,723 1,727 1,734 1,742 1,761 1,762 1,769 1,772 1,777 1,798 1,814 1,827 1,835 1,836 1}
-{53 1,101 1,123 1,142 1,165 1,173 1,174 1,189 1,233 1,257 1,264 1,290 1,295 1,296 1,298 1,299 1,302 1,317 1,324 1,328 1,351 1,360 1,361 1,362 1,363 1,372 1,392 1,408 1,410 1,427 1,436 1,440 1,448 1,449 1,467 1,475 1,476 1,480 1,482 1,491 1,510 1,512 1,531 1,543 1,544 1,550 1,566 1,567 1,569 1,574 1,584 1,591 1,596 1,600 1,626 1,635 1,639 1,652 1,657 1,661 1,666 1,673 1,677 1,698 1,711 1,723 1,727 1,734 1,742 1,761 1,762 1,769 1,772 1,777 1,798 1,814 1,827 1,835 1,836 1}
-{53 1,101 1,123 1,142 1,165 1,173 1,174 1,189 1,233 1,257 1,264 1,290 1,296 1,298 1,302 1,317 1,324 1,328 1,351 1,360 1,361 1,362 1,363 1,372 1,392 1,394 1,408 1,410 1,427 1,436 1,440 1,448 1,449 1,467 1,475 1,476 1,480 1,482 1,491 1,512 1,531 1,543 1,544 1,566 1,567 1,569 1,574 1,584 1,591 1,596 1,600 1,635 1,637 1,639 1,652 1,657 1,661 1,666 1,677 1,698 1,711 1,723 1,727 1,734 1,742 1,761 1,762 1,769 1,772 1,777 1,798 1,814 1,827 1,835 1,836 1}
-{53 1,101 1,123 1,142 1,165 1,173 1,174 1,189 1,233 1,257 1,264 1,290 1,296 1,298 1,302 1,317 1,324 1,328 1,351 1,360 1,361 1,362 1,363 1,372 1,392 1,396 1,408 1,410 1,427 1,436 1,440 1,448 1,449 1,467 1,475 1,476 1,480 1,482 1,491 1,512 1,531 1,543 1,544 1,566 1,567 1,569 1,574 1,584 1,591 1,596 1,600 1,635 1,637 1,639 1,652 1,657 1,661 1,666 1,677 1,698 1,711 1,723 1,727 1,734 1,742 1,761 1,762 1,769 1,772 1,777 1,798 1,814 1,827 1,835 1,836 1}
-{53 1,101 1,123 1,142 1,165 1,173 1,174 1,189 1,233 1,257 1,264 1,290 1,296 1,298 1,302 1,317 1,324 1,328 1,351 1,360 1,361 1,362 1,363 1,372 1,392 1,408 1,410 1,427 1,436 1,440 1,448 1,449 1,467 1,475 1,476 1,480 1,482 1,491 1,512 1,531 1,543 1,544 1,566 1,567 1,569 1,574 1,584 1,591 1,596 1,600 1,626 1,635 1,637 1,639 1,652 1,657 1,661 1,666 1,677 1,698 1,711 1,723 1,727 1,734 1,742 1,761 1,762 1,769 1,772 1,777 1,798 1,814 1,827 1,835 1,836 1}
-{36 1,53 1,89 1,165 1,257 1,290 1,298 1,325 1,330 1,343 1,347 1,420 1,465 1,484 1,508 1,531 1,534 1,543 1,599 1,600 1,607 1,621 1,637 1,714 1,742 1,757 1,769 1,772 1,777 1,795 1,805 1,814 1,837 1}
-{36 1,53 1,89 1,165 1,257 1,290 1,298 1,325 1,330 1,343 1,347 1,420 1,465 1,484 1,508 1,531 1,534 1,543 1,599 1,600 1,607 1,621 1,637 1,714 1,742 1,757 1,769 1,772 1,777 1,795 1,805 1,814 1,837 1}
-{36 1,53 1,89 1,165 1,257 1,290 1,298 1,325 1,330 1,343 1,347 1,420 1,465 1,484 1,508 1,531 1,534 1,543 1,599 1,600 1,607 1,621 1,637 1,714 1,742 1,757 1,769 1,772 1,777 1,795 1,805 1,814 1,837 1}
-{36 1,53 1,89 1,165 1,257 1,290 1,298 1,325 1,330 1,343 1,347 1,420 1,465 1,484 1,508 1,531 1,534 1,543 1,599 1,600 1,607 1,621 1,637 1,714 1,742 1,757 1,769 1,772 1,777 1,795 1,805 1,814 1,837 1}
-{36 1,53 1,89 1,165 1,257 1,290 1,298 1,325 1,330 1,343 1,347 1,420 1,465 1,484 1,508 1,531 1,534 1,543 1,599 1,600 1,607 1,627 1,637 1,714 1,742 1,757 1,769 1,772 1,777 1,795 1,805 1,814 1,837 1}
-{36 1,53 1,89 1,165 1,257 1,290 1,298 1,325 1,330 1,343 1,347 1,420 1,465 1,484 1,508 1,531 1,534 1,543 1,599 1,600 1,607 1,627 1,637 1,714 1,742 1,757 1,769 1,772 1,777 1,795 1,805 1,814 1,837 1}
-{36 1,53 1,89 1,165 1,257 1,290 1,298 1,325 1,330 1,343 1,347 1,420 1,465 1,484 1,508 1,531 1,534 1,543 1,599 1,600 1,607 1,627 1,637 1,714 1,742 1,757 1,769 1,772 1,777 1,795 1,805 1,814 1,837 1}
-{53 1,183 1,290 1,298 1,299 1,302 1,325 1,344 1,377 1,404 1,508 1,537 1,544 1,609 1,628 1,637 1,694 1,712 1,769 1,777 1,809 1,814 1}
-{53 1,183 1,290 1,298 1,299 1,302 1,325 1,344 1,377 1,404 1,508 1,537 1,544 1,609 1,637 1,694 1,712 1,760 1,769 1,777 1,809 1,814 1}
-{53 1,54 1,290 1,298 1,302 1,325 1,377 1,399 1,435 1,508 1,612 1,628 1,637 1,643 1,790 1,814 1,831 1,837 1}
-{53 1,54 1,290 1,298 1,302 1,325 1,377 1,399 1,435 1,508 1,612 1,637 1,643 1,760 1,790 1,814 1,831 1,837 1}
-{53 1,87 1,216 1,290 1,298 1,301 1,302 1,324 1,325 1,364 1,372 1,456 1,508 1,611 1,628 1,637 1,685 1,703 1,786 1,814 1,834 1}
-{11 1,251 1,290 1,298 1,302 1,326 1,385 1,685 1,693 1,719 1,727 1,749 1,760 1,767 1,769 1,777 1,797 1,806 1,814 1}
+{65 1,284 1,288 1,292 1,327 1,329 1,336 1,338 1,348 1,352 1,354 1,358 1,405 1,413 1,416 1,418 1,419 1,420 1,421 1,422 1,423 1,425 1,426 1,427 1,428 1,443 1,449 1,456 1,476 1,486 1,490 1,492 1,500 F}
+{65 1,284 1,288 1,292 1,327 1,329 1,336 1,338 1,348 1,352 1,354 1,358 1,405 1,413 1,416 1,418 1,419 1,420 1,421 1,422 1,423 1,425 1,426 1,427 1,428 1,443 1,449 1,456 1,476 1,486 1,490 1,492 1,500 F}
+{65 1,284 1,288 1,292 1,327 1,329 1,336 1,338 1,348 1,352 1,354 1,358 1,405 1,413 1,416 1,418 1,419 1,420 1,421 1,422 1,423 1,425 1,426 1,427 1,428 1,443 1,449 1,456 1,476 1,486 1,490 1,492 1,500 F}
+{65 1,284 1,288 1,292 1,327 1,329 1,336 1,338 1,348 1,352 1,354 1,358 1,405 1,413 1,416 1,418 1,419 1,420 1,421 1,422 1,423 1,425 1,426 1,427 1,428 1,443 1,449 1,456 1,476 1,486 1,490 1,492 1,500 F}
+{59 1,61 1,73 1,284 1,317 1,324 1,327 1,340 1,382 1,438 1,472 1,500 F}
+{59 1,61 1,73 1,284 1,317 1,324 1,327 1,340 1,382 1,438 1,472 1,500 F}
+{73 1,284 1,317 1,324 1,327 1,341 1,351 1,355 1,382 1,438 1,472 1,500 F}
+{73 1,284 1,317 1,324 1,327 1,341 1,351 1,355 1,382 1,438 1,472 1,500 F}
+{6 1,294 1,303 1,307 1,317 1,324 1,351 1,355 1,382 1,437 1,482 1,500 F}
+{6 1,294 1,303 1,307 1,317 1,324 1,351 1,355 1,382 1,437 1,482 1,500 F}
+{6 1,294 1,303 1,307 1,317 1,324 1,351 1,355 1,382 1,437 1,482 1,500 F}
+{0 1,2 1,3 1,4 1,6 1,7 1,8 1,9 1,10 1,11 1,12 1,13 1,14 1,15 1,16 1,17 1,18 1,19 1,20 1,21 1,22 1,23 1,24 1,25 1,26 1,27 1,28 1,29 1,30 1,31 1,32 1,33 1,34 1,35 1,36 1,37 1,38 1,39 1,40 1,41 1,42 1,43 1,44 1,45 1,46 1,47 1,48 1,49 1,50 1,51 1,52 1,53 1,54 1,55 1,56 1,57 1,58 1,59 1,60 1,61 1,62 1,63 1,64 1,65 1,66 1,67 1,68 1,69 1,70 1,71 1,72 1,73 1,74 1,75 1,76 1,77 1,78 1,79 1,80 1,81 1,82 1,83 1,84 1,85 1,86 1,87 1,88 1,89 1,90 1,91 1,92 1,93 1,94 1,95 1,96 1,97 1,98 1,99 1,100 1,101 1,102 1,103 1,104 1,105 1,106 1,107 1,108 1,109 1,110 1,111 1,112 1,113 1,114 1,115 1,116 1,117 1,118 1,119 1,120 1,121 1,122 1,123 1,124 1,125 1,126 1,127 1,128 1,129 1,130 1,131 1,132 1,133 1,134 1,135 1,136 1,137 1,138 1,139 1,140 1,141 1,142 1,143 1,144 1,145 1,146 1,147 1,148 1,149 1,150 1,151 1,152 1,153 1,154 1,155 1,156 1,157 1,158 1,159 1,160 1,161 1,162 1,163 1,164 1,165 1,166 1,167 1,168 1,169 1,170 1,171 1,172 1,173 1,174 1,175 1,176 1,177 1,178 1,179 1,180 1,181 1,182 1,183 1,184 1,185 1,186 1,187 1,188 1,189 1,190 1,191 1,192 1,193 1,194 1,195 1,196 1,197 1,198 1,199 1,200 1,201 1,202 1,203 1,204 1,205 1,206 1,207 1,208 1,209 1,210 1,211 1,212 1,213 1,214 1,215 1,216 1,217 1,218 1,219 1,220 1,221 1,222 1,223 1,224 1,225 1,226 1,227 1,228 1,229 1,230 1,231 1,232 1,233 1,234 1,235 1,236 1,237 1,238 1,239 1,240 1,241 1,242 1,243 1,244 1,245 1,246 1,247 1,248 1,249 1,250 1,251 1,252 1,253 1,254 1,255 1,256 1,257 1,258 1,259 1,260 1,261 1,262 1,263 1,264 1,265 1,266 1,267 1,268 1,269 1,270 1,271 1,272 1,273 1,275 1,277 1,282 1,283 1,288 1,289 1,293 1,322 1,324 1,382 1,500 F}
+{0 1,2 1,3 1,4 1,6 1,7 1,8 1,9 1,10 1,11 1,12 1,13 1,14 1,15 1,16 1,17 1,18 1,19 1,20 1,21 1,22 1,23 1,24 1,25 1,26 1,27 1,28 1,29 1,30 1,31 1,32 1,33 1,34 1,35 1,36 1,37 1,38 1,39 1,40 1,41 1,42 1,43 1,44 1,45 1,46 1,47 1,48 1,49 1,50 1,51 1,52 1,53 1,54 1,55 1,56 1,57 1,58 1,59 1,60 1,61 1,62 1,63 1,64 1,65 1,66 1,67 1,68 1,69 1,70 1,71 1,72 1,73 1,74 1,75 1,76 1,77 1,78 1,79 1,80 1,81 1,82 1,83 1,84 1,85 1,86 1,87 1,88 1,89 1,90 1,91 1,92 1,93 1,94 1,95 1,96 1,97 1,98 1,99 1,100 1,101 1,102 1,103 1,104 1,105 1,106 1,107 1,108 1,109 1,110 1,111 1,112 1,113 1,114 1,115 1,116 1,117 1,118 1,119 1,120 1,121 1,122 1,123 1,124 1,125 1,126 1,127 1,128 1,129 1,130 1,131 1,132 1,133 1,134 1,135 1,136 1,137 1,138 1,139 1,140 1,141 1,142 1,143 1,144 1,145 1,146 1,147 1,148 1,149 1,150 1,151 1,152 1,153 1,154 1,155 1,156 1,157 1,158 1,159 1,160 1,161 1,162 1,163 1,164 1,165 1,166 1,167 1,168 1,169 1,170 1,171 1,172 1,173 1,174 1,175 1,176 1,177 1,178 1,179 1,180 1,181 1,182 1,183 1,184 1,185 1,186 1,187 1,188 1,189 1,190 1,191 1,192 1,193 1,194 1,195 1,196 1,197 1,198 1,199 1,200 1,201 1,202 1,203 1,204 1,205 1,206 1,207 1,208 1,209 1,210 1,211 1,212 1,213 1,214 1,215 1,216 1,217 1,218 1,219 1,220 1,221 1,222 1,223 1,224 1,225 1,226 1,227 1,228 1,229 1,230 1,231 1,232 1,233 1,234 1,235 1,236 1,237 1,238 1,239 1,240 1,241 1,242 1,243 1,244 1,245 1,246 1,247 1,248 1,249 1,250 1,251 1,252 1,253 1,254 1,255 1,256 1,257 1,258 1,259 1,260 1,261 1,262 1,263 1,264 1,265 1,266 1,267 1,268 1,269 1,270 1,271 1,272 1,273 1,275 1,277 1,282 1,283 1,288 1,289 1,293 1,322 1,324 1,382 1,500 F}
+{0 1,2 1,3 1,4 1,6 1,7 1,8 1,9 1,10 1,11 1,12 1,13 1,14 1,15 1,16 1,17 1,18 1,19 1,20 1,21 1,22 1,23 1,24 1,25 1,26 1,27 1,28 1,29 1,30 1,31 1,32 1,33 1,34 1,35 1,36 1,37 1,38 1,39 1,40 1,41 1,42 1,43 1,44 1,45 1,46 1,47 1,48 1,49 1,50 1,51 1,52 1,53 1,54 1,55 1,56 1,57 1,58 1,59 1,60 1,61 1,62 1,63 1,64 1,65 1,66 1,67 1,68 1,69 1,70 1,71 1,72 1,73 1,74 1,75 1,76 1,77 1,78 1,79 1,80 1,81 1,82 1,83 1,84 1,85 1,86 1,87 1,88 1,89 1,90 1,91 1,92 1,93 1,94 1,95 1,96 1,97 1,98 1,99 1,100 1,101 1,102 1,103 1,104 1,105 1,106 1,107 1,108 1,109 1,110 1,111 1,112 1,113 1,114 1,115 1,116 1,117 1,118 1,119 1,120 1,121 1,122 1,123 1,124 1,125 1,126 1,127 1,128 1,129 1,130 1,131 1,132 1,133 1,134 1,135 1,136 1,137 1,138 1,139 1,140 1,141 1,142 1,143 1,144 1,145 1,146 1,147 1,148 1,149 1,150 1,151 1,152 1,153 1,154 1,155 1,156 1,157 1,158 1,159 1,160 1,161 1,162 1,163 1,164 1,165 1,166 1,167 1,168 1,169 1,170 1,171 1,172 1,173 1,174 1,175 1,176 1,177 1,178 1,179 1,180 1,181 1,182 1,183 1,184 1,185 1,186 1,187 1,188 1,189 1,190 1,191 1,192 1,193 1,194 1,195 1,196 1,197 1,198 1,199 1,200 1,201 1,202 1,203 1,204 1,205 1,206 1,207 1,208 1,209 1,210 1,211 1,212 1,213 1,214 1,215 1,216 1,217 1,218 1,219 1,220 1,221 1,222 1,223 1,224 1,225 1,226 1,227 1,228 1,229 1,230 1,231 1,232 1,233 1,234 1,235 1,236 1,237 1,238 1,239 1,240 1,241 1,242 1,243 1,244 1,245 1,246 1,247 1,248 1,249 1,250 1,251 1,252 1,253 1,254 1,255 1,256 1,257 1,258 1,259 1,260 1,261 1,262 1,263 1,264 1,265 1,266 1,267 1,268 1,269 1,270 1,271 1,272 1,273 1,275 1,277 1,282 1,283 1,288 1,289 1,293 1,322 1,324 1,382 1,500 F}
+{276 1,292 1,329 1,353 1,382 1,500 F}
+{276 1,292 1,329 1,353 1,382 1,500 F}
+{385 1,500 F}
+{0 1,2 1,3 1,4 1,6 1,7 1,8 1,9 1,10 1,11 1,12 1,13 1,14 1,15 1,16 1,17 1,18 1,19 1,20 1,21 1,22 1,23 1,24 1,25 1,26 1,27 1,28 1,29 1,30 1,31 1,32 1,33 1,34 1,35 1,36 1,37 1,38 1,39 1,40 1,41 1,42 1,43 1,44 1,45 1,46 1,47 1,48 1,49 1,50 1,51 1,52 1,53 1,54 1,55 1,56 1,57 1,58 1,59 1,60 1,61 1,62 1,63 1,64 1,65 1,66 1,67 1,68 1,69 1,70 1,71 1,72 1,73 1,74 1,75 1,76 1,77 1,78 1,79 1,80 1,81 1,82 1,83 1,84 1,85 1,86 1,87 1,88 1,89 1,90 1,91 1,92 1,93 1,94 1,95 1,96 1,97 1,98 1,99 1,100 1,101 1,102 1,103 1,104 1,105 1,106 1,107 1,108 1,109 1,110 1,111 1,112 1,113 1,114 1,115 1,116 1,117 1,118 1,119 1,120 1,121 1,122 1,123 1,124 1,125 1,126 1,127 1,128 1,129 1,130 1,131 1,132 1,133 1,134 1,135 1,136 1,137 1,138 1,139 1,140 1,141 1,142 1,143 1,144 1,145 1,146 1,147 1,148 1,149 1,150 1,151 1,152 1,153 1,154 1,155 1,156 1,157 1,158 1,159 1,160 1,161 1,162 1,163 1,164 1,165 1,166 1,167 1,168 1,169 1,170 1,171 1,172 1,173 1,174 1,175 1,176 1,177 1,178 1,179 1,180 1,181 1,182 1,183 1,184 1,185 1,186 1,187 1,188 1,189 1,190 1,191 1,192 1,193 1,194 1,195 1,196 1,197 1,198 1,199 1,200 1,201 1,202 1,203 1,204 1,205 1,206 1,207 1,208 1,209 1,210 1,211 1,212 1,213 1,214 1,215 1,216 1,217 1,218 1,219 1,220 1,221 1,222 1,223 1,224 1,225 1,226 1,227 1,228 1,229 1,230 1,231 1,232 1,233 1,234 1,235 1,236 1,237 1,238 1,239 1,240 1,241 1,242 1,243 1,244 1,245 1,246 1,247 1,248 1,249 1,250 1,251 1,252 1,253 1,254 1,255 1,256 1,257 1,258 1,259 1,260 1,261 1,262 1,263 1,264 1,265 1,266 1,267 1,268 1,269 1,270 1,271 1,272 1,273 1,275 1,277 1,282 1,283 1,287 1,288 1,289 1,316 1,321 1,322 1,324 1,382 1,500 F}
+{0 1,2 1,3 1,4 1,6 1,7 1,8 1,9 1,10 1,11 1,12 1,13 1,14 1,15 1,16 1,17 1,18 1,19 1,20 1,21 1,22 1,23 1,24 1,25 1,26 1,27 1,28 1,29 1,30 1,31 1,32 1,33 1,34 1,35 1,36 1,37 1,38 1,39 1,40 1,41 1,42 1,43 1,44 1,45 1,46 1,47 1,48 1,49 1,50 1,51 1,52 1,53 1,54 1,55 1,56 1,57 1,58 1,59 1,60 1,61 1,62 1,63 1,64 1,65 1,66 1,67 1,68 1,69 1,70 1,71 1,72 1,73 1,74 1,75 1,76 1,77 1,78 1,79 1,80 1,81 1,82 1,83 1,84 1,85 1,86 1,87 1,88 1,89 1,90 1,91 1,92 1,93 1,94 1,95 1,96 1,97 1,98 1,99 1,100 1,101 1,102 1,103 1,104 1,105 1,106 1,107 1,108 1,109 1,110 1,111 1,112 1,113 1,114 1,115 1,116 1,117 1,118 1,119 1,120 1,121 1,122 1,123 1,124 1,125 1,126 1,127 1,128 1,129 1,130 1,131 1,132 1,133 1,134 1,135 1,136 1,137 1,138 1,139 1,140 1,141 1,142 1,143 1,144 1,145 1,146 1,147 1,148 1,149 1,150 1,151 1,152 1,153 1,154 1,155 1,156 1,157 1,158 1,159 1,160 1,161 1,162 1,163 1,164 1,165 1,166 1,167 1,168 1,169 1,170 1,171 1,172 1,173 1,174 1,175 1,176 1,177 1,178 1,179 1,180 1,181 1,182 1,183 1,184 1,185 1,186 1,187 1,188 1,189 1,190 1,191 1,192 1,193 1,194 1,195 1,196 1,197 1,198 1,199 1,200 1,201 1,202 1,203 1,204 1,205 1,206 1,207 1,208 1,209 1,210 1,211 1,212 1,213 1,214 1,215 1,216 1,217 1,218 1,219 1,220 1,221 1,222 1,223 1,224 1,225 1,226 1,227 1,228 1,229 1,230 1,231 1,232 1,233 1,234 1,235 1,236 1,237 1,238 1,239 1,240 1,241 1,242 1,243 1,244 1,245 1,246 1,247 1,248 1,249 1,250 1,251 1,252 1,253 1,254 1,255 1,256 1,257 1,258 1,259 1,260 1,261 1,262 1,263 1,264 1,265 1,266 1,267 1,268 1,269 1,270 1,271 1,272 1,273 1,275 1,277 1,282 1,283 1,287 1,288 1,289 1,316 1,321 1,322 1,324 1,382 1,500 F}
+{0 1,2 1,3 1,4 1,6 1,7 1,8 1,9 1,10 1,11 1,12 1,13 1,14 1,15 1,16 1,17 1,18 1,19 1,20 1,21 1,22 1,23 1,24 1,25 1,26 1,27 1,28 1,29 1,30 1,31 1,32 1,33 1,34 1,35 1,36 1,37 1,38 1,39 1,40 1,41 1,42 1,43 1,44 1,45 1,46 1,47 1,48 1,49 1,50 1,51 1,52 1,53 1,54 1,55 1,56 1,57 1,58 1,59 1,60 1,61 1,62 1,63 1,64 1,65 1,66 1,67 1,68 1,69 1,70 1,71 1,72 1,73 1,74 1,75 1,76 1,77 1,78 1,79 1,80 1,81 1,82 1,83 1,84 1,85 1,86 1,87 1,88 1,89 1,90 1,91 1,92 1,93 1,94 1,95 1,96 1,97 1,98 1,99 1,100 1,101 1,102 1,103 1,104 1,105 1,106 1,107 1,108 1,109 1,110 1,111 1,112 1,113 1,114 1,115 1,116 1,117 1,118 1,119 1,120 1,121 1,122 1,123 1,124 1,125 1,126 1,127 1,128 1,129 1,130 1,131 1,132 1,133 1,134 1,135 1,136 1,137 1,138 1,139 1,140 1,141 1,142 1,143 1,144 1,145 1,146 1,147 1,148 1,149 1,150 1,151 1,152 1,153 1,154 1,155 1,156 1,157 1,158 1,159 1,160 1,161 1,162 1,163 1,164 1,165 1,166 1,167 1,168 1,169 1,170 1,171 1,172 1,173 1,174 1,175 1,176 1,177 1,178 1,179 1,180 1,181 1,182 1,183 1,184 1,185 1,186 1,187 1,188 1,189 1,190 1,191 1,192 1,193 1,194 1,195 1,196 1,197 1,198 1,199 1,200 1,201 1,202 1,203 1,204 1,205 1,206 1,207 1,208 1,209 1,210 1,211 1,212 1,213 1,214 1,215 1,216 1,217 1,218 1,219 1,220 1,221 1,222 1,223 1,224 1,225 1,226 1,227 1,228 1,229 1,230 1,231 1,232 1,233 1,234 1,235 1,236 1,237 1,238 1,239 1,240 1,241 1,242 1,243 1,244 1,245 1,246 1,247 1,248 1,249 1,250 1,251 1,252 1,253 1,254 1,255 1,256 1,257 1,258 1,259 1,260 1,261 1,262 1,263 1,264 1,265 1,266 1,267 1,268 1,269 1,270 1,271 1,272 1,273 1,275 1,277 1,282 1,283 1,287 1,288 1,289 1,316 1,321 1,322 1,324 1,382 1,500 F}
+{0 1,2 1,3 1,4 1,6 1,7 1,8 1,9 1,10 1,11 1,12 1,13 1,14 1,15 1,16 1,17 1,18 1,19 1,20 1,21 1,22 1,23 1,24 1,25 1,26 1,27 1,28 1,29 1,30 1,31 1,32 1,33 1,34 1,35 1,36 1,37 1,38 1,39 1,40 1,41 1,42 1,43 1,44 1,45 1,46 1,47 1,48 1,49 1,50 1,51 1,52 1,53 1,54 1,55 1,56 1,57 1,58 1,59 1,60 1,61 1,62 1,63 1,64 1,65 1,66 1,67 1,68 1,69 1,70 1,71 1,72 1,73 1,74 1,75 1,76 1,77 1,78 1,79 1,80 1,81 1,82 1,83 1,84 1,85 1,86 1,87 1,88 1,89 1,90 1,91 1,92 1,93 1,94 1,95 1,96 1,97 1,98 1,99 1,100 1,101 1,102 1,103 1,104 1,105 1,106 1,107 1,108 1,109 1,110 1,111 1,112 1,113 1,114 1,115 1,116 1,117 1,118 1,119 1,120 1,121 1,122 1,123 1,124 1,125 1,126 1,127 1,128 1,129 1,130 1,131 1,132 1,133 1,134 1,135 1,136 1,137 1,138 1,139 1,140 1,141 1,142 1,143 1,144 1,145 1,146 1,147 1,148 1,149 1,150 1,151 1,152 1,153 1,154 1,155 1,156 1,157 1,158 1,159 1,160 1,161 1,162 1,163 1,164 1,165 1,166 1,167 1,168 1,169 1,170 1,171 1,172 1,173 1,174 1,175 1,176 1,177 1,178 1,179 1,180 1,181 1,182 1,183 1,184 1,185 1,186 1,187 1,188 1,189 1,190 1,191 1,192 1,193 1,194 1,195 1,196 1,197 1,198 1,199 1,200 1,201 1,202 1,203 1,204 1,205 1,206 1,207 1,208 1,209 1,210 1,211 1,212 1,213 1,214 1,215 1,216 1,217 1,218 1,219 1,220 1,221 1,222 1,223 1,224 1,225 1,226 1,227 1,228 1,229 1,230 1,231 1,232 1,233 1,234 1,235 1,236 1,237 1,238 1,239 1,240 1,241 1,242 1,243 1,244 1,245 1,246 1,247 1,248 1,249 1,250 1,251 1,252 1,253 1,254 1,255 1,256 1,257 1,258 1,259 1,260 1,261 1,262 1,263 1,264 1,265 1,266 1,267 1,268 1,269 1,270 1,271 1,272 1,273 1,275 1,277 1,282 1,283 1,287 1,288 1,289 1,316 1,321 1,322 1,324 1,382 1,500 F}
+{2 1,12 1,15 1,34 1,38 1,39 1,41 1,43 1,44 1,53 1,54 1,287 1,309 1,321 1,332 1,335 1,337 1,395 1,500 F}
+{2 1,12 1,15 1,34 1,38 1,39 1,41 1,43 1,44 1,53 1,54 1,287 1,309 1,321 1,332 1,335 1,337 1,395 1,500 F}
+{2 1,12 1,15 1,34 1,38 1,39 1,41 1,43 1,44 1,53 1,54 1,287 1,309 1,321 1,332 1,335 1,337 1,395 1,500 F}
+{2 1,12 1,15 1,34 1,38 1,39 1,41 1,43 1,44 1,53 1,54 1,287 1,309 1,321 1,332 1,335 1,337 1,395 1,500 F}
+{0 1,3 1,4 1,6 1,7 1,8 1,9 1,10 1,11 1,13 1,14 1,16 1,17 1,18 1,19 1,20 1,21 1,22 1,23 1,24 1,25 1,26 1,27 1,28 1,29 1,30 1,31 1,32 1,33 1,35 1,36 1,37 1,40 1,42 1,45 1,46 1,47 1,48 1,49 1,50 1,51 1,52 1,55 1,56 1,57 1,58 1,59 1,60 1,61 1,62 1,63 1,65 1,66 1,67 1,68 1,69 1,70 1,73 1,74 1,75 1,275 1,277 1,279 1,280 1,284 1,288 1,291 1,295 1,296 1,300 1,301 1,302 1,306 1,310 1,312 1,313 1,314 1,315 1,316 1,319 1,320 1,324 1,330 1,334 1,339 1,341 1,349 1,356 1,357 1,382 1,384 1,392 1,393 1,394 1,396 1,397 1,398 1,399 1,400 1,401 1,402 1,403 1,404 1,406 1,407 1,408 1,409 1,410 1,411 1,412 1,414 1,415 1,424 1,429 1,430 1,431 1,432 1,433 1,434 1,435 1,436 1,439 1,440 1,441 1,442 1,445 1,446 1,447 1,448 1,450 1,451 1,452 1,453 1,454 1,455 1,457 1,458 1,459 1,460 1,461 1,462 1,463 1,464 1,465 1,466 1,467 1,468 1,469 1,470 1,471 1,473 1,474 1,475 1,477 1,478 1,479 1,480 1,481 1,483 1,484 1,485 1,487 1,488 1,489 1,491 1,493 1,494 1,495 1,496 1,497 1,498 1,500 F}
+{0 1,3 1,4 1,6 1,7 1,8 1,9 1,10 1,11 1,13 1,14 1,16 1,17 1,18 1,19 1,20 1,21 1,22 1,23 1,24 1,25 1,26 1,27 1,28 1,29 1,30 1,31 1,32 1,33 1,35 1,36 1,37 1,40 1,42 1,45 1,46 1,47 1,48 1,49 1,50 1,51 1,52 1,55 1,56 1,57 1,58 1,59 1,60 1,61 1,62 1,63 1,65 1,66 1,67 1,68 1,69 1,70 1,73 1,74 1,75 1,275 1,277 1,279 1,280 1,284 1,288 1,291 1,295 1,296 1,300 1,301 1,302 1,306 1,310 1,312 1,313 1,314 1,315 1,316 1,319 1,320 1,324 1,330 1,334 1,339 1,341 1,349 1,356 1,357 1,382 1,384 1,392 1,393 1,394 1,396 1,397 1,398 1,399 1,400 1,401 1,402 1,403 1,404 1,406 1,407 1,408 1,409 1,410 1,411 1,412 1,414 1,415 1,424 1,429 1,430 1,431 1,432 1,433 1,434 1,435 1,436 1,439 1,440 1,441 1,442 1,445 1,446 1,447 1,448 1,450 1,451 1,452 1,453 1,454 1,455 1,457 1,458 1,459 1,460 1,461 1,462 1,463 1,464 1,465 1,466 1,467 1,468 1,469 1,470 1,471 1,473 1,474 1,475 1,477 1,478 1,479 1,480 1,481 1,483 1,484 1,485 1,487 1,488 1,489 1,491 1,493 1,494 1,495 1,496 1,497 1,498 1,500 F}
+{0 1,3 1,4 1,6 1,7 1,8 1,9 1,10 1,11 1,13 1,14 1,16 1,17 1,18 1,19 1,20 1,21 1,22 1,23 1,24 1,25 1,26 1,27 1,28 1,29 1,30 1,31 1,32 1,33 1,35 1,36 1,37 1,40 1,42 1,45 1,46 1,47 1,48 1,49 1,50 1,51 1,52 1,55 1,56 1,57 1,58 1,59 1,60 1,61 1,62 1,63 1,65 1,66 1,67 1,68 1,69 1,70 1,73 1,74 1,75 1,275 1,277 1,279 1,280 1,284 1,288 1,291 1,295 1,296 1,300 1,301 1,302 1,306 1,310 1,312 1,313 1,314 1,315 1,316 1,319 1,320 1,324 1,330 1,334 1,339 1,341 1,349 1,356 1,357 1,382 1,384 1,392 1,393 1,394 1,396 1,397 1,398 1,399 1,400 1,401 1,402 1,403 1,404 1,406 1,407 1,408 1,409 1,410 1,411 1,412 1,414 1,415 1,424 1,429 1,430 1,431 1,432 1,433 1,434 1,435 1,436 1,439 1,440 1,441 1,442 1,445 1,446 1,447 1,448 1,450 1,451 1,452 1,453 1,454 1,455 1,457 1,458 1,459 1,460 1,461 1,462 1,463 1,464 1,465 1,466 1,467 1,468 1,469 1,470 1,471 1,473 1,474 1,475 1,477 1,478 1,479 1,480 1,481 1,483 1,484 1,485 1,487 1,488 1,489 1,491 1,493 1,494 1,495 1,496 1,497 1,498 1,500 F}
+{0 1,3 1,4 1,6 1,7 1,8 1,9 1,10 1,11 1,13 1,14 1,16 1,17 1,18 1,19 1,20 1,21 1,22 1,23 1,24 1,25 1,26 1,27 1,28 1,29 1,30 1,31 1,32 1,33 1,35 1,36 1,37 1,40 1,42 1,45 1,46 1,47 1,48 1,49 1,50 1,51 1,52 1,55 1,56 1,57 1,58 1,59 1,60 1,61 1,62 1,63 1,65 1,66 1,67 1,68 1,69 1,70 1,73 1,74 1,75 1,275 1,277 1,279 1,280 1,284 1,288 1,291 1,295 1,296 1,300 1,301 1,302 1,306 1,310 1,312 1,313 1,314 1,315 1,316 1,319 1,320 1,324 1,330 1,334 1,339 1,341 1,349 1,356 1,357 1,382 1,384 1,392 1,393 1,394 1,396 1,397 1,398 1,399 1,400 1,401 1,402 1,403 1,404 1,406 1,407 1,408 1,409 1,410 1,411 1,412 1,414 1,415 1,424 1,429 1,430 1,431 1,432 1,433 1,434 1,435 1,436 1,439 1,440 1,441 1,442 1,445 1,446 1,447 1,448 1,450 1,451 1,452 1,453 1,454 1,455 1,457 1,458 1,459 1,460 1,461 1,462 1,463 1,464 1,465 1,466 1,467 1,468 1,469 1,470 1,471 1,473 1,474 1,475 1,477 1,478 1,479 1,480 1,481 1,483 1,484 1,485 1,487 1,488 1,489 1,491 1,493 1,494 1,495 1,496 1,497 1,498 1,500 F}
+{0 1,277 1,279 1,280 1,291 1,294 1,295 1,296 1,300 1,301 1,302 1,303 1,306 1,307 1,309 1,310 1,312 1,313 1,314 1,315 1,319 1,320 1,340 1,384 1,500 F}
+{0 1,277 1,279 1,280 1,291 1,294 1,295 1,296 1,300 1,301 1,302 1,303 1,306 1,307 1,309 1,310 1,312 1,313 1,314 1,315 1,319 1,320 1,340 1,384 1,500 F}
+{0 1,277 1,279 1,280 1,291 1,294 1,295 1,296 1,300 1,301 1,302 1,303 1,306 1,307 1,309 1,310 1,312 1,313 1,314 1,315 1,319 1,320 1,340 1,384 1,500 F}
+{0 1,277 1,279 1,280 1,291 1,294 1,295 1,296 1,300 1,301 1,302 1,303 1,306 1,307 1,309 1,310 1,312 1,313 1,314 1,315 1,319 1,320 1,340 1,384 1,500 F}
+{72 1,74 1,279 1,291 1,294 1,295 1,296 1,303 1,307 1,384 1,482 1,500 F}
+{391 1,500 F}
+{325 1,326 1,500 F}
+{325 1,326 1,500 F}
+{325 1,326 1,500 F}
+{325 1,326 1,500 F}
+{61 1,71 1,75 1,276 1,277 1,280 1,325 1,326 1,357 1,417 1,444 1,500 F}
+{276 1,277 1,280 1,325 1,326 1,330 1,350 1,444 1,500 F}
+{276 1,277 1,280 1,325 1,326 1,330 1,350 1,444 1,500 F}
+{4 1,334 1,499 1,500 F}
+{4 1,334 1,499 1,500 F}
+{288 1,298 1,382 1,500 F}
+{4 1,324 1,358 1,382 1,386 1,390 1,417 1,500 F}
+{2 1,73 1,279 1,287 1,332 1,335 1,337 1,500 F}
+{2 1,73 1,279 1,287 1,332 1,335 1,337 1,500 F}
+{62 1,382 1,444 1,500 F}
+{284 1,292 1,294 1,327 1,352 1,353 1,354 1,500 F}
+{317 1,324 1,382 1,437 1,500 F}
+{0 1,2 1,3 1,4 1,6 1,7 1,8 1,9 1,10 1,11 1,12 1,13 1,14 1,15 1,16 1,17 1,18 1,19 1,20 1,21 1,22 1,23 1,24 1,25 1,26 1,27 1,28 1,29 1,30 1,31 1,32 1,33 1,34 1,35 1,36 1,37 1,38 1,39 1,40 1,41 1,42 1,43 1,44 1,45 1,46 1,47 1,48 1,49 1,50 1,51 1,52 1,53 1,54 1,55 1,56 1,57 1,58 1,59 1,60 1,61 1,62 1,63 1,64 1,65 1,66 1,67 1,68 1,69 1,70 1,71 1,72 1,73 1,74 1,75 1,76 1,77 1,78 1,79 1,80 1,81 1,82 1,83 1,84 1,85 1,86 1,87 1,88 1,89 1,90 1,91 1,92 1,93 1,94 1,95 1,96 1,97 1,98 1,99 1,100 1,101 1,102 1,103 1,104 1,105 1,106 1,107 1,108 1,109 1,110 1,111 1,112 1,113 1,114 1,115 1,116 1,117 1,118 1,119 1,120 1,121 1,122 1,123 1,124 1,125 1,126 1,127 1,128 1,129 1,130 1,131 1,132 1,133 1,134 1,135 1,136 1,137 1,138 1,139 1,140 1,141 1,142 1,143 1,144 1,145 1,146 1,147 1,148 1,149 1,150 1,151 1,152 1,153 1,154 1,155 1,156 1,157 1,158 1,159 1,160 1,161 1,162 1,163 1,164 1,165 1,166 1,167 1,168 1,169 1,170 1,171 1,172 1,173 1,174 1,175 1,176 1,177 1,178 1,179 1,180 1,181 1,182 1,183 1,184 1,185 1,186 1,187 1,188 1,189 1,190 1,191 1,192 1,193 1,194 1,195 1,196 1,197 1,198 1,199 1,200 1,201 1,202 1,203 1,204 1,205 1,206 1,207 1,208 1,209 1,210 1,211 1,212 1,213 1,214 1,215 1,216 1,217 1,218 1,219 1,220 1,221 1,222 1,223 1,224 1,225 1,226 1,227 1,228 1,229 1,230 1,231 1,232 1,233 1,234 1,235 1,236 1,237 1,238 1,239 1,240 1,241 1,242 1,243 1,244 1,245 1,246 1,247 1,248 1,249 1,250 1,251 1,252 1,253 1,254 1,255 1,256 1,257 1,258 1,259 1,260 1,261 1,262 1,263 1,264 1,265 1,266 1,267 1,268 1,269 1,270 1,271 1,272 1,273 1,275 1,276 1,277 1,282 1,283 1,288 1,289 1,293 1,322 1,324 1,331 1,333 1,382 1,389 1,500 F}
+{0 1,2 1,3 1,4 1,6 1,7 1,8 1,9 1,10 1,11 1,12 1,13 1,14 1,15 1,16 1,17 1,18 1,19 1,20 1,21 1,22 1,23 1,24 1,25 1,26 1,27 1,28 1,29 1,30 1,31 1,32 1,33 1,34 1,35 1,36 1,37 1,38 1,39 1,40 1,41 1,42 1,43 1,44 1,45 1,46 1,47 1,48 1,49 1,50 1,51 1,52 1,53 1,54 1,55 1,56 1,57 1,58 1,59 1,60 1,61 1,62 1,63 1,64 1,65 1,66 1,67 1,68 1,69 1,70 1,71 1,72 1,73 1,74 1,75 1,76 1,77 1,78 1,79 1,80 1,81 1,82 1,83 1,84 1,85 1,86 1,87 1,88 1,89 1,90 1,91 1,92 1,93 1,94 1,95 1,96 1,97 1,98 1,99 1,100 1,101 1,102 1,103 1,104 1,105 1,106 1,107 1,108 1,109 1,110 1,111 1,112 1,113 1,114 1,115 1,116 1,117 1,118 1,119 1,120 1,121 1,122 1,123 1,124 1,125 1,126 1,127 1,128 1,129 1,130 1,131 1,132 1,133 1,134 1,135 1,136 1,137 1,138 1,139 1,140 1,141 1,142 1,143 1,144 1,145 1,146 1,147 1,148 1,149 1,150 1,151 1,152 1,153 1,154 1,155 1,156 1,157 1,158 1,159 1,160 1,161 1,162 1,163 1,164 1,165 1,166 1,167 1,168 1,169 1,170 1,171 1,172 1,173 1,174 1,175 1,176 1,177 1,178 1,179 1,180 1,181 1,182 1,183 1,184 1,185 1,186 1,187 1,188 1,189 1,190 1,191 1,192 1,193 1,194 1,195 1,196 1,197 1,198 1,199 1,200 1,201 1,202 1,203 1,204 1,205 1,206 1,207 1,208 1,209 1,210 1,211 1,212 1,213 1,214 1,215 1,216 1,217 1,218 1,219 1,220 1,221 1,222 1,223 1,224 1,225 1,226 1,227 1,228 1,229 1,230 1,231 1,232 1,233 1,234 1,235 1,236 1,237 1,238 1,239 1,240 1,241 1,242 1,243 1,244 1,245 1,246 1,247 1,248 1,249 1,250 1,251 1,252 1,253 1,254 1,255 1,256 1,257 1,258 1,259 1,260 1,261 1,262 1,263 1,264 1,265 1,266 1,267 1,268 1,269 1,270 1,271 1,272 1,273 1,275 1,276 1,277 1,282 1,283 1,288 1,289 1,293 1,322 1,324 1,331 1,333 1,382 1,389 1,500 F}
+{0 1,2 1,3 1,4 1,6 1,7 1,8 1,9 1,10 1,11 1,12 1,13 1,14 1,15 1,16 1,17 1,18 1,19 1,20 1,21 1,22 1,23 1,24 1,25 1,26 1,27 1,28 1,29 1,30 1,31 1,32 1,33 1,34 1,35 1,36 1,37 1,38 1,39 1,40 1,41 1,42 1,43 1,44 1,45 1,46 1,47 1,48 1,49 1,50 1,51 1,52 1,53 1,54 1,55 1,56 1,57 1,58 1,59 1,60 1,61 1,62 1,63 1,64 1,65 1,66 1,67 1,68 1,69 1,70 1,71 1,72 1,73 1,74 1,75 1,76 1,77 1,78 1,79 1,80 1,81 1,82 1,83 1,84 1,85 1,86 1,87 1,88 1,89 1,90 1,91 1,92 1,93 1,94 1,95 1,96 1,97 1,98 1,99 1,100 1,101 1,102 1,103 1,104 1,105 1,106 1,107 1,108 1,109 1,110 1,111 1,112 1,113 1,114 1,115 1,116 1,117 1,118 1,119 1,120 1,121 1,122 1,123 1,124 1,125 1,126 1,127 1,128 1,129 1,130 1,131 1,132 1,133 1,134 1,135 1,136 1,137 1,138 1,139 1,140 1,141 1,142 1,143 1,144 1,145 1,146 1,147 1,148 1,149 1,150 1,151 1,152 1,153 1,154 1,155 1,156 1,157 1,158 1,159 1,160 1,161 1,162 1,163 1,164 1,165 1,166 1,167 1,168 1,169 1,170 1,171 1,172 1,173 1,174 1,175 1,176 1,177 1,178 1,179 1,180 1,181 1,182 1,183 1,184 1,185 1,186 1,187 1,188 1,189 1,190 1,191 1,192 1,193 1,194 1,195 1,196 1,197 1,198 1,199 1,200 1,201 1,202 1,203 1,204 1,205 1,206 1,207 1,208 1,209 1,210 1,211 1,212 1,213 1,214 1,215 1,216 1,217 1,218 1,219 1,220 1,221 1,222 1,223 1,224 1,225 1,226 1,227 1,228 1,229 1,230 1,231 1,232 1,233 1,234 1,235 1,236 1,237 1,238 1,239 1,240 1,241 1,242 1,243 1,244 1,245 1,246 1,247 1,248 1,249 1,250 1,251 1,252 1,253 1,254 1,255 1,256 1,257 1,258 1,259 1,260 1,261 1,262 1,263 1,264 1,265 1,266 1,267 1,268 1,269 1,270 1,271 1,272 1,273 1,275 1,276 1,277 1,282 1,283 1,288 1,289 1,293 1,322 1,324 1,331 1,333 1,382 1,389 1,500 F}
+{0 1,2 1,3 1,4 1,6 1,7 1,8 1,9 1,10 1,11 1,12 1,13 1,14 1,15 1,16 1,17 1,18 1,19 1,20 1,21 1,22 1,23 1,24 1,25 1,26 1,27 1,28 1,29 1,30 1,31 1,32 1,33 1,34 1,35 1,36 1,37 1,38 1,39 1,40 1,41 1,42 1,43 1,44 1,45 1,46 1,47 1,48 1,49 1,50 1,51 1,52 1,53 1,54 1,55 1,56 1,57 1,58 1,59 1,60 1,61 1,62 1,63 1,64 1,65 1,66 1,67 1,68 1,69 1,70 1,71 1,72 1,73 1,74 1,75 1,76 1,77 1,78 1,79 1,80 1,81 1,82 1,83 1,84 1,85 1,86 1,87 1,88 1,89 1,90 1,91 1,92 1,93 1,94 1,95 1,96 1,97 1,98 1,99 1,100 1,101 1,102 1,103 1,104 1,105 1,106 1,107 1,108 1,109 1,110 1,111 1,112 1,113 1,114 1,115 1,116 1,117 1,118 1,119 1,120 1,121 1,122 1,123 1,124 1,125 1,126 1,127 1,128 1,129 1,130 1,131 1,132 1,133 1,134 1,135 1,136 1,137 1,138 1,139 1,140 1,141 1,142 1,143 1,144 1,145 1,146 1,147 1,148 1,149 1,150 1,151 1,152 1,153 1,154 1,155 1,156 1,157 1,158 1,159 1,160 1,161 1,162 1,163 1,164 1,165 1,166 1,167 1,168 1,169 1,170 1,171 1,172 1,173 1,174 1,175 1,176 1,177 1,178 1,179 1,180 1,181 1,182 1,183 1,184 1,185 1,186 1,187 1,188 1,189 1,190 1,191 1,192 1,193 1,194 1,195 1,196 1,197 1,198 1,199 1,200 1,201 1,202 1,203 1,204 1,205 1,206 1,207 1,208 1,209 1,210 1,211 1,212 1,213 1,214 1,215 1,216 1,217 1,218 1,219 1,220 1,221 1,222 1,223 1,224 1,225 1,226 1,227 1,228 1,229 1,230 1,231 1,232 1,233 1,234 1,235 1,236 1,237 1,238 1,239 1,240 1,241 1,242 1,243 1,244 1,245 1,246 1,247 1,248 1,249 1,250 1,251 1,252 1,253 1,254 1,255 1,256 1,257 1,258 1,259 1,260 1,261 1,262 1,263 1,264 1,265 1,266 1,267 1,268 1,269 1,270 1,271 1,272 1,273 1,275 1,276 1,277 1,282 1,283 1,288 1,289 1,293 1,322 1,324 1,331 1,333 1,382 1,389 1,500 F}
+{0 1,2 1,3 1,4 1,6 1,7 1,8 1,9 1,10 1,11 1,12 1,13 1,14 1,15 1,16 1,17 1,18 1,19 1,20 1,21 1,22 1,23 1,24 1,25 1,26 1,27 1,28 1,29 1,30 1,31 1,32 1,33 1,34 1,35 1,36 1,37 1,38 1,39 1,40 1,41 1,42 1,43 1,44 1,45 1,46 1,47 1,48 1,49 1,50 1,51 1,52 1,53 1,54 1,55 1,56 1,57 1,58 1,59 1,60 1,61 1,62 1,63 1,64 1,65 1,66 1,67 1,68 1,69 1,70 1,71 1,72 1,73 1,74 1,75 1,76 1,77 1,78 1,79 1,80 1,81 1,82 1,83 1,84 1,85 1,86 1,87 1,88 1,89 1,90 1,91 1,92 1,93 1,94 1,95 1,96 1,97 1,98 1,99 1,100 1,101 1,102 1,103 1,104 1,105 1,106 1,107 1,108 1,109 1,110 1,111 1,112 1,113 1,114 1,115 1,116 1,117 1,118 1,119 1,120 1,121 1,122 1,123 1,124 1,125 1,126 1,127 1,128 1,129 1,130 1,131 1,132 1,133 1,134 1,135 1,136 1,137 1,138 1,139 1,140 1,141 1,142 1,143 1,144 1,145 1,146 1,147 1,148 1,149 1,150 1,151 1,152 1,153 1,154 1,155 1,156 1,157 1,158 1,159 1,160 1,161 1,162 1,163 1,164 1,165 1,166 1,167 1,168 1,169 1,170 1,171 1,172 1,173 1,174 1,175 1,176 1,177 1,178 1,179 1,180 1,181 1,182 1,183 1,184 1,185 1,186 1,187 1,188 1,189 1,190 1,191 1,192 1,193 1,194 1,195 1,196 1,197 1,198 1,199 1,200 1,201 1,202 1,203 1,204 1,205 1,206 1,207 1,208 1,209 1,210 1,211 1,212 1,213 1,214 1,215 1,216 1,217 1,218 1,219 1,220 1,221 1,222 1,223 1,224 1,225 1,226 1,227 1,228 1,229 1,230 1,231 1,232 1,233 1,234 1,235 1,236 1,237 1,238 1,239 1,240 1,241 1,242 1,243 1,244 1,245 1,246 1,247 1,248 1,249 1,250 1,251 1,252 1,253 1,254 1,255 1,256 1,257 1,258 1,259 1,260 1,261 1,262 1,263 1,264 1,265 1,266 1,267 1,268 1,269 1,270 1,271 1,272 1,273 1,275 1,276 1,277 1,282 1,283 1,288 1,289 1,293 1,322 1,324 1,331 1,333 1,382 1,389 1,500 F}
+{0 1,2 1,3 1,4 1,6 1,7 1,8 1,9 1,10 1,11 1,12 1,13 1,14 1,15 1,16 1,17 1,18 1,19 1,20 1,21 1,22 1,23 1,24 1,25 1,26 1,27 1,28 1,29 1,30 1,31 1,32 1,33 1,34 1,35 1,36 1,37 1,38 1,39 1,40 1,41 1,42 1,43 1,44 1,45 1,46 1,47 1,48 1,49 1,50 1,51 1,52 1,53 1,54 1,55 1,56 1,57 1,58 1,59 1,60 1,61 1,62 1,63 1,64 1,65 1,66 1,67 1,68 1,69 1,70 1,71 1,72 1,73 1,74 1,75 1,76 1,77 1,78 1,79 1,80 1,81 1,82 1,83 1,84 1,85 1,86 1,87 1,88 1,89 1,90 1,91 1,92 1,93 1,94 1,95 1,96 1,97 1,98 1,99 1,100 1,101 1,102 1,103 1,104 1,105 1,106 1,107 1,108 1,109 1,110 1,111 1,112 1,113 1,114 1,115 1,116 1,117 1,118 1,119 1,120 1,121 1,122 1,123 1,124 1,125 1,126 1,127 1,128 1,129 1,130 1,131 1,132 1,133 1,134 1,135 1,136 1,137 1,138 1,139 1,140 1,141 1,142 1,143 1,144 1,145 1,146 1,147 1,148 1,149 1,150 1,151 1,152 1,153 1,154 1,155 1,156 1,157 1,158 1,159 1,160 1,161 1,162 1,163 1,164 1,165 1,166 1,167 1,168 1,169 1,170 1,171 1,172 1,173 1,174 1,175 1,176 1,177 1,178 1,179 1,180 1,181 1,182 1,183 1,184 1,185 1,186 1,187 1,188 1,189 1,190 1,191 1,192 1,193 1,194 1,195 1,196 1,197 1,198 1,199 1,200 1,201 1,202 1,203 1,204 1,205 1,206 1,207 1,208 1,209 1,210 1,211 1,212 1,213 1,214 1,215 1,216 1,217 1,218 1,219 1,220 1,221 1,222 1,223 1,224 1,225 1,226 1,227 1,228 1,229 1,230 1,231 1,232 1,233 1,234 1,235 1,236 1,237 1,238 1,239 1,240 1,241 1,242 1,243 1,244 1,245 1,246 1,247 1,248 1,249 1,250 1,251 1,252 1,253 1,254 1,255 1,256 1,257 1,258 1,259 1,260 1,261 1,262 1,263 1,264 1,265 1,266 1,267 1,268 1,269 1,270 1,271 1,272 1,273 1,275 1,276 1,277 1,282 1,283 1,288 1,289 1,293 1,322 1,324 1,331 1,333 1,382 1,389 1,500 F}
+{304 1,305 1,308 1,311 1,318 1,383 1,500 F}
+{304 1,305 1,308 1,311 1,318 1,383 1,500 F}
+{304 1,305 1,308 1,311 1,318 1,383 1,500 F}
+{304 1,305 1,308 1,311 1,318 1,383 1,500 F}
+{304 1,305 1,308 1,311 1,318 1,383 1,500 F}
+{304 1,305 1,308 1,311 1,318 1,383 1,500 F}
+{304 1,305 1,308 1,311 1,318 1,383 1,500 F}
+{304 1,305 1,308 1,311 1,318 1,383 1,500 F}
+{3 1,6 1,66 1,500 F}
+{3 1,6 1,66 1,500 F}
+{75 1,276 1,277 1,356 1,382 1,500 F}
+{60 1,348 1,500 F}
+{349 1,500 F}
+{500 F}
+{500 F}
+{4 1,63 1,73 1,277 1,382 1,500 F}
+{322 1,500 F}
+{322 1,500 F}
+{64 1,285 1,292 1,353 1,382 1,499 1,500 F}
+{64 1,285 1,292 1,353 1,382 1,499 1,500 F}
+{382 1,500 F}
+{382 1,500 F}
+{281 1,288 1,350 1,382 1,500 F}
+{60 1,65 1,288 1,336 1,338 1,339 1,350 1,358 1,382 1,417 1,500 F}
+{60 1,65 1,288 1,336 1,338 1,339 1,350 1,358 1,382 1,417 1,500 F}
+{277 1,383 1}
+{277 1,383 1}
+{}
+{}
+{}
+{}
+{1 1}
+{1 1}
+{1 1}
+{1 1}
+{5 1,274 1,281 1,285 1,286 1,290 1,298 1,382 1}
+{5 1,274 1,281 1,285 1,286 1,290 1,298 1,382 1}
+{5 1,274 1,278 1,281 1,285 1,286 1,290 1,297 1,299 1,323 1,382 1}
+{5 1,274 1,278 1,281 1,285 1,286 1,290 1,297 1,298 1,299 1,323 1,382 1}
+{391 1}
+{391 1}
+{391 1}
+{283 1}
+{5 1,274 1,278 1,285 1,290 1,297 1,299 1,382 1}
+{5 1,274 1,278 1,285 1,290 1,297 1,298 1,299 1,382 1}
+{274 1,281 1,390 1}
+{274 1,281 1,298 1,390 1}
+{277 1}
+{277 1}
+{277 1}
+{277 1}
+{1 1}
+{65 1,274 1,277 1,298 1,322 1}
+{5 1}
+{5 1,298 1}
+{382 1}
+{}
+{}
+{5 1,274 1,278 1,281 1,285 1,286 1,290 1,299 1,382 1}
+{5 1,274 1,278 1,281 1,285 1,286 1,290 1,298 1,299 1,382 1}
+{}
+{1 1,298 1}
+{1 1}
+{1 1,5 1}
+{}
+{1 1}
+{1 1}
+{1 1}
+{1 1,384 1}
+{5 1,274 1,278 1,281 1,285 1,286 1,290 1,297 1,299 1,323 1,382 1,386 1}
+{5 1,274 1,278 1,281 1,285 1,286 1,290 1,297 1,299 1,323 1,382 1,386 1}
+{5 1,274 1,278 1,281 1,285 1,286 1,290 1,297 1,299 1,323 1,382 1,386 1}
+{5 1,274 1,278 1,281 1,285 1,286 1,297 1,299 1,323 1,386 1}
+{5 1,274 1,278 1,281 1,285 1,286 1,290 1,297 1,299 1,323 1,382 1,386 1}
+{5 1,274 1,278 1,281 1,285 1,286 1,290 1,297 1,299 1,323 1,382 1,386 1}
+{5 1,274 1,278 1,281 1,285 1,286 1,290 1,297 1,299 1,323 1,382 1,386 1}
+{5 1,274 1,278 1,281 1,285 1,286 1,290 1,297 1,299 1,323 1,382 1,386 1}
+{5 1,274 1,278 1,281 1,285 1,286 1,290 1,297 1,299 1,323 1,382 1,386 1}
+{5 1,274 1,278 1,281 1,285 1,286 1,290 1,297 1,298 1,299 1,323 1,382 1,386 1}
+{5 1,274 1,278 1,281 1,285 1,286 1,290 1,297 1,298 1,299 1,323 1,382 1,386 1}
+{5 1,274 1,278 1,281 1,285 1,286 1,297 1,298 1,299 1,323 1,386 1}
+{5 1,274 1,278 1,281 1,285 1,286 1,290 1,297 1,298 1,299 1,323 1,382 1,386 1}
+{5 1,274 1,278 1,281 1,285 1,286 1,290 1,297 1,298 1,299 1,323 1,382 1,386 1}
+{5 1,274 1,278 1,281 1,285 1,286 1,290 1,297 1,298 1,299 1,323 1,382 1,386 1}
+{5 1,274 1,278 1,281 1,285 1,286 1,290 1,297 1,298 1,299 1,323 1,382 1,386 1}
+{5 1,274 1,278 1,281 1,285 1,286 1,290 1,297 1,298 1,299 1,323 1,382 1,386 1}
+{5 1,274 1,278 1,281 1,285 1,286 1,290 1,297 1,298 1,299 1,323 1,382 1,386 1}
+{5 1,274 1,278 1,281 1,285 1,286 1,290 1,297 1,298 1,299 1,323 1,382 1,386 1}
+{5 1,274 1,278 1,281 1,285 1,286 1,290 1,297 1,298 1,299 1,323 1,382 1,386 1}
+{5 1,274 1,278 1,281 1,285 1,286 1,290 1,297 1,299 1,323 1,382 1,386 1}
+{5 1,274 1,278 1,281 1,285 1,286 1,290 1,297 1,298 1,299 1,323 1,382 1,386 1}
+{1 1,4 1,278 1,297 1,299 1,386 1}
+{5 1,386 1}
+{5 1,298 1,386 1}
+{281 1,391 1}
+{5 1,297 1,391 1}
+{5 1,297 1,298 1,391 1}
+{1 1,67 1,382 1}
+{274 1,382 1}
+{274 1,298 1,382 1}
+{274 1}
+{274 1,298 1}
+{342 1}
+{342 1}
+{}
+{}
+{}
+{}
+{}
+{}
+{}
+{73 1,275 1}
+{73 1,275 1}
+{5 1}
+{5 1}
+{59 1,63 1,298 1,384 1}
+{298 1,347 1,384 1}
+{1 1,278 1}
+{1 1,278 1}
+{1 1,278 1,298 1}
+{1 1,61 1,284 1,285 1,324 1,327 1,343 1,390 1}
+{5 1,281 1,382 1}
+{5 1,281 1,298 1,382 1}
+{1 1,65 1,68 1,298 1,324 1,345 1,346 1,358 1}
+{389 1,391 1}
+{}
+{6 1}
+{6 1}
+{282 1}
+{5 1}
+{5 1,298 1}
+{5 1,274 1,281 1,391 1}
+{5 1,274 1,281 1,298 1,391 1}
+{1 1,288 1}
+{1 1,382 1}
+{5 1,281 1,286 1,290 1,322 1}
+{5 1,281 1,286 1,290 1,322 1}
+{65 1,75 1,277 1,288 1}
+{75 1,277 1}
+{75 1,277 1}
+{73 1,281 1,391 1}
+{73 1,281 1,391 1}
+{73 1,281 1,391 1}
+{1 1,5 1}
+{5 1}
+{1 1,382 1}
+{1 1,70 1,382 1}
+{5 1,285 1,382 1}
+{}
+{}
+{1 1}
+{1 1,274 1}
+{274 1,297 1}
+{274 1,297 1}
+{1 1}
+{382 1}
+{382 1}
+{382 1}
+{}
+{1 1,66 1}
+{1 1,66 1}
+{281 1}
+{1 1,60 1,344 1}
+{1 1,61 1,274 1,382 1}
+{73 1,74 1}
+{73 1,74 1}
+{5 1,65 1,382 1}
+{5 1,65 1,382 1}
+{1 1}
+{1 1,285 1,324 1,328 1,342 1,343 1,344 1,345 1,346 1,347 1,359 1,360 1,361 1,362 1,363 1,364 1,365 1,366 1,367 1,368 1,369 1,370 1,371 1,372 1,373 1,374 1,375 1,376 1,377 1,378 1,379 1,380 1,381 1,385 1,390 1}
+{1 1,285 1,324 1,328 1,342 1,343 1,344 1,345 1,346 1,347 1,359 1,360 1,361 1,362 1,363 1,364 1,365 1,366 1,367 1,368 1,369 1,370 1,371 1,372 1,373 1,374 1,375 1,376 1,377 1,378 1,379 1,380 1,381 1,385 1,390 1}
+{1 1,285 1,324 1,328 1,342 1,343 1,344 1,345 1,346 1,347 1,359 1,360 1,361 1,362 1,363 1,364 1,365 1,366 1,367 1,368 1,369 1,370 1,371 1,372 1,373 1,374 1,375 1,376 1,377 1,378 1,379 1,380 1,381 1,385 1,390 1}
+{1 1,285 1,324 1,328 1,342 1,343 1,344 1,345 1,346 1,347 1,359 1,360 1,361 1,362 1,363 1,364 1,365 1,366 1,367 1,368 1,369 1,370 1,371 1,372 1,373 1,374 1,375 1,376 1,377 1,378 1,379 1,380 1,381 1,385 1,390 1}
+{}
+{}
+{1 1,5 1}
+{1 1,5 1,298 1}
+{}
+{60 1,62 1,69 1,274 1,281 1,382 1}
+{277 1,289 1,390 1}
+{277 1,289 1,390 1}
+{}
+{}
+{}
+{}
+{}
+{}
+{1 1,281 1,286 1,328 1}
+{1 1,281 1,286 1,298 1,328 1}
+{5 1,298 1}
+{1 1,5 1,281 1,286 1,328 1,391 1}
+{1 1,5 1,281 1,286 1,298 1,328 1,391 1}
+{1 1,391 1}
+{1 1,298 1,391 1}
+{1 1}
+{1 1}
+{5 1,274 1,281 1,285 1,286 1,290 1,297 1,323 1,382 1}
+{5 1,274 1,281 1,285 1,286 1,290 1,297 1,298 1,323 1,382 1}
+{1 1,288 1}
+{1 1,288 1}
+{1 1,288 1}
+{1 1,288 1}
+{1 1,288 1}
+{1 1,288 1}
+{1 1,278 1}
+{1 1,285 1,288 1,324 1,328 1,342 1,343 1,344 1,345 1,346 1,347 1,359 1,360 1,361 1,362 1,363 1,364 1,365 1,366 1,367 1,368 1,369 1,370 1,371 1,372 1,373 1,374 1,375 1,376 1,377 1,378 1,379 1,380 1,381 1,385 1,390 1}
+{1 1,285 1,288 1,324 1,328 1,342 1,343 1,344 1,345 1,346 1,347 1,359 1,360 1,361 1,362 1,363 1,364 1,365 1,366 1,367 1,368 1,369 1,370 1,371 1,372 1,373 1,374 1,375 1,376 1,377 1,378 1,379 1,380 1,381 1,385 1,390 1}
+{1 1,285 1,288 1,324 1,328 1,342 1,343 1,344 1,345 1,346 1,347 1,359 1,360 1,361 1,362 1,363 1,364 1,365 1,366 1,367 1,368 1,369 1,370 1,371 1,372 1,373 1,374 1,375 1,376 1,377 1,378 1,379 1,380 1,381 1,385 1,390 1}
+{1 1,285 1,288 1,324 1,328 1,342 1,343 1,344 1,345 1,346 1,347 1,359 1,360 1,361 1,362 1,363 1,364 1,365 1,366 1,367 1,368 1,369 1,370 1,371 1,372 1,373 1,374 1,375 1,376 1,377 1,378 1,379 1,380 1,381 1,385 1,390 1}
+{1 1,285 1,288 1,324 1,328 1,342 1,343 1,344 1,345 1,346 1,347 1,359 1,360 1,361 1,362 1,363 1,364 1,365 1,366 1,367 1,368 1,369 1,370 1,371 1,372 1,373 1,374 1,375 1,376 1,377 1,378 1,379 1,380 1,381 1,385 1,390 1}
+{1 1,285 1,288 1,324 1,328 1,342 1,343 1,344 1,345 1,346 1,347 1,359 1,360 1,361 1,362 1,363 1,364 1,365 1,366 1,367 1,368 1,369 1,370 1,371 1,372 1,373 1,374 1,375 1,376 1,377 1,378 1,379 1,380 1,381 1,385 1,390 1}
+{5 1}
+{5 1,298 1}
+{322 1}
+{322 1}
+{391 1}
+{1 1,285 1,324 1,328 1,342 1,343 1,344 1,345 1,346 1,347 1,359 1,360 1,361 1,362 1,363 1,364 1,365 1,366 1,367 1,368 1,369 1,370 1,371 1,372 1,373 1,374 1,375 1,376 1,377 1,378 1,379 1,380 1,381 1,382 1,385 1,387 1,388 1,390 1}
+{1 1,285 1,324 1,328 1,342 1,343 1,344 1,345 1,346 1,347 1,359 1,360 1,361 1,362 1,363 1,364 1,365 1,366 1,367 1,368 1,369 1,370 1,371 1,372 1,373 1,374 1,375 1,376 1,377 1,378 1,379 1,380 1,381 1,382 1,385 1,387 1,388 1,390 1}
+{1 1,285 1,324 1,328 1,342 1,343 1,344 1,345 1,346 1,347 1,359 1,360 1,361 1,362 1,363 1,364 1,365 1,366 1,367 1,368 1,369 1,370 1,371 1,372 1,373 1,374 1,375 1,376 1,377 1,378 1,379 1,380 1,381 1,382 1,385 1,387 1,388 1,390 1}
+{1 1,285 1,324 1,328 1,342 1,343 1,344 1,345 1,346 1,347 1,359 1,360 1,361 1,362 1,363 1,364 1,365 1,366 1,367 1,368 1,369 1,370 1,371 1,372 1,373 1,374 1,375 1,376 1,377 1,378 1,379 1,380 1,381 1,382 1,385 1,387 1,388 1,390 1}
+{1 1,285 1,324 1,328 1,342 1,343 1,344 1,345 1,346 1,347 1,359 1,360 1,361 1,362 1,363 1,364 1,365 1,366 1,367 1,368 1,369 1,370 1,371 1,372 1,373 1,374 1,375 1,376 1,377 1,378 1,379 1,380 1,381 1,382 1,385 1,387 1,388 1,390 1}
+{1 1,285 1,324 1,328 1,342 1,343 1,344 1,345 1,346 1,347 1,359 1,360 1,361 1,362 1,363 1,364 1,365 1,366 1,367 1,368 1,369 1,370 1,371 1,372 1,373 1,374 1,375 1,376 1,377 1,378 1,379 1,380 1,381 1,382 1,385 1,387 1,388 1,390 1}
+{1 1,285 1,324 1,328 1,342 1,343 1,344 1,345 1,346 1,347 1,359 1,360 1,361 1,362 1,363 1,364 1,365 1,366 1,367 1,368 1,369 1,370 1,371 1,372 1,373 1,374 1,375 1,376 1,377 1,378 1,379 1,380 1,381 1,385 1,387 1,388 1,390 1}
+{1 1,285 1,324 1,328 1,342 1,343 1,344 1,345 1,346 1,347 1,359 1,360 1,361 1,362 1,363 1,364 1,365 1,366 1,367 1,368 1,369 1,370 1,371 1,372 1,373 1,374 1,375 1,376 1,377 1,378 1,379 1,380 1,381 1,385 1,387 1,388 1,390 1}
+{1 1,285 1,324 1,328 1,342 1,343 1,344 1,345 1,346 1,347 1,359 1,360 1,361 1,362 1,363 1,364 1,365 1,366 1,367 1,368 1,369 1,370 1,371 1,372 1,373 1,374 1,375 1,376 1,377 1,378 1,379 1,380 1,381 1,385 1,387 1,388 1,390 1}
+{278 1,385 1,387 1,388 1,391 1}
+{278 1,385 1,387 1,388 1,391 1}
+{278 1,385 1,387 1,388 1,391 1}
+{278 1,385 1,387 1,388 1,391 1}
+{278 1,385 1,387 1,388 1,391 1}
+{278 1,385 1,387 1,388 1,391 1}
+{278 1,385 1,387 1,388 1,391 1}
+{5 1,274 1,281 1,285 1,286 1,290 1,323 1,382 1}
+{5 1,274 1,281 1,285 1,286 1,290 1,298 1,323 1,382 1}
+{5 1,278 1,299 1}
+{5 1,278 1,298 1,299 1}
+{1 1}
+{298 1}

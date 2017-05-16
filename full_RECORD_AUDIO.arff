@@ -1,823 +1,911 @@
-@relation 'docs-weka.filters.unsupervised.attribute.StringToWordVector-R1-W10000-prune-rate-1.0-N0-stemmerweka.core.stemmers.NullStemmer-M1-tokenizerweka.core.tokenizers.WordTokenizer -delimiters \" \\r\\n\\t.,;:\\\'\\\"()?!\"-weka.filters.unsupervised.attribute.Remove-V-R45,6,625,727,650,377,539,656,533,566,108,1686,2178,261,192,171,30,454,208,2296,327,712,75,586,167,110,589,144,537,546,87,383,356,310,355,425,461,206,321,412,1211,1355,79,241,354,603,2141,1350,1030,296,1526,520,532,94,123,751,522,629,577,614,617,674,28,627,1506,1375,1428,1023,724,220,141,1986,2442,295,713,19,561,1539,1256,2482,1504,1957,2412,1474,2274,2357,822,1640,304,189,667,638,1692,1377,2168,1625,1552,2133,2421,2486,2079,1920,2030,2144,1417,422,676,474,666,423,418,134,442,160,219,278,275,492,314,268,239,506,285,289,384,163,436,305,298,340,567,251,738,388,407-408,616,347,106,746,704,632,732,631,374,403,754,367,411,2069,2130,1460,867,2260,1261,1556,2502,2299,940,845,2297,2053,998,1826,1430,1154,1075,1406,2218,1678,2092,932,1974,1687,1108,1725,959,1024,2391,2390,1697,886,757,855,905,858-859,856,904,840,846,906,687,857,907,850,849,911,842,688,908-910,843,851,854,677,853,852,841,848,844,847,912,891,860,683,879,894,880,878,684,895,876-877,896,882,680,861,883,888-889,682,892-893,887,884,681,885,679,685,875,678,866,901,900,865,864,863,903,862,902,686,890,899,873-874,871-872,870,898,868,897,869,881,715,839,759,761,703,762-764,760,758,750,756,706,705,752-753,755,765-768,700,775-778,774,701,773,770,769,702,772,771,707,749,838,714,726,728-731,725,723,748,722,717-721,733,711,734,710,743-745,708,747,742,741,709,736,735,737,740,739,779-781,815,817-819,716,820,816,814,699,813,810,691,690,811-812,821,823-825,833-837,832,831,689,827,826,828,830,829,809,808,807,792,787-788,695,789-790,696-698,783,782,784,786,785,791,793,806,794,801-805,799,692,798,796,795,694,693,797,800,2507,913,1124,1122-1123,1125,1129,1126-1127,1121,1120,1119,1118,1113-1117,1128,1130,1111,1143,1141-1142,1144,1131,1145-1146,1140,1139,1138,1137,1132-1136,1112,1110,914,1085,1083-1084,1086,1090,1087-1088,1082,1081,1080,1079,1073-1074,1076-1078,1089,1091,1109,1104,1102-1103,1105,1092,1106-1107,1101,1100,1099,1098,1093-1097,1147-1149,1200,1198-1199,1201,1205,1202-1203,1197,1196,1195,1194,1189-1193,1204,1206,1'
+@relation 'docs-weka.filters.unsupervised.attribute.StringToWordVector-R1-W10000-prune-rate-1.0-N0-stemmerweka.core.stemmers.NullStemmer-M1-tokenizerweka.core.tokenizers.WordTokenizer -delimiters \" \\r\\n\\t.,;:\\\'\\\"()?!\"-weka.filters.unsupervised.attribute.Remove-V-R391,387,53,442,361,582,733,677,415,769,8,542,641,173,54,589,675,331,319,287,384,560,411,667,757,312,749,553,656,1988,1763,174,24,2292,753,623,1269,412,745,616,777,82,2422,129,487,687,566,1431,227,1600,695,207,36,179,230,1935,1067,611,136,90,249,355,300,308,2253,2423,738,13,583,2478,335,281,362,416,203,102,247,171,131,642,735,557,638,35,93,40,39,289,674,325,320,614,297,518,302,750,180,10,728,151,499,764,737,392,23,16,406,593,1739,1455,2571,1511,1713,1580,2281,2192,1578,2338,2330,1538,1718,2091,556,607,394,454,280,396,169,2148,1612,1591,1567,1320,2401,2537,2055,1282,466,586,600,760,397,625,697,635,33,268,110,306,148,92,37,2016,1699,1639,2181,1689,1627,1098,2514,2546,1499,2256,2245,1148,1458,2517,1770,2139,1891,201,360,595,1631,903,2410,883,1513,1805,2591,1903,1959,2496,1764,1160,2241,1496,2269,2637,1854,1325,2386,273,269,238,61,722,603,1532,1144,2147,972,1806,2233,2519,1915,1214,2161,2204,785,1212,1210,2516,977,926,1626,1754,2325,888,1068-1069,1122,999,2243,1679,2341,1039,1775,2075,643,157,409-410,256,763,401,373,344,385,265,378,342,648,162,417,688,224,463,468,723,772,421,470,779,453,190,532,522,482,198,126,111,452,634,219,445,328,437-438,441,628,181,699,1038,1047,1840,1033,1340,1025,1352,1519,796,1831,1300,1308,2063,887,1694,2596,1825,1295,1926,1287,2600,2067,2137,2141,1780,990,995,1554,1564,989,2630,2553,1572,2222,1168,2244,1378,1487,1057,2522,1112,2420,1126,2400,1485,1363,1121,1173,1353,854-855,844,1232,856,843,1233,842,1234,840-841,853,852,851,1231,848-850,847,1132,1175,845-846,1133,839,1052,838,826,1174,827,1238,1237,825,824,837,820,819,821,823,822,828-830,857,1235,835,1236,836,834,833,1134-1135,831-832,1136,1230,862,858,1124,886,1123,879,1120,1125,885,884,1127,880-882,889-891,1117,897-899,896,895,892,894,1119,893,1118,1224,878,859,1227,866,1226,1128,867,865,1228,864,863,1229,860-861,868,1225,869,874,876,1129,877,875,1130-1131,873,870-872,1239,817,1137,1252,1159,1251,767,770,768,766,818,762,761,1161,765,1253,1250,771,1158,1248,776,778,1157,1170,775,1249,1154,774,773,1156,1155,1254,759,758,1166,743-744,746,1169,1167,742,1259,741,1261,740,1260,1258,747,756,754,1255,755,748,1162,752,751,1163,1256,1165,1164,1257,1171,780-781,1'
 
-@attribute <init> numeric
-@attribute 00 numeric
-@attribute record numeric
-@attribute voice numeric
-@attribute seattle numeric
-@attribute clouds numeric
-@attribute modules numeric
-@attribute setAudioSource numeric
-@attribute microphone numeric
-@attribute onClick numeric
-@attribute Equalizer numeric
-@attribute cp numeric
-@attribute pos numeric
-@attribute Unknown numeric
-@attribute Phonic numeric
-@attribute Mono numeric
-@attribute 32dB numeric
-@attribute grace numeric
-@attribute Record numeric
-@attribute setting numeric
-@attribute audio numeric
-@attribute unanswered numeric
-@attribute Caller numeric
-@attribute ones numeric
-@attribute Missed numeric
-@attribute Extras numeric
-@attribute options numeric
-@attribute Identify numeric
-@attribute missed numeric
-@attribute multiple numeric
-@attribute Completed numeric
-@attribute completed numeric
-@attribute callers numeric
-@attribute after numeric
-@attribute caller numeric
-@attribute even numeric
-@attribute handle numeric
-@attribute Real-time numeric
-@attribute answer numeric
-@attribute dorado numeric
-@attribute New numeric
-@attribute Sign numeric
-@attribute Cancelar numeric
-@attribute Tap numeric
 @attribute call numeric
-@attribute picker numeric
-@attribute password numeric
-@attribute Set numeric
-@attribute Enter numeric
-@attribute activity numeric
-@attribute ads numeric
-@attribute m numeric
-@attribute mic numeric
-@attribute Custom numeric
-@attribute Gain numeric
-@attribute you numeric
-@attribute main numeric
-@attribute recording numeric
-@attribute onRequestPermissionsResult numeric
-@attribute pro numeric
-@attribute purpose numeric
-@attribute startListening numeric
-@attribute 30 numeric
-@attribute recorder$1 numeric
-@attribute account numeric
-@attribute States numeric
-@attribute United numeric
-@attribute Email numeric
-@attribute view numeric
-@attribute Save numeric
-@attribute ID numeric
-@attribute lock numeric
-@attribute using numeric
-@attribute activities numeric
-@attribute up numeric
-@attribute 2 numeric
-@attribute of numeric
-@attribute all numeric
-@attribute Password numeric
+@attribute c numeric
+@attribute < numeric
+@attribute dorado numeric
+@attribute android numeric
+@attribute o numeric
+@attribute ui numeric
+@attribute settings numeric
+@attribute com numeric
 @attribute widget numeric
-@attribute access numeric
-@attribute kids numeric
-@attribute touch numeric
-@attribute Your numeric
-@attribute secure numeric
-@attribute studios numeric
-@attribute 9 numeric
-@attribute code numeric
-@attribute activity$6 numeric
-@attribute PM numeric
-@attribute sound numeric
-@attribute robot numeric
-@attribute crop numeric
-@attribute Stay numeric
-@attribute play numeric
-@attribute cerulean numeric
-@attribute anywhere numeric
-@attribute paddy numeric
-@attribute trillian numeric
-@attribute 'with\\nfast' numeric
-@attribute no numeric
-@attribute instant numeric
-@attribute messaging numeric
-@attribute payment numeric
-@attribute Trillian numeric
-@attribute enabled numeric
-@attribute station numeric
-@attribute ice numeric
-@attribute social numeric
-@attribute encoded numeric
-@attribute eliza numeric
-@attribute Hello numeric
-@attribute frequencies numeric
-@attribute Location numeric
-@attribute STT numeric
+@attribute 00 numeric
+@attribute m numeric
+@attribute record numeric
+@attribute ImageButton numeric
+@attribute <init> numeric
+@attribute onClick numeric
+@attribute setAudioSource numeric
 @attribute Wi-fi numeric
-@attribute WhatsApp numeric
-@attribute kerait numeric
-@attribute al numeric
 @attribute Walkie numeric
 @attribute Talkie numeric
-@attribute link numeric
-@attribute '\\nTouch' numeric
-@attribute '\\n\\nPrivacy' numeric
-@attribute completely numeric
-@attribute Memos numeric
-@attribute focus numeric
-@attribute activity$7 numeric
-@attribute activity$16 numeric
-@attribute blue numeric
-@attribute onConfigurationChanged numeric
-@attribute Touch numeric
-@attribute wear numeric
-@attribute consider numeric
-@attribute digital numeric
-@attribute disabled numeric
-@attribute prompt numeric
-@attribute buying numeric
-@attribute Eliza numeric
-@attribute won numeric
-@attribute tt numeric
-@attribute required numeric
-@attribute walk numeric
-@attribute reporter numeric
-@attribute clickedTakePhoto numeric
-@attribute delay numeric
-@attribute العربية numeric
-@attribute chen numeric
-@attribute donate numeric
-@attribute need numeric
-@attribute our numeric
-@attribute We numeric
-@attribute Amount numeric
-@attribute safe numeric
-@attribute Phone numeric
-@attribute application numeric
-@attribute yak numeric
-@attribute share numeric
-@attribute Choose numeric
-@attribute Account numeric
+@attribute button numeric
+@attribute modules numeric
+@attribute clouds numeric
+@attribute seattle numeric
+@attribute vrl numeric
+@attribute Unknown numeric
+@attribute view numeric
+@attribute microphone numeric
+@attribute robot numeric
+@attribute i numeric
+@attribute cp numeric
+@attribute ImageView numeric
+@attribute 2 numeric
+@attribute pos numeric
+@attribute voice numeric
+@attribute picker numeric
+@attribute New numeric
+@attribute cng numeric
+@attribute vc numeric
+@attribute panasonic numeric
+@attribute you numeric
+@attribute Button numeric
+@attribute setting numeric
+@attribute Equalizer numeric
+@attribute handle numeric
+@attribute sms numeric
+@attribute multiple numeric
+@attribute Sign numeric
+@attribute PM numeric
+@attribute ads numeric
+@attribute start numeric
+@attribute Mono numeric
+@attribute 32dB numeric
+@attribute Jan numeric
+@attribute Phonic numeric
+@attribute g numeric
+@attribute Email numeric
+@attribute options numeric
+@attribute February numeric
+@attribute Calls numeric
+@attribute Record numeric
+@attribute ago numeric
+@attribute Today numeric
+@attribute Tuesday numeric
+@attribute password numeric
 @attribute setup numeric
-@attribute mpa numeric
-@attribute Dictionary numeric
-@attribute found numeric
+@attribute up numeric
+@attribute 1 numeric
+@attribute of numeric
+@attribute studios numeric
+@attribute a numeric
+@attribute Stop numeric
+@attribute answer numeric
+@attribute completed numeric
+@attribute Missed numeric
+@attribute Completed numeric
+@attribute Real-time numeric
+@attribute Identify numeric
+@attribute Extras numeric
+@attribute recorder numeric
+@attribute unanswered numeric
+@attribute missed numeric
+@attribute recall numeric
+@attribute 32 numeric
+@attribute Cancelar numeric
+@attribute 45 numeric
+@attribute 42 numeric
+@attribute Tap numeric
+@attribute session numeric
+@attribute Webinar numeric
+@attribute Want numeric
+@attribute own numeric
+@attribute Thursday numeric
+@attribute killer numeric
+@attribute Touch numeric
+@attribute views numeric
+@attribute January numeric
+@attribute 01 numeric
+@attribute total numeric
+@attribute GoToWebinar numeric
+@attribute host numeric
+@attribute webinars numeric
+@attribute universal numeric
+@attribute callX numeric
+@attribute 19 numeric
+@attribute 123-456-789 numeric
+@attribute citri numeric
+@attribute onCreateOptionsMenu numeric
+@attribute connect numeric
+@attribute States numeric
+@attribute using numeric
+@attribute United numeric
+@attribute client numeric
+@attribute account numeric
+@attribute play numeric
+@attribute no numeric
+@attribute access numeric
+@attribute r numeric
+@attribute q numeric
+@attribute Voicemail numeric
+@attribute code numeric
+@attribute lock numeric
+@attribute minutes numeric
+@attribute ones numeric
+@attribute callers numeric
+@attribute even numeric
+@attribute Start numeric
+@attribute can numeric
+@attribute ID numeric
+@attribute mob numeric
+@attribute all numeric
+@attribute ad numeric
+@attribute Your numeric
+@attribute Password numeric
+@attribute secure numeric
+@attribute touch numeric
+@attribute kids numeric
+@attribute Now numeric
+@attribute for numeric
+@attribute on numeric
+@attribute onRequestPermissionsResult numeric
+@attribute walk numeric
+@attribute cancel numeric
+@attribute pie numeric
+@attribute startListening numeric
+@attribute purpose numeric
+@attribute 30 numeric
+@attribute Search numeric
+@attribute Custom numeric
+@attribute Try numeric
+@attribute Gain numeric
+@attribute Cancel numeric
+@attribute 4 numeric
+@attribute instant numeric
+@attribute cerulean numeric
+@attribute as numeric
+@attribute need numeric
+@attribute cam numeric
+@attribute anywhere numeric
+@attribute Feedback numeric
+@attribute text numeric
+@attribute trillian numeric
+@attribute Trillian numeric
+@attribute payment numeric
+@attribute paddy numeric
+@attribute History numeric
+@attribute Stay numeric
+@attribute that numeric
+@attribute crop numeric
+@attribute messaging numeric
+@attribute fast numeric
+@attribute Microphone numeric
+@attribute and numeric
+@attribute onDestroy numeric
+@attribute application numeric
+@attribute Amount numeric
+@attribute send numeric
+@attribute Account numeric
 @attribute Up numeric
-@attribute Lock numeric
-@attribute Gallery numeric
-@attribute The numeric
-@attribute rau numeric
-@attribute coo numeric
-@attribute object numeric
-@attribute Card numeric
-@attribute lib numeric
+@attribute dic numeric
+@attribute viewer numeric
+@attribute find numeric
+@attribute has numeric
+@attribute systems numeric
 @attribute create numeric
 @attribute In numeric
+@attribute our numeric
+@attribute Total numeric
+@attribute phone numeric
+@attribute yak numeric
+@attribute email numeric
+@attribute Phone numeric
+@attribute safe numeric
+@attribute Set numeric
+@attribute Select numeric
+@attribute Please numeric
+@attribute Add numeric
+@attribute time numeric
+@attribute onStart numeric
+@attribute Version numeric
+@attribute Help numeric
+@attribute mo numeric
+@attribute Card numeric
 @attribute dictionary numeric
-@attribute Contact numeric
-@attribute EmojiKeyboard numeric
-@attribute that numeric
-@attribute th numeric
-@attribute custom numeric
-@attribute B numeric
+@attribute one numeric
+@attribute theme numeric
+@attribute found numeric
+@attribute Login numeric
+@attribute mpa numeric
+@attribute object numeric
 @attribute $0 numeric
-@attribute Ahmad numeric
-@attribute Browser numeric
-@attribute Airplane numeric
-@attribute Alarm numeric
-@attribute Aid numeric
-@attribute Boating numeric
-@attribute AV numeric
-@attribute AccountsActivity_Button_Done numeric
-@attribute Bug numeric
-@attribute tel numeric
-@attribute AirStream numeric
-@attribute Bullet numeric
-@attribute Ad numeric
-@attribute Activity numeric
-@attribute Butto numeric
-@attribute AadhkTime numeric
-@attribute tell numeric
-@attribute Burner numeric
-@attribute Business numeric
-@attribute Butterfly numeric
-@attribute About numeric
-@attribute Additional numeric
-@attribute Aenean numeric
-@attribute storage numeric
-@attribute AePictur numeric
+@attribute Log numeric
+@attribute Lock numeric
+@attribute th numeric
+@attribute Change numeric
+@attribute B numeric
+@attribute any numeric
+@attribute coo numeric
+@attribute pub numeric
 @attribute Address numeric
-@attribute AVAILABLE numeric
-@attribute Acquire numeric
-@attribute Access numeric
-@attribute AccountsActivity_Button_Skip numeric
-@attribute Button numeric
-@attribute Base numeric
-@attribute Alarms numeric
-@attribute take numeric
-@attribute Aspect numeric
-@attribute Battery numeric
-@attribute Attachment numeric
-@attribute Ask numeric
-@attribute taking numeric
-@attribute Benefits numeric
-@attribute Arts numeric
-@attribute As numeric
-@attribute Beta numeric
-@attribute Audio/Echo numeric
-@attribute swim numeric
-@attribute Album numeric
-@attribute AudioFocus numeric
-@attribute BLOCK numeric
-@attribute Baby numeric
-@attribute t numeric
-@attribute Batch numeric
-@attribute Bath numeric
-@attribute BDK numeric
-@attribute Available numeric
-@attribute swimsuits numeric
-@attribute Avoid numeric
-@attribute surfaceCreated numeric
-@attribute talk numeric
-@attribute Area numeric
-@attribute strategies numeric
-@attribute Already numeric
-@attribute Blocked numeric
-@attribute Block numeric
-@attribute Aliquam numeric
-@attribute Alerts numeric
-@attribute Alert numeric
-@attribute Boarding numeric
-@attribute Alcohol numeric
-@attribute Bluetooth numeric
-@attribute teaching numeric
-@attribute Back numeric
-@attribute Blends numeric
-@attribute Apps numeric
-@attribute Apr numeric
-@attribute App numeric
-@attribute Approval numeric
-@attribute Answer numeric
-@attribute Blacklist numeric
-@attribute Amplification numeric
-@attribute Biblia numeric
-@attribute Angeles numeric
-@attribute Audiko numeric
-@attribute us numeric
-@attribute ARTERIAL numeric
-@attribute '\%' numeric
-@attribute + numeric
-@attribute too numeric
-@attribute +1 numeric
-@attribute +Misc numeric
-@attribute ---- numeric
-@attribute * numeric
-@attribute $18 numeric
-@attribute yet numeric
-@attribute #BestMeSelfie numeric
-@attribute tut numeric
-@attribute turn numeric
-@attribute your numeric
-@attribute zephyr numeric
-@attribute # numeric
-@attribute '-Creative\\n' numeric
-@attribute -Emoji-grid numeric
-@attribute '-Smile\\n' numeric
-@attribute / numeric
-@attribute to numeric
-@attribute 000000 numeric
-@attribute 0123456789ABCDEFFEDCBA9876543210 numeric
-@attribute 1000cartuningdesigns numeric
-@attribute 103 numeric
-@attribute 000-0000 numeric
-@attribute today numeric
-@attribute 000 numeric
-@attribute //www numeric
-@attribute //168 numeric
-@attribute tone numeric
-@attribute '00\%' numeric
-@attribute /storage/emulated/0/ numeric
+@attribute EmojiKeyboard numeric
+@attribute En numeric
+@attribute Gallery numeric
+@attribute Contact numeric
+@attribute p numeric
+@attribute browser numeric
+@attribute rau numeric
+@attribute Dictionary numeric
+@attribute custom numeric
+@attribute lib numeric
+@attribute recorder$1 numeric
+@attribute Guide numeric
+@attribute clickedTakePhoto numeric
+@attribute close numeric
+@attribute Rent numeric
+@attribute wear numeric
+@attribute channels numeric
+@attribute bar numeric
+@attribute activity$22 numeric
+@attribute buying numeric
+@attribute STT numeric
+@attribute blue numeric
+@attribute activity$16 numeric
+@attribute reporter numeric
+@attribute Hello numeric
+@attribute completely numeric
+@attribute social numeric
+@attribute Own numeric
+@attribute focus numeric
+@attribute format numeric
+@attribute title numeric
+@attribute won numeric
+@attribute consider numeric
+@attribute frequencies numeric
+@attribute العربية numeric
+@attribute encoded numeric
+@attribute LinearLayout numeric
+@attribute link numeric
+@attribute landscape numeric
+@attribute greetings numeric
+@attribute Memos numeric
+@attribute Eliza numeric
+@attribute Darknet numeric
+@attribute enabled numeric
+@attribute prompt numeric
+@attribute OnClickRec numeric
+@attribute during numeric
+@attribute WhatsApp numeric
+@attribute digital numeric
+@attribute disabled numeric
+@attribute donate numeric
+@attribute player$5 numeric
+@attribute KB/s numeric
+@attribute station numeric
+@attribute Dict numeric
+@attribute Done numeric
+@attribute easy numeric
+@attribute Deutsch numeric
+@attribute Português numeric
+@attribute Delete numeric
+@attribute Pусский numeric
+@attribute Use numeric
+@attribute -a numeric
+@attribute droid numeric
+@attribute Only numeric
+@attribute Ox numeric
+@attribute languages numeric
+@attribute Additional numeric
+@attribute card numeric
+@attribute voicemails numeric
+@attribute don numeric
+@attribute Off numeric
+@attribute full numeric
+@attribute Number numeric
+@attribute w numeric
+@attribute latin numeric
+@attribute merchant numeric
+@attribute method numeric
+@attribute data numeric
+@attribute Color numeric
+@attribute Confirm numeric
+@attribute Wi-Fi numeric
+@attribute Y numeric
+@attribute Code numeric
+@attribute would numeric
 @attribute two numeric
-@attribute y numeric
-@attribute APPs numeric
-@attribute updates numeric
-@attribute vivo numeric
-@attribute void numeric
-@attribute voip numeric
-@attribute wait numeric
-@attribute wake numeric
-@attribute views numeric
-@attribute video numeric
-@attribute xj numeric
-@attribute vc numeric
-@attribute used numeric
-@attribute usta numeric
-@attribute ustawienia numeric
-@attribute v numeric
-@attribute value numeric
-@attribute wand numeric
-@attribute una numeric
-@attribute watch numeric
-@attribute ui numeric
-@attribute wien numeric
-@attribute will numeric
-@attribute with numeric
-@attribute type numeric
-@attribute work numeric
-@attribute wi numeric
-@attribute which numeric
-@attribute u numeric
-@attribute way numeric
-@attribute watchfaces numeric
-@attribute we numeric
-@attribute when numeric
-@attribute what numeric
-@attribute 1080 numeric
-@attribute 10byte numeric
-@attribute 11 numeric
-@attribute 64 numeric
-@attribute 674 numeric
+@attribute a- numeric
+@attribute onKeyDown numeric
+@attribute Input numeric
+@attribute p2pwificam numeric
+@attribute Remove numeric
+@attribute Thank numeric
+@attribute E numeric
+@attribute then numeric
+@attribute Français numeric
+@attribute set numeric
+@attribute Get numeric
+@attribute searcher numeric
+@attribute Terms numeric
+@attribute Reader numeric
+@attribute GPaddy numeric
+@attribute Italiano numeric
+@attribute Q numeric
 @attribute 7112 numeric
 @attribute 77 numeric
-@attribute use numeric
-@attribute 800 numeric
-@attribute 660 numeric
-@attribute 623 numeric
-@attribute time numeric
-@attribute 600 numeric
-@attribute 52 numeric
-@attribute text numeric
-@attribute test numeric
-@attribute 537 numeric
-@attribute 587 numeric
-@attribute 866 numeric
-@attribute '99\%' numeric
-@attribute '99\\nFULL' numeric
-@attribute < numeric
-@attribute ADs numeric
-@attribute AEE numeric
-@attribute AM numeric
-@attribute APP numeric
-@attribute APPLY numeric
-@attribute ADULT numeric
-@attribute AB numeric
-@attribute term numeric
-@attribute <unknown> numeric
-@attribute <<Privacy numeric
-@attribute > numeric
-@attribute @ numeric
-@attribute >>>>>>APP numeric
 @attribute 511 numeric
+@attribute Main numeric
+@attribute 800 numeric
 @attribute 50 numeric
+@attribute Make numeric
 @attribute 428-4967 numeric
-@attribute 2014 numeric
-@attribute 160 numeric
-@attribute 162 numeric
-@attribute think numeric
-@attribute 16byte numeric
-@attribute 1、color numeric
-@attribute this numeric
-@attribute ti numeric
-@attribute tiene numeric
-@attribute 123 numeric
-@attribute 12 numeric
-@attribute 130 numeric
-@attribute 15306013355 numeric
-@attribute 144479971 numeric
-@attribute 201 numeric
-@attribute 20170207 numeric
-@attribute 40 numeric
-@attribute 22 numeric
-@attribute 328 numeric
-@attribute 340 numeric
-@attribute 360 numeric
-@attribute 365-6616 numeric
+@attribute Manager numeric
 @attribute 368 numeric
-@attribute 310 numeric
-@attribute than numeric
-@attribute 2、the numeric
-@attribute 279 numeric
-@attribute 26 numeric
-@attribute their numeric
-@attribute the numeric
-@attribute 293 numeric
-@attribute 320 numeric
-@attribute zap numeric
-@attribute Buy numeric
-@attribute J numeric
-@attribute Italian—English numeric
-@attribute Italian—Russian numeric
-@attribute JPEG numeric
-@attribute KB numeric
-@attribute Jack numeric
-@attribute Join numeric
-@attribute Italiano numeric
-@attribute Issued numeric
-@attribute InviteContactByPhoneScreen_Button_Done numeric
-@attribute Internet numeric
-@attribute Informations numeric
-@attribute Initial numeric
-@attribute Input numeric
-@attribute Instagram numeric
-@attribute Integer numeric
-@attribute K numeric
-@attribute KEY numeric
-@attribute Increases numeric
-@attribute Last numeric
-@attribute Lab numeric
-@attribute Lan numeric
-@attribute Layers numeric
-@attribute KSN numeric
-@attribute Leave numeric
-@attribute Letter numeric
-@attribute LIPID numeric
-@attribute LIGHTS numeric
-@attribute LICENSE numeric
-@attribute L-all numeric
-@attribute KViewQR numeric
-@attribute Key numeric
-@attribute Kik numeric
-@attribute Knowledge numeric
-@attribute L numeric
-@attribute Information numeric
-@attribute Incoming numeric
-@attribute By numeric
-@attribute Génesis numeric
+@attribute 40 numeric
+@attribute 674 numeric
+@attribute 660 numeric
+@attribute '65\%' numeric
+@attribute Maecenas numeric
+@attribute 600 numeric
+@attribute 623 numeric
+@attribute 64 numeric
+@attribute 587 numeric
 @attribute GridView numeric
+@attribute Italian—Russian numeric
+@attribute 52 numeric
+@attribute 537 numeric
 @attribute Guest numeric
+@attribute 365-6616 numeric
+@attribute DroneView numeric
+@attribute 360 numeric
+@attribute 201 numeric
+@attribute Italian—English numeric
+@attribute 2014 numeric
+@attribute Max numeric
+@attribute Match numeric
+@attribute 1、color numeric
+@attribute 17723 numeric
+@attribute 340 numeric
+@attribute 160 numeric
+@attribute 16 numeric
+@attribute 162 numeric
+@attribute 16byte numeric
+@attribute 168 numeric
+@attribute 20170207 numeric
+@attribute 22 numeric
+@attribute 26 numeric
+@attribute 866 numeric
+@attribute Marcin numeric
+@attribute 320 numeric
+@attribute Masalski numeric
+@attribute 328 numeric
+@attribute 310 numeric
+@attribute 2、the numeric
+@attribute Génesis numeric
 @attribute H numeric
-@attribute HEMODYNAMIC numeric
-@attribute HDMI numeric
-@attribute HELL numeric
-@attribute Greece numeric
-@attribute Gmail numeric
-@attribute Gift numeric
-@attribute Get numeric
-@attribute GENERAL numeric
-@attribute GPaddy numeric
-@attribute Gary numeric
+@attribute 279 numeric
+@attribute 293 numeric
+@attribute HAVE numeric
+@attribute MOST numeric
+@attribute <unknown> numeric
+@attribute 99 numeric
 @attribute German—English numeric
+@attribute Ad numeric
+@attribute Gary numeric
+@attribute AadhkTime numeric
+@attribute GOOGLE+ numeric
 @attribute German—Russian numeric
-@attribute HEMATOLOGY numeric
-@attribute HListView numeric
-@attribute Inc numeric
-@attribute Image/Video numeric
-@attribute IT numeric
-@attribute Identification numeric
-@attribute Images numeric
-@attribute Hangouts numeric
-@attribute Improve numeric
-@attribute Improved numeric
-@attribute IPSC numeric
-@attribute IP/Port numeric
-@attribute Hostname numeric
-@attribute History numeric
-@attribute Haya numeric
-@attribute Help numeric
-@attribute Here numeric
-@attribute Hi numeric
-@attribute High numeric
-@attribute Level numeric
-@attribute Library numeric
-@attribute Life numeric
-@attribute My numeric
-@attribute MuzzleLoader numeric
-@attribute Muzzleloader numeric
-@attribute N numeric
-@attribute NOT numeric
-@attribute NEUROLOGICAL numeric
-@attribute NEWEST numeric
-@attribute Music numeric
+@attribute Activity numeric
+@attribute Acquire numeric
+@attribute Getting numeric
+@attribute About numeric
+@attribute Accept numeric
+@attribute Access numeric
+@attribute AePictur numeric
+@attribute Aenean numeric
+@attribute Ahmad numeric
+@attribute Funny numeric
+@attribute Album numeric
+@attribute Alcohol numeric
+@attribute Alert numeric
+@attribute Alarms numeric
+@attribute Alarm numeric
+@attribute Aid numeric
+@attribute Airplane numeric
+@attribute GENERAL numeric
+@attribute AirStream numeric
+@attribute G numeric
+@attribute MADE numeric
+@attribute AVAILABLE numeric
+@attribute '99\%' numeric
+@attribute MESSAGE numeric
+@attribute AB numeric
+@attribute MB numeric
+@attribute Gift numeric
+@attribute ACCOUNT numeric
+@attribute @ numeric
+@attribute METER numeric
+@attribute >>>>>>APP numeric
+@attribute > numeric
+@attribute MMS numeric
+@attribute 999 numeric
+@attribute <<Privacy numeric
+@attribute ADULT numeric
+@attribute MARKERS numeric
+@attribute ADs numeric
+@attribute APPs numeric
+@attribute ARTERIAL numeric
+@attribute Gmail numeric
+@attribute AV numeric
+@attribute ARE numeric
+@attribute Good numeric
+@attribute Greece numeric
+@attribute APPLY numeric
+@attribute AEE numeric
+@attribute ALREADY numeric
+@attribute APP numeric
+@attribute Media numeric
+@attribute 144479971 numeric
+@attribute HDMI numeric
 @attribute Multilingual numeric
+@attribute Improved numeric
 @attribute Msg numeric
+@attribute which numeric
+@attribute will numeric
+@attribute wi numeric
+@attribute when numeric
+@attribute 15306013355 numeric
+@attribute we numeric
+@attribute watchfaces numeric
+@attribute Inbox numeric
+@attribute what numeric
+@attribute Music numeric
 @attribute Mph numeric
-@attribute Model numeric
-@attribute Moi numeric
-@attribute Monetary numeric
+@attribute with numeric
+@attribute Improve numeric
 @attribute Months numeric
+@attribute yet numeric
+@attribute your numeric
+@attribute Images numeric
+@attribute Integer numeric
+@attribute y numeric
 @attribute Movies numeric
-@attribute NFC numeric
-@attribute NOTIFICATIONS numeric
+@attribute Identification numeric
+@attribute xj numeric
+@attribute x numeric
+@attribute Image/Video numeric
+@attribute Ignored numeric
+@attribute MuzzleLoader numeric
+@attribute wake numeric
+@attribute wait numeric
+@attribute Informations numeric
+@attribute v numeric
+@attribute value numeric
+@attribute via numeric
+@attribute Instagram numeric
+@attribute Initial numeric
+@attribute used numeric
+@attribute NEUROLOGICAL numeric
+@attribute use numeric
+@attribute NEWEST numeric
+@attribute us numeric
+@attribute NEW numeric
+@attribute NAPA numeric
+@attribute video numeric
+@attribute vr numeric
+@attribute void numeric
+@attribute Muzzleloader numeric
+@attribute volume numeric
+@attribute vie numeric
+@attribute Inc numeric
+@attribute vm numeric
+@attribute vivo numeric
+@attribute Incoming numeric
+@attribute My numeric
+@attribute Information numeric
+@attribute Increases numeric
+@attribute N numeric
+@attribute Internet numeric
+@attribute # numeric
+@attribute #1 numeric
 @attribute text_label {T,F}
 
 @data
-{0 1,49 1,55 1,82 1,200 1,279 1,286 1,304 1,322 1,341 1,481 1,500 F}
-{0 1,48 1,49 1,76 1,87 1,151 1,158 1,236 1,304 1,401 1,500 F}
-{0 1,9 1,79 1,154 1,200 1,279 1,286 1,304 1,500 F}
-{0 1,3 1,19 1,20 1,49 1,50 1,52 1,55 1,72 1,178 1,226 1,251 1,269 1,279 1,286 1,304 1,309 1,332 1,378 1,401 1,424 1,500 F}
-{0 1,49 1,50 1,304 1,500 F}
-{0 1,9 1,80 1,87 1,92 1,273 1,279 1,304 1,345 1,401 1,500 F}
-{0 1,80 1,87 1,92 1,273 1,279 1,304 1,345 1,401 1,500 F}
-{0 1,45 1,163 1,166 1,304 1,500 F}
-{0 1,45 1,163 1,166 1,304 1,500 F}
-{0 1,9 1,163 1,166 1,304 1,500 F}
-{0 1,9 1,53 1,69 1,75 1,86 1,180 1,181 1,213 1,304 1,328 1,381 1,406 1,422 1,440 1,447 1,485 1,500 F}
-{0 1,49 1,65 1,66 1,162 1,175 1,177 1,204 1,304 1,413 1,419 1,500 F}
-{0 1,68 1,75 1,86 1,181 1,304 1,381 1,406 1,422 1,440 1,447 1,461 1,485 1,500 F}
-{0 1,68 1,75 1,86 1,181 1,304 1,381 1,406 1,422 1,440 1,447 1,461 1,485 1,500 F}
-{0 1,68 1,75 1,86 1,181 1,304 1,381 1,406 1,422 1,440 1,447 1,461 1,485 1,500 F}
-{0 1,44 1,49 1,100 1,286 1,304 1,500 F}
-{0 1,49 1,50 1,165 1,304 1,438 1,500 F}
-{0 1,49 1,253 1,304 1,473 1,500 F}
-{0 1,304 1,500 F}
-{0 1,304 1,500 F}
-{0 1,162 1,175 1,304 1,500 F}
-{0 1,13 1,21 1,22 1,23 1,24 1,25 1,26 1,27 1,28 1,29 1,30 1,31 1,32 1,33 1,34 1,35 1,36 1,37 1,38 1,39 1,44 1,49 1,69 1,70 1,279 1,286 1,304 1,320 1,323 1,401 1,500 F}
-{0 1,13 1,21 1,22 1,23 1,24 1,25 1,26 1,27 1,28 1,29 1,30 1,31 1,32 1,33 1,34 1,35 1,36 1,37 1,38 1,39 1,44 1,49 1,69 1,70 1,279 1,286 1,304 1,320 1,323 1,401 1,500 F}
-{0 1,13 1,21 1,22 1,23 1,24 1,25 1,26 1,27 1,28 1,29 1,30 1,31 1,32 1,33 1,34 1,35 1,36 1,37 1,38 1,39 1,44 1,49 1,69 1,70 1,279 1,286 1,304 1,320 1,323 1,401 1,500 F}
-{0 1,41 1,49 1,64 1,67 1,74 1,157 1,174 1,243 1,304 1,323 1,500 F}
-{0 1,47 1,49 1,157 1,304 1,405 1,500 F}
-{0 1,49 1,157 1,304 1,412 1,500 F}
-{7 1,40 1,41 1,74 1,82 1,84 1,85 1,93 1,95 1,96 1,98 1,99 1,101 1,102 1,104 1,286 1,304 1,500 F}
-{7 1,40 1,41 1,74 1,82 1,84 1,85 1,93 1,95 1,96 1,98 1,99 1,101 1,102 1,104 1,286 1,304 1,500 F}
-{7 1,40 1,41 1,74 1,82 1,84 1,85 1,93 1,95 1,96 1,98 1,99 1,101 1,102 1,104 1,286 1,304 1,500 F}
-{7 1,9 1,40 1,41 1,74 1,82 1,84 1,85 1,93 1,95 1,96 1,98 1,99 1,101 1,102 1,104 1,286 1,304 1,415 1,500 F}
-{7 1,40 1,41 1,49 1,74 1,82 1,84 1,85 1,93 1,95 1,96 1,98 1,99 1,101 1,102 1,104 1,286 1,304 1,500 F}
-{7 1,9 1,40 1,41 1,74 1,82 1,84 1,85 1,93 1,95 1,96 1,98 1,99 1,101 1,102 1,104 1,212 1,286 1,304 1,500 F}
-{7 1,9 1,40 1,41 1,74 1,82 1,84 1,85 1,93 1,95 1,96 1,98 1,99 1,101 1,102 1,104 1,190 1,286 1,304 1,500 F}
-{7 1,40 1,41 1,49 1,74 1,82 1,84 1,85 1,93 1,95 1,96 1,98 1,99 1,101 1,102 1,104 1,286 1,304 1,500 F}
-{0 1,49 1,167 1,304 1,334 1,500 F}
-{0 1,3 1,49 1,56 1,304 1,500 F}
-{0 1,11 1,12 1,49 1,51 1,159 1,176 1,248 1,304 1,352 1,371 1,401 1,475 1,500 F}
-{0 1,11 1,12 1,49 1,51 1,304 1,500 F}
-{0 1,11 1,12 1,49 1,51 1,176 1,265 1,304 1,342 1,352 1,371 1,393 1,500 F}
-{0 1,1 1,11 1,12 1,49 1,51 1,76 1,152 1,171 1,182 1,247 1,281 1,304 1,495 1,500 F}
-{0 1,11 1,12 1,49 1,51 1,155 1,304 1,322 1,378 1,500 F}
-{0 1,11 1,12 1,49 1,51 1,304 1,500 F}
-{0 1,11 1,12 1,49 1,51 1,103 1,171 1,304 1,411 1,500 F}
-{0 1,11 1,12 1,49 1,51 1,103 1,171 1,304 1,411 1,500 F}
-{0 1,1 1,9 1,11 1,12 1,49 1,51 1,67 1,103 1,152 1,154 1,182 1,258 1,281 1,291 1,293 1,304 1,414 1,500 F}
-{0 1,1 1,9 1,11 1,12 1,49 1,51 1,67 1,103 1,152 1,154 1,182 1,258 1,281 1,291 1,293 1,304 1,414 1,500 F}
-{0 1,9 1,11 1,12 1,51 1,68 1,100 1,103 1,173 1,271 1,304 1,401 1,500 F}
-{0 1,9 1,11 1,12 1,51 1,68 1,100 1,103 1,271 1,304 1,401 1,500 F}
-{0 1,1 1,11 1,12 1,48 1,49 1,51 1,83 1,152 1,182 1,267 1,297 1,304 1,500 F}
-{0 1,1 1,11 1,12 1,48 1,49 1,51 1,83 1,152 1,182 1,267 1,297 1,304 1,500 F}
-{0 1,9 1,11 1,12 1,40 1,46 1,48 1,49 1,51 1,78 1,83 1,168 1,173 1,179 1,279 1,304 1,341 1,475 1,500 F}
-{0 1,11 1,12 1,49 1,51 1,55 1,64 1,80 1,149 1,151 1,168 1,179 1,224 1,232 1,265 1,279 1,286 1,304 1,331 1,341 1,378 1,465 1,500 F}
-{0 1,11 1,12 1,49 1,51 1,55 1,64 1,80 1,149 1,151 1,168 1,179 1,224 1,232 1,265 1,279 1,286 1,304 1,331 1,341 1,378 1,465 1,500 F}
-{0 1,11 1,12 1,49 1,51 1,55 1,64 1,80 1,149 1,151 1,168 1,179 1,224 1,232 1,265 1,279 1,286 1,304 1,331 1,341 1,378 1,465 1,500 F}
-{0 1,11 1,12 1,41 1,44 1,49 1,51 1,55 1,64 1,67 1,72 1,74 1,103 1,149 1,155 1,164 1,168 1,179 1,208 1,279 1,286 1,291 1,293 1,304 1,323 1,341 1,342 1,378 1,393 1,401 1,425 1,500 F}
-{0 1,11 1,12 1,41 1,44 1,49 1,51 1,55 1,64 1,67 1,72 1,74 1,103 1,149 1,155 1,164 1,168 1,179 1,208 1,279 1,286 1,291 1,293 1,304 1,323 1,341 1,342 1,378 1,393 1,401 1,425 1,500 F}
-{0 1,1 1,11 1,12 1,48 1,51 1,68 1,79 1,83 1,152 1,182 1,267 1,297 1,304 1,348 1,500 F}
-{0 1,49 1,56 1,304 1,325 1,500 F}
-{0 1,3 1,49 1,77 1,203 1,265 1,286 1,304 1,320 1,333 1,349 1,401 1,475 1,500 F}
-{0 1,3 1,49 1,55 1,57 1,71 1,151 1,216 1,251 1,265 1,279 1,286 1,304 1,320 1,345 1,378 1,401 1,469 1,500 F}
-{0 1,3 1,49 1,55 1,76 1,150 1,155 1,158 1,173 1,180 1,264 1,279 1,286 1,304 1,320 1,333 1,341 1,500 F}
-{0 1,9 1,75 1,86 1,92 1,300 1,304 1,328 1,500 F}
-{0 1,49 1,55 1,149 1,240 1,279 1,286 1,304 1,323 1,345 1,378 1,500 F}
-{0 1,49 1,73 1,84 1,159 1,171 1,268 1,286 1,304 1,320 1,355 1,366 1,441 1,453 1,475 1,500 F}
-{0 1,49 1,76 1,155 1,203 1,304 1,320 1,341 1,500 F}
-{0 1,46 1,49 1,51 1,64 1,159 1,176 1,279 1,304 1,320 1,500 F}
-{0 1,49 1,56 1,71 1,73 1,165 1,304 1,438 1,500 F}
-{0 1,49 1,304 1,436 1,500 F}
-{0 1,49 1,67 1,71 1,97 1,166 1,184 1,304 1,320 1,452 1,456 1,467 1,497 1,500 F}
-{0 1,46 1,47 1,49 1,71 1,74 1,97 1,279 1,286 1,304 1,320 1,456 1,500 F}
-{0 1,49 1,71 1,97 1,165 1,301 1,304 1,320 1,446 1,456 1,496 1,500 F}
-{0 1,46 1,48 1,49 1,71 1,75 1,86 1,97 1,286 1,304 1,320 1,500 F}
-{0 1,46 1,47 1,48 1,49 1,71 1,74 1,75 1,86 1,97 1,173 1,279 1,286 1,304 1,320 1,456 1,500 F}
-{0 1,9 1,49 1,71 1,97 1,163 1,165 1,286 1,304 1,320 1,359 1,456 1,477 1,500 F}
-{0 1,46 1,48 1,68 1,71 1,75 1,79 1,86 1,97 1,286 1,304 1,320 1,500 F}
-{0 1,68 1,71 1,79 1,97 1,286 1,304 1,320 1,500 F}
-{0 1,40 1,49 1,56 1,304 1,473 1,500 F}
-{0 1,49 1,304 1,490 1,500 F}
-{0 1,49 1,50 1,304 1,349 1,404 1,500 F}
-{0 1,11 1,49 1,51 1,304 1,500 F}
-{0 1,49 1,56 1,304 1,500 F}
-{0 1,9 1,232 1,279 1,304 1,500 F}
-{0 1,49 1,232 1,304 1,500 F}
-{0 1,49 1,68 1,304 1,436 1,500 F}
-{0 1,81 1,254 1,304 1,431 1,500 F}
-{0 1,81 1,181 1,254 1,304 1,362 1,431 1,500 F}
-{0 1,49 1,216 1,286 1,304 1,309 1,328 1,500 F}
-{0 1,49 1,56 1,304 1,500 F}
-{0 1,49 1,56 1,304 1,500 F}
-{0 1,40 1,49 1,157 1,193 1,198 1,207 1,253 1,289 1,298 1,304 1,328 1,357 1,392 1,500 F}
-{0 1,49 1,65 1,66 1,87 1,200 1,241 1,257 1,263 1,304 1,395 1,454 1,500 F}
-{0 1,49 1,65 1,66 1,87 1,200 1,241 1,257 1,263 1,304 1,395 1,454 1,500 F}
-{0 1,49 1,201 1,304 1,500 F}
-{0 1,49 1,304 1,451 1,500 F}
-{0 1,49 1,50 1,56 1,76 1,80 1,87 1,188 1,222 1,232 1,274 1,304 1,354 1,401 1,434 1,500 F}
-{0 1,49 1,50 1,56 1,76 1,80 1,87 1,222 1,232 1,304 1,401 1,434 1,500 F}
-{0 1,304 1,500 F}
-{0 1,49 1,51 1,56 1,76 1,176 1,304 1,386 1,462 1,473 1,500 F}
-{0 1,49 1,51 1,253 1,304 1,466 1,500 F}
-{0 1,51 1,68 1,79 1,164 1,180 1,195 1,304 1,323 1,445 1,457 1,466 1,500 F}
-{0 1,51 1,68 1,79 1,164 1,180 1,195 1,304 1,323 1,445 1,457 1,466 1,500 F}
-{0 1,51 1,68 1,79 1,164 1,180 1,195 1,304 1,323 1,445 1,457 1,466 1,500 F}
-{0 1,46 1,279 1,304 1,500 F}
-{0 1,49 1,56 1,76 1,158 1,210 1,223 1,228 1,286 1,304 1,322 1,345 1,378 1,401 1,416 1,454 1,500 F}
-{0 1,65 1,66 1,83 1,304 1,500 F}
-{0 1,51 1,194 1,286 1,304 1,378 1,399 1,483 1,484 1,500 F}
-{0 1,304 1,360 1,492 1,500 F}
-{0 1,49 1,56 1,266 1,304 1,361 1,426 1,432 1,448 1,455 1,460 1,487 1,500 F}
-{0 1,49 1,68 1,304 1,311 1,500 F}
-{0 1,49 1,68 1,286 1,304 1,311 1,500 F}
-{0 1,49 1,68 1,286 1,304 1,311 1,500 F}
-{0 1,49 1,68 1,233 1,304 1,311 1,498 1,500 F}
-{0 1,3 1,49 1,68 1,304 1,311 1,500 F}
-{0 1,49 1,68 1,304 1,306 1,311 1,319 1,500 F}
-{0 1,47 1,49 1,56 1,68 1,76 1,279 1,300 1,304 1,311 1,312 1,345 1,378 1,401 1,500 F}
-{0 1,49 1,68 1,94 1,304 1,311 1,374 1,500 F}
-{0 1,49 1,68 1,94 1,166 1,304 1,311 1,373 1,409 1,500 F}
-{0 1,19 1,47 1,49 1,55 1,68 1,94 1,160 1,167 1,304 1,311 1,323 1,401 1,500 F}
-{0 1,49 1,68 1,94 1,206 1,304 1,311 1,322 1,387 1,401 1,500 F}
-{0 1,49 1,56 1,68 1,94 1,304 1,311 1,500 F}
-{0 1,49 1,68 1,94 1,256 1,285 1,304 1,311 1,336 1,347 1,358 1,372 1,373 1,389 1,399 1,500 F}
-{0 1,49 1,68 1,94 1,304 1,311 1,500 F}
-{0 1,9 1,19 1,46 1,47 1,68 1,78 1,167 1,304 1,311 1,322 1,323 1,332 1,401 1,500 F}
-{0 1,19 1,49 1,68 1,77 1,304 1,311 1,322 1,401 1,500 F}
-{0 1,19 1,49 1,68 1,304 1,311 1,401 1,500 F}
-{0 1,9 1,19 1,68 1,80 1,286 1,304 1,311 1,446 1,500 F}
-{0 1,19 1,46 1,48 1,49 1,68 1,78 1,173 1,304 1,311 1,401 1,500 F}
-{0 1,19 1,49 1,55 1,68 1,211 1,231 1,286 1,304 1,311 1,326 1,401 1,418 1,500 F}
-{0 1,19 1,41 1,47 1,48 1,49 1,55 1,68 1,70 1,74 1,304 1,311 1,401 1,500 F}
-{0 1,19 1,49 1,68 1,256 1,285 1,304 1,311 1,336 1,347 1,358 1,372 1,374 1,389 1,399 1,500 F}
-{0 1,19 1,49 1,68 1,163 1,166 1,304 1,311 1,500 F}
-{0 1,19 1,49 1,68 1,160 1,304 1,306 1,311 1,500 F}
-{0 1,19 1,49 1,68 1,189 1,208 1,211 1,304 1,311 1,441 1,500 F}
-{0 1,19 1,46 1,47 1,49 1,68 1,78 1,160 1,167 1,304 1,311 1,322 1,323 1,332 1,401 1,500 F}
-{0 1,19 1,47 1,49 1,68 1,75 1,160 1,304 1,311 1,500 F}
-{0 1,68 1,304 1,320 1,500 F}
-{0 1,49 1,56 1,202 1,304 1,428 1,464 1,488 1,500 F}
-{0 1,46 1,70 1,174 1,279 1,304 1,500 F}
-{0 1,65 1,66 1,68 1,92 1,162 1,175 1,177 1,204 1,304 1,413 1,419 1,500 F}
-{0 1,65 1,66 1,68 1,92 1,162 1,175 1,177 1,204 1,304 1,413 1,419 1,500 F}
-{0 1,65 1,66 1,68 1,92 1,162 1,175 1,177 1,204 1,304 1,413 1,419 1,500 F}
-{0 1,9 1,65 1,66 1,92 1,162 1,175 1,177 1,204 1,304 1,413 1,419 1,500 F}
-{0 1,9 1,55 1,72 1,74 1,76 1,150 1,151 1,177 1,286 1,304 1,316 1,328 1,365 1,378 1,401 1,443 1,486 1,500 F}
-{0 1,9 1,157 1,304 1,500 F}
-{0 1,9 1,157 1,304 1,500 F}
-{0 1,49 1,157 1,180 1,304 1,500 F}
-{0 1,49 1,304 1,433 1,500 F}
-{0 1,49 1,304 1,500 F}
-{0 1,49 1,69 1,215 1,304 1,489 1,497 1,500 F}
-{0 1,49 1,304 1,500 F}
-{0 1,49 1,55 1,67 1,150 1,265 1,276 1,282 1,283 1,284 1,286 1,304 1,323 1,331 1,377 1,397 1,401 1,420 1,493 1,500 F}
-{0 1,9 1,13 1,48 1,79 1,88 1,163 1,213 1,304 1,322 1,324 1,401 1,471 1,472 1,500 F}
-{0 1,49 1,100 1,286 1,304 1,356 1,500 F}
-{0 1,56 1,304 1,449 1,500 F}
-{0 1,49 1,65 1,66 1,192 1,270 1,279 1,304 1,331 1,384 1,500 F}
-{0 1,41 1,49 1,65 1,66 1,74 1,100 1,164 1,192 1,270 1,279 1,286 1,304 1,323 1,331 1,384 1,500 F}
-{0 1,40 1,192 1,304 1,500 F}
-{0 1,49 1,56 1,76 1,83 1,94 1,154 1,186 1,286 1,304 1,364 1,401 1,500 F}
-{0 1,9 1,50 1,161 1,169 1,172 1,304 1,500 F}
-{0 1,49 1,50 1,161 1,169 1,172 1,304 1,500 F}
-{0 1,9 1,50 1,55 1,72 1,76 1,150 1,161 1,169 1,172 1,304 1,500 F}
-{0 1,9 1,50 1,55 1,72 1,76 1,150 1,161 1,169 1,172 1,304 1,500 F}
-{0 1,49 1,50 1,55 1,72 1,76 1,150 1,161 1,169 1,172 1,304 1,500 F}
-{0 1,49 1,50 1,55 1,72 1,76 1,150 1,161 1,169 1,172 1,304 1,500 F}
-{1 1,2 1,3 1,4 1,5 1,6 1,7 1,45 1,49 1,304 1,500 F}
-{1 1,2 1,3 1,4 1,5 1,6 1,7 1,45 1,49 1,304 1,500 F}
-{7 1,49 1,181 1,304 1,315 1,500 F}
-{0 1,49 1,75 1,86 1,287 1,299 1,304 1,320 1,329 1,437 1,500 F}
-{0 1,49 1,299 1,304 1,320 1,329 1,500 F}
-{0 1,40 1,41 1,49 1,76 1,159 1,304 1,320 1,420 1,500 F}
-{0 1,40 1,49 1,67 1,76 1,78 1,159 1,304 1,320 1,500 F}
-{0 1,19 1,49 1,55 1,76 1,178 1,245 1,279 1,286 1,304 1,320 1,322 1,345 1,367 1,401 1,479 1,500 F}
-{0 1,9 1,232 1,304 1,454 1,500 F}
-{46 1,49 1,64 1,78 1,80 1,159 1,211 1,304 1,312 1,401 1,500 F}
-{0 1,40 1,44 1,46 1,48 1,49 1,78 1,158 1,160 1,165 1,171 1,185 1,191 1,220 1,259 1,286 1,304 1,324 1,332 1,442 1,468 1,469 1,500 F}
-{0 1,1 1,13 1,44 1,49 1,89 1,91 1,304 1,328 1,500 F}
-{0 1,49 1,178 1,234 1,244 1,250 1,304 1,320 1,500 F}
-{0 1,9 1,214 1,235 1,288 1,304 1,335 1,376 1,418 1,423 1,429 1,437 1,500 F}
-{0 1,9 1,49 1,77 1,304 1,494 1,500 F}
-{0 1,9 1,49 1,76 1,77 1,253 1,286 1,304 1,500 F}
-{0 1,49 1,225 1,272 1,304 1,470 1,500 F}
-{0 1,47 1,77 1,186 1,304 1,500 F}
-{0 1,47 1,49 1,54 1,187 1,261 1,304 1,500 F}
-{0 1,1 1,2 1,49 1,72 1,240 1,304 1,401 1,500 F}
-{0 1,47 1,49 1,85 1,232 1,304 1,345 1,378 1,500 F}
-{0 1,3 1,49 1,75 1,176 1,214 1,265 1,304 1,337 1,439 1,475 1,500 F}
-{0 1,49 1,55 1,65 1,66 1,83 1,154 1,270 1,279 1,304 1,401 1,450 1,500 F}
-{0 1,49 1,68 1,286 1,304 1,401 1,500 F}
-{7 1,49 1,178 1,279 1,286 1,294 1,304 1,500 F}
-{7 1,41 1,49 1,64 1,67 1,78 1,173 1,174 1,304 1,500 F}
-{7 1,49 1,76 1,77 1,83 1,152 1,159 1,174 1,304 1,323 1,370 1,378 1,410 1,482 1,500 F}
-{0 1,49 1,55 1,76 1,77 1,81 1,149 1,153 1,155 1,156 1,167 1,174 1,178 1,183 1,197 1,203 1,232 1,265 1,279 1,286 1,304 1,322 1,323 1,327 1,332 1,345 1,348 1,353 1,378 1,401 1,500 F}
-{0 1,44 1,49 1,81 1,153 1,156 1,170 1,176 1,265 1,304 1,430 1,500 F}
-{0 1,41 1,49 1,64 1,74 1,81 1,153 1,156 1,232 1,304 1,500 F}
-{0 1,49 1,81 1,153 1,156 1,174 1,205 1,246 1,304 1,421 1,500 F}
-{0 1,49 1,55 1,72 1,76 1,77 1,81 1,100 1,151 1,153 1,155 1,156 1,167 1,178 1,216 1,232 1,238 1,279 1,286 1,304 1,322 1,323 1,329 1,331 1,341 1,401 1,500 F}
-{0 1,19 1,49 1,81 1,153 1,154 1,156 1,268 1,304 1,324 1,417 1,500 F}
-{0 1,19 1,49 1,81 1,153 1,156 1,248 1,304 1,383 1,388 1,500 F}
-{0 1,49 1,90 1,280 1,304 1,500 F}
-{0 1,49 1,56 1,286 1,304 1,382 1,385 1,435 1,500 F}
-{0 1,49 1,160 1,304 1,328 1,355 1,366 1,378 1,500 F}
-{0 1,49 1,100 1,304 1,500 F}
-{0 1,9 1,49 1,100 1,260 1,304 1,500 F}
-{0 1,49 1,304 1,500 F}
-{0 1,9 1,55 1,77 1,230 1,245 1,304 1,322 1,348 1,499 1,500 F}
-{0 1,92 1,217 1,221 1,304 1,332 1,378 1,463 1,478 1,480 1,500 F}
-{7 1,40 1,49 1,56 1,304 1,500 F}
-{0 1,49 1,75 1,262 1,300 1,304 1,379 1,444 1,474 1,500 F}
-{0 1,68 1,69 1,79 1,158 1,165 1,255 1,301 1,304 1,500 F}
-{0 1,18 1,57 1,206 1,279 1,286 1,304 1,315 1,332 1,500 F}
-{7 1,9 1,49 1,55 1,75 1,83 1,158 1,232 1,275 1,286 1,304 1,312 1,323 1,341 1,401 1,476 1,500 F}
-{0 1,20 1,68 1,75 1,304 1,313 1,321 1,500 F}
-{0 1,20 1,64 1,68 1,158 1,279 1,304 1,313 1,314 1,321 1,500 F}
-{0 1,49 1,67 1,219 1,304 1,500 F}
-{0 1,49 1,67 1,219 1,304 1,500 F}
-{0 1,49 1,75 1,170 1,203 1,206 1,304 1,500 F}
-{0 1,9 1,49 1,70 1,78 1,170 1,304 1,427 1,500 F}
-{0 1,49 1,170 1,236 1,304 1,500 F}
-{0 1,49 1,170 1,186 1,196 1,304 1,500 F}
-{0 1,9 1,49 1,170 1,304 1,500 F}
-{0 1,304 1,500 F}
-{0 1,9 1,73 1,87 1,249 1,286 1,304 1,401 1,500 F}
-{0 1,49 1,73 1,87 1,249 1,286 1,304 1,401 1,500 F}
-{0 1,49 1,51 1,73 1,209 1,300 1,304 1,338 1,343 1,344 1,346 1,350 1,351 1,369 1,390 1,391 1,392 1,394 1,398 1,402 1,403 1,407 1,408 1,458 1,459 1,500 F}
-{0 1,1 1,47 1,49 1,75 1,154 1,171 1,218 1,229 1,304 1,368 1,418 1,454 1,480 1,491 1,500 F}
-{1 1,7 1,20 1,49 1,57 1,265 1,286 1,304 1,348 1,500 F}
-{0 1,48 1,49 1,75 1,211 1,279 1,286 1,290 1,295 1,304 1,328 1,339 1,340 1,378 1,416 1,500 F}
-{0 1,1 1,20 1,49 1,304 1}
-{2 1,43 1,49 1,56 1,114 1,116 1,117 1,118 1,140 1,146 1,304 1,333 1,401 1}
-{2 1,43 1,49 1,56 1,61 1,114 1,116 1,117 1,118 1,140 1,146 1,304 1,333 1,401 1}
-{1 1,7 1,9 1,20 1,57 1,88 1,303 1,304 1}
-{7 1,9 1,49 1,56 1,59 1,304 1}
-{1 1,7 1,9 1,20 1,57 1,75 1,300 1,304 1}
-{1 1,7 1,9 1,18 1,20 1,63 1,90 1,106 1,108 1,134 1,143 1,304 1,320 1}
-{1 1,7 1,9 1,18 1,20 1,63 1,90 1,106 1,108 1,134 1,143 1,304 1,320 1}
-{0 1,49 1,304 1}
-{0 1,43 1,49 1,73 1,278 1,286 1,304 1,317 1,341 1,401 1}
-{0 1,9 1,13 1,21 1,22 1,23 1,24 1,25 1,26 1,27 1,28 1,29 1,30 1,31 1,32 1,33 1,34 1,35 1,36 1,37 1,38 1,39 1,44 1,69 1,70 1,128 1,279 1,286 1,304 1,320 1,323 1,401 1}
-{0 1,9 1,13 1,21 1,22 1,23 1,24 1,25 1,26 1,27 1,28 1,29 1,30 1,31 1,32 1,33 1,34 1,35 1,36 1,37 1,38 1,39 1,44 1,69 1,70 1,279 1,286 1,304 1,320 1,323 1,401 1}
-{0 1,9 1,13 1,21 1,22 1,23 1,24 1,25 1,26 1,27 1,28 1,29 1,30 1,31 1,32 1,33 1,34 1,35 1,36 1,37 1,38 1,39 1,44 1,69 1,70 1,279 1,286 1,304 1,320 1,323 1,401 1}
-{0 1,9 1,13 1,21 1,22 1,23 1,24 1,25 1,26 1,27 1,28 1,29 1,30 1,31 1,32 1,33 1,34 1,35 1,36 1,37 1,38 1,39 1,44 1,69 1,70 1,279 1,286 1,304 1,320 1,323 1,401 1}
-{0 1,9 1,13 1,21 1,22 1,23 1,24 1,25 1,26 1,27 1,28 1,29 1,30 1,31 1,32 1,33 1,34 1,35 1,36 1,37 1,38 1,39 1,44 1,69 1,70 1,88 1,279 1,286 1,304 1,320 1,323 1,401 1}
-{0 1,9 1,13 1,21 1,22 1,23 1,24 1,25 1,26 1,27 1,28 1,29 1,30 1,31 1,32 1,33 1,34 1,35 1,36 1,37 1,38 1,39 1,44 1,69 1,70 1,88 1,279 1,286 1,304 1,320 1,323 1,401 1}
-{0 1,9 1,13 1,21 1,22 1,23 1,24 1,25 1,26 1,27 1,28 1,29 1,30 1,31 1,32 1,33 1,34 1,35 1,36 1,37 1,38 1,39 1,44 1,69 1,70 1,127 1,279 1,286 1,304 1,320 1,323 1,401 1}
-{0 1,9 1,13 1,21 1,22 1,23 1,24 1,25 1,26 1,27 1,28 1,29 1,30 1,31 1,32 1,33 1,34 1,35 1,36 1,37 1,38 1,39 1,44 1,69 1,70 1,279 1,286 1,304 1,320 1,323 1,401 1}
-{0 1,13 1,21 1,22 1,23 1,24 1,25 1,26 1,27 1,28 1,29 1,30 1,31 1,32 1,33 1,34 1,35 1,36 1,37 1,38 1,39 1,44 1,49 1,58 1,69 1,70 1,279 1,286 1,304 1,320 1,323 1,401 1}
-{3 1,7 1,9 1,62 1,73 1,88 1,145 1,304 1,318 1,380 1}
-{8 1,9 1,56 1,61 1,110 1,111 1,122 1,136 1,138 1,286 1,304 1,324 1,401 1}
-{8 1,49 1,56 1,110 1,111 1,122 1,136 1,138 1,286 1,304 1,324 1,401 1}
-{0 1,9 1,279 1,304 1}
-{0 1,3 1,9 1,56 1,304 1}
-{0 1,49 1,56 1,304 1,325 1}
-{0 1,8 1,9 1,10 1,14 1,15 1,16 1,17 1,52 1,53 1,54 1,73 1,128 1,304 1}
-{0 1,8 1,10 1,14 1,15 1,16 1,17 1,49 1,52 1,53 1,54 1,73 1,304 1}
-{0 1,8 1,10 1,14 1,15 1,16 1,17 1,49 1,52 1,53 1,54 1,73 1,304 1}
-{0 1,8 1,10 1,14 1,15 1,16 1,17 1,49 1,52 1,53 1,54 1,73 1,304 1}
-{0 1,8 1,10 1,14 1,15 1,16 1,17 1,49 1,52 1,53 1,54 1,73 1,304 1}
-{0 1,49 1,51 1,304 1,305 1}
-{1 1,7 1,18 1,58 1,90 1,279 1,296 1,304 1}
-{0 1,3 1,20 1,49 1,56 1,57 1,76 1,107 1,145 1,147 1,304 1,316 1,322 1,396 1,401 1}
-{0 1,49 1,56 1,130 1,286 1,304 1,328 1}
-{0 1,9 1,49 1,304 1,309 1,310 1,328 1}
-{0 1,8 1,10 1,49 1,304 1}
-{0 1,49 1,51 1,58 1,89 1,304 1}
-{0 1,49 1,68 1,286 1,304 1,311 1}
-{0 1,49 1,68 1,130 1,286 1,304 1,311 1}
-{0 1,49 1,68 1,304 1,311 1}
-{0 1,3 1,49 1,68 1,304 1,311 1}
-{0 1,3 1,49 1,68 1,304 1,311 1}
-{0 1,49 1,68 1,304 1,306 1,311 1,319 1}
-{0 1,3 1,49 1,51 1,304 1,320 1}
-{0 1,49 1,304 1}
-{0 1,49 1,62 1,68 1,304 1}
-{0 1,192 1,275 1,304 1,308 1}
-{1 1,2 1,3 1,4 1,5 1,6 1,7 1,9 1,232 1,304 1}
-{1 1,2 1,3 1,4 1,5 1,6 1,7 1,9 1,232 1,304 1}
-{1 1,2 1,3 1,4 1,5 1,6 1,7 1,9 1,42 1,232 1,304 1}
-{1 1,2 1,3 1,4 1,5 1,6 1,7 1,9 1,304 1,328 1}
-{1 1,2 1,3 1,4 1,5 1,6 1,7 1,9 1,304 1,328 1}
-{1 1,2 1,3 1,4 1,5 1,6 1,7 1,45 1,49 1,304 1}
-{1 1,2 1,3 1,4 1,5 1,6 1,7 1,42 1,45 1,49 1,304 1}
-{1 1,2 1,3 1,4 1,5 1,6 1,7 1,45 1,49 1,304 1}
-{1 1,2 1,3 1,4 1,5 1,6 1,7 1,45 1,49 1,304 1}
-{1 1,2 1,3 1,4 1,5 1,6 1,7 1,42 1,45 1,49 1,304 1}
-{1 1,2 1,3 1,4 1,5 1,6 1,7 1,45 1,49 1,304 1}
-{1 1,2 1,3 1,4 1,5 1,6 1,7 1,45 1,49 1,304 1}
-{1 1,2 1,3 1,4 1,5 1,6 1,7 1,45 1,49 1,304 1}
-{1 1,2 1,3 1,4 1,5 1,6 1,7 1,42 1,45 1,49 1,304 1}
-{1 1,2 1,3 1,4 1,5 1,6 1,7 1,9 1,304 1,315 1}
-{1 1,2 1,3 1,4 1,5 1,6 1,7 1,9 1,304 1,315 1}
-{1 1,2 1,3 1,4 1,5 1,6 1,7 1,9 1,304 1,315 1}
-{0 1,49 1,56 1,299 1,304 1,320 1,329 1}
-{0 1,1 1,9 1,13 1,44 1,63 1,89 1,91 1,304 1,328 1}
-{0 1,1 1,13 1,44 1,89 1,91 1,304 1,328 1}
-{0 1,1 1,13 1,44 1,89 1,91 1,304 1,328 1}
-{0 1,44 1,49 1,91 1,304 1,328 1,401 1}
-{0 1,1 1,49 1,74 1,132 1,199 1,221 1,227 1,232 1,237 1,240 1,265 1,269 1,279 1,286 1,292 1,304 1,307 1,322 1,331 1,375 1,378 1,400 1,401 1}
-{0 1,49 1,56 1,240 1,304 1}
-{7 1,9 1,127 1,242 1,252 1,304 1}
-{7 1,49 1,55 1,56 1,60 1,105 1,109 1,113 1,121 1,123 1,124 1,126 1,129 1,131 1,133 1,135 1,137 1,139 1,141 1,144 1,148 1,216 1,232 1,279 1,286 1,304 1,312 1,378 1,401 1}
-{7 1,9 1,18 1,57 1,286 1,304 1,379 1}
-{0 1,49 1,56 1,277 1,286 1,304 1}
-{0 1,56 1,115 1,119 1,120 1,142 1,304 1,326 1}
-{0 1,56 1,115 1,119 1,120 1,142 1,304 1,326 1}
-{0 1,9 1,90 1,280 1,304 1}
-{1 1,3 1,7 1,20 1,59 1,125 1,304 1}
-{0 1,1 1,3 1,9 1,20 1,59 1,125 1,304 1}
-{0 1,2 1,18 1,49 1,62 1,73 1,107 1,147 1,304 1,345 1}
-{0 1,9 1,18 1,57 1,206 1,279 1,286 1,304 1,315 1,332 1}
-{0 1,18 1,49 1,56 1,304 1}
-{0 1,20 1,68 1,112 1,304 1,313 1,321 1}
-{0 1,20 1,60 1,76 1,112 1,279 1,304 1,313 1,314 1,321 1,327 1,349 1,401 1}
-{7 1,49 1,55 1,56 1,60 1,105 1,109 1,113 1,121 1,123 1,124 1,126 1,129 1,131 1,133 1,135 1,137 1,139 1,141 1,144 1,148 1,216 1,232 1,279 1,286 1,304 1,312 1,378 1,401 1}
-{49 1,56 1,61 1,132 1,265 1,279 1,286 1,302 1,304 1,330 1,363 1,401 1}
-{49 1,300 1,304 1}
-{1 1,7 1,9 1,57 1,265 1,286 1,304 1,348 1}
-{1 1,7 1,43 1,49 1,57 1,239 1,265 1,286 1,304 1,309 1,348 1,401 1}
+{7 1,8 1,14 1,40 1,131 1,135 1,281 1,443 1,457 1,478 1,485 1,500 F}
+{8 1,14 1,68 1,120 1,131 1,138 1,147 1,485 1,500 F}
+{4 1,8 1,9 1,14 1,15 1,26 1,70 1,127 1,131 1,160 1,188 1,191 1,196 1,275 1,293 1,457 1,485 1,500 F}
+{4 1,8 1,14 1,34 1,40 1,42 1,49 1,110 1,131 1,167 1,171 1,182 1,198 1,214 1,313 1,445 1,457 1,483 1,485 1,487 1,495 1,500 F}
+{8 1,14 1,49 1,131 1,485 1,500 F}
+{4 1,8 1,14 1,15 1,116 1,120 1,138 1,168 1,197 1,214 1,457 1,485 1,500 F}
+{4 1,8 1,14 1,116 1,120 1,138 1,168 1,173 1,197 1,214 1,457 1,485 1,500 F}
+{4 1,8 1,14 1,35 1,107 1,206 1,222 1,485 1,500 F}
+{4 1,8 1,14 1,35 1,206 1,222 1,485 1,500 F}
+{4 1,8 1,14 1,15 1,20 1,206 1,222 1,485 1,500 F}
+{4 1,7 1,8 1,14 1,15 1,32 1,41 1,67 1,148 1,152 1,205 1,215 1,228 1,295 1,297 1,302 1,312 1,322 1,374 1,406 1,485 1,496 1,500 F}
+{4 1,7 1,8 1,14 1,109 1,111 1,172 1,203 1,220 1,227 1,277 1,278 1,280 1,286 1,287 1,295 1,297 1,308 1,314 1,321 1,485 1,500 F}
+{4 1,7 1,8 1,14 1,26 1,32 1,67 1,151 1,152 1,205 1,215 1,295 1,297 1,299 1,302 1,312 1,322 1,374 1,406 1,485 1,496 1,500 F}
+{4 1,7 1,8 1,14 1,26 1,32 1,67 1,151 1,152 1,205 1,215 1,295 1,297 1,299 1,302 1,312 1,322 1,374 1,406 1,485 1,496 1,500 F}
+{4 1,7 1,8 1,14 1,26 1,32 1,67 1,151 1,152 1,205 1,215 1,295 1,297 1,299 1,302 1,312 1,322 1,374 1,406 1,485 1,496 1,500 F}
+{4 1,8 1,288 1,485 1,500 F}
+{0 1,8 1,14 1,79 1,107 1,115 1,485 1,500 F}
+{8 1,16 1,36 1,108 1,159 1,283 1,485 1,500 F}
+{8 1,16 1,36 1,108 1,159 1,283 1,449 1,485 1,500 F}
+{8 1,16 1,36 1,108 1,159 1,283 1,449 1,485 1,500 F}
+{4 1,8 1,14 1,70 1,147 1,198 1,485 1,500 F}
+{8 1,14 1,49 1,129 1,212 1,485 1,500 F}
+{8 1,14 1,165 1,396 1,485 1,500 F}
+{8 1,14 1,485 1,500 F}
+{8 1,14 1,485 1,500 F}
+{8 1,14 1,32 1,67 1,159 1,199 1,420 1,466 1,485 1,500 F}
+{8 1,14 1,107 1,126 1,203 1,227 1,485 1,500 F}
+{0 1,3 1,4 1,6 1,8 1,9 1,14 1,15 1,70 1,137 1,138 1,139 1,176 1,182 1,197 1,279 1,284 1,310 1,445 1,485 1,500 F}
+{0 1,3 1,4 1,6 1,8 1,14 1,70 1,137 1,138 1,139 1,176 1,182 1,197 1,279 1,284 1,307 1,310 1,445 1,485 1,500 F}
+{0 1,3 1,4 1,6 1,8 1,14 1,70 1,137 1,138 1,139 1,176 1,182 1,197 1,279 1,284 1,310 1,445 1,485 1,500 F}
+{0 1,3 1,4 1,6 1,7 1,8 1,14 1,40 1,70 1,110 1,123 1,124 1,125 1,127 1,128 1,138 1,155 1,172 1,182 1,187 1,443 1,457 1,485 1,500 F}
+{0 1,3 1,4 1,6 1,7 1,8 1,14 1,68 1,70 1,72 1,73 1,74 1,75 1,76 1,77 1,78 1,80 1,81 1,123 1,124 1,125 1,128 1,138 1,187 1,307 1,453 1,457 1,485 1,500 F}
+{0 1,3 1,4 1,6 1,7 1,8 1,14 1,25 1,44 1,46 1,57 1,70 1,72 1,73 1,74 1,75 1,76 1,77 1,78 1,80 1,81 1,123 1,124 1,125 1,128 1,453 1,457 1,485 1,500 F}
+{0 1,3 1,4 1,6 1,7 1,8 1,14 1,25 1,44 1,46 1,57 1,70 1,72 1,73 1,74 1,75 1,76 1,77 1,78 1,80 1,81 1,123 1,124 1,125 1,128 1,453 1,457 1,485 1,500 F}
+{0 1,3 1,4 1,6 1,7 1,8 1,14 1,68 1,70 1,72 1,73 1,74 1,75 1,76 1,77 1,78 1,80 1,81 1,123 1,124 1,125 1,128 1,138 1,187 1,453 1,457 1,485 1,500 F}
+{0 1,3 1,4 1,6 1,7 1,8 1,14 1,25 1,44 1,46 1,57 1,70 1,72 1,73 1,74 1,75 1,76 1,77 1,78 1,80 1,81 1,123 1,124 1,125 1,128 1,453 1,457 1,485 1,500 F}
+{8 1,14 1,47 1,56 1,66 1,113 1,157 1,185 1,453 1,485 1,500 F}
+{8 1,14 1,157 1,193 1,485 1,500 F}
+{8 1,14 1,107 1,147 1,157 1,326 1,485 1,500 F}
+{4 1,8 1,16 1,36 1,47 1,66 1,69 1,134 1,135 1,138 1,153 1,154 1,158 1,161 1,162 1,166 1,169 1,170 1,172 1,453 1,485 1,500 F}
+{4 1,8 1,16 1,36 1,47 1,66 1,69 1,134 1,135 1,138 1,153 1,154 1,158 1,161 1,162 1,166 1,169 1,170 1,172 1,453 1,485 1,500 F}
+{4 1,8 1,16 1,36 1,47 1,66 1,69 1,134 1,135 1,138 1,153 1,154 1,158 1,161 1,162 1,166 1,169 1,170 1,172 1,453 1,485 1,500 F}
+{4 1,8 1,15 1,16 1,20 1,36 1,47 1,66 1,69 1,134 1,135 1,138 1,153 1,154 1,158 1,161 1,162 1,166 1,169 1,170 1,172 1,188 1,453 1,485 1,500 F}
+{4 1,8 1,16 1,36 1,47 1,66 1,69 1,134 1,135 1,138 1,153 1,154 1,158 1,161 1,162 1,166 1,169 1,170 1,172 1,315 1,453 1,485 1,500 F}
+{4 1,8 1,15 1,16 1,20 1,36 1,47 1,66 1,69 1,134 1,135 1,138 1,153 1,154 1,158 1,161 1,162 1,166 1,169 1,170 1,172 1,453 1,485 1,500 F}
+{4 1,8 1,15 1,16 1,20 1,36 1,47 1,66 1,69 1,134 1,135 1,138 1,153 1,154 1,158 1,161 1,162 1,166 1,169 1,170 1,172 1,453 1,485 1,500 F}
+{4 1,8 1,16 1,36 1,47 1,66 1,69 1,134 1,135 1,138 1,153 1,154 1,158 1,161 1,162 1,166 1,169 1,170 1,172 1,453 1,485 1,500 F}
+{8 1,14 1,485 1,500 F}
+{8 1,14 1,34 1,198 1,485 1,500 F}
+{8 1,11 1,14 1,30 1,33 1,67 1,151 1,173 1,177 1,195 1,200 1,223 1,330 1,366 1,399 1,485 1,500 F}
+{8 1,11 1,14 1,30 1,33 1,485 1,500 F}
+{8 1,11 1,14 1,30 1,33 1,67 1,223 1,327 1,330 1,347 1,366 1,480 1,485 1,500 F}
+{8 1,10 1,11 1,14 1,30 1,33 1,68 1,175 1,187 1,202 1,210 1,291 1,331 1,485 1,498 1,500 F}
+{8 1,11 1,14 1,30 1,33 1,139 1,174 1,443 1,485 1,500 F}
+{8 1,11 1,14 1,30 1,33 1,216 1,485 1,500 F}
+{8 1,11 1,14 1,30 1,33 1,70 1,163 1,194 1,202 1,288 1,319 1,485 1,500 F}
+{8 1,11 1,14 1,30 1,33 1,70 1,163 1,194 1,202 1,288 1,319 1,485 1,500 F}
+{1 1,8 1,10 1,11 1,14 1,15 1,30 1,33 1,55 1,56 1,163 1,175 1,191 1,210 1,275 1,303 1,485 1,498 1,500 F}
+{1 1,8 1,10 1,11 1,14 1,15 1,30 1,33 1,55 1,56 1,163 1,175 1,191 1,210 1,275 1,303 1,485 1,498 1,500 F}
+{8 1,11 1,14 1,15 1,26 1,30 1,33 1,115 1,127 1,163 1,184 1,485 1,500 F}
+{8 1,11 1,14 1,15 1,26 1,30 1,33 1,115 1,127 1,163 1,485 1,500 F}
+{8 1,10 1,11 1,14 1,30 1,33 1,132 1,173 1,175 1,187 1,210 1,485 1,500 F}
+{8 1,10 1,11 1,14 1,30 1,33 1,132 1,175 1,187 1,210 1,485 1,500 F}
+{8 1,11 1,14 1,15 1,30 1,33 1,36 1,64 1,70 1,132 1,133 1,182 1,184 1,195 1,200 1,213 1,214 1,226 1,457 1,478 1,485 1,500 F}
+{5 1,8 1,11 1,14 1,30 1,33 1,40 1,70 1,113 1,116 1,127 1,156 1,173 1,195 1,213 1,224 1,226 1,290 1,296 1,303 1,447 1,457 1,462 1,478 1,480 1,485 1,500 F}
+{5 1,8 1,11 1,14 1,30 1,33 1,40 1,70 1,113 1,116 1,127 1,156 1,195 1,213 1,224 1,226 1,290 1,296 1,303 1,447 1,457 1,462 1,478 1,480 1,485 1,500 F}
+{5 1,8 1,11 1,14 1,30 1,33 1,40 1,70 1,113 1,116 1,127 1,156 1,195 1,213 1,224 1,226 1,290 1,296 1,303 1,447 1,457 1,462 1,478 1,480 1,485 1,500 F}
+{0 1,8 1,11 1,14 1,30 1,33 1,40 1,47 1,56 1,66 1,67 1,70 1,110 1,113 1,127 1,138 1,139 1,151 1,156 1,163 1,172 1,173 1,174 1,178 1,213 1,219 1,226 1,288 1,296 1,304 1,327 1,347 1,453 1,457 1,478 1,485 1,500 F}
+{0 1,8 1,11 1,14 1,30 1,33 1,40 1,47 1,56 1,66 1,67 1,70 1,110 1,113 1,127 1,138 1,139 1,151 1,156 1,163 1,172 1,174 1,178 1,213 1,219 1,226 1,288 1,296 1,304 1,327 1,347 1,453 1,457 1,478 1,485 1,500 F}
+{4 1,8 1,9 1,10 1,11 1,14 1,26 1,30 1,33 1,132 1,160 1,175 1,187 1,210 1,485 1,500 F}
+{8 1,14 1,336 1,485 1,500 F}
+{6 1,8 1,14 1,29 1,34 1,67 1,70 1,79 1,130 1,139 1,172 1,199 1,200 1,276 1,390 1,450 1,480 1,485 1,500 F}
+{6 1,8 1,14 1,29 1,34 1,40 1,70 1,79 1,121 1,127 1,138 1,139 1,172 1,197 1,276 1,311 1,440 1,457 1,473 1,480 1,485 1,500 F}
+{6 1,8 1,14 1,29 1,34 1,40 1,68 1,70 1,79 1,138 1,149 1,172 1,174 1,184 1,186 1,188 1,204 1,228 1,276 1,304 1,450 1,457 1,478 1,485 1,500 F}
+{5 1,8 1,14 1,15 1,32 1,67 1,152 1,168 1,283 1,460 1,485 1,500 F}
+{8 1,14 1,40 1,70 1,107 1,156 1,197 1,204 1,207 1,283 1,453 1,457 1,485 1,500 F}
+{8 1,14 1,69 1,139 1,151 1,185 1,211 1,485 1,500 F}
+{8 1,14 1,69 1,391 1,482 1,485 1,500 F}
+{8 1,14 1,69 1,391 1,482 1,485 1,500 F}
+{2 1,6 1,7 1,8 1,14 1,70 1,107 1,134 1,177 1,194 1,200 1,202 1,281 1,291 1,319 1,413 1,418 1,485 1,494 1,500 F}
+{6 1,8 1,14 1,68 1,174 1,318 1,390 1,478 1,485 1,500 F}
+{6 1,7 1,8 1,11 1,14 1,64 1,113 1,177 1,211 1,223 1,457 1,485 1,500 F}
+{8 1,14 1,55 1,107 1,121 1,212 1,485 1,500 F}
+{4 1,8 1,14 1,112 1,485 1,500 F}
+{6 1,8 1,14 1,55 1,56 1,121 1,147 1,164 1,222 1,320 1,427 1,461 1,485 1,500 F}
+{6 1,8 1,14 1,55 1,64 1,66 1,70 1,121 1,164 1,193 1,320 1,457 1,485 1,500 F}
+{6 1,8 1,14 1,55 1,121 1,164 1,212 1,320 1,346 1,425 1,455 1,485 1,500 F}
+{6 1,8 1,14 1,32 1,55 1,64 1,67 1,121 1,152 1,164 1,485 1,500 F}
+{6 1,8 1,14 1,32 1,55 1,64 1,66 1,67 1,121 1,152 1,164 1,184 1,193 1,320 1,457 1,485 1,500 F}
+{6 1,8 1,14 1,15 1,55 1,70 1,121 1,164 1,206 1,212 1,320 1,435 1,485 1,500 F}
+{6 1,8 1,9 1,14 1,26 1,32 1,55 1,64 1,67 1,121 1,152 1,164 1,485 1,500 F}
+{4 1,6 1,8 1,9 1,14 1,26 1,55 1,121 1,164 1,485 1,500 F}
+{8 1,15 1,16 1,27 1,119 1,151 1,300 1,485 1,500 F}
+{8 1,16 1,27 1,119 1,151 1,300 1,485 1,500 F}
+{8 1,14 1,36 1,107 1,165 1,310 1,485 1,500 F}
+{8 1,14 1,107 1,310 1,439 1,485 1,500 F}
+{8 1,14 1,26 1,67 1,207 1,359 1,485 1,500 F}
+{8 1,14 1,49 1,485 1,500 F}
+{8 1,11 1,14 1,30 1,151 1,300 1,485 1,500 F}
+{8 1,14 1,107 1,485 1,500 F}
+{8 1,14 1,128 1,485 1,499 1,500 F}
+{8 1,14 1,15 1,20 1,205 1,457 1,485 1,500 F}
+{8 1,14 1,173 1,205 1,485 1,500 F}
+{8 1,14 1,26 1,117 1,118 1,485 1,500 F}
+{8 1,14 1,136 1,138 1,172 1,485 1,500 F}
+{8 1,14 1,67 1,136 1,215 1,411 1,485 1,500 F}
+{8 1,14 1,70 1,483 1,485 1,500 F}
+{8 1,14 1,70 1,107 1,291 1,485 1,500 F}
+{8 1,14 1,70 1,291 1,485 1,500 F}
+{8 1,14 1,36 1,173 1,349 1,384 1,393 1,405 1,433 1,485 1,500 F}
+{8 1,15 1,16 1,20 1,32 1,56 1,65 1,66 1,67 1,119 1,139 1,151 1,155 1,160 1,172 1,190 1,219 1,289 1,305 1,457 1,471 1,485 1,490 1,500 F}
+{8 1,16 1,32 1,56 1,65 1,66 1,67 1,119 1,139 1,151 1,155 1,160 1,172 1,190 1,219 1,289 1,305 1,457 1,471 1,485 1,490 1,500 F}
+{8 1,16 1,32 1,56 1,65 1,66 1,67 1,119 1,139 1,151 1,155 1,160 1,172 1,190 1,198 1,219 1,289 1,305 1,457 1,471 1,485 1,490 1,500 F}
+{7 1,8 1,16 1,119 1,214 1,471 1,485 1,490 1,500 F}
+{8 1,16 1,40 1,65 1,68 1,70 1,119 1,120 1,152 1,156 1,184 1,188 1,214 1,315 1,457 1,471 1,478 1,485 1,490 1,500 F}
+{8 1,16 1,40 1,65 1,68 1,70 1,114 1,119 1,127 1,137 1,188 1,216 1,289 1,389 1,457 1,471 1,485 1,490 1,500 F}
+{8 1,16 1,40 1,65 1,68 1,70 1,114 1,119 1,127 1,137 1,188 1,216 1,289 1,389 1,457 1,471 1,485 1,490 1,500 F}
+{8 1,12 1,15 1,16 1,40 1,65 1,119 1,167 1,195 1,298 1,471 1,485 1,490 1,500 F}
+{4 1,8 1,14 1,70 1,109 1,111 1,120 1,316 1,371 1,485 1,500 F}
+{4 1,8 1,14 1,70 1,109 1,111 1,120 1,173 1,316 1,371 1,485 1,500 F}
+{8 1,14 1,107 1,485 1,500 F}
+{8 1,14 1,107 1,431 1,485 1,500 F}
+{8 1,14 1,29 1,32 1,67 1,70 1,107 1,129 1,152 1,165 1,179 1,180 1,183 1,221 1,274 1,282 1,285 1,306 1,485 1,500 F}
+{8 1,14 1,29 1,32 1,67 1,70 1,129 1,152 1,165 1,179 1,180 1,183 1,221 1,274 1,282 1,285 1,306 1,485 1,500 F}
+{8 1,14 1,29 1,32 1,67 1,70 1,129 1,152 1,165 1,173 1,179 1,180 1,183 1,221 1,274 1,282 1,285 1,306 1,485 1,500 F}
+{8 1,14 1,29 1,49 1,67 1,68 1,116 1,120 1,129 1,179 1,180 1,183 1,292 1,380 1,485 1,500 F}
+{8 1,14 1,29 1,49 1,67 1,68 1,116 1,120 1,129 1,179 1,180 1,183 1,292 1,485 1,500 F}
+{8 1,14 1,29 1,32 1,67 1,70 1,129 1,152 1,165 1,179 1,180 1,183 1,221 1,274 1,282 1,285 1,306 1,485 1,500 F}
+{8 1,14 1,29 1,32 1,67 1,70 1,129 1,152 1,165 1,179 1,180 1,183 1,221 1,274 1,282 1,285 1,306 1,485 1,500 F}
+{8 1,14 1,173 1,201 1,218 1,225 1,485 1,500 F}
+{8 1,14 1,173 1,201 1,218 1,225 1,485 1,500 F}
+{8 1,14 1,198 1,201 1,218 1,225 1,485 1,500 F}
+{8 1,14 1,49 1,128 1,201 1,218 1,430 1,453 1,457 1,483 1,485 1,500 F}
+{8 1,14 1,49 1,115 1,147 1,196 1,201 1,218 1,483 1,485 1,500 F}
+{8 1,14 1,49 1,115 1,147 1,173 1,196 1,201 1,218 1,483 1,485 1,500 F}
+{8 1,11 1,14 1,67 1,68 1,139 1,147 1,152 1,155 1,157 1,165 1,181 1,199 1,223 1,307 1,317 1,318 1,350 1,485 1,489 1,500 F}
+{8 1,11 1,14 1,157 1,181 1,317 1,458 1,485 1,500 F}
+{4 1,8 1,9 1,11 1,14 1,26 1,137 1,138 1,147 1,157 1,172 1,178 1,181 1,228 1,317 1,342 1,382 1,383 1,453 1,458 1,485 1,500 F}
+{4 1,8 1,9 1,11 1,14 1,26 1,137 1,138 1,147 1,157 1,172 1,178 1,181 1,228 1,317 1,342 1,382 1,383 1,453 1,458 1,485 1,500 F}
+{4 1,8 1,9 1,11 1,14 1,26 1,137 1,138 1,147 1,157 1,172 1,178 1,181 1,228 1,317 1,342 1,382 1,383 1,453 1,458 1,485 1,500 F}
+{8 1,14 1,64 1,107 1,117 1,195 1,457 1,485 1,500 F}
+{8 1,14 1,50 1,68 1,139 1,172 1,197 1,281 1,316 1,388 1,397 1,443 1,485 1,497 1,500 F}
+{8 1,14 1,109 1,111 1,132 1,139 1,194 1,485 1,500 F}
+{8 1,11 1,14 1,70 1,138 1,139 1,194 1,284 1,365 1,467 1,485 1,486 1,500 F}
+{8 1,14 1,139 1,198 1,294 1,416 1,432 1,452 1,485 1,500 F}
+{4 1,8 1,14 1,70 1,107 1,117 1,155 1,178 1,225 1,298 1,485 1,500 F}
+{8 1,14 1,107 1,117 1,155 1,485 1,500 F}
+{8 1,14 1,116 1,139 1,173 1,356 1,362 1,457 1,485 1,500 F}
+{8 1,14 1,107 1,404 1,422 1,423 1,426 1,477 1,485 1,500 F}
+{8 1,14 1,26 1,37 1,38 1,39 1,70 1,108 1,151 1,198 1,485 1,500 F}
+{8 1,14 1,26 1,37 1,38 1,39 1,70 1,108 1,485 1,500 F}
+{8 1,14 1,26 1,37 1,38 1,39 1,70 1,108 1,485 1,500 F}
+{8 1,14 1,26 1,37 1,38 1,39 1,70 1,126 1,176 1,485 1,500 F}
+{8 1,14 1,26 1,34 1,37 1,38 1,39 1,70 1,485 1,500 F}
+{8 1,14 1,26 1,37 1,38 1,39 1,70 1,195 1,469 1,485 1,500 F}
+{7 1,8 1,14 1,26 1,37 1,38 1,39 1,68 1,70 1,108 1,172 1,193 1,197 1,300 1,301 1,313 1,457 1,460 1,476 1,485 1,500 F}
+{8 1,14 1,26 1,37 1,38 1,39 1,70 1,114 1,198 1,360 1,485 1,500 F}
+{8 1,14 1,26 1,37 1,38 1,39 1,70 1,114 1,198 1,222 1,358 1,485 1,500 F}
+{7 1,8 1,14 1,26 1,37 1,38 1,39 1,40 1,42 1,65 1,70 1,114 1,127 1,172 1,193 1,453 1,485 1,500 F}
+{8 1,14 1,26 1,37 1,38 1,39 1,70 1,114 1,363 1,443 1,485 1,500 F}
+{8 1,14 1,26 1,37 1,38 1,39 1,70 1,114 1,485 1,500 F}
+{8 1,14 1,26 1,37 1,38 1,39 1,67 1,70 1,114 1,204 1,344 1,352 1,358 1,364 1,365 1,485 1,500 F}
+{8 1,14 1,26 1,37 1,38 1,39 1,70 1,114 1,279 1,485 1,500 F}
+{8 1,14 1,15 1,26 1,37 1,38 1,39 1,42 1,64 1,70 1,108 1,133 1,151 1,172 1,193 1,301 1,313 1,315 1,443 1,445 1,453 1,485 1,500 F}
+{8 1,14 1,26 1,37 1,38 1,39 1,42 1,70 1,130 1,151 1,279 1,443 1,485 1,500 F}
+{8 1,14 1,26 1,37 1,38 1,39 1,42 1,70 1,151 1,173 1,485 1,500 F}
+{8 1,14 1,15 1,26 1,37 1,38 1,39 1,42 1,70 1,108 1,116 1,151 1,194 1,346 1,485 1,500 F}
+{8 1,14 1,26 1,37 1,38 1,39 1,42 1,64 1,70 1,133 1,138 1,184 1,300 1,485 1,500 F}
+{7 1,8 1,14 1,26 1,37 1,38 1,39 1,40 1,42 1,70 1,138 1,194 1,276 1,301 1,315 1,392 1,444 1,475 1,485 1,500 F}
+{8 1,14 1,26 1,37 1,38 1,39 1,40 1,42 1,47 1,66 1,70 1,128 1,151 1,193 1,207 1,485 1,500 F}
+{8 1,14 1,26 1,37 1,38 1,39 1,42 1,67 1,70 1,173 1,204 1,344 1,352 1,360 1,364 1,365 1,485 1,500 F}
+{8 1,14 1,26 1,37 1,38 1,39 1,42 1,70 1,194 1,198 1,206 1,222 1,485 1,500 F}
+{8 1,14 1,26 1,37 1,38 1,39 1,42 1,65 1,70 1,195 1,469 1,485 1,500 F}
+{8 1,14 1,26 1,37 1,38 1,39 1,42 1,70 1,151 1,219 1,293 1,392 1,428 1,485 1,494 1,500 F}
+{8 1,14 1,26 1,37 1,38 1,39 1,42 1,64 1,65 1,70 1,108 1,133 1,151 1,172 1,193 1,301 1,313 1,315 1,443 1,445 1,453 1,485 1,500 F}
+{8 1,14 1,26 1,32 1,37 1,38 1,39 1,42 1,65 1,67 1,70 1,108 1,193 1,485 1,500 F}
+{6 1,8 1,14 1,26 1,195 1,407 1,485 1,500 F}
+{8 1,14 1,107 1,152 1,172 1,299 1,378 1,479 1,485 1,500 F}
+{8 1,14 1,64 1,128 1,185 1,211 1,457 1,485 1,500 F}
+{8 1,14 1,26 1,29 1,109 1,111 1,118 1,168 1,172 1,203 1,220 1,227 1,277 1,278 1,280 1,286 1,287 1,307 1,308 1,314 1,321 1,485 1,500 F}
+{8 1,14 1,26 1,29 1,109 1,111 1,118 1,168 1,172 1,203 1,220 1,227 1,277 1,278 1,280 1,286 1,287 1,308 1,314 1,321 1,485 1,500 F}
+{8 1,14 1,26 1,29 1,109 1,111 1,118 1,168 1,172 1,203 1,220 1,227 1,277 1,278 1,280 1,286 1,287 1,308 1,314 1,321 1,485 1,500 F}
+{8 1,14 1,15 1,29 1,109 1,111 1,118 1,168 1,172 1,203 1,220 1,227 1,277 1,278 1,280 1,286 1,287 1,308 1,314 1,321 1,485 1,500 F}
+{8 1,14 1,15 1,29 1,40 1,55 1,66 1,68 1,110 1,118 1,186 1,216 1,220 1,298 1,421 1,472 1,485 1,500 F}
+{8 1,14 1,15 1,29 1,118 1,485 1,500 F}
+{8 1,14 1,15 1,29 1,118 1,485 1,500 F}
+{8 1,14 1,29 1,118 1,228 1,485 1,500 F}
+{8 1,14 1,29 1,70 1,107 1,117 1,118 1,294 1,322 1,485 1,500 F}
+{8 1,14 1,107 1,176 1,485 1,500 F}
+{8 1,14 1,107 1,400 1,451 1,461 1,485 1,500 F}
+{8 1,14 1,173 1,436 1,485 1,500 F}
+{8 1,14 1,40 1,56 1,107 1,139 1,172 1,176 1,186 1,190 1,355 1,372 1,447 1,453 1,474 1,480 1,485 1,500 F}
+{4 1,8 1,9 1,14 1,15 1,25 1,41 1,70 1,117 1,138 1,151 1,172 1,196 1,206 1,313 1,443 1,485 1,500 F}
+{8 1,14 1,115 1,117 1,131 1,172 1,173 1,424 1,485 1,500 F}
+{8 1,14 1,319 1,438 1,485 1,500 F}
+{4 1,8 1,14 1,109 1,111 1,112 1,195 1,196 1,446 1,447 1,457 1,485 1,500 F}
+{4 1,8 1,14 1,47 1,66 1,109 1,111 1,112 1,115 1,178 1,181 1,207 1,446 1,447 1,453 1,457 1,485 1,500 F}
+{4 1,8 1,14 1,36 1,45 1,112 1,485 1,500 F}
+{7 1,8 1,14 1,68 1,114 1,132 1,137 1,139 1,172 1,181 1,191 1,194 1,379 1,401 1,485 1,500 F}
+{8 1,14 1,15 1,49 1,151 1,208 1,217 1,229 1,292 1,485 1,500 F}
+{8 1,14 1,49 1,151 1,208 1,217 1,229 1,292 1,485 1,500 F}
+{8 1,14 1,15 1,40 1,49 1,68 1,110 1,138 1,186 1,208 1,217 1,229 1,311 1,485 1,500 F}
+{8 1,14 1,15 1,40 1,49 1,68 1,110 1,138 1,186 1,208 1,217 1,229 1,311 1,485 1,500 F}
+{8 1,14 1,40 1,49 1,68 1,110 1,138 1,186 1,208 1,217 1,229 1,311 1,485 1,500 F}
+{8 1,14 1,40 1,49 1,68 1,110 1,138 1,186 1,208 1,217 1,229 1,311 1,485 1,500 F}
+{8 1,10 1,12 1,16 1,21 1,22 1,23 1,34 1,35 1,151 1,485 1,500 F}
+{8 1,10 1,12 1,16 1,21 1,22 1,23 1,34 1,35 1,151 1,485 1,500 F}
+{7 1,8 1,12 1,14 1,20 1,21 1,22 1,23 1,34 1,40 1,68 1,107 1,139 1,195 1,281 1,471 1,485 1,500 F}
+{8 1,12 1,14 1,21 1,22 1,23 1,32 1,34 1,67 1,159 1,199 1,420 1,466 1,471 1,485 1,500 F}
+{8 1,12 1,21 1,22 1,23 1,34 1,471 1,485 1,500 F}
+{8 1,12 1,14 1,21 1,22 1,23 1,34 1,40 1,167 1,194 1,198 1,200 1,304 1,454 1,457 1,471 1,485 1,500 F}
+{8 1,16 1,117 1,215 1,471 1,485 1,500 F}
+{4 1,6 1,8 1,14 1,32 1,67 1,152 1,198 1,305 1,485 1,500 F}
+{4 1,6 1,8 1,14 1,198 1,305 1,485 1,500 F}
+{6 1,8 1,14 1,36 1,47 1,68 1,107 1,177 1,318 1,474 1,485 1,500 F}
+{6 1,7 1,8 1,14 1,36 1,56 1,68 1,107 1,133 1,177 1,318 1,485 1,500 F}
+{6 1,7 1,8 1,14 1,40 1,42 1,68 1,107 1,127 1,139 1,167 1,196 1,197 1,204 1,275 1,304 1,415 1,443 1,457 1,485 1,500 F}
+{8 1,14 1,15 1,152 1,199 1,316 1,485 1,500 F}
+{7 1,8 1,20 1,64 1,107 1,113 1,116 1,133 1,138 1,177 1,392 1,476 1,485 1,500 F}
+{0 1,7 1,8 1,14 1,26 1,36 1,45 1,57 1,64 1,65 1,70 1,133 1,138 1,139 1,147 1,172 1,188 1,190 1,196 1,197 1,202 1,212 1,298 1,354 1,403 1,419 1,440 1,445 1,454 1,485 1,492 1,500 F}
+{0 1,8 1,10 1,14 1,25 1,28 1,45 1,48 1,50 1,58 1,59 1,61 1,62 1,63 1,122 1,485 1,500 F}
+{6 1,8 1,14 1,107 1,167 1,194 1,398 1,485 1,500 F}
+{8 1,14 1,15 1,55 1,152 1,293 1,361 1,475 1,485 1,500 F}
+{8 1,14 1,15 1,130 1,138 1,211 1,485 1,500 F}
+{8 1,14 1,15 1,68 1,130 1,138 1,211 1,485 1,500 F}
+{8 1,14 1,126 1,485 1,500 F}
+{8 1,14 1,107 1,130 1,193 1,401 1,436 1,485 1,500 F}
+{8 1,14 1,67 1,107 1,126 1,150 1,193 1,402 1,485 1,500 F}
+{8 1,10 1,12 1,14 1,107 1,110 1,485 1,500 F}
+{7 1,8 1,14 1,69 1,172 1,193 1,197 1,299 1,485 1,500 F}
+{8 1,14 1,32 1,34 1,159 1,200 1,223 1,340 1,480 1,485 1,500 F}
+{4 1,8 1,9 1,14 1,20 1,40 1,41 1,107 1,109 1,111 1,132 1,172 1,191 1,195 1,207 1,293 1,429 1,457 1,485 1,500 F}
+{8 1,14 1,26 1,70 1,112 1,485 1,500 F}
+{8 1,16 1,70 1,131 1,167 1,172 1,294 1,457 1,485 1,500 F}
+{8 1,16 1,47 1,56 1,113 1,131 1,133 1,184 1,185 1,224 1,294 1,485 1,500 F}
+{7 1,8 1,16 1,68 1,130 1,131 1,132 1,175 1,177 1,185 1,211 1,294 1,328 1,412 1,453 1,485 1,493 1,500 F}
+{5 1,8 1,14 1,32 1,40 1,67 1,68 1,70 1,107 1,122 1,127 1,130 1,136 1,152 1,155 1,156 1,160 1,167 1,172 1,174 1,176 1,182 1,185 1,189 1,192 1,197 1,216 1,390 1,395 1,409 1,442 1,443 1,445 1,453 1,457 1,480 1,485 1,500 F}
+{0 1,5 1,8 1,14 1,70 1,136 1,189 1,192 1,209 1,223 1,480 1,485 1,500 F}
+{5 1,8 1,14 1,47 1,66 1,113 1,136 1,189 1,192 1,207 1,290 1,485 1,500 F}
+{5 1,8 1,14 1,70 1,136 1,185 1,189 1,192 1,337 1,394 1,459 1,485 1,500 F}
+{5 1,8 1,14 1,32 1,40 1,67 1,68 1,70 1,107 1,110 1,115 1,130 1,136 1,138 1,139 1,152 1,167 1,172 1,174 1,189 1,192 1,216 1,290 1,292 1,298 1,318 1,443 1,447 1,453 1,457 1,478 1,485 1,500 F}
+{5 1,8 1,14 1,42 1,136 1,189 1,191 1,192 1,470 1,485 1,500 F}
+{5 1,8 1,14 1,42 1,107 1,136 1,139 1,189 1,192 1,333 1,353 1,399 1,485 1,500 F}
+{5 1,8 1,14 1,71 1,117 1,224 1,485 1,500 F}
+{14 1,55 1,67 1,107 1,152 1,437 1,485 1,500 F}
+{2 1,14 1,29 1,65 1,204 1,281 1,418 1,485 1,500 F}
+{14 1,107 1,115 1,147 1,485 1,500 F}
+{4 1,9 1,14 1,15 1,26 1,31 1,115 1,147 1,196 1,485 1,500 F}
+{14 1,107 1,147 1,485 1,500 F}
+{4 1,9 1,14 1,15 1,26 1,31 1,40 1,127 1,130 1,138 1,160 1,172 1,284 1,410 1,443 1,485 1,500 F}
+{4 1,14 1,107 1,139 1,168 1,171 1,291 1,354 1,445 1,465 1,485 1,500 F}
+{8 1,16 1,36 1,151 1,485 1,500 F}
+{4 1,14 1,36 1,107 1,485 1,488 1,500 F}
+{4 1,14 1,32 1,67 1,70 1,107 1,152 1,221 1,302 1,312 1,373 1,460 1,485 1,500 F}
+{9 1,14 1,26 1,70 1,196 1,212 1,425 1,444 1,485 1,500 F}
+{1 1,14 1,60 1,71 1,79 1,107 1,224 1,445 1,457 1,471 1,485 1,500 F}
+{4 1,15 1,16 1,20 1,29 1,32 1,40 1,67 1,112 1,129 1,132 1,276 1,453 1,456 1,476 1,478 1,485 1,500 F}
+{4 1,5 1,14 1,26 1,29 1,32 1,67 1,70 1,190 1,367 1,369 1,485 1,500 F}
+{4 1,14 1,26 1,29 1,70 1,113 1,138 1,151 1,190 1,457 1,485 1,500 F}
+{4 1,14 1,56 1,159 1,196 1,307 1,485 1,500 F}
+{4 1,14 1,56 1,159 1,196 1,485 1,500 F}
+{4 1,14 1,173 1,377 1,385 1,414 1,434 1,481 1,485 1,500 F}
+{14 1,32 1,112 1,199 1,209 1,293 1,309 1,348 1,390 1,485 1,500 F}
+{14 1,15 1,112 1,128 1,133 1,147 1,196 1,209 1,275 1,309 1,485 1,500 F}
+{14 1,112 1,194 1,209 1,309 1,485 1,500 F}
+{14 1,112 1,209 1,309 1,387 1,401 1,485 1,500 F}
+{14 1,15 1,112 1,196 1,209 1,309 1,348 1,464 1,485 1,500 F}
+{14 1,107 1,225 1,485 1,500 F}
+{14 1,15 1,120 1,485 1,500 F}
+{14 1,120 1,485 1,500 F}
+{11 1,14 1,172 1,325 1,332 1,334 1,335 1,338 1,339 1,341 1,343 1,345 1,349 1,351 1,357 1,368 1,370 1,375 1,376 1,381 1,386 1,408 1,412 1,460 1,485 1,500 F}
+{10 1,14 1,32 1,191 1,193 1,194 1,202 1,316 1,319 1,417 1,441 1,475 1,485 1,500 F}
+{10 1,16 1,71 1,117 1,126 1,160 1,480 1,485 1,500 F}
+{14 1,32 1,67 1,71 1,139 1,225 1,301 1,323 1,324 1,329 1,392 1,457 1,485 1,497 1,500 F}
+{0 1,1 1,2 1,3 1,4 1,5 1,6 1,7 1,10 1,11 1,14 1,107 1,485 1}
+{8 1,12 1,87 1,172 1,240 1,254 1,267 1,450 1,485 1}
+{0 1,1 1,2 1,3 1,4 1,5 1,6 1,7 1,9 1,11 1,12 1,26 1,31 1,67 1,87 1,144 1,172 1,240 1,254 1,267 1,485 1}
+{1 1,4 1,8 1,9 1,10 1,15 1,16 1,41 1,50 1,67 1,71 1,126 1,152 1,485 1,491 1}
+{0 1,1 1,2 1,3 1,4 1,5 1,6 1,7 1,9 1,11 1,15 1,16 1,256 1,485 1}
+{1 1,8 1,10 1,15 1,16 1,32 1,70 1,71 1,126 1,143 1,152 1,234 1,247 1,460 1,485 1}
+{0 1,1 1,2 1,3 1,4 1,5 1,6 1,7 1,9 1,10 1,11 1,15 1,16 1,41 1,50 1,71 1,126 1,234 1,247 1,485 1}
+{0 1,1 1,2 1,3 1,4 1,5 1,6 1,7 1,9 1,10 1,11 1,15 1,16 1,41 1,50 1,71 1,126 1,485 1}
+{8 1,10 1,15 1,16 1,67 1,71 1,126 1,143 1,231 1,262 1,460 1,485 1}
+{4 1,8 1,9 1,10 1,15 1,16 1,41 1,50 1,67 1,71 1,126 1,143 1,231 1,262 1,460 1,485 1}
+{4 1,6 1,8 1,9 1,10 1,12 1,13 1,15 1,16 1,20 1,60 1,70 1,230 1,243 1,246 1,268 1,273 1,485 1}
+{4 1,6 1,8 1,9 1,10 1,12 1,13 1,15 1,16 1,20 1,60 1,70 1,230 1,243 1,246 1,268 1,273 1,485 1}
+{0 1,1 1,2 1,3 1,4 1,5 1,6 1,7 1,11 1,14 1,485 1}
+{4 1,8 1,9 1,14 1,17 1,18 1,19 1,27 1,31 1,485 1}
+{0 1,1 1,2 1,3 1,4 1,5 1,6 1,7 1,11 1,14 1,87 1,139 1,172 1,478 1,485 1}
+{0 1,3 1,4 1,6 1,7 1,8 1,14 1,15 1,25 1,44 1,46 1,57 1,70 1,72 1,73 1,74 1,75 1,76 1,77 1,78 1,80 1,81 1,123 1,124 1,125 1,128 1,242 1,453 1,457 1,485 1}
+{0 1,1 1,2 1,3 1,4 1,5 1,6 1,7 1,11 1,14 1,15 1,25 1,44 1,46 1,57 1,70 1,72 1,73 1,74 1,75 1,76 1,77 1,78 1,80 1,81 1,123 1,124 1,125 1,128 1,453 1,457 1,485 1}
+{0 1,3 1,4 1,6 1,7 1,8 1,14 1,15 1,25 1,44 1,46 1,57 1,70 1,72 1,73 1,74 1,75 1,76 1,77 1,78 1,80 1,81 1,123 1,124 1,125 1,128 1,453 1,457 1,485 1}
+{0 1,3 1,4 1,6 1,7 1,8 1,14 1,15 1,25 1,44 1,46 1,57 1,70 1,72 1,73 1,74 1,75 1,76 1,77 1,78 1,80 1,81 1,123 1,124 1,125 1,128 1,138 1,453 1,457 1,485 1}
+{0 1,3 1,4 1,6 1,7 1,8 1,14 1,15 1,25 1,44 1,46 1,57 1,70 1,72 1,73 1,74 1,75 1,76 1,77 1,78 1,80 1,81 1,123 1,124 1,125 1,128 1,453 1,457 1,485 1}
+{0 1,3 1,4 1,6 1,7 1,8 1,14 1,15 1,25 1,44 1,46 1,57 1,70 1,72 1,73 1,74 1,75 1,76 1,77 1,78 1,80 1,81 1,123 1,124 1,125 1,128 1,453 1,457 1,485 1}
+{0 1,1 1,2 1,3 1,4 1,5 1,6 1,7 1,11 1,14 1,15 1,25 1,44 1,46 1,57 1,70 1,72 1,73 1,74 1,75 1,76 1,77 1,78 1,80 1,81 1,123 1,124 1,125 1,128 1,453 1,457 1,485 1}
+{0 1,3 1,4 1,6 1,7 1,8 1,14 1,15 1,25 1,44 1,46 1,57 1,70 1,72 1,73 1,74 1,75 1,76 1,77 1,78 1,80 1,81 1,123 1,124 1,125 1,128 1,138 1,453 1,457 1,485 1}
+{0 1,3 1,4 1,6 1,7 1,8 1,14 1,15 1,25 1,44 1,46 1,57 1,70 1,72 1,73 1,74 1,75 1,76 1,77 1,78 1,80 1,81 1,123 1,124 1,125 1,128 1,453 1,457 1,485 1}
+{0 1,3 1,4 1,6 1,7 1,8 1,14 1,15 1,25 1,44 1,46 1,57 1,70 1,72 1,73 1,74 1,75 1,76 1,77 1,78 1,80 1,81 1,123 1,124 1,125 1,128 1,453 1,457 1,485 1}
+{0 1,3 1,4 1,6 1,7 1,8 1,14 1,25 1,44 1,46 1,57 1,70 1,72 1,73 1,74 1,75 1,76 1,77 1,78 1,80 1,81 1,123 1,124 1,125 1,128 1,140 1,453 1,457 1,485 1}
+{0 1,1 1,2 1,3 1,4 1,5 1,6 1,7 1,11 1,15 1,16 1,146 1,485 1}
+{4 1,8 1,9 1,15 1,20 1,27 1,41 1,94 1,144 1,244 1,261 1,264 1,484 1,485 1}
+{0 1,1 1,2 1,3 1,4 1,5 1,6 1,7 1,11 1,27 1,94 1,244 1,261 1,264 1,485 1}
+{4 1,8 1,9 1,14 1,15 1,31 1,457 1,485 1}
+{6 1,8 1,14 1,70 1,88 1,89 1,90 1,91 1,95 1,99 1,100 1,101 1,102 1,105 1,106 1,128 1,149 1,457 1,464 1,485 1}
+{6 1,8 1,14 1,70 1,88 1,89 1,90 1,91 1,95 1,99 1,100 1,101 1,102 1,105 1,106 1,128 1,149 1,457 1,464 1,485 1}
+{6 1,8 1,14 1,70 1,88 1,89 1,90 1,91 1,95 1,99 1,100 1,101 1,102 1,105 1,106 1,128 1,149 1,237 1,250 1,457 1,464 1,485 1}
+{6 1,8 1,14 1,70 1,88 1,89 1,90 1,91 1,95 1,99 1,100 1,101 1,102 1,105 1,106 1,128 1,149 1,237 1,250 1,457 1,464 1,485 1}
+{8 1,14 1,15 1,34 1,233 1,485 1}
+{4 1,8 1,9 1,13 1,14 1,15 1,20 1,27 1,43 1,51 1,52 1,54 1,148 1,150 1,171 1,242 1,485 1}
+{0 1,1 1,2 1,3 1,4 1,5 1,6 1,7 1,11 1,14 1,43 1,51 1,52 1,54 1,148 1,150 1,171 1,485 1}
+{0 1,1 1,2 1,3 1,4 1,5 1,6 1,7 1,11 1,14 1,43 1,51 1,52 1,54 1,148 1,150 1,171 1,485 1}
+{0 1,1 1,2 1,3 1,4 1,5 1,6 1,7 1,11 1,14 1,43 1,51 1,52 1,54 1,148 1,150 1,171 1,485 1}
+{0 1,1 1,2 1,3 1,4 1,5 1,6 1,7 1,11 1,14 1,43 1,51 1,52 1,54 1,148 1,150 1,171 1,485 1}
+{0 1,1 1,2 1,3 1,4 1,5 1,6 1,7 1,11 1,14 1,107 1,485 1}
+{8 1,14 1,15 1,26 1,236 1,238 1,258 1,272 1,483 1,485 1}
+{4 1,8 1,9 1,14 1,15 1,26 1,67 1,236 1,238 1,256 1,258 1,272 1,483 1,485 1}
+{4 1,8 1,9 1,10 1,12 1,13 1,16 1,20 1,60 1,79 1,140 1,457 1,485 1}
+{0 1,1 1,2 1,3 1,4 1,5 1,6 1,7 1,11 1,14 1,34 1,68 1,126 1,443 1,472 1,485 1}
+{4 1,8 1,9 1,14 1,17 1,18 1,19 1,27 1,31 1,82 1,93 1,98 1,485 1}
+{4 1,8 1,9 1,14 1,17 1,18 1,19 1,27 1,31 1,82 1,93 1,98 1,485 1}
+{4 1,8 1,9 1,14 1,15 1,17 1,18 1,19 1,27 1,31 1,82 1,93 1,98 1,485 1}
+{4 1,8 1,9 1,14 1,15 1,17 1,18 1,19 1,27 1,31 1,82 1,93 1,98 1,485 1}
+{0 1,1 1,2 1,3 1,4 1,5 1,6 1,7 1,11 1,14 1,68 1,70 1,138 1,193 1,249 1,266 1,457 1,473 1,485 1,487 1}
+{0 1,1 1,2 1,3 1,4 1,5 1,6 1,7 1,11 1,14 1,485 1}
+{4 1,8 1,9 1,14 1,15 1,463 1,483 1,485 1}
+{4 1,8 1,9 1,13 1,15 1,16 1,20 1,259 1,471 1,485 1,490 1}
+{4 1,8 1,9 1,13 1,15 1,16 1,20 1,259 1,471 1,485 1,490 1}
+{0 1,1 1,2 1,3 1,4 1,5 1,6 1,7 1,11 1,12 1,14 1,171 1,249 1,485 1}
+{0 1,1 1,2 1,3 1,4 1,5 1,6 1,7 1,11 1,14 1,48 1,53 1,140 1,152 1,485 1}
+{0 1,1 1,2 1,3 1,4 1,5 1,6 1,7 1,11 1,14 1,485 1}
+{0 1,1 1,2 1,3 1,4 1,5 1,6 1,7 1,11 1,14 1,485 1}
+{0 1,1 1,2 1,3 1,4 1,5 1,6 1,7 1,11 1,14 1,265 1,485 1}
+{0 1,1 1,2 1,3 1,4 1,5 1,6 1,7 1,11 1,14 1,265 1,485 1}
+{4 1,8 1,9 1,13 1,14 1,26 1,34 1,37 1,38 1,39 1,70 1,485 1}
+{0 1,1 1,2 1,3 1,4 1,5 1,6 1,7 1,11 1,14 1,485 1}
+{0 1,1 1,2 1,3 1,4 1,5 1,6 1,7 1,11 1,14 1,195 1,469 1,485 1}
+{0 1,1 1,2 1,3 1,4 1,5 1,6 1,7 1,11 1,14 1,485 1}
+{0 1,1 1,2 1,3 1,4 1,5 1,6 1,7 1,11 1,14 1,147 1,485 1}
+{0 1,1 1,2 1,3 1,4 1,5 1,6 1,7 1,11 1,14 1,146 1,173 1,485 1}
+{0 1,1 1,2 1,3 1,4 1,5 1,6 1,7 1,11 1,14 1,456 1,485 1}
+{1 1,2 1,4 1,5 1,9 1,10 1,11 1,12 1,13 1,15 1,16 1,20 1,21 1,22 1,23 1,24 1,34 1,35 1,151 1,485 1}
+{8 1,10 1,12 1,15 1,16 1,21 1,22 1,23 1,34 1,151 1,485 1}
+{4 1,8 1,9 1,10 1,12 1,13 1,15 1,16 1,20 1,21 1,22 1,23 1,24 1,34 1,84 1,485 1}
+{0 1,1 1,2 1,3 1,4 1,5 1,6 1,7 1,9 1,10 1,11 1,12 1,13 1,15 1,16 1,20 1,24 1,151 1,485 1}
+{4 1,8 1,9 1,10 1,12 1,13 1,15 1,16 1,20 1,21 1,22 1,23 1,24 1,34 1,151 1,485 1}
+{8 1,10 1,12 1,16 1,21 1,22 1,23 1,34 1,35 1,151 1,485 1}
+{4 1,8 1,9 1,10 1,12 1,16 1,21 1,22 1,23 1,24 1,34 1,35 1,142 1,151 1,485 1}
+{4 1,8 1,9 1,10 1,12 1,16 1,21 1,22 1,23 1,24 1,34 1,35 1,84 1,142 1,485 1}
+{8 1,10 1,12 1,16 1,21 1,22 1,23 1,34 1,35 1,151 1,485 1}
+{8 1,10 1,12 1,16 1,21 1,22 1,23 1,34 1,35 1,151 1,485 1}
+{8 1,10 1,12 1,16 1,21 1,22 1,23 1,34 1,35 1,151 1,485 1}
+{8 1,10 1,12 1,16 1,21 1,22 1,23 1,34 1,35 1,151 1,485 1}
+{8 1,10 1,12 1,16 1,21 1,22 1,23 1,34 1,35 1,151 1,485 1}
+{0 1,1 1,2 1,3 1,4 1,5 1,6 1,7 1,10 1,11 1,16 1,84 1,485 1}
+{8 1,10 1,12 1,16 1,21 1,22 1,23 1,34 1,35 1,151 1,485 1}
+{8 1,10 1,12 1,16 1,21 1,22 1,23 1,34 1,35 1,151 1,485 1}
+{8 1,10 1,12 1,16 1,21 1,22 1,23 1,34 1,35 1,151 1,485 1}
+{8 1,10 1,12 1,16 1,21 1,22 1,23 1,34 1,35 1,151 1,485 1}
+{8 1,10 1,12 1,16 1,21 1,22 1,23 1,34 1,35 1,151 1,485 1}
+{0 1,1 1,2 1,3 1,4 1,5 1,6 1,7 1,10 1,11 1,16 1,84 1,485 1}
+{8 1,10 1,12 1,15 1,16 1,21 1,22 1,23 1,34 1,151 1,471 1,485 1}
+{4 1,8 1,9 1,10 1,12 1,13 1,15 1,16 1,20 1,21 1,22 1,23 1,24 1,34 1,151 1,471 1,485 1}
+{0 1,1 1,2 1,3 1,4 1,5 1,6 1,7 1,9 1,10 1,11 1,12 1,13 1,15 1,16 1,20 1,24 1,151 1,485 1}
+{0 1,1 1,2 1,3 1,4 1,5 1,6 1,7 1,9 1,10 1,11 1,12 1,13 1,15 1,16 1,20 1,24 1,151 1,485 1}
+{4 1,8 1,9 1,10 1,12 1,13 1,15 1,16 1,20 1,21 1,22 1,23 1,24 1,34 1,151 1,471 1,485 1}
+{0 1,1 1,2 1,3 1,4 1,5 1,6 1,7 1,11 1,14 1,198 1,485 1}
+{0 1,8 1,14 1,15 1,28 1,45 1,79 1,151 1,271 1,485 1}
+{0 1,4 1,8 1,9 1,14 1,15 1,20 1,28 1,41 1,45 1,79 1,151 1,271 1,485 1}
+{0 1,8 1,14 1,25 1,28 1,45 1,48 1,53 1,58 1,59 1,61 1,62 1,63 1,79 1,83 1,85 1,86 1,92 1,96 1,97 1,103 1,104 1,122 1,485 1}
+{0 1,8 1,14 1,25 1,28 1,45 1,48 1,53 1,58 1,59 1,61 1,62 1,63 1,79 1,83 1,85 1,86 1,92 1,96 1,97 1,103 1,104 1,122 1,485 1}
+{0 1,8 1,14 1,25 1,28 1,45 1,48 1,53 1,58 1,59 1,61 1,62 1,63 1,79 1,83 1,85 1,86 1,92 1,96 1,97 1,103 1,104 1,122 1,485 1}
+{0 1,8 1,14 1,25 1,28 1,45 1,48 1,53 1,58 1,59 1,61 1,62 1,63 1,79 1,83 1,85 1,86 1,92 1,96 1,97 1,103 1,104 1,122 1,485 1}
+{0 1,8 1,14 1,28 1,45 1,79 1,151 1,485 1}
+{0 1,4 1,8 1,9 1,14 1,20 1,28 1,41 1,45 1,79 1,151 1,485 1}
+{0 1,1 1,2 1,3 1,4 1,5 1,6 1,7 1,9 1,10 1,11 1,13 1,14 1,15 1,20 1,25 1,48 1,58 1,59 1,61 1,62 1,63 1,122 1,485 1}
+{0 1,8 1,10 1,14 1,25 1,28 1,45 1,48 1,58 1,59 1,61 1,62 1,63 1,79 1,122 1,485 1}
+{0 1,8 1,10 1,14 1,25 1,28 1,45 1,48 1,58 1,59 1,61 1,62 1,63 1,79 1,122 1,485 1}
+{0 1,8 1,14 1,28 1,45 1,151 1,485 1}
+{0 1,1 1,2 1,3 1,4 1,5 1,6 1,7 1,10 1,11 1,14 1,66 1,70 1,107 1,127 1,138 1,139 1,172 1,235 1,443 1,447 1,457 1,468 1,480 1,485 1}
+{0 1,1 1,2 1,3 1,4 1,5 1,6 1,7 1,11 1,14 1,107 1,172 1,485 1}
+{0 1,1 1,2 1,3 1,4 1,5 1,6 1,7 1,9 1,11 1,13 1,15 1,16 1,485 1}
+{0 1,1 1,2 1,3 1,4 1,5 1,6 1,7 1,11 1,16 1,20 1,40 1,94 1,138 1,145 1,172 1,232 1,239 1,241 1,245 1,248 1,251 1,252 1,255 1,257 1,263 1,269 1,270 1,457 1,476 1,485 1}
+{0 1,1 1,2 1,3 1,4 1,5 1,6 1,7 1,9 1,11 1,12 1,15 1,16 1,41 1,50 1,60 1,139 1,485 1}
+{0 1,1 1,2 1,3 1,4 1,5 1,6 1,7 1,11 1,14 1,485 1}
+{8 1,14 1,17 1,18 1,19 1,107 1,141 1,444 1,485 1}
+{0 1,1 1,2 1,3 1,4 1,5 1,6 1,7 1,11 1,14 1,17 1,18 1,19 1,485 1}
+{4 1,8 1,9 1,14 1,17 1,18 1,19 1,27 1,31 1,141 1,444 1,485 1}
+{4 1,8 1,9 1,14 1,15 1,17 1,18 1,19 1,27 1,31 1,141 1,444 1,485 1}
+{0 1,1 1,2 1,3 1,4 1,5 1,6 1,7 1,9 1,11 1,14 1,15 1,20 1,41 1,71 1,485 1}
+{0 1,1 1,2 1,3 1,4 1,5 1,6 1,7 1,9 1,10 1,11 1,12 1,13 1,16 1,20 1,260 1,485 1}
+{0 1,1 1,2 1,3 1,4 1,5 1,6 1,7 1,9 1,10 1,11 1,12 1,13 1,14 1,15 1,20 1,260 1,485 1}
+{0 1,1 1,2 1,3 1,4 1,5 1,6 1,7 1,11 1,14 1,60 1,67 1,107 1,126 1,146 1,197 1,485 1}
+{4 1,9 1,14 1,15 1,17 1,18 1,19 1,27 1,31 1,485 1,488 1}
+{0 1,1 1,2 1,3 1,4 1,5 1,6 1,7 1,9 1,11 1,14 1,15 1,41 1,50 1,60 1,71 1,445 1,457 1,485 1}
+{0 1,1 1,2 1,3 1,4 1,5 1,6 1,7 1,9 1,11 1,12 1,14 1,41 1,60 1,71 1,107 1,126 1,485 1}
+{0 1,1 1,2 1,3 1,4 1,5 1,6 1,7 1,11 1,14 1,26 1,253 1,485 1}
+{0 1,1 1,2 1,3 1,4 1,5 1,6 1,7 1,11 1,14 1,68 1,138 1,145 1,172 1,194 1,196 1,253 1,266 1,442 1,457 1,485 1}
+{4 1,9 1,14 1,17 1,18 1,19 1,27 1,31 1,485 1}
+{4 1,9 1,14 1,15 1,17 1,18 1,19 1,27 1,31 1,485 1}
+{0 1,1 1,2 1,3 1,4 1,5 1,6 1,7 1,11 1,16 1,20 1,40 1,94 1,138 1,145 1,172 1,232 1,239 1,241 1,245 1,248 1,251 1,252 1,255 1,257 1,263 1,269 1,270 1,457 1,476 1,485 1}
+{0 1,1 1,2 1,3 1,4 1,5 1,6 1,7 1,11 1,14 1,43 1,107 1,485 1}
+{20 1,50 1,138 1,139 1,144 1,149 1,172 1,173 1,233 1,235 1,448 1,457 1,480 1,485 1}
+{142 1,172 1,460 1,485 1}
+{0 1,1 1,2 1,3 1,4 1,5 1,6 1,7 1,9 1,10 1,11 1,15 1,16 1,20 1,41 1,50 1,71 1,126 1,485 1}
+{0 1,1 1,2 1,3 1,4 1,5 1,6 1,7 1,10 1,11 1,16 1,50 1,87 1,485 1}

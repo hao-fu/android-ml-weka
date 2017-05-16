@@ -1,413 +1,564 @@
-@relation 'docs-weka.filters.unsupervised.attribute.StringToWordVector-R1-W10000-prune-rate-1.0-N0-stemmerweka.core.stemmers.NullStemmer-M1-tokenizerweka.core.tokenizers.WordTokenizer -delimiters \" \\r\\n\\t.,;:\\\'\\\"()?!\"'
+@relation 'docs-weka.filters.unsupervised.attribute.StringToWordVector-R1-W10000-prune-rate-1.0-N0-stemmerweka.core.stemmers.NullStemmer-M1-tokenizerweka.core.tokenizers.WordTokenizer -delimiters \" \\r\\n\\t.,;:\\\'\\\"()?!\"-weka.filters.unsupervised.attribute.Remove-V-R80,13,4,63,44,18,79,38,5,3,70,31,67,32,48,55,50,58,35,37,40,2,25,19,73,7,6,12,15,21,126,65,62,54,53,74,52,51,56-57,61,59,71,60,66,64,72,69,68,39,49,22,20,23,47,24,17,16,14,11,8-10,26-28,41,43,45-46,42,76,29,36,30,33-34,75,154,77,130,128-129,131,135,132-133,127,125,124,123,118-122,134,136,153,149,147-148,150,137,151-152,146,145,144,143,138-142,117,116,115,92,90-91,93,114,94-95,89,88,87,86,81-85,96-98,107,109-113,108,106,99,105,100-104,78,1'
 
-@attribute text_label {T,F}
-@attribute OnClickRec numeric
-@attribute OnClickRemoteVoiceCancel numeric
-@attribute View numeric
-@attribute [ numeric
-@attribute ] numeric
+@attribute widget numeric
 @attribute android numeric
-@attribute boolean numeric
-@attribute checkCanRecord numeric
-@attribute clickedTakePhoto numeric
-@attribute dispatchKeyEvent numeric
-@attribute onActivityResult numeric
-@attribute onBackPressed numeric
+@attribute ImageButton numeric
+@attribute record numeric
 @attribute onClick numeric
-@attribute onConfigurationChanged numeric
-@attribute onCreate numeric
-@attribute onCreateContextMenu numeric
+@attribute button numeric
+@attribute vrl numeric
+@attribute microphone numeric
+@attribute ImageView numeric
+@attribute Button numeric
+@attribute start numeric
+@attribute image numeric
+@attribute session numeric
+@attribute in numeric
 @attribute onCreateOptionsMenu numeric
-@attribute onCreateView numeric
-@attribute onDestroy numeric
-@attribute onOptionsItemSelected numeric
-@attribute onPause numeric
-@attribute onPreferenceChange numeric
-@attribute onPrepareOptionsMenu numeric
 @attribute onRequestPermissionsResult numeric
+@attribute onDestroy numeric
+@attribute onStart numeric
+@attribute left numeric
+@attribute menu numeric
+@attribute new numeric
+@attribute 1 numeric
+@attribute footer numeric
+@attribute cancel numeric
+@attribute title numeric
+@attribute OnClickRec numeric
+@attribute LinearLayout numeric
+@attribute add numeric
+@attribute bar numeric
+@attribute clickedTakePhoto numeric
+@attribute onKeyDown numeric
+@attribute reset numeric
+@attribute rec numeric
+@attribute onPrepareOptionsMenu numeric
+@attribute onPreferenceChange numeric
+@attribute video numeric
+@attribute onPause numeric
+@attribute onOptionsItemSelected numeric
 @attribute onResume numeric
 @attribute onSaveInstanceState numeric
-@attribute onStart numeric
-@attribute onStartRecClick numeric
-@attribute onStop numeric
-@attribute onTouchEvent numeric
 @attribute onWindowFocusChanged numeric
-@attribute share_close numeric
+@attribute onStop numeric
 @attribute startListen numeric
+@attribute onTouchEvent numeric
+@attribute rl numeric
+@attribute remote numeric
 @attribute surfaceCreated numeric
-@attribute view numeric
-@attribute void numeric
-@attribute AccountsActivity_Button_Done numeric
-@attribute AccountsActivity_Button_Skip numeric
-@attribute Button numeric
-@attribute EditText numeric
-@attribute GridView numeric
-@attribute HListView numeric
-@attribute InviteContactByPhoneScreen_Button_Done numeric
-@attribute OnClickCheck numeric
-@attribute OnClickOK numeric
+@attribute speak numeric
+@attribute share numeric
+@attribute mode numeric
+@attribute onCreateView numeric
+@attribute close numeric
+@attribute checkCanRecord numeric
+@attribute dispatchKeyEvent numeric
+@attribute onCreateContextMenu numeric
+@attribute flash numeric
+@attribute btn numeric
+@attribute boolean numeric
+@attribute audio numeric
+@attribute View numeric
+@attribute OnClickRemoteVoiceCancel numeric
+@attribute RelativeLayout numeric
 @attribute TextView numeric
-@attribute activate_button numeric
-@attribute activity_enter_contact_$_textview_done numeric
-@attribute attachBaseContext numeric
-@attribute btnTest numeric
-@attribute btn_more numeric
-@attribute button_share numeric
-@attribute cbx_notification numeric
-@attribute com numeric
-@attribute editFieldCurrentPrice numeric
-@attribute editFieldDiscountPercent numeric
-@attribute gesturepwd_unlock_lockview numeric
-@attribute gridview numeric
-@attribute image numeric
+@attribute go numeric
+@attribute goto numeric
+@attribute grid numeric
+@attribute ok numeric
+@attribute onBackPressed numeric
+@attribute onConfigurationChanged numeric
+@attribute onCreate numeric
+@attribute onActivityResult numeric
+@attribute voice numeric
+@attribute home numeric
+@attribute ln numeric
+@attribute icon numeric
 @attribute init> numeric
-@attribute inputmethod numeric
-@attribute latin numeric
-@attribute nahButtonClicked numeric
-@attribute onAgreeButton numeric
+@attribute l numeric
+@attribute view numeric
+@attribute x numeric
+@attribute void numeric
+@attribute onMeasure numeric
+@attribute onLayout numeric
+@attribute onListItemClick numeric
+@attribute onNewIntent numeric
+@attribute onTextChanged numeric
+@attribute onNumClick numeric
+@attribute onProgressChanged numeric
+@attribute onKeyUp numeric
+@attribute onItemClick numeric
+@attribute onInitializeAccessibilityNodeInfo numeric
+@attribute onDraw numeric
 @attribute onClickEvent numeric
 @attribute onClickNewRegisterButton numeric
 @attribute onClickRegistEquipmentOk numeric
 @attribute onContextItemSelected numeric
 @attribute onDeviceSelect numeric
-@attribute onDraw numeric
-@attribute onInitializeAccessibilityNodeInfo numeric
-@attribute onItemClick numeric
-@attribute onKeyDown numeric
-@attribute onKeyUp numeric
-@attribute onLayout numeric
-@attribute onListItemClick numeric
-@attribute onMeasure numeric
-@attribute onNewIntent numeric
-@attribute onNumClick numeric
-@attribute onProgressChanged numeric
 @attribute onRestoreInstanceState numeric
-@attribute onTextChanged numeric
-@attribute recyler_feeds numeric
-@attribute save numeric
-@attribute setAdapter numeric
-@attribute settings numeric
+@attribute percent numeric
+@attribute wv numeric
+@attribute text numeric
+@attribute summary numeric
+@attribute test numeric
+@attribute theme numeric
+@attribute phone numeric
+@attribute unlock numeric
+@attribute wi numeric
+@attribute skip numeric
 @attribute shareButtonClicked numeric
-@attribute theme_hor_listview numeric
-@attribute widget numeric
-@attribute wv_wifi numeric
+@attribute settings numeric
+@attribute setAdapter numeric
+@attribute price numeric
+@attribute pw numeric
+@attribute re numeric
+@attribute save numeric
+@attribute screen numeric
+@attribute onAgreeButton numeric
+@attribute notification numeric
+@attribute nahButtonClicked numeric
+@attribute cb numeric
+@attribute attachBaseContext numeric
+@attribute by numeric
+@attribute com numeric
+@attribute more numeric
+@attribute contact numeric
+@attribute current numeric
+@attribute activity numeric
+@attribute activate numeric
+@attribute accounts numeric
+@attribute OnClickOK numeric
+@attribute $ numeric
+@attribute EditText numeric
+@attribute GridView numeric
+@attribute HListView numeric
+@attribute OnClickCheck numeric
+@attribute cy numeric
+@attribute d numeric
+@attribute discount numeric
+@attribute inputmethod numeric
+@attribute latin numeric
+@attribute ler numeric
+@attribute list numeric
+@attribute lock numeric
+@attribute login numeric
+@attribute invite numeric
+@attribute hor numeric
+@attribute done numeric
+@attribute gesture numeric
+@attribute edit numeric
+@attribute enter numeric
+@attribute feeds numeric
+@attribute fi numeric
+@attribute field numeric
+@attribute vr numeric
+@attribute text_label {T,F}
 
 @data
-{0 F,4 1,5 1,11 1,36 1}
-{0 F,4 1,5 1,11 1,36 1}
-{0 F,4 1,5 1,6 1,13 1,36 1,46 1,48 1,89 1}
-{0 F,4 1,5 1,27 1,36 1}
-{0 F,4 1,5 1,21 1,36 1}
-{0 F,4 1,5 1,13 1,36 1}
-{0 F,4 1,5 1,19 1,36 1}
-{0 F,4 1,5 1,7 1,17 1}
-{0 F,4 1,5 1,29 1,36 1}
-{0 F,4 1,5 1,13 1,36 1,52 1}
-{0 F,4 1,5 1,13 1,36 1}
-{0 F,4 1,5 1,15 1,36 1}
-{0 F,4 1,5 1,6 1,7 1,42 1,54 1,61 1,62 1,74 1,86 1,88 1}
-{0 F,4 1,5 1,6 1,36 1,42 1,54 1,60 1,61 1,62 1,86 1,88 1}
-{0 F,4 1,5 1,6 1,36 1,42 1,54 1,61 1,62 1,71 1,86 1,88 1}
-{0 F,4 1,5 1,7 1,17 1}
-{0 F,4 1,5 1,15 1,36 1}
-{0 F,4 1,5 1,25 1,36 1}
-{0 F,4 1,5 1,36 1,63 1}
-{0 F,4 1,5 1,36 1,87 1}
-{0 F,4 1,5 1,7 1,17 1}
-{0 F,4 1,5 1,11 1,36 1}
-{0 F,4 1,5 1,12 1,36 1}
-{0 F,4 1,5 1,29 1,36 1}
-{0 F,4 1,5 1,7 1,20 1}
-{0 F,4 1,5 1,7 1,20 1}
-{0 F,4 1,5 1,7 1,17 1}
-{0 F,4 1,5 1,12 1,36 1}
-{0 F,4 1,5 1,25 1,36 1}
-{0 F,4 1,5 1,26 1,36 1}
-{0 F,4 1,5 1,13 1,36 1,43 1}
-{0 F,4 1,5 1,7 1,20 1}
-{0 F,4 1,5 1,13 1,36 1,38 1}
-{0 F,4 1,5 1,13 1,36 1,37 1}
-{0 F,4 1,5 1,7 1,68 1}
-{0 F,4 1,5 1,25 1,36 1}
-{0 F,4 1,5 1,27 1,36 1}
-{0 F,4 1,5 1,19 1,36 1}
-{0 F,4 1,5 1,25 1,36 1}
-{0 F,4 1,5 1,25 1,36 1}
-{0 F,4 1,5 1,21 1,36 1}
-{0 F,4 1,5 1,25 1,36 1}
-{0 F,4 1,5 1,25 1,36 1}
-{0 F,4 1,5 1,36 1,69 1}
-{0 F,4 1,5 1,36 1,72 1}
-{0 F,4 1,5 1,13 1,36 1}
-{0 F,4 1,5 1,13 1,36 1}
-{0 F,4 1,5 1,13 1,36 1}
-{0 F,4 1,5 1,13 1,36 1}
-{0 F,4 1,5 1,19 1,36 1}
-{0 F,4 1,5 1,25 1,36 1}
-{0 F,4 1,5 1,13 1,36 1}
-{0 F,4 1,5 1,19 1,36 1}
-{0 F,4 1,5 1,21 1,36 1}
-{0 F,4 1,5 1,25 1,36 1}
-{0 F,4 1,5 1,19 1,36 1}
-{0 F,4 1,5 1,25 1,36 1}
-{0 F,4 1,5 1,6 1,36 1,40 1,55 1,56 1,82 1,89 1}
-{0 F,4 1,5 1,15 1,36 1}
-{0 F,4 1,5 1,15 1,36 1}
-{0 F,4 1,5 1,15 1,36 1}
-{0 F,4 1,5 1,15 1,36 1}
-{0 F,4 1,5 1,13 1,36 1,84 1}
-{0 F,4 1,5 1,7 1,17 1}
-{0 F,4 1,5 1,7 1,17 1}
-{0 F,4 1,5 1,12 1,36 1}
-{0 F,4 1,5 1,12 1,36 1}
-{0 F,4 1,5 1,7 1,17 1}
-{0 F,4 1,5 1,36 1,60 1}
-{0 F,4 1,5 1,31 1,36 1}
-{0 F,4 1,5 1,29 1,36 1}
-{0 F,4 1,5 1,25 1,36 1}
-{0 F,4 1,5 1,36 1,65 1}
-{0 F,4 1,5 1,36 1,79 1}
-{0 F,4 1,5 1,13 1,36 1}
-{0 F,4 1,5 1,36 1,51 1,70 1}
-{0 F,3 1,4 1,5 1,6 1,35 1,36 1,57 1,81 1}
-{0 F,4 1,5 1,7 1,17 1}
-{0 F,4 1,5 1,7 1,17 1}
-{0 F,4 1,5 1,15 1,36 1}
-{0 F,4 1,5 1,15 1,36 1}
-{0 F,4 1,5 1,7 1,17 1}
-{0 F,4 1,5 1,13 1,36 1,47 1}
-{0 F,4 1,5 1,19 1,36 1}
-{0 F,4 1,5 1,15 1,36 1}
-{0 F,4 1,5 1,21 1,36 1}
-{0 F,4 1,5 1,15 1,36 1}
-{0 F,4 1,5 1,29 1,36 1}
-{0 F,4 1,5 1,7 1,17 1}
-{0 F,4 1,5 1,36 1,80 1}
-{0 F,4 1,5 1,19 1,36 1}
-{0 F,4 1,5 1,12 1,36 1}
-{0 F,4 1,5 1,19 1,36 1}
-{0 F,4 1,5 1,7 1,17 1}
-{0 F,4 1,5 1,7 1,17 1}
-{0 F,4 1,5 1,21 1,36 1}
-{0 F,4 1,5 1,21 1,36 1}
-{0 F,4 1,5 1,19 1,36 1}
-{0 F,4 1,5 1,7 1,73 1}
-{0 F,4 1,5 1,15 1,36 1}
-{0 F,4 1,5 1,6 1,36 1,41 1,58 1,77 1,89 1}
-{0 F,4 1,5 1,6 1,36 1,41 1,58 1,85 1,89 1}
-{0 F,4 1,5 1,6 1,36 1,41 1,58 1,85 1,89 1}
-{0 F,4 1,5 1,7 1,17 1}
-{0 F,4 1,5 1,15 1,36 1}
-{0 F,4 1,5 1,36 1,76 1}
-{0 F,4 1,5 1,36 1,76 1}
-{0 F,4 1,5 1,27 1,36 1}
-{0 F,4 1,5 1,7 1,17 1}
-{0 F,4 1,5 1,27 1,36 1}
-{0 F,4 1,5 1,12 1,36 1}
-{0 F,4 1,5 1,29 1,36 1}
-{0 F,4 1,5 1,7 1,23 1}
-{0 F,4 1,5 1,12 1,36 1}
-{0 F,4 1,5 1,12 1,36 1}
-{0 F,4 1,5 1,15 1,36 1}
-{0 F,4 1,5 1,27 1,36 1}
-{0 F,4 1,5 1,27 1,36 1}
-{0 F,4 1,5 1,11 1,36 1}
-{0 F,4 1,5 1,11 1,36 1}
-{0 F,4 1,5 1,12 1,36 1}
-{0 F,4 1,5 1,36 1,44 1}
-{0 F,4 1,5 1,11 1,36 1}
-{0 F,4 1,5 1,13 1,36 1}
-{0 F,4 1,5 1,36 1,45 1}
-{0 F,4 1,5 1,19 1,36 1}
-{0 F,4 1,5 1,13 1,36 1}
-{0 F,4 1,5 1,36 1,64 1}
-{0 F,4 1,5 1,12 1,36 1}
-{0 F,4 1,5 1,36 1,66 1}
-{0 F,4 1,5 1,19 1,36 1}
-{0 F,4 1,5 1,27 1,36 1}
-{0 F,4 1,5 1,25 1,36 1}
-{0 F,4 1,5 1,36 1,67 1}
-{0 F,4 1,5 1,15 1,36 1}
-{0 F,4 1,5 1,15 1,36 1}
-{0 F,4 1,5 1,36 1,60 1,83 1}
-{0 F,4 1,5 1,7 1,17 1}
-{0 F,4 1,5 1,11 1,36 1}
-{0 F,4 1,5 1,7 1,59 1,73 1}
-{0 F,4 1,5 1,7 1,30 1,59 1}
-{0 F,4 1,5 1,36 1,59 1,75 1}
-{0 F,4 1,5 1,13 1,36 1}
-{0 F,4 1,5 1,13 1,36 1}
-{0 F,4 1,5 1,13 1,36 1}
-{0 F,4 1,5 1,13 1,36 1}
-{0 F,4 1,5 1,15 1,36 1}
-{0 F,4 1,5 1,7 1,17 1}
-{0 F,4 1,5 1,7 1,17 1}
-{0 F,4 1,5 1,7 1,17 1}
-{0 F,4 1,5 1,19 1,36 1}
-{0 F,4 1,5 1,7 1,17 1}
-{0 F,4 1,5 1,6 1,13 1,36 1,39 1,50 1,89 1}
-{0 F,4 1,5 1,19 1,36 1}
-{0 F,4 1,5 1,25 1,36 1}
-{0 F,4 1,5 1,15 1,36 1}
-{0 F,4 1,5 1,15 1,36 1}
-{0 F,4 1,5 1,16 1,36 1}
-{0 F,4 1,5 1,29 1,36 1}
-{0 F,4 1,5 1,13 1,36 1}
-{0 F,4 1,5 1,15 1,36 1}
-{0 F,4 1,5 1,13 1,36 1}
-{0 F,4 1,5 1,13 1,36 1}
-{0 F,4 1,5 1,12 1,36 1}
-{0 F,4 1,5 1,15 1,36 1}
-{0 F,4 1,5 1,15 1,36 1}
-{0 F,4 1,5 1,15 1,36 1}
-{0 F,4 1,5 1,7 1,10 1}
-{0 F,4 1,5 1,27 1,36 1}
-{0 F,4 1,5 1,27 1,36 1}
-{0 F,4 1,5 1,7 1,17 1}
-{0 F,4 1,5 1,7 1,17 1}
-{0 F,4 1,5 1,7 1,17 1}
-{0 F,4 1,5 1,13 1,36 1}
-{0 F,4 1,5 1,7 1,17 1}
-{0 F,4 1,5 1,12 1,36 1}
-{0 F,4 1,5 1,15 1,36 1}
-{0 F,4 1,5 1,7 1,17 1}
-{0 F,4 1,5 1,13 1,36 1}
-{0 F,4 1,5 1,13 1,36 1}
-{0 F,4 1,5 1,13 1,36 1}
-{0 F,4 1,5 1,25 1,36 1}
-{0 F,4 1,5 1,7 1,17 1}
-{0 F,4 1,5 1,7 1,17 1}
-{0 F,4 1,5 1,7 1,17 1}
-{0 F,4 1,5 1,15 1,36 1}
-{0 F,4 1,5 1,7 1,23 1}
-{0 F,4 1,5 1,7 1,17 1}
-{0 F,4 1,5 1,15 1,36 1}
-{0 F,4 1,5 1,25 1,36 1}
-{0 F,4 1,5 1,12 1,36 1}
-{0 F,4 1,5 1,25 1,36 1}
-{0 F,4 1,5 1,7 1,17 1}
-{0 F,4 1,5 1,36 1,49 1}
-{0 F,4 1,5 1,36 1,49 1}
-{0 F,4 1,5 1,36 1,49 1}
-{0 F,4 1,5 1,7 1,17 1}
-{0 F,4 1,5 1,36 1,49 1}
-{0 F,4 1,5 1,7 1,17 1}
-{0 F,4 1,5 1,15 1,36 1}
-{0 F,4 1,5 1,7 1,17 1}
-{0 F,4 1,5 1,15 1,36 1}
-{0 F,4 1,5 1,7 1,17 1}
-{0 F,4 1,5 1,13 1,36 1}
-{0 F,4 1,5 1,7 1,17 1}
-{0 F,4 1,5 1,13 1,36 1}
-{0 F,4 1,5 1,7 1,17 1}
-{0 F,4 1,5 1,7 1,20 1}
-{0 F,4 1,5 1,7 1,17 1}
-{0 F,4 1,5 1,7 1,30 1,90 1}
-{0 F,4 1,5 1,7 1,17 1}
-{0 F,4 1,5 1,13 1,36 1}
-{0 F,3 1,4 1,5 1,6 1,18 1,35 1}
-{0 F,3 1,4 1,5 1,6 1,18 1,35 1}
-{0 F,4 1,5 1,7 1,73 1}
-{0 F,4 1,5 1,15 1,36 1}
-{0 F,4 1,5 1,15 1,36 1}
-{0 F,4 1,5 1,13 1,36 1}
-{0 F,4 1,5 1,15 1,36 1}
-{0 F,4 1,5 1,36 1,78 1}
-{0 F,4 1,5 1,13 1,36 1,53 1}
-{0 F,4 1,5 1,7 1,17 1}
-{0 F,4 1,5 1,13 1,36 1}
-{0 F,4 1,5 1,21 1,36 1}
-{0 F,4 1,5 1,16 1,36 1}
-{0 F,4 1,5 1,15 1,36 1}
-{0 F,4 1,5 1,15 1,36 1}
-{0 F,4 1,5 1,15 1,36 1}
-{4 1,5 1,7 1,17 1}
-{4 1,5 1,15 1,36 1}
-{4 1,5 1,33 1,36 1}
-{4 1,5 1,13 1,36 1}
-{4 1,5 1,13 1,36 1}
-{4 1,5 1,13 1,36 1}
-{4 1,5 1,13 1,36 1}
-{4 1,5 1,13 1,36 1}
-{4 1,5 1,26 1,36 1}
-{4 1,5 1,11 1,36 1}
-{4 1,5 1,13 1,36 1}
-{4 1,5 1,13 1,36 1}
-{4 1,5 1,13 1,36 1}
-{4 1,5 1,13 1,36 1}
-{4 1,5 1,13 1,36 1}
-{4 1,5 1,13 1,36 1}
-{4 1,5 1,13 1,36 1}
-{4 1,5 1,13 1,36 1}
-{4 1,5 1,24 1,36 1}
-{4 1,5 1,13 1,36 1}
-{4 1,5 1,13 1,36 1}
-{4 1,5 1,15 1,36 1}
-{4 1,5 1,13 1,36 1}
-{4 1,5 1,13 1,32 1,36 1}
-{4 1,5 1,28 1,36 1}
-{4 1,5 1,13 1,36 1}
-{4 1,5 1,7 1,10 1}
-{4 1,5 1,7 1,30 1}
-{4 1,5 1,15 1,36 1}
-{4 1,5 1,25 1,36 1}
-{4 1,5 1,7 1,17 1}
-{4 1,5 1,24 1,36 1}
-{4 1,5 1,15 1,36 1}
-{4 1,5 1,14 1,36 1}
-{4 1,5 1,13 1,36 1}
-{4 1,5 1,7 1,17 1}
-{4 1,5 1,24 1,36 1}
-{4 1,5 1,7 1,23 1}
-{4 1,5 1,14 1,36 1}
-{1 1,4 1,5 1,36 1}
-{2 1,4 1,5 1,36 1}
-{4 1,5 1,31 1,36 1}
-{4 1,5 1,25 1,36 1}
-{4 1,5 1,21 1,36 1}
-{4 1,5 1,21 1,36 1}
-{4 1,5 1,19 1,36 1}
-{4 1,5 1,16 1,36 1}
-{4 1,5 1,13 1,36 1}
-{4 1,5 1,13 1,36 1}
-{4 1,5 1,13 1,36 1}
-{4 1,5 1,13 1,36 1}
-{4 1,5 1,13 1,36 1}
-{4 1,5 1,7 1,20 1}
-{4 1,5 1,7 1,20 1}
-{4 1,5 1,15 1,36 1}
-{4 1,5 1,15 1,36 1}
-{4 1,5 1,15 1,36 1}
-{4 1,5 1,25 1,36 1}
-{4 1,5 1,25 1,36 1}
-{4 1,5 1,25 1,36 1}
-{4 1,5 1,25 1,36 1}
-{4 1,5 1,13 1,36 1}
-{4 1,5 1,13 1,36 1}
-{4 1,5 1,13 1,36 1}
-{4 1,5 1,27 1,36 1}
-{4 1,5 1,13 1,36 1}
-{4 1,5 1,7 1,20 1}
-{4 1,5 1,11 1,36 1}
-{4 1,5 1,25 1,36 1}
-{4 1,5 1,7 1,17 1}
-{4 1,5 1,7 1,17 1}
-{4 1,5 1,13 1,36 1}
-{4 1,5 1,9 1,36 1}
-{4 1,5 1,13 1,36 1}
-{4 1,5 1,29 1,36 1}
-{4 1,5 1,7 1,17 1}
-{4 1,5 1,15 1,36 1}
-{4 1,5 1,13 1,36 1}
-{4 1,5 1,7 1,8 1}
-{4 1,5 1,13 1,36 1}
-{4 1,5 1,7 1,17 1}
-{4 1,5 1,13 1,36 1}
-{4 1,5 1,7 1,17 1}
-{3 1,4 1,5 1,6 1,18 1,35 1}
-{4 1,5 1,7 1,22 1}
-{4 1,5 1,9 1,36 1}
-{4 1,5 1,19 1,36 1}
-{4 1,5 1,12 1,36 1}
-{4 1,5 1,13 1,36 1}
-{4 1,5 1,34 1,36 1}
+{70 1,79 1,153 F}
+{70 1,79 1,153 F}
+{0 1,1 1,4 1,62 1,77 1,79 1,99 1,123 1,125 1,129 1,145 1,148 1,153 F}
+{17 1,79 1,153 F}
+{36 1,79 1,153 F}
+{4 1,79 1,153 F}
+{16 1,79 1,153 F}
+{14 1,57 1,153 F}
+{41 1,79 1,153 F}
+{4 1,5 1,48 1,79 1,153 F}
+{4 1,79 1,153 F}
+{69 1,79 1,153 F}
+{1 1,57 1,77 1,87 1,102 1,108 1,121 1,132 1,137 1,138 1,140 1,144 1,153 F}
+{1 1,75 1,77 1,79 1,102 1,108 1,121 1,132 1,137 1,138 1,140 1,144 1,153 F}
+{1 1,77 1,79 1,89 1,102 1,108 1,121 1,132 1,137 1,138 1,140 1,144 1,153 F}
+{41 1,79 1,153 F}
+{14 1,57 1,153 F}
+{37 1,57 1,153 F}
+{37 1,57 1,153 F}
+{38 1,79 1,153 F}
+{17 1,79 1,153 F}
+{69 1,79 1,153 F}
+{38 1,79 1,153 F}
+{79 1,117 1,153 F}
+{79 1,107 1,153 F}
+{69 1,79 1,153 F}
+{14 1,57 1,153 F}
+{0 1,1 1,4 1,62 1,79 1,100 1,153 F}
+{30 1,57 1,153 F}
+{70 1,79 1,153 F}
+{69 1,79 1,153 F}
+{30 1,57 1,153 F}
+{70 1,79 1,153 F}
+{67 1,79 1,153 F}
+{69 1,79 1,153 F}
+{41 1,79 1,153 F}
+{37 1,57 1,153 F}
+{37 1,57 1,153 F}
+{14 1,57 1,153 F}
+{67 1,79 1,153 F}
+{38 1,79 1,153 F}
+{39 1,79 1,153 F}
+{4 1,5 1,79 1,103 1,114 1,120 1,123 1,143 1,145 1,153 F}
+{37 1,57 1,153 F}
+{4 1,5 1,79 1,106 1,125 1,127 1,153 F}
+{4 1,5 1,79 1,125 1,127 1,145 1,153 F}
+{57 1,94 1,153 F}
+{38 1,79 1,153 F}
+{17 1,79 1,153 F}
+{16 1,79 1,153 F}
+{38 1,79 1,153 F}
+{38 1,79 1,153 F}
+{36 1,79 1,153 F}
+{38 1,79 1,153 F}
+{38 1,79 1,153 F}
+{79 1,95 1,153 F}
+{79 1,88 1,153 F}
+{4 1,79 1,153 F}
+{4 1,79 1,153 F}
+{4 1,79 1,153 F}
+{4 1,79 1,153 F}
+{16 1,79 1,153 F}
+{38 1,79 1,153 F}
+{4 1,79 1,153 F}
+{16 1,79 1,153 F}
+{36 1,79 1,153 F}
+{38 1,79 1,153 F}
+{16 1,79 1,153 F}
+{38 1,79 1,153 F}
+{0 1,1 1,79 1,84 1,97 1,110 1,124 1,130 1,136 1,147 1,151 1,153 F}
+{69 1,79 1,153 F}
+{69 1,79 1,153 F}
+{69 1,79 1,153 F}
+{69 1,79 1,153 F}
+{4 1,79 1,113 1,153 F}
+{14 1,57 1,153 F}
+{36 1,79 1,153 F}
+{36 1,79 1,153 F}
+{79 1,96 1,153 F}
+{14 1,57 1,153 F}
+{67 1,79 1,153 F}
+{67 1,79 1,153 F}
+{14 1,57 1,153 F}
+{75 1,79 1,153 F}
+{40 1,79 1,153 F}
+{41 1,79 1,153 F}
+{38 1,79 1,153 F}
+{79 1,91 1,153 F}
+{79 1,85 1,153 F}
+{4 1,79 1,153 F}
+{56 1,79 1,90 1,122 1,153 F}
+{1 1,59 1,77 1,79 1,96 1,104 1,111 1,135 1,141 1,146 1,153 F}
+{4 1,79 1,153 F}
+{38 1,79 1,153 F}
+{14 1,57 1,153 F}
+{14 1,57 1,153 F}
+{75 1,79 1,153 F}
+{69 1,79 1,153 F}
+{69 1,79 1,153 F}
+{14 1,57 1,153 F}
+{69 1,79 1,153 F}
+{4 1,5 1,79 1,126 1,153 F}
+{16 1,79 1,153 F}
+{69 1,79 1,153 F}
+{36 1,79 1,153 F}
+{69 1,79 1,153 F}
+{41 1,79 1,153 F}
+{14 1,57 1,153 F}
+{79 1,86 1,153 F}
+{16 1,79 1,153 F}
+{4 1,5 1,66 1,79 1,153 F}
+{38 1,79 1,153 F}
+{17 1,79 1,153 F}
+{38 1,79 1,153 F}
+{38 1,79 1,153 F}
+{69 1,79 1,153 F}
+{38 1,79 1,153 F}
+{4 1,79 1,153 F}
+{67 1,79 1,153 F}
+{16 1,79 1,153 F}
+{14 1,57 1,153 F}
+{14 1,57 1,153 F}
+{14 1,57 1,153 F}
+{69 1,79 1,153 F}
+{16 1,79 1,153 F}
+{36 1,79 1,153 F}
+{36 1,79 1,153 F}
+{36 1,79 1,153 F}
+{41 1,79 1,153 F}
+{16 1,79 1,153 F}
+{16 1,79 1,153 F}
+{17 1,79 1,153 F}
+{68 1,79 1,153 F}
+{69 1,79 1,153 F}
+{16 1,79 1,153 F}
+{30 1,57 1,153 F}
+{69 1,79 1,153 F}
+{0 1,1 1,65 1,77 1,79 1,80 1,131 1,153 F}
+{0 1,1 1,65 1,77 1,79 1,109 1,131 1,153 F}
+{0 1,1 1,65 1,77 1,79 1,109 1,131 1,153 F}
+{14 1,57 1,153 F}
+{69 1,79 1,153 F}
+{79 1,82 1,153 F}
+{79 1,82 1,153 F}
+{17 1,79 1,153 F}
+{14 1,57 1,153 F}
+{14 1,57 1,153 F}
+{16 1,79 1,153 F}
+{14 1,57 1,153 F}
+{17 1,79 1,153 F}
+{67 1,79 1,153 F}
+{41 1,79 1,153 F}
+{33 1,57 1,153 F}
+{67 1,79 1,153 F}
+{67 1,79 1,153 F}
+{69 1,79 1,153 F}
+{17 1,79 1,153 F}
+{17 1,79 1,153 F}
+{70 1,79 1,153 F}
+{70 1,79 1,153 F}
+{67 1,79 1,153 F}
+{79 1,133 1,153 F}
+{70 1,79 1,153 F}
+{4 1,79 1,153 F}
+{79 1,128 1,153 F}
+{16 1,79 1,153 F}
+{4 1,79 1,153 F}
+{79 1,115 1,153 F}
+{67 1,79 1,153 F}
+{79 1,92 1,153 F}
+{16 1,79 1,153 F}
+{17 1,79 1,153 F}
+{38 1,79 1,153 F}
+{79 1,93 1,153 F}
+{69 1,79 1,153 F}
+{69 1,79 1,153 F}
+{75 1,79 1,112 1,134 1,139 1,149 1,153 F}
+{14 1,57 1,153 F}
+{70 1,79 1,153 F}
+{11 1,30 1,57 1,153 F}
+{11 1,43 1,57 1,153 F}
+{11 1,79 1,81 1,153 F}
+{4 1,79 1,153 F}
+{4 1,79 1,153 F}
+{4 1,79 1,153 F}
+{4 1,79 1,153 F}
+{69 1,79 1,153 F}
+{14 1,57 1,153 F}
+{14 1,57 1,153 F}
+{14 1,57 1,153 F}
+{16 1,79 1,153 F}
+{14 1,57 1,153 F}
+{0 1,1 1,4 1,9 1,56 1,79 1,101 1,153 F}
+{16 1,79 1,153 F}
+{38 1,79 1,153 F}
+{69 1,79 1,153 F}
+{69 1,79 1,153 F}
+{54 1,79 1,153 F}
+{41 1,79 1,153 F}
+{4 1,79 1,153 F}
+{69 1,79 1,153 F}
+{4 1,79 1,153 F}
+{4 1,79 1,153 F}
+{67 1,79 1,153 F}
+{69 1,79 1,153 F}
+{69 1,79 1,153 F}
+{69 1,79 1,153 F}
+{14 1,57 1,153 F}
+{69 1,79 1,153 F}
+{39 1,79 1,153 F}
+{17 1,79 1,153 F}
+{53 1,57 1,153 F}
+{17 1,79 1,153 F}
+{17 1,79 1,153 F}
+{14 1,57 1,153 F}
+{14 1,57 1,153 F}
+{14 1,57 1,153 F}
+{4 1,79 1,153 F}
+{14 1,57 1,153 F}
+{67 1,79 1,153 F}
+{69 1,79 1,153 F}
+{14 1,57 1,153 F}
+{4 1,79 1,153 F}
+{4 1,79 1,153 F}
+{4 1,79 1,153 F}
+{38 1,79 1,153 F}
+{14 1,57 1,153 F}
+{14 1,57 1,153 F}
+{14 1,57 1,153 F}
+{69 1,79 1,153 F}
+{33 1,57 1,153 F}
+{0 1,1 1,5 1,9 1,14 1,57 1,142 1,153 F}
+{69 1,79 1,153 F}
+{38 1,79 1,153 F}
+{67 1,79 1,153 F}
+{38 1,79 1,153 F}
+{14 1,57 1,153 F}
+{79 1,119 1,153 F}
+{79 1,119 1,153 F}
+{79 1,119 1,153 F}
+{14 1,57 1,153 F}
+{79 1,119 1,153 F}
+{14 1,57 1,153 F}
+{69 1,79 1,153 F}
+{14 1,57 1,153 F}
+{69 1,79 1,153 F}
+{14 1,57 1,153 F}
+{0 1,1 1,4 1,8 1,11 1,72 1,77 1,79 1,153 F}
+{14 1,57 1,153 F}
+{0 1,1 1,4 1,8 1,11 1,72 1,77 1,79 1,153 F}
+{14 1,57 1,153 F}
+{37 1,57 1,153 F}
+{14 1,57 1,153 F}
+{14 1,57 1,153 F}
+{43 1,57 1,98 1,105 1,150 1,153 F}
+{14 1,57 1,153 F}
+{4 1,79 1,153 F}
+{1 1,50 1,59 1,77 1,153 F}
+{1 1,50 1,59 1,77 1,153 F}
+{30 1,57 1,153 F}
+{69 1,79 1,153 F}
+{16 1,79 1,153 F}
+{69 1,79 1,153 F}
+{4 1,79 1,153 F}
+{69 1,79 1,153 F}
+{79 1,83 1,153 F}
+{4 1,78 1,79 1,116 1,118 1,153 F}
+{14 1,57 1,153 F}
+{4 1,79 1,153 F}
+{36 1,79 1,153 F}
+{54 1,79 1,153 F}
+{69 1,79 1,153 F}
+{69 1,79 1,153 F}
+{69 1,79 1,153 F}
+{14 1,57 1}
+{69 1,79 1}
+{0 1,1 1,8 1,11 1,21 1,42 1,77 1,79 1}
+{0 1,1 1,4 1,9 1,10 1,56 1,79 1}
+{0 1,1 1,4 1,26 1,55 1,73 1,76 1,79 1}
+{4 1,79 1}
+{0 1,1 1,4 1,9 1,10 1,56 1,79 1}
+{0 1,1 1,4 1,9 1,10 1,56 1,79 1}
+{4 1,79 1}
+{0 1,1 1,4 1,9 1,10 1,56 1,79 1}
+{0 1,1 1,2 1,3 1,4 1,5 1,79 1}
+{0 1,1 1,2 1,3 1,4 1,5 1,79 1}
+{39 1,79 1}
+{0 1,1 1,7 1,8 1,11 1,69 1,79 1}
+{70 1,79 1}
+{4 1,79 1}
+{4 1,79 1}
+{4 1,79 1}
+{4 1,79 1}
+{4 1,79 1}
+{4 1,79 1}
+{4 1,79 1}
+{4 1,79 1}
+{4 1,79 1}
+{4 1,79 1}
+{15 1,79 1}
+{4 1,79 1}
+{0 1,1 1,4 1,5 1,9 1,79 1,152 1}
+{69 1,79 1}
+{0 1,1 1,4 1,8 1,63 1,79 1}
+{12 1,13 1,22 1,75 1,79 1}
+{12 1,13 1,22 1,75 1,79 1}
+{12 1,13 1,24 1,28 1,75 1,79 1}
+{12 1,13 1,24 1,28 1,75 1,79 1}
+{4 1,48 1,51 1,79 1}
+{0 1,1 1,2 1,4 1,5 1,47 1,79 1}
+{53 1,57 1}
+{43 1,57 1}
+{69 1,79 1}
+{38 1,79 1}
+{14 1,57 1}
+{4 1,79 1}
+{0 1,1 1,4 1,21 1,26 1,65 1,79 1}
+{0 1,1 1,2 1,3 1,5 1,15 1,79 1}
+{69 1,79 1}
+{0 1,1 1,7 1,8 1,11 1,69 1,79 1}
+{0 1,1 1,7 1,8 1,11 1,69 1,79 1}
+{0 1,1 1,4 1,7 1,8 1,11 1,79 1}
+{0 1,1 1,4 1,7 1,8 1,11 1,79 1}
+{41 1,79 1}
+{68 1,79 1}
+{0 1,1 1,4 1,35 1,44 1,61 1,64 1,72 1,79 1}
+{0 1,1 1,2 1,4 1,5 1,20 1,27 1,79 1}
+{0 1,1 1,2 1,4 1,5 1,20 1,27 1,79 1}
+{69 1,79 1}
+{15 1,79 1}
+{33 1,57 1}
+{68 1,79 1}
+{25 1,79 1}
+{25 1,79 1}
+{0 1,1 1,2 1,45 1,60 1,71 1,79 1}
+{40 1,79 1}
+{38 1,79 1}
+{36 1,79 1}
+{36 1,79 1}
+{16 1,79 1}
+{54 1,79 1}
+{0 1,1 1,2 1,3 1,4 1,5 1,6 1,79 1}
+{4 1,79 1}
+{0 1,1 1,2 1,3 1,4 1,5 1,6 1,79 1}
+{0 1,1 1,2 1,3 1,4 1,5 1,6 1,79 1}
+{0 1,1 1,2 1,3 1,4 1,5 1,6 1,79 1}
+{37 1,57 1}
+{0 1,1 1,6 1,19 1,23 1,37 1,57 1,62 1}
+{0 1,1 1,6 1,19 1,23 1,37 1,57 1,62 1}
+{37 1,57 1}
+{69 1,79 1}
+{69 1,79 1}
+{69 1,79 1}
+{69 1,79 1}
+{69 1,79 1}
+{38 1,79 1}
+{38 1,79 1}
+{38 1,79 1}
+{38 1,79 1}
+{38 1,79 1}
+{38 1,79 1}
+{4 1,79 1}
+{0 1,1 1,2 1,3 1,4 1,5 1,6 1,79 1}
+{0 1,1 1,2 1,3 1,4 1,5 1,6 1,79 1}
+{0 1,1 1,2 1,3 1,4 1,5 1,6 1,79 1}
+{0 1,1 1,2 1,3 1,4 1,5 1,6 1,79 1}
+{17 1,79 1}
+{4 1,79 1}
+{0 1,1 1,4 1,5 1,9 1,66 1,79 1}
+{67 1,79 1}
+{67 1,79 1}
+{38 1,79 1}
+{38 1,79 1}
+{38 1,79 1}
+{0 1,1 1,5 1,9 1,38 1,66 1,79 1}
+{0 1,1 1,2 1,4 1,5 1,32 1,79 1}
+{37 1,57 1}
+{70 1,79 1}
+{38 1,79 1}
+{14 1,57 1}
+{14 1,57 1}
+{0 1,1 1,2 1,4 1,49 1,58 1,74 1,79 1}
+{29 1,79 1}
+{0 1,1 1,3 1,4 1,9 1,79 1}
+{41 1,79 1}
+{14 1,57 1}
+{69 1,79 1}
+{0 1,1 1,7 1,8 1,11 1,69 1,79 1}
+{0 1,1 1,4 1,7 1,8 1,11 1,79 1}
+{0 1,1 1,4 1,5 1,9 1,31 1,79 1}
+{0 1,1 1,2 1,3 1,5 1,18 1,52 1,57 1}
+{0 1,1 1,2 1,3 1,4 1,5 1,18 1,79 1}
+{14 1,57 1}
+{0 1,1 1,4 1,7 1,8 1,11 1,79 1}
+{0 1,1 1,4 1,9 1,10 1,56 1,79 1}
+{0 1,1 1,3 1,9 1,14 1,57 1}
+{1 1,50 1,59 1,77 1}
+{34 1,57 1}
+{0 1,1 1,7 1,8 1,11 1,69 1,79 1}
+{0 1,1 1,4 1,7 1,8 1,11 1,79 1}
+{29 1,79 1}
+{14 1,57 1}
+{16 1,79 1}
+{67 1,79 1}
+{0 1,1 1,4 1,5 1,9 1,10 1,79 1}
+{46 1,79 1}
