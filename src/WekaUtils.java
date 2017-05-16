@@ -19,6 +19,7 @@ import weka.core.*;
 import weka.core.converters.ArffLoader;
 import weka.core.converters.ArffSaver;
 import weka.core.converters.ConverterUtils.DataSource;
+import weka.core.pmml.Array;
 import weka.core.stemmers.SnowballStemmer;
 import weka.core.stopwords.WordsFromFile;
 import weka.filters.Filter;
@@ -143,7 +144,6 @@ public class WekaUtils {
         }
 
 
-
         // System.err.println("Parameters");
         //for (int i = 0; i < classifier.getOptions().length; i++) {
         //  System.err.println(classifier.getOptions()[i]);
@@ -216,7 +216,6 @@ public class WekaUtils {
     }
 
 
-
     public static Instance doc2Instance(LabelledDoc doc, List<String> labels) throws Exception {
         ArrayList<LabelledDoc> docs = new ArrayList<>();
         docs.add(doc);
@@ -256,7 +255,7 @@ public class WekaUtils {
     }
 
     public static String predict(String doc, StringToWordVector stringToWordVector, Classifier classifier, Attribute classAttribute)
-        throws Exception {
+            throws Exception {
         List<String> docs = new ArrayList<>();
         docs.add(doc);
         return predict(docs, stringToWordVector, classifier, classAttribute).get(0);
@@ -665,17 +664,13 @@ public class WekaUtils {
     }
 
 
-
-
-
     public static void main(String[] args) throws Exception {
         //eval1();
 
-
-            UpdateableClassifier classifier = (UpdateableClassifier) loadClassifier(new File("full.model"));
-            StringToWordVector stringToWordVector = loadStr2WordVec(new File("full_location.filter"));
-            Instances instances = loadArff("full_Location.arff");
-            WekaUtils wekaUtils = new WekaUtils();
+        UpdateableClassifier classifier = (UpdateableClassifier) loadClassifier(new File("full.model"));
+        StringToWordVector stringToWordVector = loadStr2WordVec(new File("full_location.filter"));
+        Instances instances = loadArff("full_Location.arff");
+        WekaUtils wekaUtils = new WekaUtils();
 
         List<String> labels = new ArrayList<>();
         labels.add("T");
@@ -692,6 +687,8 @@ public class WekaUtils {
         }
 
         boolean update = true;
+        double partition = 0.66;
+        int weight = 50;
         Map<Integer, List<Double>> measures = new HashMap<>();
 
         for (int i = 0; i < docsResutls.size(); i++) {
@@ -700,8 +697,7 @@ public class WekaUtils {
                 continue;
             }
 
-            Double splitD =   labelledDocs.size() * 0.5;
-            int split = splitD.intValue();
+            float split = labelledDocs.size() * (float) partition; //splitD.intValue();
 
             Set<LabelledDoc> Tset = new HashSet<>();
             Set<LabelledDoc> Fset = new HashSet<>();
@@ -718,8 +714,8 @@ public class WekaUtils {
                 }
             }
 
-            int Tsize = Tset.size() / 2;
-            int Fsize = Fset.size() / 2;
+            float Tsize = Tset.size() * (float) partition;
+            float Fsize = Fset.size() * (float) partition;
             for (LabelledDoc labelledDoc : labelledDocs) {
                 if (labelledDoc.getLabel().equals("T")) {
                     Tset.add(labelledDoc);
@@ -737,30 +733,29 @@ public class WekaUtils {
             }
 
             for (LabelledDoc labelledDoc : labelledDocs) {
-               if (!trainSet.contains(labelledDoc)) {
-                   if (trainSet.size() < split) {
-                       trainSet.add(labelledDoc);
-                   } else {
-                       testSet.add(labelledDoc);
-                   }
-               }
+                if (!trainSet.contains(labelledDoc)) {
+                    if (trainSet.size() < split) {
+                        trainSet.add(labelledDoc);
+                    } else {
+                        testSet.add(labelledDoc);
+                    }
+                }
             }
 
 
             if (update) {
+                classifier = (UpdateableClassifier) loadClassifier(new File("full.model"));
                 for (LabelledDoc labelledDoc : trainSet) {
                     Instance instance = genInstanceForUpdateable(labelledDoc, labels, stringToWordVector);
 
-                    for (int k = 0; k < 5; k++) {
+                    for (int k = 0; k < weight; k++) {
                         classifier.updateClassifier(instance);
                     }
                 }
             }
 
             int wrong = 0;
-            if (split == labelledDocs.size()) {
-                split = -1;
-            }
+
             Instances testInstances = docs2Instances(testSet, labels);
             testInstances = Filter.useFilter(testInstances, stringToWordVector);
             Evaluation eval = new Evaluation(testInstances);
@@ -769,13 +764,14 @@ public class WekaUtils {
             measures.get(i).add(eval.weightedPrecision());
             measures.get(i).add(eval.weightedRecall());
             measures.get(i).add(eval.weightedFMeasure());
+            System.out.println("-------------------");
+            System.out.println("user: " + i);
             System.out.println(eval.toSummaryString("\nResults\n======\n", false));
             System.out.println(eval.toClassDetailsString());
             System.out.println(eval.toMatrixString());
             boolean showDetail = false;
             if (showDetail) {
                 for (LabelledDoc labelledDoc : testSet) {
-
                     System.out.println(labelledDoc.getLabel() + ": " + labelledDoc.getDoc());
                     String result = predict(labelledDoc.getDoc(), stringToWordVector, (Classifier) classifier, instances.classAttribute());
                     System.out.println(result);
@@ -792,14 +788,26 @@ public class WekaUtils {
                     }
                 }
 
-
-
                 System.out.println(((float) (testSet.size() - wrong)) / testSet.size());
             }
 
 
-            System.out.println(labelledDocs.size() + ", " + Tset.size() + "," + Fset.size() + "," + testSet.size());
+            System.out.println(labelledDocs.size() + "," + Tset.size() + "," + Fset.size() + "," + testSet.size() + ", " + trainSet.size());
         }
+
+        double[] f1s = new double[measures.size()];
+        int j = 0;
+        for (Integer index : measures.keySet()) {
+            f1s[j] = measures.get(index).get(2);
+            j++;
+        }
+
+        Arrays.sort(f1s);
+        double median = 0.0;
+        if (f1s.length % 2 == 0)
+            median = ((double) f1s[f1s.length / 2] + (double) f1s[f1s.length / 2 - 1]) / 2;
+        else
+            median = (double) f1s[f1s.length / 2];
 
 
         PrintWriter pw = new PrintWriter(new File("results.csv"));
@@ -823,24 +831,23 @@ public class WekaUtils {
         }
         pw.write(sb.toString());
         pw.close();
-        System.out.println("done!");
+        System.out.println("done!" + median);
 
 
         boolean prediction = false;
-            if (prediction) {
+        if (prediction) {
 
 
-                List<String> unlabelledDocs = new ArrayList<>();
-                unlabelledDocs.add("weather");
-                unlabelledDocs.add("map");
-                predict(unlabelledDocs, stringToWordVector, (Classifier) classifier, instances.classAttribute());
-            }
-            // save2Arff(instances, "data_bag");
-            // save2Arff(testInstances, "test_bag");
-
-
+            List<String> unlabelledDocs = new ArrayList<>();
+            unlabelledDocs.add("weather");
+            unlabelledDocs.add("map");
+            predict(unlabelledDocs, stringToWordVector, (Classifier) classifier, instances.classAttribute());
         }
+        // save2Arff(instances, "data_bag");
+        // save2Arff(testInstances, "test_bag");
 
+
+    }
 
 
 }
