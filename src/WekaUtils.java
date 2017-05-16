@@ -687,8 +687,8 @@ public class WekaUtils {
         }
 
         boolean update = true;
-        double partition = 0.66;
-        int weight = 50;
+        double partition = 0.67;
+        int weight = 1;
         Map<Integer, List<Double>> measures = new HashMap<>();
 
         for (int i = 0; i < docsResutls.size(); i++) {
