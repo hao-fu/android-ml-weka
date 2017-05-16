@@ -692,9 +692,9 @@ public class WekaUtils {
         }
 
         boolean update = true;
-        Map<Integer, Double> fmeasures = new HashMap<>();
+        Map<Integer, List<Double>> measures = new HashMap<>();
 
-        for (int i = 5; i < docsResutls.size(); i++) {
+        for (int i = 0; i < docsResutls.size(); i++) {
             List<LabelledDoc> labelledDocs = docsResutls.get(i);
             if (labelledDocs.size() < 10) {
                 continue;
@@ -765,8 +765,10 @@ public class WekaUtils {
             testInstances = Filter.useFilter(testInstances, stringToWordVector);
             Evaluation eval = new Evaluation(testInstances);
             eval.evaluateModel((Classifier) classifier, testInstances);
-            eval.weightedPrecision();
-            eval.weightedRecall();
+            measures.put(i, new ArrayList<Double>());
+            measures.get(i).add(eval.weightedPrecision());
+            measures.get(i).add(eval.weightedRecall());
+            measures.get(i).add(eval.weightedFMeasure());
             System.out.println(eval.toSummaryString("\nResults\n======\n", false));
             System.out.println(eval.toClassDetailsString());
             System.out.println(eval.toMatrixString());
@@ -797,26 +799,31 @@ public class WekaUtils {
 
 
             System.out.println(labelledDocs.size() + ", " + Tset.size() + "," + Fset.size() + "," + testSet.size());
-            break;
         }
 
-        /*
+
         PrintWriter pw = new PrintWriter(new File("results.csv"));
         StringBuilder sb = new StringBuilder();
         sb.append("id");
         sb.append(',');
-        sb.append("Name");
+        sb.append("precision");
+        sb.append(',');
+        sb.append("recall");
+        sb.append(",");
+        sb.append("f1");
         sb.append('\n');
 
-        for (Integer index : fmeasures.keySet()) {
+        for (Integer index : measures.keySet()) {
             sb.append(Integer.toString(index));
-            sb.append(',');
-            sb.append(Double.toString(fmeasures.get(index)));
+            for (Double res : measures.get(index)) {
+                sb.append(',');
+                sb.append(Double.toString(res));
+            }
             sb.append('\n');
         }
         pw.write(sb.toString());
         pw.close();
-        System.out.println("done!");*/
+        System.out.println("done!");
 
 
         boolean prediction = false;
