@@ -266,6 +266,9 @@ public class WekaUtils {
         Instances unlabelledInstances = docs2Instances(docs);
         unlabelledInstances = Filter.useFilter(unlabelledInstances, stringToWordVector);
         List<String> results = new ArrayList<>();
+        if (classAttribute == null) {
+            classAttribute = unlabelledInstances.classAttribute();
+        }
         for (Instance instance : unlabelledInstances) {
             Double clsLabel = classifier.classifyInstance(instance);
 
@@ -524,148 +527,8 @@ public class WekaUtils {
         return data;
     }
 
-    public static void eval1() throws Exception {
-        boolean user = false;
-        List<String> labels = new ArrayList<>();
-        String type;
-        WekaUtils wekaUtils = new WekaUtils();
-        String mark = "Location";//RECORD_AUDI";//Camera"; //READ_PHONE_STATE";//SEND_SMS";//BLUETOOTH";//Location";//";//NFC"; //";//"; Camera"; //"; //"; //Location"; //; ";//Location"; //"; //"; //SEND_SMS";
-        String pyWorkLoc = "D:\\workspace\\COSPOS_MINING";
-        boolean smote = false;
-        boolean attriSel = true;
-        int attNum = 500;
-        String smoteClass = "1";
-        int smotePercent = 230;
-        if (mark.startsWith("Camera")) {
-            smote = true;
-            smoteClass = "2";
-            smotePercent = 130;
-        } else if (mark.startsWith("REA")) {
-            smote = true;
-            smoteClass = "1";
-            smotePercent = 230;
-            attriSel = true;
-            attNum = 100;
-        } else if (mark.startsWith("SEN")) {
-            smote = true;
-            smoteClass = "1";
-            smotePercent = 830;
-            attriSel = true;
-        } else if (mark.startsWith("Location")) {
-            //smote = true;
-            //smoteClass = "1";
-            //smotePercent = 130;
-            attriSel = false;
-        } else if (mark.startsWith("REC")) {
-            //smote = true;
-            //smoteClass = "1";
-            //smotePercent = 80;
-            //attriSel = false;
-            attNum = 500;
-        }
 
-
-        List<List<LabelledDoc>> docsResutls = new ArrayList<>();
-        if (!user) {
-            type = "full"; //Location"; //READ_PHONE_STATE";
-            //Instances ata = WekaUtils.loadArff();
-            //FilteredClassifier filteredClassifier = WekaUtils.buildClassifier(data);
-            //System.out.println(filteredClassifier.getBatchSize());
-
-            docsResutls.add(wekaUtils.getDocs(pyWorkLoc + "\\output\\gnd\\comp\\" + mark + "\\"
-                    + type));// D:\\workspace\\COSPOS_MINING\\output\\gnd\\" + PERMISSION); //Location");
-            labels.add("T");
-            //labels.add("D");
-            labels.add("F");
-        } else {
-            type = "users"; //READ_PHONE_STATE";
-            for (int i = 0; i < 10; i++) {
-                int user_num = i;
-                mark = Integer.toString(user_num);
-                docsResutls.add(wekaUtils.getUserDocs(pyWorkLoc + "\\output\\gnd\\" + type + "\\" + user_num)); //Location");
-            }
-            labels = new ArrayList<>();
-            labels.add("T");
-            labels.add("F");
-        }
-
-        Map<Integer, Double> fmeasures = new HashMap<>();
-        for (int i = 0; i < docsResutls.size(); i++) {
-            List<LabelledDoc> labelledDocs = docsResutls.get(i);
-            Instances instances = docs2Instances(labelledDocs, labels);
-            if (instances.numInstances() < 10) {
-                continue;
-            }
-            //for (Instance instance : instances) {
-            // System.out.println(instance.classAttribute());
-            // System.out.println(instance);
-            // }
-
-            StringToWordVector stringToWordVector = getWordFilter(instances, false);
-
-            instances = Filter.useFilter(instances, stringToWordVector);
-            AttributeSelection attributeSelection = null;
-
-            if (attriSel) {
-                attributeSelection = getAttributeSelector(instances, attNum);
-                instances = attributeSelection.reduceDimensionality(instances);
-            }
-
-            createArff(instances, type + "_" + mark + ".arff");
-        /*PrintWriter out = new PrintWriter(PERMISSION + "_" + mark + ".arff");
-        out.print(instances.toString());
-        out.close();*/
-            weka.core.SerializationHelper.write(type + "_" + mark + ".filter", stringToWordVector);
-            if (!user && smote) {
-                instances = WekaUtils.overSampling(instances, smoteClass, smotePercent); //250);
-                System.out.println(instances.numInstances());
-                //instances = WekaUtils.overSampling(instances, "2", 150);
-                //System.out.println(instances.numInstances());
-
-                WekaUtils.createArff(instances, type + "_" + mark + "_smote.arff");
-            }
-
-
-            // Evaluate classifier and print some statistics
-            Classifier classifier = buildClassifier(instances, type, true);
-
-            try {
-                fmeasures.put(i, crossValidation(instances, classifier, 5));
-            } catch (Exception e) {
-                e.printStackTrace();
-            }
-
-            boolean prediction = false;
-
-            if (prediction) {
-                List<LabelledDoc> labelledTestDocs = wekaUtils.getDocs("data/test");
-                Instances testInstances = docs2Instances(labelledTestDocs, labels);
-
-                testInstances = Filter.useFilter(testInstances, stringToWordVector);
-                if (attriSel) {
-                    testInstances = attributeSelection.reduceDimensionality(testInstances);
-                }
-                // Evaluate classifier and print some statistics
-                Evaluation eval = new Evaluation(instances);
-                eval.evaluateModel(classifier, testInstances);
-                System.out.println(eval.toSummaryString("\nResults\n======\n", false));
-                System.out.println(eval.toClassDetailsString());
-                System.out.println(eval.toMatrixString());
-
-                List<String> unlabelledDocs = new ArrayList<>();
-                unlabelledDocs.add("xx haha lulu");
-                predict(unlabelledDocs, stringToWordVector, classifier, instances.classAttribute());
-            }
-            // save2Arff(instances, "data_bag");
-            // save2Arff(testInstances, "test_bag");
-        }
-
-
-    }
-
-
-    public static void main(String[] args) throws Exception {
-        //eval1();
+    public static void eval2() throws Exception {
 
         UpdateableClassifier classifier = (UpdateableClassifier) loadClassifier(new File("full.model"));
         StringToWordVector stringToWordVector = loadStr2WordVec(new File("full_location.filter"));
@@ -845,8 +708,294 @@ public class WekaUtils {
         }
         // save2Arff(instances, "data_bag");
         // save2Arff(testInstances, "test_bag");
+    }
+
+    public static void eval1() throws Exception {
+        boolean user = false;
+        List<String> labels = new ArrayList<>();
+        String type;
+        WekaUtils wekaUtils = new WekaUtils();
+        String mark = "RECORD_AUDIO";//Location";//RECORD_AUDIO";/";//Camera"; //READ_PHONE_STATE";//SEND_SMS";//BLUETOOTH";//Location";//";//NFC"; //";//"; Camera"; //"; //"; //Location"; //; ";//Location"; //"; //"; //SEND_SMS";
+        String pyWorkLoc = "D:\\workspace\\COSPOS_MINING";
+        boolean smote = false;
+        boolean attriSel = true;
+        int attNum = 500;
+        String smoteClass = "1";
+        int smotePercent = 230;
+        if (mark.startsWith("Camera")) {
+            smote = true;
+            smoteClass = "2";
+            smotePercent = 130;
+        } else if (mark.startsWith("REA")) {
+            smote = true;
+            smoteClass = "1";
+            smotePercent = 230;
+            attriSel = true;
+            attNum = 100;
+        } else if (mark.startsWith("SEN")) {
+            smote = true;
+            smoteClass = "1";
+            smotePercent = 830;
+            attriSel = true;
+        } else if (mark.startsWith("Location")) {
+            //smote = true;
+            //smoteClass = "1";
+            //smotePercent = 130;
+            attriSel = false;
+        } else if (mark.startsWith("REC")) {
+            //smote = true;
+            //smoteClass = "1";
+            //smotePercent = 80;
+            //attriSel = false;
+            attNum = 500;
+        }
 
 
+        List<List<LabelledDoc>> docsResutls = new ArrayList<>();
+        if (!user) {
+            type = "full";
+            //Instances ata = WekaUtils.loadArff();
+            //FilteredClassifier filteredClassifier = WekaUtils.buildClassifier(data);
+            //System.out.println(filteredClassifier.getBatchSize());
+
+            docsResutls.add(wekaUtils.getDocs(pyWorkLoc + "\\output\\gnd\\comp\\" + mark + "\\"
+                    + type));// D:\\workspace\\COSPOS_MINING\\output\\gnd\\" + PERMISSION); //Location");
+            labels.add("T");
+            //labels.add("D");
+            labels.add("F");
+        } else {
+            type = "users"; //READ_PHONE_STATE";
+            for (int i = 0; i < 10; i++) {
+                int user_num = i;
+                mark = Integer.toString(user_num);
+                docsResutls.add(wekaUtils.getUserDocs(pyWorkLoc + "\\output\\gnd\\" + type + "\\" + user_num)); //Location");
+            }
+            labels = new ArrayList<>();
+            labels.add("T");
+            labels.add("F");
+        }
+
+        Map<Integer, Double> fmeasures = new HashMap<>();
+        for (int i = 0; i < docsResutls.size(); i++) {
+            List<LabelledDoc> labelledDocs = docsResutls.get(i);
+            Instances instances = docs2Instances(labelledDocs, labels);
+            if (instances.numInstances() < 10) {
+                continue;
+            }
+            //for (Instance instance : instances) {
+            // System.out.println(instance.classAttribute());
+            // System.out.println(instance);
+            // }
+
+            StringToWordVector stringToWordVector = getWordFilter(instances, false);
+
+            instances = Filter.useFilter(instances, stringToWordVector);
+            AttributeSelection attributeSelection = null;
+
+            if (attriSel) {
+                attributeSelection = getAttributeSelector(instances, attNum);
+                instances = attributeSelection.reduceDimensionality(instances);
+            }
+
+            createArff(instances, type + "_" + mark + ".arff");
+        /*PrintWriter out = new PrintWriter(PERMISSION + "_" + mark + ".arff");
+        out.print(instances.toString());
+        out.close();*/
+            weka.core.SerializationHelper.write(type + "_" + mark + ".filter", stringToWordVector);
+            if (!user && smote) {
+                instances = WekaUtils.overSampling(instances, smoteClass, smotePercent); //250);
+                System.out.println(instances.numInstances());
+                //instances = WekaUtils.overSampling(instances, "2", 150);
+                //System.out.println(instances.numInstances());
+
+                WekaUtils.createArff(instances, type + "_" + mark + "_smote.arff");
+            }
+
+
+            // Evaluate classifier and print some statistics
+            Classifier classifier = buildClassifier(instances, type + "_" + mark, true);
+
+            try {
+                fmeasures.put(i, crossValidation(instances, classifier, 5));
+            } catch (Exception e) {
+                e.printStackTrace();
+            }
+
+            boolean prediction = true;
+
+            if (prediction) {
+                List<LabelledDoc> labelledTestDocs = wekaUtils.getDocs("data/test");
+                Instances testInstances = docs2Instances(labelledTestDocs, labels);
+
+                testInstances = Filter.useFilter(testInstances, stringToWordVector);
+                if (attriSel) {
+                    testInstances = attributeSelection.reduceDimensionality(testInstances);
+                }
+                // Evaluate classifier and print some statistics
+                Evaluation eval = new Evaluation(instances);
+                eval.evaluateModel(classifier, testInstances);
+                System.out.println(eval.toSummaryString("\nResults\n======\n", false));
+                System.out.println(eval.toClassDetailsString());
+                System.out.println(eval.toMatrixString());
+
+                List<String> unlabelledDocs = new ArrayList<>();
+                unlabelledDocs.add("ancisco;4:45 AM PDT;Severe Weather Alert;;Severe Weather Alert;;Severe Weather Alert;;More;Rain;73°;57°;60°;;;New York;7:45 AM EDT;Severe Weather Alert;;Severe Weather Alert;;Severe Weather Alert;;More;Sign in;Edit Locations;;Open;Free;San Francisco;;Open;Free;New York;;Open;Free;Tools;Settings;;Open;Free;Send feedback;;Open;Free;Share this app;;Open;Free;Rate this app;;Open;Free;Terms and Privacy");
+                predict(unlabelledDocs, stringToWordVector, classifier, instances.classAttribute());
+            }
+            // save2Arff(instances, "data_bag");
+            // save2Arff(testInstances, "test_bag");
+        }
+    }
+
+    public static void eval3() throws Exception {
+        boolean user = false;
+        List<String> labels = new ArrayList<>();
+        String type;
+        WekaUtils wekaUtils = new WekaUtils();
+        String mark = "SEND_SMS";//Location";//RECORD_AUDIO";/";//Camera"; //READ_PHONE_STATE";//SEND_SMS";//BLUETOOTH";//Location";//";//NFC"; //";//"; Camera"; //"; //"; //Location"; //; ";//Location"; //"; //"; //SEND_SMS";
+        String pyWorkLoc = "D:\\workspace\\COSPOS_MINING";
+        boolean smote = false;
+        boolean attriSel = false;
+        int attNum = 500;
+        String smoteClass = "1";
+        int smotePercent = 230;
+        if (mark.startsWith("Camera")) {
+            smote = true;
+            smoteClass = "2";
+            smotePercent = 130;
+        } else if (mark.startsWith("REA")) {
+            smote = true;
+            smoteClass = "1";
+            smotePercent = 230;
+            attriSel = true;
+            attNum = 100;
+        } else if (mark.startsWith("SEN")) {
+            smote = true;
+            smoteClass = "1";
+            smotePercent = 830;
+            //attriSel = true;
+        } else if (mark.startsWith("Location")) {
+            //smote = true;
+            //smoteClass = "1";
+            //smotePercent = 130;
+            attriSel = false;
+        } else if (mark.startsWith("REC")) {
+            //smote = true;
+            //smoteClass = "1";
+            //smotePercent = 80;
+            //attriSel = false;
+            attNum = 500;
+        }
+
+
+        List<List<LabelledDoc>> docsResutls = new ArrayList<>();
+        if (!user) {
+            type = "full";
+            //Instances ata = WekaUtils.loadArff();
+            //FilteredClassifier filteredClassifier = WekaUtils.buildClassifier(data);
+            //System.out.println(filteredClassifier.getBatchSize());
+
+            docsResutls.add(wekaUtils.getDocs(pyWorkLoc + "\\output\\gnd\\comp\\" + mark + "\\"
+                    + type));// D:\\workspace\\COSPOS_MINING\\output\\gnd\\" + PERMISSION); //Location");
+            labels.add("T");
+            //labels.add("D");
+            labels.add("F");
+        } else {
+            type = "users"; //READ_PHONE_STATE";
+            for (int i = 0; i < 10; i++) {
+                int user_num = i;
+                mark = Integer.toString(user_num);
+                docsResutls.add(wekaUtils.getUserDocs(pyWorkLoc + "\\output\\gnd\\" + type + "\\" + user_num)); //Location");
+            }
+            labels = new ArrayList<>();
+            labels.add("T");
+            labels.add("F");
+        }
+
+        Map<Integer, Double> fmeasures = new HashMap<>();
+        for (int i = 0; i < docsResutls.size(); i++) {
+            List<LabelledDoc> labelledDocs = docsResutls.get(i);
+            Instances instances = docs2Instances(labelledDocs, labels);
+            if (instances.numInstances() < 10) {
+                continue;
+            }
+            //for (Instance instance : instances) {
+            // System.out.println(instance.classAttribute());
+            // System.out.println(instance);
+            // }
+
+            StringToWordVector stringToWordVector = getWordFilter(instances, false);
+
+            instances = Filter.useFilter(instances, stringToWordVector);
+            AttributeSelection attributeSelection = null;
+
+            if (attriSel) {
+                attributeSelection = getAttributeSelector(instances, attNum);
+                instances = attributeSelection.reduceDimensionality(instances);
+            }
+
+            createArff(instances, type + "_" + mark + ".arff");
+        /*PrintWriter out = new PrintWriter(PERMISSION + "_" + mark + ".arff");
+        out.print(instances.toString());
+        out.close();*/
+            weka.core.SerializationHelper.write(type + "_" + mark + ".filter", stringToWordVector);
+            if (!user && smote) {
+                instances = WekaUtils.overSampling(instances, smoteClass, smotePercent); //250);
+                System.out.println(instances.numInstances());
+                //instances = WekaUtils.overSampling(instances, "2", 150);
+                //System.out.println(instances.numInstances());
+
+                WekaUtils.createArff(instances, type + "_" + mark + "_smote.arff");
+            }
+
+
+            // Evaluate classifier and print some statistics
+            Classifier classifier = buildClassifier(instances, type + "_" + mark, true);
+
+            try {
+                fmeasures.put(i, crossValidation(instances, classifier, 5));
+            } catch (Exception e) {
+                e.printStackTrace();
+            }
+
+            boolean prediction = true;
+
+            if (prediction) {
+                List<LabelledDoc> labelledTestDocs = wekaUtils.getDocs("data/test");
+                Instances testInstances = docs2Instances(labelledTestDocs, labels);
+
+                testInstances = Filter.useFilter(testInstances, stringToWordVector);
+                if (attriSel) {
+                    testInstances = attributeSelection.reduceDimensionality(testInstances);
+                }
+                // Evaluate classifier and print some statistics
+                Evaluation eval = new Evaluation(instances);
+                eval.evaluateModel(classifier, testInstances);
+                System.out.println(eval.toSummaryString("\nResults\n======\n", false));
+                System.out.println(eval.toClassDetailsString());
+                System.out.println(eval.toMatrixString());
+
+                List<String> unlabelledDocs = new ArrayList<>();
+                unlabelledDocs.add("ancisco;4:45 AM PDT;Severe Weather Alert;;Severe Weather Alert;;Severe Weather Alert;;More;Rain;73°;57°;60°;;;New York;7:45 AM EDT;Severe Weather Alert;;Severe Weather Alert;;Severe Weather Alert;;More;Sign in;Edit Locations;;Open;Free;San Francisco;;Open;Free;New York;;Open;Free;Tools;Settings;;Open;Free;Send feedback;;Open;Free;Share this app;;Open;Free;Rate this app;;Open;Free;Terms and Privacy");
+                predict(unlabelledDocs, stringToWordVector, classifier, instances.classAttribute());
+            }
+            // save2Arff(instances, "data_bag");
+            // save2Arff(testInstances, "test_bag");
+        }
+    }
+
+
+    public static void main(String[] args) throws Exception {
+        eval3();
+
+        FileInputStream fileInputStream = new FileInputStream(new File("full_Location.model"));
+        Classifier classifier = (Classifier) SerializationHelper.read(fileInputStream);
+        fileInputStream = new FileInputStream(new File("full_Location.filter"));
+        StringToWordVector stringToWordVector = loadStr2WordVec(fileInputStream);
+
+        List<String> unlabelledDocs = new ArrayList<>();
+        unlabelledDocs.add("Severe Weather Alert;;Severe Weather Alert;;More;Rain;73°;57°;60°;;;New York;7:45 AM EDT;Severe Weather Alert;;Severe Weather Alert;;Severe Weather Alert;;More;Sign in;Edit Locations;;Open;Free;San Francisco;;Open;Free;New York;;");
+        predict(unlabelledDocs, stringToWordVector, classifier, null);
     }
 
 
